@@ -2,9 +2,9 @@
 
 This mod has two readmes and a reference table:
 
-HWR_HWClassicEnhanced_Readme.txt<br>
-HWR_HWClassicMaps_Readme.txt<br>
-HWR_HWClassicMaps_Reference.html
+* [HWR_HWClassicEnhanced_Readme.txt](HWR_HWClassicEnhanced_Readme.txt)
+* [HWR_HWClassicMaps_Readme.txt](HWR_HWClassicMaps_Readme.txt)
+* [HWR_HWClassicMaps_Reference.html](HWR_HWClassicMaps_Reference.html)
 
 You will also need to download the level thumbnails from here:
 
