@@ -1,3 +1,3 @@
-Due to file size restrictions, the level thumbnails for this mod are not included with this repository.
+Due to file size restrictions on GitHub, the level thumbnails for this mod are not included in this repository.
 
-I will update this file once I have uploaded the thumbnails to cloud storage.
+A download link for the level thumbnails is provided in README.md.
