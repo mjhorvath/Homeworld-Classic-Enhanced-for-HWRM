@@ -1,0 +1,43 @@
+; MissionMan script, Wednesday, Oct 20 1999, 3:33:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Derelict    Scaffold,0.0,-4000.0,0.0,0.0,90.0,0,?,7
+Derelict    Scaffold,0.0,4000.0,0.0,0.0,-90.0,0,?,7
+Derelict    Scaffold,-4000.0,0.0,0.0,0.0,0.0,0,?,7
+Derelict    Scaffold,4000.0,0.0,0.0,0.0,-180.0,0,?,7
+Resources    Asteroid,15500.0,15500.0,-45000.0,Sphere,Asteroid.dist,32,15000.0,120000.0,0.0,0.0,0,?
+Resources    Asteroid,-15500.0,-15500.0,45000.0,Sphere,Asteroid.dist,32,15000.0,120000.0,0.0,0.0,0,?
+Derelict    Carrier,-100.0,-6000.0,-150.0,0.0,90.0,0,?,7
+Derelict    PrisonShipNew,-1390.0,-1450.0,-925.0,90.0,180.0,0,?,7
+Derelict    DDDFrigate,300.0,-5000.0,-150.0,0.0,90.0,0,?,7
+Derelict    HeavyCruiser,800.0,-6000.0,-150.0,0.0,90.0,0,?,7
+Derelict    PrisonShipNew,-1390.0,-1450.0,925.0,-90.0,180.0,0,?,7
+Derelict    PrisonShipNew,1390.0,-1450.0,925.0,-90.0,180.0,0,?,7
+Derelict    PrisonShipNew,1390.0,-1450.0,-925.0,90.0,180.0,0,?,7
+Derelict    PrisonShipNew,-1390.0,1475.0,-925.0,90.0,180.0,0,?,7
+Derelict    PrisonShipNew,-1390.0,1475.0,925.0,-90.0,180.0,0,?,7
+Derelict    PrisonShipNew,1390.0,1475.0,-925.0,90.0,180.0,0,?,7
+Derelict    PrisonShipNew,1390.0,1475.0,925.0,-90.0,180.0,0,?,7
+Resources    Asteroid,4000.0,4000.0,-30000.0,Sphere,Asteroid.dist,16,14000.0,45000.0,0.0,0.0,2048,2
+Resources    Asteroid,-6000.0,-6000.0,30000.0,Sphere,Asteroid.dist,16,14000.0,45000.0,0.0,0.0,2048,2
+Resources    Asteroid,10000.0,30000.0,-20000.0,Sphere,Asteroid.dist,10,10000.0,35000.0,0.0,0.0,?,0
+Resources    Asteroid,-10000.0,-30000.0,20000.0,Sphere,Asteroid.dist,10,10000.0,35000.0,0.0,0.0,?,0
+Resources    Asteroid,-28000.0,-45000.0,13000.0,Sphere,Asteroid.dist,10,7000.0,25000.0,0.0,0.0,?,0
+Resources    Asteroid,28000.0,45000.0,-13000.0,Sphere,Asteroid.dist,10,7000.0,25000.0,0.0,0.0,?,0
+Resources    Asteroid,47000.0,50000.0,-10000.0,Sphere,Asteroid.dist,10,6000.0,20000.0,0.0,0.0,?,0
+Resources    Asteroid,-47000.0,-50000.0,10000.0,Sphere,Asteroid.dist,10,6000.0,20000.0,0.0,0.0,?,0
+Derelict    AdvanceSupportFrigate,-300.0,5500.0,-150.0,0.0,-90.0,0,?,7
+Derelict    IonCannonFrigate,100.0,5500.0,-150.0,0.0,-90.0,0,?,7
+Derelict    StandardFrigate,-700.0,5500.0,-150.0,0.0,-90.0,0,?,7
+Resources    Asteroid,-15500.0,-15500.0,-45000.0,Sphere,Asteroid.dist,32,15000.0,120000.0,0.0,0.0,0,?
+Resources    Asteroid,15500.0,15500.0,45000.0,Sphere,Asteroid.dist,32,15000.0,120000.0,0.0,0.0,0,?
+Resources    Asteroid,-4000.0,4000.0,60000.0,Sphere,Asteroid.dist,16,14000.0,45000.0,0.0,0.0,2048,2
+Resources    Asteroid,6000.0,-6000.0,-60000.0,Sphere,Asteroid.dist,16,14000.0,45000.0,0.0,0.0,2048,2
+Resources    Asteroid,-30000.0,10000.0,70000.0,Sphere,Asteroid.dist,10,10000.0,35000.0,0.0,0.0,?,0
+Resources    Asteroid,-45000.0,28000.0,76000.0,Sphere,Asteroid.dist,10,7000.0,25000.0,0.0,0.0,?,0
+Resources    Asteroid,-50000.0,47000.0,78000.0,Sphere,Asteroid.dist,10,6000.0,20000.0,0.0,0.0,?,0
+Resources    Asteroid,30000.0,-10000.0,-70000.0,Sphere,Asteroid.dist,10,10000.0,35000.0,0.0,0.0,?,0
+Resources    Asteroid,45000.0,-28000.0,-76000.0,Sphere,Asteroid.dist,10,7000.0,25000.0,0.0,0.0,?,0
+Resources    Asteroid,50000.0,-47000.0,-78000.0,Sphere,Asteroid.dist,10,6000.0,20000.0,0.0,0.0,?,0
+

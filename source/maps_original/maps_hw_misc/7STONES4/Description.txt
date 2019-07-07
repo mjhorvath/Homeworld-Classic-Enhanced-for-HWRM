@@ -1,0 +1,16 @@
+Description	7 Stones (2-4)
+Description	
+Description
+Description
+Description
+Description
+Description
+Description
+Description
+Description
+Description	&f&a&lcon
+Description	2006
+
+Font 		Arial_b12.hff
+Color 		120, 120, 160
+DropShadow 	Yes

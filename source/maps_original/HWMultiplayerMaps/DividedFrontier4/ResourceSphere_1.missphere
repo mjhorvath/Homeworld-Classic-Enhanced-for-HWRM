@@ -1,0 +1,54 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-68250,-76363.6,20000,Sphere,Asteroid.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,68250,-76363.6,-20000,Sphere,Asteroid.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-68250,76363.6,-20000,Sphere,Asteroid.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,68250,76363.6,20000,Sphere,Asteroid.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-68250,-76363.6,20000,Cylinder,Asteroid.dist,28,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,68250,-76363.6,-20000,Cylinder,Asteroid.dist,28,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-68250,76363.6,-20000,Cylinder,Asteroid.dist,28,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,68250,76363.6,20000,Cylinder,Asteroid.dist,28,10038.4,20076.8,0.0,0.0,2048,?
+Resources                  Dustcloud,0,0,10000,Sphere,Dustcloudcenter.dist,14,3500,6225,0.0,0.0,?,?
+Resources                  Dustcloud,0,0,10000,Sphere,Dustcloudcenter.dist,14,10200,22500,0.0,0.0,?,?
+Resources                  Dustcloud,10500,0,-10000,Sphere,Dustcloudcenter.dist,14,3000,20500,0.0,0.0,?,?
+Resources                  Dustcloud,10500,0,-10000,Sphere,Dustcloudcenter.dist,12,10200,22500,0.0,0.0,?,?
+Resources                  Dustcloud,28500,-6900,0,Sphere,Dustcloudcenter.dist,12,10200,22500,0.0,0.0,?,?
+Resources                  Dustcloud,-10500,0,10000,Sphere,Dustcloudcenter.dist,12,10200,22500,0.0,0.0,?,?
+Resources                  Dustcloud,-29500,0,-10000,Sphere,Dustcloudcenter.dist,12,10200,22500,0.0,0.0,?,?
+Resources                        Asteroid,0,0,0,Sphere,Asteroidlen.dist,20,10038.4,20000,0.0,0.0,?,?
+Resources                        Asteroid,15000,0,0,Sphere,Asteroidlen.dist,30,10038.4,20000,0.0,0.0,?,?
+Resources                        Asteroid,30000,0,0,Sphere,Asteroidlen.dist,30,10038.4,20000,0.0,0.0,?,?
+Resources                        Asteroid,41000,0,8500,Sphere,Asteroidlen.dist,30,10038.4,10000,0.0,0.0,?,?
+Resources                        Asteroid,50000,1000,14250,Sphere,Asteroidlen.dist,20,10038.4,25000,0.0,0.0,?,?
+Resources                        Asteroid,55000,10000,13000,Sphere,Asteroidlen.dist,20,10038.4,18000,0.0,0.0,?,?
+Resources                        Asteroid,60000,20000,8000,Sphere,Asteroidlen.dist,20,10038.4,12000,0.0,0.0,?,?
+Resources                        Asteroid,65000,28000,3000,Sphere,Asteroidlen.dist,20,10038.4,16000,0.0,0.0,?,?
+Resources                        Asteroid,75200,30000,0,Sphere,Asteroidlen.dist,20,10038.4,16000,0.0,0.0,?,?
+Resources                        Asteroid,85000,25000,-3000,Sphere,Asteroidlen.dist,20,10038.4,16000,0.0,0.0,?,?
+Resources                        Asteroid,-15000,0,-2000,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-30000,0,-6500,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-41000,0,-9800,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-50000,-1850,-14235,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-55000,-8200,-14235,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-60000,-18500,-10350,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-68000,-22310,-11235,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-72000,-28100,-12500,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                        Asteroid,-83950,-35000,-9200,Sphere,Asteroidlen.dist,20,10000,20000,45.0,0.0,?,?
+Resources                  Dustcloud,73500,28636,-15000,Sphere,Dustcloudside.dist,11,1510.0,3020.0,0.0,1.0,2048,2
+Resources                  Dustcloud,-73500,28636,15000,Sphere,Dustcloudside.dist,11,1510.0,3020.0,0.0,1.0,2048,2
+Resources                  Dustcloud,-73500,-28636,-15000,Sphere,Dustcloudside.dist,11,1510.0,3020.0,0.0,1.0,2048,2
+Resources                  Dustcloud,73500,-28636,15000,Sphere,Dustcloudside.dist,11,1510.0,3020.0,0.0,1.0,2048,2
+Resources                  Dustcloud,73500,28636,-15000,Sphere,Dustcloudside.dist,11,1835.0,3670.0,0.0,0.0,?,?
+Resources                  Dustcloud,-73500,28636,15000,Sphere,Dustcloudside.dist,11,1835.0,3670.0,0.0,0.0,?,?
+Resources                  Dustcloud,-73500,-28636,-15000,Sphere,Dustcloudside.dist,11,1835.0,3670.0,0.0,0.0,?,?
+Resources                  Dustcloud,73500,-28636,15000,Sphere,Dustcloudside.dist,11,1835.0,3670.0,0.0,0.0,?,?
+Resources                  Asteroid,26250,47721.6,0,Sphere,Tinyast.dist,16,3000,9000.8,0.0,0.0,?,?
+Resources                 Asteroid,-44281,28636.9,-2522,Sphere,Tinyast.dist,14,3000,9000,0.0,0.0,?,?
+Resources                 Asteroid,-42250,-42721.6,0,Sphere,Tinyast.dist,16,3000,9000.8,0.0,0.0,?,?
+Resources                 Asteroid,36250,-29721.6,-1450,Sphere,Tinyast.dist,17,3000,9000.8,0.0,0.0,?,?
+
+
+
+

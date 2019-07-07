@@ -1,0 +1,44 @@
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Cloud2
+; Info: big cloud in middle
+
+[The Cloud (2)]
+
+MissionSphere	-1,?,ResourceSphere,0.0,0.0,0.0,0.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere	0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere	1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting	ez12
+Background	ez12, 180, 0
+smDepthCueRadius	50000
+smDepthCueStartRadius	20000
+smCircleBorder	90000
+smZoomMax	568000
+smZoomMin	30000
+smInitialDistance	299000
+smUniverseSizeX	284000
+smUniverseSizeZ	284000
+smUniverseSizeY	284000
+ExcludeShips	P1,All
+ExcludeShips	P2,All
+ExcludeShips	P3,All
+ExcludeShips	Traders,All
+ExcludeGasCloud	All
+ExcludeDerelict	All
+IncludeDerelict	Crate
+IncludeDerelict	ScaffoldFingerA_scarred
+IncludeDerelict	Scaffold
+IncludeDerelict	PrisonShipOld
+IncludeDerelict	Junk2_shipwreck
+IncludeDerelict	Junk2_panelD
+IncludeDerelict	Junk2_panelC
+IncludeDerelict	Junk2_panelB
+IncludeDerelict	Junk1_partA
+IncludeDerelict	Junk0_fin2
+IncludeDerelict	Junk0_fin1
+IncludeDerelict	Junk0_antenna
+IncludeDerelict	FragmentStrut
+IncludeDerelict	FragmentPanel3
+IncludeDerelict	FragmentPanel1
+SongNumber	49

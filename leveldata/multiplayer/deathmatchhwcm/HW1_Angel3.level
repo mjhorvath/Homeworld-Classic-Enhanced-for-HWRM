@@ -1,0 +1,136 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Angel (2-4 Players)",
+	"",
+	"The angels little peace of space !!",
+	"Cool doh.",
+	"",
+	"Settings: Crates off.",
+	"AUTHOR: Liquid (LiquidDAB@hotmail.com)",
+	"VERSION: 1.1 (April 04 2001)",
+}
+
+LevelName = [[Angel (2-6)]]
+LevelFile = [[Angel3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {30000, 500000,}
+UniverseSize = {300000, 300000, 300000, }
+
+LevelBackground = "ez02"
+LevelMusic = "0"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 200000.0, 0.0, -90.0,},
+	{0.0, -200000.0, 0.0, 90.0,},
+	{-200000.0, 0.0, 0.0, 360.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 200000.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -200000.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-200000.0, 0.0, 0.0,}, 2, {0, 0, 360.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	a1 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+	a2 =
+	{
+		dustcloud0 = 4,
+		dustcloud1 = 0,
+		dustcloud2 = 1,
+		dustcloud3 = 0,
+	},
+	a3 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 1,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{7630, 6510, -360,}, "sphere", "a1", 60, 18000, 360000, 0, 0,},
+	{{-2960, 1520, -810,}, "sphere", "a1", 60, 18000, 360000, 0, 0,},
+	{{-3160, 910, -2630,}, "sphere", "a1", 60, 18000, 360000, 0, 0,},
+	{{0, 200000, 0,}, "sphere", "a2", 50, 15000, 30000, 0, 0,},
+	{{0, -200000, 0,}, "sphere", "a2", 50, 15000, 30000, 0, 0,},
+	{{-200000, 0, 0,}, "sphere", "a2", 50, 15000, 30000, 0, 0,},
+	{{0, 100000, 0,}, "sphere", "a1", 60, 10200, 2400, 0, 0,},
+	{{0, -100000, 0,}, "sphere", "a1", 60, 10200, 2400, 0, 0,},
+	{{-100000, 0, 0,}, "sphere", "a1", 60, 10200, 2400, 0, 0,},
+	{{0, 150000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{0, -150000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{-150000, 0, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{0, 50000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{0, -50000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{-50000, 0, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{0, 1750000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{0, -1750000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{-1750000, 0, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{0, 750000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{0, -750000, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+	{{-750000, 0, 0,}, "sphere", "a3", 50, 18000, 2000, 0, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,222 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Talas crossroads is now",
+	"playable 4v4 enjoy",
+	"",
+	"",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  Lagsy@sobanforce.com.com",
+	"",
+}
+
+LevelName = [[Talas Crossroads (4v4)]]
+LevelFile = [[Talas8]]
+SourceGame = "HW1"
+NumberOfPlayers = 8
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez05"
+LevelMusic = "15"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","r1","r1",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-39000.0, -56999.0, 0.0, 45.0,},
+	{-52000.0, 22001.0, 0.0, -15.0,},
+	{-20000.0, 62000.0, 0.0, -60.0,},
+	{-54000.0, -17000.0, 0.0, 15.0,},
+	{55293.0, -18038.0, 0.0, 176.0,},
+	{35000.0, 60000.0, 0.0, -133.0,},
+	{55000.0, 30000.0, 0.0, -150.0,},
+	{36089.0, -55339.0, 0.0, 120.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {35000.0, 60000.0, 0.0,}, 5, {0, 0, -133.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {55293.0, -18038.0, 0.0,}, 4, {0, 0, 176.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-54000.0, -17000.0, 0.0,}, 3, {0, 0, 15.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20000.0, 62000.0, 0.0,}, 2, {0, 0, -60.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-52000.0, 22001.0, 0.0,}, 1, {0, 0, -15.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-39000.0, -56999.0, 0.0,}, 0, {0, 0, 45.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {55000.0, 30000.0, 0.0,}, 6, {0, 0, -150.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {36089.0, -55339.0, 0.0,}, 7, {0, 0, 120.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroidlong =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	asteroidcentre =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-16000.0, -25998.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 46200.0, 0.0, -140.0,},
+	{{15000.0, -2998.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -150.0,},
+	{{46000.0, 6002.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 10.0,},
+	{{-41777.0, -50293.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 25250.0, 0.0, -130.0,},
+	{{-18000.0, 10002.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 46200.0, 0.0, -60.0,},
+	{{-39332.0, 43854.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 34500.0, 0.0, -50.0,},
+	{{-15247.0, -12997.0, 0.0,}, "cylinder", "asteroidlong", 7, 4000.0, 13050.0, 0.0, -100.0,},
+	{{30000.0, -49999.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 31700.0, 0.0, -130.0,},
+	{{21703.0, -74850.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 28500.0, 0.0, -80.0,},
+	{{50926.0, -25740.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 31700.0, 0.0, -130.0,},
+	{{58701.0, -3928.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 25600.0, 0.0, -90.0,},
+	{{-5833.0, 22093.0, -3.0,}, "cylinder", "asteroidlong", 27, 4000.0, 37850.0, 0.0, 80.0,},
+	{{-35000.0, -44997.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -100.0,},
+	{{-28000.0, -43997.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -110.0,},
+	{{-37999.0, 23003.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -20.0,},
+	{{-38000.0, 29002.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -50.0,},
+	{{48823.0, -25586.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -133.0,},
+	{{56375.0, -7905.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -97.0,},
+	{{0.0, -8000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dustcloudcentre", 7, 4000.0, 8000.0, 0.0, 0.0,},
+	{{14000.0, 14000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{-20000.0, 47484.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -100.0,},
+	{{-15000.0, 47483.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -110.0,},
+	{{-7128.0, 60094.0, -3.0,}, "cylinder", "asteroidlong", 27, 4000.0, 37850.0, 0.0, -80.0,},
+	{{9752.0, -16997.0, 0.0,}, "cylinder", "asteroidlong", 7, 4000.0, 13050.0, 0.0, -140.0,},
+	{{-61742.0, 70235.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 34500.0, 0.0, -50.0,},
+	{{-83902.0, 96319.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 34500.0, 0.0, -50.0,},
+	{{-105831.0, 122404.0, 0.0,}, "cylinder", "asteroidlong", 22, 4000.0, 34500.0, 0.0, -50.0,},
+	{{-13671.0, 98040.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 37850.0, 0.0, -80.0,},
+	{{-20323.0, 135858.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 37850.0, 0.0, -80.0,},
+	{{-27354.0, 173295.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 37850.0, 0.0, -80.0,},
+	{{-33625.0, 210923.0, 0.0,}, "cylinder", "asteroidlong", 22, 4000.0, 37850.0, 0.0, -80.0,},
+	{{77547.0, 11953.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 10.0,},
+	{{108714.0, 18034.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 10.0,},
+	{{140450.0, 23735.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 10.0,},
+	{{172105.0, 29552.0, 0.0,}, "cylinder", "asteroidlong", 22, 4000.0, 31700.0, 0.0, 10.0,},
+	{{28245.0, -103834.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -73.0,},
+	{{37928.0, -133673.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -73.0,},
+	{{47809.0, -163710.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -73.0,},
+	{{57528.0, -193933.0, 0.0,}, "cylinder", "asteroidlong", 22, 4000.0, 31700.0, 0.0, -73.0,},
+	{{-57655.0, -73647.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -120.0,},
+	{{-73570.0, -102126.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -116.0,},
+	{{-87530.0, -131162.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -116.0,},
+	{{-99535.0, -160757.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -109.0,},
+	{{52920.0, 26466.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 25600.0, 0.0, -68.0,},
+	{{40030.0, 52892.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 31700.0, 0.0, -62.0,},
+	{{24561.0, 81573.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 31700.0, 0.0, -61.0,},
+	{{7159.0, 108643.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 31700.0, 0.0, -51.0,},
+	{{-12499.0, 131524.0, 0.0,}, "cylinder", "asteroidlong", 15, 4000.0, 25600.0, 0.0, -56.0,},
+	{{-44113.7, -21004.8, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -110.0,},
+	{{-48129.0, -9576.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -40.0,},
+	{{-39919.0, -8668.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 46200.0, 0.0, -140.0,},
+	{{-67255.0, -27336.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 25250.0, 0.0, 20.0,},
+	{{-92000.0, -34000.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 10.0,},
+	{{-122595.0, -39338.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 5.0,},
+	{{-153000.0, -39000.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -10.0,},
+	{{25421.3, 59339.8, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -32.0,},
+	{{29421.7, 68674.1, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -97.0,},
+	{{48090.4, 25336.1, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -32.0,},
+	{{46756.9, 35337.2, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -97.0,},
+	{{40089.5, -44004.8, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 40.0,},
+	{{28755.0, -57339.6, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, -77.0,},
+	{{9419.5, -26002.8, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -73.0,},
+	{{20000.0, -50000.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -50.0,},
+	{{42000.0, -65000.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -20.0,},
+	{{73426.0, -72675.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 0.0,},
+	{{102000.0, -71000.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, 5.0,},
+	{{132766.0, -74008.0, 0.0,}, "cylinder", "asteroidlong", 27, 4000.0, 31700.0, 0.0, -10.0,},
+	{{14000.0, 0.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{14000.0, -28000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{14000.0, -14000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{-14000.0, -28000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{-14000.0, -14000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{-14000.0, 0.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{-14000.0, 14000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 1835.0, 3670.0, 0.0, -40.0,},
+	{{-3000.0, -20000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 4500.0, 9000.0, 0.0, 0.0,},
+	{{3000.0, 10000.0, 0.0,}, "sphere", "dustcloudcentre", 7, 4500.0, 9000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

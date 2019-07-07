@@ -1,0 +1,113 @@
+; MissionMan script, Tuesday, Mar 20 2001, 5:31:35 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources      Asteroid,-94250,0,0,Cylinder,wave.dist,10,2000,2000,31,58.9,0,?
+Resources      Asteroid,-89540,7822,-4693,Cylinder,wave.dist,60,2000,15000,31,58.6,0,?
+Resources      Asteroid,-84820,15450,-9271,Cylinder,wave.dist,30,2000,8000,31,57.6,0,?
+Resources      Asteroid,-80110,22700,-13620,Cylinder,wave.dist,30,2000,8000,31,55.9,0,?
+Resources      Asteroid,-75400,29390,-17630,Cylinder,wave.dist,30,2000,8000,31,53.3,0,?
+Resources      Asteroid,-70690,35360,-21210,Cylinder,wave.dist,30,2000,8000,31,49.4,0,?
+Resources      Asteroid,-65970,40450,-24270,Cylinder,wave.dist,30,2000,8000,31,44.1,0,?
+Resources      Asteroid,-61260,44550,-26730,Cylinder,wave.dist,30,2000,8000,31,36.8,0,?
+Resources      Asteroid,-56550,47550,-28530,Cylinder,wave.dist,30,2000,8000,31,26.9,0,?
+Resources      Asteroid,-51840,49380,-29630,Cylinder,wave.dist,30,2000,8000,31,14.4,0,?
+Resources      Asteroid,-47120,50000,-30000,Cylinder,wave.dist,30,2000,8000,0,0,0,?
+Resources      Asteroid,-42410,49380,-29630,Cylinder,wave.dist,30,2000,8000,-31,-14.4,0,?
+Resources      Asteroid,-37700,47550,-28530,Cylinder,wave.dist,30,2000,8000,-31,-26.9,0,?
+Resources      Asteroid,-32990,44550,-26730,Cylinder,wave.dist,30,2000,8000,-31,-36.7,0,?
+Resources      Asteroid,-28270,40450,-24270,Cylinder,wave.dist,30,2000,8000,-31,-44.1,0,?
+Resources      Asteroid,-23560,35360,-21210,Cylinder,wave.dist,30,2000,8000,-31,-49.5,0,?
+Resources      Asteroid,-18850,29390,-17630,Cylinder,wave.dist,30,2000,8000,-31,-53.3,0,?
+Resources      Asteroid,-14140,22700,-13620,Cylinder,wave.dist,30,2000,8000,-31,-55.9,0,?
+Resources      Asteroid,-9425,15450,-9271,Cylinder,wave.dist,30,2000,8000,-31,-57.6,0,?
+Resources      Asteroid,-4712,7822,-4693,Cylinder,wave.dist,30,2000,8000,-31,-58.6,0,?
+Resources      Asteroid,0,0,0,Cylinder,wave.dist,30,2000,8000,-31,-58.9,0,?
+Resources      Asteroid,4712,-7822,4693,Cylinder,wave.dist,30,2000,8000,-31,-58.6,0,?
+Resources      Asteroid,9425,-15450,9271,Cylinder,wave.dist,30,2000,8000,-31,-57.6,0,?
+Resources      Asteroid,14140,-22700,13620,Cylinder,wave.dist,30,2000,8000,-31,-55.9,0,?
+Resources      Asteroid,18850,-29390,17630,Cylinder,wave.dist,30,2000,8000,-31,-53.3,0,?
+Resources      Asteroid,23560,-35360,21210,Cylinder,wave.dist,30,2000,8000,-31,-49.5,0,?
+Resources      Asteroid,28270,-40450,24270,Cylinder,wave.dist,30,2000,8000,-31,-44.1,0,?
+Resources      Asteroid,32990,-44550,26730,Cylinder,wave.dist,30,2000,8000,-31,-36.7,0,?
+Resources      Asteroid,37700,-47550,28530,Cylinder,wave.dist,30,2000,8000,-31,-26.9,0,?
+Resources      Asteroid,42410,-49380,29630,Cylinder,wave.dist,30,2000,8000,-31,-14.4,0,?
+Resources      Asteroid,47120,-50000,30000,Cylinder,wave.dist,30,2000,2000,0,0,0,?
+Resources      Asteroid,51840,-49380,29630,Cylinder,wave.dist,30,2000,8000,31,14.4,0,?
+Resources      Asteroid,56550,-47550,28530,Cylinder,wave.dist,30,2000,8000,31,26.9,0,?
+Resources      Asteroid,61260,-44550,26730,Cylinder,wave.dist,30,2000,8000,31,36.8,0,?
+Resources      Asteroid,65970,-40450,24270,Cylinder,wave.dist,30,2000,8000,31,44.1,0,?
+Resources      Asteroid,70690,-35360,21210,Cylinder,wave.dist,30,2000,8000,31,49.4,0,?
+Resources      Asteroid,75400,-29390,17630,Cylinder,wave.dist,30,2000,8000,31,53.3,0,?
+Resources      Asteroid,80110,-22700,13620,Cylinder,wave.dist,30,2000,8000,31,55.9,0,?
+Resources      Asteroid,84820,-15450,9271,Cylinder,wave.dist,30,2000,8000,31,57.6,0,?
+Resources      Asteroid,89540,-7822,4693,Cylinder,wave.dist,60,2000,15000,31,58.6,0,?
+Resources      Asteroid,94250,0,0,Cylinder,wave.dist,10,2000,2000,31,58.9,0,?
+
+Resources      Asteroid,-94250,0,0,Cylinder,wave.dist,10,2000,2000,31,-58.9,0,?
+Resources      Asteroid,-89540,-7822,-4693,Cylinder,wave.dist,60,2000,15000,31,-58.6,0,?
+Resources      Asteroid,-84820,-15450,-9271,Cylinder,wave.dist,30,2000,8000,31,-57.6,0,?
+Resources      Asteroid,-80110,-22700,-13620,Cylinder,wave.dist,30,2000,8000,31,-55.9,0,?
+Resources      Asteroid,-75400,-29390,-17630,Cylinder,wave.dist,30,2000,8000,31,-53.3,0,?
+Resources      Asteroid,-70690,-35360,-21210,Cylinder,wave.dist,30,2000,8000,31,-49.4,0,?
+Resources      Asteroid,-65970,-40450,-24270,Cylinder,wave.dist,30,2000,8000,31,-44.1,0,?
+Resources      Asteroid,-61260,-44550,-26730,Cylinder,wave.dist,30,2000,8000,31,-36.8,0,?
+Resources      Asteroid,-56550,-47550,-28530,Cylinder,wave.dist,30,2000,8000,31,-26.9,0,?
+Resources      Asteroid,-51840,-49380,-29630,Cylinder,wave.dist,30,2000,8000,31,-14.4,0,?
+Resources      Asteroid,-47120,-50000,-30000,Cylinder,wave.dist,30,2000,8000,0,0,0,?
+Resources      Asteroid,-42410,-49380,-29630,Cylinder,wave.dist,30,2000,8000,-31,14.4,0,?
+Resources      Asteroid,-37700,-47550,-28530,Cylinder,wave.dist,30,2000,8000,-31,26.9,0,?
+Resources      Asteroid,-32990,-44550,-26730,Cylinder,wave.dist,30,2000,8000,-31,36.7,0,?
+Resources      Asteroid,-28270,-40450,-24270,Cylinder,wave.dist,30,2000,8000,-31,44.1,0,?
+Resources      Asteroid,-23560,-35360,-21210,Cylinder,wave.dist,30,2000,8000,-31,49.5,0,?
+Resources      Asteroid,-18850,-29390,-17630,Cylinder,wave.dist,30,2000,8000,-31,53.3,0,?
+Resources      Asteroid,-14140,-22700,-13620,Cylinder,wave.dist,30,2000,8000,-31,55.9,0,?
+Resources      Asteroid,-9425,-15450,-9271,Cylinder,wave.dist,30,2000,8000,-31,57.6,0,?
+Resources      Asteroid,-4712,-7822,-4693,Cylinder,wave.dist,30,2000,8000,-31,58.6,0,?
+Resources      Asteroid,0,0,0,Cylinder,wave.dist,30,2000,8000,-31,58.9,0,?
+Resources      Asteroid,4712,7822,4693,Cylinder,wave.dist,30,2000,8000,-31,58.6,0,?
+Resources      Asteroid,9425,15450,9271,Cylinder,wave.dist,30,2000,8000,-31,57.6,0,?
+Resources      Asteroid,14140,22700,13620,Cylinder,wave.dist,30,2000,8000,-31,55.9,0,?
+Resources      Asteroid,18850,29390,17630,Cylinder,wave.dist,30,2000,8000,-31,53.3,0,?
+Resources      Asteroid,23560,35360,21210,Cylinder,wave.dist,30,2000,8000,-31,49.5,0,?
+Resources      Asteroid,28270,40450,24270,Cylinder,wave.dist,30,2000,8000,-31,44.1,0,?
+Resources      Asteroid,32990,44550,26730,Cylinder,wave.dist,30,2000,8000,-31,36.7,0,?
+Resources      Asteroid,37700,47550,28530,Cylinder,wave.dist,30,2000,8000,-31,26.9,0,?
+Resources      Asteroid,42410,49380,29630,Cylinder,wave.dist,30,2000,8000,-31,14.4,0,?
+Resources      Asteroid,47120,50000,30000,Cylinder,wave.dist,30,2000,8000,0,0,0,?
+Resources      Asteroid,51840,49380,29630,Cylinder,wave.dist,30,2000,8000,31,-14.4,0,?
+Resources      Asteroid,56550,47550,28530,Cylinder,wave.dist,30,2000,8000,31,-26.9,0,?
+Resources      Asteroid,61260,44550,26730,Cylinder,wave.dist,30,2000,8000,31,-36.8,0,?
+Resources      Asteroid,65970,40450,24270,Cylinder,wave.dist,30,2000,8000,31,-44.1,0,?
+Resources      Asteroid,70690,35360,21210,Cylinder,wave.dist,30,2000,8000,31,-49.4,0,?
+Resources      Asteroid,75400,29390,17630,Cylinder,wave.dist,30,2000,8000,31,-53.3,0,?
+Resources      Asteroid,80110,22700,13620,Cylinder,wave.dist,30,2000,8000,31,-55.9,0,?
+Resources      Asteroid,84820,15450,9271,Cylinder,wave.dist,30,2000,8000,31,-57.6,0,?
+Resources      Asteroid,89540,7822,4693,Cylinder,wave.dist,60,2000,15000,31,-58.6,0,?
+Resources      Asteroid,94250,0,0,Cylinder,wave.dist,10,2000,2000,31,-58.8,0,?
+
+
+Ships     ,0,0,5000,180.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,-5000,180.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,-15000,180.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,15000,180.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,-25000,180.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,25000,180.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+Slipgate    ,-96000,0,0.0,1/2,-180.0,dSlipgateLarge
+Slipgate    ,96000,0,0,2/2,0.0,dSlipgateLarge
+Slipgate    ,-50000.0,-75000.0,-30000,1/2,0.0,dSlipgateLarge
+Slipgate    ,-4000,-4000,0,2/2,-180.0,dSlipgateLarge
+Slipgate    ,-50000,75000.0,-30000,1/2,-90.0,dSlipgateLarge
+Slipgate    ,-4000,4000.0,0,2/2,90.0,dSlipgateLarge
+Slipgate    ,50000,75000.0,30000,1/2,90.0,dSlipgateLarge
+Slipgate    ,4000,4000,0,2/2,-90.0,dSlipgateLarge
+Slipgate    ,50000,-75000,30000,1/2,90.0,dSlipgateLarge
+Slipgate    ,4000,-4000,0,2/2,-90.0,dSlipgateLarge
+
+
+Resources       Asteroid,-57000,-57000,-30000,Cylinder,type3.dist,5,2000,2000,0,0,0,?
+Resources       Asteroid,57000,57000,30000,Cylinder,type3.dist,5,2000,2000,0,0,0,?
+Resources       Asteroid,57000,-57000,30000,Cylinder,type3.dist,5,2000,2000,0,0,0,?
+Resources       Asteroid,-57000,57000,-30000,Cylinder,type3.dist,5,2000,2000,0,0,0,?
+

@@ -1,0 +1,34 @@
+; MissionMan script, domingo, abr 2 2000, 2:00:14 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+Resources    Asteroid,-8000.0,0.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,-8000.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-8000.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,-8000.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,0.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,8000.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,8000.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,8000.0,0.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,0.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,-8000.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-8000.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,-8000.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,0.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,8000.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,8000.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,8000.0,-8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,0.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,-8000.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-8000.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,-8000.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,0.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,8000.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,8000.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,8000.0,8000.0,Sphere,Asteroid.dist,8,4000.0,8000.0,0.0,0.0,0,?
+Resources    DustCloud,0.0,0.0,0.0,Cylinder,DustCloud.dist,10,1000.0,175000.0,-10.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidScattered.dist,50,50000.0,20000.0,90.0,180.0,0,?
+Resources    Asteroid,-85.0,1320.0,0.0,Cylinder,AsteroidScattered.dist,50,25000.0,1000.0,90.0,180.0,0,?

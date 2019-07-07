@@ -1,0 +1,38 @@
+; MissionMan script, Monday, Sep 18 2000, 7:10:24 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: RACE_SECT,sMothership
+
+Ships     ,-100000.0,-20000.0,20000.0,180.0,RACE_SECT,sMothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,-15000.0,0.0,1000.0,0.0,RACE_SECT,sWorker,2,PARADE_FORMATION|?|?,0,?
+Ships     ,-15000.0,0.0,1000.0,0.0,RACE_SECT,sRecon,3,PARADE_FORMATION|?|?,0,?
+
+Ships    ,24120.2,63716.2,0.0,-30.0,RACE_TAIDAN,tAttackBomber,11,NULL_FORMATION|?|colorScheme(2),0,?,11
+Ships    ,-7002.7,-78041.9,-9703.2,-168.0,RACE_TAIDAN,tCarrier,1,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,-29497.5,-48480.2,-13353.8,-168.0,RACE_TAIDAN,tResourceCollector,5,NULL_FORMATION|?|colorScheme(2),0,?,5
+Ships    ,-21402.8,-49515.4,-13353.8,-168.0,RACE_TAIDAN,tHeavyDefender,4,SPHERE_FORMATION|?|colorScheme(2),0,?,4
+Ships    ,-28687.7,-45819.6,-13353.4,-168.0,RACE_TAIDAN,tHeavyDefender,3,DELTA3D_FORMATION|?|colorScheme(2),0,?,3
+Ships    ,-19830.6,53592.6,4756.9,-174.0,RACE_TAIDAN,tHeavyInterceptor,6,NULL_FORMATION|?|colorScheme(2),0,?,6
+Ships    ,-20478.3,53663.9,4769.5,-77.0,RACE_TAIDAN,tCarrier,1,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,-25145.2,46994.9,4770.0,-78.0,RACE_TAIDAN,tStandardDestroyer,1,CLAW_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,-20374.6,51623.0,4769.5,-77.0,RACE_TAIDAN,tHeavyCruiser,1,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,21097.6,88960.6,9804.2,-151.0,RACE_TAIDAN,tCarrier,1,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,17765.0,90887.2,6069.0,-30.0,RACE_TAIDAN,tHeavyInterceptor,6,CLAW_FORMATION|?|colorScheme(2),0,?,6
+Ships    ,23984.9,90561.0,0.0,-30.0,RACE_TAIDAN,tHeavyInterceptor,6,CLAW_FORMATION|?|colorScheme(2),0,?,6
+Ships    ,16095.1,88452.2,0.0,-30.0,RACE_TAIDAN,tMultiGunCorvette,5,CLAW_FORMATION|?|colorScheme(2),0,?,5
+Ships    ,-9601.7,-78588.5,-9689.4,-168.0,RACE_TAIDAN,tStandardFrigate,0,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,-11502.7,-80819.7,11541.6,-168.0,RACE_TAIDAN,tStandardFrigate,0,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,-12055.8,-75638.6,11541.6,-168.0,RACE_TAIDAN,tStandardFrigate,0,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,-21220.1,56350.5,4628.4,-77.0,RACE_TAIDAN,tHeavyDefender,6,SPHERE_FORMATION|?|colorScheme(2),0,?,6
+Ships    ,91518.0,-73433.1,23200.0,-16.0,RACE_TAIDAN,tHeavyInterceptor,6,DELTA3D_FORMATION|?|colorScheme(2),0,?,6
+Ships    ,90599.8,-72964.8,23065.0,-16.0,RACE_TAIDAN,tHeavyInterceptor,6,DELTA3D_FORMATION|?|colorScheme(2),0,?,6
+Ships    ,-17693.8,49573.5,4975.8,-77.0,RACE_TAIDAN,tIonCannonFrigate,3,WALL_FORMATION|?|colorScheme(2),0,?,3
+Ships    ,90477.1,-72945.9,23663.6,-16.0,RACE_TAIDAN,tMultiGunCorvette,2,DELTA3D_FORMATION|?|colorScheme(2),0,?,2
+Ships    ,-17030.6,59228.7,4010.6,-174.0,RACE_TAIDAN,tHeavyInterceptor,5,DELTA_FORMATION|?|colorScheme(2),0,?,5
+Ships    ,-69889.5,93778.3,-6241.0,-30.0,RACE_TAIDAN,tStandardDestroyer,1,NULL_FORMATION|?|colorScheme(2),0,?,1
+Ships    ,-21638.1,49209.2,0.0,-78.0,RACE_TAIDAN,tHeavyInterceptor,4,CLAW_FORMATION|?|colorScheme(2),0,?,4
+Ships    ,23914.7,65464.5,0.0,-30.0,RACE_TAIDAN,tHeavyInterceptor,3,DELTA_FORMATION|?|colorScheme(2),0,?,3
+
+
+
+
+

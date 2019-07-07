@@ -1,0 +1,33 @@
+; MissionMan script, Thursday, Jan 26 2006, 10:22:48 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-45000.0,60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-67000.0,60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-89000.0,60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-45000.0,20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-67000.0,20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-89000.0,20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-45000.0,-20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-67000.0,-20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-89000.0,-20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-45000.0,-60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-67000.0,-60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-89000.0,-60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,89000.0,-60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,67000.0,-60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,45000.0,-60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,67000.0,-20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,45000.0,-20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,89000.0,-20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,67000.0,20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,45000.0,20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,89000.0,20000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,67000.0,60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,45000.0,60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,89000.0,60000.0,-10000.0,Cylinder,rock.dist,12,4000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,40000.0,Cylinder,roid.dist,15,4000.0,40000.0,0.0,-90.0,2048,1
+Resources    Asteroid,0.0,45000.0,30000.0,Cylinder,roid.dist,15,4000.0,40000.0,-30.0,-90.0,2048,1
+Resources    Asteroid,0.0,-45000.0,30000.0,Cylinder,roid.dist,15,4000.0,40000.0,30.0,-90.0,2048,1
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,tiny.dist,50,2500.0,150000.0,0.0,-90.0,0,?
+

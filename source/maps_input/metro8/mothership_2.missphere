@@ -1,0 +1,8 @@
+; MissionMan script, Thursday, Jul 27 2000, 6:07:01 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: RACE_SECT,sMothership
+
+Ships     ,68784.9,-71995.2,69446.1,39.0,RACE_SECT,sMothership,1,PARADE_FORMATION|?|?,0,?
+Ships     ,69881.4,-71966.2,69446.6,0.0,RACE_SECT,sRecon,2,PARADE_FORMATION|?|?,0,?
+Ships     ,68797.6,-70873.6,69446.6,0.0,RACE_SECT,sWorker,4,PARADE_FORMATION|?|?,0,?
+

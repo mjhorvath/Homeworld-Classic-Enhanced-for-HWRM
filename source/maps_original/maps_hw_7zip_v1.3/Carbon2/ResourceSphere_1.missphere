@@ -1,0 +1,183 @@
+; MissionMan script, Thursday, Feb 24 2000, 10:01:34 PM,,,,,,,,,
+; Copyright (c) 1998-99, Relic Entertainment Inc.,,,,,,,,,,,
+; MissionSphere Object: ?,ResourceSphere,,,,,,,,,,,
+
+;Centre,,,,,,,,,,,,
+Resources    Asteroid,0,0,0,Sphere,Centre.dist,14,2538,2538,0,0,2048,7
+Resources    Dustcloud,0,0,0,Cylinder,Dustcloud.dist,14,1269,2538,0,0,2048,7
+Resources    Dustcloud,0,0,0,Cylinder,Dustcloud.dist,14,1269,2538,45,45,2048,7
+
+Resources    Dustcloud,0,0,0,Sphere,Dustcloud.dist,200,45076,45076,45,45,2,?
+Resources    Dustcloud,0,0,0,Sphere,Dustcloud.dist,100,25076,25076,45,45,2,?
+
+;2nd Strand (From 'Strands' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Dustcloud,154453,9830,73344.9,Cylinder,Dustcloud.dist,6,7500,22692.1,185.8,119.4,     ?,     ?
+Resources    Dustcloud,133359,29489.5,66378.4,Cylinder,Dustcloud.dist,9,10000,38579.8,197.5,147.7,     ?,     ?
+Resources    Dustcloud,102812,39319,53582.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,72812,39319,39613.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,43359,29489.5,24472.2,Cylinder,Dustcloud.dist,9,10000,38577.2,155,34.2,     ?,     ?
+Resources    Dustcloud,14453,9830,8157.4,Cylinder,Dustcloud.dist,6,7500,38577.8,155,34.2,     ?,     ?
+
+Resources    Dustcloud,152449,7866,77642.4,Cylinder,Dustcloud.dist,6,7500,22695,163.9,133.8,     ?,     ?
+Resources    Dustcloud,127347.5,23597.5,79269.9,Cylinder,Dustcloud.dist,9,10000,38584,184.5,155.9,     ?,     ?
+Resources    Dustcloud,94797,31463,70770.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,64797,31463,56801.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,37347.5,23597.5,37363.7,Cylinder,Dustcloud.dist,9,10000,38572.2,139.8,32.3,     ?,     ?
+Resources    Dustcloud,12449,7866,12454.9,Cylinder,Dustcloud.dist,6,7500,38573.4,139.8,32.3,     ?,     ?
+
+Resources    Dustcloud,151128,3794.5,80475.4,Cylinder,Dustcloud.dist,6,7500,22699.4,148.2,156.8,     ?,     ?
+Resources    Dustcloud,123385.5,11382.5,87766.9,Cylinder,Dustcloud.dist,9,10000,38585.9,176.1,168.6,     ?,     ?
+Resources    Dustcloud,89515,15176,82098.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,59515,15176,68129.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,33385.5,11382.5,45860.7,Cylinder,Dustcloud.dist,9,10000,38568.5,127.6,18.8,     ?,     ?
+Resources    Dustcloud,11128,3794.5,15287.9,Cylinder,Dustcloud.dist,6,7500,38572,127.6,18.8,     ?,     ?
+
+Resources    Dustcloud,155547,-9830,70998.9,Cylinder,Dustcloud.dist,6,7500,22690.6,162,65.6,     ?,     ?
+Resources    Dustcloud,136641,-29489.5,59340.4,Cylinder,Dustcloud.dist,9,10000,38577.3,155,34.2,     ?,     ?
+Resources    Dustcloud,107188,-39319,44198.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,77188,-39319,30229.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,46641,-29489.5,17434.2,Cylinder,Dustcloud.dist,9,10000,38579.8,197.5,147.7,     ?,     ?
+Resources    Dustcloud,15547,-9830,5811.4,Cylinder,Dustcloud.dist,6,7500,38580.3,197.5,147.7,     ?,     ?
+
+Resources    Dustcloud,157551,-7866,66701.4,Cylinder,Dustcloud.dist,6,7500,22688.3,136.6,72.7,     ?,     ?
+Resources    Dustcloud,142652.5,-23597.5,46448.9,Cylinder,Dustcloud.dist,9,10000,38572.3,139.8,32.3,     ?,     ?
+Resources    Dustcloud,115203,-31463,27010.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,85203,-31463,13041.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,52652.5,-23597.5,4542.7,Cylinder,Dustcloud.dist,9,10000,38584,184.5,155.9,     ?,     ?
+Resources    Dustcloud,17551,-7866,1513.9,Cylinder,Dustcloud.dist,6,7500,38585.2,184.5,155.9,     ?,     ?
+
+Resources    Dustcloud,158872,-3794.5,63868.4,Cylinder,Dustcloud.dist,6,7500,22689.3,110.4,73.4,     ?,     ?
+Resources    Dustcloud,146614.5,-11382.5,37951.9,Cylinder,Dustcloud.dist,9,10000,38568.6,127.6,18.8,     ?,     ?
+Resources    Dustcloud,120485,-15176,15682.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,90485,-15176,1713.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,56614.5,-11382.5,-3954.4,Cylinder,Dustcloud.dist,9,10000,38585.9,176.1,168.6,     ?,     ?
+Resources    Dustcloud,18872,-3794.5,-1319.1,Cylinder,Dustcloud.dist,6,7500,38589.7,176.1,168.6,     ?,     ?
+
+Resources    Dustcloud,154453,-9830,73344.9,Cylinder,Dustcloud.dist,6,7500,22692.1,174.2,60.6,     ?,     ?
+Resources    Dustcloud,133359,-29489.5,66378.4,Cylinder,Dustcloud.dist,9,10000,38579.8,162.5,32.3,     ?,     ?
+Resources    Dustcloud,102812,-39319,53582.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,72812,-39319,39613.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,43359,-29489.5,24472.2,Cylinder,Dustcloud.dist,9,10000,38577.2,205,145.8,     ?,     ?
+Resources    Dustcloud,14453,-9830,8157.4,Cylinder,Dustcloud.dist,6,7500,38577.8,205,145.8,     ?,     ?
+
+Resources    Dustcloud,152449,-7866,77642.4,Cylinder,Dustcloud.dist,6,7500,22695,196.1,46.2,     ?,     ?
+Resources    Dustcloud,127347.5,-23597.5,79269.9,Cylinder,Dustcloud.dist,9,10000,38584,175.5,24.1,     ?,     ?
+Resources    Dustcloud,94797,-31463,70770.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,64797,-31463,56801.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,37347.5,-23597.5,37363.7,Cylinder,Dustcloud.dist,9,10000,38572.2,220.2,147.7,     ?,     ?
+Resources    Dustcloud,12449,-7866,12454.9,Cylinder,Dustcloud.dist,6,7500,38573.4,220.2,147.7,     ?,     ?
+
+Resources    Dustcloud,151128,-3794.5,80475.4,Cylinder,Dustcloud.dist,6,7500,22699.4,211.8,23.2,     ?,     ?
+Resources    Dustcloud,123385.5,-11382.5,87766.9,Cylinder,Dustcloud.dist,9,10000,38585.9,183.9,11.4,     ?,     ?
+Resources    Dustcloud,89515,-15176,82098.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,59515,-15176,68129.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,33385.5,-11382.5,45860.7,Cylinder,Dustcloud.dist,9,10000,38568.5,232.4,161.2,     ?,     ?
+Resources    Dustcloud,11128,-3794.5,15287.9,Cylinder,Dustcloud.dist,6,7500,38572,232.4,161.2,     ?,     ?
+
+Resources    Dustcloud,155547,9830,70998.9,Cylinder,Dustcloud.dist,6,7500,22690.6,198,114.4,     ?,     ?
+Resources    Dustcloud,136641,29489.5,59340.4,Cylinder,Dustcloud.dist,9,10000,38577.3,205,145.8,     ?,     ?
+Resources    Dustcloud,107188,39319,44198.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,77188,39319,30229.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,46641,29489.5,17434.2,Cylinder,Dustcloud.dist,9,10000,38579.8,162.5,32.3,     ?,     ?
+Resources    Dustcloud,15547,9830,5811.4,Cylinder,Dustcloud.dist,6,7500,38580.3,162.5,32.3,     ?,     ?
+
+Resources    Dustcloud,157551,7866,66701.4,Cylinder,Dustcloud.dist,6,7500,22688.3,223.4,107.3,     ?,     ?
+Resources    Dustcloud,142652.5,23597.5,46448.9,Cylinder,Dustcloud.dist,9,10000,38572.3,220.2,147.7,     ?,     ?
+Resources    Dustcloud,115203,31463,27010.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,85203,31463,13041.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,52652.5,23597.5,4542.7,Cylinder,Dustcloud.dist,9,10000,38584,175.5,24.1,     ?,     ?
+Resources    Dustcloud,17551,7866,1513.9,Cylinder,Dustcloud.dist,6,7500,38585.2,175.5,24.1,     ?,     ?
+
+Resources    Dustcloud,158872,3794.5,63868.4,Cylinder,Dustcloud.dist,6,7500,22689.3,249.6,106.6,     ?,     ?
+Resources    Dustcloud,146614.5,11382.5,37951.9,Cylinder,Dustcloud.dist,9,10000,38568.6,232.4,161.2,     ?,     ?
+Resources    Dustcloud,120485,15176,15682.7,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,90485,15176,1713.9,Cylinder,Dustcloud.dist,12,10000,33092.7,205,180,     ?,     ?
+Resources    Dustcloud,56614.5,11382.5,-3954.4,Cylinder,Dustcloud.dist,9,10000,38585.9,183.9,11.4,     ?,     ?
+Resources    Dustcloud,18872,3794.5,-1319.1,Cylinder,Dustcloud.dist,6,7500,38589.7,183.9,11.4,     ?,     ?
+
+;2nd Strand (From 'Strands' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Dustcloud,-154453,9830,-73344.9,Cylinder,Dustcloud.dist,6,7500,22692.1,174.2,60.6,     ?,     ?
+Resources    Dustcloud,-133359,29489.5,-66378.4,Cylinder,Dustcloud.dist,9,10000,38579.8,162.5,32.3,     ?,     ?
+Resources    Dustcloud,-102812,39319,-53582.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-72812,39319,-39613.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-43359,29489.5,-24472.2,Cylinder,Dustcloud.dist,9,10000,38577.2,205,145.8,     ?,     ?
+Resources    Dustcloud,-14453,9830,-8157.4,Cylinder,Dustcloud.dist,6,7500,38577.8,205,145.8,     ?,     ?
+
+Resources    Dustcloud,-152449,7866,-77642.4,Cylinder,Dustcloud.dist,6,7500,22695,196.1,46.2,     ?,     ?
+Resources    Dustcloud,-127347.5,23597.5,-79269.9,Cylinder,Dustcloud.dist,9,10000,38584,175.5,24.1,     ?,     ?
+Resources    Dustcloud,-94797,31463,-70770.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-64797,31463,-56801.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-37347.5,23597.5,-37363.7,Cylinder,Dustcloud.dist,9,10000,38572.2,220.2,147.7,     ?,     ?
+Resources    Dustcloud,-12449,7866,-12454.9,Cylinder,Dustcloud.dist,6,7500,38573.4,220.2,147.7,     ?,     ?
+
+Resources    Dustcloud,-151128,3794.5,-80475.4,Cylinder,Dustcloud.dist,6,7500,22699.4,211.8,23.2,     ?,     ?
+Resources    Dustcloud,-123385.5,11382.5,-87766.9,Cylinder,Dustcloud.dist,9,10000,38585.9,183.9,11.4,     ?,     ?
+Resources    Dustcloud,-89515,15176,-82098.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-59515,15176,-68129.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-33385.5,11382.5,-45860.7,Cylinder,Dustcloud.dist,9,10000,38568.5,232.4,161.2,     ?,     ?
+Resources    Dustcloud,-11128,3794.5,-15287.9,Cylinder,Dustcloud.dist,6,7500,38572,232.4,161.2,     ?,     ?
+
+Resources    Dustcloud,-155547,-9830,-70998.9,Cylinder,Dustcloud.dist,6,7500,22690.6,198,114.4,     ?,     ?
+Resources    Dustcloud,-136641,-29489.5,-59340.4,Cylinder,Dustcloud.dist,9,10000,38577.3,205,145.8,     ?,     ?
+Resources    Dustcloud,-107188,-39319,-44198.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-77188,-39319,-30229.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-46641,-29489.5,-17434.2,Cylinder,Dustcloud.dist,9,10000,38579.8,162.5,32.3,     ?,     ?
+Resources    Dustcloud,-15547,-9830,-5811.4,Cylinder,Dustcloud.dist,6,7500,38580.3,162.5,32.3,     ?,     ?
+
+Resources    Dustcloud,-157551,-7866,-66701.4,Cylinder,Dustcloud.dist,6,7500,22688.3,223.4,107.3,     ?,     ?
+Resources    Dustcloud,-142652.5,-23597.5,-46448.9,Cylinder,Dustcloud.dist,9,10000,38572.3,220.2,147.7,     ?,     ?
+Resources    Dustcloud,-115203,-31463,-27010.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-85203,-31463,-13041.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-52652.5,-23597.5,-4542.7,Cylinder,Dustcloud.dist,9,10000,38584,175.5,24.1,     ?,     ?
+Resources    Dustcloud,-17551,-7866,-1513.9,Cylinder,Dustcloud.dist,6,7500,38585.2,175.5,24.1,     ?,     ?
+
+Resources    Dustcloud,-158872,-3794.5,-63868.4,Cylinder,Dustcloud.dist,6,7500,22689.3,249.6,106.6,     ?,     ?
+Resources    Dustcloud,-146614.5,-11382.5,-37951.9,Cylinder,Dustcloud.dist,9,10000,38568.6,232.4,161.2,     ?,     ?
+Resources    Dustcloud,-120485,-15176,-15682.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-90485,-15176,-1713.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-56614.5,-11382.5,3954.4,Cylinder,Dustcloud.dist,9,10000,38585.9,183.9,11.4,     ?,     ?
+Resources    Dustcloud,-18872,-3794.5,1319.1,Cylinder,Dustcloud.dist,6,7500,38589.7,183.9,11.4,     ?,     ?
+
+Resources    Dustcloud,-154453,-9830,-73344.9,Cylinder,Dustcloud.dist,6,7500,22692.1,185.8,119.4,     ?,     ?
+Resources    Dustcloud,-133359,-29489.5,-66378.4,Cylinder,Dustcloud.dist,9,10000,38579.8,197.5,147.7,     ?,     ?
+Resources    Dustcloud,-102812,-39319,-53582.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-72812,-39319,-39613.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-43359,-29489.5,-24472.2,Cylinder,Dustcloud.dist,9,10000,38577.2,155,34.2,     ?,     ?
+Resources    Dustcloud,-14453,-9830,-8157.4,Cylinder,Dustcloud.dist,6,7500,38577.8,155,34.2,     ?,     ?
+
+Resources    Dustcloud,-152449,-7866,-77642.4,Cylinder,Dustcloud.dist,6,7500,22695,163.9,133.8,     ?,     ?
+Resources    Dustcloud,-127347.5,-23597.5,-79269.9,Cylinder,Dustcloud.dist,9,10000,38584,184.5,155.9,     ?,     ?
+Resources    Dustcloud,-94797,-31463,-70770.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-64797,-31463,-56801.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-37347.5,-23597.5,-37363.7,Cylinder,Dustcloud.dist,9,10000,38572.2,139.8,32.3,     ?,     ?
+Resources    Dustcloud,-12449,-7866,-12454.9,Cylinder,Dustcloud.dist,6,7500,38573.4,139.8,32.3,     ?,     ?
+
+Resources    Dustcloud,-151128,-3794.5,-80475.4,Cylinder,Dustcloud.dist,6,7500,22699.4,148.2,156.8,     ?,     ?
+Resources    Dustcloud,-123385.5,-11382.5,-87766.9,Cylinder,Dustcloud.dist,9,10000,38585.9,176.1,168.6,     ?,     ?
+Resources    Dustcloud,-89515,-15176,-82098.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-59515,-15176,-68129.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-33385.5,-11382.5,-45860.7,Cylinder,Dustcloud.dist,9,10000,38568.5,127.6,18.8,     ?,     ?
+Resources    Dustcloud,-11128,-3794.5,-15287.9,Cylinder,Dustcloud.dist,6,7500,38572,127.6,18.8,     ?,     ?
+
+Resources    Dustcloud,-155547,9830,-70998.9,Cylinder,Dustcloud.dist,6,7500,22690.6,162,65.6,     ?,     ?
+Resources    Dustcloud,-136641,29489.5,-59340.4,Cylinder,Dustcloud.dist,9,10000,38577.3,155,34.2,     ?,     ?
+Resources    Dustcloud,-107188,39319,-44198.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-77188,39319,-30229.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-46641,29489.5,-17434.2,Cylinder,Dustcloud.dist,9,10000,38579.8,197.5,147.7,     ?,     ?
+Resources    Dustcloud,-15547,9830,-5811.4,Cylinder,Dustcloud.dist,6,7500,38580.3,197.5,147.7,     ?,     ?
+
+Resources    Dustcloud,-157551,7866,-66701.4,Cylinder,Dustcloud.dist,6,7500,22688.3,136.6,72.7,     ?,     ?
+Resources    Dustcloud,-142652.5,23597.5,-46448.9,Cylinder,Dustcloud.dist,9,10000,38572.3,139.8,32.3,     ?,     ?
+Resources    Dustcloud,-115203,31463,-27010.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-85203,31463,-13041.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-52652.5,23597.5,-4542.7,Cylinder,Dustcloud.dist,9,10000,38584,184.5,155.9,     ?,     ?
+Resources    Dustcloud,-17551,7866,-1513.9,Cylinder,Dustcloud.dist,6,7500,38585.2,184.5,155.9,     ?,     ?
+
+Resources    Dustcloud,-158872,3794.5,-63868.4,Cylinder,Dustcloud.dist,6,7500,22689.3,110.4,73.4,     ?,     ?
+Resources    Dustcloud,-146614.5,11382.5,-37951.9,Cylinder,Dustcloud.dist,9,10000,38568.6,127.6,18.8,     ?,     ?
+Resources    Dustcloud,-120485,15176,-15682.7,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-90485,15176,-1713.9,Cylinder,Dustcloud.dist,12,10000,33092.7,155,0,     ?,     ?
+Resources    Dustcloud,-56614.5,11382.5,3954.4,Cylinder,Dustcloud.dist,9,10000,38585.9,176.1,168.6,     ?,     ?
+Resources    Dustcloud,-18872,3794.5,1319.1,Cylinder,Dustcloud.dist,6,7500,38589.7,176.1,168.6,     ?,     ?

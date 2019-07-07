@@ -1,0 +1,177 @@
+[IonCannonFrigate]
+;Galaxy-X
+
+;Source Files
+;=----------=
+pMexData                            IonCannonFrigate\Rl0\LOD0\IonCannonFrigate.mex
+LODFile                             IonCannonFrigate.lod
+
+;Ship Physics
+;=----------=
+mass                                90000.0              ; ship mass [fighter = 1]
+momentOfInertiaX                    90000.0               ; resistance to rotation
+momentOfInertiaY                    90000.0               ; [fighter = 1]
+momentOfInertiaZ                    90000.0
+maxvelocity                         920.0               ; [fighter = 1000]
+maxrot                              10.0                ; maximum rotation speed [don't make faster than ~10]
+
+;Basic Ship Stats
+;=--------------=
+shipclass                           CLASS_Frigate
+isCapitalShip                       TRUE
+buildCost                           1620                ; resource units to build
+buildTime                           450                  ; time in seconds to build
+maxhealth                           12800               ; hit points
+groupSize                           1                   ; size of group ships of this type tend to form
+repairTime                          1                   ; every this many seconds
+repairDamage                        63.35                 ; this much damage is repaired
+repairCombatTime                    1
+repairCombatDamage                  6.335
+
+blastRadiusShockWave                1.275
+blastRadiusDamage                   510
+
+;Moving Around
+;=-----------=
+thruststrength[TRANS_UP]            276.0                ; acceleration (m/s^2) [1-1000 approx. range]
+thruststrength[TRANS_DOWN]          276.0
+thruststrength[TRANS_RIGHT]         276.0
+thruststrength[TRANS_LEFT]          276.0
+thruststrength[TRANS_FORWARD]       920.0
+thruststrength[TRANS_BACK]          276.0
+rotstrength[ROT_YAWLEFT]            92.0                        ; rotational acceleration (deg/s^2) [0.01 - 1.0]
+rotstrength[ROT_YAWRIGHT]           92.0 
+rotstrength[ROT_PITCHUP]            92.0 
+rotstrength[ROT_PITCHDOWN]          92.0 
+rotstrength[ROT_ROLLRIGHT]          92.0 
+rotstrength[ROT_ROLLLEFT]           92.0
+turnspeed[TURN_YAW]                 0.92                          ; speed at which ship tries to turn (1=standard)
+turnspeed[TURN_PITCH]               1.84
+turnspeed[TURN_ROLL]                0.92
+
+;Weapons
+;=------=
+NUMBER_OF_GUNS                      6
+
+canTargetMultipleTargets            TRUE
+rotateToRetaliate                   TRUE
+passiveRetaliateZone                15000.0
+
+GUN         0
+//Desired Range = 14500
+{
+Type                            GUN_Gimble
+SoundType                       GS_SmallPlasmaBomb
+DamageLo                        720                              ; damage variance per shot - low
+DamageHi                        880                              ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        20
+BulletLength                    5.0                            ; visual only.  Length of bullet on screen
+BulletRange                     15000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      4.0                              ; mass of bullet
+FireTime                        0.2                             ; fire repeat rate (reciprocal = shots/second)
+BurstFireTime                   2.0
+BurstWaitTime                   3.0 
+TriggerHappy                    5.0
+}
+
+GUN         1
+//Desired Range = 14500
+{
+Type                            GUN_Gimble
+SoundType                       GS_SmallPlasmaBomb
+DamageLo                        720                              ; damage variance per shot - low
+DamageHi                        880                              ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        20
+BulletLength                    5.0                            ; visual only.  Length of bullet on screen
+BulletRange                     15000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      4.0                              ; mass of bullet
+FireTime                        0.20                             ; fire repeat rate (reciprocal = shots/second)
+BurstFireTime                   2.0
+BurstWaitTime                   3.0 
+TriggerHappy                    5.0
+}
+
+GUN        2
+//Desired Range = 9500
+{
+Type                                GUN_Gimble                    ; type of gun - either GUN_Fixed or GUN_Gimble
+SoundType                           GS_LargeIonCannon
+BulletType                          BULLET_Beam
+DamageLo                            48.7                           ; damage variance per shot - low
+DamageHi                            58.3                           ; damage variance per shot - high
+MinAngle                            0
+MaxAngle                            85
+BulletLength                        10000.0                       ; visual only.  Length of bullet on screen
+BulletRange                         10000.0                       ; distance bullets travel before disappearing
+BulletSpeed                         0.0                           ; measured in m/s.
+BulletLifeTime                      1.0
+BulletMass                          4.0                           ; mass of bullet
+FireTime                            2.5                           ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN        3
+//Desired Range = 9500
+{
+Type                                GUN_Gimble                    ; type of gun - either GUN_Fixed or GUN_Gimble
+SoundType                           GS_LargeIonCannon
+BulletType                          BULLET_Beam
+DamageLo                            48.7                           ; damage variance per shot - low
+DamageHi                            58.3                           ; damage variance per shot - high
+MinAngle                            0
+MaxAngle                            5
+BulletLength                        10000.0                       ; visual only.  Length of bullet on screen
+BulletRange                         10000.0                       ; distance bullets travel before disappearing
+BulletSpeed                         0.0                           ; measured in m/s.
+BulletLifeTime                      0.75
+BulletMass                          4.0                           ; mass of bullet
+FireTime                            1.25                           ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN        4
+//Desired Range = 9500
+{
+Type                                GUN_Gimble                    ; type of gun - either GUN_Fixed or GUN_Gimble
+SoundType                           GS_LargeIonCannon
+BulletType                          BULLET_Beam
+DamageLo                            48.7                           ; damage variance per shot - low
+DamageHi                            58.3                           ; damage variance per shot - high
+MinAngle                            0
+MaxAngle                            75
+BulletLength                        10000.0                       ; visual only.  Length of bullet on screen
+BulletRange                         10000.0                       ; distance bullets travel before disappearing
+BulletSpeed                         0.0                           ; measured in m/s.
+BulletLifeTime                      1.0
+BulletMass                          4.0                           ; mass of bullet
+FireTime                            2.5                           ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN        5
+//Desired Range = 9500
+{
+Type                                GUN_Gimble                    ; type of gun - either GUN_Fixed or GUN_Gimble
+SoundType                           GS_LargeIonCannon
+BulletType                          BULLET_Beam
+DamageLo                            24.3                           ; damage variance per shot - low
+DamageHi                            29.7                           ; damage variance per shot - high
+MinAngle                            0
+MaxAngle                            85
+BulletLength                        10000.0                       ; visual only.  Length of bullet on screen
+BulletRange                         10000.0                       ; distance bullets travel before disappearing
+BulletSpeed                         0.0                           ; measured in m/s.
+BulletLifeTime                      1.0
+BulletMass                          4.0                           ; mass of bullet
+FireTime                            2.5                           ; fire repeat rate (reciprocal = shots/second)
+}
+
+WILL_FIT_CARRIER                FALSE
+
+
+;Explosions
+;=--------=
+explosionType                       ET_CorvetteExplosion
+
+minimumZoomDistance              	800

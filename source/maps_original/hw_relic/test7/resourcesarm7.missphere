@@ -1,0 +1,173 @@
+
+;Asteroids   x,y,z, Cylinder,   Distribution, number of asteroids, radius,   length,   roty,   rotz
+;Asteroids   x,y,z, Sphere,     Distribution, number of asteroids, radius
+
+;Resources Asteroid       0.0,        0.0,         0.0,   Cylinder,  Big.dist,   5, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid       0.0,      569.0,      4325.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  25.0
+Resources Asteroid       0.0,     1513.0,      8583.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  35.0
+Resources Asteroid       0.0,     2895.0,     12744.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     4494.0,     16773.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     6508.0,     20643.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     8852.0,     24321.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    11507.0,     27782.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    14454.0,     30998.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    17670.0,     33945.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    21131.0,     36600.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    24809.0,     38944.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    28679.0,     40958.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    32708.0,     42627.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    36869.0,     43939.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    41127.0,     44883.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    45452.0,     45452.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    49809.0,     45643.0,   Cylinder,  Big.dist     0, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    54166.0,     45452.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    58491.0,     44883.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    62749.0,     43939.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    66910.0,     42627.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  45.0
+
+;Resources Asteroid       0.0,        0.0,          -0.0,   Cylinder,  Big.dist,   5, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid       0.0,      569.0,       -4325.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  25.0
+Resources Asteroid       0.0,     1513.0,       -8583.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  35.0
+Resources Asteroid       0.0,     2895.0,      -12744.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     4494.0,      -16773.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     6508.0,      -20643.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     8852.0,      -24321.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    11507.0,      -27782.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    14454.0,      -30998.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    17670.0,      -33945.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    21131.0,      -36600.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    24809.0,      -38944.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    28679.0,      -40958.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    32708.0,      -42627.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    36869.0,      -43939.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    41127.0,      -44883.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    45452.0,      -45452.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    49809.0,      -45643.0,   Cylinder,  Big.dist    0, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    54166.0,      -45452.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    58491.0,      -44883.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    62749.0,      -43939.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    66910.0,      -42627.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+
+
+;Resources Asteroid       0.0,        -0.0,        -0.0,   Cylinder,  Big.dist,   5, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid       0.0,      -569.0,     -4325.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  25.0
+Resources Asteroid       0.0,     -1513.0,     -8583.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  35.0
+Resources Asteroid       0.0,     -2895.0,    -12744.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     -4494.0,    -16773.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     -6508.0,    -20643.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     -8852.0,    -24321.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -11507.0,    -27782.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -14454.0,    -30998.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -17670.0,    -33945.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -21131.0,    -36600.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -24809.0,    -38944.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -28679.0,    -40958.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -32708.0,    -42627.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -36869.0,    -43939.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -41127.0,    -44883.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -45452.0,    -45452.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -49809.0,    -45643.0,   Cylinder,  Big.dist    0, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -54166.0,    -45452.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -58491.0,    -44883.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -62749.0,    -43939.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -66910.0,    -42627.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+
+;Resources Asteroid       0.0,        -0.0,        0.0,   Cylinder, Big.dist,   5, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid       0.0,      -569.0,     4325.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  25.0
+Resources Asteroid       0.0,     -1513.0,     8583.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  35.0
+Resources Asteroid       0.0,     -2895.0,    12744.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     -4494.0,    16773.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     -6508.0,    20643.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,     -8852.0,    24321.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -11507.0,    27782.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -14454.0,    30998.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -17670.0,    33945.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -21131.0,    36600.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -24809.0,    38944.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -28679.0,    40958.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -32708.0,    42627.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -36869.0,    43939.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -41127.0,    44883.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -45452.0,    45452.0,   Cylinder,  Big.dist,   1, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -49809.0,    45643.0,   Cylinder,  Big.dist    0, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -54166.0,    45452.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -58491.0,    44883.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -62749.0,    43939.0,   Cylinder,  Big.dist,   2, 1300.0, 4300, 0.0,  45.0
+Resources Asteroid       0.0,    -66910.0,    42627.0,   Cylinder,  Big.dist,   3, 1300.0, 4300, 0.0,  45.0
+
+;Resources Asteroid      -0.0,         0.0,    0.0,   Cylinder,   Big.dist,   2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid     -569.0,      4325.0,    0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid    -1513.0,      8583.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid    -2895.0,     12744.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid    -4494.0,     16773.0,    0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid    -6508.0,     20643.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid    -8852.0,     24321.0,    0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -11507.0,     27782.0,    0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -14454.0,     30998.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -17670.0,     33945.0,    0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -21131.0,     36600.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -24809.0,     38944.0,    0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -28679.0,     40958.0,    0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -32708.0,     42627.0,    0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -36869.0,     43939.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -41127.0,     44883.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -45452.0,     45452.0,    0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -49809.0,     45643.0,    0.0,   Cylinder,  Big.dist     0, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -54166.0,     45452.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -58491.0,     44883.0,    0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -62749.0,     43939.0,    0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0, -90.0
+Resources Asteroid   -66910.0,     42627.0,    0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0, -90.0
+
+
+;Resources Asteroid       -0.0,         -0.0,     0.0,   Cylinder,   Big.dist,   2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid    -3483.0,       -2125.0,     0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid    -6676.0,       -5101.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid    -9557.0,       -8412.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -12278.0,      -11778.0,     0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -14622.0,      -15457.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -16635.0,      -19325.0,     0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -18305.0,      -23000.0,     0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -19617.0,      -28016.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -20562.0,      -32275.0,     0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -21131.0,      -36600.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -20603.0,      -41323.0,     0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -20600.0,      -45315.0,     0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -20561.0,      -49639.0,     0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -19617.0,      -53898.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -18305.0,      -58058.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -16636.0,      -62088.0,     0.0,   Cylinder,  Big.dist,    1, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -14622.0,      -65957.0,     0.0,   Cylinder,  Big.dist     0, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid   -12278.0,      -69634.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid    -9623.0,      -73096.0,     0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid    -6676.0,      -76311.0,     0.0,   Cylinder,  Big.dist,    2, 1300.0, 4300, 0.0,  15.0
+Resources Asteroid    -3460.0,      -79258.0,     0.0,   Cylinder,  Big.dist,    3, 1300.0, 4300, 0.0,  15.0
+
+;Resources Asteroid      0.0,          0.0,    0.0,   Cylinder,    Big.dist,    5, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid   4015.0,      -1704.0,     0.0,   Cylinder,   Big.dist,     2, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid   8189.0,      -2980.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  12496.0,      -3820.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  16772.0,      -4494.0,     0.0,   Cylinder,   Big.dist,     1, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  21130.0,      -4684.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  25487.0,      -4494.0,     0.0,   Cylinder,   Big.dist,     2, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  29813.0,      -3924.0,     0.0,   Cylinder,   Big.dist,     2, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  34072.0,      -2980.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  38233.0,      -1669.0,     0.0,   Cylinder,   Big.dist,     1, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  46262.0,          0.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  46088.0,       2818.0,     0.0,   Cylinder,   Big.dist,     2, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  49809.0,       4357.0,     0.0,   Cylinder,   Big.dist,     1, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  53269.0,       7013.0,     0.0,   Cylinder,   Big.dist,     2, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  56486.0,       9960.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  59432.0,      13175.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  62087.0,      16636.0,     0.0,   Cylinder,   Big.dist,     1, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  64432.0,      20315.0,     0.0,   Cylinder,   Big.dist      0, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  66444.0,      24183.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  68114.0,      28214.0,     0.0,   Cylinder,   Big.dist,     2, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  69425.0,      32373.0,     0.0,   Cylinder,   Big.dist,     2, 1300.0, 4300, 0.0,  90.0
+Resources Asteroid  70370.0,      36632.0,     0.0,   Cylinder,   Big.dist,     3, 1300.0, 4300, 0.0,  90.0
+
+Resources DustCloud     0.0,     0.0,     0.0,   Sphere, dustcloudquinn.dist, 10, 1500
+Resources DustCloud -5000.0, -5000.0,     0.0,   Sphere, dustcloud.dist, 2, 500
+Resources DustCloud -5000.0,  5000.0,     0.0,   Sphere, dustcloud.dist, 2, 500
+Resources DustCloud  5000.0,  5000.0,     0.0,   Sphere, dustcloud.dist, 2, 500
+Resources DustCloud  5000.0, -5000.0,     0.0,   Sphere, dustcloud.dist, 2, 500
+

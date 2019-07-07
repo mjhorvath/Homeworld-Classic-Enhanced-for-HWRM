@@ -1,0 +1,36 @@
+; MissionMan script, Friday, Jan 14 2000, 5:19:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: DNA2
+; Info: DNA (2-6)
+
+[DNA (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_4.missphere,0
+
+Lighting    stellarnursery
+Background    Stellarnursery
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    500000
+smZoomMin    50000
+smInitialDistance    250000
+smUniverseSizeX    75000
+smUniverseSizeZ    225000
+smUniverseSizeY    75000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    05

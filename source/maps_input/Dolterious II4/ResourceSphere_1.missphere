@@ -1,0 +1,20 @@
+; MissionMan script, Friday, Jun 17 2005, 7:09:31 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,50564.0,43695.0,0.0,Cylinder,rock.dist,15,1000.0,7500.0,-44.0,30.0,2048,1
+Resources    Asteroid,52281.0,-39306.0,0.0,Cylinder,rock.dist,15,1000.0,7500.0,-44.0,-30.0,2048,1
+Resources    Asteroid,80521.0,-41596.0,0.0,Cylinder,rock.dist,15,1000.0,7500.0,0.0,-90.0,2048,1
+Resources    Asteroid,80520.6,45030.5,0.0,Cylinder,rock.dist,15,1000.0,7500.0,0.0,-90.0,2048,1
+Resources    Nebula,0.0,0.0,0.0,Nebula,Neb.dist,25,51000.0,2000.0,2000.0,0.0,2048,3
+Resources    Nebula,-572.0,-191.0,0.0,Nebula,Neb.dist,25,51000.0,2000.0,2000.0,0.0,2048,3
+Resources    Nebula,191.0,-191.0,0.0,Nebula,Neb.dist,25,51000.0,2000.0,2000.0,0.0,2048,3
+Resources    Asteroid,-51327.0,41787.0,0.0,Cylinder,rock.dist,15,1000.0,7500.0,44.0,-30.0,2048,1
+Resources    Asteroid,-56288.0,-47511.0,0.0,Cylinder,rock.dist,15,1000.0,7500.0,44.0,30.0,2048,1
+Resources    Asteroid,-80711.0,-43313.0,0.0,Cylinder,rock.dist,15,1000.0,7500.0,0.0,-90.0,2048,1
+Resources    Asteroid,-79184.5,44839.8,0.0,Cylinder,rock.dist,15,1000.0,7500.0,0.0,-90.0,2048,1
+Resources    Asteroid,-2.0,-435.0,0.0,Cylinder,rock.dist,10,2500.0,50000.0,0.0,-60.0,2048,1
+Resources    Asteroid,23301.0,-42597.0,0.0,Cylinder,rock.dist,15,2500.0,50000.0,-30.0,-40.0,2048,1
+Resources    Asteroid,-24974.0,44597.0,0.0,Cylinder,rock.dist,15,2500.0,50000.0,30.0,-40.0,2048,1
+Derelict    Shipwreck,0.0,0.0,0.0,0.0,0.0,0,?,?
+

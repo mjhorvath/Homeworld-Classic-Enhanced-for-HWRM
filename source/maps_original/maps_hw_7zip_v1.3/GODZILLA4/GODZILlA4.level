@@ -1,0 +1,38 @@
+; MissionMan script, Tuesday, Aug 15 2000, 2:40:03 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: GODZILlA4
+; Info: Godzilla
+
+[Godzilla]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,0
+Resources    Asteroid,0.0,5.0,6085.0,Cylinder,tiny.dist,10,500.0,5000.0,58.7,-144.0,0,?
+Resources    Asteroid,0.0,-365.0,-7605.0,Cylinder,tiny.dist,10,500.0,5000.0,58.7,-144.0,0,?
+Resources    Asteroid,0.0,265.0,14955.0,Cylinder,tiny.dist,10,500.0,5000.0,58.7,-144.0,0,?
+Resources    Asteroid,0.0,-1935.0,-17195.0,Cylinder,tiny.dist,10,500.0,5000.0,58.7,-144.0,0,?
+Background	FIRSTONE BTG
+Lighting        FIRSTONE HSF    
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    100000
+smUniverseSizeZ    50000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+INcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    14

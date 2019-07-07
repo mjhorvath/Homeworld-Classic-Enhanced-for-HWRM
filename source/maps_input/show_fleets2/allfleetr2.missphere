@@ -1,0 +1,41 @@
+
+;Ships	,x,y,z,rot,Race,ShipType,Number,[Formation]
+
+Ships	,0.0,0.0,0.0,-90.0,R2,Mothership,1,
+Ships	,14.0,4687.0,0.0,90.0,R2,ResourceCollector,1,PARADE_FORMATION
+Ships	,2100.0,4687.0,0.0,90.0,R2,DFGFrigate,1,PARADE_FORMATION
+Ships	,1400.0,4687.0,0.0,90.0,R2,MultiGunCorvette,1,PARADE_FORMATION
+Ships	,2800.0,6562.0,0.0,90.0,R2,MinelayerCorvette,1,PARADE_FORMATION
+Ships	,700.0,4687.0,0.0,90.0,R2,LightInterceptor,1,PARADE_FORMATION
+Ships	,-700.0,4687.0,0.0,90.0,R2,LightCorvette,1,PARADE_FORMATION
+Ships	,-1400.0,4687.0,0.0,90.0,R2,HeavyInterceptor,1,PARADE_FORMATION
+Ships	,-840.0,6562.0,0.0,90.0,R2,DefenseFighter,1,PARADE_FORMATION
+Ships	,-2100.0,6562.0,0.0,90.0,R2,AttackBomber,1,PARADE_FORMATION
+Ships	,-2100.0,4687.0,0.0,90.0,R2,HeavyCorvette,1,PARADE_FORMATION
+Ships	,140.0,5625.0,0.0,90.0,R2,ResourceController,1,PARADE_FORMATION
+Ships	,840.0,6562.0,0.0,90.0,R2,HeavyDefender,1,PARADE_FORMATION
+;Ships	,1680.0,6562.0,0.0,90.0,R2,LightDefender,1,PARADE_FORMATION
+
+Ships	,-5200.0,500.0,0.0,180.0,R2,StandardFrigate,1,PARADE_FORMATION
+Ships	,-5200.0,1500.0,0.0,180.0,R2,IonCannonFrigate,1,PARADE_FORMATION
+Ships	,-5200.0,-500.0,0.0,180.0,R2,MissileDestroyer,1,PARADE_FORMATION
+
+Ships	,6200.0,-500.0,0.0,180.0,R2,SensorArray,1,PARADE_FORMATION
+Ships	,6200.0,500.0,0.0,180.0,R2,StandardDestroyer,1,PARADE_FORMATION
+Ships	,6200.0,1500.0,0.0,180.0,R2,HeavyCruiser,1,PARADE_FORMATION
+
+Ships	,0.0,-3300.0,0.0,-90.0,R2,Carrier,1,PARADE_FORMATION
+Ships	,1000.0,-3300.0,0.0,-90.0,R2,AdvanceSupportFrigate,1,PARADE_FORMATION
+Ships	,1500.0,-4800.0,0.0,-90.0,R2,ResearchShip,1,PARADE_FORMATION
+Ships	,2400.0,-3500.0,0.0,-90.0,R2,SalCapCorvette,1,PARADE_FORMATION
+Ships	,-1400.0,-3300.0,0.0,-90.0,R2,RepairCorvette,1,PARADE_FORMATION
+Ships	,-2200.0,-3300.0,0.0,-90.0,R2,CloakGenerator,1,PARADE_FORMATION
+Ships	,-2700.0,-3300.0,0.0,-90.0,R2,GravWellGenerator,1,PARADE_FORMATION
+Ships	,-3300.0,-3300.0,0.0,-90.0,R2,Probe,1,PARADE_FORMATION
+Ships	,-3900.0,-3300.0,0.0,-90.0,R2,ProximitySensor,1,PARADE_FORMATION
+
+Ships	,0.0,-6000.0,0.0,-90.0,R2,TargetDrone,10,BROAD_FORMATION
+
+;Resources Asteroid,5000.0,-8000.0,0.0,Sphere,HeadshotR1.dist,1,1000.0
+;Resources Asteroid,-5000.0,-8000.0,0.0,Sphere,HeadshotR2.dist,1,1000.0
+

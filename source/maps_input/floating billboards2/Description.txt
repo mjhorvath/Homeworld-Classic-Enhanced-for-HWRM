@@ -1,0 +1,10 @@
+Description	Welcome To Teelan's floating billboard' cafe and used ship yard. Grab some Pirate ale, while u look over our newly aquired ships. We buy or trade here
+Description   	
+Description     
+Description	AUTHOR'S  : Teelan(Sjet) of the Drunkenpirates (www.Drunkenpirates.homestead.com)
+Description	DATE MADE : ()
+
+Font            Arial_b12.hff
+Color           0, 180, 40
+DropShadow      Yes
+

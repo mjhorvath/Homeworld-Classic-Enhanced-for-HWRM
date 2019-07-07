@@ -1,0 +1,43 @@
+; MissionMan script, Tuesday, Nov 7 2000, 5:11:23 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Rings4
+; Info: Ringa Rosie (4)
+
+[Ringa Rosie (4)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,30000.0,0.0,Resource.missphere,1000
+MissionSphere    0,RACE_SECT,sMothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_0.missphere,4000
+MissionSphere    1,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,4000
+MissionSphere    2,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,4000
+MissionSphere    3,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,4000
+
+Lighting    Mission6
+Background    Mission6,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    130000
+smZoomMax    300000
+smZoomMin    30000
+smInitialDistance    60000
+smUniverseSizeX    150000
+smUniverseSizeZ    100000
+smUniverseSizeY    150000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeShips    RACE_DERELICT,dJunk1PartA
+IncludeShips    RACE_DERELICT,dJunk1Shell
+IncludeShips    RACE_DERELICT,dJunk2Shipwreck
+IncludeShips    RACE_DERELICT,dJunk1Strut
+IncludeShips    RACE_DERELICT,dJunk3BoilerCasing
+IncludeShips    RACE_DERELICT,dJunk3Boiler
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+IncludeShips    RACE_TRADERS,trJunk_LGun
+SongNumber    21

@@ -1,0 +1,142 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"MoonBase",
+	"Designed for (2-6) The transmission has been lost, MoonBase ANDROMEDA has fallen victim to attack. Establish a connection and guard it from attack. Plenty of resources line the area.",
+	"",
+	"AUTHOR	: Jacelor",
+	"VERSION	: 4:20 - (2-6)players",
+	"WEBSITE	: HOMEWORLDMAPS.8m.COM",
+}
+
+LevelName = [[MoonBase (2-6)]]
+LevelFile = [[moonbase4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez09"
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-41000.9, 0.0, 0.0, 0.0,},
+	{40438.8, 328.4, 0.0, 180.0,},
+	{-1103.5, -40459.4, 0.0, 0.0,},
+	{-916.1, 40131.1, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {40438.8, 328.4, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-41000.9, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-1103.5, -40459.4, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-916.1, 40131.1, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"scaffold", {3672.2, 306.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"scaffold", {-2317.0, -448.1, 0.0,}, -1, {0, 0.0, 180.0,}, 0, 0,},
+	{"scaffold", {3651.8, -4459.4, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"scaffold", {-2337.4, -5283.7, 0.0,}, -1, {0, 0.0, 180.0,}, 0, 0,},
+	{"scaffold", {3651.8, 5231.9, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"scaffold", {-2337.4, 4407.6, 0.0,}, -1, {0, 0.0, 180.0,}, 0, 0,},
+	{"angelmoon_clean", {-301166.6, 1083.3, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	nebby =
+	{
+		nebula0 = 2,
+	},
+	miny =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	cluster =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	gas =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 2,
+		dustcloud3 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "miny", 100, 1000.0, 188300.0, 0.0, 0.0,},
+	{{0.0, -133.2, 0.0,}, "cylinder", "miny", 100, 1000.0, 188300.0, 0.0, -90.0,},
+	{{-350.5, -175.2, 350.5,}, "cylinder", "miny", 100, 1000.0, 188300.0, 90.0, 180.0,},
+	{{-54677.1, -54677.2, 0.0,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{-56429.6, 56254.4, 0.0,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{54677.1, 55553.4, 0.0,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{54677.1, -55553.4, 0.0,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{-25235.6, -25235.6, 350.5,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{-24885.1, 25410.9, 0.0,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{25586.1, 25410.9, 0.0,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{24885.1, -25060.4, 0.0,}, "sphere", "cluster", 25, 5561.0, 11121.9, 0.0, 0.0,},
+	{{-54677.1, -55027.6, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+	{{-25586.1, -24709.9, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+	{{24885.1, -24359.4, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+	{{54326.7, -55202.9, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+	{{25235.6, 25410.9, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+	{{54326.6, 55202.9, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+	{{-24885.1, 25761.3, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+	{{-56429.6, 56604.9, 0.0,}, "cylinder", "gas", 25, 2500.0, 64450.0, 90.0, 180.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 70.2, 0.0,}, "nebula", "nebby", 25, 12531.9, 12531.9, 12531.9, 2000,},
+	{{-39956.4, -39430.6, 0.0,}, "nebula", "nebby", 25, 20875.8, 20875.8, 20875.8, 2000,},
+	{{-40306.9, 40482.1, 0.0,}, "nebula", "nebby", 25, 20875.8, 20875.8, 20875.8, 2000,},
+	{{39956.4, 39781.1, 0.0,}, "nebula", "nebby", 25, 20875.8, 20875.8, 20875.8, 2000,},
+	{{39605.9, -40832.6, 0.0,}, "nebula", "nebby", 25, 20875.8, 20875.8, 20875.8, 2000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

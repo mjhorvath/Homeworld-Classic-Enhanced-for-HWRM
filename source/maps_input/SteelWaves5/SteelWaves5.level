@@ -1,0 +1,35 @@
+; MissionMan script, Domingo, Sep 3 2000, 4:05:51 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: SteelWaves5
+; Info: Level info goes here
+
+[STEEL WAVES (2-5)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,1000
+
+Background    ez08, 90, 0
+Lighting    ez08
+smDepthCueRadius    150000
+smDepthCueStartRadius    120000
+smCircleBorder    190000
+smZoomMax    175000
+smZoomMin    17500
+smInitialDistance    75000
+smUniverseSizeX    500000
+smUniverseSizeZ    500000
+smUniverseSizeY    500000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+SongNumber    14

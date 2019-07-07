@@ -1,0 +1,157 @@
+; MissionMan script, Wednesday, Sep 13 2006, 2:01:10 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,tiny.dist,1000,30000.0,60000.0,0.0,0.0,2,?
+
+; Generated using Homeworld Resource Maker v1.1, by Mikail
+; Created: Wed Sep 13 02:11:05 MDT 2006
+; Key: ellipseAdd(sResName, fPosX, fPosY, fPosZ, sLayout, sDistribution, fResources, iResType, fAxis1, fAxis2, fWidth, fHeight, iMode, iSteps, fTilt, fRotate, sProperties)
+; Input: ellipseAdd('Asteroid',0,0,20000,'Cylinder','roid.dist',4,0,20000,20000,1000,200,1,40,0,0,'0,0,0')
+
+; Resources type posx, posy, posz, Rectangle, distribution, numResources, length, width, height, rotz, properties...
+; Resources type posx, posy, posz, Cylinder, distribution, numResources, radius, length, roty, rotz, properties...
+; Resources type posx, posy, posz, Sphere, distribution, numResources, radius, nill, roty, rotz, properties...
+
+Resources Asteroid, 19877, 1564, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 95, 0,0,0
+Resources Asteroid, 19387, 4655, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 104, 0,0,0
+Resources Asteroid, 18421, 7630, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 112, 0,0,0
+Resources Asteroid, 17000, 10418, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 122, 0,0,0
+Resources Asteroid, 15161, 12949, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 131, 0,0,0
+Resources Asteroid, 12949, 15161, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 140, 0,0,0
+Resources Asteroid, 10418, 17000, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 149, 0,0,0
+Resources Asteroid, 7630, 18421, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 157, 0,0,0
+Resources Asteroid, 4655, 19387, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 167, 0,0,0
+Resources Asteroid, 1564, 19877, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 176, 0,0,0
+Resources Asteroid, -1564, 19877, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -175, 0,0,0
+Resources Asteroid, -4655, 19387, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -167, 0,0,0
+Resources Asteroid, -7630, 18421, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -158, 0,0,0
+Resources Asteroid, -10418, 17000, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -148, 0,0,0
+Resources Asteroid, -12949, 15161, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -140, 0,0,0
+Resources Asteroid, -15161, 12949, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -130, 0,0,0
+Resources Asteroid, -17000, 10418, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -121, 0,0,0
+Resources Asteroid, -18421, 7630, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -113, 0,0,0
+Resources Asteroid, -19387, 4655, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -103, 0,0,0
+Resources Asteroid, -19877, 1564, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -94, 0,0,0
+Resources Asteroid, -19877, -1564, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -86, 0,0,0
+Resources Asteroid, -19387, -4655, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -76, 0,0,0
+Resources Asteroid, -18421, -7630, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -68, 0,0,0
+Resources Asteroid, -17000, -10418, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -59, 0,0,0
+Resources Asteroid, -15161, -12949, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -50, 0,0,0
+Resources Asteroid, -12949, -15161, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -40, 0,0,0
+Resources Asteroid, -10418, -17000, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -32, 0,0,0
+Resources Asteroid, -7630, -18421, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -23, 0,0,0
+Resources Asteroid, -4655, -19387, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -13, 0,0,0
+Resources Asteroid, -1564, -19877, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -5, 0,0,0
+Resources Asteroid, 1564, -19877, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 5, 0,0,0
+Resources Asteroid, 4655, -19387, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 13, 0,0,0
+Resources Asteroid, 7630, -18421, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 22, 0,0,0
+Resources Asteroid, 10418, -17000, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 32, 0,0,0
+Resources Asteroid, 12949, -15161, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 40, 0,0,0
+Resources Asteroid, 15161, -12949, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 49, 0,0,0
+Resources Asteroid, 17000, -10418, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 59, 0,0,0
+Resources Asteroid, 18421, -7630, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 67, 0,0,0
+Resources Asteroid, 19387, -4655, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 77, 0,0,0
+Resources Asteroid, 19877, -1564, 20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 86, 0,0,0
+
+
+; Generated using Homeworld Resource Maker v1.1, by Mikail
+; Created: Wed Sep 13 02:12:42 MDT 2006
+; Key: ellipseAdd(sResName, fPosX, fPosY, fPosZ, sLayout, sDistribution, fResources, iResType, fAxis1, fAxis2, fWidth, fHeight, iMode, iSteps, fTilt, fRotate, sProperties)
+; Input: ellipseAdd('Asteroid',0,0,-20000,'Cylinder','roid.dist',4,0,20000,20000,1000,200,1,40,0,0,'0,0,0')
+
+; Resources type posx, posy, posz, Rectangle, distribution, numResources, length, width, height, rotz, properties...
+; Resources type posx, posy, posz, Cylinder, distribution, numResources, radius, length, roty, rotz, properties...
+; Resources type posx, posy, posz, Sphere, distribution, numResources, radius, nill, roty, rotz, properties...
+
+Resources Asteroid, 19877, 1564, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 95, 0,0,0
+Resources Asteroid, 19387, 4655, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 104, 0,0,0
+Resources Asteroid, 18421, 7630, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 112, 0,0,0
+Resources Asteroid, 17000, 10418, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 122, 0,0,0
+Resources Asteroid, 15161, 12949, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 131, 0,0,0
+Resources Asteroid, 12949, 15161, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 140, 0,0,0
+Resources Asteroid, 10418, 17000, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 149, 0,0,0
+Resources Asteroid, 7630, 18421, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 157, 0,0,0
+Resources Asteroid, 4655, 19387, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 167, 0,0,0
+Resources Asteroid, 1564, 19877, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 176, 0,0,0
+Resources Asteroid, -1564, 19877, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -175, 0,0,0
+Resources Asteroid, -4655, 19387, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -167, 0,0,0
+Resources Asteroid, -7630, 18421, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -158, 0,0,0
+Resources Asteroid, -10418, 17000, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -148, 0,0,0
+Resources Asteroid, -12949, 15161, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -140, 0,0,0
+Resources Asteroid, -15161, 12949, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -130, 0,0,0
+Resources Asteroid, -17000, 10418, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -121, 0,0,0
+Resources Asteroid, -18421, 7630, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -113, 0,0,0
+Resources Asteroid, -19387, 4655, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -103, 0,0,0
+Resources Asteroid, -19877, 1564, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -94, 0,0,0
+Resources Asteroid, -19877, -1564, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -86, 0,0,0
+Resources Asteroid, -19387, -4655, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -76, 0,0,0
+Resources Asteroid, -18421, -7630, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -68, 0,0,0
+Resources Asteroid, -17000, -10418, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -59, 0,0,0
+Resources Asteroid, -15161, -12949, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -50, 0,0,0
+Resources Asteroid, -12949, -15161, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -40, 0,0,0
+Resources Asteroid, -10418, -17000, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -32, 0,0,0
+Resources Asteroid, -7630, -18421, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -23, 0,0,0
+Resources Asteroid, -4655, -19387, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -13, 0,0,0
+Resources Asteroid, -1564, -19877, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, -5, 0,0,0
+Resources Asteroid, 1564, -19877, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 5, 0,0,0
+Resources Asteroid, 4655, -19387, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 13, 0,0,0
+Resources Asteroid, 7630, -18421, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 22, 0,0,0
+Resources Asteroid, 10418, -17000, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 32, 0,0,0
+Resources Asteroid, 12949, -15161, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 40, 0,0,0
+Resources Asteroid, 15161, -12949, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 49, 0,0,0
+Resources Asteroid, 17000, -10418, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 59, 0,0,0
+Resources Asteroid, 18421, -7630, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 67, 0,0,0
+Resources Asteroid, 19387, -4655, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 77, 0,0,0
+Resources Asteroid, 19877, -1564, -20000, Cylinder, roid.dist, 4, 1000, 3295, NaN, 86, 0,0,0
+
+
+; Generated using Homeworld Resource Maker v1.1, by Mikail
+; Created: Wed Sep 13 02:13:52 MDT 2006
+; Key: ellipseAdd(sResName, fPosX, fPosY, fPosZ, sLayout, sDistribution, fResources, iResType, fAxis1, fAxis2, fWidth, fHeight, iMode, iSteps, fTilt, fRotate, sProperties)
+; Input: ellipseAdd('Asteroid',0,0,0,'Cylinder','pebble.dist',8,0,30000,30000,2000,200,1,40,0,0,'0,0,0')
+
+; Resources type posx, posy, posz, Rectangle, distribution, numResources, length, width, height, rotz, properties...
+; Resources type posx, posy, posz, Cylinder, distribution, numResources, radius, length, roty, rotz, properties...
+; Resources type posx, posy, posz, Sphere, distribution, numResources, radius, nill, roty, rotz, properties...
+
+Resources Asteroid, 29815, 2347, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 94, 0,0,0
+Resources Asteroid, 29081, 6982, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 104, 0,0,0
+Resources Asteroid, 27631, 11445, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 113, 0,0,0
+Resources Asteroid, 25500, 15627, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 122, 0,0,0
+Resources Asteroid, 22742, 19423, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 131, 0,0,0
+Resources Asteroid, 19423, 22742, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 140, 0,0,0
+Resources Asteroid, 15627, 25500, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 149, 0,0,0
+Resources Asteroid, 11445, 27631, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 157, 0,0,0
+Resources Asteroid, 6982, 29081, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 166, 0,0,0
+Resources Asteroid, 2347, 29815, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 176, 0,0,0
+Resources Asteroid, -2347, 29815, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -175, 0,0,0
+Resources Asteroid, -6982, 29081, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -167, 0,0,0
+Resources Asteroid, -11445, 27631, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -157, 0,0,0
+Resources Asteroid, -15627, 25500, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -149, 0,0,0
+Resources Asteroid, -19423, 22742, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -140, 0,0,0
+Resources Asteroid, -22742, 19423, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -130, 0,0,0
+Resources Asteroid, -25500, 15627, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -121, 0,0,0
+Resources Asteroid, -27631, 11445, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -113, 0,0,0
+Resources Asteroid, -29081, 6982, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -103, 0,0,0
+Resources Asteroid, -29815, 2347, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -95, 0,0,0
+Resources Asteroid, -29815, -2347, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -86, 0,0,0
+Resources Asteroid, -29081, -6982, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -77, 0,0,0
+Resources Asteroid, -27631, -11445, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -67, 0,0,0
+Resources Asteroid, -25500, -15627, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -59, 0,0,0
+Resources Asteroid, -22742, -19423, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -50, 0,0,0
+Resources Asteroid, -19423, -22742, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -40, 0,0,0
+Resources Asteroid, -15627, -25500, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -31, 0,0,0
+Resources Asteroid, -11445, -27631, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -23, 0,0,0
+Resources Asteroid, -6982, -29081, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -14, 0,0,0
+Resources Asteroid, -2347, -29815, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, -5, 0,0,0
+Resources Asteroid, 2347, -29815, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 5, 0,0,0
+Resources Asteroid, 6982, -29081, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 13, 0,0,0
+Resources Asteroid, 11445, -27631, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 23, 0,0,0
+Resources Asteroid, 15627, -25500, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 31, 0,0,0
+Resources Asteroid, 19423, -22742, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 40, 0,0,0
+Resources Asteroid, 22742, -19423, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 49, 0,0,0
+Resources Asteroid, 25500, -15627, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 59, 0,0,0
+Resources Asteroid, 27631, -11445, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 67, 0,0,0
+Resources Asteroid, 29081, -6982, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 77, 0,0,0
+Resources Asteroid, 29815, -2347, 0, Cylinder, pebble.dist, 8, 2000, 5021, NaN, 85, 0,0,0

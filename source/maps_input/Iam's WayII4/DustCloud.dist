@@ -1,0 +1,6 @@
+;Relative frequencies of dust clouds
+
+DustCloud0       0   1
+DustCloud1       1   2
+DustCloud2       2   1
+DustCloud3       1   0

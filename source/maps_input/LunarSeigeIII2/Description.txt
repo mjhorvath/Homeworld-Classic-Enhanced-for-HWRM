@@ -1,0 +1,12 @@
+Description	LunarSeigeIII(2)
+Description Version 1.0 
+Description This battle is between the remaining space-based lunar defenses and a large Hiigaran attack fleet. Each side has 3 main battle groups already spread out, and 1 strike craft regiment nearby. There is also an additional battle group escorting the command ship. Slipgate generators are included, one being a converted Turanic outpost, the rest composed of Bentusi slipgate nodes.       
+Description This map has a large starting fleet. Build support modules on the carriers right away. If you dont like the extra ships, you can easily scuttle them to instantly free up support needs, but they are part of this story line which is why they were included. I understand that some people get frustrated by lots of starting ships. Please, if lots of starting ships bother you, dont get mad, just retire them (or scuttle them for that instant satisfaction!!)
+Description I love ALL the ships in the Homeworld series, and i like to give players the ability to use some ships that they wouldn't otherwise be able to use. And i happen to enjoy massive fleets. I also like to include older ships as a tribute to Homeworld, without which Cataclysm would not have come about. Enjoy my maps!
+Description Author : Gen&F&l&a&kRabbi (shig2@peoplepc.com)
+
+
+Font            Arial_b12.hff
+Color           0, 200, 255
+DropShadow      Yes
+

@@ -1,0 +1,58 @@
+; MissionMan script, Monday, Jun 21 1999, 12:27:25 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R2,Mothership
+
+Ships     ,-152000,0,-225,0,R2,Carrier,1,NULL_FORMATION|UseAsMothership|?,?,?
+
+Ships     ,-150000,-400,-225,0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,-150000,400,-225,0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,-152450,-900,-225,0,R2,StandardDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,-152450,900,-225,0,R2,MissileDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,-153600,0,-225,0,R2,DFGFrigate,3,BROAD_FORMATION|?|?,?,?
+Ships     ,-154100,0,-225,0,R2,CloakGenerator,3,BROAD_FORMATION|?|?,?,?
+Ships     ,-154700,0,-225,0,R2,ProximitySensor,4,NULL_FORMATION|?|?,?,?
+
+Ships     ,-150000,-400,-2225,0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,-150000,400,-2225,0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,-152450,-400,-2225,0,R2,StandardDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,-152450,400,-2225,0,R2,MissileDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,-153600,0,-2225,0,R2,DFGFrigate,1,BROAD_FORMATION|?|?,?,?
+Ships     ,-154100,250,-1975,0,R2,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,-154700,0,-2225,0,R2,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+
+Ships     ,-150000,-400,2225,0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,-150000,400,2225,0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,-152450,-400,2225,0,R2,StandardDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,-152450,400,2225,0,R2,MissileDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,-153600,0,2225,0,R2,DFGFrigate,1,BROAD_FORMATION|?|?,?,?
+Ships     ,-154100,250,2275,0,R2,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,-154700,0,2225,0,R2,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+
+Ships     ,-151000,0,800,0,R2,SensorArray,1,BROAD_FORMATION|?|?,?,?
+Ships     ,-63779,-915,15000,0,R2,HeavyCruiser,1,BROAD_FORMATION|?|?,?,?
+Ships     ,-64279,-65,15500,0,R2,StandardDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,-64279,-65,14500,0,R2,MissileDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,-65179,-915,14900,0,R2,DFGFrigate,1,BROAD_FORMATION|?|?,?,?
+Ships     ,-65179,-665,15100,0,R2,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,-65679,-915,15000,0,R2,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+
+Ships     ,-29801,315056,17910,0,R2,ProximitySensor,1,PICKET_FORMATION|?|?,?,?
+Ships     ,37687,198053,20856,0,R2,ProximitySensor,1,PICKET_FORMATION|?|?,?,?
+Ships     ,72621,67552,22382,0,R2,ProximitySensor,1,PICKET_FORMATION|?|?,?,?
+Ships     ,-39801,315056,-16910,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,62621,67552,-11382,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,27687,198053,-13856,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,-39801,315056,44910,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,62621,67552,49382,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,27687,198053,47856,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,-39801,-315056,-16910,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,27687,-198053,-13856,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,62621,-67552,-11382,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,-39801,-315056,44910,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,27687,-198053,47856,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,62621,-67552,49382,0,R2,MinelayerCorvette,2,PICKET_FORMATION|?|?,?,?
+Ships     ,72621,-67552,22382,0,R2,ProximitySensor,1,PICKET_FORMATION|?|?,?,?
+Ships     ,-29801,-315056,17910,0,R2,ProximitySensor,1,PICKET_FORMATION|?|?,?,?
+Ships     ,37687,-198053,20856,0,R2,ProximitySensor,1,PICKET_FORMATION|?|?,?,?
+
+

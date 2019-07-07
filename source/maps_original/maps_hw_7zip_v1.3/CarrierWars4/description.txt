@@ -1,0 +1,14 @@
+Description	Carrier Wars:
+Description     On a standard patrol, your small fleet discovers a major resource pocket.  With only limited technology, capture and hold this valuable area!
+Description     
+Description     Made by:
+Description     Peregrine-&D&N&A
+Description     
+Description     You can contact me at Philip1701@aol.com and tell me what you think.
+
+
+Color           160, 000, 000
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

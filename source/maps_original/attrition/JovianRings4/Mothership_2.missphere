@@ -1,0 +1,6 @@
+; MissionSphere Object: R2,Mothership
+
+Ships     ,188249,92818,2000,0,R1,Mothership,1,NULL_FORMATION|?|?,?,?
+Ships     ,188824,92828,2000,0,R1,ResourceCollector,1,PARADE_FORMATION|?|?,?,?
+Ships     ,188370,92730,2000,0,R1,ResearchShip,1,PARADE_FORMATION|?|?,?,?
+Ships     ,188825,92829,2000,0,R1,ResourceController,1,PARADE_FORMATION|?|?,?,?

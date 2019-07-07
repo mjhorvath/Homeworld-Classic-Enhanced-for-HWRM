@@ -1,0 +1,14 @@
+Description	DeepSpace
+Description     Big Map with lot's of stuff, good 2hr battle
+Description
+Description	BUILT	: Marcus Hutchinson (marcus3@mediaone.net)
+Description	HANDLE  : Mouse-DD
+Description	VERSION	: 1.1 (Jan,2000).
+Description	WEBSITE	: www.Marcus3.com
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

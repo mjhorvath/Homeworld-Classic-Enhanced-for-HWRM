@@ -1,0 +1,21 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:34 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+Derelict    Homeworld,0,3000000,0,0,-90,0,?,?,,,,
+Resources    Asteroid,-260066,112775,-69684,Cylinder,WeeAsteroid.dist,1,10500,44391.9,9.8,-49.7,     ?,     ?
+Resources    Asteroid,-231794,79399,-62109,Cylinder,WeeAsteroid.dist,2,15500,44391.2,11.2,-42.2,     ?,     ?
+Resources    Asteroid,-199556,50130,-53471,Cylinder,WeeAsteroid.dist,3,20000,44392.1,12.4,-34.7,     ?,     ?
+Resources    Asteroid,-163903,25467,-43918,Cylinder,WeeAsteroid.dist,8,25000,44391.8,13.4,-27,     ?,     ?
+Resources    Asteroid,-125446,5833,-33613,Cylinder,WeeAsteroid.dist,12,30500,44392.2,14.2,-19.4,     ?,     ?
+Resources    Asteroid,-84842,-8436,-22733,Cylinder,WeeAsteroid.dist,16,35500,44391.5,14.7,-11.6,     ?,     ?
+Resources    Asteroid,-42787,-17097,-11465,Cylinder,WeeAsteroid.dist,22,40000,44391.5,15,-3.9,     ?,     ?
+Resources    Asteroid,0,-20000,0,Cylinder,WeeAsteroid.dist,26,52500,44391.5,-345,-176.1,     ?,     ?
+Resources    Asteroid,42787,-17097,11465,Cylinder,WeeAsteroid.dist,22,40000,44391.5,-345.3,-168.4,     ?,     ?
+Resources    Asteroid,84842,-8436,22733,Cylinder,WeeAsteroid.dist,16,35500,44392.2,-345.8,-160.6,     ?,     ?
+Resources    Asteroid,125446,5833,33613,Cylinder,WeeAsteroid.dist,12,30500,44391.8,-346.6,-153,     ?,     ?
+Resources    Asteroid,163903,25467,43918,Cylinder,WeeAsteroid.dist,8,25000,44392.1,-347.6,-145.3,     ?,     ?
+Resources    Asteroid,199556,50130,53471,Cylinder,WeeAsteroid.dist,3,20000,44391.2,-348.8,-137.8,     ?,     ?
+Resources    Asteroid,231794,79399,62109,Cylinder,WeeAsteroid.dist,2,15500,44391.9,-350.2,-130.3,     ?,     ?
+Resources    Asteroid,260066,112775,69684,Cylinder,WeeAsteroid.dist,1,10500,44391.9,-351.7,-122.8,     ?,     ?

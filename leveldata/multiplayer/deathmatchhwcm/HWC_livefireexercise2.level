@@ -1,0 +1,187 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Plenty of resources. Plenty of targets. No resistance and one slipgate. And excellent way to shake down your fleet.",
+	"",
+	"Settings: default.",
+}
+
+LevelName = [[Live Fire Exercise (2)]]
+LevelFile = [[livefireexercise2]]
+SourceGame = "HWC"
+NumberOfPlayers = 2
+
+SensorsZoom = {53000, 80000,}
+UniverseSize = {113670, 113670, 75780, }
+
+LevelBackground = "mission08"
+LevelMusic = "3"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{44814.9, -44372.8, 275.5, 114.0,},
+	{-80077.1, 80033.8, 14689.2, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "smothership", {44814.9, -44372.8, 275.5,}, 0, {0, 0, 114.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{12, "", "ssentinel", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "srammingfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smultibeamfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{4, "", "smimic", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "smcv", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{5, "", "sleech", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "shivefrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "sdreadnought", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {43696.2, -52570.0, 275.0,}, 0, {0, 0, 0.0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "sacv", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{5, "", "sacolyte", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-80077.1, 80033.8, 14689.2,}, 1, {0, 0, 0.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smultibeamfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "shivefrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sacolyte", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sacv", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sprocessor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sprocessor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+	{1, "dcrystal0", {-26764.2, 532.7, 14320.6,},},
+	{1, "dcrystal1", {-4725.2, 14215.4, 9488.5,},},
+	{1, "dcrystal0", {25214.5, -47118.9, -17131.5,},},
+	{1, "dcrystal1", {-12226.0, 24351.8, 13275.2,},},
+	{1, "dcrystal0", {2701.6, 17572.2, -1767.3,},},
+	{1, "dcrystal1", {-7960.4, -13172.7, -399.6,},},
+	{1, "dcrystal0", {34903.4, -12539.4, 7279.2,},},
+	{1, "dcrystal1", {14263.9, -6358.7, -16182.4,},},
+	{1, "dcrystal0", {322.6, -22809.3, -6031.5,},},
+	{1, "dcrystal1", {9331.4, -36681.5, -7332.4,},},
+}
+
+Distributions =
+{
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+		dustcloud4 = 0,
+		dustcloud5 = 0,
+		dustcloud6 = 0,
+		dustcloud7 = 0,
+	},
+	type0 =
+	{
+		asteroid0 = 1,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	verywell07 =
+	{
+		asteroid0 = 3,
+		asteroid1 = 0,
+		asteroid2 = 2,
+		asteroid3 = 1,
+		asteroid4 = 1,
+	},
+	type2 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	type3 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	type4 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{26412.4, -29754.4, -2359.1,}, "cylinder", "dustcloud", 15, 1218.1, 613.2, 7.7, -169.6,},
+	{{30066.4, -31891.0, -1700.6,}, "cylinder", "type0", 20, 3898.4, 1978.9, 9.1, -173.6,},
+	{{32107.6, -31053.0, -658.5,}, "cylinder", "verywell07", 10, 1922.8, 976.0, 9.1, -173.6,},
+	{{-22115.4, 26649.9, 6190.0,}, "cylinder", "dustcloud", 15, 1218.1, 613.2, 9.2, -31.1,},
+	{{-24635.9, 31623.6, 7099.6,}, "cylinder", "type0", 20, 3898.4, 1978.9, 10.8, -35.0,},
+	{{-25495.2, 31306.1, 8167.6,}, "cylinder", "verywell07", 10, 1922.8, 976.0, 10.8, -35.0,},
+	{{20250.0, -26516.4, -2034.9,}, "cylinder", "type0", 10, 1500.0, 1980.0, 0.7, 152.9,},
+	{{12183.0, -20595.8, -1935.6,}, "cylinder", "type0", 10, 1500.0, 1980.0, -1.8, 136.6,},
+	{{5923.2, -13500.3, -696.6,}, "cylinder", "type0", 10, 1500.0, 1980.0, -11.5, 130.0,},
+	{{-1127.5, -7022.0, 99.3,}, "cylinder", "type0", 10, 1500.0, 1980.0, -1.2, 143.5,},
+	{{-8268.8, -90.0, 160.9,}, "cylinder", "type0", 10, 1500.0, 1980.0, -3.9, 130.4,},
+	{{-12950.5, 8704.4, 972.7,}, "cylinder", "type0", 10, 1500.0, 1980.0, -6.7, 114.8,},
+	{{-18163.9, 17998.8, 3066.3,}, "cylinder", "type0", 10, 1753.0, 2313.9, -11.9, 124.8,},
+	{{25312.3, -25194.7, -4564.2,}, "cylinder", "type0", 10, 704.4, 281.8, -24.2, 150.9,},
+	{{40569.8, -38869.7, -2768.6,}, "cylinder", "type2", 1, 704.4, 281.8, -14.9, -31.8,},
+	{{29365.5, -39303.3, -1082.4,}, "cylinder", "type3", 1, 704.4, 281.8, -14.9, -31.8,},
+	{{29301.2, -25876.0, 741.9,}, "cylinder", "type4", 1, 704.4, 281.8, -14.9, -31.8,},
+	{{21757.6, -35106.3, -4812.8,}, "cylinder", "type2", 1, 704.4, 281.8, -53.9, -70.2,},
+	{{34648.4, -40400.4, -5057.5,}, "cylinder", "type3", 1, 704.4, 281.8, -53.9, -70.2,},
+	{{23696.6, -41007.8, -5150.1,}, "cylinder", "type4", 1, 704.4, 281.8, -53.9, -70.2,},
+	{{-23248.4, 29473.1, 4565.8,}, "cylinder", "type0", 10, 2241.2, 2958.4, -2.2, 110.6,},
+	{{29504.9, -32908.5, -1384.5,}, "cylinder", "type0", 10, 2467.3, 3256.8, -2.2, 110.6,},
+	{{-32753.3, 4213.7, -3108.1,}, "cylinder", "type0", 10, 1500.0, 1980.0, -2.4, 16.4,},
+	{{-22895.7, 5568.0, -2044.8,}, "cylinder", "type0", 10, 1500.0, 1980.0, -9.1, 1.2,},
+	{{-13725.3, 5166.8, 564.9,}, "cylinder", "type0", 10, 1500.0, 1980.0, -20.2, -2.9,},
+	{{-4330.0, 5619.3, 2523.8,}, "cylinder", "type0", 10, 1500.0, 1980.0, -6.8, 7.8,},
+	{{5528.1, 5636.2, 3891.7,}, "cylinder", "type0", 10, 1500.0, 1980.0, -12.7, -4.4,},
+	{{14728.7, 2883.1, 6665.0,}, "cylinder", "type0", 10, 1500.0, 1980.0, -18.7, -19.5,},
+	{{24489.5, 457.8, 10762.9,}, "cylinder", "type0", 10, 1753.0, 2313.9, -21.7, -8.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

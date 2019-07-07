@@ -1,0 +1,152 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[Flower Power (4) - Best Played TvB But Can Be Played FFA]],
+	[[]],
+	[[A Flower that has Power   =)   Starting Ships : 1 research ship 2 collectors 1 probe]],
+	[[]],
+	[[Map By : Moonquake-&B&i&B]],
+	[[v 1.0 - July 05, Y2k+1]],
+	[[moonquake3@hotmail.com]],
+	[[&B&i&B Addy : www.bestinbritain.org]],
+	[[]],
+	[[]],
+}
+
+LevelName = [[Flower Power (4)]]
+LevelFile = [[Flower Power4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {40000, 320000,}
+UniverseSize = {215000, 215000, 45000, }
+
+LevelBackground = "ez07"
+LevelMusic = "8"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{90000.0, 0.0, 0.0, -180.0,},
+	{-90000.0, 0.0, 0.0, 0.0,},
+	{0.0, 90000.0, 0.0, -90.0,},
+	{0.0, -90000.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 90000.0, 0.0,}, 2, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "probe", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-90000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "probe", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {90000.0, 0.0, 0.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "probe", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -90000.0, 0.0,}, 3, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	scattered =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+	nebula =
+	{
+		nebula0 = 1,
+		nebula1 = 2,
+		nebula2 = 4,
+		nebula3 = 8,
+		nebula4 = 16,
+	},
+	asteroidlong =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-35000.0, 9000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, -15.0,},
+	{{-35000.0, -9000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, 15.0,},
+	{{66000.0, -7000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, 45.0,},
+	{{66000.0, 7000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, -45.0,},
+	{{-66000.0, -7000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, -45.0,},
+	{{-66000.0, 7000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, 45.0,},
+	{{7000.0, -66000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, 45.0,},
+	{{-7000.0, -66000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, -45.0,},
+	{{7000.0, 66000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, -45.0,},
+	{{-7000.0, 66000.0, 0.0,}, "cylinder", "scattered", 14, 2500.0, 25000.0, 0.0, 45.0,},
+	{{35000.0, -9000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, -15.0,},
+	{{35000.0, 9000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, 15.0,},
+	{{9000.0, 35000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, -105.0,},
+	{{-9000.0, 35000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, 105.0,},
+	{{9000.0, -35000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, 105.0,},
+	{{-9000.0, -35000.0, 0.0,}, "cylinder", "scattered", 30, 2500.0, 50000.0, 0.0, -105.0,},
+	{{-9000.0, -35000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, -105.0,},
+	{{9000.0, -35000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, 105.0,},
+	{{-9000.0, 35000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, 105.0,},
+	{{9000.0, 35000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, -105.0,},
+	{{35000.0, 9000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, 15.0,},
+	{{35000.0, -9000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, -15.0,},
+	{{-7000.0, 66000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, 45.0,},
+	{{7000.0, 66000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, -45.0,},
+	{{-7000.0, -66000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, -45.0,},
+	{{-66000.0, 7000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, 45.0,},
+	{{7000.0, -66000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, 45.0,},
+	{{-66000.0, -7000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, -45.0,},
+	{{66000.0, 7000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, -45.0,},
+	{{66000.0, -7000.0, 0.0,}, "cylinder", "asteroidlong", 15, 2500.0, 25000.0, 0.0, 45.0,},
+	{{-35000.0, 9000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, -15.0,},
+	{{-35000.0, -9000.0, 0.0,}, "cylinder", "asteroidlong", 20, 2500.0, 50000.0, 0.0, 15.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 150, 20000.0, 20000.0, 6000.0, 15000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

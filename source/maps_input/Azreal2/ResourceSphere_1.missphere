@@ -1,0 +1,63 @@
+; MissionMan script, Tuesday, May 23 2000, 9:34:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,50000.0,0.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,43000.0,25000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,25000.0,43000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,0.0,50000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,-25000.0,43000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,-43000.0,25000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,-50000.0,0.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,-43000.0,-25000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,-25000.0,-43000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,0.0,-50000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,25000.0,-43000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,43000.0,-25000.0,0.0,Cylinder,Asteroid.dist,50,15000.0,100.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,0.0,43000.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,25000.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,-25000.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,-43000.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,-43000.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,-25000.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,25000.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,43000.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,43000.0,0.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,25000.0,0.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,0.0,0.0,50000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,-25000.0,0.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,-43000.0,0.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,-43000.0,0.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-25000.0,0.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,0.0,0.0,-50000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,25000.0,0.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,43000.0,0.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,36980.0,21500.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,21500.0,36980.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,-21500.0,36980.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,-36980.0,21500.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,-36980.0,-21500.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,-21500.0,-36890.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,21500.0,-36980.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,36980.0,-21500.0,25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,36980.0,21500.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,21500.0,36980.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,-21500.0,36980.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,-36980.0,21500.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,-36980.0,-21500.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,-21500.0,-36890.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,21500.0,-36980.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,36980.0,-21500.0,-25000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,17678.0,17678.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,-17678.0,17678.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,-17678.0,-17678.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,17678.0,-17678.0,43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,17678.0,17678.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,-17678.0,17678.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,-17678.0,-17678.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,17678.0,-17678.0,-43000.0,Cylinder,Asteroid.dist,50,15000.0,100.0,60.0,315.0,     ?,     ?
+
+Resources    Nebula,0.0,0.0,0.0,Nebula,Nebula.dist,50,15000.0,15000.0,15000.0,8000,0,?
+Resources    Nebula,0.0,0.0,0.0,Nebula,Nebula.dist,100,150000.0,5000.0,05000.0,8000,0,?
+Resources    Nebula,0.0,0.0,0.0,Nebula,Nebula.dist,100,5000.0,150000.0,5000.0,8000,0,?
+Resources    Nebula,0.0,0.0,0.0,Nebula,Nebula.dist,100,5000.0,5000.0,150000.0,8000,0,?

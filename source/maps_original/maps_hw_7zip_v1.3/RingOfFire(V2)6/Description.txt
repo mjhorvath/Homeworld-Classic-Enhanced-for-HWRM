@@ -1,0 +1,12 @@
+Description  Ring Of Fire(V2) (6-8)
+Description
+Description  Once many centuries ago a resource carrier of the Taiidan Empire suffered a Cautastrophic engine meltdown. The explosion left this unique pattern of resources.
+Description  There must be atlest 6 players to play this map or ellse you cant start..
+Description  Settings : default
+Description  Author   : Error 404 / Remade by LiquidDAB April 2001
+Description  Version  : v2.0 (April 2001)
+ 
+
+Font Arial_b12.hff
+Color 100, 200, 155
+DropShadow Yes

@@ -1,0 +1,66 @@
+; MissionMan script, Wednesday, Aug 10 2005, 11:51:11 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: &Swarming &Night &Dreams6
+; Info: &Swarming &Night &Dreams4 (2,4,or6)
+
+[&Swarming &Night &Dreams4 (2,4,or6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    3,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,1000
+MissionSphere    5,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,1000
+
+Lighting    default
+Background    PlanetOfOrigin_scarred
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    100000
+smUniverseSizeZ    50000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,All
+ExcludeShips    R2,All
+ExcludeShips    R1,All
+IncludeShips    R1,AttackBomber
+IncludeShips    R1,HeavyCorvette
+IncludeShips    R1,HeavyInterceptor
+IncludeShips    R1,HeavyDefender
+IncludeShips    R1,LightCorvette
+IncludeShips    R1,LightInterceptor
+IncludeShips    R1,Mothership
+IncludeShips    R1,MultiGunCorvette
+IncludeShips    R1,RepairCorvette
+IncludeShips    R1,ResearchShip
+IncludeShips    R1,ResourceCollector
+IncludeShips    R1,ResourceController
+IncludeShips    R1,AdvanceSupportFrigate
+IncludeShips    R2,AdvanceSupportFrigate
+IncludeShips    R2,ResourceController
+IncludeShips    R2,ResourceCollector
+IncludeShips    R2,ResearchShip
+IncludeShips    R2,RepairCorvette
+IncludeShips    R2,MultiGunCorvette
+IncludeShips    R2,Mothership
+IncludeShips    R2,LightInterceptor
+IncludeShips    R2,LightCorvette
+IncludeShips    R2,HeavyDefender
+IncludeShips    R2,HeavyInterceptor
+IncludeShips    R2,HeavyCorvette
+IncludeShips    R2,AttackBomber
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    18

@@ -1,0 +1,33 @@
+; MissionMan script, Wednesday, Mar 29 2006, 5:25:43 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Splity's Arena2
+; Info: Splity's Arena (2,4,6,or8)
+
+[Splity's Arena (2,4,6,or8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+
+Lighting    default
+Background    ez05,180,  0
+smDepthCueRadius    80000
+smDepthCueStartRadius    50000
+smCircleBorder    120000
+smZoomMax    200000
+smZoomMin    20000
+smInitialDistance    105000
+smUniverseSizeX    300000
+smUniverseSizeZ    80000
+smUniverseSizeY    300000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    42

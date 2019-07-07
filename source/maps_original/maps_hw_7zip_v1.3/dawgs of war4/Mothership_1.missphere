@@ -1,0 +1,13 @@
+; MissionMan script, Friday, Jul 28 2000, 9:37:09 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,67698.0,0.0,0.0,-180.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,65010.0,2760.0,0.0,0.0,R1,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,65040.0,1580.0,0.0,0.0,R1,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,65140.0,-990.0,0.0,1.0,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,0,?
+Ships     ,65145.0,-1995.0,0.0,179.0,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,0,?
+Ships     ,65105.0,-3005.0,0.0,-2.0,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,0,?
+Ships     ,65105.0,-4025.0,0.0,-179.0,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,-40.0,-1320.0,0.0,Traders,JunkyardDawg,1,NULL_FORMATION|?|?,0,?
+

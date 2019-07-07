@@ -1,0 +1,15 @@
+Description	PeaceMakers: 3 on 3 Team Play
+Description     Fourth in the Ground Zero Series: The same entity has
+Description     brought you to another proving ground. Do you have what 
+Description     it takes to claim peace and yet be victorious?
+Description     You are still being watched. GOOD LUCK.
+Description	BUILT	: March 27, 2000 
+Description	VERSION	: 1 (4th in series)
+Description	Author	: Unkown Entity
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

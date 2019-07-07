@@ -1,0 +1,167 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Teelan 4  Reports of Pirates in this sector all ships on full alert . map by teelan backgound by overkill(the drunken pirate clan)        ",
+	"",
+	"",
+	"",
+	"Settings: default.",
+}
+
+LevelName = [[Teelan (4)]]
+LevelFile = [[teelan4]]
+SourceGame = "HWC"
+NumberOfPlayers = 8
+
+SensorsZoom = {50000, 300000,}
+UniverseSize = {50000, 50000, 45000, }
+
+LevelBackground = "goldneb_btg"
+LevelMusic = "24"
+
+RUsRatio = 1
+
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-20116.4, -19166.1, 0.0, 44.0,},
+	{-123.0, -19327.7, 0.0, 87.0,},
+	{-22552.7, 22.3, 0.0, 4.0,},
+	{-415.3, 20993.2, 0.0, -88.0,},
+	{20777.2, 20798.3, 0.0, -139.0,},
+	{20942.9, 407.5, 0.0, -179.0,},
+	{-20008.6, 21118.8, 0.0, -44.0,},
+	{19896.7, -20045.4, 0.0, 135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "smothership", {-20116.4, -19166.1, 0.0,}, 0, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-123.0, -19327.7, 0.0,}, 1, {0, 0, 87.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-22552.7, 22.3, 0.0,}, 2, {0, 0, 4.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-415.3, 20993.2, 0.0,}, 3, {0, 0, -88.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {20777.2, 20798.3, 0.0,}, 4, {0, 0, -139.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {20942.9, 407.5, 0.0,}, 5, {0, 0, -179.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-20008.6, 21118.8, 0.0,}, 6, {0, 0, -44.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {19896.7, -20045.4, 0.0,}, 7, {0, 0, 135.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "p1outpost", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_p1", "null_formation",},
+	{1, "", "p1mothership", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_p1", "null_formation",},
+	{3, "", "p1ionarrayfrigate", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_p1", "null_formation",},
+	{1, "", "djunk2shipwreck", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{20, "", "p1fighter", {-1545.0, 3576.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_p1", "x_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+	{4, "dcrystal1", {-1545.5, 3796.4, 0.0,},},
+	{4, "dcrystal0", {201.8, 3846.4, 0.0,},},
+}
+
+Distributions =
+{
+	type0 =
+	{
+		asteroid0 = 1,
+		asteroid1 = 4,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+	type3 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+		dustcloud4 = 0,
+		dustcloud5 = 0,
+		dustcloud6 = 0,
+		dustcloud7 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{17.7, 3.9, 0.0,}, "cylinder", "type0", 10, 2500.0, 1000.0, 0.0, 0.0,},
+	{{29.6, -4497.6, 0.0,}, "cylinder", "type3", 5, 1270.0, 950.0, 0.0, 0.0,},
+	{{210.7, 8535.2, 0.0,}, "cylinder", "dust", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{-1385.0, -1385.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, -1355.0, -7315.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, -375.0, 8555.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, -10835.0, 1355.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, 8335.0, -75.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{125.0, -30505.0, 650.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -136.0,},
+	{{-675.0, 19385.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -136.0,},
+	{{-21860.0, 940.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -136.0,},
+	{{29225.0, 3315.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -136.0,},
+	{{57200.0, -59340.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -136.0,},
+	{{58155.0, -56555.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -136.0,},
+	{{40947.5, 129043.9, -532.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -18.0,},
+	{{38040.1, 128579.7, -532.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, -18.0,},
+	{{-5685.0, 1970.0, 8520.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{18845.0, 11800.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{16530.0, 2915.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{11680.0, 2985.0, 15630.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 0.0,},
+	{{-12380.0, -11655.0, 1285.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 70.9,},
+	{{-7615.0, -12540.0, -20880.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 70.9,},
+	{{-28965.0, -18490.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 70.9,},
+	{{-25395.0, -5450.0, 0.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 70.9,},
+	{{4660.0, 26550.0, 220.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 70.9,},
+	{{-17475.0, -39720.0, 920.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 70.9,},
+	{{-12835.0, -17290.0, 3660.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 26.2,},
+	{{0.0, -12760.0, 30580.0,}, "rectangle", "type0", 10, 1000.0, 5000.0, 5000.0, 26.2,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

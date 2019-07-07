@@ -1,0 +1,137 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[Hill B][LLy Land (6) - best played tvb]],
+	[[]],
+	[[Similar to sub 3 but wi more ru's 8) Starting units r same as talas]],
+	[[]],
+	[[]],
+	[[By: B][LLy Da &B&i&B  but not wi out da help of da main marn Moonquake-&B&i&B 8)]],
+	[[v 1.0 - June 22 , 2k1]],
+	[[bunglebear@talk21.com]],
+	[[]],
+	[[]],
+	[[]],
+	[[]],
+}
+
+LevelName = [[Hill BLLy Land (6)]]
+LevelFile = [[Hill B][LLy Land6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {40000, 175000,}
+UniverseSize = {67000, 100000, 22500, }
+
+LevelBackground = "ez08"
+LevelMusic = "11"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-52000.0, -42001.0, 0.0, 15.0,},
+	{-52000.0, 22001.0, 0.0, -15.0,},
+	{2335.0, 52000.0, 0.0, -87.0,},
+	{54001.0, -41000.0, 0.0, 155.0,},
+	{54001.0, 21000.0, 0.0, -155.0,},
+	{2335.0, -72000.0, 0.0, 87.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-52000.0, -42001.0, 0.0,}, 0, {0, 0, 15.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-52000.0, 22001.0, 0.0,}, 1, {0, 0, -15.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {2335.0, 52000.0, 0.0,}, 2, {0, 0, -87.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {54001.0, -41000.0, 0.0,}, 3, {0, 0, 155.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {54001.0, 21000.0, 0.0,}, 4, {0, 0, -155.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {2335.0, -72000.0, 0.0,}, 5, {0, 0, 87.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	scattered =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, -10000.0, 0.0,}, "sphere", "dustcloudcentre", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -10000.0, 0.0,}, "sphere", "scattered", 50, 10000.0, 20000.0, 0.0, -1.0,},
+	{{54001.0, 21000.0, 0.0,}, "sphere", "scattered", 16, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-52000.0, 22001.0, 0.0,}, "sphere", "scattered", 16, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-52000.0, -42001.0, 0.0,}, "sphere", "scattered", 16, 10000.0, 20000.0, 0.0, 0.0,},
+	{{2335.0, 52000.0, 0.0,}, "sphere", "scattered", 16, 10000.0, 20000.0, 0.0, 0.0,},
+	{{2335.0, -72000.0, 0.0,}, "sphere", "scattered", 16, 10000.0, 20000.0, 0.0, 0.0,},
+	{{54001.0, -41000.0, 0.0,}, "sphere", "scattered", 16, 10000.0, 20000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

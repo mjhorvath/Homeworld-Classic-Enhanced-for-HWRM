@@ -1,0 +1,120 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+}
+
+LevelName = [[DEN OF DRAGONS II (2-4)]]
+LevelFile = [[DragonDenII3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {10000, 150000,}
+UniverseSize = {200000, 200000, 100000, }
+
+LevelBackground = "ez06"
+LevelMusic = "12"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r2","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, -100000.0, 0.0, 90.0,},
+	{90000.0, 52500.0, 0.0, 180.0,},
+	{-90000.0, 52500.0, 0.0, -60.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {90000.0, 52500.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r2", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {0.0, -100000.0, 0.0,}, 0, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-90000.0, 52500.0, 0.0,}, 2, {0, 0, -60.0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{14, "", "p3frigate", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "p3", "sphere_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 100,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 30, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, -110000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{100000.0, 60000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-100000.0, 60000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, 0.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, -8000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, -8000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, -8000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, 0.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, 8000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, 8000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, 8000.0, 0.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, 0.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, -8000.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, -8000.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, -8000.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, 0.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, 8000.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, 8000.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, 8000.0, -8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, 0.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, -8000.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, -8000.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, -8000.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, 0.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{8000.0, 8000.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, 8000.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-8000.0, 8000.0, 8000.0,}, "sphere", "asteroid", 24, 4000.0, 8000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

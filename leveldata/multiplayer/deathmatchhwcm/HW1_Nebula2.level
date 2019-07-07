@@ -1,0 +1,98 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Nebula",
+	"This map is quite unusually unique. Ya gota to be good to survive.",
+	"Hope you enjoy.",
+	"",
+	"AUTHOR	 : medamanx",
+	"E-MAIL	 : medamanx@hotmail.com  (fer any comments er questions ya got bout the map)",
+}
+
+LevelName = [[Nebula... (1v1)]]
+LevelFile = [[Nebula2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "greenneb"
+LevelMusic = "20"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-100000.0, -10000.0, 0.0, 0.0,},
+	{100000.0, 10000.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {100000.0, 10000.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-100000.0, -10000.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	neb =
+	{
+		nebula0 = 0,
+		nebula1 = 5,
+		nebula2 = 3,
+		nebula3 = 2,
+		nebula4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	-- modified from the original to reduce the numbers of nebulae
+	{{-60000.0, -60000.0, 0.0,}, "nebula", "neb", 300, 50000.0, 50000.0, 50000.0, 2000,},
+	{{-50000.0, 50000.0, 50000.0,}, "nebula", "neb", 75, 50000.0, 50000.0, 50000.0, 1000,},
+	{{-50000.0, 50000.0, -50000.0,}, "nebula", "neb", 75, 50000.0, 50000.0, 50000.0, 1000,},
+	{{50000.0, -50000.0, -50000.0,}, "nebula", "neb", 75, 50000.0, 50000.0, 50000.0, 1000,},
+	{{50000.0, -50000.0, 50000.0,}, "nebula", "neb", 75, 50000.0, 50000.0, 50000.0, 1000,},
+	{{0.0, 0.0, 0.0,}, "nebula", "neb", 300, 50000.0, 50000.0, 50000.0, 2000,},
+	{{-30000.0, -30000.0, 0.0,}, "nebula", "neb", 300, 50000.0, 50000.0, 50000.0, 2000,},
+	{{30000.0, 30000.0, 0.0,}, "nebula", "neb", 300, 50000.0, 50000.0, 50000.0, 2000,},
+	{{60000.0, 60000.0, 0.0,}, "nebula", "neb", 300, 50000.0, 50000.0, 50000.0, 2000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

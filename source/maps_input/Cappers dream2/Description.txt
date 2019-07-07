@@ -1,0 +1,17 @@
+Description     Cappers dream
+Description	    watch out for rouge scouts and harvest wise.
+Description      
+Description     
+Description     Map By: &L&a&g&s&y
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

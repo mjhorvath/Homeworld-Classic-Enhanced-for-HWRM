@@ -1,0 +1,149 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Mystic Bubbles",
+	"lot's of stuff, good for newbies",
+	"",
+	"BUILT	: Myst [Co]",
+	"VERSION	: 1.0  Feb 2000",
+	"WEBSITE	: ",
+}
+
+LevelName = [[Mystic Bubbles(2-4)]]
+LevelFile = [[Mystic Bubbles2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez10"
+LevelMusic = "-1"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 50000.0, 1000.0, -90.0,},
+	{0.0, -48000.0, 1000.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, -48000.0, 1000.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "mothership", {0.0, 50000.0, 1000.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	big =
+	{
+		asteroid0 = 186,
+		asteroid1 = 0,
+		asteroid2 = 5,
+		asteroid3 = 5,
+		asteroid4 = 4,
+	},
+	small =
+	{
+		asteroid0 = 25,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 25,
+		asteroid4 = 0,
+	},
+	small1 =
+	{
+		asteroid0 = 25,
+		asteroid1 = 5,
+		asteroid2 = 0,
+		asteroid3 = 5,
+		asteroid4 = 15,
+	},
+	test =
+	{
+		asteroid0 = 50,
+		asteroid1 = 0,
+		asteroid2 = 25,
+		asteroid3 = 25,
+		asteroid4 = 0,
+	},
+	crack =
+	{
+		asteroid0 = 50,
+		asteroid1 = 100,
+		asteroid2 = 25,
+		asteroid3 = 15,
+		asteroid4 = 10,
+	},
+	bubble =
+	{
+		dustcloud0 = 50,
+		dustcloud1 = 25,
+		dustcloud2 = 50,
+		dustcloud3 = 25,
+	},
+	tea =
+	{
+		dustcloud0 = 60,
+		dustcloud1 = 25,
+		dustcloud2 = 25,
+		dustcloud3 = 50,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "big", 200, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -25000.0,}, "sphere", "small", 50, 2000.0, 4000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 25000.0,}, "sphere", "small1", 50, 2000.0, 4000.0, 0.0, 0.0,},
+	{{-10000.0, -40000.0, 40000.0,}, "sphere", "test", 100, 3500.0, 7000.0, 0.0, 0.0,},
+	{{10000.0, 40000.0, -40000.0,}, "sphere", "test", 100, 3500.0, 7000.0, 0.0, 0.0,},
+	{{-40000.0, 0.0, 40000.0,}, "sphere", "crack", 200, 3500.0, 7000.0, 0.0, 0.0,},
+	{{40000.0, 0.0, -40000.0,}, "sphere", "crack", 200, 3500.0, 7000.0, 0.0, 0.0,},
+	{{-40000.0, -40000.0, -10000.0,}, "sphere", "bubble", 150, 6000.0, 12000.0, 0.0, 0.0,},
+	{{40000.0, 40000.0, 10000.0,}, "sphere", "bubble", 150, 6000.0, 12000.0, 0.0, 0.0,},
+	{{30000.0, -30000.0, 0.0,}, "sphere", "tea", 160, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-30000.0, 30000.0, 0.0,}, "sphere", "tea", 160, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-40000.0, 0.0, 0.0,}, "sphere", "small", 50, 2000.0, 4000.0, 0.0, 0.0,},
+	{{40000.0, 0.0, 0.0,}, "sphere", "small", 50, 2000.0, 4000.0, 0.0, 0.0,},
+	{{0.0, -39000.0, 0.0,}, "sphere", "small", 50, 2000.0, 4000.0, 0.0, 0.0,},
+	{{0.0, 40000.0, 0.0,}, "sphere", "small", 50, 2000.0, 4000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

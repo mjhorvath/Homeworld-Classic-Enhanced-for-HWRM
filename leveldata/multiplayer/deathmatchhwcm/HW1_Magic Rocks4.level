@@ -1,0 +1,141 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Magic Rocks",
+	"dolty fun map enjoy",
+	"",
+	"AUTHOR: Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[Magic Rocks (4)]]
+LevelFile = [[Magic Rocks4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = "ez05"
+LevelMusic = "17"
+
+RUsRatio = 1/2
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{10000.0, 10000.0, 0.0, 0.0,},
+	{10000.0, -10000.0, 0.0, 0.0,},
+	{-10000.0, -10000.0, 0.0, -180.0,},
+	{-10000.0, 10000.0, 0.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {10000.0, -10000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {10000.0, 10000.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-10000.0, -10000.0, 0.0,}, 2, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-10000.0, 10000.0, 0.0,}, 3, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 5,
+		asteroid3 = 2,
+		asteroid4 = 0,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 5,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 10,
+		asteroid3 = 10,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "rock", 50, 3500.0, 500.0, 90.0, 180.0,},
+	{{-4500.0, 4200.0, 0.0,}, "cylinder", "pebble", 5, 250.0, 6000.0, 0.0, -40.0,},
+	{{4500.0, -4200.0, 0.0,}, "cylinder", "pebble", 5, 250.0, 6000.0, 0.0, -40.0,},
+	{{-4500.0, -4200.0, 0.0,}, "cylinder", "pebble", 5, 250.0, 6000.0, 0.0, 40.0,},
+	{{4500.0, 4200.0, 0.0,}, "cylinder", "pebble", 15, 250.0, 6000.0, 0.0, 40.0,},
+	{{11647.0, 88467.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -7.5,},
+	{{34146.0, 82438.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -22.5,},
+	{{54319.0, 70792.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -35.5,},
+	{{70789.0, 54321.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -52.5,},
+	{{82436.0, 34149.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -67.5,},
+	{{88464.0, 11649.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -82.5,},
+	{{-11647.0, -88467.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -7.5,},
+	{{-34146.0, -82438.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -22.5,},
+	{{-54319.0, -70792.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -35.5,},
+	{{-70789.0, -54321.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -52.5,},
+	{{-82436.0, -34149.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -67.5,},
+	{{-88464.0, -11649.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, -82.5,},
+	{{11647.0, -88467.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 7.5,},
+	{{34146.0, -82438.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 22.5,},
+	{{54319.0, -70792.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 35.5,},
+	{{70789.0, -54321.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 52.5,},
+	{{82436.0, -34149.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 67.5,},
+	{{88464.0, -11649.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 82.5,},
+	{{-11647.0, 88467.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 7.5,},
+	{{-34146.0, 82438.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 22.0,},
+	{{-54319.0, 70792.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 35.0,},
+	{{-70789.0, 54321.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 52.0,},
+	{{-82436.0, 34149.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 67.0,},
+	{{-88464.0, 11649.0, 0.0,}, "cylinder", "asteroid", 105, 3500.4, 26106.8, 0.0, 82.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,17 @@
+Description    Volans Fleet Wars 
+Description	    Fear not swarmers and wallers volans comes with his caps
+Description      to decimate your puny fleets :)
+Description     
+Description     Map By: &L&a&g&s&y
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

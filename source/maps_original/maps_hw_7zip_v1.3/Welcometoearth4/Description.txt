@@ -1,0 +1,9 @@
+Description	A very silly idea I know. But I could'nt Resist. ( "Bleep Bleep". "take me to your leader")
+Description	
+Description	Teelan(sjet)<dp>
+Description	DRUNKENPIRATE1@AOL.COM
+Description    	
+Description	Ill be demoted for this one for sure.....Yikes
+Font 		Arial_b12.hff
+Color 		140, 245, 133
+DropShadow 	Yes

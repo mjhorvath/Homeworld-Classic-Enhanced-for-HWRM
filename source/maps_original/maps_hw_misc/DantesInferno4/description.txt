@@ -1,0 +1,11 @@
+Description     Dante's Inferno 2,4 or 6
+Description	Rocks only, no dust, great non-syncing map. 3v3 version is 3D 
+Description	By: &Fa&R, &Hg
+Description	
+Description	January 31, 2003
+
+
+Font            Arial_b12.hff
+Color           250, 300, 50
+DropShadow      Yes
+

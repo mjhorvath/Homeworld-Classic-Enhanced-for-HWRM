@@ -1,0 +1,17 @@
+Description     distance is your ally and your enemy here
+Description	    play smart and use tactics :)
+Description     Dont expect to get a carrier :)
+Description     map has carriers dissabled but rest is fair game :)
+Description     Map By: &L&a&g&s&y
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

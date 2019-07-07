@@ -1,0 +1,21 @@
+; MissionMan script, Friday, Jan 19 2001, 10:01:41 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,105000.0,-125000.0,-100000.0,135.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,130300.0,-146100.0,-101500.0,135.0,R1,StandardFrigate,5,PARADE_FORMATION|?|?,0,?
+Ships     ,130300.0,-142300.0,-101500.0,135.0,R1,IonCannonFrigate,5,PARADE_FORMATION|?|?,0,?
+Ships     ,102700.0,-118600.0,-101500.0,135.0,R1,DDDFrigate,3,BROAD_FORMATION|?|?,0,?
+Ships     ,130300.0,-138700.0,-101500.0,135.0,R1,AdvanceSupportFrigate,4,PARADE_FORMATION|?|?,0,?
+Ships     ,130000.0,-153600.0,-101500.0,135.0,R1,MissileDestroyer,2,PARADE_FORMATION|?|?,0,?
+Ships     ,130000.0,-156000.0,-101500.0,135.0,R1,StandardDestroyer,1,PARADE_FORMATION|?|?,0,?
+Ships     ,130500.0,-151500.0,-99000.0,135.0,R1,HeavyCruiser,1,PARADE_FORMATION|?|?,0,?
+Ships     ,131600.0,-152300.0,-100000.0,135.0,R1,GravWellGenerator,1,PARADE_FORMATION|?|?,0,?
+Ships     ,131600.0,-153600.0,-100000.0,135.0,R1,CloakGenerator,2,PARADE_FORMATION|?|?,0,?
+Ships     ,131600.0,-155100.0,-100000.0,135.0,R1,ProximitySensor,2,PARADE_FORMATION|?|?,0,?
+Ships     ,108500.0,-112800.0,-102200.0,135.0,P1,P1IonArrayFrigate,5,BROAD_FORMATION|?|colorScheme(3),0,?
+Ships     ,104800.0,-116400.0,-101600.0,135.0,P2,P2MultiBeamFrigate,5,BROAD_FORMATION|?|colorScheme(3),0,?
+Ships     ,90500.0,-110500.0,-100200.0,135.0,P2,P2AdvanceSwarmer,15,BROAD_FORMATION|?|colorScheme(3),0,?
+Ships     ,91500.0,-111500.0,-100000.0,135.0,R1,AdvanceSupportFrigate,1,BROAD_FORMATION|?|?,0,?
+Ships     ,92500.0,-112500.0,-100500.0,135.0,R1,HeavyCorvette,10,BROAD_FORMATION|?|?,0,?
+

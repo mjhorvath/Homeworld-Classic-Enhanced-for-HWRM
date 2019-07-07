@@ -1,0 +1,35 @@
+; MissionMan script, Sunday, Apr 30 2000, 4:24:10 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Helo4
+; Info: Helo
+
+[Helo]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,0.0,0.0,-200000.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,0.0,0.0,200000.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,-360000.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,0.0,0.0,360000.0,30000.0,0.0,Mothership_3.missphere,0
+
+Lighting    default
+Background    ez09, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    400000
+smZoomMin    50000
+smInitialDistance    50000
+smUniverseSizeX    65000
+smUniverseSizeZ    415000
+smUniverseSizeY    65000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    -1

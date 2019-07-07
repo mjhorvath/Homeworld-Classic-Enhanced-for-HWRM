@@ -1,0 +1,119 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"A very silly idea I know. But I could'nt Resist. ( 'Bleep Bleep'. 'take me to your leader')",
+	"",
+	"Teelan(sjet)<dp>",
+	"DRUNKENPIRATE1@AOL.COM",
+	"",
+	"Ill be demoted for this one for sure.....Yikes",
+}
+
+LevelName = [[Welcome to Earth (4)]]
+LevelFile = [[Welcometoearth4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "earth_btg"
+LevelMusic = "-1"
+
+RUsRatio = 1/8
+
+PebRatio = 15/16
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-64319.0, 0.0, 0.0, 0.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+	{0.0, 0.0, -30000.0, 0.0,},
+	{0.0, 0.0, 30000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-64319.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "proximitysensor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "mothership", {0.0, 0.0, -30000.0,}, 2, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "mothership", {0.0, 0.0, 30000.0,}, 3, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloud =
+	{
+		dustcloud0 = 5,
+		dustcloud1 = 5,
+		dustcloud2 = 5,
+		dustcloud3 = 5,
+	},
+	tiny =
+	{
+		asteroid0 = 1,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 4,
+		asteroid4 = 5,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{3060.0, -230.0, -410.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 2.4, 4.0,},
+	{{8510.0, -230.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, 2.0,},
+	{{-7665.0, -160.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, 3.0,},
+	{{-13030.0, -270.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, 41.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, -18.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, -14.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, -98.0,},
+	{{-2555.0, -100.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, -80.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, -52.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, 0.0,},
+	{{400.0, -90.0, 4950.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 87.0,},
+	{{315.0, -655.0, -5120.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 87.0,},
+	{{13685.0, 125.0, 0.0,}, "cylinder", "dustcloud", 50, 500.0, 5000.0, 0.0, 2.0,},
+	{{-31015.0, 3125.0, -17850.0,}, "sphere", "tiny", 50, 500.0, 1000.0, 0.0, 87.0,},
+	{{26625.0, 2555.0, 19460.0,}, "sphere", "tiny", 500, 500.0, 1000.0, 0.0, 87.0,},
+	{{-29375.0, 485.0, 19440.0,}, "sphere", "tiny", 50, 500.0, 1000.0, 0.0, 87.0,},
+	{{30040.0, 2150.0, -16955.0,}, "sphere", "tiny", 50, 500.0, 1000.0, 0.0, 87.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 1, 500.0, 5000.0, 0.0, -179.0,},
+	{{-2795.0, 1955.0, 0.0,}, "cylinder", "tiny", 1, 500.0, 5000.0, 0.0, -179.0,},
+	{{485.0, 2785.0, -5820.0,}, "cylinder", "tiny", 1, 500.0, 5000.0, 0.0, -179.0,},
+	{{-2795.0, -1015.0, 1670.0,}, "cylinder", "tiny", 1, 500.0, 5000.0, -0.4, 32.9,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

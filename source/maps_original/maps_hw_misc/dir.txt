@@ -1,0 +1,340 @@
+&A Dolty Map4
+&Dolt &Arena2
+&Dolt &Arena4
+&Ghosty's &Arena4
+&I Own You2
+&Katrina's &Tribute2
+&Katrina's &Tribute4
+&Neeby &Talas4
+&P&S&A vs Two4
+&Soban &Corral6
+&Soban &Corral8
+&Special &E&D2
+&Special &E&D4
+&Special &E&D6
+&Spinosaurus2
+&Spinosaurus3
+&Spinosaurus4
+&Spinosaurus5
+&Spinosaurus6
+&Two &Vs &Three5
+2005 Good &v&s Evil6
+2005 Good &v&s Evil8
+7STONES2
+7STONES4
+All Around Me4
+All Around Me6
+Bad Influence2
+Bad Influence4
+Bad Influence6
+Bad Influence8
+Bastage Arena4
+Bastage Arena6
+Bastage Arena8
+bigGrillworks2v24
+bigGrillworks3v36
+Blizzard2
+Blizzard4
+Blizzard6
+Blizzard8
+Broken PomiseII(no mines)2
+Broken PomiseII(no mines)4
+Command and Control4
+Command and Control6
+Creations
+Creations III2
+Creations III3
+Creations III4
+Creations III5
+Creations III6
+Creations2
+Creations3
+Creations4
+Creations5
+Creations6
+Crusade4
+Cubic Balls4
+Cubic Balls6
+Cubic Balls8
+Curtain2
+Curtain3
+Curtain4
+DantesF2
+DantesF3
+DantesF4
+DantesFate2
+DantesFate3
+DantesFate4
+DantesFate6
+DantesFateSpect4
+DantesFateSpect5
+DantesFateSpect6
+DantesHope2
+DantesHope3
+DantesHope4
+DantesInferno2
+DantesInferno4
+DantesInferno6
+DantesWay2
+DantesWay3
+DantesWay4
+Dark Souls2
+Dark Souls4
+Diamonde4
+Diamonde6
+Dolt Hunting8
+Dolt Rush4
+Doltafission4
+Dolterious II4
+Dolterious III4
+Dolterious4
+DominationIII6
+DominationIII8
+Down and Out4
+Down and Out6
+DreadsPath2
+DreadsPath4
+DreadsPath6
+DreadsPath8
+DustCloud2
+DustCloud3
+DustCloud4
+DustCloud5
+EDy's Ring II2
+EDy's Ring II3
+EDy's Ring II4
+EDy's Ring II5
+EDy's Ring II6
+EDy's Ring II7
+EDy's Ring II8
+EDy's Ring III2
+EDy's Ring III3
+EDy's Ring III4
+EDy's Ring III5
+EDy's Ring III6
+EDy's Ring III7
+EDy's Ring III8
+EDy's Ring2
+EDy's Ring3
+EDy's Ring4
+EDy's Ring5
+EDy's Ring6
+EDy's Ring7
+EDy's Ring8
+Electric Avenue2
+Electric Avenue4
+Electric Avenue6
+ESG WOR I 2
+ESG WOR I 4
+ESG WOR I 5
+ESG WOR I 6
+FeriilsCrossingII2
+FeriilsCrossingII4
+FeriilsCrossingII6
+FightForBerries6
+Flat Broke4
+Fluffy Rocks4
+FoggysSmallRoom2
+FoggysSmallRoom3
+FoggysSmallRoom4
+Great Barrier Reefa4
+Great Barrier Reefa6
+Great Barrier ReefaII spec2
+Great Barrier ReefaII spec3
+Great Barrier ReefaII spec4
+Great Barrier ReefaII2
+Great Barrier ReefaII3
+Great Barrier ReefaII4
+Great Barrier ReefaII5
+Great Barrier ReefaII6
+Great Barrier ReefaIII3
+Great Barrier ReefaIII4
+Great Barrier ReefaIII5
+Great Barrier ReefaIII6
+GreatWall2
+GreatWall3
+GreatWall4
+GreatWall5
+GreatWall6
+GreatWall7
+GreatWall8
+HscArena2
+HscArena3
+HscArena4
+HscArena5
+HscArena6
+Iam's WayII2
+Iam's WayII4
+Iam's WayII6
+Inverse Square2
+Inverse Square4
+Inverse Square6
+Inverse Square8
+Lags Corral8
+Lags crossway2
+Lags crossway3
+Lags crossway4
+Lags Death Path2
+Lags Death Path4
+Lagsy's Bomber Park4
+Lagsy's Farewell map2
+Lagsy's Farewell map3
+Lagsy's Farewell map4
+Lagsy's Farewell map5
+Lagsy's Farewell map6
+Lagsy's Farewell map7
+Lagsy's Farewell map8
+Live For The Music2
+Live For The Music4
+Lost Fate6
+Lost Souls Corral I4
+Lost Souls Corral I6
+Lost Souls Corral I8
+Lost Souls Corral II4
+Lost Souls Corral II6
+Lost Souls Corral II8
+Lost Ways2
+Lost Ways4
+LS Arena2
+LS Arena4
+Magic Rocks4
+Mouse Path2
+Mouse Path4
+Nub Land2
+Nub Land4
+OK Corral 2
+OK Corral 3
+OK Corral 4
+OK Corral 5
+OK Corral 6
+OK Corral 8
+OK Corral II 2
+OK Corral II 3
+OK Corral II 4
+OK Corral II 5
+OK Corral II 6
+OK Corral II 7
+OK Corral II 8
+Pax WOR I 2
+Pax WOR I 4
+Pax WOR I 5
+Pax WOR I 6
+RedOctober2
+RedOctober4
+Scattered2
+Scattered3
+Scattered4
+Scout Madness4
+Scout Madness6
+Scout MadnessII2
+Scout MadnessII3
+Scout MadnessII4
+Scout MadnessII5
+Scout MadnessII6
+Scout MadnessII7
+Scout MadnessII8
+Simplex2
+Simplex3
+Simplex4
+Simplex5
+Simplex6
+Simplex7
+Simplex8
+Simplexy8
+Skilled2
+Skilled3
+Skilled4
+snowflake4
+Soban Arena4
+Soban Arena6
+Soban Arena8
+Spinosaurus2
+Spinosaurus3
+Spinosaurus4
+Spinosaurus5
+Spinosaurus6
+Squared Ring I2
+Squared Ring I4
+Squared Ring I6
+Squared Ring I8
+Squared Ring II2
+Squared Ring II4
+Squared Ring II6
+Squared Ring II8
+Squared Ring III2
+Squared Ring III4
+Squared Ring III6
+Squared Ring III8
+Standoff2
+Standoff3
+Standoff4
+Standoff5
+Standoff6
+Standoff7
+Standoff8
+t00ners Revenge4
+t00ners Revenge6
+t00ners Revenge8
+t00ners RevengeII8
+Talas Crosspath4
+Talas Crosspath6
+Talas Crosspath8
+Talas Crossroads II2
+The 2 vs 2 Map4
+The Ball4
+The Diamond2
+The Diamond4
+The Diamond6
+ThePlex2
+ThePlex3
+ThePlex4
+TheVenging2
+TheVenging4
+TheVenging6
+TheVengingIb2
+TheVengingIb4
+TheVengingIb6
+Thunderdome4
+Thunderdome6
+Traitors Way II4
+Traitors Way4
+ULTIMATE &F-IGHTER ^0^2
+ULTIMATE &F-IGHTER ^0^4
+Unifission4
+Unifission6
+Unifission8
+Unifusion4
+Unifusion6
+Wall Training Map2
+Wall Training Map3
+Wall Training Map4
+War of the Ring 2
+War of the Ring 3
+War of the Ring 4
+War of the Ring 5
+War of the Ring 6
+War of the RingII 2
+War of the RingII 4
+War of the RingII 5
+War of the RingII 6
+Watusi2
+Watusi3
+Watusi4
+WOR Squared I2
+WOR Squared I4
+WOR Squared I6
+WOR Squared I8
+WOR Squared II2
+WOR Squared II4
+WOR Squared II6
+WOR Squared II8
+WTF Arena4
+WTF Arena6
+WTF Arena8
+Zeh Squarzy4
+Zeh Squarzy6
+Zeh Squarzy8
+Zip Scatt2
+Zonner Fun4
+Zonner Fun6
+Zonner Fun8

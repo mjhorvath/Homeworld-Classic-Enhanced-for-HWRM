@@ -1,0 +1,9 @@
+DescriptionSpanish    Like Steel Waves in the Great Stellar Ocean the Enemy comes closer...
+Description  
+Description    AUTHOR: Randix (starmaker72@hotmail.com)
+Description    VERSION: 9 Sept 2000
+
+Font Arial_b12.hff
+Color 250, 0, 250
+DropShadow Yes
+ 

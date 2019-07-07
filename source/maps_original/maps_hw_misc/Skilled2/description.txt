@@ -1,0 +1,10 @@
+Description    Skilled to Advanced Map for (2 or 4 players)
+Description    Original Design by Flea&g&u&r&u August|2001
+Description
+Description	
+Description	revised(july|2003)wra†h&P&S&A
+
+Font            Arial_b12.hff
+Color           200, 100, 200
+DropShadow      Yes
+

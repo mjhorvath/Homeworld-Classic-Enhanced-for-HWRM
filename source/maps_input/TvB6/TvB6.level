@@ -1,0 +1,59 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:35 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: TvB6
+; Info: TvB6
+
+[TvB (6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,0.0,0.0,ResourceSphere_1.missphere,4000
+MissionSphere    0,RACE_SECT,sMothership,0.0,0.0,0.0,0.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,RACE_SECT,sMothership,0.0,0.0,0.0,0.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,RACE_SECT,sMothership,0.0,0.0,0.0,0.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,RACE_SECT,sMothership,0.0,0.0,0.0,0.0,0.0,Mothership_3.missphere,0
+MissionSphere    4,RACE_SECT,sMothership,0.0,0.0,0.0,0.0,0.0,Mothership_4.missphere,0
+MissionSphere    5,RACE_SECT,sMothership,0.0,0.0,0.0,0.0,0.0,Mothership_5.missphere,0
+
+
+Lighting    Mission13
+Background    Mission13,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    280000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    120000
+smUniverseSizeZ    60000
+smUniverseSizeY    120000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+IncludeShips    RACE_TAIDAN,tMissileDestroyer
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+
+IncludeShips    RACE_TRADERS,trResearchStationBridge
+IncludeShips    RACE_TRADERS,trResearchStationTower
+IncludeShips    RACE_TRADERS,trMiningBase
+IncludeShips    RACE_TRADERS,trJunkyardHQ
+IncludeShips    RACE_TRADERS,trFloatingCity
+IncludeShips    RACE_TRADERS,trResearchStation
+
+IncludeShips    RACE_P1,p1Mothership
+IncludeShips    RACE_P1,p1Outpost
+
+IncludeShips    RACE_DERELICT,dJunk1PartA
+IncludeShips    RACE_DERELICT,dJunk1Shell
+IncludeShips    RACE_DERELICT,dJunk2Shipwreck
+IncludeShips    RACE_DERELICT,dJunk1Strut
+IncludeShips    RACE_DERELICT,dJunk3BoilerCasing
+IncludeShips    RACE_DERELICT,dJunk3Boiler
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+SongNumber    14
+LensFlare    ps-50-300mm-zoom
+

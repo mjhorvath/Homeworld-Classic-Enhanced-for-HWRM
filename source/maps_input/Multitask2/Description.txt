@@ -1,0 +1,10 @@
+Description	Multitasking
+Description	This map is designed for 1 on 1 intense gameplay. Plan carefully, your fleet depends on it. Attack or defend, you won't get to choose.
+Description	Hope you enjoy.
+Description	
+Description	AUTHOR  : medamanx
+Description	E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)
+
+Font 		Arial_b12.hff
+Color 		140, 245, 133
+DropShadow 	Yes

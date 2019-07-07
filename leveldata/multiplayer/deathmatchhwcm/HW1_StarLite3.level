@@ -1,0 +1,113 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Starlite Formation",
+	"The Ion partical field that holds this strange formation together has yet to be located. This may be our last chance to recover data from the area. Be careful.... (Just for Fun!)",
+	"",
+	"AUTHOR	: Jacelor - (Dustardz Clan)",
+	"VERSION	: 3-4.20 MAP:2-4 players",
+	"EMAIL	: jacelor@aol.com",
+}
+
+LevelName = [[StarLite (2-4)]]
+LevelFile = [[StarLite3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "7"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-64319.0, 0.0, 0.0, 0.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+	{555.9, -67142.2, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-64319.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {555.9, -67142.2, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	jacelor =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 3,
+		asteroid4 = 4,
+	},
+	nebbie =
+	{
+		nebula0 = 0,
+		nebula1 = 5,
+		nebula2 = 3,
+		nebula3 = 2,
+		nebula4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, -9.2, -45.7,},
+	{{621.0, -318.7, 143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, 9.2, -134.3,},
+	{{621.0, 318.7, 143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, 12.5, -163.6,},
+	{{621.0, 318.7, 143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, 12.5, 164.6,},
+	{{621.0, 318.7, 143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, 3.8, -106.6,},
+	{{621.0, -318.7, 143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, -3.3, -75.4,},
+	{{0.0, -318.7, 0.0,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, 9.2, -45.7,},
+	{{621.0, -637.4, -143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, -9.2, -134.3,},
+	{{621.0, 0.0, -143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, -12.5, -163.6,},
+	{{621.0, 0.0, -143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, -12.5, 164.6,},
+	{{621.0, 0.0, -143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, -3.8, -106.6,},
+	{{621.0, -637.3, -143.4,}, "cylinder", "jacelor", 100, 2500.0, 250000.0, 3.3, -75.4,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 637.4, 0.0,}, "nebula", "nebbie", 150, 94334.1, 94334.1, 94334.1, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,33 @@
+; MissionMan script, Monday, Oct 3 2005, 5:04:53 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: The Diamond2
+; Info: The Diamond (2,4,or6)
+
+[The Diamond (2,4,or6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+
+Lighting    ez06
+Background    ez05,  180
+smDepthCueRadius    500000
+smDepthCueStartRadius    200000
+smCircleBorder    900000
+smZoomMax    200000
+smZoomMin    30000
+smInitialDistance    750000
+smUniverseSizeX    1000000
+smUniverseSizeZ    500000
+smUniverseSizeY    1000000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    40

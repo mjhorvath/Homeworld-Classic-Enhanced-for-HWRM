@@ -1,0 +1,228 @@
+[MissileDestroyer]
+;D'Deridex (Romulan Warbird)
+
+;Source Files
+;=----------=
+pMexData                            MissileDestroyer\Rl0\LOD0\MissileDestroyer.mex
+LODFile                             MissileDestroyer.lod
+
+;Ship Physics
+;=----------=
+mass                                86400.0              ; ship mass [actual tonage / 50]
+momentOfInertiaX                    86400.0               ; resistance to rotation
+momentOfInertiaY                    86400.0               ; [fighter = 1]
+momentOfInertiaZ                    86400.0
+maxvelocity                         750.0               ; [fighter = 1000]
+maxrot                              10.0                ; maximum rotation speed [don't make faster than ~10]
+
+;Basic Ship Stats
+;=--------------=
+shipclass                           CLASS_Frigate
+buildCost                           2300                ; [1554000/[(90000/firepower)/(maxhealth/921)]]/buildtime
+buildTime                           450                 ; mass ^ 0.5 * 1.5 + 10
+maxhealth                           15600               ; hit points
+groupSize                           1                   ; size of group ships of this type tend to form
+repairTime                          1                   ; every this many seconds
+repairDamage                        17.2                 ; crew plus power divided by 100
+repairCombatTime                    1
+repairCombatDamage                  1.72                 ; repairdamage divided by 10
+
+blastRadiusShockWave                1.1  ; power divided by 200
+blastRadiusDamage                   440  ; power times 2
+
+;Moving Around
+;=-----------=
+thruststrength[TRANS_UP]            225.0                ; acceleration (m/s^2) [1-1000 approx. range]
+thruststrength[TRANS_DOWN]          225.0
+thruststrength[TRANS_RIGHT]         225.0
+thruststrength[TRANS_LEFT]          225.0
+thruststrength[TRANS_FORWARD]       750.0
+thruststrength[TRANS_BACK]          375.0
+rotstrength[ROT_YAWLEFT]            75.0                        ; rotational acceleration (deg/s^2) [0.01 - 1.0]
+rotstrength[ROT_YAWRIGHT]           75.0 
+rotstrength[ROT_PITCHUP]            75.0 
+rotstrength[ROT_PITCHDOWN]          75.0 
+rotstrength[ROT_ROLLRIGHT]          75.0 
+rotstrength[ROT_ROLLLEFT]           75.0
+turnspeed[TURN_YAW]                 0.75                          ; speed at which ship tries to turn (1=standard)
+turnspeed[TURN_PITCH]               1.5
+turnspeed[TURN_ROLL]                0.75
+
+MissileRegenerateTime                0.5               ; (2.3 / 4) every this many seconds one missile is regenerated
+
+
+;Weapons
+;=------=
+NUMBER_OF_GUNS                      10
+
+canTargetMultipleTargets            TRUE
+rotateToRetaliate                   TRUE
+passiveRetaliateZone                15000.0
+
+GUN         0
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        90                             ; damage variance per shot - low
+DamageHi                        110                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        65
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.5                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         1
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        90                             ; damage variance per shot - low
+DamageHi                        110                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        60
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.5                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         2
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        90                             ; damage variance per shot - low
+DamageHi                        110                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        60
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.5                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         3
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        90                             ; damage variance per shot - low
+DamageHi                        110                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        65
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.5                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         4
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        90                             ; damage variance per shot - low
+DamageHi                        110                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        65
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.5                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         5
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        90                             ; damage variance per shot - low
+DamageHi                        110                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        65
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.5                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         6
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        162                             ; damage variance per shot - low
+DamageHi                        198                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        80
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.9                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         7
+//Desired Range = 9500
+{
+Type                            GUN_Gimble
+SoundType                       GS_LargeEnergyCannon
+DamageLo                        90                             ; damage variance per shot - low
+DamageHi                        110                             ; damage variance per shot - high
+MinAngle                        0
+MaxAngle                        80
+BulletLength                    20.0                            ; visual only.  Length of bullet on screen
+BulletRange                     10000.0                           ; distance bullets travel before disappearing
+BulletSpeed                     10000.0                           ; measured in m/s.
+BulletMass                      0.5                              ; mass of bullet
+FireTime                        2.5                                ; fire repeat rate (reciprocal = shots/second)
+}
+
+GUN         8
+//Desired Range = 14500
+{
+Type                                GUN_MissileLauncher         ; type of gun.  Must spell this way.
+SoundType                           GS_MissleLauncher           ; must spell this way.
+DamageLo                                1440                    ; damage variance per shot - low
+DamageHi                                1760                   ; damage variance per shot - high
+MaxMissiles                             5                       ; maximum # of missiles this missile launcher can carry
+BulletRange                             20000
+BulletSpeed                             1500.0                  ; initial speed for missile
+FireTime                                0.2                    ; fire repeat rate (reciprocal = shots/second)
+BurstFireTime                           1
+BurstWaitTime                           4
+TriggerHappy                            90                      ; how triggerHapppy the ship is when firing the fixed.
+}
+
+GUN         9
+//Desired Range = 14500
+{
+Type                                GUN_MissileLauncher         ; type of gun.  Must spell this way.
+SoundType                           GS_MissleLauncher           ; must spell this way.
+DamageLo                                1440                    ; damage variance per shot - low
+DamageHi                                1760                   ; damage variance per shot - high
+MaxMissiles                             5                       ; maximum # of missiles this missile launcher can carry
+BulletRange                             20000
+BulletSpeed                             1500.0                  ; initial speed for missile
+FireTime                                0.2                    ; fire repeat rate (reciprocal = shots/second)
+BurstFireTime                           1
+BurstWaitTime                           4
+TriggerHappy                            90                      ; how triggerHapppy the ship is when firing the fixed.
+}
+
+WILL_FIT_CARRIER                FALSE
+
+;Explosions
+;=--------=
+explosionType                       ET_CorvetteExplosion
+
+minimumZoomDistance              	1400

@@ -1,0 +1,35 @@
+; MissionMan script, sábado, abr 8 2000, 7:34:27 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: CalculationError3
+; Info: CALCULATION ERROR (1-3)
+
+[CALCULATION ERROR (1-3)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,-12500.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    2,R2,Mothership,0.0,12500.0,0.0,30000.0,0.0,Mothership_2.missphere,1000 
+
+
+Lighting    default
+Background    ghost
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    100000
+smUniverseSizeZ    50000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    11

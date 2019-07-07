@@ -1,0 +1,23 @@
+; MissionMan script, Thursday, Dec 9 1999, 11:52:57 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,16791.0,-190.8,-13356.5,Cylinder,rocky.dist,20,3958.9,39588.9,48.0,0.0,0,?
+Resources    Asteroid,16791.0,-11257.6,8013.9,Cylinder,rocky.dist,20,3958.9,39588.9,-24.8,-41.3,0,?
+Resources    Asteroid,16791.0,11639.2,7059.9,Cylinder,rocky.dist,20,3958.9,39588.9,-23.5,42.0,0,?
+Resources    Asteroid,-16027.8,11524.4,-5850.8,Cylinder,rocky.dist,20,3958.9,39588.9,23.9,137.0,0,?
+Resources    Asteroid,-16027.8,-370.9,15069.8,Cylinder,rocky.dist,20,3958.9,39588.9,-47.0,-177.9,0,?
+Resources    Asteroid,-16027.8,-12041.3,-4652.8,Cylinder,rocky.dist,20,3958.9,39588.9,17.3,-135.6,0,?
+Resources    Asteroid,43899.8,-12624.6,8013.9,Cylinder,rocky.dist,20,3958.9,39588.9,-23.9,-136.0,0,?
+Resources    Asteroid,43692.2,-731.1,-12906.7,Cylinder,rocky.dist,20,3958.9,39588.9,47.0,178.9,0,?
+Resources    Asteroid,43488.5,10937.5,6815.8,Cylinder,rocky.dist,20,3958.9,39588.9,-17.3,136.6,0,?
+Resources    Asteroid,-43122.4,-13829.9,-5448.9,Cylinder,rocky.dist,20,3958.9,39588.9,21.8,-44.9,0,?
+Resources    Asteroid,-42914.8,-857.8,14820.6,Cylinder,rocky.dist,20,3958.9,39588.9,-46.8,4.3,0,?
+Resources    Asteroid,-42711.1,9762.7,-5485.6,Cylinder,rocky.dist,20,3958.9,39588.9,19.4,42.7,0,?
+Resources    Asteroid,-16409.4,34536.1,-20988.8,Cylinder,rocky.dist,20,3958.9,39588.9,-23.9,-136.0,0,?
+Resources    Asteroid,16791.0,-36825.8,24041.7,Cylinder,rocky.dist,20,3958.9,39588.9,-23.9,-136.0,0,?
+Resources    Asteroid,17554.2,37970.6,22133.6,Cylinder,rocky.dist,20,3958.9,39588.9,-23.9,133.0,0,?
+Resources    Asteroid,-17554.2,-40260.3,-20034.7,Cylinder,rocky.dist,20,3958.9,39588.9,-20.9,131.9,0,?
+Resources    Asteroid,5724.1,-572.8,30338.4,Cylinder,rocky.dist,20,3960.0,100000.0,0.4,90.1,0,?
+Resources    Asteroid,-5342.6,-1717.3,-27857.8,Cylinder,rocky.dist,20,3960.0,100000.0,0.4,90.1,0,?
+

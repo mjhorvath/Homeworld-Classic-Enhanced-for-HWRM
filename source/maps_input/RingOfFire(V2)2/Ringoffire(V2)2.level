@@ -1,0 +1,33 @@
+; MissionMan script, Thursday, Oct 7 1999, 12:02:40 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Ringoffire(V2)2
+; Info: Ring Of Fire (V2) (2-8)
+
+[Ring Of Fire (V2) (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+
+Lighting    default
+Background    ez07
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    400000
+smZoomMin    20000
+smInitialDistance    75000
+smUniverseSizeX    150000
+smUniverseSizeZ    100000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    11

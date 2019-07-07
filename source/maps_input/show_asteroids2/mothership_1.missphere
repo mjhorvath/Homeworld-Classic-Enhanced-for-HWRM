@@ -1,0 +1,10 @@
+; MissionMan script, Thursday, Feb 18 1999, 2:19:20 PM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; MissionSphere Object: R2,Mothership
+
+Resources    Asteroid,0.0,729.8,0.0,Cylinder,asteroid0.dist,1,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,35.2,1617.1,0.0,Cylinder,asteroid1.dist,1,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,44.7,2672.9,0.0,Cylinder,asteroid2.dist,1,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,69.8,3931.1,0.0,Cylinder,asteroid3.dist,1,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,95.0,5617.0,0.0,Cylinder,asteroid4.dist,1,500.0,1000.0,0.0,0.0,0,?
+

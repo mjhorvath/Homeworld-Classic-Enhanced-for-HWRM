@@ -1,0 +1,50 @@
+; MissionMan script, Wednesday, Oct 20 1999, 3:33:59 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Starpoint2
+; Info: Waystation Warfare
+
+[Waystation Warfare]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    -1,Traders,Mothership,8400.0,400.0,200.0,30000.0,0.0,Mothership_3.missphere,0
+
+Lighting    ez11, 75, 0
+Background    ez11
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    180000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    215000
+smUniverseSizeZ    215000
+smUniverseSizeY    215000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+IncludeShips    P2,P2Mothership
+; We have nothing, we are lost
+IncludeShips    Traders,FloatingCity
+; We have nothing, we are lost
+IncludeShips    P3,P3Megaship
+ExcludeDerelict    ALL
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    Scaffold
+IncludeDerelict    R1,Carrier
+IncludeDerelict    PrisonShipNew
+IncludeDerelict    R1,DDDFrigate
+IncludeDerelict    R1,HeavyCruiser
+IncludeDerelict    ScaffoldFingerB_scarred
+IncludeDerelict    R1,StandardFrigate
+IncludeDerelict    R1,IonCannonFrigate
+IncludeDerelict    R1,AdvanceSupportFrigate
+SongNumber    11
+Asteroid0sCanMove    2

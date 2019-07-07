@@ -1,0 +1,38 @@
+; MissionMan script, Tuesday, Aug 14 2001, 6:45:58 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: KadeshCrossroads4
+; Info: Kadesh Crossroads (4)
+
+[Kadesh Crossroads (4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,72690.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,72690.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,3609.0,-72690.0,0.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,3609.0,72690.0,0.0,30000.0,0.0,Mothership_3.missphere,0
+
+Lighting    default
+Background    ez10
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    160000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    120000
+smUniverseSizeZ    60000
+smUniverseSizeY    120000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    AngelMoon
+SongNumber    14

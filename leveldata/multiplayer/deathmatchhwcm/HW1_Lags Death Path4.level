@@ -1,0 +1,109 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"&L&a&g&s Death Path",
+	"1v1 or 2v2 ",
+	"the path leads to the sacrate resoruces they who can protect them ",
+	"shall prevail",
+	"",
+	"",
+	"",
+	"AUTHOR: &L&a&g&s&†&L&S",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Lags Death Path4 (2 or 4)]]
+LevelFile = [[Lags Death Path4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {5000, 1000000,}		-- too high
+UniverseSize = {200000, 200000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "27"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{1301.0, 65463.0, 0.0, -80.0,},
+	{-32515.0, 58526.0, -20000.0, -50.0,},
+	{3468.0, -71966.0, 0.0, 88.0,},
+	{33815.0, -52023.0, -20000.0, 140.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {1301.0, 65463.0, 0.0,}, 0, {0, 0, -80.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {33815.0, -52023.0, -20000.0,}, 3, {0, 0, 140.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-32515.0, 58526.0, -20000.0,}, 1, {0, 0, -50.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {3468.0, -71966.0, 0.0,}, 2, {0, 0, 88.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 3,
+		asteroid2 = 6,
+		asteroid3 = 8,
+		asteroid4 = 15,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-30000.0, 0.0, 0.0,}, "rectangle", "rock", 90, 20000.0, 200000.0, 5000.0, 0.0,},
+	{{39979.0, -2211.0, 0.0,}, "rectangle", "rock", 90, 20000.0, 200000.0, 5000.0, 0.0,},
+	{{-22903.0, -32288.0, -20000.0,}, "rectangle", "rock", 90, 20000.0, 200000.0, 5000.0, 30.0,},
+	{{46441.0, 7519.0, -20000.0,}, "rectangle", "rock", 90, 20000.0, 200000.0, 5000.0, 30.0,},
+	{{0.0, 0.0, 0.0,}, "rectangle", "rock", 78, 14000.0, 14000.0, 14000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

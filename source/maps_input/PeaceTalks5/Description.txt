@@ -1,0 +1,11 @@
+Description	Perhaps these great empires can work out their differences with talk? 
+Description     Rings of rich resources with the surrounding veins of low desity asteroids.
+Description	Teams are the top 2, vs the middle 2, vs the bottom 2.
+Description	AUTHOR	: (ib)Overkill
+Description	Designed for teams of 2. But FFA might be ok. 
+Description	Email any comments to Rob_128@Hotmail.com. I would like to hear good or bad comments.
+
+
+Font            Arial_b12.hff
+Color           0, 200, 255
+DropShadow      Yes

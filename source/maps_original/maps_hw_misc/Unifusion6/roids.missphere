@@ -1,0 +1,30 @@
+; MissionMan script, Saturday, Dec 3 2005, 10:02:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,centerroids.dist,14,3500.0,14000.0,0.0,0.0,2048,7
+Resources    Asteroid,37920.0,0.0,0.0,Sphere,outtyroids.dist,20,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,33500.0,-21000.0,0.0,Sphere,centerroids.dist,14,3500.0,7000.0,0.0,-45.0,2048,7
+Resources    Asteroid,18750.0,-35000.0,0.0,Sphere,outtyroids.dist,20,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,0.0,-41000.0,0.0,Sphere,centerroids.dist,14,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,-18750.0,-35000.0,0.0,Sphere,outtyroids.dist,20,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,-33500.0,-21000.0,0.0,Sphere,centerroids.dist,14,3500.0,7000.0,0.0,-45.0,2048,7
+Resources    Asteroid,-37920.0,0.0,0.0,Sphere,outtyroids.dist,20,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,-33500.0,21000.0,0.0,Sphere,centerroids.dist,14,3500.0,7000.0,0.0,-45.0,2048,7
+Resources    Asteroid,-18750.0,35000.0,0.0,Sphere,outtyroids.dist,20,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,0.0,41000.0,0.0,Sphere,centerroids.dist,14,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,18750.0,35000.0,0.0,Sphere,outtyroids.dist,20,3500.0,7000.0,0.0,0.0,2048,7
+Resources    Asteroid,33500.0,21000.0,0.0,Sphere,centerroids.dist,14,3500.0,7000.0,0.0,-45.0,2048,7
+Resources    Asteroid,44920.0,0.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,-90.0,2048,7
+Resources    Asteroid,40000.0,-21750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,65.0,2048,7
+Resources    Asteroid,27000.0,-40750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,45.0,2048,7
+Resources    Asteroid,0.0,-49000.0,0.0,Cylinder,outtyroids.dist,40,3500.0,40000.0,0.0,0.0,2048,7
+Resources    Asteroid,-27000.0,-40750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,-45.0,2048,7
+Resources    Asteroid,-40000.0,-21750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,-65.0,2048,7
+Resources    Asteroid,-44920.0,0.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,-90.0,2048,7
+Resources    Asteroid,-40000.0,21750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,65.0,2048,7
+Resources    Asteroid,-27000.0,40750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,45.0,2048,7
+Resources    Asteroid,0.0,49000.0,0.0,Cylinder,outtyroids.dist,40,3500.0,40000.0,0.0,0.0,2048,7
+Resources    Asteroid,27000.0,40750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,-45.0,2048,7
+Resources    Asteroid,40000.0,21750.0,0.0,Cylinder,outtyroids.dist,28,3500.0,24500.0,0.0,-65.0,2048,7
+

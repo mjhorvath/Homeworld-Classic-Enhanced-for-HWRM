@@ -1,0 +1,125 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Hiigara (2v2)",
+	"I have a few things to work out on my other map, which will come out soon. - Hiigara-SAA  Teams. Top-vs-Top Bottom-vs-Bottom",
+	"",
+	"SETTINGS : User choose",
+	"AUTHOR	 : Hiigara-SAA / Hiigara[&P&S&A] (Logan Black)  wizardme@earthlink.net ",
+	"VERSION      : 1.0 if no bugs (May 9,2000)",
+}
+
+LevelName = [[H I I G A R A]]
+LevelFile = [[hiigara2]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "default"
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-64319.0, 0.0, 0.0, 0.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+	{-67698.0, 0.0, 0.0, 180.0,},
+	{-67698.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-64319.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "mothership", {-67698.0, 0.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-67698.0, 0.0, 0.0,}, 3, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	nebula =
+	{
+		nebula0 = 0,
+		nebula1 = 5,
+		nebula2 = 3,
+		nebula3 = 2,
+		nebula4 = 10,
+	},
+	bigdustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "bigdustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "bigdustcloud", 80, 20000.0, 40000.0, 0.0, 0.0,},
+	{{40000.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 0.0,},
+	{{-40000.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, 40000.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 90.0,},
+	{{0.0, -40000.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 90.0,},
+	{{0.0, 0.0, 40000.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 90.0, 0.0,},
+	{{0.0, 0.0, -40000.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 90.0, 0.0,},
+	{{50000.0, 50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{50000.0, -50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, 50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, -50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 50000.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 50000.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -50000.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -50000.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{50000.0, 0.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{50000.0, 0.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, 0.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, 0.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 128, 40000.0, 40000.0, 40000.0, 12800,},
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 256, 80000.0, 80000.0, 80000.0, 25600,},
+	{{60000.0, 60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{60000.0, 60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{60000.0, -60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{60000.0, -60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, 60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, 60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, -60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, -60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

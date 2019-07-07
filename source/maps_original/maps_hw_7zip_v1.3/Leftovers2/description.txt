@@ -1,0 +1,11 @@
+Description     
+Description  
+Description    AUTHOR: Randix (starmaker72@hotmail.com)
+Description    VERSION: 18 April 2001
+
+
+
+Font Arial_b12.hff
+Color 250, 100, 0
+DropShadow Yes
+

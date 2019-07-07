@@ -1,0 +1,116 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Live For The Music",
+	"came up with this idea when I was playing subj listening to",
+	"some good trance techno beat music enjoy.",
+	"",
+	"",
+	"",
+	"AUTHOR: &L&a&g&s&ÿ&L&S",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Live For The Music (2or4)]]
+LevelFile = [[Live For The Music4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {5000, 1000000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = "ez06"
+LevelMusic = "41"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-25000.0, 0.0, 10000.0, 0.0,},
+	{25000.0, 0.0, -10000.0, 180.0,},
+	{0.0, 25000.0, 0.0, -90.0,},
+	{0.0, -25000.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {25000.0, 0.0, -10000.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-25000.0, 0.0, 10000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {0.0, 25000.0, 0.0,}, 2, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {0.0, -25000.0, 0.0,}, 3, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 5,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 5,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 15,
+		asteroid2 = 10,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-30000.0, 0.0, 5000.0,}, "sphere", "dust", 5, 1500.0, 3000.0, 0.0, 0.0,},
+	{{0.0, 30000.0, -5000.0,}, "sphere", "dust", 5, 1500.0, 3000.0, 0.0, 0.0,},
+	{{30000.0, 0.0, -15000.0,}, "sphere", "dust", 5, 1500.0, 3000.0, 0.0, 0.0,},
+	{{0.0, -30000.0, -5000.0,}, "sphere", "dust", 5, 1500.0, 3000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "rock", 15, 5000.0, 500.0, 90.0, 180.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 100, 50.0, 100000.0, 90.0, 180.0,},
+	{{-30000.0, 0.0, 5000.0,}, "sphere", "pebble", 30, 2000.0, 4000.0, 90.0, 180.0,},
+	{{0.0, 30000.0, -5000.0,}, "sphere", "pebble", 30, 2000.0, 4000.0, 90.0, 180.0,},
+	{{30000.0, 0.0, -15000.0,}, "sphere", "pebble", 30, 2000.0, 4000.0, 90.0, 180.0,},
+	{{0.0, -30000.0, -5000.0,}, "sphere", "pebble", 30, 2000.0, 4000.0, 90.0, 180.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

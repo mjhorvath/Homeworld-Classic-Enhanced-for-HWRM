@@ -1,0 +1,111 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[Death From Above II (4or6) - Best Played TvB]],
+	[[]],
+	[[Not as good as the first one   just abit bigger   and now u can have a 3vs3  =)  Starting Ships : 2 research ships.2 collectors]],
+	[[]],
+	[[Map By : Moonquake-&B&i&B]],
+	[[v 1.0 - June 21, 2001]],
+	[[moonquake3@hotmail.com]],
+	[[&B&i&B Addy : www.bestinbritain.org]],
+	[[]],
+	[[]],
+}
+
+LevelName = [[Death From Above II (4or6)]]
+LevelFile = [[DeathFromAbove II6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {40000, 320000,}
+UniverseSize = {215000, 215000, 45000, }
+
+LevelBackground = "ez05"
+LevelMusic = "11"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, -45000.0, -15000.0, 90.0,},
+	{0.0, -45000.0, 0.0, 90.0,},
+	{0.0, -45000.0, 14500.0, 90.0,},
+	{0.0, 45000.0, 0.0, -90.0,},
+	{0.0, 45000.0, 15000.0, -90.0,},
+	{0.0, 45000.0, -15000.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, -45000.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -45000.0, -15000.0,}, 0, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 45000.0, 0.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -45000.0, 14500.0,}, 2, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 45000.0, 15000.0,}, 4, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 45000.0, -15000.0,}, 5, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 14000.0,}, "cylinder", "dustcloudcentre", 40, 2500.0, 80000.0, 0.0, -90.0,},
+	{{0.0, 0.0, -16000.0,}, "cylinder", "dustcloudcentre", 40, 2500.0, 80000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dustcloudcentre", 170, 20000.0, 40000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dustcloudcentre", 40, 2500.0, 80000.0, 0.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

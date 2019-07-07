@@ -1,0 +1,204 @@
+;NGC-3184 SPHERE2
+;FRtilt(1st)  Slim with the tilted brim whats my muthafuckin' name?,,,,,,,,,,,,
+Resources    Asteroid,178174,25883,83084,Cylinder,TinyRing.dist,16,20000,52211,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,166032,75883,77422,Cylinder,TinyRing.dist,11,20000,52211,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,142575,120712,66484,Cylinder,TinyRing.dist,5,20000,52211,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,109402,157314,51015,Cylinder,TinyRing.dist,1,20000,52211,-19.6,-40.3,     ?,     ?
+Resources    Asteroid,68773,183196,32069,Cylinder,TinyRing.dist,1,20000,52211,-23,-24.6,     ?,     ?
+Resources    Asteroid,23457,196593,10938,Cylinder,TinyRing.dist,2,20000,52211,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,-23457,196593,-10938,Cylinder,TinyRing.dist,4,20000,52211,-24.8,8.3,     ?,     ?
+Resources    Asteroid,-68773,183196,-32069,Cylinder,TinyRing.dist,6,20000,52211,-23,24.6,     ?,     ?
+Resources    Asteroid,-109402,157314,-51015,Cylinder,TinyRing.dist,8,20000,52211,-19.6,40.3,     ?,     ?
+Resources    Asteroid,-142575,120712,-66484,Cylinder,TinyRing.dist,10,20000,52211,-14.9,55.2,     ?,     ?
+Resources    Asteroid,-166032,75883,-77422,Cylinder,TinyRing.dist,12,20000,52211,-9.3,69.4,     ?,     ?
+Resources    Asteroid,-178174,25883,-83084,Cylinder,TinyRing.dist,14,20000,52211,-3.2,83.2,     ?,     ?
+Resources    Asteroid,-178174,-25883,-83084,Cylinder,TinyRing.dist,16,20000,52211,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,-166032,-75883,-77422,Cylinder,TinyRing.dist,11,20000,52211,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,-142575,-120712,-66484,Cylinder,TinyRing.dist,5,20000,52211,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,-109402,-157314,-51015,Cylinder,TinyRing.dist,1,20000,52211,-19.6,-40.3,     ?,     ?
+Resources    Asteroid,-68773,-183196,-32069,Cylinder,TinyRing.dist,1,20000,52211,-23,-24.6,     ?,     ?
+Resources    Asteroid,-23457,-196593,-10938,Cylinder,TinyRing.dist,2,20000,52211,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,23457,-196593,10938,Cylinder,TinyRing.dist,4,20000,52211,-24.8,8.3,     ?,     ?
+Resources    Asteroid,68773,-183196,32069,Cylinder,TinyRing.dist,6,20000,52211,-23,24.6,     ?,     ?
+Resources    Asteroid,109402,-157314,51015,Cylinder,TinyRing.dist,8,20000,52211,-19.6,40.3,     ?,     ?
+Resources    Asteroid,142575,-120712,66484,Cylinder,TinyRing.dist,10,20000,52211,-14.9,55.2,     ?,     ?
+Resources    Asteroid,166032,-75883,77422,Cylinder,TinyRing.dist,12,20000,52211,-9.3,69.4,     ?,     ?
+Resources    Asteroid,178174,-25883,83084,Cylinder,TinyRing.dist,14,20000,52211,-3.2,83.2,     ?,     ?
+;FRtilt(2nd)  And Dr Dre said... Nothing you idiot! Dr Dre's dead! He's locked in my basement!,,,,,,,,,,,,
+Resources    Asteroid,194212,28213,90563,Cylinder,TinyRing.dist,15,12000,56910,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,180977,82713,84391,Cylinder,TinyRing.dist,11,12000,56910,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,155409,131576,72468,Cylinder,TinyRing.dist,5,12000,56910,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,119249,171472,55607,Cylinder,TinyRing.dist,1,12000,56910,-19.6,-40.3,     ?,     ?
+Resources    Asteroid,74963,199683,34956,Cylinder,TinyRing.dist,1,12000,56910,-23,-24.6,     ?,     ?
+Resources    Asteroid,25569,214286,11923,Cylinder,TinyRing.dist,2,12000,56910,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,-25569,214286,-11923,Cylinder,TinyRing.dist,4,12000,56910,-24.8,8.3,     ?,     ?
+Resources    Asteroid,-74963,199683,-34956,Cylinder,TinyRing.dist,5,12000,56910,-23,24.6,     ?,     ?
+Resources    Asteroid,-119249,171472,-55607,Cylinder,TinyRing.dist,8,12000,56910,-19.6,40.3,     ?,     ?
+Resources    Asteroid,-155409,131576,-72468,Cylinder,TinyRing.dist,9,12000,56910,-14.9,55.2,     ?,     ?
+Resources    Asteroid,-180977,82713,-84391,Cylinder,TinyRing.dist,11,12000,56910,-9.3,69.4,     ?,     ?
+Resources    Asteroid,-194212,28213,-90563,Cylinder,TinyRing.dist,13,12000,56910,-3.2,83.2,     ?,     ?
+Resources    Asteroid,-194212,-28213,-90563,Cylinder,TinyRing.dist,15,12000,56910,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,-180977,-82713,-84391,Cylinder,TinyRing.dist,10,12000,56910,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,-155409,-131576,-72468,Cylinder,TinyRing.dist,5,12000,56910,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,-119249,-171472,-55607,Cylinder,TinyRing.dist,1,12000,56910,-19.6,-40.3,     ?,     ?
+Resources    Asteroid,-74963,-199683,-34956,Cylinder,TinyRing.dist,1,12000,56910,-23,-24.6,     ?,     ?
+Resources    Asteroid,-25569,-214286,-11923,Cylinder,TinyRing.dist,2,12000,56910,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,25569,-214286,11923,Cylinder,TinyRing.dist,4,12000,56910,-24.8,8.3,     ?,     ?
+Resources    Asteroid,74963,-199683,34956,Cylinder,TinyRing.dist,5,12000,56910,-23,24.6,     ?,     ?
+Resources    Asteroid,119249,-171472,55607,Cylinder,TinyRing.dist,8,12000,56910,-19.6,40.3,     ?,     ?
+Resources    Asteroid,155409,-131576,72468,Cylinder,TinyRing.dist,9,12000,56910,-14.9,55.2,     ?,     ?
+Resources    Asteroid,180977,-82713,84391,Cylinder,TinyRing.dist,11,12000,56910,-9.3,69.4,     ?,     ?
+Resources    Asteroid,194212,-28213,90563,Cylinder,TinyRing.dist,13,12000,56910,-3.2,83.2,     ?,     ?
+;FRtilt(3rd)  Life is a ball a' alcohol and booty calls,,,,,,,,,,,,
+Resources    Asteroid,203118,29508,94715,Cylinder,TinyRing.dist,14,6000,59520,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,189276,86508,88261,Cylinder,TinyRing.dist,9,6000,59520,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,162535,137612,75791,Cylinder,TinyRing.dist,3,6000,59520,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,78401,208844,36559,Cylinder,TinyRing.dist,1,6000,59520,-23,-24.6,     ?,     ?
+Resources    Asteroid,26741,224116,12470,Cylinder,TinyRing.dist,2,6000,59520,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,-26741,224116,-12470,Cylinder,TinyRing.dist,4,6000,59520,-24.8,8.3,     ?,     ?
+Resources    Asteroid,-78401,208844,-36559,Cylinder,TinyRing.dist,6,6000,59520,-23,24.6,     ?,     ?
+Resources    Asteroid,-124717,179339,-58156,Cylinder,TinyRing.dist,8,6000,59520,-19.6,40.3,     ?,     ?
+Resources    Asteroid,-162535,137612,-75791,Cylinder,TinyRing.dist,10,6000,59520,-14.9,55.2,     ?,     ?
+Resources    Asteroid,-189276,86508,-88261,Cylinder,TinyRing.dist,12,6000,59520,-9.3,69.4,     ?,     ?
+Resources    Asteroid,-203118,29508,-94715,Cylinder,TinyRing.dist,14,6000,59520,-3.2,83.2,     ?,     ?
+Resources    Asteroid,-203118,-29508,-94715,Cylinder,TinyRing.dist,16,6000,59520,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,-189276,-86508,-88261,Cylinder,TinyRing.dist,11,6000,59520,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,-162535,-137612,-75791,Cylinder,TinyRing.dist,5,6000,59520,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,-26741,-224116,-12470,Cylinder,TinyRing.dist,1,6000,59520,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,26741,-224116,12470,Cylinder,TinyRing.dist,2,6000,59520,-24.8,8.3,     ?,     ?
+Resources    Asteroid,78401,-208844,36559,Cylinder,TinyRing.dist,4,6000,59520,-23,24.6,     ?,     ?
+Resources    Asteroid,124717,-179339,58156,Cylinder,TinyRing.dist,6,6000,59520,-19.6,40.3,     ?,     ?
+Resources    Asteroid,162535,-137612,75791,Cylinder,TinyRing.dist,8,6000,59520,-14.9,55.2,     ?,     ?
+Resources    Asteroid,189276,-86508,88261,Cylinder,TinyRing.dist,10,6000,59520,-9.3,69.4,     ?,     ?
+Resources    Asteroid,203118,-29508,94715,Cylinder,TinyRing.dist,12,6000,59520,-3.2,83.2,     ?,     ?
+;FRtilt(4th)  Well let me tell you, the biggest pimp on planet-mothafuckin-Earth is her mama,,,,,,,,,,,
+Resources    Asteroid,207574,30153,96793,Cylinder,Asteroid.dist,9,4000,60826,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,193428,88403,90197,Cylinder,Asteroid.dist,12,4000,60826,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,166101,140628,77454,Cylinder,Asteroid.dist,10,4000,60826,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,127454,183270,59433,Cylinder,Asteroid.dist,9,4000,60826,-19.6,-40.3,     ?,     ?
+Resources    Asteroid,80121,213423,37361,Cylinder,Asteroid.dist,5,4000,60826,-23,-24.6,     ?,     ?
+Resources    Asteroid,27328,229031,12743,Cylinder,Asteroid.dist,3,4000,60826,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,-27328,229031,-12743,Cylinder,Asteroid.dist,2,4000,60826,-24.8,8.3,     ?,     ?
+Resources    Asteroid,-80121,213423,-37361,Cylinder,Asteroid.dist,3,4000,60826,-23,24.6,     ?,     ?
+Resources    Asteroid,-127454,183270,-59433,Cylinder,Asteroid.dist,4,4000,60826,-19.6,40.3,     ?,     ?
+Resources    Asteroid,-166101,140628,-77454,Cylinder,Asteroid.dist,5,4000,60826,-14.9,55.2,     ?,     ?
+Resources    Asteroid,-193428,88403,-90197,Cylinder,Asteroid.dist,6,4000,60826,-9.3,69.4,     ?,     ?
+Resources    Asteroid,-207574,30153,-96793,Cylinder,Asteroid.dist,7,4000,60826,-3.2,83.2,     ?,     ?
+Resources    Asteroid,-207574,-30153,-96793,Cylinder,Asteroid.dist,9,4000,60826,-3.2,-83.2,     ?,     ?
+Resources    Asteroid,-193428,-88403,-90197,Cylinder,Asteroid.dist,12,4000,60826,-9.3,-69.4,     ?,     ?
+Resources    Asteroid,-166101,-140628,-77454,Cylinder,Asteroid.dist,10,4000,60826,-14.9,-55.2,     ?,     ?
+Resources    Asteroid,-127454,-183270,-59433,Cylinder,Asteroid.dist,9,4000,60826,-19.6,-40.3,     ?,     ?
+Resources    Asteroid,-80121,-213423,-37361,Cylinder,Asteroid.dist,5,4000,60826,-23,-24.6,     ?,     ?
+Resources    Asteroid,-27328,-229031,-12743,Cylinder,Asteroid.dist,3,4000,60826,-24.8,-8.3,     ?,     ?
+Resources    Asteroid,27328,-229031,12743,Cylinder,Asteroid.dist,2,4000,60826,-24.8,8.3,     ?,     ?
+Resources    Asteroid,80121,-213423,37361,Cylinder,Asteroid.dist,3,4000,60826,-23,24.6,     ?,     ?
+Resources    Asteroid,127454,-183270,59433,Cylinder,Asteroid.dist,4,4000,60826,-19.6,40.3,     ?,     ?
+Resources    Asteroid,166101,-140628,77454,Cylinder,Asteroid.dist,5,4000,60826,-14.9,55.2,     ?,     ?
+Resources    Asteroid,193428,-88403,90197,Cylinder,Asteroid.dist,6,4000,60826,-9.3,69.4,     ?,     ?
+Resources    Asteroid,207574,-30153,96793,Cylinder,Asteroid.dist,7,4000,60826,-3.2,83.2,     ?,     ?
+;centax  Join the party, i can provide the army!,,,,,,,,,,,
+Resources    Asteroid,-102890,31523,37875,Cylinder,TinyRing.dist,6,8835,35250,0,168,?,?
+Resources    Asteroid,-10305,-2938,-117758,Cylinder,TinyRing.dist,6,8785,39550,67.3,-22.6,?,?
+Resources    Asteroid,-106964.2,-36746.7,809.3,Cylinder,TinyRing.dist,6,8785,39550,28.6,58.6,?,?
+Resources    Asteroid,-107891,-12793,4913,Cylinder,TinyRing.dist,6,8785,39550,61,-12.1,?,?
+Resources    Asteroid,-120362,34470,36938,Cylinder,TinyRing.dist,3,8785,10900,7,174,?,?
+Resources    Asteroid,-122776.3,-67440.8,18481.7,Cylinder,TinyRing.dist,6,8785,39550,23.3,69,?,?
+Resources    Asteroid,-123161,-1262,-15274,Cylinder,TinyRing.dist,6,8785,39550,0,152,?,?
+Resources    Asteroid,-12531,-8977,0,Cylinder,TinyRing.dist,3,5455,10900,0,-153,?,?
+Resources    Asteroid,-125385,-32904,1321,Cylinder,TinyRing.dist,6,8785,39550,-8,-168,?,?
+Resources    Asteroid,-126387.5,-14081.2,39883.7,Cylinder,TinyRing.dist,6,8785,39550,60.9,14.5,?,?
+Resources    Asteroid,-13061,58359,140766,Cylinder,TinyRing.dist,6,8785,39550,74.1,23.3,?,?
+Resources    Asteroid,-135701.2,-101855.3,28833.8,Cylinder,TinyRing.dist,6,8785,39550,7.8,70.5,?,?
+Resources    Asteroid,-136297,34806,34872,Cylinder,TinyRing.dist,6,8785,35250,10,-179,?,?
+Resources    Asteroid,-145831.7,-19228.2,74768.9,Cylinder,TinyRing.dist,6,8785,39550,60.9,14.5,?,?
+Resources    Asteroid,-147424.6,-139060.3,30108.2,Cylinder,TinyRing.dist,6,8785,39550,0.6,78.7,?,?
+Resources    Asteroid,-151978.3,-176730.3,26973.6,Cylinder,TinyRing.dist,6,8785,39550,-10.8,86.8,?,?
+Resources    Asteroid,-153935.4,-214400.3,14296.1,Cylinder,TinyRing.dist,6,8785,39550,-26.7,86.5,?,?
+Resources    Asteroid,-155330.6,-245559.4,-7096.7,Cylinder,TinyRing.dist,6,8785,39550,-38.7,86,?,?
+Resources    Asteroid,-156991,19062,-13299,Cylinder,TinyRing.dist,6,8785,39550,-6,147,?,?
+Resources    Asteroid,-163133,-43651,2885,Cylinder,TinyRing.dist,6,8785,39550,2,-161,?,?
+Resources    Asteroid,-163560.2,-28378.4,109654.1,Cylinder,TinyRing.dist,6,8785,39550,54.1,31.3,?,?
+Resources    Asteroid,-170194,31239,28645,Cylinder,TinyRing.dist,6,8785,35250,10,-169,?,?
+Resources    Asteroid,-1777,62778,107477,Cylinder,TinyRing.dist,6,8785,39550,89,-167,?,?
+Resources    Asteroid,-182432.6,-46107,137104.8,Cylinder,TinyRing.dist,6,8785,39550,37.6,46.7,?,?
+Resources    Asteroid,-18484,-11481,-3000,Cylinder,TinyRing.dist,6,5455,39550,10,-154,?,?
+Resources    Asteroid,-191037,39017,-8530,Cylinder,TinyRing.dist,6,8785,39550,-8,152,?,?
+Resources    Asteroid,-198312,-59579,-1592,Cylinder,TinyRing.dist,6,8785,39550,10,-152,?,?
+Resources    Asteroid,-198445.5,-58688.5,166271.2,Cylinder,TinyRing.dist,6,8785,39550,59.5,14.2,?,?
+Resources    Asteroid,-201442,21554,19541,Cylinder,TinyRing.dist,6,8785,35250,20,-159,?,?
+Resources    Asteroid,-217889.7,-49538.3,198296.9,Cylinder,TinyRing.dist,6,8785,39550,50.5,-49.3,?,?
+Resources    Asteroid,-227293,52076,-693,Cylinder,TinyRing.dist,6,8785,39550,-14,169,?,?
+Resources    Asteroid,-231437,9936,5540,Cylinder,TinyRing.dist,6,8785,35250,30,-159,?,?
+Resources    Asteroid,-234474.5,-24375.2,222888.1,Cylinder,TinyRing.dist,6,8785,39550,30.5,-64.1,?,?
+Resources    Asteroid,-249915.5,11082,238901.1,Cylinder,TinyRing.dist,6,8785,39550,12.3,-69.2,?,?
+Resources    Asteroid,-258668,-2683,-11767,Cylinder,TinyRing.dist,6,8785,35250,30,-149,?,?
+Resources    Asteroid,-263640.8,48826.6,248051.3,Cylinder,TinyRing.dist,6,8785,39550,12.3,-69.2,?,?
+Resources    Asteroid,-265357,57639,8399,Cylinder,TinyRing.dist,6,8785,39550,-12,175,?,?
+Resources    Asteroid,-27614,52762,174724,Cylinder,TinyRing.dist,6,8785,39550,67.3,29.4,?,?
+Resources    Asteroid,-285327,-19323,-28932,Cylinder,TinyRing.dist,6,8785,35250,27,-149,?,?
+Resources    Asteroid,-28625,1069,-82836,Cylinder,TinyRing.dist,6,8785,39550,58.9,-7.5,?,?
+Resources    Asteroid,-304554,57302,13989,Cylinder,TinyRing.dist,6,8785,39550,-2,-173,?,?
+Resources    Asteroid,-321435,-42738,-46935,Cylinder,TinyRing.dist,5,8785,55000,18,-146,?,?
+Resources    Asteroid,-343653,49467,12498,Cylinder,TinyRing.dist,5,8785,39550,7,-165,?,?
+Resources    Asteroid,-3576.8,3233.9,5220.6,Cylinder,TinyRing.dist,6,5990.3,23025.1,2733,0,?,?
+Resources    Asteroid,-361983,-76621,-60266,Cylinder,TinyRing.dist,5,8785,55000,11,-136,?,?
+Resources    Asteroid,-38070,17531,27578,Cylinder,TinyRing.dist,6,8835,40000,-15,162,?,?
+Resources    Asteroid,-42918,-24629,121,Cylinder,TinyRing.dist,6,5455,16900,-40,-140,?,?
+Resources    Asteroid,-44033,47537,206816,Cylinder,TinyRing.dist,6,8785,39550,64.5,22.4,?,?
+Resources    Asteroid,-44967,-21804,-8204,Cylinder,TinyRing.dist,6,5455,16900,10,-168,?,?
+Resources    Asteroid,-51666,-2663,-51818,Cylinder,TinyRing.dist,6,8785,39550,44.9,18.5,?,?
+Resources    Asteroid,-52866.1,-34992.8,9748.9,Cylinder,TinyRing.dist,6,4200,16890.8,-22,-130,?,?
+Resources    Asteroid,-57841,42313,243013,Cylinder,TinyRing.dist,6,8785,39550,75,24,?,?
+Resources    Asteroid,-60653.7,-47202.3,14737.9,Cylinder,TinyRing.dist,6,4200,14752.4,-15,-114,?,?
+Resources    Asteroid,-61627,-23646,-10597,Cylinder,TinyRing.dist,6,5455,16900,10,-180,?,?
+Resources    Asteroid,-66796,39328,281076,Cylinder,TinyRing.dist,6,8785,39550,81.3,25.9,?,?
+Resources    Asteroid,-6769.2,-40162.2,0,Cylinder,TinyRing.dist,6,8835,29874.3,0,4,?,?
+Resources    Asteroid,-69548,25340,34443,Cylinder,TinyRing.dist,6,8685,35250,-10,171,?,?
+Resources    Asteroid,-79525,-11274,-23452,Cylinder,TinyRing.dist,6,8785,39550,44.9,18.5,?,?
+Resources    Asteroid,-86436,-26540,-6847,Cylinder,TinyRing.dist,6,8785,39550,-15,-173,?,?
+Resources    Asteroid,-87200,-17241,-13602,Cylinder,TinyRing.dist,6,8785,39550,4,162,?,?
+Resources    Asteroid,-9078,9788,19098,Cylinder,TinyRing.dist,6,8835,28800,-17,162,?,?
+Resources    Asteroid,0,-9808,-154970,Cylinder,TinyRing.dist,6,8785,39550,74.4,-42.8,?,?
+Resources    Asteroid,101575.5,172502.4,157867.1,Cylinder,TinyRing.dist,6,8785,39550,-73.9,45,?,?
+Resources    Asteroid,101929,86889,27368,Cylinder,TinyRing.dist,6,8785,39550,4,-162,?,?
+Resources    Asteroid,10224,17651,5607,Cylinder,TinyRing.dist,3,8785,10900,17,-125,?,?
+Resources    Asteroid,110219.1,178536.6,198412.1,Cylinder,TinyRing.dist,6,8785,39550,-77.9,21.5,?,?
+Resources    Asteroid,110536,21962.3,-60220.9,Cylinder,TinyRing.dist,6,8785,39550,-73.4,175.3,?,?
+Resources    Asteroid,112120.8,21962.3,-141043.7,Cylinder,TinyRing.dist,6,8785,39550,-77.5,4.2,?,?
+Resources    Asteroid,116241.1,20694.5,-99839.9,Cylinder,TinyRing.dist,6,8785,39550,-88.7,69.4,?,?
+Resources    Asteroid,11670,19948,5681,Cylinder,TinyRing.dist,6,8835,39550,17,-127,?,?
+Resources    Asteroid,123807,35313,-20574,Cylinder,TinyRing.dist,5,8785,39550,-15,179,?,?
+Resources    Asteroid,127581,49284,-11155,Cylinder,TinyRing.dist,6,8785,39550,13.4,-149.5,?,?
+Resources    Asteroid,140210,94760,28083,Cylinder,TinyRing.dist,6,8785,39550,-2,-176,?,?
+Resources    Asteroid,160653,29023,-33315,Cylinder,TinyRing.dist,5,8785,39550,-21,168,?,?
+Resources    Asteroid,161609,73120,1118,Cylinder,TinyRing.dist,6,8785,45000,16.2,-143.7,?,?
+Resources    Asteroid,179206,96549,24148,Cylinder,TinyRing.dist,6,8785,39550,-8,-176,?,?
+Resources    Asteroid,18892,-41295,-226532,Cylinder,TinyRing.dist,6,8785,39550,50.1,-62.1,?,?
+Resources    Asteroid,19312.1,-33916.1,0,Cylinder,TinyRing.dist,6,8835,39550,0,23,?,?
+Resources    Asteroid,195028,95224,15681,Cylinder,TinyRing.dist,6,8785,45000,23.4,-144.3,?,?
+Resources    Asteroid,195068,21440,-49321,Cylinder,TinyRing.dist,5,8785,39550,-30,167,?,?
+Resources    Asteroid,223497,112038,31380,Cylinder,TinyRing.dist,6,8785,35250,27.2,-144.6,?,?
+Resources    Asteroid,227907,10030,-71376,Cylinder,TinyRing.dist,5,8785,39550,-31,155,?,?
+Resources    Asteroid,23459,7570,7874,Cylinder,TinyRing.dist,6,8785,39550,-22,-174,?,?
+Resources    Asteroid,27116,76872,174724,Cylinder,TinyRing.dist,6,8785,39550,48,-161.1,?,?
+Resources    Asteroid,31377,-63666,-258099,Cylinder,TinyRing.dist,6,8785,39550,51.8,-61,?,?
+Resources    Asteroid,36511,49225,15500,Cylinder,TinyRing.dist,6,8785,39550,13,-135,?,?
+Resources    Asteroid,47884,-84028,-289746,Cylinder,TinyRing.dist,6,8785,39550,48.1,-45.4,?,?
+Resources    Asteroid,50253,85828,206069,Cylinder,TinyRing.dist,6,8785,39550,64.5,-157.6,?,?
+Resources    Asteroid,60063,14053,-6618,Cylinder,TinyRing.dist,6,8785,39550,-21.1,-161.9,?,?
+Resources    Asteroid,61875.2,81075.7,35765.7,Cylinder,TinyRing.dist,6,8785,39550,28.7,-122.4,?,?
+Resources    Asteroid,64184,91944,242640,Cylinder,TinyRing.dist,6,8785,39550,75,-156,?,?
+Resources    Asteroid,66027,71811,22920,Cylinder,TinyRing.dist,6,8785,39550,8,-153,?,?
+Resources    Asteroid,72394,95675,281449,Cylinder,TinyRing.dist,6,8785,39550,81.3,-154.1,?,?
+Resources    Asteroid,7442,-22403,-193328,Cylinder,TinyRing.dist,6,8785,39550,65.6,-61.4,?,?
+Resources    Asteroid,77050,112760.7,55339.4,Cylinder,TinyRing.dist,6,8785,39550,-30.1,74.9,?,?
+Resources    Asteroid,79601,21694,-13664,Cylinder,TinyRing.dist,3,8785,10900,-16,-149,?,?
+Resources    Asteroid,83489,81683,25273,Cylinder,TinyRing.dist,3,8785,10900,7,-160,?,?
+Resources    Asteroid,84910.7,141688.6,83323.5,Cylinder,TinyRing.dist,6,8785,39550,-56.7,69.1,?,?
+Resources    Asteroid,8831,69181,141056,Cylinder,TinyRing.dist,6,8785,39550,74.1,-156.7,?,?
+Resources    Asteroid,90251.1,20060.6,-26624,Cylinder,TinyRing.dist,6,8785,39550,-47.8,-173,?,?
+Resources    Asteroid,93400.2,160554.2,120111.6,Cylinder,TinyRing.dist,6,8785,39550,-65.8,61.5,?,?
+Resources    Asteroid,94757,29248,-14985,Cylinder,TinyRing.dist,6,8785,39550,-4.5,-149.6,?,?
+Resources    Asteroid,7442,-22403,-193328,Sphere,Asteroid.dist,12,2500,5000,0,0,?,?
+Resources    Asteroid,7442,-22403,-193328,Sphere,TinyRing.dist,15,2750,5500,0,0,?,?
+Resources    Asteroid,7442,-22403,-193328,Sphere,Tiny.dist,25,3000,6000,0,0,?,?

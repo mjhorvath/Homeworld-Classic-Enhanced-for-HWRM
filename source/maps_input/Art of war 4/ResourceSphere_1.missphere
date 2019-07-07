@@ -1,0 +1,29 @@
+; MissionMan script, Friday, Sep 7 2001, 7:24:32 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;top and bottom bottlenecks
+Resources    Asteroid,0.0,0.0,-90000.0,Cylinder,pebble.dist,200,50000.0,20000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,-70000.0,Cylinder,pebble.dist,200,35000.0,25000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,-43000.0,Cylinder,pebble.dist,200,20000.0,30000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,-15000.0,Cylinder,pebble.dist,200,15000.0,35000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,15000.0,Cylinder,pebble.dist,200,15000.0,35000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,43000.0,Cylinder,pebble.dist,200,20000.0,30000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,70000.0,Cylinder,pebble.dist,200,35000.0,25000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,90000.0,Cylinder,pebble.dist,200,50000.0,20000.0,90.0,180.0,2,?
+;arms, left and right tubes
+Resources    Asteroid,-40000.0,0.0,0.0,Cylinder,pebble.dist,200,15000.0,50000.0,0.0,0.0,2,?
+Resources    Asteroid,40000.0,0.0,0.0,Cylinder,pebble.dist,200,15000.0,50000.0,0.0,0.0,2,?
+Resources    Asteroid,88000.0,0.0,0.0,Cylinder,pebble.dist,200,20000.0,50000.0,0.0,0.0,2,?
+Resources    Asteroid,-88000.0,0.0,0.0,Cylinder,pebble.dist,200,20000.0,50000.0,0.0,0.0,2,?
+;middile ball of dust
+Resources    DustCloud,0.0,0.0,0.0,Sphere,dust.dist,200,15000.0,30000.0,0.0,0.0,2,?
+;top and bottom tubes
+Resources    Asteroid,0.0,0.0,35000.0,Cylinder,med.dist,200,5000.0,35000.0,90.0,180.0,2,?
+Resources    Asteroid,0.0,0.0,-35000.0,Cylinder,med.dist,200,5000.0,35000.0,90.0,180.0,2,?
+;balls of dust far left and right
+Resources    DustCloud,90000.0,0.0,0.0,Sphere,dust.dist,200,10000.0,20000.0,90.0,180.0,2,?
+Resources    DustCloud,-90000.0,0.0,0.0,Sphere,dust.dist,200,10000.0,20000.0,90.0,180.0,2,?
+;small dust tubes, middile left and right
+Resources    DustCloud,-30000.0,0.0,0.0,Cylinder,dust.dist,60,5000.0,20000.0,0.0,0.0,2,?
+Resources    DustCloud,30000.0,0.0,0.0,Cylinder,dust.dist,60,5000.0,20000.0,0.0,0.0,2,?

@@ -1,0 +1,11 @@
+Description    /MSG <FleetCommand>: YOU ARE THE CHOSEN ONE TO GUIDE US TO THE GREAT BATTLE. BE OUR ALMIRANT... AND DON'T DISAPPOINT US....
+Description
+Description    AUTHOR: Randix (starmaker72@hotmail.com)
+Description    VERSION: Instant War PLUS (21 APRIL-2000)
+Description    
+Description
+
+Font Arial_b12.hff
+Color  230, 0, 0
+DropShadow Yes
+

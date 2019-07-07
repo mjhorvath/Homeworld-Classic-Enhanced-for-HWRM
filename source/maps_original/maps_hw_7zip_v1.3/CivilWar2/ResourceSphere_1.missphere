@@ -1,0 +1,55 @@
+; MissionMan script, Monday, May 15 2000, 6:30:19 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Derelict    PlanetOfOrigin_scarred,0.0,-250000.0,0.0,45.0,90.0,8,?,1,?
+Resources    Asteroid,14356.4,2627.2,0.0,Rectangle,Tiny.dist,70,35000.0,10000.0,1000.0,-7.0,0,?
+Resources    Asteroid,47145.8,-1293.8,0.0,Rectangle,Tiny.dist,65,35000.0,10000.0,1000.0,-6.0,0,?
+Resources    Asteroid,79316.4,-5683.5,0.0,Rectangle,Tiny.dist,60,35000.0,10000.0,1000.0,-9.0,0,?
+Resources    Asteroid,112548.9,-10093.2,0.0,Rectangle,cyl.dist,100,35000.0,10000.0,1000.0,-7.0,0,?
+Resources    Asteroid,143672.1,-15809.0,0.0,Rectangle,cyl.dist,95,35000.0,10000.0,1000.0,-12.0,0,?
+Resources    Asteroid,175883.9,-24539.7,0.0,Rectangle,cyl.dist,85,35000.0,10000.0,1000.0,-19.0,0,?
+Resources    Asteroid,208278.4,-36031.3,0.0,Rectangle,cyl.dist,75,35000.0,10000.0,1000.0,-21.0,0,?
+Resources    Asteroid,239278.8,-48734.3,0.0,Rectangle,cyl.dist,65,35000.0,10000.0,1000.0,-22.0,0,?
+Resources    Asteroid,269883.8,-61648.5,0.0,Rectangle,cyl.dist,55,35000.0,10000.0,1000.0,-21.0,0,?
+Resources    Asteroid,298123.3,-75562.2,0.0,Rectangle,cyl.dist,45,35000.0,10000.0,1000.0,-31.0,0,?
+Resources    Asteroid,324940.0,-94784.2,0.0,Rectangle,cyl.dist,35,35000.0,10000.0,1000.0,-39.0,0,?
+Resources    Asteroid,350997.3,-115457.6,0.0,Rectangle,cyl.dist,25,35000.0,10000.0,1000.0,-37.0,0,?
+Resources    Asteroid,377392.0,-136371.7,0.0,Rectangle,cyl.dist,15,35000.0,10000.0,1000.0,-39.0,0,?
+Resources    Asteroid,401940.9,-158102.9,0.0,Rectangle,cyl.dist,5,35000.0,10000.0,1000.0,-43.0,0,?
+Resources    Asteroid,-16826.2,1668.8,0.2,Rectangle,Tiny.dist,70,35000.0,10000.0,1000.0,9.0,0,?
+Resources    Asteroid,-48316.0,-2503.6,0.0,Rectangle,Tiny.dist,65,35000.0,10000.0,1000.0,9.0,0,?
+Resources    Asteroid,-79885.7,-6894.3,0.0,Rectangle,Tiny.dist,60,35000.0,10000.0,1000.0,7.0,0,?
+Resources    Asteroid,-111486.5,-11075.0,0.0,Rectangle,cyl.dist,100,35000.0,10000.0,1000.0,8.0,0,?
+Resources    Asteroid,-144216.5,-16605.6,0.0,Rectangle,cyl.dist,95,35000.0,10000.0,1000.0,12.0,0,?
+Resources    Asteroid,-176255.5,-25728.7,0.0,Rectangle,cyl.dist,85,35000.0,10000.0,1000.0,18.0,0,?
+Resources    Asteroid,-206704.4,-36870.7,0.0,Rectangle,cyl.dist,75,35000.0,10000.0,1000.0,23.0,0,?
+Resources    Asteroid,-237153.5,-49502.5,0.0,Rectangle,cyl.dist,65,35000.0,10000.0,1000.0,22.0,0,?
+Resources    Asteroid,-266623.0,-61604.5,0.0,Rectangle,cyl.dist,55,35000.0,10000.0,1000.0,23.0,0,?
+Resources    Asteroid,-296072.1,-76256.7,0.0,Rectangle,cyl.dist,45,35000.0,10000.0,1000.0,32.0,0,?
+Resources    Asteroid,-324010.3,-95419.9,0.0,Rectangle,cyl.dist,35,35000.0,10000.0,1000.0,38.0,0,?
+Resources    Asteroid,-350458.6,-115542.5,0.0,Rectangle,cyl.dist,25,35000.0,10000.0,1000.0,38.0,0,?
+Resources    Asteroid,-375418.0,-136135.5,0.0,Rectangle,cyl.dist,15,35000.0,10000.0,1000.0,38.0,0,?
+Resources    Asteroid,-399438.4,-157115.3,0.0,Rectangle,cyl.dist,5,35000.0,10000.0,1000.0,45.0,0,?
+Resources    DustCloud,-17290.1,1829.9,0.0,Cylinder,dustcloud.dist,70,5000.0,35000.0,0.0,9.0,0,?
+Resources    DustCloud,-48743.5,-2590.2,0.0,Cylinder,dustcloud.dist,70,5000.0,35000.0,0.0,9.0,0,?
+Resources    DustCloud,-80061.8,-7064.3,0.0,Cylinder,dustcloud.dist,70,5000.0,35000.0,0.0,9.0,0,?
+Resources    DustCloud,14835.0,2590.2,0.0,Cylinder,dustcloud.dist,70,5000.0,35000.0,0.0,-5.0,0,?
+Resources    DustCloud,46153.3,-941.9,0.0,Cylinder,dustcloud.dist,70,5000.0,35000.0,0.0,-7.0,0,?
+Resources    DustCloud,79590.9,-5651.4,0.0,Cylinder,dustcloud.dist,70,5000.0,35000.0,0.0,-7.0,0,?
+Derelict    Junk2_shipwreck,9890.0,2354.8,0.0,0.0,0.0,0,?,?
+Derelict    Junk2_shipwreck,-40736.9,-2118.9,0.0,0.0,0.0,0,?,?
+Derelict    HeavyCruiser,-471.0,3296.7,0.0,0.0,0.0,256,?,?
+Derelict    FragmentPanel1,-81809.0,-7113.8,0.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel1,-63431.6,-5335.4,0.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel1,-18377.4,-592.8,0.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel1,20748.7,2964.1,10670.7,0.0,0.0,0,?,?
+Derelict    FragmentPanel1,45647.0,-5335.4,0.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel1,85958.7,-6521.0,0.0,0.0,0.0,0,?,?
+Derelict    Junk2_panelD,-27269.7,3556.9,0.0,0.0,0.0,0,?,?
+Derelict    Junk2_panelD,61060.3,-5335.4,0.0,0.0,0.0,0,?,?
+Derelict    Junk3_BoilerCasing,33198.2,2371.5,0.0,0.0,0.0,0,?,?
+Derelict    PrisonShipNew,-65210.0,2371.3,0.0,0.0,0.0,0,?,?
+Derelict    PrisonShipOld,56911.0,-8299.0,0.0,0.0,0.0,0,?,?
+Derelict    Scaffold_scarred,-3557.0,-7114.0,0.0,0.0,0.0,0,?,?
+

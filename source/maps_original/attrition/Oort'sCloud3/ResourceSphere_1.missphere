@@ -1,0 +1,198 @@
+; MissionMan script, lunes, may 8 2000, 12:22:16 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,120000.0,-70000.0,30000.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,122000.0,-70000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,118000.0,-70000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-68000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-68000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-72000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-72000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-69000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-69000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-71000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-71000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-69000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-69000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-71000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-71000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+Resources    Asteroid,120000.0,-70000.0,-30000.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,122000.0,-70000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,118000.0,-70000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-68000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-68000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-72000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-72000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-69000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-69000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-71000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-71000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-69000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-69000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-71000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-71000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+Resources    Asteroid,120000.0,70000.0,0.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,122000.0,70000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,118000.0,70000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,68000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,68000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,72000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,72000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,69000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,69000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,71000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,71000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,69000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,69000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,71000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,71000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+
+Resources    Asteroid,-120000.0,-70000.0,-30000.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-122000.0,-70000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-118000.0,-70000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-68000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-68000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-72000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-72000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-69000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-69000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-71000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-71000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-69000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-69000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-71000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-71000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+Resources    Asteroid,-120000.0,70000.0,0.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-122000.0,70000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-118000.0,70000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,68000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,68000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,72000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,72000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,69000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,69000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,71000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,71000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,69000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,69000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,71000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,71000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+
+Resources    Asteroid,0.0,130000.0,-30000.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,2000.0,130000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-2000.0,130000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,132000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,132000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,128000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,128000.0,-30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,131000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,131000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,129000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,129000.0,-32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,131000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,131000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,129000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,129000.0,-28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+
+Resources    Asteroid,0.0,-130000.0,0.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,2000.0,-130000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-2000.0,-130000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,-132000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,-132000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,-128000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,-128000.0,0.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,-131000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,-131000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,-129000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,-129000.0,2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,-131000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,-131000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,-129000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,-129000.0,-2000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+
+Resources    Asteroid,-120000.0,-70000.0,30000.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-122000.0,-70000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-118000.0,-70000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-68000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-68000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-72000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-72000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-69000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-69000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-71000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-71000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-69000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-69000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-121000.0,-71000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-119000.0,-71000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,AsteroidNucleus.dist,80,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,4000.0,0.0,0.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,4000.0,0.0,0.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,2000.0,4000.0,0.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,2000.0,4000.0,0.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,-2000.0,4000.0,0.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,-2000.0,4000.0,0.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,-4000.0,0.0,0.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,-4000.0,0.0,0.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,-2000.0,-4000.0,0.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,-2000.0,-4000.0,0.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,2000.0,-4000.0,0.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,2000.0,-4000.0,0.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,2000.0,2000.0,4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,2000.0,2000.0,4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,-2000.0,2000.0,4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,-2000.0,2000.0,4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,-2000.0,-2000.0,4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,-2000.0,-2000.0,4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,2000.0,-2000.0,4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,2000.0,-2000.0,4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,2000.0,2000.0,-4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,2000.0,2000.0,-4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,-2000.0,2000.0,-4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,-2000.0,2000.0,-4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,-2000.0,-2000.0,-4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,-2000.0,-2000.0,-4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+Resources    Asteroid,2000.0,-2000.0,-4000.0,Sphere,Asteroidlight.dist,40,2000.0,4000.0,0.0,0.0,0,?
+Ships   ,2000.0,-2000.0,-4000.0,0.0,P3,P3Frigate,1,BROAD_FORMATION|?|?,?,?
+
+
+
+
+Resources    Asteroid,0.0,130000.0,30000.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,2000.0,130000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-2000.0,130000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,132000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,132000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,128000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,128000.0,30000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,131000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,131000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,129000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,129000.0,32000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,131000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,131000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,1000.0,129000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,-1000.0,129000.0,28000.0,Sphere,Asteroidlight.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,AsteroidNucleus.dist,100,150000.0,300000.0,0.0,0.0,2048,2
+
+
+
+

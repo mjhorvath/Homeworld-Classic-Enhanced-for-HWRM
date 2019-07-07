@@ -1,0 +1,36 @@
+; MissionMan script, martedì, mag 16 2000, 1.05.21 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: NebulaCore3
+; Info: Nebula Core (2-8)
+
+[Nebula Core (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,?,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R2,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_0.missphere,1000
+MissionSphere    2,R2,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_2.missphere,1000
+
+Lighting    ez08
+Background    ez08, 180
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    200000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    150000
+smUniverseSizeZ    75000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,TargetDrone
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    14

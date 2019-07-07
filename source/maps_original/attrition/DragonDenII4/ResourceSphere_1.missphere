@@ -1,0 +1,37 @@
+; MissionMan script, domingo, abr 2 2000, 2:00:14 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+Ships     ,0.0,0.0,0.0,0.0,P3,P3Frigate,14,SPHERE_FORMATION|?|?,?,?
+Resources    Asteroid,0.0,0.0,0.0,Sphere,Asteroid.dist,30,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-110000.0,0.0,0.0,Sphere,Asteroid.dist,30,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,110000.0,0.0,Sphere,Asteroid.dist,30,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,110000.0,0.0,0.0,Sphere,Asteroid.dist,30,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-110000.0,0.0,Sphere,Asteroid.dist,30,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,0.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,-8000.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-8000.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,-8000.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,0.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,8000.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,8000.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,8000.0,0.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,0.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,-8000.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-8000.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,-8000.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,0.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,8000.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,8000.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,8000.0,-8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,0.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,-8000.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-8000.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,-8000.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,0.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,8000.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,8000.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,8000.0,8000.0,Sphere,Asteroid.dist,24,4000.0,8000.0,0.0,0.0,0,?

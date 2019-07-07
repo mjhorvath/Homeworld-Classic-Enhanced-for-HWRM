@@ -1,0 +1,172 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Ring Of Fire (V2) (2-8)",
+	"",
+	"Once many centuries ago a resource carrier of the Taiidan Empire suffered a Cautastrophic engine meltdown. The explosion left this unique pattern of resources.",
+	"",
+	"Settings : default",
+	"Author   : Error 404 ( Re made by LiquidDAB April 2001",
+	"Version  : v2.0 (April 2001)",
+}
+
+LevelName = [[Ring Of Fire (V2) (2-8)]]
+LevelFile = [[RingOfFire(V2)7]]
+SourceGame = "HW1"
+NumberOfPlayers = 7
+
+SensorsZoom = {20000, 400000,}
+UniverseSize = {150000, 150000, 100000, }
+
+LevelBackground = "ez07"
+LevelMusic = "11"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","r1","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-127351.8, 0.0, 2726.6, 0.0,},
+	{-90900.0, 89555.7, 4170.3, -45.0,},
+	{-1044.0, 125620.0, 4294.0, -90.0,},
+	{88161.0, 88629.0, 4457.5, -140.0,},
+	{-832.7, -125826.1, 4790.9, 90.0,},
+	{88292.6, -88552.1, 4420.0, 135.0,},
+	{123809.0, 310.0, 2486.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-90900.0, 89555.7, 4170.3,}, 1, {0, 0, -45.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-127351.8, 0.0, 2726.6,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-1044.0, 125620.0, 4294.0,}, 2, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {88161.0, 88629.0, 4457.5,}, 3, {0, 0, -140.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-832.7, -125826.1, 4790.9,}, 4, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {88292.6, -88552.1, 4420.0,}, 5, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {123809.0, 310.0, 2486.0,}, 6, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	tiny =
+	{
+		asteroid0 = 40,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 5,
+		asteroid3 = 5,
+		asteroid4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-87994.2, -41259.5, 94821.3,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, 26.0,},
+	{{-88813.5, 36542.5, 95153.6,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, -20.0,},
+	{{-34713.7, 87441.5, 94675.2,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, -70.0,},
+	{{25747.2, 94471.9, 95143.9,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, -104.0,},
+	{{83823.5, 43330.7, 96104.5,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, -150.0,},
+	{{84384.4, -38123.8, 95150.6,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, 155.0,},
+	{{37529.3, -86761.9, 94932.5,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, 115.0,},
+	{{-36307.1, -87348.1, 95518.5,}, "cylinder", "tiny", 100, 4000.0, 100000.0, 50.0, 70.0,},
+	{{-87994.2, -41259.5, -94821.3,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, 26.0,},
+	{{-88813.5, 36542.5, -95153.6,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, -20.0,},
+	{{-34713.7, 87441.5, -94675.2,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, -70.0,},
+	{{25747.2, 94471.9, -95143.9,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, -104.0,},
+	{{83823.5, 43330.7, -96104.5,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, -150.0,},
+	{{84384.4, -38123.8, -95150.6,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, 155.0,},
+	{{37529.3, -86761.9, -94932.5,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, 115.0,},
+	{{-36307.1, -87348.1, -95518.5,}, "cylinder", "tiny", 100, 4000.0, 100000.0, -50.0, 70.0,},
+	{{-20713.3, 120242.5, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 12.9,},
+	{{-58986.6, 101936.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 37.7,},
+	{{-88279.7, 68111.8, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 59.9,},
+	{{-104133.1, 23917.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 80.2,},
+	{{-104133.1, -23917.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 99.8,},
+	{{-88279.7, -68111.8, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 120.1,},
+	{{-58986.6, -101936.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 142.4,},
+	{{-20713.3, -120242.5, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 167.1,},
+	{{20713.3, -120242.5, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 192.9,},
+	{{58986.6, -101936.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 217.7,},
+	{{88279.7, -68111.8, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 239.9,},
+	{{104133.1, -23917.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 260.2,},
+	{{104133.1, 23917.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 279.8,},
+	{{88279.7, 68111.8, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 300.1,},
+	{{58986.6, 101936.7, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 322.4,},
+	{{20713.3, 120242.5, 0.0,}, "cylinder", "dustcloud", 64, 5000.0, 48800.0, 0.0, 347.1,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 128, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-1039.1, 207.8, 0.0,}, "cylinder", "tiny", 150, 3000.0, 500000.0, 90.0, -177.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

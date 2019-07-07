@@ -1,0 +1,18 @@
+; MissionMan script, Sunday, Nov 28 1999, 10:53:31 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,jacelor.dist,100,2500.0,250000.0,-9.2,-45.7,0,?
+Resources    Asteroid,621.0,-318.7,143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,9.2,-134.3,0,?
+Resources    Asteroid,621.0,318.7,143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,12.5,-163.6,0,?
+Resources    Asteroid,621.0,318.7,143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,12.5,164.6,0,?
+Resources    Asteroid,621.0,318.7,143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,3.8,-106.6,0,?
+Resources    Asteroid,621.0,-318.7,143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,-3.3,-75.4,0,?
+Resources    Asteroid,0.0,-318.7,0.0,Cylinder,jacelor.dist,100,2500.0,250000.0,9.2,-45.7,0,?
+Resources    Asteroid,621.0,-637.4,-143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,-9.2,-134.3,0,?
+Resources    Asteroid,621.0,0.0,-143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,-12.5,-163.6,0,?
+Resources    Asteroid,621.0,0.0,-143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,-12.5,164.6,0,?
+Resources    Asteroid,621.0,0.0,-143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,-3.8,-106.6,0,?
+Resources    Asteroid,621.0,-637.3,-143.4,Cylinder,jacelor.dist,100,2500.0,250000.0,3.3,-75.4,0,?
+Resources    Nebula,0.0,637.4,0.0,Nebula,nebbie.dist,150,94334.1,94334.1,94334.1,10000,0,?
+

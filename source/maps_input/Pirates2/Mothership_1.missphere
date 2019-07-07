@@ -1,0 +1,11 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:34 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,-3000.0,-30000.0,1000.0,90.0,P2,P2Swarmer,15,DELTA3D_FORMATION|?|?,0,?
+Ships     ,-3000.0,-30000.0,0.0,90.0,P2,P2AdvanceSwarmer,15,DELTA3D_FORMATION|?|?,0,?
+Ships     ,4000.0,-25000.0,0.0,90.0,P2,P2MultiBeamFrigate,3,BROAD_FORMATION|?|?,0,?
+Ships     ,-4000.0,-25000.0,0.0,90.0,P2,P2FuelPod,2,DELTA_FORMATION|?|?,0,?
+Ships     ,3000.0,-30000.0,0.0,90.0,P2,P2Swarmer,15,DELTA3D_FORMATION|?|?,0,?
+Ships     ,0.0,-30000.0,0.0,90.0,P2,P2Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,4000.0,-20000.0,0.0,90.0,P2,P2MultiBeamFrigate,3,BROAD_FORMATION|?|?,0,?

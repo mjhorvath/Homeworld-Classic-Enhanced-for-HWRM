@@ -1,0 +1,108 @@
+; Made using Microsoft Notepad
+; 3-23-2000 to 3-25-2000
+; MissionSphere Object: ?,ResourceSphere
+;
+;Central Dust Clouds
+Resources    DustCloud,0.0,0.0,0.0,Sphere,bubble.dist,150,6000.0,12000.0,0.0,0.0,0,?
+;
+;Asteriod Fields
+Resources    Asteroid,0.0,0.0,-25000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,25000.0,Sphere,small1.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-10000.0,-40000.0,40000.0,Sphere,test.dist,100,3500.0,7000.0,0.0,0.0,0,?
+Resources    Asteroid,10000.0,40000.0,-40000.0,Sphere,test.dist,100,3500.0,7000.0,0.0,0.0,0,?
+Resources    Asteroid,-40000.0,0.0,40000.0,Sphere,crack.dist,200,3500.0,7000.0,0.0,0.0,0,?
+Resources    Asteroid,40000.0,0.0,-40000.0,Sphere,crack.dist,200,3500.0,7000.0,0.0,0.0,0,?
+Resources    Asteroid,-10000.0,50000.0,1000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-40000.0,0.0,40000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-20000.0,30000.0,-1000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,-60000.0,1000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,50000.0,50000.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-40000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,40000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-39000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,40000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,9000.0,500.0,-30000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;Z Asteroid Field
+Resources    Asteroid,0.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,10000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-10000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,15000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-15000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,20000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-20000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,25000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-25000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,30000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-30000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,35000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-35000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;X Asteroid Field
+Resources    Asteroid,5000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-5000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,10000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-10000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,15000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-15000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,20000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-20000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,25000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-25000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-30000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,35000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-35000.0,0.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;Y Asteroid Field
+Resources    Asteroid,0.0,5000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-5000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,10000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-10000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,15000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-15000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,20000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-20000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,25000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-25000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,30000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-30000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,35000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-35000.0,0.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;Asteroid Clump 1
+Resources    Asteroid,70000.0,10000.0,6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,70000.0,10000.0,7000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,70000.0,10000.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,70000.0,15000.0,6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,75000.0,15000.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;Asteroid Clump 2
+Resources    Asteroid,-70000.0,-10000.0,-6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-70000.0,-10000.0,-7000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-70000.0,-10000.0,-5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-70000.0,-15000.0,-6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-75000.0,-15000.0,-5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;Asteroid Clump 3
+Resources    Asteroid,-50000.0,10000.0,6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-50000.0,10000.0,7000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-50000.0,10000.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-50000.0,15000.0,6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-55000.0,15000.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;Asteroid Clump 4
+Resources    Asteroid,50000.0,-10000.0,6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,50000.0,-10000.0,7000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,50000.0,-10000.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,50000.0,-15000.0,6000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,55000.0,-15000.0,5000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+;
+;Asteroid Clump 5
+Resources    Asteroid,30000.0,-50000.0,60000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,-45000.0,60000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,-55000.0,60000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,-60000.0,60000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,-50000.0,70000.0,Sphere,small.dist,50,2000.0,4000.0,0.0,0.0,0,?

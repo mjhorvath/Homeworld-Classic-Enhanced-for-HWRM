@@ -1,0 +1,235 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Group 2, the enemy has been spotted in an asteroid field near your position. Assemble your forces and destroy them!",
+	"",
+	"",
+	"",
+	"Team play, top vs. bottom.",
+	"No building or harvesting.",
+	"Bounties on.",
+	"",
+	"Map by: Nicefeet - jbad@scrtc.com",
+}
+
+LevelName = [[Attrition (2-4-6)]]
+LevelFile = [[Attrition6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {30000, 300000,}
+UniverseSize = {250000, 250000, 250000, }
+
+LevelBackground = "purple_btg"
+LevelMusic = "14"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-105000.0, 125000.0, 100000.0, -45.0,},
+	{-50000.0, 125000.0, 70000.0, -45.0,},
+	{-105000.0, 75000.0, 130000.0, -45.0,},
+	{105000.0, -125000.0, -100000.0, 135.0,},
+	{50000.0, -125000.0, -70000.0, 135.0,},
+	{105000.0, -75000.0, -130000.0, 135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-50000.0, 125000.0, 70000.0,}, 1, {0, 0, -45.0,}, 0, 0, "r1", "null_formation",},
+	{30, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "heavycorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "multiguncorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{15, "", "minelayercorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{10, "", "salcapcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{15, "", "p1missilecorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p1", "broad_formation",},
+	{4, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{20, "", "p2advanceswarmer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{2, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "missiledestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "gravwellgenerator", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "cloakgenerator", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "proximitysensor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-105000.0, 125000.0, 100000.0,}, 0, {0, 0, -45.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "ioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "dddfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{4, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "p1ionarrayfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p1", "broad_formation",},
+	{5, "", "p2multibeamfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{15, "", "p2advanceswarmer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{10, "", "heavycorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "missiledestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "gravwellgenerator", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "cloakgenerator", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "proximitysensor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-105000.0, 75000.0, 130000.0,}, 2, {0, 0, -45.0,}, 0, 0, "r1", "null_formation",},
+	{30, "", "lightdefender", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "heavydefender", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "heavyinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "attackbomber", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{20, "", "cloakedfighter", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{15, "", "heavycorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "p2advanceswarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{3, "", "advancesupportfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "missiledestroyer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standarddestroyer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "gravwellgenerator", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "cloakgenerator", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "proximitysensor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "advancesupportfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {105000.0, -125000.0, -100000.0,}, 3, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "standardfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "ioncannonfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "dddfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{4, "", "advancesupportfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "missiledestroyer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "gravwellgenerator", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "cloakgenerator", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "proximitysensor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "p1ionarrayfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p1", "broad_formation",},
+	{5, "", "p2multibeamfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{15, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{10, "", "heavycorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "mothership", {50000.0, -125000.0, -70000.0,}, 4, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "advancesupportfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "missiledestroyer", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standarddestroyer", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "gravwellgenerator", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "cloakgenerator", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "proximitysensor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{30, "", "lightcorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "heavycorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "multiguncorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{15, "", "minelayercorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{10, "", "salcapcorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{15, "", "p1missilecorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "p1", "broad_formation",},
+	{20, "", "p2advanceswarmer", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{2, "", "advancesupportfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "mothership", {105000.0, -75000.0, -130000.0,}, 5, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "missiledestroyer", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standarddestroyer", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "gravwellgenerator", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "cloakgenerator", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "proximitysensor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "advancesupportfrigate", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{30, "", "lightdefender", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "heavydefender", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "heavyinterceptor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "attackbomber", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{20, "", "cloakedfighter", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{15, "", "heavycorvette", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{30, "", "p2advanceswarmer", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{3, "", "advancesupportfrigate", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroiddust =
+	{
+		asteroid0 = 1,
+		asteroid1 = 4,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+	asteroidlong =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 3,
+		asteroid4 = 3,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 2,
+		dustcloud1 = 3,
+		dustcloud2 = 3,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{95890.0, -15460.0, -63612.0,}, "cylinder", "asteroiddust", 15, 8000.0, 46850.0, 30.4, -102.5,},
+	{{-92592.0, 68691.0, 31137.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 56.3, -108.6,},
+	{{-51328.0, 127180.0, 26954.0,}, "cylinder", "asteroiddust", 15, 9500.0, 60000.0, 46.9, -139.8,},
+	{{-28360.0, 22501.0, 60593.0,}, "cylinder", "asteroiddust", 15, 9500.0, 55000.0, 37.2, -128.7,},
+	{{-42666.0, -245.0, -26784.0,}, "cylinder", "asteroidlong", 27, 11000.0, 55000.0, 26.8, -60.0,},
+	{{7556.0, 55054.0, 9666.0,}, "cylinder", "asteroiddust", 12, 8000.0, 70000.0, 38.7, -145.2,},
+	{{106828.0, 34453.0, 23550.0,}, "cylinder", "asteroiddust", 15, 8500.0, 46850.0, 28.2, -94.6,},
+	{{137332.0, 146159.0, 82444.0,}, "cylinder", "asteroiddust", 15, 8500.0, 46850.0, 26.1, -117.7,},
+	{{159622.0, 248704.0, 94757.0,}, "cylinder", "asteroiddust", 15, 8500.0, 46850.0, 29.8, -133.0,},
+	{{112428.0, -133404.0, -38426.0,}, "cylinder", "asteroidlong", 27, 8000.0, 46850.0, 29.4, -68.1,},
+	{{156295.0, -240696.0, -85996.0,}, "cylinder", "asteroiddust", 15, 8000.0, 60000.0, 30.6, -36.2,},
+	{{241059.0, -354764.0, -135089.0,}, "cylinder", "asteroiddust", 11, 8000.0, 100000.0, 17.1, -25.6,},
+	{{305839.0, -424321.0, -161495.0,}, "cylinder", "asteroiddust", 6, 8000.0, 100000.0, -4.5, -0.3,},
+	{{193742.0, 277001.0, 117351.0,}, "cylinder", "asteroiddust", 15, 8000.0, 60000.0, -27.0, 35.4,},
+	{{39665.0, 80402.0, 41547.0,}, "cylinder", "asteroiddust", 15, 11000.0, 65000.0, 48.1, -134.7,},
+	{{137111.0, 195141.0, 93314.0,}, "cylinder", "asteroiddust", 15, 11000.0, 65000.0, 22.5, -127.9,},
+	{{25536.0, -20708.0, -72134.0,}, "cylinder", "asteroiddust", 15, 10500.0, 80000.0, 48.3, -97.9,},
+	{{105530.0, -186204.0, -145482.0,}, "cylinder", "asteroiddust", 15, 10500.0, 80000.0, 8.3, -34.9,},
+	{{227234.0, 316511.0, 101959.0,}, "cylinder", "asteroiddust", 15, 9500.0, 80000.0, 7.1, -158.9,},
+	{{-16860.0, -19493.0, -80145.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 24.3, -71.9,},
+	{{49018.0, -157099.0, -65412.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 2.9, -38.0,},
+	{{62351.0, 218614.0, 61216.0,}, "cylinder", "asteroiddust", 15, 9500.0, 60000.0, 27.2, -147.4,},
+	{{-47765.0, -58273.0, -19828.0,}, "cylinder", "asteroiddust", 15, 8500.0, 55000.0, 39.4, -28.4,},
+	{{94393.0, -188593.0, -68659.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 3.0, -30.0,},
+	{{151675.0, 270628.0, 108754.0,}, "cylinder", "asteroiddust", 15, 9500.0, 60000.0, 18.5, -163.4,},
+	{{19444.0, -44777.0, -12147.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 38.4, -51.1,},
+	{{96799.0, -137617.0, -22523.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 43.0, -48.9,},
+	{{14520.0, 92135.0, 84127.0,}, "cylinder", "asteroidlong", 27, 9500.0, 60000.0, 8.9, -136.4,},
+	{{20036.0, -16878.0, -15425.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 29.9, -69.5,},
+	{{-40355.0, 34403.0, 53299.0,}, "cylinder", "asteroidlong", 27, 9500.0, 60000.0, 10.3, -67.8,},
+	{{126756.0, -15778.0, -9368.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 2.6, -82.2,},
+	{{118764.0, -121177.0, -37532.0,}, "cylinder", "asteroiddust", 10, 7500.0, 55000.0, 23.6, -107.2,},
+	{{6936.0, -852.0, -63839.0,}, "cylinder", "asteroiddust", 8, 4500.0, 45000.0, 16.4, -67.4,},
+	{{217397.0, 354846.0, 128649.0,}, "cylinder", "asteroiddust", 13, 8000.0, 80000.0, -23.1, 28.8,},
+	{{279390.0, 442366.0, 143112.0,}, "cylinder", "asteroiddust", 7, 8000.0, 100000.0, -3.9, 8.3,},
+	{{303845.0, 412996.0, 163302.0,}, "cylinder", "asteroiddust", 3, 6000.0, 100000.0, 14.4, -18.9,},
+	{{6668.0, -40940.0, -24304.0,}, "sphere", "dustcloud", 12, 4000.0, 8000.0, -80.1, 108.8,},
+	{{-4874.0, 107629.0, 31929.0,}, "sphere", "dustcloud", 12, 4000.0, 8000.0, -80.1, 108.8,},
+	{{-12442.0, 37533.0, 30635.0,}, "sphere", "dustcloud", 12, 3110.0, 6220.0, -80.1, 108.8,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

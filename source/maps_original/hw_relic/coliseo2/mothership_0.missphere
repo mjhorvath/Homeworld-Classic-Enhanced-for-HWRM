@@ -1,0 +1,17 @@
+; MissionMan script, Tuesday, Jan 12 1999, 6:43:42 PM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,22881.0,956.0,525.0,-180.0,R1,Mothership,1,PARADE_FORMATION|?|?,?,?
+Ships     ,21148.0,1681.0,531.0,180.0,R1,HeavyInterceptor,10,PARADE_FORMATION|?|?,0,?
+Ships     ,19271.0,-997.0,525.0,180.0,R1,AttackBomber,5,PARADE_FORMATION|?|?,0,?
+Ships     ,24285.0,2815.0,1362.0,180.0,R1,GravWellGenerator,1,NULL_FORMATION|?|?,0,?
+Ships     ,19949.0,1265.0,-557.0,180.0,R1,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,21064.0,837.0,427.0,180.0,R1,HeavyCorvette,5,NULL_FORMATION|?|?,0,?
+Ships     ,21416.0,-1134.0,-655.0,180.0,R1,IonCannonFrigate,3,PARADE_FORMATION|?|?,0,?
+Ships     ,20882.0,2480.0,-311.0,180.0,R1,StandardDestroyer,2,NULL_FORMATION|?|?,0,?
+Ships     ,20865.0,1.0,-344.0,180.0,R1,MissileDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,21687.0,479.0,541.0,-180.0,R1,MultiGunCorvette,5,NULL_FORMATION|?|?,0,?
+Ships     ,21353.0,3271.0,-737.0,180.0,R1,StandardFrigate,4,NULL_FORMATION|?|?,0,?
+Ships     ,19413.0,3175.0,662.0,180.0,R1,LightInterceptor,12,PARADE_FORMATION|?|?,0,?
+

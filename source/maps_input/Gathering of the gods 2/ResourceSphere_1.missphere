@@ -1,0 +1,67 @@
+; MissionMan script, Friday, Sep 7 2001, 7:24:32 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+; asteroids
+
+Resources     Asteroid,0,-90000,-90000,Cylinder,dab.dist,40,0,0,200000,0,?,2
+Resources     Asteroid,0,90000,90000,Cylinder,dab.dist,40,0,0,200000,0,?,2
+Resources     Asteroid,0,-7150,-91000,Cylinder,dab.dist,40,100,9000,0,0,?,2
+Resources     Asteroid,0,7150,91000,Cylinder,dab.dist,40,100,9000,0,0,?,2
+Resources     Asteroid,-7150,-91000,0,Cylinder,dab.dist,40,100,9000,0,0,?,2
+Resources     Asteroid,7150,91000,0,Cylinder,dab.dist,40,100,9000,0,0,?,2
+Resources     Asteroid,-7150,0,-75000,Sphere,dab.dist,50,2000,2000,0,0,?,2
+Resources     Asteroid,7150,0,75000,Sphere,dab.dist,50,2000,2000,0,0,?,2
+Resources     Asteroid,-7150,-75000,0,Sphere,dab.dist,50,2000,2000,0,0,?,2
+Resources     Asteroid,7150,75000,0,Sphere,dab.dist,50,2000,2000,0,0,?,2
+Resources     Asteroid,0,0,-70000,Cylinder,dab.dist,50,100,9000,260000,3000,?,2
+Resources     Asteroid,0,0,70000,Cylinder,dab.dist,50,100,9000,260000,3000,?,2
+Resources     Asteroid,0,-70000,0,Cylinder,dab.dist,50,100,9000,260000,3000,?,2
+Resources     Asteroid,0,70000,0,Cylinder,dab.dist,50,100,9000,260000,3000,?,2
+
+Resources     Asteroid,0,0,-50000,Cylinder,dab.dist,100,100,9000,0,0,?,2
+Resources     Asteroid,0,0,50000,Cylinder,dab.dist,100,100,9000,0,0,?,2
+
+Resources     Asteroid,0,95000,0,Cylinder,dab.dist,100,200,60000,0,0,?,2
+Resources     Asteroid,0,-95000,0,Cylinder,dab.dist,100,200,60000,0,0,?,2
+Resources     Asteroid,40000,0,0,Cylinder,dab.dist,100,20,6000,0,0,?,2
+Resources     Asteroid,-40000,0,0,Cylinder,dab.dist,100,20,6000,0,0,?,2
+Resources     Asteroid,0,0,0,Cylinder,dab.dist,100,100,60000,20000,50000,?,2
+
+Resources     Asteroid,0,0,0,Sphere,dab.dist,100,3000,0,0,0,?,2
+
+; Dustclouds
+Resources     DustCloud,0,0,93000,Sphere,dust.dist,30,3000,600,0,0,0,?
+Resources     DustCloud,0,0,-93000,Sphere,dust.dist,30,3000,600,0,0,0,?
+Resources     DustCloud,0,93000,0,Sphere,dust.dist,30,3000,600,0,0,0,?
+Resources     DustCloud,0,-93000,0,Sphere,dust.dist,30,3000,600,0,0,0,?
+Resources     DustCloud,-4680,6570,40000,Sphere,dust.dist,30,3000,6000,0,0,0,?
+Resources     DustCloud,4680,-6570,-40000,Sphere,dust.dist,30,3000,6000,0,0,0,?
+Resources     DustCloud,-4680,40000,0,Sphere,dust.dist,30,3000,6000,0,0,0,?
+Resources     DustCloud,4680,-40000,0,Sphere,dust.dist,30,3000,6000,0,0,0,?
+Resources     DustCloud,-3500,-7590,380,Sphere,dust.dist,30,300,6000,0,0,0,?
+Resources     DustCloud,-220,970,-5700,Sphere,dust.dist,30,500,6000,0,0,0,?
+Resources     DustCloud,-5290,4740,8910,Sphere,dust.dist,30,400,6000,0,0,0,?
+Resources     DustCloud,-8260,890,1470,Sphere,dust.dist,30,1000,6000,0,0,0,?
+Resources     DustCloud,-580,-2390,1430,Sphere,dust.dist,30,3000,6000,0,0,0,?
+Resources     DustCloud,7280,-1290,-260,Sphere,dust.dist,30,3000,6000,0,0,0,?
+
+; Cylinders
+Resources     Asteroid,0,0,0,Cylinder,dab1.dist,300,100,100000,40000,0,0,?
+Resources     Asteroid,0,0,0,Cylinder,dab1.dist,300,100,100000,-40000,0,0,?
+
+Resources     Asteroid,0,60000,0,Cylinder,dab1.dist,100,300,60000,80000,0,0,?
+Resources     Asteroid,0,-60000,0,Cylinder,dab1.dist,100,300,60000,-80000,0,0,?
+
+
+
+
+
+
+
+
+
+
+
+
+

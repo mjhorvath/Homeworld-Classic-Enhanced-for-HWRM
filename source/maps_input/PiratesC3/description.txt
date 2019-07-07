@@ -1,0 +1,11 @@
+Description    We have arrive to a very remote corner of the Galaxy, and only here in this heaps of rocks, we can to harvest minerals and reconstruct the Fleet. The sensors detect the presence of hidden ships inside. Let's hope they are not another enemy....
+Description
+Description    AUTHOR: Randix (starmaker72@hotmail.com)
+Description    VERSION: (18 APRIL-2000)
+Description    
+Description
+
+Font Arial_b12.hff
+Color  240, 0, 0
+DropShadow Yes
+

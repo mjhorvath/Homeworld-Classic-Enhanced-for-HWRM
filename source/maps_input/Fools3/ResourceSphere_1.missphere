@@ -1,0 +1,50 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+Ships     , -68293.8,-25615.3,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,   5304.5,-75684.1,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,  75665.9,-21160.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,  45553.3, 62606.4,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     , -43418.7, 59852.9,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+Slipgate    ,-96046.2, 19989.7,0.0,1/2,-126.0,dSlipgateLarge
+Slipgate    ,-47804.7, 86388.4,0.0,2/2,  54.0,dSlipgateLarge
+Slipgate    , -9782.0, 98742.7,0.0,1/2, 162.0,dSlipgateLarge
+Slipgate    , 68274.3, 73380.6,0.0,2/2, -18.0,dSlipgateLarge
+Slipgate    , 91773.6, 41036.7,0.0,1/2,  90.0,dSlipgateLarge
+Slipgate    , 91773.6,-41036.7,0.0,2/2, -90.0,dSlipgateLarge
+Slipgate    , 68274.3,-73380.6,0.0,1/2,  18.0,dSlipgateLarge
+Slipgate    , -9782.1,-98742.7,0.0,2/2,-162.0,dSlipgateLarge
+Slipgate    ,-47804.7,-86388.4,0.0,1/2, -54.0,dSlipgateLarge
+Slipgate    ,-96046.2,-19989.7,0.0,2/2, 126.0,dSlipgateLarge
+
+; centre
+Resources    Asteroid,23206.6,  3684.7,    0.0,Sphere,Heavy.dist,6,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, 9126.1, 15695.2,  500.0,Sphere,Heavy.dist,6,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,-6647.5,  6015.2,-1000.0,Sphere,Heavy.dist,6,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,-2315.6,-11977.5, 1000.0,Sphere,Heavy.dist,6,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,16135.1,-13417.9, -500.0,Sphere,Heavy.dist,6,2500.0,1000.0,0.0,0.0,0,?
+
+Resources    DustCloud,-18549.0, 29926.5,  500.0,Sphere,Dust.dist,12,3000.0,1000.0,0.0,0.0,2048,1
+Resources    DustCloud, 25937.0, 31303.2, -500.0,Sphere,Dust.dist,12,3000.0,1000.0,0.0,0.0,2048,1
+Resources    DustCloud, 40993.3,-10580.0,    0.0,Sphere,Dust.dist,12,3000.0,1000.0,0.0,0.0,2048,1
+Resources    DustCloud,  5812.6,-37842.0,-1000.0,Sphere,Dust.dist,12,3000.0,1000.0,0.0,0.0,2048,1
+Resources    DustCloud,-30986.5,-12807.6, 1000.0,Sphere,Dust.dist,12,3000.0,1000.0,0.0,0.0,2048,1
+Resources    Asteroid, -68293.8, 25615.3,0.0,Cylinder,Small.dist,12,2600.0,18000.0,90.0,0.0,0,?
+Resources    Asteroid,   5304.5, 75684.1,0.0,Cylinder,Small.dist,12,2600.0,18000.0,90.0,0.0,0,?
+Resources    Asteroid,  75665.9, 21160.0,0.0,Cylinder,Small.dist,12,2600.0,18000.0,90.0,0.0,0,?
+Resources    Asteroid,  45553.3,-62606.4,0.0,Cylinder,Small.dist,12,2600.0,18000.0,90.0,0.0,0,?
+Resources    Asteroid, -43418.7,-59852.9,0.0,Cylinder,Small.dist,12,2600.0,18000.0,90.0,0.0,0,?
+
+; bords
+Resources    Asteroid,-107802.0,   3809.3,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,0,?
+Resources    Asteroid, -28803.2, 104923.0,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,0,?
+Resources    Asteroid,  91773.6,  61036.7,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,0,?
+Resources    Asteroid,  87295.4, -67200.3,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,0,?
+Resources    Asteroid, -36049.0,-102569.0,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,0,?
+
+Resources    Asteroid,-107802.0,  -3809.3,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,2048,1
+Resources    Asteroid, -36049.0, 102569.0,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,2048,1
+Resources    Asteroid,  87295.4,  67200.3,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,2048,1
+Resources    Asteroid,  91773.6, -61036.7,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,2048,1
+Resources    Asteroid, -28803.2,-104923.0,0.0,Cylinder,Small.dist,15,2800.0,20000.0,90.0,0.0,2048,1

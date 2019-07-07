@@ -1,0 +1,8 @@
+; MissionMan script, Thursday, Dec 2 1999, 4:40:16 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Distribution Object: CenterResource_1
+
+DustCloud0	30	3
+DustCloud1	30	3
+DustCloud2	20	2
+DustCloud3	20	2

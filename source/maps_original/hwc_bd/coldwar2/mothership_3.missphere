@@ -1,0 +1,8 @@
+; MissionMan script, Sunday, Jul 9 2000, 10:11:22 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: RACE_SECT,sMothership
+
+playerNumber    3
+radius    30000.0
+contents    Mothership_3.missphere
+startingResourceUnits    1000

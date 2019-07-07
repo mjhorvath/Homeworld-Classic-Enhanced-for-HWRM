@@ -1,0 +1,39 @@
+; MissionMan script, Thursday, Jul 20 2000, 6:12:31 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Kristalzupacken4
+; Info: Kristalzupacken [4]
+
+[Kristalzupacken [4]]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,300.0,0.0,ResourceSphere_0.missphere,10
+MissionSphere    0,RACE_SECT,Mothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,2000
+MissionSphere    1,RACE_SECT,Mothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_1.missphere,2000
+MissionSphere    2,RACE_SECT,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,2000
+MissionSphere    3,RACE_SECT,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,2000
+
+Lighting    mission02
+Background    mission02,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    300000
+smZoomMin    53000
+smInitialDistance    60000
+smUniverseSizeX    80000
+smUniverseSizeZ    45000
+smUniverseSizeY    80000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_TRADERS,ALL
+ExcludeShips    RACE_SECT,sMothershipEnginesLower
+ExcludeShips    RACE_SECT,sMothershipOreCanArmour
+ExcludeShips    RACE_SECT,sMothershipLowerSpine
+ExcludeShips    RACE_BEAST,bSectMoShip
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dAcolyte
+SongNumber    9
+LensFlare    ps-50-300mm-zoom

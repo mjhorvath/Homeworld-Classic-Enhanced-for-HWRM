@@ -1,0 +1,30 @@
+; MissionMan script, Monday, Nov 30 1998, 7:29:44 PM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; Multiplayer Level: _GardenSalad2
+; Info: _Fields of Plaz
+
+[_Fields of Plaz]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,40000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,1000
+MissionSphere    -1,?,ResourceSphere,-13000.0,24000.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,1000
+
+Lighting    default
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    190000
+smZoomMin    70000
+smInitialDistance    145000
+smUniverseSizeX    160000
+smUniverseSizeZ    80000
+smUniverseSizeY    160000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,FloatingCity
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    ALL

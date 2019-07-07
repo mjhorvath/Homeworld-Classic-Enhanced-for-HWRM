@@ -1,0 +1,36 @@
+; MissionMan script, Friday, Mar 16 2001, 2:47:37 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Kraken Wave(4)
+; Info: Level info goes here
+
+[Three For All (3)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,RACE_SECT,sMothership,47689.0,45044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,RACE_SECT,sMothership,43689.0,45044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+
+Lighting    Mission4
+Background    Mission4,180,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    90000
+smUniverseSizeZ    35000
+smUniverseSizeY    90000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+SongNumber    03
+

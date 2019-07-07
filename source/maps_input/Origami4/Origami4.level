@@ -1,0 +1,54 @@
+; MissionMan script, Wednesday, Dec 27 2000, 3:28:30 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Origami4
+; Info: Origami's Nebula(2-4)
+
+[Origami's Nebula(2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    3,R1,Mothership,0.0,70000.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    2,R2,Mothership,0.0,-70000.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    1,R1,Mothership,70000.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R2,Mothership,-70000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+
+Lighting    weird
+Background    weird
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    700000
+smUniverseSizeZ    35000
+smUniverseSizeY    700000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,ALL
+ExcludeShips    R2,ALL
+IncludeShips    R1,Mothership
+IncludeShips    R2,Mothership
+IncludeShips    R1,ResourceCollector
+IncludeShips    R2,ResourceCollector
+IncludeShips    R1,AdvanceSupportFrigate
+IncludeShips    R2,AdvanceSupportFrigate
+IncludeShips    R1,IonCannonFrigate
+IncludeShips    R2,IonCannonFrigate
+IncludeShips    R1,AttackBomber
+IncludeShips    R2,AttackBomber
+IncludeShips    R1,StandardDestroyer
+IncludeShips    R2,StandardDestroyer
+IncludeShips    R1,MissileDestroyer
+IncludeShips    R2,MissileDestroyer
+IncludeShips    R1,HeavyCruiser
+IncludeShips    R2,HeavyCruiser
+IncludeShips    R1,Carrier
+IncludeShips    R2,Carrier
+IncludeShips    P2,MultiBeamFrigate
+IncludeShips    R1,Probe
+IncludeShips    R2,Probe
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    14

@@ -1,0 +1,16 @@
+Description	Flakes of Fire (2-4) by Aknott
+Description	v 1.0 - April 1st, 2001
+Description	
+Description	Send, ascending to the secrets
+Description	All is pure and clear to resolve
+Description	Nothing can change us now
+Description	Send, ascending to the future
+Description	Nothing can ever change us now
+Description	We follow the sun
+Description	
+Description	Lyrics from Homeworld(The Ladder) by YES
+
+
+Font            Arial_b12.hff
+Color           64, 128, 192
+DropShadow      Yes

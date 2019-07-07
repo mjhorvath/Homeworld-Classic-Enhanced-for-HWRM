@@ -1,0 +1,19 @@
+Description     Scout Madness 2 (2-8)
+Description
+Description     FIGHT! May the best scout warrior/team or lucky b*****d win!  :D
+Description     Good Luck, May The Scout Be With You! :)
+Description     
+Description     v 2.0 - 13-3-2003
+Description     Map by: Moonquake|&B&i&B
+Description     Original Concept By: B][LLy Da &B&i&B
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          900, 900, 900
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

@@ -1,0 +1,38 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources     Asteroid,7630,6510,-360,Sphere,A1.dist,60,18000,360000,0,0,2048,3
+Resources     Asteroid,-2960,1520,-810,Sphere,A1.dist,60,18000,360000,0,0,2048,3
+Resources     Asteroid,-3160,910,-2630,Sphere,A1.dist,60,18000,360000,0,0,2048,3
+
+
+Resources     DustCloud,0,200000,0,Sphere,A2.dist,50,15000,30000,0,0,0,?
+Resources     DustCloud,0,-200000,0,Sphere,A2.dist,50,15000,30000,0,0,0,?
+Resources     DustCloud,-200000,0,0,Sphere,A2.dist,50,15000,30000,0,0,0,?
+Resources     DustCloud,200000,0,0,Sphere,A2.dist,50,15000,30000,0,0,0,?
+
+Resources     Asteroid,0,100000,0,Sphere,A1.dist,60,10200,2400,0,0,0,?
+Resources     Asteroid,0,-100000,0,Sphere,A1.dist,60,10200,2400,0,0,0,?
+Resources     Asteroid,-100000,0,0,Sphere,A1.dist,60,10200,2400,0,0,0,?
+Resources     Asteroid,100000,0,0,Sphere,A1.dist,60,10200,2400,0,0,0,?
+
+Resources     Asteroid,0,150000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,0,-150000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,-150000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,150000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+
+Resources     Asteroid,0,50000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,0,-50000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,-50000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,50000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+
+Resources     Asteroid,0,1750000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,0,-1750000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,-1750000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,1750000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+
+Resources     Asteroid,0,750000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,0,-750000,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,-750000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?
+Resources     Asteroid,750000,0,0,Sphere,A3.dist,50,18000,2000,0,0,0,?

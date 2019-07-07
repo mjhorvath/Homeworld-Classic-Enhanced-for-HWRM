@@ -1,0 +1,13 @@
+; MissionMan script, Monday, Sep 5 2005, 1:26:46 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Nebula,0.0,0.0,0.0,Nebula,neb.dist,400,300000.0,20000.0,20000.0,30000,2048,2
+Resources    Nebula,0.0,0.0,0.0,Nebula,neb.dist,400,20000.0,300000.0,20000.0,30000,2048,2
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,rock.dist,30,50.0,50000.0,50.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,rock.dist,30,50.0,50000.0,-50.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,rock.dist,30,2500.0,500.0,90.0,180.0,2048,3
+Derelict    HeavyCruiser,0.0,0.0,1000.0,0.0,0.0,0,?,?
+Derelict    HeavyCruiser,80.0,10.0,-1000.0,0.0,0.0,0,?,?
+Resources    Nebula,45000.0,0.0,0.0,Nebula,neb.dist,200,60000.0,20000.0,20000.0,30000,2048,2
+

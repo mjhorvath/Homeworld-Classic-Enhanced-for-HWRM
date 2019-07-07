@@ -1,0 +1,41 @@
+; MissionMan script, sábado, abr 1 2000, 9:58:45 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: DragonDenII4
+; Info: DEN OF DRAGON (2-4)
+
+[DEN OF DRAGONS II (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    1,R2,Mothership,-60000.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,60000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,-60000.0,10000.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,60000.0,-10000.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    -1,R1,Mothership,0.0,60000.0,-10000.0,30000.0,0.0,Mothership_4.missphere,1000
+MissionSphere    -1,R1,Mothership,0.0,60000.0,-10000.0,30000.0,0.0,Mothership_5.missphere,1000
+MissionSphere    -1,R1,Mothership,0.0,60000.0,-10000.0,30000.0,0.0,Mothership_6.missphere,1000
+MissionSphere    -1,R1,Mothership,0.0,60000.0,-10000.0,30000.0,0.0,Mothership_7.missphere,1000
+
+Lighting    ez07
+Background    ez07, 45, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    150000
+smZoomMax    150000
+smZoomMin    10000
+smInitialDistance    75000
+smUniverseSizeX    200000
+smUniverseSizeZ    100000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,LightInterceptor
+ExcludeShips    R2,LightInterceptor
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    12

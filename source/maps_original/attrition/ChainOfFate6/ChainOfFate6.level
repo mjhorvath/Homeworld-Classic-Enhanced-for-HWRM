@@ -1,0 +1,38 @@
+; MissionMan script, Saturday, Feb 19 2000, 4:58:32 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: ChainOfFate6
+; Info: Chain of Fate (2-6)
+
+[Chain of Fate (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,0.0,35000.0,0.0,30000.0,100.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,0.0,-35000.0,0.0,30000.0,-100.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,35000.0,0.0,0.0,30000.0,10.0,Mothership_2.missphere,0
+MissionSphere    3,R2,Mothership,-35000.0,0.0,0.0,30000.0,190.0,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,0.0,0.0,35000.0,30000.0,235.0,Mothership_4.missphere,0
+MissionSphere    5,R2,Mothership,0.0,0.0,-35000.0,30000.0,145.0,Mothership_5.missphere,0
+
+
+Lighting    chainneb
+Background    chainneb, 0, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    150000
+smUniverseSizeZ    140000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips    Traders,Junk_SGun
+IncludeShips    Traders,Junk_LGun
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    3

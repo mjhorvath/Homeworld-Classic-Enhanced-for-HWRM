@@ -1,0 +1,52 @@
+; MissionMan script, perjantai, syys 8 2000, 5:34:45 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: VergessoAsteroids2
+; Info: Vergesso Asteroid Field (2)
+
+[Vergesso Asteroid Field (2)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,1500
+MissionSphere    0,R2,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,1500
+
+Lighting    ez06
+Background    ez06, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    150000
+smZoomMin    25000
+smInitialDistance    75000
+smUniverseSizeX    125000
+smUniverseSizeZ    95000
+smUniverseSizeY    125000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    Scaffold_scarred
+IncludeDerelict    ScaffoldFingerA_scarred
+IncludeDerelict    ScaffoldFingerB_scarred
+IncludeDerelict    Junk2_shipwreck
+IncludeDerelict    Shipwreck
+IncludeDerelict    FragmentPanel1
+IncludeDerelict    FragmentPanel2
+IncludeDerelict    FragmentPanel3
+IncludeDerelict    FragmentStrut
+IncludeDerelict    FragmentPanel0a
+IncludeDerelict    FragmentPanel0b
+IncludeDerelict    FragmentPanel0c
+IncludeDerelict    Junk0_antenna
+IncludeDerelict    Junk0_fin1
+IncludeDerelict    Junk0_GunAmmo
+IncludeDerelict    Junk0_panel
+IncludeDerelict    Junk0_sensors
+IncludeDerelict    Junk1_partA
+IncludeDerelict    Junk1_partB
+SongNumber    14

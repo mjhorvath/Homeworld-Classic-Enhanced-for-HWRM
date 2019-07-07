@@ -1,0 +1,127 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"A 2v2 Carrier map based around gaining control over the slipgates which populate the map. MCV's and mimics have been excluded from the taaw side, and the cruise missile has been excluded from the beast side. Thanks to dylov for figuring out my stupid mistake:)",
+	"",
+	"",
+	"",
+	"",
+	"Settings: Research &M&U&S&T be off if you want to build more than recons and workers.",
+	"",
+	"Created by dzurlord (version 1.1)",
+}
+
+LevelName = [[Conflict (4)]]
+LevelFile = [[Conflict4]]
+SourceGame = "HWC"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 300000,}
+UniverseSize = {175000, 175000, 100000, }
+
+LevelBackground = "mission07"
+LevelMusic = "24"
+
+RUsRatio = 1
+
+PebRatio = 1/2
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","race_sect","race_sect","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{150000.0, 150000.0, 0.0, 44.0,},
+	{-150000.0, 150000.0, 0.0, 44.0,},
+	{150000.0, -150000.0, 0.0, 44.0,},
+	{-150000.0, -150000.0, 0.0, 44.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "scarrier", {150000.0, 150000.0, 0.0,}, 0, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{4, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {140000.0, 150000.0, 0.0,}, 0, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "scarrier", {-150000.0, 150000.0, 0.0,}, 1, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{4, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {-140000.0, 150000.0, 0.0,}, 1, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "scarrier", {150000.0, -150000.0, 0.0,}, 2, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{4, "", "sworker", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {140000.0, -150000.0, 0.0,}, 2, {0, 0, 44.0,}, 0, 0, "race_sect", "nill_formation",},
+	{1, "", "scarrier", {-150000.0, -150000.0, 0.0,}, 3, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{4, "", "sworker", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {-140000.0, -150000.0, 0.0,}, 3, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	type3 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	type2 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{140000.0, 140000.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{140000.0, 140000.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{-140000.0, 140000.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{-140000.0, 140000.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{140000.0, -140000.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{140000.0, -140000.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{-140000.0, -140000.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{-140000.0, -140000.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{-140000.0, 0.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{-140000.0, 0.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{140000.0, 0.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{140000.0, 0.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{0.0, -140000.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{0.0, -140000.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{0.0, 140000.0, 0.0,}, "cylinder", "type3", 5, 1272.2, 4766.8, 0.0, 83.0,},
+	{{0.0, 140000.0, 0.0,}, "cylinder", "type2", 5, 1272.2, 4766.8, 0.0, 83.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,37 @@
+; MissionMan script, Friday, Jun 17 2005, 7:09:38 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Dolterious II4
+; Info: Dolterious II(4)
+
+[Dolterious II (4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,0
+
+Lighting    default
+smDepthCueRadius    70000
+smDepthCueStartRadius    30000
+smCircleBorder    100000
+smZoomMax    200000
+smZoomMin    30000
+smInitialDistance    95000
+smUniverseSizeX    200000
+smUniverseSizeZ    70000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,DDDFrigate
+ExcludeShips    R2,DFGFrigate
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    Traders,CargoBarge
+SongNumber    19

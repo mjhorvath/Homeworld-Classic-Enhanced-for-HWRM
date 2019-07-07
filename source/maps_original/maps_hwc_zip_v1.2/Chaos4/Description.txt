@@ -1,0 +1,12 @@
+Description         Small to medium sized asymetric map, with scattered resource patches and an obstacle course of meteor showers. Keep those frigates buffed.:)
+Description
+Description         Settings: default.
+Description         By: leroybrown [03/14/01]
+Description         Background: courtesy FoX
+
+
+
+Font            Arial_b12.hff
+Color           255, 200, 0
+DropShadow      Yes
+

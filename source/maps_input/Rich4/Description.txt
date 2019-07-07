@@ -1,0 +1,10 @@
+Description	Rich Galaxy
+Description	This map has been designed for those of you out there that like a tactical challenge. If you know what you are doing, you can change this challenge into an advantage. 
+Description	Hope you enjoy.
+Description	
+Description	AUTHOR  : medamanx
+Description	E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)
+
+Font 		Arial_b12.hff
+Color 		255, 100, 0
+DropShadow 	Yes

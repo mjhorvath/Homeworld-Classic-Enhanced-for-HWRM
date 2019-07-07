@@ -1,0 +1,116 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Staples",
+	"This map, uh, well, what can I say, looks like staples.....",
+	"Hope you enjoy.",
+	"",
+	"AUTHOR  : medamanx",
+	"E-MAIL  : medamanx@hotmail.com",
+	"WEBSITE : www.geocities.com/medamanx aka: Homeworld Screenshot Archive",
+}
+
+LevelName = [[Staples (2-4)]]
+LevelFile = [[Staples4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {10000, 300000,}
+UniverseSize = {120000, 120000, 65000, }
+
+LevelBackground = "ez10"
+LevelMusic = "15"
+
+RUsRatio = 1
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-75000.0, 15000.0, 60000.0, 0.0,},
+	{15000.0, -75000.0, 0.0, 180.0,},
+	{-15000.0, 75000.0, 0.0, 0.0,},
+	{75000.0, -15000.0, 60000.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {15000.0, -75000.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-75000.0, 15000.0, 60000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-15000.0, 75000.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {75000.0, -15000.0, 60000.0,}, 3, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	aster =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 3,
+		asteroid4 = 4,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-15000.0, -45000.0, 0.0,}, "cylinder", "aster", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{15000.0, 45000.0, 0.0,}, "cylinder", "aster", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{-15000.0, 15000.0, 30000.0,}, "cylinder", "aster", 50, 5000.0, 100000.0, -30.0, 45.0,},
+	{{15000.0, -15000.0, 30000.0,}, "cylinder", "aster", 50, 5000.0, 100000.0, 30.0, 45.0,},
+	{{45000.0, 15000.0, 60000.0,}, "cylinder", "aster", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{-45000.0, -15000.0, 60000.0,}, "cylinder", "aster", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{-15000.0, -45000.0, 0.0,}, "cylinder", "dust", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{15000.0, 45000.0, 0.0,}, "cylinder", "dust", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{45000.0, 15000.0, 60000.0,}, "cylinder", "dust", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{-45000.0, -15000.0, 60000.0,}, "cylinder", "dust", 50, 5000.0, 100000.0, 0.0, -45.0,},
+	{{15000.0, -15000.0, 30000.0,}, "cylinder", "dust", 50, 5000.0, 100000.0, 30.0, 45.0,},
+	{{-15000.0, 15000.0, 30000.0,}, "cylinder", "dust", 50, 5000.0, 100000.0, -30.0, 45.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

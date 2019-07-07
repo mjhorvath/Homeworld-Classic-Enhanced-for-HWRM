@@ -1,0 +1,157 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Traitors way II",
+	"beware of traitors allies and keep and eye on your collectors.",
+	"a dangerous region watch your back.",
+	"",
+	"AUTHOR: &Kahless &L&S",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Traitors Way II (4)]]
+LevelFile = [[Traitors Way II4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = "ez06"
+LevelMusic = "19"
+
+RUsRatio = 1/2
+
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-40000.0, 20000.0, 0.0, 0.0,},
+	{-40000.0, -20000.0, 0.0, 0.0,},
+	{40000.0, -20000.0, 0.0, -180.0,},
+	{40000.0, 20000.0, 0.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {40000.0, 20000.0, 0.0,}, 3, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {40000.0, -20000.0, 0.0,}, 2, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-40000.0, 20000.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-40000.0, -20000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	tiny =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 5,
+		asteroid3 = 6,
+		asteroid4 = 3,
+	},
+	dusty =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 4,
+		dustcloud2 = 5,
+		dustcloud3 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 50.0, 0.0,},
+	{{-17000.0, 0.0, 15000.0,}, "cylinder", "tiny", 100, 2500.0, 25000.0, 30.0, 0.0,},
+	{{17000.0, 0.0, -15000.0,}, "cylinder", "tiny", 100, 2500.0, 25000.0, 40.0, 0.0,},
+	{{-40000.0, -35000.0, 0.0,}, "cylinder", "rock", 35, 1500.0, 60000.0, 0.0, -50.0,},
+	{{40000.0, 35000.0, 0.0,}, "cylinder", "rock", 35, 1500.0, 60000.0, 0.0, -50.0,},
+	{{40000.0, -35000.0, 0.0,}, "cylinder", "rock", 35, 1500.0, 60000.0, 0.0, 50.0,},
+	{{-40000.0, 35000.0, 0.0,}, "cylinder", "rock", 35, 1500.0, 60000.0, 0.0, 50.0,},
+	{{-39335.0, -906.0, 25000.0,}, "sphere", "dusty", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-30000.0, 0.0, 28000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, 60.0, 0.0,},
+	{{-35000.0, 0.0, 16000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, -20.0, 0.0,},
+	{{-33000.0, -6000.0, 23000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, 20.0, 40.0,},
+	{{-32335.0, 6000.0, 24000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, 30.0, -40.0,},
+	{{36000.0, 0.0, -28000.0,}, "sphere", "dusty", 12, 4000.0, 8000.0, 0.0, 0.0,},
+	{{34000.0, 0.0, -20000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, -10.0, 0.0,},
+	{{28000.0, 0.0, -30000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, 60.0, 0.0,},
+	{{30000.0, -8000.0, -25000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, 20.0, -60.0,},
+	{{30000.0, 8000.0, -25000.0,}, "cylinder", "rock", 15, 1500.0, 15000.0, 20.0, 60.0,},
+	{{0.0, -80000.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{4000.0, -59155.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, 70.0,},
+	{{11153.9, -40671.5, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, 70.0,},
+	{{14000.0, -20000.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{14340.7, 119.8, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{14340.7, 19878.1, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{10517.0, 37724.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -70.0,},
+	{{4000.0, 58000.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -70.0,},
+	{{-319.0, 80428.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{-4143.0, 56845.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, 70.0,},
+	{{-11791.3, 33900.2, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, 70.0,},
+	{{-16890.0, 12867.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{-16252.8, -8165.9, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{-17000.0, -20100.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -90.0,},
+	{{-14341.0, -41309.0, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -70.0,},
+	{{-5417.6, -61704.6, 0.0,}, "cylinder", "tiny", 70, 2500.0, 25000.0, 0.0, -70.0,},
+	{{39681.0, 34681.0, 0.0,}, "cylinder", "dust", 7, 250.0, 30000.0, 0.0, -50.0,},
+	{{38407.0, -36704.0, 0.0,}, "cylinder", "dust", 7, 250.0, 30000.0, 0.0, 50.0,},
+	{{-41264.0, -34791.0, 0.0,}, "cylinder", "dust", 7, 250.0, 30000.0, 0.0, -50.0,},
+	{{-41264.0, 35319.0, 0.0,}, "cylinder", "dust", 7, 250.0, 30000.0, 0.0, 50.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,170 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"You've destroyed your enemy.... almost.  One last thing remains: You must raid the bird's nest !!!!",
+	"",
+	"Hint: One way to do it involves",
+	"A) Creative use of the minelayer corvette",
+	"B) Force attacking  ",
+	"",
+	"Sarting fleet includes one Junkyard Dawg ;-)   ",
+	"by liteDARK_SR",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[BirdsNest (2-4)]]
+LevelFile = [[birdsnest3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {40000, 165000,}
+UniverseSize = {76000, 82000, 22500, }
+
+LevelBackground = "ez06"
+LevelMusic = "28"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{65000.0, 0.0, 0.0, 180.0,},
+	{-65000.0, 0.0, 0.0, 0.0,},
+	{0.0, 65000.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {65000.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "carrier", {65000.0, 0.0, 51000.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "junkyarddawg", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "parade_formation",},
+	{1, "", "mothership", {-65000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "carrier", {-65000.0, 0.0, 51000.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "junkyarddawg", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "traders", "parade_formation",},
+	{1, "", "mothership", {0.0, 65000.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "carrier", {0.0, 65000.0, 51000.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "junkyarddawg", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "ghostship", {65000.0, 0.0, 49000.0,}, -1, {0, 0, 180.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {62000.0, 0.0, 51000.0,}, -1, {0, 0, 180.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {68000.0, 0.0, 51000.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {65000.0, 3000.0, 51000.0,}, -1, {0, 0, 90.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {65000.0, -3000.0, 51000.0,}, -1, {0, 0, 270.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {65000.0, 0.0, 60000.0,}, -1, {0, 0, 180.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {-65000.0, 0.0, 49000.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {-62000.0, 0.0, 51000.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {-68000.0, 0.0, 51000.0,}, -1, {0, 0, 180.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {-65000.0, 3000.0, 51000.0,}, -1, {0, 0, 90.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {-65000.0, -3000.0, 51000.0,}, -1, {0, 0, 270.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {-65000.0, 0.0, 60000.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {0.0, 65000.0, 49000.0,}, -1, {0, 0, 270.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {0.0, 62000.0, 51000.0,}, -1, {0, 0, 270.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {0.0, 68000.0, 51000.0,}, -1, {0, 0, 90.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {3000.0, 65000.0, 51000.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {-3000.0, 65000.0, 51000.0,}, -1, {0, 0, 180.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {0.0, 65000.0, 60000.0,}, -1, {0, 0, 270.0,}, 0, 0, "traders", "null_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 40,
+		asteroid4 = 0,
+	},
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	asteroidlong =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	asteroidcentre =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	asteroidbigsphere =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 1.0, -1000.0,}, "cylinder", "asteroid", 100, 20000.0, 1000.0, 90.0, 135.0,},
+	{{20000.0, 33000.0, 0.0,}, "sphere", "dustcloudcentre", 11, 1835.0, 3670.0, 0.0, 0.0,},
+	{{-19999.0, -33001.0, 0.0,}, "sphere", "dustcloudcentre", 11, 1835.0, 3670.0, 0.0, -40.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidlong", 175, 4000.0, 151209.1, 0.0, -30.0,},
+	{{-39000.0, 9000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -60.0,},
+	{{-29000.0, -21000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -80.0,},
+	{{-19999.0, -32000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 22650.0, 0.0, -120.0,},
+	{{-1999.0, -39000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, 10.0,},
+	{{29000.0, -34000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -180.0,},
+	{{34943.0, -33038.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 2.0,},
+	{{27001.0, -43000.0, 0.0,}, "cylinder", "asteroidbigsphere", 10, 4810.0, 24350.0, 0.0, 0.0,},
+	{{5949.0, -37057.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 8.0,},
+	{{39000.0, -9000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -60.0,},
+	{{29000.0, 21000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -80.0,},
+	{{20000.0, 32000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 22650.0, 0.0, -120.0,},
+	{{2000.0, 39000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, 10.0,},
+	{{-29000.0, 34000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -180.0,},
+	{{-27000.0, 43000.0, 0.0,}, "cylinder", "asteroidbigsphere", 10, 4810.0, 24350.0, 0.0, -20.0,},
+	{{-34942.9, 33369.3, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 0.0,},
+	{{-5948.7, 37057.1, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 7.0,},
+	{{-116184.6, 58847.9, 0.0,}, "cylinder", "asteroidlong", 90, 4000.0, 110300.0, 0.0, -22.0,},
+	{{111753.0, -66752.2, 0.0,}, "cylinder", "asteroidlong", 90, 4000.0, 110313.6, 0.0, -33.0,},
+	{{185044.3, -108821.3, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 58690.5, 0.0, -24.0,},
+	{{-196661.3, 84845.2, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 58690.5, 0.0, -10.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,19 @@
+Description     Death From Above II (4or6) - Best Played TvB
+Description
+Description     Not as good as the first one   just abit bigger   and now u can have a 3vs3  =)  Starting Ships : 2 research ships.2 collectors
+Description     
+Description     Map By : Moonquake-&B&i&B
+Description     v 1.0 - June 21, 2001
+Description     moonquake3@hotmail.com
+Description     &B&i&B Addy : www.bestinbritain.org
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          200, 240, 70
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

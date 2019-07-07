@@ -1,0 +1,29 @@
+; MissionMan script, Sunday, Jan 16 2000, 8:54:58 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: SuperNova2
+; Info: SuperNova (2)
+
+[Super Nova (2)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,1000
+
+Lighting    ez10, 135, 10
+Background    ez10, 135, 10
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    250000
+smZoomMin    20000
+smInitialDistance    100000
+smUniverseSizeX    1600000
+smUniverseSizeZ    750000
+smUniverseSizeY    1600000
+RUNeededForNextHyperSpaceJump    1000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeDerelict    ALL
+MissionStartEnemyRUs    2000
+SongNumber    5

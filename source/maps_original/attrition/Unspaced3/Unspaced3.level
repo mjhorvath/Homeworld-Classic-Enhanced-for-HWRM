@@ -1,0 +1,36 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Unspaced (2-4)
+; Info: Unspaced (2-4)
+
+[Unspaced (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R2,Mothership,-92164.8,50518.4,-20926.2,30000,-28.7,Mothership_0.missphere,?
+MissionSphere    1,R2,Mothership,-20488.8,-101036.0,29261.6,30000,78.5,Mothership_1.missphere,?
+MissionSphere    2,R1,Mothership,51186.8,50518.4,79449.6,30000,180.0,Mothership_2.missphere,?
+
+Lighting    ez10
+Background    ez10, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    250000
+smZoomMin    35000
+smInitialDistance    50000
+smUniverseSizeX    350000
+smUniverseSizeZ    350000
+smUniverseSizeY    350000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    14

@@ -1,0 +1,41 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources                Asteroid,-5000,-34999.7,0.0,Sphere,Pebble.dist,12,1628.6,5810.0,0.0,-19.0,0,?
+Resources    Asteroid,-5000,-34999.7,0.0,Sphere,Asteroidouter.dist,14,1160.0,4140.0,0.0,-19.0,2048,?
+Resources    Asteroid,-5000,-33999.7,0.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources              Asteroid,-5000,-32999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources              Asteroid,-5000,-34999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources              Asteroid,-5000,-34999.7,0.0,Sphere,Pebble.dist,2,568.9,2030.0,0.0,-19.0,0,?
+Resources               Asteroid,-5000,-32999.7,0.0,Sphere,Pebble.dist,3,484.8,1730.0,0.0,-19.0,0,?
+Resources                Asteroid,5000,-44999.7,0.0,Sphere,Pebble.dist,12,1628.6,5810.0,0.0,-19.0,0,?
+Resources    Asteroid,5000,-44999.7,0.0,Sphere,Asteroidouter.dist,14,1160.0,4140.0,0.0,-19.0,2048,?
+Resources     Asteroid,5000,-43999.7,0.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources               Asteroid,5000,-42999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources               Asteroid,5000,-44999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources               Asteroid,5000,-44999.7,0.0,Sphere,Pebble.dist,2,568.9,2030.0,0.0,-19.0,0,?
+Resources               Asteroid,5000,-42999.7,0.0,Sphere,Pebble.dist,3,484.8,1730.0,0.0,-19.0,0,?
+Resources                Asteroid,5000,34999.7,0.0,Sphere,Pebble.dist,12,1628.3,5810.0,0.0,-19.0,0,?
+Resources     Asteroid,5000,34999.7,0.0,Sphere,Asteroidouter.dist,13,1160.0,4140.0,0.0,-19.0,2048,?
+Resources      Asteroid,5000,33999.7,0.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources                Asteroid,5000,32999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources                Asteroid,5000,34999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources                Asteroid,5000,34999.7,0.0,Sphere,Pebble.dist,2,568.9,2030.0,0.0,-19.0,0,?
+Resources                Asteroid,5000,32999.7,0.0,Sphere,Pebble.dist,3,484.8,1730.0,0.0,-19.0,0,?
+Resources                Asteroid,-5000,39999.7,0.0,Sphere,Pebble.dist,12,1628.3,5810.0,0.0,-19.0,0,?
+Resources     Asteroid,-5000,39999.7,0.0,Sphere,Asteroidouter.dist,13,1160.0,4140.0,0.0,-19.0,2048,?
+Resources      Asteroid,-5000,38999.7,0.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources                Asteroid,-5000,37999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources                Asteroid,-5000,39999.7,0.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources                Asteroid,-5000,39999.7,0.0,Sphere,Pebble.dist,2,568.9,2030.0,0.0,-19.0,0,?
+Resources                Asteroid,-5000,38999.7,0.0,Sphere,Pebble.dist,3,484.8,1730.0,0.0,-19.0,0,?
+Resources                   Asteroid,0,333.3,18500.0,Sphere,Pebble.dist,30,3000,3000.0,0.0,-10.0,0,?
+Derelict                                                             PrisonShipNew,0,0,18500,38,0,0,?,?
+Resources                       	Nebula,0.0,0.0,18500.0,Nebula,nebula.dist,35,10000,15000,10000,4000
+Ships     ,0.0,2000.0,18000,90.0,Traders,Junk_Lgun,3,WALL_FORMATION|?|?,0,?
+Ships     ,0.0,-2000.0,18000,90.0,Traders,Junk_Lgun,3,WALL_FORMATION|?|?,0,?
+Ships     ,0.0,2000.0,19000,90.0,Traders,Junk_Lgun,3,WALL_FORMATION|?|?,0,?
+Ships     ,0.0,-2000.0,19000,90.0,Traders,Junk_Lgun,3,WALL_FORMATION|?|?,0,?
+Resources         Asteroid,25000,14000,-7500.0,Sphere,Asteroidouter.dist,30,1980.0,4500.0,0.0,-19.0,2048,?
+Resources         Asteroid,-25000,-14000,8000.0,Sphere,Asteroidouter.dist,30,1980.0,4500.0,0.0,-19.0,2048,?

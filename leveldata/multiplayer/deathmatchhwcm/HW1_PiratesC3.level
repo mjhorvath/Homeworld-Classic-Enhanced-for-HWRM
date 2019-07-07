@@ -1,0 +1,108 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"We have arrive to a very remote corner of the Galaxy, and only here in this heaps of rocks, we can to harvest minerals and reconstruct the Fleet. The sensors detect the presence of hidden ships inside. Let's hope they are not another enemy....",
+	"",
+	"AUTHOR: Randix (starmaker72@hotmail.com)",
+	"VERSION: (18 APRIL-2000)",
+	"",
+	"",
+}
+
+LevelName = [[PIRATE'S CAVE (2-4)]]
+LevelFile = [[PiratesC3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {40000, 165000,}
+UniverseSize = {150000, 150000, 22500, }
+
+LevelBackground = "ez02"
+LevelMusic = "12"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{786.8, -51534.0, 0.0, 90.0,},
+	{-35862.8, 24064.4, 0.0, -43.0,},
+	{35320.7, 24840.3, 0.0, -137.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {786.8, -51534.0, 0.0,}, 0, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-35862.8, 24064.4, 0.0,}, 1, {0, 0, -43.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {35320.7, 24840.3, 0.0,}, 2, {0, 0, -137.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 40,
+		asteroid4 = 0,
+	},
+	asteroiddec =
+	{
+		asteroid0 = 100,
+		asteroid1 = 1,
+		asteroid2 = 20,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 300, 10000.0, 20000.0, 0.0, 0.0,},
+	{{1000.0, 100.0, 500.0,}, "sphere", "asteroiddec", 300, 30000.0, 60000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

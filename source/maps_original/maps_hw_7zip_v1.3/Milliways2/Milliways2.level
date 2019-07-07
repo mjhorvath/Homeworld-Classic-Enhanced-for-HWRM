@@ -1,0 +1,39 @@
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Milliways2
+; Info: Milliways (2-4)
+
+[Milliways (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting    ez02
+Background    ez07, 0, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    30000
+smInitialDistance    60000
+smUniverseSizeX    100000
+smUniverseSizeZ    45000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips	Traders,ResearchStation
+IncludeShips	Traders,Junk_Lgun
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeGasCloud	All
+ExcludeDerelict    All
+IncludeDerelict    Crate
+IncludeDerelict	PlanetOfOrigin_scarred
+SongNumber    10

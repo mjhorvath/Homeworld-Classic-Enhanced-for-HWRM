@@ -1,0 +1,13 @@
+Description	Cocoon Crash (2-8) by Aknott
+Description
+Description	
+Description
+Description
+Description
+Description	v 1.0 - March 13th, 2001
+Description	aknott.free.fr
+Description	nicolasnaudet@yahoo.com
+
+Font            Arial_b12.hff
+Color           64, 128, 192
+DropShadow      Yes

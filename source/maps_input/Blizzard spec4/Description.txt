@@ -1,0 +1,10 @@
+Description	Blizzard (1v1 spectating)
+Description	
+Description	This is a map that has a blizzard. Dust blizzard. Made for 1v1, 2v2, 3v3, or 4v4. :)
+Description	
+Description	Author: BlackFalcon.&H&G
+Description	Created: Feburary 8, 2004
+
+Font 		Arial_b12.hff
+Color 		120,120, 160
+DropShadow 	Yes

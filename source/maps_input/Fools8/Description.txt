@@ -1,0 +1,14 @@
+Description	King,Squire And Fools (8) 
+Description	by &Ice&Pirate_&T&F&L - illusio2@yahoo.com
+Description
+Description	A CS/2carrier team versus 6 carriers
+Description	work together or die separately !
+Description	Settings : &N&O research.Injects optional.
+Description
+Description	Adapted from the original Kings And Fools
+Description	by Aknott aknott.free.fr
+Description	nicolasnaudet@yahoo.com
+
+Font            Arial_b12.hff
+Color           64, 128, 192
+DropShadow      Yes

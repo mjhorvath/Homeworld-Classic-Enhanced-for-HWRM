@@ -1,0 +1,23 @@
+; MissionMan script, Thursday, Nov 26 1998, 12:06:16 PM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; Multiplayer Level: Curtain2
+; Info: Iron Curtain 2-4
+
+[For testing NIS's 2-2]
+
+MissionSphere    0,R1,Mothership,67999.8,72000.6,0.0,30000.0,-147.0,Mothership_1.missphere,1000
+MissionSphere    1,R2,Mothership,-14001.1,10000.7,-10000.4,30000.0,-83.0,Mothership_0.missphere,1000
+;MissionSphere    -1,?,ResourceSphere,17001.1,64000.9,0.0,30000.0,0.0,ResourceSphere_2.missphere,1000
+
+Lighting    default
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    80000
+smZoomMin    40000
+smInitialDistance    60000
+smUniverseSizeX    100000
+smUniverseSizeZ    45000
+smUniverseSizeY    100000
+SongNumber    0
+

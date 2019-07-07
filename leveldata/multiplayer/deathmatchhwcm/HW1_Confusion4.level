@@ -1,0 +1,139 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Field of Confusion (2-6) by Aknott",
+	"",
+	"It's A New 3D Experience!",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"v 1.0 - March 19, 2000",
+	"nicolasnaudet@yahoo.com",
+	"aknott.free.fr",
+}
+
+LevelName = [[Field of Confusion (2-6)]]
+LevelFile = [[Confusion4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 120000,}
+UniverseSize = {250000, 250000, 250000, }
+
+LevelBackground = "ez05"
+LevelMusic = "12"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r2","r1","r1","r2","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{80000.0, -80000.0, 20000.0, 135.0,},
+	{-70000.0, -70000.0, -100000.0, 45.0,},
+	{70000.0, 70000.0, -10000.0, -135.0,},
+	{-70000.0, 70000.0, 90000.0, -45.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {80000.0, -80000.0, 20000.0,}, 0, {0, 0, 135.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-70000.0, -70000.0, -100000.0,}, 1, {0, 0, 45.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {70000.0, 70000.0, -10000.0,}, 2, {0, 0, -135.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-70000.0, 70000.0, 90000.0,}, 3, {0, 0, -45.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 6,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{110000.0, 0.0, 0.0,}, "cylinder", "asteroid", 89, 5000.0, 311127.0, 20.0, 90.0,},
+	{{103888.8, 0.0, 0.0,}, "cylinder", "asteroid", 85, 5000.0, 298395.2, 17.5, 90.0,},
+	{{97777.8, 0.0, 0.0,}, "cylinder", "asteroid", 82, 5000.0, 287189.8, 15.0, 90.0,},
+	{{91666.6, 0.0, 0.0,}, "cylinder", "asteroid", 79, 5000.0, 277304.1, 12.5, 90.0,},
+	{{85555.5, 0.0, 0.0,}, "cylinder", "asteroid", 77, 5000.0, 268570.3, 10.0, 90.0,},
+	{{79444.0, 0.0, 0.0,}, "cylinder", "asteroid", 75, 5000.0, 260851.5, 7.5, 90.0,},
+	{{73333.3, 0.0, 0.0,}, "cylinder", "asteroid", 73, 5000.0, 254034.2, 5.0, 90.0,},
+	{{67222.2, 0.0, 0.0,}, "cylinder", "asteroid", 71, 5000.0, 248024.1, 2.5, 90.0,},
+	{{61111.1, 0.0, 0.0,}, "cylinder", "asteroid", 69, 5000.0, 242743.1, 0.0, 90.0,},
+	{{55000.0, 0.0, 0.0,}, "cylinder", "asteroid", 68, 5000.0, 238126.2, -2.5, 90.0,},
+	{{48888.8, 0.0, 0.0,}, "cylinder", "asteroid", 67, 5000.0, 234119.1, -5.0, 90.0,},
+	{{42777.7, 0.0, 0.0,}, "cylinder", "asteroid", 66, 5000.0, 230676.3, -7.5, 90.0,},
+	{{36666.6, 0.0, 0.0,}, "cylinder", "asteroid", 65, 5000.0, 227760.7, -10.0, 90.0,},
+	{{30555.5, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 225341.5, -12.5, 90.0,},
+	{{24444.4, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 223393.8, -15.0, 90.0,},
+	{{18333.3, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 221898.4, -17.5, 90.0,},
+	{{12222.2, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 220840.4, -20.0, 90.0,},
+	{{6111.1, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 220209.6, -22.5, 90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 220000.0, -25.0, 90.0,},
+	{{-6111.1, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 220209.6, -27.5, 90.0,},
+	{{-12222.2, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 220840.4, -30.0, 90.0,},
+	{{-18333.3, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 221898.4, -32.5, 90.0,},
+	{{-24444.4, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 223393.8, -35.0, 90.0,},
+	{{-30555.5, 0.0, 0.0,}, "cylinder", "asteroid", 64, 5000.0, 225341.5, -37.5, 90.0,},
+	{{-36666.6, 0.0, 0.0,}, "cylinder", "asteroid", 65, 5000.0, 227760.7, -40.0, 90.0,},
+	{{-42777.7, 0.0, 0.0,}, "cylinder", "asteroid", 66, 5000.0, 230676.3, -42.5, 90.0,},
+	{{-48888.8, 0.0, 0.0,}, "cylinder", "asteroid", 67, 5000.0, 234119.1, -45.0, 90.0,},
+	{{-55000.0, 0.0, 0.0,}, "cylinder", "asteroid", 68, 5000.0, 238126.2, -47.5, 90.0,},
+	{{-61111.1, 0.0, 0.0,}, "cylinder", "asteroid", 69, 5000.0, 242743.1, -50.0, 90.0,},
+	{{-67222.2, 0.0, 0.0,}, "cylinder", "asteroid", 71, 5000.0, 248024.1, -52.5, 90.0,},
+	{{-73333.3, 0.0, 0.0,}, "cylinder", "asteroid", 73, 5000.0, 254034.2, -55.0, 90.0,},
+	{{-79444.0, 0.0, 0.0,}, "cylinder", "asteroid", 75, 5000.0, 260851.5, -57.5, 90.0,},
+	{{-85555.5, 0.0, 0.0,}, "cylinder", "asteroid", 77, 5000.0, 268570.3, -60.0, 90.0,},
+	{{-91666.6, 0.0, 0.0,}, "cylinder", "asteroid", 79, 5000.0, 277304.1, -62.5, 90.0,},
+	{{-97777.8, 0.0, 0.0,}, "cylinder", "asteroid", 82, 5000.0, 287189.8, -65.0, 90.0,},
+	{{-103888.8, 0.0, 0.0,}, "cylinder", "asteroid", 85, 5000.0, 298395.2, -67.5, 90.0,},
+	{{-110000.0, 0.0, 0.0,}, "cylinder", "asteroid", 89, 5000.0, 311127.0, -70.0, 90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

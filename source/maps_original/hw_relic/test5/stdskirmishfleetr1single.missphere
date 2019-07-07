@@ -1,0 +1,11 @@
+;Ships      x,y,z, rot, Race, ShipType, Number, [Formation]
+
+Ships       500.0, -2500.0, 0.0, -90.0, R1, Carrier, 1 
+
+;Asteroids   x,y,z, Cylinder,   Distribution, number of asteroids, radius,   length,   roty,   rotz
+;Asteroids   x,y,z, Sphere,     Distribution, number of asteroids, radius
+
+;Resources Asteroid   0.0, -6000.0, 0.0, Sphere, Tiny.dist, 20, 500.0
+;Resources Asteroid   0.0,  6000.0, 0.0, Sphere, Tiny.dist, 20, 500.0
+
+

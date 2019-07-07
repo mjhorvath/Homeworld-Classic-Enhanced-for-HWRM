@@ -1,0 +1,78 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+Resources    Asteroid,0.0,66291.3,0.0,Cylinder,Asteroid.dist,16,4000.0,90000.0,0.0,0.0,0,?
+Resources    Asteroid,-11200.1,65017.5,-6466.4,Cylinder,Asteroid.dist,16,4000.0,90000.0,0.5,9.7,0,?
+Resources    Asteroid,-21969.8,61245.2,-12684.3,Cylinder,Asteroid.dist,16,4000.0,90000.0,1.9,19.4,0,?
+Resources    Asteroid,-31895.3,55119.2,-18414.7,Cylinder,Asteroid.dist,16,4000.0,90000.0,3.9,28.8,0,?
+Resources    Asteroid,-40595.0,46875.0,-23437.5,Cylinder,Asteroid.dist,16,4000.0,90000.0,7.3,38.7,0,?
+Resources    Asteroid,-47734.6,36829.5,-27559.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,12.1,47.2,0,?
+Resources    Asteroid,-53039.9,25368.6,-30622.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,15.5,56.1,0,?
+Resources    Asteroid,-56306.8,12932.8,-32508.8,Cylinder,Asteroid.dist,16,4000.0,90000.0,20.4,65.0,0,?
+Resources    Asteroid,-57409.9,0.0,-33145.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,25.7,73.9,0,?
+Resources    Asteroid,-56306.8,-12932.8,-32508.8,Cylinder,Asteroid.dist,16,4000.0,90000.0,31.2,83.0,0,?
+Resources    Asteroid,-53039.9,-25368.6,-30622.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,36.8,92.7,0,?
+Resources    Asteroid,-47734.6,-36829.5,-27559.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,42.3,103.0,0,?
+Resources    Asteroid,-40595.0,-46875.0,-23437.5,Cylinder,Asteroid.dist,16,4000.0,90000.0,47.6,114.1,0,?
+Resources    Asteroid,-31895.3,-55119.2,-18414.7,Cylinder,Asteroid.dist,16,4000.0,90000.0,52.5,127.8,0,?
+Resources    Asteroid,-21969.8,-61245.2,-12684.3,Cylinder,Asteroid.dist,16,4000.0,90000.0,56.4,143.2,0,?
+Resources    Asteroid,-11200.1,-65017.5,-6466.4,Cylinder,Asteroid.dist,16,4000.0,90000.0,59.1,160.8,0,?
+Resources    Asteroid,0.0,-66291.3,0.0,Cylinder,Asteroid.dist,16,4000.0,90000.0, 60.0,180.0,0,?
+Resources    Asteroid,11200.1,-65017.5,6466.4,Cylinder,Asteroid.dist,16,4000.0,90000.0,59.1,199.2,0,?
+Resources    Asteroid,21969.8,-61245.2,12684.3,Cylinder,Asteroid.dist,16,4000.0,90000.0,56.4,216.8,0,?
+Resources    Asteroid,31895.3,-55119.2,18414.7,Cylinder,Asteroid.dist,16,4000.0,90000.0,52.5,232.2,0,?
+Resources    Asteroid,40595.0,-46875.0,23437.5,Cylinder,Asteroid.dist,16,4000.0,90000.0,47.7,245.4,0,?
+Resources    Asteroid,47734.6,-36829.5,27559.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,42.3,257.0,0,?
+Resources    Asteroid,53039.9,-25368.6,30622.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,36.8,267.4,0,?
+Resources    Asteroid,56306.8,-12932.8,32508.8,Cylinder,Asteroid.dist,16,4000.0,90000.0,31.2,277.0,0,?
+Resources    Asteroid,57409.9,0.0,33145.6,Cylinder,Asteroid.dist,16,4000.0,90000.0, 25.7,286.1,0,?
+Resources    Asteroid,56306.8,12932.8,32508.8,Cylinder,Asteroid.dist,16,4000.0,90000.0,20.4,295.0,0,?
+Resources    Asteroid,53039.9,25368.6,30622.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,15.5,303.9,0,?
+Resources    Asteroid,47734.6,36829.5,27559.6,Cylinder,Asteroid.dist,16,4000.0,90000.0,12.1,313.2,0,?
+Resources    Asteroid,40595.0,46875.0,23437.5,Cylinder,Asteroid.dist,16,4000.0,90000.0,7.3,322.1,0,?
+Resources    Asteroid,31895.3,55119.2,18414.7,Cylinder,Asteroid.dist,16,4000.0,90000.0,3.9,331.2,0,?
+Resources    Asteroid,21969.8,61245.2,12684.3,Cylinder,Asteroid.dist,16,4000.0,90000.0,1.9,340.6,0,?
+Resources    Asteroid,11200.1,65017.5,6466.4,Cylinder,Asteroid.dist,16,4000.0,90000.0,0.5,350.3,0,?
+
+Resources    DustCloud,0.0, 26516.5,0.0,Cylinder,DustCloud.dist,8,2500.0,21900.0,-30.4,0.0,2048,1
+Resources    DustCloud,-16238.0,18750.0,-9375.0,Cylinder,DustCloud.dist,8,2500.0,21900.0,-20.7,49.1,2048,1
+Resources    DustCloud,-22991.5,0.0,-13275.0,Cylinder,DustCloud.dist,8,2500.0,21900.0,0.0,90.0,2048,1
+Resources    DustCloud,-16238.0,-18750.0,-9375.0,Cylinder,DustCloud.dist,8,2500.0,21900.0,20.7,130.9,2048,1
+Resources    DustCloud,0.0,-26516.5,0.0,Cylinder,DustCloud.dist,8,2500.0,21900.0,30.4,180.0,2048,1
+Resources    DustCloud,16238.0,-18750.0,9375.0,Cylinder,DustCloud.dist,8,2500.0,21900.0,20.7,229.1,2048,1
+Resources    DustCloud,22991.5,0.0,13275.0,Cylinder,DustCloud.dist,8,2500.0,21900.0, 0.0,270.0,2048,1
+Resources    DustCloud,16238.0,18750.0,9375.0,Cylinder,DustCloud.dist,8,2500.0,21900.0,-20.7,310.9,2048,1
+
+Resources    DustCloud,-20713.3,120242.5,-11958.8,Cylinder,DustCloud.dist,8,3000.0,48800.0,-29.4,12.9,2048,1
+Resources    DustCloud,-58986.6,101936.7,-34055.9,Cylinder,DustCloud.dist,8,3000.0,48800.0,-24.6,37.7,2048,1
+Resources    DustCloud,-88279.7,68111.8,-50968.3,Cylinder,DustCloud.dist,8,3000.0,48800.0,-16.1,59.9,2048,1
+Resources    DustCloud,-104133.1,23917.7,-60121.2,Cylinder,DustCloud.dist,8,3000.0,48800.0, -5.6,80.2,2048,1
+Resources    DustCloud,-104133.1,-23917.7,-60121.2,Cylinder,DustCloud.dist,8,3000.0,48800.0,5.6,99.8,2048,1
+Resources    DustCloud,-88279.7,-68111.8,-50968.3,Cylinder,DustCloud.dist,8,3000.0,48800.0,16.1,120.1,2048,1
+Resources    DustCloud,-58986.6,-101936.7,-34055.9,Cylinder,DustCloud.dist,8,3000.0,48800.0,24.6,142.4,2048,1
+Resources    DustCloud,-20713.3,-120242.5,-11958.8,Cylinder,DustCloud.dist,8,3000.0,48800.0,29.4,167.1,2048,1
+Resources    DustCloud,20713.3,-120242.5,11958.8,Cylinder,DustCloud.dist,8,3000.0,48800.0,29.4,192.9,2048,1
+Resources    DustCloud,58986.6,-101936.7,34055.9,Cylinder,DustCloud.dist,8,3000.0,48800.0,24.6,217.7,2048,1
+Resources    DustCloud,88279.7,-68111.8,50968.3,Cylinder,DustCloud.dist,8,3000.0,48800.0,16.1,239.9,2048,1
+Resources    DustCloud,104133.1,-23917.7,60121.2,Cylinder,DustCloud.dist,8,3000.0,48800.0,5.6,260.2,2048,1
+Resources    DustCloud,104133.1,23917.7,60121.2,Cylinder,DustCloud.dist,8,3000.0,48800.0,-5.6,279.8,2048,1
+Resources    DustCloud,88279.7,68111.8,50968.3,Cylinder,DustCloud.dist,8,3000.0,48800.0,-16.1,300.1,2048,1
+Resources    DustCloud,58986.6,101936.7,34055.9,Cylinder,DustCloud.dist,8,3000.0,48800.0,-24.6,322.4,2048,1
+Resources    DustCloud,20713.3,120242.5,11958.8,Cylinder,DustCloud.dist,8,3000.0,48800.0,-29.4,347.1,2048,1
+
+Ships    ,-20713.3,120242.5,-11958.8,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-58986.6,101936.7,-34055.9,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-88279.7,68111.8,-50968.3,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-104133.1,23917.7,-60121.2,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-104133.1,-23917.7,-60121.2,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-88279.7,-68111.8,-50968.3,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-58986.6,-101936.7,-34055.9,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-20713.3,-120242.5,-11958.8,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,20713.3,-120242.5,11958.8,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,58986.6,-101936.7,34055.9,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,88279.7,-68111.8,50968.3,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,104133.1,-23917.7,60121.2,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,104133.1,23917.7,60121.2,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,88279.7,68111.8,50968.3,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,58986.6,101936.7,34055.9,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,20713.3,120242.5,11958.8,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?

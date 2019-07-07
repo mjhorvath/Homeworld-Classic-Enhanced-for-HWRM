@@ -1,0 +1,32 @@
+; MissionMan script, sábado, abr 1 2000, 9:58:45 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+
+Ships     ,-20000.0,0.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-30000.0,0.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-40000.0,0.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-20000.0,10000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-30000.0,10000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-40000.0,10000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-20000.0,-10000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-30000.0,-10000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,-40000.0,-10000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,10000.0,17500.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,17500.0,25000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,22500.0,35000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,10000.0,17500.0,10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,17500.0,25000.0,10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,22500.0,35000.0,10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,10000.0,17500.0,-10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,17500.0,25000.0,-10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,22500.0,35000.0,-10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,10000.0,-17500.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,17500.0,-25000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,22500.0,-35000.0,0.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,10000.0,-17500.0,10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,17500.0,-25000.0,10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,22500.0,-35000.0,10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,10000.0,-17500.0,-10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,17500.0,-25000.0,-10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?
+Ships     ,22500.0,-35000.0,-10000.0,0.0,Traders,Junk_LGun,3,SPHERE_FORMATION|?|?,0,?   

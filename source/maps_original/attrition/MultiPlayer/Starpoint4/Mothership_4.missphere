@@ -1,0 +1,7 @@
+; MissionMan script, Wednesday, Oct 20 1999, 3:32:06 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: Traders,Mothership
+
+Ships     ,-8400.0,-400.0,200.0,-180.0,Traders,FloatingCity,1,NULL_FORMATION|?|?,0,?
+Ships     ,8200.0,500.0,0.0,-180.0,P3,P3Megaship,1,NULL_FORMATION|?|?,0,?
+

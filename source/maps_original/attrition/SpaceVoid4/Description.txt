@@ -1,0 +1,6 @@
+Description	Space Void
+Description	This map is designed for quick games. If you are smart enough you can emerge as the victor. Good for ffa or team games.
+Description	Hope you enjoy.
+Description
+Description	AUTHOR	: medamanx
+Description	E-MAIL	: medamanx@hotmail.com

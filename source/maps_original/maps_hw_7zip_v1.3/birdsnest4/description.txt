@@ -1,0 +1,16 @@
+Description    You've destroyed your enemy.... almost.  One last thing remains: You must raid the bird's nest !!!!
+Description
+Description  Hint: One way to do it involves
+Description        A) Creative use of the minelayer corvette
+Description        B) Force attacking  
+Description
+Description  Sarting fleet includes one Junkyard Dawg ;-)   
+Description    by liteDARK_SR
+Description    
+Description    
+Description
+
+Font Arial_b12.hff
+Color  230, 0, 0
+DropShadow Yes
+

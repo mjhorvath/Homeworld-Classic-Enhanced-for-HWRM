@@ -1,0 +1,17 @@
+Description     Mogwa's Last Stand
+Description     Here is where Mogwa stood agaist custard and his tribe crushed
+Description     this evil trespasser of native land.
+Description     
+Description     Map By: &L&a&g&s&y
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

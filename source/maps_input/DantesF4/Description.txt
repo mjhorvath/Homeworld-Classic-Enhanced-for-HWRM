@@ -1,0 +1,14 @@
+Description - Author: Guido 'Ugruk' Conte
+Description - E-mail: guidoconte@yahoo.com
+Description - Web: digilander.iol.it/ugruk
+Description
+Description background by UltraSLS
+Description www.geocities.com/udingus/index.html
+Description
+Description Midway along the journey of our life
+Description I woke to find myself in some dark woods,
+Description for I had wandered off from the straight path.
+Description - La divina commedia
+Font small_fonts_8.hff
+Color 255,20,20
+DropShadow Yes

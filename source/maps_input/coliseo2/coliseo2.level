@@ -1,0 +1,31 @@
+; MissionMan script, Tuesday, Jan 12 1999, 6:43:47 PM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; Multiplayer Level: Coliseo2
+; Info: Coliseum of the Ancients
+
+[Coliseum of the Ancients]
+
+MissionSphere    -1,?,ResourceSphere,-13000.0,24000.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_0.missphere,5000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,5000
+
+Lighting    default
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    145000
+smUniverseSizeX    60000
+smUniverseSizeZ    30000
+smUniverseSizeY    45000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    PrisonShipNew
+IncludeDerelict    Crate
+IncludeDerelict    Shipwreck

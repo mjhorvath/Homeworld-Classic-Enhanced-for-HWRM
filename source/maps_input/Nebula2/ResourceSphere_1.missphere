@@ -1,0 +1,14 @@
+; MissionMan script, Tuesday, Apr 18 2000, 11:57:53 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Nebula,-60000.0,-60000.0,0.0,Nebula,Neb.dist,300,50000.0,50000.0,50000.0,200000,0,?
+Resources    Nebula,-50000.0,50000.0,50000.0,Nebula,Neb.dist,75,50000.0,50000.0,50000.0,100000,0,?
+Resources    Nebula,-50000.0,50000.0,-50000.0,Nebula,Neb.dist,75,50000.0,50000.0,50000.0,100000,0,?
+Resources    Nebula,50000.0,-50000.0,-50000.0,Nebula,Neb.dist,75,50000.0,50000.0,50000.0,100000,0,?
+Resources    Nebula,50000.0,-50000.0,50000.0,Nebula,Neb.dist,75,50000.0,50000.0,50000.0,100000,0,?
+Resources    Nebula,0.0,0.0,0.0,Nebula,Neb.dist,300,50000.0,50000.0,50000.0,200000,0,?
+Resources    Nebula,-30000.0,-30000.0,0.0,Nebula,Neb.dist,300,50000.0,50000.0,50000.0,200000,0,?
+Resources    Nebula,30000.0,30000.0,0.0,Nebula,Neb.dist,300,50000.0,50000.0,50000.0,200000,0,?
+Resources    Nebula,60000.0,60000.0,0.0,Nebula,Neb.dist,300,50000.0,50000.0,50000.0,200000,0,?
+

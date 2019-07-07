@@ -1,0 +1,113 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Trial By Fury",
+	"large area of space with random pockets of resources and space stations.  Find your way through this clutter to your enemy",
+	"",
+	"AUTHOR		: Admr[DP]Overkill",
+	"BACKGROUND BY	: FoX",
+	"WEBSITE		: www.drunkenpirates.homestead.com",
+}
+
+LevelName = [[Trial By Fury]]
+LevelFile = [[Trialbyfury2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {120000, 120000, 50000, }
+
+LevelBackground = "coloredsuns_btg"
+LevelMusic = "8"
+
+RUsRatio = 1/2
+
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{96206.3, 2049.5, 0.0, 180.0,},
+	{-96249.4, 166.1, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {96206.3, 2049.5, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "carrier", {0.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-96249.4, 166.1, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "carrier", {0.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"scaffold", {71075.7, -35979.2, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"scaffold", {64546.5, 39357.6, 16622.2,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"scaffold", {-74419.2, 35808.4, 0.0,}, -1, {0, 0.0, 180.0,}, 0, 0,},
+	{"scaffold", {-74459.4, -37994.4, -18577.8,}, -1, {0, 0.0, 180.0,}, 0, 0,},
+	{"scaffold", {-4616.8, -76293.8, 20044.5,}, -1, {0, 0.0, -90.0,}, 0, 0,},
+	{"scaffold", {-1549.2, 79941.6, -11733.3,}, -1, {0, 0.0, 89.0,}, 0, 0,},
+	{"scaffold", {1696.0, 5172.4, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"scaffold", {29023.9, 567.6, -22000.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"scaffold", {-48860.7, -2374.6, 0.0,}, -1, {0, 0.0, 180.0,}, 0, 0,},
+	{"scaffold", {-20562.7, 567.6, 7333.3,}, -1, {0, 0.0, 180.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	solid =
+	{
+		asteroid0 = 6,
+		asteroid1 = 2,
+		asteroid2 = 4,
+		asteroid3 = 3,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{64243.7, 34978.5, 16622.2,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{70960.9, -40375.9, 0.0,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-74012.9, -32019.3, -18577.8,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, -180.0,},
+	{{-74160.6, 41801.2, 0.0,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, -180.0,},
+	{{-48621.0, 2448.3, 0.0,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, -180.0,},
+	{{-20323.0, -4562.9, 7333.3,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, -180.0,},
+	{{28693.8, -4065.6, -22000.0,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, -1.0,},
+	{{779.7, 10690.1, 0.0,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, -1.0,},
+	{{456.9, -76666.4, 20044.5,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-6108.3, 78313.3, -11733.3,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{33550.3, 66797.9, 9747.1,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-32564.4, 55572.5, 9747.1,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-30191.1, -56120.6, -10253.4,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{32650.8, -28012.1, -8987.6,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-22990.5, 27607.7, 13797.8,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+	{{34424.0, -60763.7, -5190.0,}, "sphere", "solid", 40, 1250.0, 2500.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

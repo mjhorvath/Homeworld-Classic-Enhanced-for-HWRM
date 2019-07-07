@@ -1,0 +1,38 @@
+; MissionMan script, Sept 4th 2006 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Command and Control6
+; Info: Command and Control 4 or 6 
+
+[Command and Control 4 or 6]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,4000
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,4000
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,4000
+MissionSphere   3,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,4000
+MissionSphere    4,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_4.missphere,4000
+MissionSphere   5,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_5.missphere,4000
+
+
+smDepthCueRadius    100000
+smDepthCueStartRadius    70000
+smCircleBorder    140000
+smZoomMax    250000
+smZoomMin    100000
+smInitialDistance    125000
+smUniverseSizeX    120000
+smUniverseSizeZ    80000
+smUniverseSizeY    120000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    0

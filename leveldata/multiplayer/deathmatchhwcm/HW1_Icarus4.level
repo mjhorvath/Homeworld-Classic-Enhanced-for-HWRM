@@ -1,0 +1,120 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Children of Icarus (2-4 Players)",
+	"The ort flats in this area make an exellent fighting groud for newbies",
+	"",
+	"Settings: default.",
+	"AUTHOR	 : Scott C.Payne",
+	"VERSION	 : 1.1 26th June 2001",
+}
+
+LevelName = [[Children of Icarus (2-4)]]
+LevelFile = [[Icarus4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 700000,}
+UniverseSize = {500000, 400000, 70000, }
+
+LevelBackground = ""
+LevelMusic = "16"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r2","r2","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-64319.0, -64556.0, 0.0, 45.0,},
+	{67698.0, 64556.0, 0.0, -135.0,},
+	{-64319.0, 64556.0, 0.0, -45.0,},
+	{67698.0, -64556.0, 0.0, 135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-64319.0, -64556.0, 0.0,}, 0, {0, 0, 45.0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "standarddestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {-64319.0, -64556.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {67698.0, 64556.0, 0.0,}, 1, {0, 0, -135.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{3, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "carrier", {67698.0, 64556.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-64319.0, 64556.0, 0.0,}, 2, {0, 0, -45.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "carrier", {-64319.0, 64556.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r2", "parade_formation",},
+	{3, "", "standarddestroyer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {67698.0, -64556.0, 0.0,}, 3, {0, 0, 135.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "carrier", {67698.0, -64556.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r2", "parade_formation",},
+	{3, "", "standarddestroyer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloud =
+	{
+		dustcloud0 = 4,
+		dustcloud1 = 3,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+	asteroid =
+	{
+		asteroid0 = 5,
+		asteroid1 = 2,
+		asteroid2 = 4,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "dustcloud", 90, 25000.0, 200000.0, 0.0, 0.0,},
+	{{67698.0, 0.0, -9797.0,}, "rectangle", "asteroid", 120, 50000.0, 200000.0, 6000.0, 0.0,},
+	{{-67698.0, 0.0, -9797.0,}, "rectangle", "asteroid", 120, 50000.0, 200000.0, 6000.0, 0.0,},
+	{{-67698.0, 0.0, 9797.0,}, "rectangle", "asteroid", 120, 50000.0, 200000.0, 6000.0, 0.0,},
+	{{0.0, 0.0, 9797.0,}, "rectangle", "asteroid", 120, 80000.0, 200000.0, 6000.0, 0.0,},
+	{{0.0, 0.0, -9797.0,}, "rectangle", "asteroid", 120, 80000.0, 200000.0, 6000.0, 0.0,},
+	{{67698.0, 0.0, 9797.0,}, "rectangle", "asteroid", 120, 50000.0, 200000.0, 6000.0, 0.0,},
+	{{0.0, 0.0, 20000.0,}, "rectangle", "asteroid", 900, 200000.0, 200000.0, 20000.0, 0.0,},
+	{{0.0, 0.0, -20000.0,}, "rectangle", "asteroid", 900, 200000.0, 200000.0, 20000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

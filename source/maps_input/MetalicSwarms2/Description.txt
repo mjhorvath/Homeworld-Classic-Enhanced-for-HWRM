@@ -1,0 +1,12 @@
+Description    We are the First Line of the Fleet, and our mission is to clear the area of "annoying presences" before the arrival of Mothership.
+Description
+Description    AUTHOR: Randix (starmaker72@hotmail.com)
+Description    VERSION: 22 Sept 2000
+
+
+
+Font Arial_b12.hff
+Color 0, 200, 200
+DropShadow Yes
+
+

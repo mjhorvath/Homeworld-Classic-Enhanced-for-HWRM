@@ -1,0 +1,58 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,?
+
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,?
+ 
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,?
+
+Resources    Asteroid,0.0,0.0,50000.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,0.0,50000.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,0.0,50000.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,0.0,50000.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,0.0,50000.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,0.0,0.0,50000.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,?
+ 
+Resources    Asteroid,0.0,0.0,-50000.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,0.0,-50000.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,0.0,-50000.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,0.0,-50000.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,0.0,-50000.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,0.0,0.0,-50000.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,?
+
+Resources    DustCloud,0,0,0,Sphere,DustCloud.dist,16,3000,6000,0,0,     ?,     ?
+
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,10000,20000,0,0,     ?,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,12000,24000,0,0,     ?,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,14000,28000,0,0,     ?,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,16000,32000,0,0,     ?,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,18000,36000,0,0,     ?,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,20000,40000,0,0,     2,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,22000,45000,0,0,     2,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,24000,50000,0,0,     2,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,25000,50000,0,0,     2,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,26000,52000,0,0,     2,     ?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,27000,54000,0,0,     2,     ?
+
+Ships     ,0.0,0.0,0.0,0.0,Traders,ResearchStation,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,2000.0,0.0,90.0,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,0,?
+Ships     ,-2000.0,0.0,0.0,180.0,Traders,Junk_Sgun,6,WALL_FORMATION|?|?,0,?
+Ships     ,0.0,-2000.0,0.0,-90.0,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,0,?
+Ships     ,2000.0,0.0,0.0,0.0,Traders,Junk_Sgun,6,WALL_FORMATION|?|?,0,?

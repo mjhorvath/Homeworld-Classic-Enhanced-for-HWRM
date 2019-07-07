@@ -1,0 +1,16 @@
+; MissionMan script, Friday, Apr 28 2000, 7:34:16 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: RACE_SECT,sMothership
+
+Ships     ,-80077.1,80033.8,14689.2,0.0,RACE_SECT,sMothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,-28274.0,47230.3,-1206.8,0.0,RACE_SECT,sWorker,3,NULL_FORMATION|?|?,0,?
+Ships     ,-37821.9,18955.6,4338.2,0.0,RACE_SECT,sRecon,2,NULL_FORMATION|?|?,0,?
+Ships     ,-38867.2,25403.6,-1207.0,0.0,RACE_SECT,sMultiBeamFrigate,1,NULL_FORMATION|?|?,0,?
+Ships     ,-31321.1,45761.7,4338.1,0.0,RACE_SECT,sHiveFrigate,1,NULL_FORMATION|?|?,0,?
+Ships     ,21002.5,-47573.5,4338.2,0.0,RACE_SECT,sRecon,3,NULL_FORMATION|?|?,0,?
+Ships     ,-38307.9,14500.2,-1946.3,0.0,RACE_SECT,sRecon,3,NULL_FORMATION|?|?,0,?
+Ships     ,19550.0,-44978.7,4338.0,0.0,RACE_SECT,sAcolyte,5,NULL_FORMATION|?|?,0,?
+Ships     ,21660.0,-38570.0,4338.0,0.0,RACE_SECT,sACV,2,NULL_FORMATION|?|?,0,?
+Ships     ,20147.6,-42547.5,-1207.0,0.0,RACE_SECT,sProcessor,2,NULL_FORMATION|?|?,0,?
+Ships     ,-33786.7,43704.7,-1207.0,0.0,RACE_SECT,sProcessor,2,NULL_FORMATION|?|?,0,?
+

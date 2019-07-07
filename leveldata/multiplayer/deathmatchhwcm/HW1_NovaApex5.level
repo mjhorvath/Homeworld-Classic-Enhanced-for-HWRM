@@ -1,0 +1,123 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Nova Apex (2-8)",
+	"",
+	"This resource pocket received its name due to its unique structure.  It has a thin unharvestable outer layer with three inner harvestable layers.  These layers consist of an asteroid and dust cloud shell with the inner-most layer being a compact resource rich dust cloud collection.  This inner layer has baffled our scientist as it continues to provide resources far beyond its size indicates it can support.  Finally rich resource arms jet out from the center at various angles.",
+	"",
+	"This map plays best with a high starting resources and little to no injections.  The center dust cloud collection is of strategic importance as it regenerates itself.",
+}
+
+LevelName = [[Nova Apex (2-8)]]
+LevelFile = [[NovaApex5]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {30000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "11"
+
+RUsRatio = 1/2
+PebRatio = 1/2
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-90000.0, 0.0, 40000.0, 0.0,},
+	{90000.0, 0.0, -40000.0, -180.0,},
+	{0.0, -90000.0, -40000.0, 90.0,},
+	{0.0, 90000.0, 40000.0, -90.0,},
+	{90000.0, 0.0, 40000.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {90000.0, 0.0, -40000.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-90000.0, 0.0, 40000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {0.0, -90000.0, -40000.0,}, 2, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {0.0, 90000.0, 40000.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {90000.0, 0.0, 40000.0,}, 4, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	novaoutter_asteroid =
+	{
+		asteroid0 = 160,
+		asteroid1 = 40,
+		asteroid2 = 32,
+		asteroid3 = 48,
+		asteroid4 = 20,
+	},
+	novacenter_dust =
+	{
+		dustcloud0 = 15,
+		dustcloud1 = 15,
+		dustcloud2 = 10,
+		dustcloud3 = 10,
+	},
+	novacentershell_dust =
+	{
+		dustcloud0 = 30,
+		dustcloud1 = 30,
+		dustcloud2 = 20,
+		dustcloud3 = 20,
+	},
+	novaarm_asteroid =
+	{
+		asteroid0 = 130,
+		asteroid1 = 20,
+		asteroid2 = 16,
+		asteroid3 = 24,
+		asteroid4 = 10,
+	},
+	novabackground_asteroid =
+	{
+		asteroid0 = 501,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "novaoutter_asteroid", 400, 45000.0, 90000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "novacenter_dust", 50, 2500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "novacentershell_dust", 100, 12500.0, 25000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "novaarm_asteroid", 200, 4500.0, 200000.0, 30.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "novaarm_asteroid", 200, 4500.0, 200000.0, 30.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "novaarm_asteroid", 200, 4500.0, 200000.0, 30.0, 180.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "novaarm_asteroid", 200, 4500.0, 200000.0, 30.0, 90.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "novabackground_asteroid", 501, 150000.0, 300000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

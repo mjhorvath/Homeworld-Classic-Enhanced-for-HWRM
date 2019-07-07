@@ -1,0 +1,83 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ResourceSphere
+
+; 0
+Resources    Asteroid,-103694.5,44203.6,14608.7,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,-99839.2,25259.3,-48104.0,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,-72960.8,82092.2,-29283.5,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+
+; 1
+Resources    Asteroid,-40978.0,-88406.5,58523.1,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,-37122.8,-107350.8,-4189.7,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,16634.1,-107350.8,33451.3,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+
+; 2
+Resources    Asteroid,21738.2,44203.6,102437.6,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,52471.9,82092.2,58545.3,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,79350.3,25259.3,77365.8,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+
+; 3
+Resources    Asteroid,34589.1,-18944.0,-106605.0,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,61467.6,37888.9,-87784.5,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+Resources    Asteroid,88346.0,-18944.0,-68964.1,Sphere,HeavyDebris.dist,32,4000.0,10000.0,0.0,0.0,?,?
+
+; s
+Resources    DustCloud,-92201.1,0.0,131676.8,Sphere,DustCloud.dist,48,4000.0,20000.0,0.0,0.0,2048,3
+
+; a
+Resources    DustCloud,-76780.0,-75777.1,-119174.2,Sphere,DustCloud.dist,48,4000.0,20000.0,0.0,0.0,2048,3
+
+; b
+Resources    DustCloud,138247.4,-75777.1,31389.6,Sphere,DustCloud.dist,48,4000.0,20000.0,0.0,0.0,2048,3
+
+; c
+Resources    DustCloud,30733.7,151554.5,-43892.3,Sphere,DustCloud.dist,48,4000.0,20000.0,0.0,0.0,2048,3
+
+; sa
+Resources    DustCloud,-74627.5,-3254.6,96750.9,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-61897.1,-9356.1,60145.2,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-54294.7,-18168.1,22677.9,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-51989.8,-29493.7,-14814.2,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-55034.1,-43080.0,-51493.7,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-63359.6,-58623.8,-86541.6,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+
+; sb
+Resources    DustCloud,-65392.1,-3254.6,103217.7,Sphere,DustCloud.dist,12,3000.0,10000,0.0,0.0,?,?
+Resources    DustCloud,-35347.9,-9356.1,78735.1,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-2740.4,-18168.1,58776.6,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,31702.3,-29493.7,43787.7,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,67211.0,-43080.0,34103.3,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,102992.7,-58623.8,29939.5,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+
+; sc
+Resources    DustCloud,-70009.8,6509.3,99984.3,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-48622.5,18712.3,69440.1,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-28517.6,36336.2,40727.3,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-10143.8,58987.5,14486.8,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,6088.4,86160.1,-8695.2,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,19816.6,117247.5,-28301.0,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+
+; ab
+Resources    DustCloud,-53461.8,-61878.4,-90848.9,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-26580.9,-52436.2,-63876.0,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,3261.7,-47661.8,-38858.7,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,35399.6,-47661.8,-16355.5,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,69115.0,-52436.2,3130.9,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,103655.1,-61878.4,19165.4,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+
+; bc
+Resources    DustCloud,29714.3,113992.8,-32608.4,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,34541.7,76803.9,-21077.6,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,43292.6,44657.3,-10828.7,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,61176.7,6842.4,1693.8,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,82389.6,-24367.9,12425.9,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,108272.8,-52114.6,22398.8,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+
+; ac
+Resources    DustCloud,-58079.5,-52114.4,-94082.3,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-39855.5,-24367.7,-73171.0,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-22515.4,6842.5,-56908.0,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,-4631.3,44657.4,-44385.4,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,7992.5,76804.0,-39667.5,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,20478.9,113992.9,-39075.1,Sphere,DustCloud.dist,12,3000.0,10000.0,0.0,0.0,?,?

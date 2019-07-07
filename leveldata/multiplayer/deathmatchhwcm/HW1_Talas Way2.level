@@ -1,0 +1,140 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Talas Way",
+	"The pain and suffering of Talas continues to haunt you in a new",
+	"system.",
+	"",
+	"AUTHOR: &L&a&g&s&†&L&S",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Talas Way (1v1)]]
+LevelFile = [[Talas Way2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {40000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez06"
+LevelMusic = "14"
+
+RUsRatio = 1
+PebRatio = 3/5
+NebRatio = 1/100
+
+PlayerRaces = {"r2","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{20789.0, -36429.0, 0.0, 137.0,},
+	{-20789.4, 36426.5, 0.0, -43.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-20789.4, 36426.5, 0.0,}, 1, {0, 0, -43.0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {20789.0, -36429.0, 0.0,}, 0, {0, 0, 137.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	asteroidlong =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	asteroidcentre =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	asteroidbigsphere =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 1.0, -1000.0,}, "sphere", "dustcloudcentre", 11, 2500.0, 2000.0, 90.0, -179.0,},
+	{{20000.0, 33000.0, 0.0,}, "sphere", "dustcloudcentre", 5, 1835.0, 3670.0, 0.0, 0.0,},
+	{{-19999.0, -33001.0, 0.0,}, "sphere", "dustcloudcentre", 5, 1835.0, 3670.0, 0.0, -40.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidlong", 175, 4000.0, 151200.0, 30.0, -30.0,},
+	{{-39000.0, 9000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -60.0,},
+	{{-29000.0, -21000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -80.0,},
+	{{-19999.0, -32000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 22650.0, 0.0, -120.0,},
+	{{-1999.0, -39000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, 10.0,},
+	{{29000.0, -34000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -180.0,},
+	{{34943.0, -33038.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 2.0,},
+	{{27001.0, -43000.0, 0.0,}, "cylinder", "asteroidbigsphere", 10, 4810.0, 24350.0, 0.0, 0.0,},
+	{{5949.0, -37057.0, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 8.0,},
+	{{39000.0, -9000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -60.0,},
+	{{29000.0, 21000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -80.0,},
+	{{20000.0, 32000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 22650.0, 0.0, -120.0,},
+	{{2000.0, 39000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, 10.0,},
+	{{-29000.0, 34000.0, 0.0,}, "cylinder", "asteroidlong", 40, 4000.0, 32500.0, 0.0, -180.0,},
+	{{-27000.0, 43000.0, 0.0,}, "cylinder", "asteroidbigsphere", 10, 4810.0, 24350.0, 0.0, -20.0,},
+	{{-34942.9, 33369.3, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 0.0,},
+	{{-5948.7, 37057.1, 0.0,}, "cylinder", "asteroidcentre", 6, 2390.0, 11400.0, 0.0, 7.0,},
+	{{-90185.0, 44848.0, 76000.0,}, "cylinder", "asteroidlong", 90, 4000.0, 110300.0, 50.0, -22.0,},
+	{{85753.0, -50752.0, -78000.0,}, "cylinder", "asteroidlong", 90, 4000.0, 110300.0, 50.0, -33.0,},
+	{{135044.0, -78821.0, -125000.0,}, "cylinder", "asteroidlong", 40, 4000.0, 58700.0, 10.0, -24.0,},
+	{{-141661.0, 65000.0, 120000.0,}, "cylinder", "asteroidlong", 40, 4000.0, 58700.0, 10.0, -20.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

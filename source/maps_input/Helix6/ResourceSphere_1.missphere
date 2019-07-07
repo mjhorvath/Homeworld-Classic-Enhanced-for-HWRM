@@ -1,0 +1,53 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+Resources    Asteroid, -19761.0,  86977.0, -39178.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -67483.0,  68157.0, -62503.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-103221.0,  15930.0, -65118.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,-102427.0, -45349.0, -43406.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -67223.0, -82039.0, -11042.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -20329.0, -84837.0,  11805.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  22465.0, -69617.0,  18494.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  61229.0, -47770.0,  19621.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  93150.0, -11703.0,  26011.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, 100150.0,  43599.0,  34280.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  67145.0,  97648.0,  33243.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,   6985.0, 118290.0,  19762.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -45954.0,  96218.0,   1237.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -68754.0,  52554.0, -16154.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -67033.0,   9952.0, -33178.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -56225.0, -30532.0, -48191.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid, -37316.0, -75274.0, -49313.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  -2086.0,-111756.0, -24745.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  43251.0,-113578.0,  19447.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  75009.0, -72941.0,  59036.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  77104.0, -14179.0,  72285.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  58502.0,  32284.0,  57317.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  37393.0,  59665.0,  27112.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+Resources    Asteroid,  15430.0,  78303.0,  -6821.0,Sphere,Asteroid.dist,16,4000.0,4000.0,0.0,0.0,0,?
+
+
+Ships     ,     59.0,  84837.0, -23507.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -43174.0,  82039.0, -52696.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -88804.0,  45349.0, -67001.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,-108005.0, -15930.0, -56833.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -87871.0, -68157.0, -27191.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -43810.0, -86977.0,   2475.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,   1807.0, -78303.0,  16773.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  42176.0, -59665.0,  18827.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  78889.0, -32284.0,  22005.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , 101153.0,  14179.0,  30632.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  88631.0,  72941.0,  35441.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  38467.0, 113578.0,  27733.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -22473.0, 111756.0,  10566.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -61364.0,  75274.0,  -7660.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -69847.0,  30533.0, -24597.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -62250.0,  -9952.0, -41463.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -48367.0, -52553.0, -51466.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -21906.0, -96218.0, -40416.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  20607.0,-118290.0,  -3832.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  62362.0, -97648.0,  41528.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  79763.0, -43598.0,  69592.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  69101.0,  11703.0,  67665.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  47606.0,  47770.0,  43215.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  27248.0,  69617.0,  10208.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?

@@ -1,0 +1,24 @@
+; MissionMan script, Saturday, Feb 24 2001, 7:45:05 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,-140000.0,0.0,0.0,Cylinder,BigDustCloud.dist,120,10000.0,100000.0,90.0,180.0,0,?
+Resources    DustCloud,140000.0,0.0,0.0,Cylinder,BigDustCloud.dist,120,10000.0,100000.0,90.0,180.0,0,?
+Resources    DustCloud,0.0,-140000.0,0.0,Cylinder,BigDustCloud.dist,120,10000.0,100000.0,90.0,180.0,0,?
+Resources    DustCloud,0.0,140000.0,0.0,Cylinder,BigDustCloud.dist,120,10000.0,100000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidVein.dist,300,20000.0,200000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidVein.dist,300,85000.0,25000.0,90.0,180.0,0,?
+Resources    Asteroid,-150000.0,0.0,0.0,Cylinder,AsteroidVein.dist,80,10000.0,100000.0,0.0,0.0,0,?
+Resources    Asteroid,150000.0,0.0,0.0,Cylinder,AsteroidVein.dist,80,10000.0,100000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-150000.0,0.0,Cylinder,AsteroidVein.dist,80,10000.0,100000.0,0.0,-90.0,0,?
+Resources    Asteroid,0.0,150000.0,0.0,Cylinder,AsteroidVein.dist,80,10000.0,100000.0,0.0,-90.0,0,?
+Resources    DustCloud,0.0,0.0,0.0,Cylinder,BigDustCloud.dist,100,85000.0,25000.0,90.0,180.0,0,?
+Resources    Asteroid,-150000.0,0.0,60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,45.0,0.0,0,?
+Resources    Asteroid,0.0,150000.0,60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,45.0,-90.0,0,?
+Resources    Asteroid,0.0,-150000.0,60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,-45.0,-90.0,0,?
+Resources    Asteroid,150000.0,0.0,60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,-45.0,0.0,0,?
+Resources    Asteroid,-150000.0,0.0,-60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,-45.0,0.0,0,?
+Resources    Asteroid,150000.0,0.0,-60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,45.0,0.0,0,?
+Resources    Asteroid,0.0,-150000.0,-60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,45.0,-90.0,0,?
+Resources    Asteroid,0.0,150000.0,-60000.0,Cylinder,AsteroidVein.dist,60,10000.0,100000.0,-45.0,-90.0,0,?
+

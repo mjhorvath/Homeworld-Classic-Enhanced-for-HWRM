@@ -1,0 +1,40 @@
+; MissionMan script, Saturday, Jan 22 2000, 9:03:42 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: final Conflict 7
+; Info: Final Conflict <2-8>
+
+[Final Conflict (2-8)]
+
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_4.missphere,0
+MissionSphere    5,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_5.missphere,0
+MissionSphere    6,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_6.missphere,0
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    ez02
+Background    ez02, 95, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    200000
+smZoomMin    40000
+smInitialDistance    230000
+smUniverseSizeX    300000
+smUniverseSizeZ    90000
+smUniverseSizeY    300000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,FloatingCity
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    14

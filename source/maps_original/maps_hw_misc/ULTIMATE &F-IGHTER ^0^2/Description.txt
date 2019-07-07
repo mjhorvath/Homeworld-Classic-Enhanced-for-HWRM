@@ -1,0 +1,14 @@
+Description     ULTIMATE &F-ighter &^&0&^
+Description
+Description     New Year 2007 by Iam.hg
+Description      
+Description     
+
+
+
+Font            Arial_b12.hff
+Color          120, 779, 392
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

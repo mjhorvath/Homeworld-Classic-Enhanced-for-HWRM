@@ -1,0 +1,49 @@
+; MissionMan script, Thursday, Dec 23 1999, 5:21:26 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Ships     ,0.0,0.0,0.0,0.0,Traders,MiningBase,1,NULL_FORMATION|?|?,0,?
+Ships     ,-11030.9,9888.1,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,12526.6,9884.6,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-12255.9,-10259.3,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,12208.0,-10071.1,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidMainRegrow.dist,50,2910.9,29108.7,0.0,0.0,2048,7
+Resources    Asteroid,23476.1,41.2,0.0,Cylinder,AsteroidMain.dist,30,2021.2,20212.4,0.0,0.0,0,?
+Resources    Asteroid,-23461.5,-202.5,0.0,Cylinder,AsteroidMain.dist,30,2021.2,20212.4,0.0,0.0,0,?
+Resources    Asteroid,-42221.5,-6977.0,0.0,Cylinder,AsteroidMain.dist,15,2021.2,20212.4,0.0,30.0,0,?
+Resources    Asteroid,-41439.8,7353.6,0.0,Cylinder,AsteroidMain.dist,15,2021.2,20212.4,0.0,-35.0,0,?
+Resources    Asteroid,42459.0,-6716.4,0.0,Cylinder,AsteroidMain.dist,15,2021.2,20212.4,0.0,-35.0,0,?
+Resources    Asteroid,42323.8,7510.5,0.0,Cylinder,AsteroidMain.dist,15,2021.2,20212.4,0.0,36.0,0,?
+Ships     ,18193.7,6345.2,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,18423.6,-5873.7,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,475.5,10025.9,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,871.9,-10055.8,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-19145.9,6592.5,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-18965.7,-6657.3,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,21530.5,-7910.4,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,21573.1,-4629.2,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,21280.8,4273.0,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,20998.6,7903.5,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-21986.6,-8145.4,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-22067.3,-4677.6,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-22147.9,4193.7,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-22067.3,8064.8,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-15212.2,9919.7,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-15292.9,-10081.0,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-5292.6,9919.7,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-4889.3,-10161.6,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,5756.2,-10161.6,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,6078.7,9677.7,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,10030.5,-887.1,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,10030.5,645.2,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-8679.8,-1048.4,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-8679.8,483.9,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-3024.4,-844.4,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-2925.0,844.4,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,2588.6,-1142.5,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,2538.9,794.8,0.0,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,14438.6,-7741.8,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,15083.7,8064.4,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-15776.1,7204.2,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships     ,-15346.0,-7311.7,0.0,0.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+

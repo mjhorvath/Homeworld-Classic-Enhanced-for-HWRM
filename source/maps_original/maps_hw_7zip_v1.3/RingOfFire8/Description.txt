@@ -1,0 +1,12 @@
+Description  Ring Of Fire (2-8)
+Description
+Description  Once many centuries ago a resource carrier of the Taiidan Empire suffered a Cautastrophic engine meltdown. The explosion left this unique pattern of resources.
+Description 
+Description  Settings : default
+Description  Author   : Error 404
+Description  Version  : v1.0 (June 2000)
+ 
+
+Font Arial_b12.hff
+Color 100, 200, 155
+DropShadow Yes

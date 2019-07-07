@@ -1,0 +1,21 @@
+; MissionMan script, Monday, Aug 6 2001, 3:05:43 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,Scattered.dist,40,3000.0,105000.0,0.0,-90.0,?,?
+Resources    Asteroid,30000.0,30000.0,0.0,Cylinder,Scattered.dist,40,3500.0,65000.0,0.0,-35.0,?,?
+Resources    Asteroid,30000.0,-30000.0,0.0,Cylinder,Scattered.dist,40,3500.0,65000.0,0.0,35.0,?,?
+Resources    Asteroid,-30000.0,30000.0,0.0,Cylinder,Scattered.dist,40,3500.0,65000.0,0.0,35.0,?,?
+Resources    Asteroid,-30000.0,-30000.0,0.0,Cylinder,Scattered.dist,40,3500.0,65000.0,0.0,-35.0,?,?
+Resources    Asteroid,0.0,-22000.0,30000.0,Cylinder,AsteroidLong.dist,150,3000.0,85000.0,45.0,-90.0,?,?
+Resources    Asteroid,0.0,22000.0,30000.0,Cylinder,AsteroidLong.dist,150,3000.0,85000.0,45.0,90.0,?,?
+Resources    Asteroid,0.0,-22000.0,-30000.0,Cylinder,AsteroidLong.dist,150,3000.0,85000.0,45.0,90.0,?,?
+Resources    Asteroid,0.0,22000.0,-30000.0,Cylinder,AsteroidLong.dist,150,3000.0,85000.0,45.0,-90.0,?,?
+Resources    DustCloud,0.0,0.0,52000.0,Sphere,DustCloudCentre.dist,20,3500.0,7000.0,0.0,0.0,0,?
+Resources    DustCloud,0.0,0.0,-52000.0,Sphere,DustCloudCentre.dist,20,3500.0,7000.0,0.0,0.0,0,?
+Resources    Asteroid,-30000.0,-30000.0,0.0,Cylinder,AsteroidLong.dist,35,3500.0,65000.0,0.0,-35.0,?,?
+Resources    Asteroid,-30000.0,30000.0,0.0,Cylinder,AsteroidLong.dist,35,3500.0,65000.0,0.0,35.0,?,?
+Resources    Asteroid,30000.0,-30000.0,0.0,Cylinder,AsteroidLong.dist,35,3500.0,65000.0,0.0,35.0,?,?
+Resources    Asteroid,30000.0,30000.0,0.0,Cylinder,AsteroidLong.dist,35,3500.0,65000.0,0.0,-35.0,?,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidLong.dist,35,3000.0,105000.0,0.0,-90.0,?,?
+

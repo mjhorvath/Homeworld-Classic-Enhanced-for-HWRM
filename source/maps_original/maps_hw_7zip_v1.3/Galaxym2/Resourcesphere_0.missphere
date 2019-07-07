@@ -1,0 +1,186 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+AISphere    CollisionEnvelope,107.4,-27343.8,0.0,11622.6
+Resources    Asteroid,11498.0,-75590.6,137846.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,81639.8,28601.2,-121629.8,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-17301.6,114824.8,-110970.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-74577.3,89470.8,120982.5,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,66660.9,-35366.2,-1784.4,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-55900.9,-70899.2,-116125.7,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-55949.4,-71011.6,-116154.2,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,66612.4,-35478.7,-1812.8,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-144204.7,139915.3,14977.3,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-23495.8,-157268.4,-111964.3,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-135870.0,20125.8,116516.1,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-74625.8,89358.4,120954.1,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-17350.1,114712.4,-110999.4,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,122420.7,136401.0,136930.8,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,81591.2,28488.7,-121658.3,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,141060.2,17463.0,117403.7,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,93130.0,-108950.3,-127504.6,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,11449.5,-75703.0,137818.4,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-120768.0,-100062.2,118521.8,Sphere,AsteroidLong.dist,20,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-84738.0,46484.0,10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-34.0,0,?
+Resources    Asteroid,-67756.0,69555.0,-10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-35.0,0,?
+Resources    Asteroid,-114599.5,104615.5,10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-42.0,0,?
+Resources    Asteroid,-132356.6,81084.1,-10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-43.0,0,?
+Resources    Asteroid,-156334.6,146013.4,10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-47.0,0,?
+Resources    Asteroid,-176512.6,124264.4,-10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-47.0,0,?
+Resources    Asteroid,-193472.6,190089.5,10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-52.0,0,?
+Resources    Asteroid,-215945.3,169703.1,-10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-51.0,0,?
+Resources    Asteroid,-229457.2,239347.5,10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-55.0,0,?
+Resources    Asteroid,-252839.6,220943.2,-10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-54.0,0,?
+Resources    Asteroid,-267325.7,302557.1,10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-58.0,0,?
+Resources    Asteroid,-293303.5,287878.4,-10000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-58.0,0,?
+Resources    Asteroid,-306310.4,378468.0,10000.0,Cylinder,AsteroidLong.dist,13,12820.0,49000.0,0.0,-62.0,0,?
+Resources    Asteroid,-330887.4,363510.0,-10000.0,Cylinder,AsteroidLong.dist,9,12820.0,49000.0,0.0,-62.0,0,?
+Resources    Asteroid,-340165.3,453068.6,10000.0,Cylinder,AsteroidLong.dist,6,12820.0,39050.0,0.0,-62.0,0,?
+Resources    Asteroid,-365910.3,439554.6,-10000.0,Cylinder,AsteroidLong.dist,15,12820.0,39050.0,0.0,-62.0,0,?
+Resources    Asteroid,-45325.9,4906.5,10000.0,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,0.0,-61.0,0,?
+Resources    Asteroid,-15561.0,47846.0,-10000.0,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,0.0,-6.0,0,?
+Resources    Asteroid,-39958.4,39062.9,118542.1,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,-18.7,-31.4,0,?
+Resources    Asteroid,-41166.1,38259.2,-18233.2,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,14.9,-33.1,0,?
+Resources    Asteroid,58121.7,-26371.8,1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,160.0,0,?
+Resources    Asteroid,66804.8,927.7,-1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,161.0,0,?
+Resources    Asteroid,122703.3,-16361.4,1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,168.0,0,?
+Resources    Asteroid,114103.2,-44558.6,-1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,169.0,0,?
+Resources    Asteroid,180726.1,-25792.8,1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,173.0,0,?
+Resources    Asteroid,174991.2,-54900.9,-1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,173.0,0,?
+Resources    Asteroid,238213.6,-29930.8,1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,178.0,0,?
+Resources    Asteroid,234929.8,-60094.3,-1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,177.0,0,?
+Resources    Asteroid,299215.5,-30089.8,1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-179.0,0,?
+Resources    Asteroid,298069.8,-59824.3,-1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-180.0,0,?
+Resources    Asteroid,372611.5,-23572.4,1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-176.0,0,?
+Resources    Asteroid,376005.6,-53216.7,-1000.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-176.0,0,?
+Resources    Asteroid,456939.4,-10492.2,1000.0,Cylinder,AsteroidLong.dist,13,12820.0,49000.0,0.0,-172.0,0,?
+Resources    Asteroid,459284.1,-39167.5,-1000.0,Cylinder,AsteroidLong.dist,9,12820.0,49000.0,0.0,-172.0,0,?
+Resources    Asteroid,537192.1,5967.8,1000.0,Cylinder,AsteroidLong.dist,6,12820.0,39050.0,0.0,-172.0,0,?
+Resources    Asteroid,541391.4,-22803.7,-1000.0,Cylinder,AsteroidLong.dist,15,12820.0,39050.0,0.0,-172.0,0,?
+Resources    Asteroid,1318.9,-18925.3,1000.0,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,0.0,-173.0,0,?
+Resources    Asteroid,18562.3,30394.2,-1000.0,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,0.0,132.0,0,?
+Resources    Asteroid,25797.1,5493.6,-115549.8,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,8.5,158.4,0,?
+Resources    Asteroid,25856.7,4044.2,114217.7,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,-20.5,158.5,0,?
+Derelict     FragmentPanel1, 23365.8 ,-141405.6 , 27193.2 ,-32.6 , 131.7 ,0
+Derelict     FragmentPanel2, 13287.6 , 93080.6 ,-20986.3 , 90.4 ,-102.9 ,0
+Derelict     FragmentPanel2, 29699.3 , 57073.5 , 17016.9 , 34.7 ,-11.2 ,0
+Derelict     Junk1_partA, 6211.9 , 97189.3 , 22764.3 ,-.2 , 13.2 ,0
+Derelict     Junk1_partA,-22573.5 , 113944.5 ,-15772.7 ,-81.6 , 85.5 ,0
+Derelict     Junk0_antenna,-27853.2 , 113562.5 ,-5296.9 ,-23.6 , 168.2 ,0
+Derelict     Junk1_partA,-14423.2 ,-124985.6 , 2590.2 ,-110.9 ,-96.6 ,0
+Derelict     Junk2_panelC,-8872.6 , 122919.4 ,-22351.5 ,-86.5 , 74.7 ,0
+
+
+Resources    DustCloud,2800000.0,1.0,-1000.0,Sphere,DustCloudCentre.dist,11,1510.0,3020.0,0.0,1.0,2048,2
+Resources    DustCloud,2820000.0,33000.0,0.0,Sphere,DustCloudCentre.dist,11,1835.0,3670.0,0.0,0.0,?,?
+Resources    DustCloud,2780000.0,-33001.0,0.0,Sphere,DustCloudCentre.dist,11,1835.0,3670.0,0.0,-40.0,?,?
+Resources    Asteroid,2800000.0,0.0,0.0,Cylinder,AsteroidLong.dist,175,4000.0,151209.1,0.0,-30.0,?,?
+Resources    Asteroid,2839000.0,9000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,-60.0,?,?
+Resources    Asteroid,2829000.0,-21000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,-80.0,?,?
+Resources    Asteroid,2819999.0,-32000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,22650.0,0.0,-120.0,?,?
+Resources    Asteroid,2881999.0,-39000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,10.0,?,?
+Resources    Asteroid,2829000.0,-34000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,-180.0,?,?
+Resources    Asteroid,2834943.0,-33038.0,0.0,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,2.0,?,?
+Resources    Asteroid,2827001.0,-43000.0,0.0,Cylinder,AsteroidBigSphere.dist,10,4810.0,24350.0,0.0,0.0,?,?
+Resources    Asteroid,2885949.0,-37057.0,0.0,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,8.0,2048,2
+Resources    Asteroid,2839000.0,-9000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,-60.0,?,?
+Resources    Asteroid,2829000.0,21000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,-80.0,?,?
+Resources    Asteroid,2820000.0,32000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,22650.0,0.0,-120.0,?,?
+Resources    Asteroid,2882000.0,39000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,10.0,?,?
+Resources    Asteroid,2829000.0,34000.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,32500.0,0.0,-180.0,?,?
+Resources    Asteroid,2827000.0,43000.0,0.0,Cylinder,AsteroidBigSphere.dist,10,4810.0,24350.0,0.0,-20.0,?,?
+Resources    Asteroid,2834942.9,33369.3,0.0,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,0.0,2048,2
+Resources    Asteroid,2885948.7,37057.1,0.0,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,7.0,?,?
+Resources    Asteroid,2816184.6,58847.9,0.0,Cylinder,AsteroidLong.dist,90,4000.0,110300.0,0.0,-22.0,?,?
+Resources    Asteroid,2811753.0,-66752.2,0.0,Cylinder,AsteroidLong.dist,90,4000.0,110313.6,0.0,-33.0,?,?
+Resources    Asteroid,2885044.3,-108821.3,0.0,Cylinder,AsteroidLong.dist,40,4000.0,58690.5,0.0,-24.0,?,?
+Resources    Asteroid,2886661.3,84845.2,0.0,Cylinder,AsteroidLong.dist,40,4000.0,58690.5,0.0,-10.0,?,?
+Derelict     Junk0_fin1, 2827457.3 ,-128070.1 ,-25632.3 , 9.7 ,-94.7 ,0
+Derelict     Junk1_strut,2818627 ,-16774.9 , 8071.6 ,-49.9 , 148.3 ,0
+Derelict     Junk1_partB,2817785.5 ,-51260 ,-25619.7 ,-150.3 ,-124 ,0
+Derelict     Junk0_sensors, 2818348.6 ,-106246.9 ,-22341.9 , 138.9 ,-16.9 ,0
+Derelict     Junk1_shell, 2801397.7 , 63458.6 , 9069.6 ,-92.5 , 52.5 ,0
+Derelict     Junk0_fin1,2821172.2 , 34148.3 , 29871.2 , 24.8 ,-23 ,0
+Derelict     Junk1_partB,2890479.4 ,-35372.9 ,-29439.1 , 63.8 , 5.2 ,0
+Derelict     Junk2_panelD,2844000.6 ,-21511 , 11513.8 ,-67.2 ,-12.4 ,0
+Derelict     Junk0_fin2, 2856024.6 , 142876.5 , 25725.5 , 104.8 ,-52 ,0
+Derelict     Junk1_shell, 2852309.8 ,-15650.3 , 19291.3 , 6.1 , 57.9 ,0
+Derelict     Junk1_shell, 2813965.4 ,-43136.5 , 1373.8 ,-125.8 ,-28.4 ,0
+Derelict     Junk2_panelD,2825047.4 , 37966.6 ,-22334.4 ,-58.3 ,-48.1 ,0
+
+
+Resources    Asteroid,11498.0,2975590.6,37846.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,81639.8,2928601.2,-21629.8,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-17301.6,2911488.8,-10970.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-74577.3,2989470.8,20982.5,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    DustCloud,29272.0,2957643.9,-60609.0,Sphere,DustCloudCentre.dist,28,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,-52400.1,2960151.7,-49040.0,Sphere,DustCloudCentre.dist,28,5000.0,10000.0,0.0,0.0,2048,0
+Resources    Asteroid,66660.9,2935366.2,-784.4,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,11498.0,2975590.6,37846.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,81639.8,2892601.2,-21629.8,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-17301.6,2914824.8,-10970.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-74577.3,2989470.8,20982.5,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-55900.9,2970899.2,-16125.7,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-55949.4,2971011.6,-16154.2,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,66612.4,2935478.7,-812.8,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-144204.7,2913990.3,4977.3,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-23495.8,2915728.4,-11964.3,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-135870.0,2920125.8,16516.1,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-74625.8,2989358.4,20954.1,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Resources    Asteroid,-17350.1,2911471.4,-10999.4,Sphere,AsteroidLong.dist,14,10040.0,20080.0,0.0,0.0,?,?
+Derelict     Junk0_sensors, 4555.4 ,2912215.5 ,-26041.1 , 31.3 , 159.1 ,0
+Derelict     Junk1_partB, 12958.3 ,2939418.7 , 13476.7 , 125.1 , 155 ,0
+Derelict     Junk1_strut,-25666.2 , 2969550.5 , 12833.9 ,-116.2 ,-7 ,0
+Derelict     FragmentPanel0b, 2633.5 ,2976550.2 ,-15842.7 ,-55.2 , 103.7 ,0
+Derelict     Junk1_partA,-16761.5 ,2911554.8 , 19938.5 , 29.4 ,-46.7 ,0
+Derelict     Junk1_shell, 26093.8 ,2944410.2 ,-8753.1 , 170.9 ,-60.3 ,0
+Derelict     FragmentStrut, 20953.1 ,2913838.8 ,-15072.8 , 124.2 , 103.9 ,0
+Derelict     Junk0_fin2, 10356.9 ,2914615.9 , 405.9 ,-152.1 ,-57.6 ,0
+Derelict     Junk0_antenna,-9029.7 ,2950138 , 21732 ,-98.5 ,-82.7 ,0
+Derelict     Junk1_strut,-11094.5 ,2977357.3 ,-24521.9 , 147.4 , 129.2 ,0
+Derelict     FragmentStrut, 9653.4 ,2913455.4 , 124.5 , 99.8 , 170.9 ,0
+Derelict     FragmentPanel1, 18249.6 , 2946665.4 , 27553.7 ,-148.4 , 126.3 ,0
+Derelict     Junk0_antenna, 299.7 , 2914602.2 ,-27721.1 , 60.6 , 72.3 ,0
+Derelict     Junk1_partA,-10510.9 ,2910965.6 ,-20968.5 , 106.1 , 29.1 ,0
+
+Resources    Asteroid,114103.2,-2944558.6,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,169.0,0,?
+Resources    DustCloud,29272.0,-2907643.9,-60609.0,Sphere,DustCloudCentre.dist,28,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,-52400.1,-2900151.7,-49040.0,Sphere,DustCloudCentre.dist,28,5000.0,10000.0,0.0,0.0,2048,0
+Resources    Asteroid,180726.1,-2925792.8,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,173.0,0,?
+Resources    Asteroid,174991.2,-2954900.9,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,173.0,0,?
+Resources    Asteroid,238213.6,-2929930.8,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,178.0,0,?
+Resources    Asteroid,234929.8,-2960094.3,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,177.0,0,?
+Resources    Asteroid,11498.0,-2875590.6,37846.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,81639.8,-2928601.2,-21629.8,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-17301.6,-2914824.8,-10970.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,-74577.3,-2809470.8,20982.5,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+Resources    Asteroid,299215.5,-2930089.8,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-179.0,0,?
+Resources    Asteroid,298069.8,-2959824.3,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-180.0,0,?
+Resources    Asteroid,372611.5,-2923572.4,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-176.0,0,?
+Resources    Asteroid,376005.6,-2953216.7,0.0,Cylinder,AsteroidLong.dist,16,12820.0,57700.0,0.0,-176.0,0,?
+Resources    Asteroid,456939.4,-2910492.2,0.0,Cylinder,AsteroidLong.dist,13,12820.0,49000.0,0.0,-172.0,0,?
+Resources    Asteroid,459284.1,-2939167.5,0.0,Cylinder,AsteroidLong.dist,9,12820.0,49000.0,0.0,-172.0,0,?
+Resources    Asteroid,537192.1,-2905967.8,0.0,Cylinder,AsteroidLong.dist,6,12820.0,39050.0,0.0,-172.0,0,?
+Resources    Asteroid,541391.4,-2922803.7,0.0,Cylinder,AsteroidLong.dist,15,12820.0,39050.0,0.0,-172.0,0,?
+Resources    Asteroid,1318.9,-2892500.3,0.0,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,0.0,-173.0,0,?
+Resources    Asteroid,18562.3,-2930394.2,0.0,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,0.0,132.0,0,?
+Resources    Asteroid,25797.1,-2950493.6,-15549.8,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,8.5,158.4,0,?
+Resources    Asteroid,25856.7,-2940044.2,14217.7,Cylinder,AsteroidLong.dist,16,8820.0,57700.0,-20.5,158.5,0,?
+Resources    DustCloud,29272.0,-2957643.9,-60609.0,Sphere,DustCloudCentre.dist,28,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,-52400.1,-2960151.7,-49040.0,Sphere,DustCloudCentre.dist,28,5000.0,10000.0,0.0,0.0,2048,0
+Derelict     FragmentStrut, 22202.3 ,-2911713.2 , 14333.9 ,-83 , 55 ,0
+Derelict     Junk1_strut,-5123.8 , -2910026.8 , 22681 , 83.3 , 93.1 ,0
+Derelict     FragmentPanel1, 14713.1 ,-2929228.8 , 22956 , 171.4 , 164.1 ,0
+Derelict     Junk0_fin2,-10622.1 ,-2914423.1 , 15705.9 , 115.3 ,-25.8 ,0
+Derelict     Junk2_panelD,-23695.2 , -2910911.8 , 6901.2 , 104 , 151.6 ,0
+Derelict     Junk1_strut, 7238.5 , -2961539 ,-11194.6 , 57.3 , 39.7 ,0
+Derelict     Junk0_antenna,-21365.9 , -2910751.3 ,-26422.1 , 50.6 ,-157.4 ,0
+Derelict     Junk1_partA,-26457.6 ,-2916100.3 , 10237.6 , 80.3 , 68.7 ,0
+Derelict     Junk0_antenna, 15603.6 , -2936880.9 , 10609.5 ,-9.1 , 130.3 ,0
+Derelict     Junk2_panelD, 10776.1 , -2914660.2 , 4881.8 ,-65.2 , 22.7 ,0
+Derelict     Junk2_panelD,-12575.7 ,-2912097.2 , 22396.6 ,-153.3 ,-77.8 ,0
+Derelict     FragmentPanel3,-19609 , -2959149.6 , 8300.6 ,-76.7 , 6.3 ,0
+Derelict     Junk0_fin1,-321.4 , -2912292.9 , 21679.6 , 49.7 ,-164.8 ,0
+Derelict     Junk1_partA,-634.2 ,-2911913.8 , 15802.8 ,-16.1 , 137.9 ,0

@@ -1,0 +1,149 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+}
+
+LevelName = [[Gathering of the gods (2-4)]]
+LevelFile = [[Gathering of the gods 4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {30000, 500000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "dab_btg"
+LevelMusic = "-1"
+
+RUsRatio = 1/4
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 0.0, 90000.0, 0.0,},
+	{0.0, 0.0, -90000.0, 180.0,},
+	{0.0, 90000.0, 0.0, 180.0,},
+	{0.0, -90000.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 0.0, -90000.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 0.0, 90000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 90000.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -90000.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dab =
+	{
+		asteroid0 = 0,
+		asteroid1 = 6,
+		asteroid2 = 4,
+		asteroid3 = 3,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	dab1 =
+	{
+		asteroid0 = 9,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0, -90000, -90000,}, "cylinder", "dab", 40, 0, 0, 200000, 0,},
+	{{0, 90000, 90000,}, "cylinder", "dab", 40, 0, 0, 200000, 0,},
+	{{0, -7150, -91000,}, "cylinder", "dab", 40, 100, 9000, 0, 0,},
+	{{0, 7150, 91000,}, "cylinder", "dab", 40, 100, 9000, 0, 0,},
+	{{-7150, -91000, 0,}, "cylinder", "dab", 40, 100, 9000, 0, 0,},
+	{{7150, 91000, 0,}, "cylinder", "dab", 40, 100, 9000, 0, 0,},
+	{{-7150, 0, -75000,}, "sphere", "dab", 50, 2000, 2000, 0, 0,},
+	{{7150, 0, 75000,}, "sphere", "dab", 50, 2000, 2000, 0, 0,},
+	{{-7150, -75000, 0,}, "sphere", "dab", 50, 2000, 2000, 0, 0,},
+	{{7150, 75000, 0,}, "sphere", "dab", 50, 2000, 2000, 0, 0,},
+	{{0, 0, -70000,}, "cylinder", "dab", 50, 100, 9000, 260000, 3000,},
+	{{0, 0, 70000,}, "cylinder", "dab", 50, 100, 9000, 260000, 3000,},
+	{{0, -70000, 0,}, "cylinder", "dab", 50, 100, 9000, 260000, 3000,},
+	{{0, 70000, 0,}, "cylinder", "dab", 50, 100, 9000, 260000, 3000,},
+	{{0, 0, -50000,}, "cylinder", "dab", 100, 100, 9000, 0, 0,},
+	{{0, 0, 50000,}, "cylinder", "dab", 100, 100, 9000, 0, 0,},
+	{{0, 95000, 0,}, "cylinder", "dab", 100, 200, 60000, 0, 0,},
+	{{0, -95000, 0,}, "cylinder", "dab", 100, 200, 60000, 0, 0,},
+	{{40000, 0, 0,}, "cylinder", "dab", 100, 20, 6000, 0, 0,},
+	{{-40000, 0, 0,}, "cylinder", "dab", 100, 20, 6000, 0, 0,},
+	{{0, 0, 0,}, "cylinder", "dab", 100, 100, 60000, 20000, 50000,},
+	{{0, 0, 0,}, "sphere", "dab", 100, 3000, 0, 0, 0,},
+	{{0, 0, 93000,}, "sphere", "dust", 30, 3000, 600, 0, 0,},
+	{{0, 0, -93000,}, "sphere", "dust", 30, 3000, 600, 0, 0,},
+	{{0, 93000, 0,}, "sphere", "dust", 30, 3000, 600, 0, 0,},
+	{{0, -93000, 0,}, "sphere", "dust", 30, 3000, 600, 0, 0,},
+	{{-4680, 6570, 40000,}, "sphere", "dust", 30, 3000, 6000, 0, 0,},
+	{{4680, -6570, -40000,}, "sphere", "dust", 30, 3000, 6000, 0, 0,},
+	{{-4680, 40000, 0,}, "sphere", "dust", 30, 3000, 6000, 0, 0,},
+	{{4680, -40000, 0,}, "sphere", "dust", 30, 3000, 6000, 0, 0,},
+	{{-3500, -7590, 380,}, "sphere", "dust", 30, 300, 6000, 0, 0,},
+	{{-220, 970, -5700,}, "sphere", "dust", 30, 500, 6000, 0, 0,},
+	{{-5290, 4740, 8910,}, "sphere", "dust", 30, 400, 6000, 0, 0,},
+	{{-8260, 890, 1470,}, "sphere", "dust", 30, 1000, 6000, 0, 0,},
+	{{-580, -2390, 1430,}, "sphere", "dust", 30, 3000, 6000, 0, 0,},
+	{{7280, -1290, -260,}, "sphere", "dust", 30, 3000, 6000, 0, 0,},
+	{{0, 0, 0,}, "cylinder", "dab1", 300, 100, 100000, 40000, 0,},
+	{{0, 0, 0,}, "cylinder", "dab1", 300, 100, 100000, -40000, 0,},
+	{{0, 60000, 0,}, "cylinder", "dab1", 100, 300, 60000, 80000, 0,},
+	{{0, -60000, 0,}, "cylinder", "dab1", 100, 300, 60000, -80000, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

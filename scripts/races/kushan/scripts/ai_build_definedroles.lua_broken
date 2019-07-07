@@ -1,0 +1,67 @@
+aitrace("LOADING KUSHAN BUILD INFO")
+
+kCollector = KUS_RESOURCECOLLECTOR
+kRefinery  = KUS_RESOURCECONTROLLER
+kScout = KUS_SCOUT
+kInterceptor = KUS_INTERCEPTOR
+kBomber = KUS_ATTACKBOMBER
+kCarrier = KUS_CARRIER		
+kDestroyer = KUS_DESTROYER
+kMissileDestroyer = KUS_MISSILEDESTROYER
+kBattleCruiser = KUS_HEAVYCRUISER	
+
+function DetermineDemandWithNoCounterInfo_Kushan()
+	if (sg_randFavorShipType < 25) then
+		ShipDemandAddByClass( eFighter, 1 )
+	elseif (sg_randFavorShipType < 65) then
+		ShipDemandAddByClass( eCorvette, 1 )
+	else
+		ShipDemandAddByClass( eFrigate, 1 )
+	end	
+end
+
+function DetermineSpecialDemand_Kushan()
+	ShipDemandSet( KUS_RESEARCHSHIP, 10)	
+	if s_militaryPop > 16 then
+		ShipDemandSet( KUS_RESEARCHSHIP_1, 5)	
+		ShipDemandSet( KUS_RESEARCHSHIP_2, 4)	
+		ShipDemandSet( KUS_RESEARCHSHIP_3, 3)	
+		ShipDemandSet( KUS_RESEARCHSHIP_4, 2)	
+		ShipDemandSet( KUS_RESEARCHSHIP_5, 1.25)	
+	end	
+	local numRepair = NumSquadrons( KUS_REPAIRCORVETTE ) + NumSquadronsQ( KUS_REPAIRCORVETTE )
+	local numCorvettes = numQueueOfClass(eCorvette)
+	if(numCorvettes == 0 or numRepair / numCorvettes > 0.1) then
+		ShipDemandAdd( KUS_REPAIRCORVETTE, -10 )		
+	else
+		if (s_militaryPop < 5) then
+			ShipDemandAdd( KUS_REPAIRCORVETTE, -4.25 )
+		elseif (s_militaryPop < 10) then
+			ShipDemandAdd( KUS_REPAIRCORVETTE, -2.25 )
+		elseif (s_militaryPop < 15) then
+			ShipDemandAdd( KUS_REPAIRCORVETTE, -1.25 )
+		elseif (s_militaryPop > 30) then
+			ShipDemandAdd( KUS_REPAIRCORVETTE, 1 )
+		end
+	end
+	local numDroneFrigate = NumSquadrons( KUS_DRONEFRIGATE ) + NumSquadronsQ( KUS_DRONEFRIGATE )
+	local numFrigates = numQueueOfClass(eFrigate)
+	if(numFrigates == 0 or numDroneFrigate / numFrigates > 0.2) then
+		ShipDemandAdd( KUS_DRONEFRIGATE, -10 )
+	end
+	local numGravWellGenerator = NumSquadrons( KUS_GRAVWELLGENERATOR ) + NumSquadronsQ( KUS_GRAVWELLGENERATOR )
+	if numGravWellGenerator == 0 and s_militaryPop > 20 and GetRU() > 1500 then
+		ShipDemandSet( KUS_GRAVWELLGENERATOR, 10)
+	end		
+	local numCloakGenerator = NumSquadrons( KUS_CLOAKGENERATOR ) + NumSquadronsQ( KUS_CLOAKGENERATOR )
+	if numCloakGenerator == 0 and s_militaryPop > 35 and GetRU() > 2250 then
+		ShipDemandSet( KUS_CLOAKGENERATOR, 9)
+	end
+	local numSensorArray = NumSquadrons( KUS_SENSORARRAY ) + NumSquadronsQ( KUS_SENSORARRAY )
+	if numSensorArray == 0 and s_militaryPop > 45 and GetRU() > 3000 then
+		ShipDemandSet( KUS_SENSORARRAY, 8)
+	end
+end
+
+Proc_DetermineDemandWithNoCounterInfo = DetermineDemandWithNoCounterInfo_Kushan
+Proc_DetermineSpecialDemand = DetermineSpecialDemand_Kushan

@@ -1,0 +1,49 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+
+Resources    Asteroid,-38000,-60999.7,2000.0,Sphere,Asteroidouter.dist,14,1160.0,4140.0,0.0,-19.0,2048,?
+Resources    Asteroid,-38000,-60999.7,2000.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources          DustCloud,-50000,-62500.6,0.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+Resources         DustCloud,-52500,-33333,6439.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+
+
+
+Resources    Asteroid,38000,-60999.7,2000.0,Sphere,Asteroidouter.dist,14,1160.0,4140.0,0.0,-19.0,2048,?
+Resources    Asteroid,38000,-60999.7,2000.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources          DustCloud,50000,-62500.6,-0.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+Resources         DustCloud,52500,-33333,-6439.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+
+
+
+Resources    Asteroid,-38000,60999.7,-2000.0,Sphere,Asteroidouter.dist,14,1160.0,4140.0,0.0,-19.0,2048,?
+Resources    Asteroid,-38000,60999.7,-2000.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources          DustCloud,-50000,62500.6,-0.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+Resources         DustCloud,-52500,33333,6439.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+
+Resources    Asteroid,38000,60999.7,2000.0,Sphere,Asteroidouter.dist,14,1160.0,4140.0,0.0,-19.0,2048,?
+Resources    Asteroid,38000,60999.7,2000.0,Sphere,Asteroidouter.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources          DustCloud,50000,62500.6,-0.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+Resources         DustCloud,52500,33333,-6439.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+
+
+
+
+
+Derelict                                                             PrisonShipNew,0,0,18500,38,0,0,?,?
+Resources                       	Nebula,0.0,0.0,18500.0,Nebula,nebula.dist,48,15000,25000,10000,4000
+Resources    DustCloud,-8500.6,5045.6,17500.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+Resources        DustCloud,8500,-1045.6,19500.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+Resources      DustCloud,3500,-8045.6,18000.5,Sphere,DustHeavy.dist,8,2165.5,4330.9,0.0,0.0,2048,?
+Resources         Asteroid,0,0,18000.0,Sphere,Asteroidouter.dist,30,3580.0,5500.0,0.0,-19.0,2048,?
+
+
+Ships     ,0.0,2000.0,21000,45.0,Traders,Junk_LGun,3,WALL_FORMATION|?|?,0,?
+Ships     ,0.0,-2000.0,18000,0.0,Traders,Junk_LGun,3,WALL_FORMATION|?|?,0,?
+Ships     ,0.0,2000.0,19000,90.0,Traders,Junk_LGun,3,WALL_FORMATION|?|?,0,?
+Ships     ,0.0,-2000.0,16000,270.0,Traders,Junk_LGun,3,WALL_FORMATION|?|?,0,?
+Resources         Asteroid,26250,24890,-7500.0,Sphere,Asteroidouter.dist,30,1980.0,4500.0,0.0,-19.0,2048,?
+Resources         Asteroid,-39375,-10000,8000.0,Sphere,Asteroidouter.dist,30,1980.0,4500.0,0.0,-19.0,2048,?
+

@@ -1,0 +1,11 @@
+Description	Haven
+Description	This map is one of my favorites. You must hunt down your enemy in the dense asteroid viens without the aid of sensors. But beware, if you dont keep an eye out they could go right past you. 
+Description	Hope you enjoy.
+Description	
+Description	AUTHOR  : medamanx
+Description	E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)
+Description	WEBSITE : www.geocities.com/medamanx
+
+Font 		Arial_b12.hff
+Color 		255, 100, 0
+DropShadow 	Yes

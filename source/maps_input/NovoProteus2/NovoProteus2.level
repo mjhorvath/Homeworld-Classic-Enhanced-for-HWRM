@@ -1,0 +1,37 @@
+; MissionMan script, martes, dic 5 2000, 10:19:04 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: NovoProteus2
+; Info: Level info goes here
+
+[NOVO PROTEUS (2-5)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,2000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_2.missphere,2000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,2000
+MissionSphere    0,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,2000
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,2000
+
+
+Lighting    ez07
+Background    ez07, 90, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    300000
+smZoomMin    30000
+smInitialDistance    60000
+smUniverseSizeX    320000
+smUniverseSizeZ    100000
+smUniverseSizeY    320000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    All
+SongNumber   19

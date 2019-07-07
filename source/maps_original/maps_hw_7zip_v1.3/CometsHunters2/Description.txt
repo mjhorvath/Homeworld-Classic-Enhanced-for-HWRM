@@ -1,0 +1,11 @@
+Description   Several fleets have arrived next to this group of comets that go coming closer swiftly to the star. The small are good for the crop but not enough to build a great fleet. It will be necessary to approach the big one and to  fight for him, sure.
+Good map for teams and FFA.
+Description
+Description   AUTHOR: Randix (starmaker72@hotmail.com)
+Description   Version: 4 May 2000
+
+
+DescriptionSpanish   Varias flotas han llegado junto a este grupo de cometas que van acercándose velozmente a la estrella. Los pequeños son buenos para la cosecha, pero no suficientes para costruir una gran flota. Será necesario abordar al mayor y luchar por él, seguro.
+DescriptionSpanish   
+DescriptionSpanish  AUTOR: Randix (starmaker72@hotmail.com)
+DescriptionSpanish  Versión: 4 Mayo 2000

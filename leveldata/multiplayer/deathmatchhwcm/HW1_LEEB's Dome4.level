@@ -1,0 +1,145 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Nub Land II",
+	"pwnafication of nubs is the region's",
+	"desire.",
+	"",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[LEEB's Dome (4)]]
+LevelFile = [[LEEB's Dome4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "11"
+
+RUsRatio = 1
+PebRatio = 0
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{30000.0, 0.0, 0.0, 180.0,},
+	{0.0, -30000.0, 0.0, 90.0,},
+	{-30000.0, 0.0, 0.0, 0.0,},
+	{0.0, 30000.0, 0.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, -30000.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "p2advanceswarmer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{1, "", "mothership", {0.0, 30000.0, 0.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{1, "", "mothership", {30000.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "p2advanceswarmer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{1, "", "mothership", {-30000.0, 0.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "p2advanceswarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	tiny =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 0,
+		dustcloud3 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 20000.0,}, "sphere", "rock", 4, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -20000.0,}, "sphere", "rock", 4, 4000.0, 8000.0, 0.0, 0.0,},
+	{{10000.0, 0.0, 10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, 45.0, 0.0,},
+	{{-10000.0, 0.0, 10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, -45.0, 0.0,},
+	{{0.0, 10000.0, 10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, -45.0, -90.0,},
+	{{0.0, -10000.0, 10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, 45.0, -90.0,},
+	{{10000.0, 0.0, -10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, -45.0, 0.0,},
+	{{-10000.0, 0.0, -10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, 45.0, 0.0,},
+	{{0.0, -10000.0, -10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, -45.0, -90.0,},
+	{{0.0, 10000.0, -10000.0,}, "cylinder", "tiny", 70, 1000.0, 20000.0, 45.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "roid", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -20000.0, 0.0,}, "sphere", "rock", 3, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-20000.0, 0.0, 0.0,}, "sphere", "rock", 3, 1500.0, 3000.0, 0.0, 0.0,},
+	{{0.0, 20000.0, 0.0,}, "sphere", "rock", 3, 1500.0, 3000.0, 0.0, 0.0,},
+	{{20000.0, 0.0, 0.0,}, "sphere", "rock", 3, 1500.0, 3000.0, 0.0, 0.0,},
+	{{4000.0, -36000.0, 0.0,}, "sphere", "dust", 2, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-36000.0, -4000.0, 0.0,}, "sphere", "dust", 2, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-4000.0, 36000.0, 0.0,}, "sphere", "dust", 2, 1500.0, 3000.0, 0.0, 0.0,},
+	{{36000.0, 4000.0, 0.0,}, "sphere", "dust", 2, 1500.0, 3000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "rock", 2, 1500.0, 3000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

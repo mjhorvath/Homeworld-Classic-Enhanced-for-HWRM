@@ -1,0 +1,36 @@
+; MissionMan script, Thursday, Jul 29 1999, 8:48:38 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: TreeOfLife5
+; Info: Tree Of Life (2-5)
+
+[Tree Of Life (2-5)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,40000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,1000
+MissionSphere    -1,?,ResourceSphere,-13000.0,24000.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,1000
+MissionSphere    2,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_3.missphere,1000
+MissionSphere    4,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_4.missphere,1000
+
+Lighting    ez08
+Background    ez08, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    410000
+smZoomMin    30000
+smInitialDistance    145000
+smUniverseSizeX    100000
+smUniverseSizeZ    200000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    1

@@ -1,0 +1,33 @@
+; MissionMan script, Monday, Dec 3 2001, 1:32:17 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Watusi4
+; Info: Watusi (2-4)
+
+[Watusi (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,25000.0,15000.0,0.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,-25000.0,-15000.0,0.0,30000.0,0.0,Mothership_0.missphere,0
+
+Lighting    ez14
+Background    ez14
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    25000
+smInitialDistance    75000
+smUniverseSizeX    65000
+smUniverseSizeZ    25000
+smUniverseSizeY    50000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    21

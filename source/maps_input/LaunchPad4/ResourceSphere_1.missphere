@@ -1,0 +1,172 @@
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,0,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,10,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,20,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,30,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,40,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,50,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,60,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,70,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,80,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,90,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,100,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,110,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,120,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,130,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,140,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,150,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,160,0,?
+Resources      Asteroid,55000,0,75000,Cylinder,pad.dist,20,400,20000,0,170,0,?
+
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,0,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,10,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,20,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,30,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,40,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,50,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,60,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,70,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,80,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,90,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,100,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,110,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,120,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,130,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,140,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,150,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,160,0,?
+Resources      Asteroid,0,55000,25000,Cylinder,pad.dist,20,400,20000,0,170,0,?
+
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,0,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,10,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,20,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,30,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,40,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,50,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,60,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,70,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,80,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,90,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,100,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,110,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,120,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,130,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,140,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,150,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,160,0,?
+Resources      Asteroid,-55000,0,-25000,Cylinder,pad.dist,20,400,20000,0,170,0,?
+
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,0,0,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,10,1,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,20,2,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,30,3,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,40,4,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,50,5,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,60,6,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,70,7,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,80,8,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,90,9,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,100,10,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,110,11,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,120,12,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,130,13,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,140,14,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,150,15,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,160,16,?
+Resources      Asteroid,0,-55000,-75000,Cylinder,pad.dist,20,400,20000,0,170,17,?
+
+
+Resources      Asteroid,5000,0,0,Rectangle,pillar.dist,100,100,1000,110000,0.0,0,?
+Resources      Asteroid,4900,993.3,0,Rectangle,pillar.dist,100,100,1000,110000,11.5,0,?
+Resources      Asteroid,4605,1947,0,Rectangle,pillar.dist,100,100,1000,110000,22.9,0,?
+Resources      Asteroid,4127,2823,0,Rectangle,pillar.dist,100,100,1000,110000,34.4,0,?
+Resources      Asteroid,3484,3587,0,Rectangle,pillar.dist,100,100,1000,110000,45.8,0,?
+Resources      Asteroid,2702,4207,0,Rectangle,pillar.dist,100,100,1000,110000,57.3,0,?
+Resources      Asteroid,1812,4660,0,Rectangle,pillar.dist,100,100,1000,110000,68.8,0,?
+Resources      Asteroid,849.8,4927,0,Rectangle,pillar.dist,100,100,1000,110000,80.2,0,?
+Resources      Asteroid,-146,4998,0,Rectangle,pillar.dist,100,100,1000,110000,-88.3,0,?
+Resources      Asteroid,-1136,4869,0,Rectangle,pillar.dist,100,100,1000,110000,-76.9,0,?
+Resources      Asteroid,-2081,4546,0,Rectangle,pillar.dist,100,100,1000,110000,-65.4,0,?
+Resources      Asteroid,-2943,4042,0,Rectangle,pillar.dist,100,100,1000,110000,-53.9,0,?
+Resources      Asteroid,-3687,3377,0,Rectangle,pillar.dist,100,100,1000,110000,-42.5,0,?
+Resources      Asteroid,-4284,2578,0,Rectangle,pillar.dist,100,100,1000,110000,-31.0,0,?
+Resources      Asteroid,-4711,1675,0,Rectangle,pillar.dist,100,100,1000,110000,-19.6,0,?
+Resources      Asteroid,-4950,705.6,0,Rectangle,pillar.dist,100,100,1000,110000,-8.1,0,?
+Resources      Asteroid,-4991,-291.9,0,Rectangle,pillar.dist,100,100,1000,110000,3.3,0,?
+Resources      Asteroid,-4834,-1278,0,Rectangle,pillar.dist,100,100,1000,110000,14.8,0,?
+Resources      Asteroid,-4484,-2213,0,Rectangle,pillar.dist,100,100,1000,110000,26.3,0,?
+Resources      Asteroid,-3955,-3059,0,Rectangle,pillar.dist,100,100,1000,110000,37.7,0,?
+Resources      Asteroid,-3268,-3784,0,Rectangle,pillar.dist,100,100,1000,110000,49.2,0,?
+Resources      Asteroid,-2451,-4358,0,Rectangle,pillar.dist,100,100,1000,110000,60.6,0,?
+Resources      Asteroid,-1537,-4758,0,Rectangle,pillar.dist,100,100,1000,110000,72.1,0,?
+Resources      Asteroid,-560.8,-4968,0,Rectangle,pillar.dist,100,100,1000,110000,83.6,0,?
+Resources      Asteroid,437.5,-4981,0,Rectangle,pillar.dist,100,100,1000,110000,-85.0,0,?
+Resources      Asteroid,1418,-4795,0,Rectangle,pillar.dist,100,100,1000,110000,-73.5,0,?
+Resources      Asteroid,2343,-4417,0,Rectangle,pillar.dist,100,100,1000,110000,-62.1,0,?
+Resources      Asteroid,3173,-3864,0,Rectangle,pillar.dist,100,100,1000,110000,-50.6,0,?
+Resources      Asteroid,3878,-3156,0,Rectangle,pillar.dist,100,100,1000,110000,-39.1,0,?
+Resources      Asteroid,4428,-2323,0,Rectangle,pillar.dist,100,100,1000,110000,-27.7,0,?
+Resources      Asteroid,4801,-1397,0,Rectangle,pillar.dist,100,100,1000,110000,-16.2,0,?
+Resources      Asteroid,4983,-415.4,0,Rectangle,pillar.dist,100,100,1000,110000,-4.8,0,?
+Resources      Asteroid,4966,582.7,0,Rectangle,pillar.dist,100,100,1000,110000,6.7,0,?
+
+Resources      Asteroid,25000,0,75000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,25000,0,75000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,25000,0,75000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,25000,0,75000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,25000,0,75000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,25000,0,75000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+
+Resources      Asteroid,0,25000,25000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,25000,25000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,25000,25000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,25000,25000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,25000,25000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,25000,25000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+
+Resources      Asteroid,-25000,0,-25000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,-25000,0,-25000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,-25000,0,-25000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,-25000,0,-25000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,-25000,0,-25000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+Resources      Asteroid,-25000,0,-25000,Cylinder,arm.dist,40,1000,40000,0,0.0,0,?
+
+Resources      Asteroid,0,-25000,-75000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,-25000,-75000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,-25000,-75000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,-25000,-75000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,-25000,-75000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+Resources      Asteroid,0,-25000,-75000,Cylinder,arm.dist,40,1000,40000,0,90.0,0,?
+
+Ships     ,0,0,100000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,75000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,50000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,25000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,0,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,-25000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,-50000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,-75000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0,0,-100000,0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+Slipgate    ,55000,0,65000,1/2,-180.0,dSlipgateLarge
+Slipgate    ,5000,0,112000,2/2,0.0,dSlipgateLarge
+Slipgate    ,0,55000,15000,1/2,0.0,dSlipgateLarge
+Slipgate    ,0,5000,-112000,2/2,-180.0,dSlipgateLarge
+Slipgate    ,-55000,0,-35000,1/2,-90.0,dSlipgateLarge
+Slipgate    ,-5000,0,112000,2/2,90.0,dSlipgateLarge
+Slipgate    ,0,-55000,-85000,1/2,90.0,dSlipgateLarge
+Slipgate    ,0,-5000,-112000,2/2,-90.0,dSlipgateLarge
+
+Slipgate    ,0,0,125000,1/2,-180.0,dSlipgateLarge
+Slipgate    ,0,0,-125000,2/2,0.0,dSlipgateLarge
+
+Resources      Asteroid,0,0,12500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+Resources      Asteroid,0,0,37500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+Resources      Asteroid,0,0,62500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+Resources      Asteroid,0,0,87500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+Resources      Asteroid,0,0,-12500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+Resources      Asteroid,0,0,-37500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+Resources      Asteroid,0,0,-62500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+Resources      Asteroid,0,0,-87500,Rectangle,type4.dist,10,200,200,10000,0,0,?
+
+
+

@@ -1,0 +1,123 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"The 2 vs 2 Map",
+	"",
+	"Here teamwork is needed with your ally work together to",
+	"destroy the other team.",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[The 2 vs 2 Map (4)]]
+LevelFile = [[The 2 vs 2 Map4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez06"
+LevelMusic = "41"
+
+RUsRatio = 1
+
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{35000.0, 15000.0, 0.0, -180.0,},
+	{35000.0, -15000.0, 0.0, -180.0,},
+	{-35000.0, -15000.0, 0.0, 0.0,},
+	{-35000.0, 15000.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {35000.0, -15000.0, 0.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{8, "", "heavyinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {35000.0, 15000.0, 0.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "heavydefender", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-35000.0, -15000.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{8, "", "heavyinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-35000.0, 15000.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "heavydefender", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 2,
+		asteroid3 = 4,
+		asteroid4 = 1,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 4,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{35000.0, 0.0, 0.0,}, "cylinder", "rock", 30, 2500.0, 15000.0, 90.0, 180.0,},
+	{{-35000.0, 0.0, 0.0,}, "cylinder", "rock", 30, 2500.0, 15000.0, 90.0, 180.0,},
+	{{35000.0, 0.0, 0.0,}, "cylinder", "dust", 20, 1500.0, 15000.0, 90.0, 180.0,},
+	{{-35000.0, 0.0, 0.0,}, "cylinder", "dust", 20, 1500.0, 15000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -10000.0,}, "cylinder", "pebble", 40, 500.0, 50000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 10000.0,}, "cylinder", "pebble", 40, 500.0, 50000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 40, 2000.0, 50000.0, 20.0, 90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

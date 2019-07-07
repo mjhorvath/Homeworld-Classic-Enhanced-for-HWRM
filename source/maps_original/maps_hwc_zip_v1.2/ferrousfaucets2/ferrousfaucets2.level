@@ -1,0 +1,27 @@
+; MissionMan script, Thursday, Jan 27 2000, 11:45:03 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: FerrousFaucets2
+; Info: Ferrous Faucets (2)
+
+[Ferrous Faucets (2)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,30000.0,0.0,Resource.missphere,1000
+MissionSphere    0,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,RACE_SECT,sMothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting    mission03
+Background    mission03
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    80000
+smZoomMin    53000
+smInitialDistance    60000
+smUniverseSizeX    97000
+smUniverseSizeZ    15000
+smUniverseSizeY    97000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL

@@ -1,0 +1,46 @@
+; MissionMan script, Sunday, Sep 17 2000, 11:25:24 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: teelan4
+; Info: Teelan (4)
+
+[Teelan (4)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,30000.0,0.0,Resource.missphere,1000
+MissionSphere    0,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,2500
+MissionSphere    1,RACE_SECT,sMothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_1.missphere,2500
+MissionSphere    2,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,2500
+MissionSphere    3,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,2500
+MissionSphere    4,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,2500
+MissionSphere    5,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,2500
+MissionSphere    6,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_6.missphere,2500
+MissionSphere    7,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_7.missphere,2500
+
+Lighting    goldneb.hsf
+Background    goldneb.btg
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    120000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    60000
+smUniverseSizeX    50000
+smUniverseSizeZ    45000
+smUniverseSizeY    50000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeShips    RACE_DERELICT,dJunk1PartA
+IncludeShips    RACE_DERELICT,dJunk1Shell
+IncludeShips    RACE_DERELICT,dJunk2Shipwreck
+IncludeShips    RACE_DERELICT,dJunk1Strut
+IncludeShips    RACE_DERELICT,dJunk3BoilerCasing
+IncludeShips    RACE_DERELICT,dJunk3Boiler
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+SongNumber    24

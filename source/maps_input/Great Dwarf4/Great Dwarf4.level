@@ -1,0 +1,42 @@
+; MissionMan script, Friday, Jan 14 2000, 5:19:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Great Dwarf4
+; Info: Great Dwarf (2-4)
+
+[Great Dwarf (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R2,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R2,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,0
+
+
+Lighting    star.hsf
+Background    star
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    750000
+smZoomMin    75000
+smInitialDistance    100000
+smUniverseSizeX    100000
+smUniverseSizeZ    750000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    R1,IonCannonFrigate
+ExcludeShips	R2,IonCannonFrigate
+ExcludeShips	R1,StandardDestroyer
+ExcludeShips	R2,StandardDestroyer
+ExcludeShips	R1,SensorsArray
+ExcludeShips	R2,SensorsArray 
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    11

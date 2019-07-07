@@ -1,0 +1,9 @@
+; MissionMan script, Sunday, Feb 8 2004, 7:19:42 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,pebble.dist,2000,150000.0,150000.0,75000.0,0.0,0,?
+Resources    Asteroid,-48000.0,0.0,0.0,Cylinder,Curtain.dist,200,3000.0,48000.0,0.0,0.0,0,?
+Resources    Asteroid,48000.0,0.0,0.0,Cylinder,Curtain.dist,200,3000.0,48000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,Curtain.dist,200,150000.0,150000.0,75000.0,0.0,0,?
+

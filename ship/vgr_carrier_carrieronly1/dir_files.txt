@@ -1,0 +1,10 @@
+dir_files.cmd
+dir_files.txt
+hwclassicenhanced
+vgr_carrier.ship.bak
+vgr_carrier_carrieronly.events
+vgr_carrier_carrieronly.ship
+vgr_carrier_only.hod
+vgr_carrier_only.lua
+vgr_carrier_only.mad
+vgr_carrier_only.madstate

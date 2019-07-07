@@ -1,0 +1,124 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"",
+	"I'm slowly taking over!                     ",
+	"Good luck!!                  ",
+	"",
+	"Settings: default.",
+	"",
+	"AUTHOR: T2_Elite",
+}
+
+LevelName = [[T2_Elite's Home (2-4)]]
+LevelFile = [[SuperIronWall4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 400000,}
+UniverseSize = {150000, 150000, 100000, }
+
+LevelBackground = "ez10"
+LevelMusic = "11"
+
+RUsRatio = 1/2
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{30000.0, 32000.0, 0.0, 0.0,},
+	{30000.0, -41000.0, 0.0, 180.0,},
+	{-35000.0, -40000.0, 0.0, 180.0,},
+	{-36000.0, 26000.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {30000.0, -41000.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "probe", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {30000.0, 32000.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "probe", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-35000.0, -40000.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "probe", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-36000.0, 26000.0, 0.0,}, 3, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "probe", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	pebble =
+	{
+		asteroid0 = 10,
+		asteroid1 = 20,
+		asteroid2 = 3,
+		asteroid3 = 4,
+		asteroid4 = 20,
+	},
+	nebula =
+	{
+		nebula0 = 0,
+		nebula1 = 5,
+		nebula2 = 3,
+		nebula3 = 2,
+		nebula4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{67000.0, -3200.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, -90.0,},
+	{{-68000.0, -3200.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, -90.0,},
+	{{-55000.0, -46000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, -55.0,},
+	{{-54000.0, 36000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, 55.0,},
+	{{57000.0, -42000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, 55.0,},
+	{{55000.0, 34000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, -55.0,},
+	{{25000.0, 60000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, -25.0,},
+	{{-18000.0, 60000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 50000.0, 0.0, 15.0,},
+	{{-22000.0, -71000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 40000.0, 0.0, -15.0,},
+	{{22000.0, -71000.0, 0.0,}, "cylinder", "pebble", 50, 6500.0, 50000.0, 0.0, 20.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{-3900.0, -4200.0, 0.0,}, "nebula", "nebula", 150, 10000.0, 10000.0, 100000.0, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

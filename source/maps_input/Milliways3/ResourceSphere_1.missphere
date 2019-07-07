@@ -1,0 +1,36 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Nebula,0,0,0.0,Nebula,nebula.dist,150,20000,20000,20000,10000,?,?
+
+Resources    Asteroid,0.0,40000.0,0.0,Cylinder,AsteroidCentre.dist,15,12000,24000,0.0,0.0,?,?
+Resources    Asteroid,0.0,40000.0,0.0,Cylinder,AsteroidCentre.dist,15,12000,24000,45.0,0.0,?,?
+Resources    Asteroid,0.0,40000.0,0.0,Cylinder,AsteroidCentre.dist,15,10000,20000,0.0,0.0,?,?
+Resources    Asteroid,0.0,40000.0,0.0,Cylinder,AsteroidCentre.dist,15,10000,20000,45.0,0.0,?,?
+
+Resources    Asteroid,-34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,12000,24000,45.0,0.0,?,?
+Resources    Asteroid,-34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,12000,24000,0.0,0.0,?,?
+Resources    Asteroid,-34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,10000,20000,45.0,0.0,?,?
+Resources    Asteroid,-34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,10000,20000,0.0,0.0,?,?
+
+Resources    Asteroid,34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,12000,24000,45.0,0.0,?,?
+Resources    Asteroid,34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,12000,24000,0.0,0.0,?,?
+Resources    Asteroid,34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,10000,20000,45.0,0.0,?,?
+Resources    Asteroid,34641,-20000.0,0.0,Cylinder,AsteroidCentre.dist,15,10000,20000,0.0,0.0,?,?
+
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,AsteroidShell.dist,100,30000,60000,0.0,0.0,2,?
+Resources    Asteroid,0.0,0.0,0.0,Sphere,AsteroidShell.dist,100,25000,50000,0.0,0.0,2,?
+
+Resources    DustCloud,0.0,0.0,0.0,Sphere,DustShell.dist,100,30000,60000,0.0,0.0,2,?
+
+Derelict	PlanetOfOrigin_scarred,-200000.0,0.0,100000.0,0.0,0.0,?
+
+Ships	,3500.0,0.0,0.0,0.0,Traders,ResearchStation,1,NULL_FORMATION|?|?,?,?
+Ships	,-3500.0,0.0,0.0,180.0,Traders,ResearchStation,1,NULL_FORMATION|?|?,?,?
+Ships	,1500.0,0.0,0.0,180.0,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,?,?
+Ships	,-1500.0,0.0,0.0,0.0,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,?,?
+Ships	,0.0,1500.0,0.0,-90,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,?,?
+Ships	,0.0,-1500.0,0.0,90,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,90,R2,StandardDestroyer,1,WALL_FORMATION|?|?,?,?

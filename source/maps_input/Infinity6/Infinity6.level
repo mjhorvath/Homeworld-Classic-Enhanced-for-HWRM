@@ -1,0 +1,37 @@
+; MissionMan script, Saturday, Apr 8 2006, 3:52:21 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Infinity6
+; Info: Infinity (6or8)
+
+[Infinity (6or8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,1000
+MissionSphere    5,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,1000
+
+Lighting    default
+Background    ez05,180,  0
+smDepthCueRadius    60000
+smDepthCueStartRadius    30000
+smCircleBorder    100000
+smZoomMax    300000
+smZoomMin    20000
+smInitialDistance    85000
+smUniverseSizeX    200000
+smUniverseSizeZ    60000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    22

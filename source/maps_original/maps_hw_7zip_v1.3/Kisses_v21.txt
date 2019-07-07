@@ -1,0 +1,57 @@
+
+
+---------------------------Francais---------------------------
+texte de "Kisses" v2.1
+
+              Nom De La Carte : Kisses
+               Nom Du Fichier : Kisses.zip
+            Taille Du Fichier : 17 Ko
+            Nombre De Joueurs : 2-4
+
+
+Changements v2.1 :
+   -Les Ressources Ont Ete Reduites Au Minimum
+   (Choississez Bien Votre Stategie!)
+   -Pour Les Duels, Les Joueurs Ont Eté Eloignés : 200 km
+   -Les Sattelites Ne Sont Plus Que Des Petits Nuages
+   -Le Dernier Anneau De Nuages Auto-Regénérants Est Moins
+   Riche En Ressources
+
+conseils :
+   -faites 2 controleurs de ressources rapidement
+   -faites beaucoup d'unités légères, en particulier des
+   défenseurs si vous n'attaquez pas l'adversaire au début
+
+
+                       Auteur : Aknott
+               Page D'Accueil : http://aknott.free.fr/
+   Envoyez Vos Commentaires A : nicolasnaudet@yahoo.fr
+--------------------------------------------------------------
+
+
+---------------------------English----------------------------
+"Kisses" v2.1 text
+ 
+                     MAP Name : Kisses
+                    File Name : Kisses.zip
+                    File Size : 17 Ko
+            Number Of Players : 2-4
+
+
+v2.1 Changes :
+   -The Ressources Has Been Reduced To The Minimum
+   (So Choose Well Your Strategy!)
+   -For 1on1 Game, Players Have Moved Away : 200 km
+   -The Sattelites Are Just Small DustClouds
+   -The Last Regenerating DustClouds Ring Has Less Ressources
+
+tips :
+   -make 2 resources controllor quickly
+   -make lots of lights units, particulary defensors if you
+   don't attack your foe at the beginning
+
+
+                       Author : Aknott
+                     Homepage : http://aknott.free.fr/
+    Feed-back Any Comments To : nicolasnaudet@yahoo.com
+--------------------------------------------------------------

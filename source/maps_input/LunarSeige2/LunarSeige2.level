@@ -1,0 +1,49 @@
+; MissionMan script, Thursday, Aug. 3 2001, 1:25:32 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: LunarSeige2
+; Info: LunarSeige (2)
+
+[LunarSeige (2)]
+
+MissionSphere    0,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    Mission01
+Background    Mission01,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    300000
+smZoomMin    40000
+smInitialDistance    60000
+smUniverseSizeX    240000
+smUniverseSizeZ    120000
+smUniverseSizeY    240000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeDerelict  homeworld
+IncludeDerelict  planetoforigin 
+IncludeDerelict  dnisbuoy
+IncludeDerelict  kMothership
+IncludeShips    RACE_KUSHAN,kHeavyCruiser
+IncludeShips    RACE_KUSHAN,kProximitySensor
+IncludeShips    RACE_TAIDAN,tDFGFrigate
+IncludeShips    RACE_P1,p1IonArrayFrigate
+IncludeShips    RACE_P1,p1Outpost
+IncludeShips    RACE_P1,p1MissileCorvette
+IncludeShips    RACE_DERELICT,dnisbuoy
+IncludeShips    RACE_DERELICT,dJunk2Shipwreck
+IncludeShips    RACE_DERELICT,dslipgatenode 
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+SongNumber    16
+LensFlare    ps-50-300mm-zoom

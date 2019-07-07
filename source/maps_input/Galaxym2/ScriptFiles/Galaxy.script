@@ -1,0 +1,11 @@
+[Galaxy]
+NumStars                            4000
+NumBigStars                         800
+starMaxColor                        150
+starMinColor                        50
+starRedVariance                     20
+starGreenVariance                   20
+starBlueVariance                    50
+BandMap                             18, Backgrounds\nbg%d
+BackgroundColor                     0,0,0
+

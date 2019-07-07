@@ -1,0 +1,133 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Saa4",
+	"If i got this to work right, then you should start with a few regenerating resource                 pockets and a certain Hiigaran Planet that we have done so much to live on.",
+	"Created by Hiigara[SAA] 7-23-00 ",
+	"(it was a pain in the butt too, been trying to get it to work for a month)",
+	"wizardme@earthlink.net",
+}
+
+LevelName = [[Saa4]]
+LevelFile = [[Saa4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = ""
+LevelMusic = "-1"
+
+RUsRatio = 1/2
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{67698.0, 0.0, 0.0, 180.0,},
+	{-64319.0, 0.0, 0.0, 0.0,},
+	{0.0, -55000.0, 67698.0, 0.0,},
+	{0.0, 55000.0, 67698.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-64319.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "cryotray", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "cryotray", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {0.0, -55000.0, 67698.0,}, 2, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "cryotray", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "mothership", {0.0, 55000.0, 67698.0,}, 3, {0, 0, 180.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "cryotray", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"homeworld", {10305.0, 3216631.0, 0.0,}, -1, {0, 0.0, -90.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	nebula =
+	{
+		nebula0 = 0,
+		nebula1 = 5,
+		nebula2 = 3,
+		nebula3 = 2,
+		nebula4 = 10,
+	},
+	bang =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+	dc =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "rectangle", "bang", 100, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{-330, -950, -80,}, "sphere", "bang", 50, 1000, 2000, 0, 0,},
+	{{1010, -920, 930,}, "sphere", "bang", 50, 1000, 2000, 0, 0,},
+	{{830, 970, 290,}, "sphere", "bang", 50, 1000, 2000, 0, 0,},
+	{{-900, -960, 800,}, "sphere", "bang", 50, 1000, 2000, 0, 0,},
+	{{-4662500, -2481000, 1800,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{-3831500, -1485500, 5400,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{686000, 2684000, 500,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{1720000, -3070500, 700,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{-1701000, 4390000, 9700,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{1111000, 147000, 6500,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{-4218500, -1587000, 4700,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{2005000, 3476500, -8100,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{-2227500, 1548500, -300,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{3140500, 3559000, -300,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{1739000, 1751500, -9000,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{-1029000, -3882500, 2900,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{4015500, 3457500, 900,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{-420000, 959000, -1400,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{521500, 654500, -3300,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{-1314000, -4288500, -300,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{4542000, -4104500, 8800,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{3711000, 4370500, -2500,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{4054000, -4307500, 7600,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+	{{1599500, 4694000, 7800,}, "sphere", "dc", 20, 5000, 10000, 0, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 150, 100000.0, 100000.0, 100000.0, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

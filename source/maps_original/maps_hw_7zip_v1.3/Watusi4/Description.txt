@@ -1,0 +1,6 @@
+Description	Watusi
+Description	This map is designed for quick games. You will have to be the king of resourcing to win. But beware, it wont come easy.
+Description
+Description	AUTHOR	: medamanx
+Description	E-MAIL	: medamanx@hotmail.com
+Description	WEBSITE	: screens.hwuniverse.com

@@ -1,0 +1,8 @@
+; MissionMan script, Saturday, Jun 23 2001, 12:35:35 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,0.0,0.0,10000.0,Cylinder,DustCloudCentre.dist,40,2500.0,80000.0,0.0,-90.0,?,?
+Resources    DustCloud,0.0,0.0,-10000.0,Cylinder,DustCloudCentre.dist,40,2500.0,80000.0,0.0,-90.0,?,?
+Resources    DustCloud,0.0,0.0,0.0,Sphere,DustCloudCentre.dist,150,20000.0,40000.0,0.0,0.0,?,?
+

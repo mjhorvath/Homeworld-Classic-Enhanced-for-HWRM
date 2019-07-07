@@ -1,0 +1,43 @@
+; MissionMan script, Domingo, Sep 3 2000, 4:04:15 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: MetalicSwarms2
+; Info: Level info goes here
+
+[METALIC SWARMS (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+
+Background    ez07, 90, 0
+Lighting    ez02
+smDepthCueRadius    150000
+smDepthCueStartRadius    120000
+smCircleBorder    190000
+smZoomMax    175000
+smZoomMin    17500
+smInitialDistance    75000
+smUniverseSizeX    120000
+smUniverseSizeZ    120000
+smUniverseSizeY    120000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R1,StandardFrigate
+ExcludeShips    R1,IonCannonfrigate
+ExcludeShips    R1,GravWellGenerator
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R2,StandardFrigate
+ExcludeShips    R2,IonCannonfrigate
+ExcludeShips    R2,GravWellGenerator
+ExcludeDerelict    All
+SongNumber    14

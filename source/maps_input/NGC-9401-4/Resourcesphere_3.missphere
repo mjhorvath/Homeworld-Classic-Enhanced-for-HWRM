@@ -1,0 +1,91 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM,,,,,,,,,
+; Copyright (c) 1998-99, Relic Entertainment Inc.,,,,,,,,,,,
+; MissionSphere Object: ?,ResourceSphere,,,,,,,,,,,
+
+;2nd-1st  Tilting Ring (From 'Ring1' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,-245744,217648,0,Cylinder,Asteroid.dist,5,27000,65264,0,-82.5,     ?,     ?
+Resources    Asteroid,-228997,155148,0,Cylinder,Asteroid.dist,5,27267,65264,0,-67.5,     ?,     ?
+Resources    Asteroid,-196644,99111,0,Cylinder,Asteroid.dist,6,27533,65264,0,-52.5,     ?,     ?
+Resources    Asteroid,-150891,53358,0,Cylinder,Asteroid.dist,6,27800,65264,0,-37.5,     ?,     ?
+Resources    Asteroid,-94854,21005,0,Cylinder,Asteroid.dist,6,28067,65264,0,-22.5,     ?,     ?
+Resources    Asteroid,-32353,4259,0,Cylinder,Asteroid.dist,7,28333,65264,0,-7.5,     ?,     ?
+
+;2nd-2nd  Tilting Ring (From 'Ring2' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,185295,741482,0,Cylinder,Asteroid.dist,4,25400,130527,0,7.5,     ?,     ?
+Resources    Asteroid,60294,707988,0,Cylinder,Asteroid.dist,5,25667,130527,0,22.5,     ?,     ?
+Resources    Asteroid,-51778,643284,0,Cylinder,Asteroid.dist,6,25933,130527,0,37.5,     ?,     ?
+Resources    Asteroid,-143285,551777,0,Cylinder,Asteroid.dist,6,26200,130527,0,52.5,     ?,     ?
+Resources    Asteroid,-207991,439705,0,Cylinder,Asteroid.dist,7,26467,130527,0,67.5,     ?,     ?
+Resources    Asteroid,-241485,314704,0,Cylinder,Asteroid.dist,8,26733,130527,0,82.5,     ?,     ?
+
+Resources    Asteroid,60294,707988,0,Sphere,Asteroidbigsphere.dist,12,22000,44000,90,0,     2,     ?
+Resources    Asteroid,60294,707988,0,Sphere,Asteroidbigsphere.dist,12,22000,44000,0,0,     2,     ?
+Resources    Dustcloud,60294,707988,0,Sphere,Dustcloudarm.dist,12,21800,43600,0,0,     2,     ?
+
+;2nd-3rd  Tilting Ring (From 'Ring3' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,1232966,-120589,0,Cylinder,Asteroid.dist,3,23800,261053,0,-82.5,     ?,     ?
+Resources    Asteroid,1165979,129411,0,Cylinder,Asteroid.dist,3,24067,261053,0,-67.5,     ?,     ?
+Resources    Asteroid,1036569,353555,0,Cylinder,Asteroid.dist,4,24333,261053,0,-52.5,     ?,     ?
+Resources    Asteroid,853556,536567,0,Cylinder,Asteroid.dist,5,24600,261053,0,-37.5,     ?,     ?
+Resources    Asteroid,629411,665976,0,Cylinder,Asteroid.dist,6,24867,261053,0,-22.5,     ?,     ?
+Resources    Asteroid,379410,732963,0,Cylinder,Asteroid.dist,6,25133,261053,0,-7.5,     ?,     ?
+
+Resources    Asteroid,1232966,-120589,0,Sphere,Asteroidbigsphere.dist,12,12000,24000,90,0,     2,     ?
+Resources    Asteroid,1232966,-120589,0,Sphere,Asteroidbigsphere.dist,12,12000,24000,0,0,     2,     ?
+Resources    Dustcloud,1232966,-120589,0,Sphere,Dustcloudarm.dist,12,11800,23600,0,0,     2,     ?
+
+;2nd-4th  Tilting Ring (From 'Ring4' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,-491180,-2215926,0,Cylinder,Asteroid.dist,3,22200,522107,0,7.5,     ?,     ?
+Resources    Asteroid,8822,-2081952,0,Cylinder,Asteroid.dist,3,22467,522107,0,22.5,     ?,     ?
+Resources    Asteroid,457112,-1823132,0,Cylinder,Asteroid.dist,3,22733,522107,0,37.5,     ?,     ?
+Resources    Asteroid,823139,-1457106,0,Cylinder,Asteroid.dist,4,23000,522107,0,52.5,     ?,     ?
+Resources    Asteroid,1081959,-1008817,0,Cylinder,Asteroid.dist,4,23267,522107,0,67.5,     ?,     ?
+Resources    Asteroid,1215935,-508815,0,Cylinder,Asteroid.dist,4,23533,522107,0,82.5,     ?,     ?
+
+Resources    Asteroid,-406180,-2210926,0,Sphere,Asteroidbigsphere.dist,12,9000,18000,90,0,     2,     ?
+Resources    Asteroid,-406180,-2210926,0,Sphere,Asteroidbigsphere.dist,12,9000,18000,0,0,     2,     ?
+Resources    Dustcloud,-406180,-2210926,0,Sphere,Dustcloudarm.dist,12,8800,17600,0,0,     2,     ?
+
+Resources    Asteroid,-257180,-2200926,0,Sphere,Asteroidbigsphere.dist,12,12000,24000,90,0,     2,     ?
+Resources    Asteroid,-257180,-2200926,0,Sphere,Asteroidbigsphere.dist,12,12000,24000,0,0,     2,     ?
+Resources    Dustcloud,-257180,-2200926,0,Sphere,Dustcloudarm.dist,12,11800,23600,0,0,     2,     ?
+
+;2nd-1st  Tilting Ring (From 'Ring1' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Dustcloud,-245744,217648,0,Cylinder,Dustcloudarm.dist,5,27000,65264,0,-82.5,     ?,     ?
+Resources    Dustcloud,-228997,155148,0,Cylinder,Dustcloudarm.dist,5,27267,65264,0,-67.5,     ?,     ?
+Resources    Dustcloud,-196644,99111,0,Cylinder,Dustcloudarm.dist,6,27533,65264,0,-52.5,     ?,     ?
+Resources    Dustcloud,-150891,53358,0,Cylinder,Dustcloudarm.dist,6,27800,65264,0,-37.5,     ?,     ?
+Resources    Dustcloud,-94854,21005,0,Cylinder,Dustcloudarm.dist,6,28067,65264,0,-22.5,     ?,     ?
+Resources    Dustcloud,-32353,4259,0,Cylinder,Dustcloudarm.dist,7,28333,65264,0,-7.5,     ?,     ?
+
+;2nd-2nd  Tilting Ring (From 'Ring2' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Dustcloud,185295,741482,0,Cylinder,Dustcloudarm.dist,4,25400,130527,0,7.5,     ?,     ?
+Resources    Dustcloud,60294,707988,0,Cylinder,Dustcloudarm.dist,5,25667,130527,0,22.5,     ?,     ?
+Resources    Dustcloud,-51778,643284,0,Cylinder,Dustcloudarm.dist,6,25933,130527,0,37.5,     ?,     ?
+Resources    Dustcloud,-143285,551777,0,Cylinder,Dustcloudarm.dist,6,26200,130527,0,52.5,     ?,     ?
+Resources    Dustcloud,-207991,439705,0,Cylinder,Dustcloudarm.dist,7,26467,130527,0,67.5,     ?,     ?
+Resources    Dustcloud,-241485,314704,0,Cylinder,Dustcloudarm.dist,8,26733,130527,0,82.5,     ?,     ?
+
+;2nd-3rd  Tilting Ring (From 'Ring3' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Dustcloud,1232966,-120589,0,Cylinder,Dustcloudarm.dist,3,23800,261053,0,-82.5,     ?,     ?
+Resources    Dustcloud,1165979,129411,0,Cylinder,Dustcloudarm.dist,3,24067,261053,0,-67.5,     ?,     ?
+Resources    Dustcloud,1036569,353555,0,Cylinder,Dustcloudarm.dist,4,24333,261053,0,-52.5,     ?,     ?
+Resources    Dustcloud,853556,536567,0,Cylinder,Dustcloudarm.dist,5,24600,261053,0,-37.5,     ?,     ?
+Resources    Dustcloud,629411,665976,0,Cylinder,Dustcloudarm.dist,6,24867,261053,0,-22.5,     ?,     ?
+Resources    Dustcloud,379410,732963,0,Cylinder,Dustcloudarm.dist,6,25133,261053,0,-7.5,     ?,     ?
+
+;2nd-4th  Tilting Ring (From 'Ring4' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Dustcloud,-491180,-2215926,0,Cylinder,Dustcloudarm.dist,3,22200,522107,0,7.5,     ?,     ?
+Resources    Dustcloud,8822,-2081952,0,Cylinder,Dustcloudarm.dist,3,22467,522107,0,22.5,     ?,     ?
+Resources    Dustcloud,457112,-1823132,0,Cylinder,Dustcloudarm.dist,3,22733,522107,0,37.5,     ?,     ?
+Resources    Dustcloud,823139,-1457106,0,Cylinder,Dustcloudarm.dist,4,23000,522107,0,52.5,     ?,     ?
+Resources    Dustcloud,1081959,-1008817,0,Cylinder,Dustcloudarm.dist,4,23267,522107,0,67.5,     ?,     ?
+Resources    Dustcloud,1215935,-508815,0,Cylinder,Dustcloudarm.dist,4,23533,522107,0,82.5,     ?,     ?

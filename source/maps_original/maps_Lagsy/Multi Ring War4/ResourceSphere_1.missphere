@@ -1,0 +1,197 @@
+; MissionMan script, Tuesday, Jun 20 2006, 9:48:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,-2500.0,Cylinder,roid.dist,12,2500.0,40000.0,0.0,-90.0,0,?
+Resources    Asteroid,-1.0,-1.0,-2500.0,Cylinder,rubble.dist,100,2500.0,40000.0,0.0,-90.0,4528,7
+Resources    Asteroid,0.0,0.0,2500.0,Cylinder,rubble.dist,100,2500.0,40000.0,0.0,0.0,4528,7
+Resources    Asteroid,-1.0,-1.0,2500.0,Cylinder,roid.dist,12,2500.0,40000.0,0.0,0.0,0,?
+
+; Generated using Homeworld Resource Maker v1.1, by Mikail
+; Created: Tue Jun 20 21:33:13 MDT 2006
+; Key: ellipseAdd(sResName, fPosX, fPosY, fPosZ, sLayout, sDistribution, fResources, iResType, fAxis1, fAxis2, fWidth, fHeight, iMode, iSteps, fTilt, fRotate, sProperties)
+; Input: ellipseAdd('Asteroid',40000,0,0,'Rectangle','rock.dist',10,0,20000,20000,10000,2000,0,36,0,0,'0,2048,2')
+
+; Resources type posx, posy, posz, Rectangle, distribution, numResources, length, width, height, rotz, properties...
+; Resources type posx, posy, posz, Cylinder, distribution, numResources, radius, length, roty, rotz, properties...
+; Resources type posx, posy, posz, Sphere, distribution, numResources, radius, nill, roty, rotz, properties...
+
+Resources Asteroid, 59848, 1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 95, 0,2048,2
+Resources Asteroid, 59245, 5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 105, 0,2048,2
+Resources Asteroid, 58057, 8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 115, 0,2048,2
+Resources Asteroid, 56321, 11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 125, 0,2048,2
+Resources Asteroid, 54088, 14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 135, 0,2048,2
+Resources Asteroid, 51428, 16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 145, 0,2048,2
+Resources Asteroid, 48420, 18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 155, 0,2048,2
+Resources Asteroid, 45157, 19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 165, 0,2048,2
+Resources Asteroid, 41736, 19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 175, 0,2048,2
+Resources Asteroid, 38264, 19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -175, 0,2048,2
+Resources Asteroid, 34843, 19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -165, 0,2048,2
+Resources Asteroid, 31580, 18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -155, 0,2048,2
+Resources Asteroid, 28572, 16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -145, 0,2048,2
+Resources Asteroid, 25912, 14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -135, 0,2048,2
+Resources Asteroid, 23679, 11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -125, 0,2048,2
+Resources Asteroid, 21943, 8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -115, 0,2048,2
+Resources Asteroid, 20755, 5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -105, 0,2048,2
+Resources Asteroid, 20152, 1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -95, 0,2048,2
+Resources Asteroid, 20152, -1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -85, 0,2048,2
+Resources Asteroid, 20755, -5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -75, 0,2048,2
+Resources Asteroid, 21943, -8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -65, 0,2048,2
+Resources Asteroid, 23679, -11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -55, 0,2048,2
+Resources Asteroid, 25912, -14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -45, 0,2048,2
+Resources Asteroid, 28572, -16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -35, 0,2048,2
+Resources Asteroid, 31580, -18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -25, 0,2048,2
+Resources Asteroid, 34843, -19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -15, 0,2048,2
+Resources Asteroid, 38264, -19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -5, 0,2048,2
+Resources Asteroid, 41736, -19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 5, 0,2048,2
+Resources Asteroid, 45157, -19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 15, 0,2048,2
+Resources Asteroid, 48420, -18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 25, 0,2048,2
+Resources Asteroid, 51428, -16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 35, 0,2048,2
+Resources Asteroid, 54088, -14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 45, 0,2048,2
+Resources Asteroid, 56321, -11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 55, 0,2048,2
+Resources Asteroid, 58057, -8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 65, 0,2048,2
+Resources Asteroid, 59245, -5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 75, 0,2048,2
+Resources Asteroid, 59848, -1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 85, 0,2048,2
+
+
+, rock.dist, 10, 2615, 4981, 1000, 75, 0,2048,2; Generated using Homeworld Resource Maker v1.1, by Mikail
+; Created: Tue Jun 20 21:33:48 MDT 2006
+; Key: ellipseAdd(sResName, fPosX, fPosY, fPosZ, sLayout, sDistribution, fResources, iResType, fAxis1, fAxis2, fWidth, fHeight, iMode, iSteps, fTilt, fRotate, sProperties)
+; Input: ellipseAdd('Asteroid',-40000,0,0,'Rectangle','rock.dist',10,0,20000,20000,10000,2000,0,36,0,0,'0,2048,2')
+
+; Resources type posx, posy, posz, Rectangle, distribution, numResources, length, width, height, rotz, properties...
+; Resources type posx, posy, posz, Cylinder, distribution, numResources, radius, length, roty, rotz, properties...
+; Resources type posx, posy, posz, Sphere, distribution, numResources, radius, nill, roty, rotz, properties...
+
+Resources Asteroid, -20152, 1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 95, 0,2048,2
+Resources Asteroid, -20755, 5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 105, 0,2048,2
+Resources Asteroid, -21943, 8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 115, 0,2048,2
+Resources Asteroid, -23679, 11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 125, 0,2048,2
+Resources Asteroid, -25912, 14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 135, 0,2048,2
+Resources Asteroid, -28572, 16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 145, 0,2048,2
+Resources Asteroid, -31580, 18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 155, 0,2048,2
+Resources Asteroid, -34843, 19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 165, 0,2048,2
+Resources Asteroid, -38264, 19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 175, 0,2048,2
+Resources Asteroid, -41736, 19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -175, 0,2048,2
+Resources Asteroid, -45157, 19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -165, 0,2048,2
+Resources Asteroid, -48420, 18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -155, 0,2048,2
+Resources Asteroid, -51428, 16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -145, 0,2048,2
+Resources Asteroid, -54088, 14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -135, 0,2048,2
+Resources Asteroid, -56321, 11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -125, 0,2048,2
+Resources Asteroid, -58057, 8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -115, 0,2048,2
+Resources Asteroid, -59245, 5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -105, 0,2048,2
+Resources Asteroid, -59848, 1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -95, 0,2048,2
+Resources Asteroid, -59848, -1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -85, 0,2048,2
+Resources Asteroid, -59245, -5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -75, 0,2048,2
+Resources Asteroid, -58057, -8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -65, 0,2048,2
+Resources Asteroid, -56321, -11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -55, 0,2048,2
+Resources Asteroid, -54088, -14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -45, 0,2048,2
+Resources Asteroid, -51428, -16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -35, 0,2048,2
+Resources Asteroid, -48420, -18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -25, 0,2048,2
+Resources Asteroid, -45157, -19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -15, 0,2048,2
+Resources Asteroid, -41736, -19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -5, 0,2048,2
+Resources Asteroid, -38264, -19848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 5, 0,2048,2
+Resources Asteroid, -34843, -19245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 15, 0,2048,2
+Resources Asteroid, -31580, -18057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 25, 0,2048,2
+Resources Asteroid, -28572, -16321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 35, 0,2048,2
+Resources Asteroid, -25912, -14088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 45, 0,2048,2
+Resources Asteroid, -23679, -11428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 55, 0,2048,2
+Resources Asteroid, -21943, -8420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 65, 0,2048,2
+Resources Asteroid, -20755, -5157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 75, 0,2048,2
+Resources Asteroid, -20152, -1736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 85, 0,2048,2
+
+
+
+
+; Generated using Homeworld Resource Maker v1.1, by Mikail
+; Created: Wed Jun 21 16:28:04 MDT 2006
+; Key: ellipseAdd(sResName, fPosX, fPosY, fPosZ, sLayout, sDistribution, fResources, iResType, fAxis1, fAxis2, fWidth, fHeight, iMode, iSteps, fTilt, fRotate, sProperties)
+; Input: ellipseAdd('Asteroid',0,40000,0,'Rectangle','rock.dist',10,0,20000,20000,10000,2000,0,36,0,0,'0,2048,2')
+
+; Resources type posx, posy, posz, Rectangle, distribution, numResources, length, width, height, rotz, properties...
+; Resources type posx, posy, posz, Cylinder, distribution, numResources, radius, length, roty, rotz, properties...
+; Resources type posx, posy, posz, Sphere, distribution, numResources, radius, nill, roty, rotz, properties...
+
+Resources Asteroid, 19848, 41736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 95, 0,2048,2
+Resources Asteroid, 19245, 45157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 105, 0,2048,2
+Resources Asteroid, 18057, 48420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 115, 0,2048,2
+Resources Asteroid, 16321, 51428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 125, 0,2048,2
+Resources Asteroid, 14088, 54088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 135, 0,2048,2
+Resources Asteroid, 11428, 56321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 145, 0,2048,2
+Resources Asteroid, 8420, 58057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 155, 0,2048,2
+Resources Asteroid, 5157, 59245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 165, 0,2048,2
+Resources Asteroid, 1736, 59848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 175, 0,2048,2
+Resources Asteroid, -1736, 59848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -175, 0,2048,2
+Resources Asteroid, -5157, 59245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -165, 0,2048,2
+Resources Asteroid, -8420, 58057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -155, 0,2048,2
+Resources Asteroid, -11428, 56321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -145, 0,2048,2
+Resources Asteroid, -14088, 54088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -135, 0,2048,2
+Resources Asteroid, -16321, 51428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -125, 0,2048,2
+Resources Asteroid, -18057, 48420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -115, 0,2048,2
+Resources Asteroid, -19245, 45157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -105, 0,2048,2
+Resources Asteroid, -19848, 41736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -95, 0,2048,2
+Resources Asteroid, -19848, 38264, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -85, 0,2048,2
+Resources Asteroid, -19245, 34843, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -75, 0,2048,2
+Resources Asteroid, -18057, 31580, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -65, 0,2048,2
+Resources Asteroid, -16321, 28572, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -55, 0,2048,2
+Resources Asteroid, -14088, 25912, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -45, 0,2048,2
+Resources Asteroid, -11428, 23679, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -35, 0,2048,2
+Resources Asteroid, -8420, 21943, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -25, 0,2048,2
+Resources Asteroid, -5157, 20755, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -15, 0,2048,2
+Resources Asteroid, -1736, 20152, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -5, 0,2048,2
+Resources Asteroid, 1736, 20152, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 5, 0,2048,2
+Resources Asteroid, 5157, 20755, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 15, 0,2048,2
+Resources Asteroid, 8420, 21943, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 25, 0,2048,2
+Resources Asteroid, 11428, 23679, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 35, 0,2048,2
+Resources Asteroid, 14088, 25912, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 45, 0,2048,2
+Resources Asteroid, 16321, 28572, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 55, 0,2048,2
+Resources Asteroid, 18057, 31580, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 65, 0,2048,2
+Resources Asteroid, 19245, 34843, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 75, 0,2048,2
+Resources Asteroid, 19848, 38264, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 85, 0,2048,2
+
+; Generated using Homeworld Resource Maker v1.1, by Mikail
+; Created: Wed Jun 21 16:28:15 MDT 2006
+; Key: ellipseAdd(sResName, fPosX, fPosY, fPosZ, sLayout, sDistribution, fResources, iResType, fAxis1, fAxis2, fWidth, fHeight, iMode, iSteps, fTilt, fRotate, sProperties)
+; Input: ellipseAdd('Asteroid',0,-40000,0,'Rectangle','rock.dist',10,0,20000,20000,10000,2000,0,36,0,0,'0,2048,2')
+
+; Resources type posx, posy, posz, Rectangle, distribution, numResources, length, width, height, rotz, properties...
+; Resources type posx, posy, posz, Cylinder, distribution, numResources, radius, length, roty, rotz, properties...
+; Resources type posx, posy, posz, Sphere, distribution, numResources, radius, nill, roty, rotz, properties...
+
+Resources Asteroid, 19848, -38264, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 95, 0,2048,2
+Resources Asteroid, 19245, -34843, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 105, 0,2048,2
+Resources Asteroid, 18057, -31580, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 115, 0,2048,2
+Resources Asteroid, 16321, -28572, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 125, 0,2048,2
+Resources Asteroid, 14088, -25912, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 135, 0,2048,2
+Resources Asteroid, 11428, -23679, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 145, 0,2048,2
+Resources Asteroid, 8420, -21943, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 155, 0,2048,2
+Resources Asteroid, 5157, -20755, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 165, 0,2048,2
+Resources Asteroid, 1736, -20152, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 175, 0,2048,2
+Resources Asteroid, -1736, -20152, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -175, 0,2048,2
+Resources Asteroid, -5157, -20755, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -165, 0,2048,2
+Resources Asteroid, -8420, -21943, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -155, 0,2048,2
+Resources Asteroid, -11428, -23679, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -145, 0,2048,2
+Resources Asteroid, -14088, -25912, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -135, 0,2048,2
+Resources Asteroid, -16321, -28572, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -125, 0,2048,2
+Resources Asteroid, -18057, -31580, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -115, 0,2048,2
+Resources Asteroid, -19245, -34843, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -105, 0,2048,2
+Resources Asteroid, -19848, -38264, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -95, 0,2048,2
+Resources Asteroid, -19848, -41736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -85, 0,2048,2
+Resources Asteroid, -19245, -45157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -75, 0,2048,2
+Resources Asteroid, -18057, -48420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -65, 0,2048,2
+Resources Asteroid, -16321, -51428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -55, 0,2048,2
+Resources Asteroid, -14088, -54088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -45, 0,2048,2
+Resources Asteroid, -11428, -56321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -35, 0,2048,2
+Resources Asteroid, -8420, -58057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -25, 0,2048,2
+Resources Asteroid, -5157, -59245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -15, 0,2048,2
+Resources Asteroid, -1736, -59848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, -5, 0,2048,2
+Resources Asteroid, 1736, -59848, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 5, 0,2048,2
+Resources Asteroid, 5157, -59245, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 15, 0,2048,2
+Resources Asteroid, 8420, -58057, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 25, 0,2048,2
+Resources Asteroid, 11428, -56321, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 35, 0,2048,2
+Resources Asteroid, 14088, -54088, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 45, 0,2048,2
+Resources Asteroid, 16321, -51428, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 55, 0,2048,2
+Resources Asteroid, 18057, -48420, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 65, 0,2048,2
+Resources Asteroid, 19245, -45157, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 75, 0,2048,2
+Resources Asteroid, 19848, -41736, 0, Rectangle, rock.dist, 10, 2615, 4981, 1000, 85, 0,2048,2
+

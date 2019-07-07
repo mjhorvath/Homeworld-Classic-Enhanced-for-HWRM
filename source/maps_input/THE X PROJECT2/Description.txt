@@ -1,0 +1,10 @@
+Description	The X Project. Bentuis, Kadesh, Turranic Pirates and the M3 rock ship vs a dozen or so heavy gun ships and destroyers.
+Description   
+Description     
+Description	AUTHOR	 :Teelan(sjet) 
+Description	Email	 : DrunkenPirate1@aol.com
+
+
+Font            Arial_b12.hff
+Color           255, 200, 0
+DropShadow      Yes

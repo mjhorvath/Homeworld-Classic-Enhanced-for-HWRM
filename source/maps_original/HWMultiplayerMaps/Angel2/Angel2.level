@@ -1,0 +1,38 @@
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Angel2
+; Info: Angel (2-4)
+
+[Angel (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting    ez02
+Background    ez02, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    500000
+smZoomMin    30000
+smInitialDistance    145000
+smUniverseSizeX    300000
+smUniverseSizeZ    300000
+smUniverseSizeY    300000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips    R1,All
+IncludeShips    R2,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeGasCloud	All
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    0

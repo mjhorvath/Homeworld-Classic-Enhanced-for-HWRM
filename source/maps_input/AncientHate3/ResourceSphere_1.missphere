@@ -1,0 +1,38 @@
+; MissionMan script, Miércoles, Sep 5 2001, 3:05:45 a.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-70000.0,0.0,0.0,Sphere,type34.dist,75,15000.0,30000.0,0.0,0.0,0,?
+Resources    Asteroid,-70000.0,0.0,0.0,Sphere,type3.dist,100,30000.0,60000.0,0.0,0.0,0,?
+Resources    Asteroid,-70000.0,0.0,0.0,Sphere,type2.dist,200,45000.0,90000.0,0.0,0.0,0,?
+
+
+
+
+Resources    Asteroid,35000.0,60000.0,0.0,Sphere,type34.dist,75,15000.0,30000.0,0.0,0.0,0,?
+Resources    Asteroid,35000.0,60000.0,0.0,Sphere,type3.dist,100,30000.0,60000.0,0.0,0.0,0,?
+Resources    Asteroid,35000.0,60000.0,0.0,Sphere,type2.dist,200,45000.0,90000.0,0.0,0.0,0,?
+
+Resources    Asteroid,35000.0,-60000.0,0.0,Sphere,type34.dist,75,15000.0,30000.0,0.0,0.0,0,?
+Resources    Asteroid,35000.0,-60000.0,0.0,Sphere,type3.dist,100,30000.0,60000.0,0.0,0.0,0,?
+Resources    Asteroid,35000.0,-60000.0,0.0,Sphere,type2.dist,200,45000.0,90000.0,0.0,0.0,0,?
+
+
+
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,type4.dist,100,15000.0,30000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Sphere,type3.dist,200,30000.0,60000.0,0.0,0.0,0,?
+
+
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,type2.dist,400,150000.0,300000.0,0.0,0.0,0,?
+
+
+Resources    Asteroid,0.0,0.0,30000.0,Sphere,type4.dist,70,25000.0,50000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,30000.0,Sphere,type3.dist,100,50000.0,100000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,30000.0,Sphere,type2.dist,200,50000.0,100000.0,0.0,0.0,0,?
+
+Resources    Asteroid,0.0,0.0,-30000.0,Sphere,type4.dist,70,25000.0,50000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-30000.0,Sphere,type3.dist,100,50000.0,100000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-30000.0,Sphere,type2.dist,200,50000.0,100000.0,0.0,0.0,0,?
+

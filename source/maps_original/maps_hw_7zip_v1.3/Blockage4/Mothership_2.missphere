@@ -1,0 +1,6 @@
+; MissionMan script, Friday, Jun 2 2000, 5:09:48 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,50000.0,50000.0,0.0,0.0,R1,Carrier,1,NULL_FORMATION|?|?,0,?
+

@@ -1,0 +1,15 @@
+; MissionMan script, Tuesday, Aug 10 1999, 6:20:58 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,-520780.0,-436429.0,0.0,0.0,R1,Mothership,1,NULL_FORMATION|?|?,?,?
+Ships     ,-530780.0,-446429.0,0.0,0.0,R1,Mothership,2,BROAD_FORMATION|?|?,?,?
+Ships     ,-530780.0,-446429.0,6000.0,0.0,Traders,FloatingCity,6,BROAD_FORMATION|?|?,?,?
+Ships     ,539999.0,-445000.0,0.0,137.0,R1,ResourceController,2,PARADE_FORMATION|?|?,?,?
+Ships     ,537000.0,-449000.0,0.0,137.0,R1,ResourceCollector,4,PARADE_FORMATION|?|?,?,?
+Ships     ,542000.5,-442799.3,0.0,137.0,R1,ResearchShip,6,PARADE_FORMATION|?|?,?,?
+Ships     ,524000.0,-440000.0,3000.0,137.0,R1,StandardDestroyer,6,PARADE_FORMATION|?|?,?,?
+Ships     ,524001.0,-440000.9,5000.0,137.0,R1,StandardFrigate,12,PARADE_FORMATION|?|?,?,?
+Ships     ,524000.0,-440000.0,-3000.0,137.0,R1,IonCannonFrigate,12,PARADE_FORMATION|?|?,?,?
+Ships     ,522000.0,-438000.0,0.0,137.0,R1,AdvanceSupportFrigate,10,PARADE_FORMATION|?|?,?,?
+Ships     ,528000.0,-438000.0,0.0,137.0,R1,HeavyCruiser,8,PARADE_FORMATION|?|?,?,?

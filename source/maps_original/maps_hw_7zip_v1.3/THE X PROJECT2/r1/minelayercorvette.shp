@@ -1,0 +1,157 @@
+[MinelayerCorvette]
+
+;Source Files
+;=----------=
+LODFile                             MinelayerCorvette.lod
+pMexData                            MinelayerCorvette\Rl0\LOD0\MinelayerCorvette.mex
+
+;Ship Physics
+;=----------=
+mass                                4600.0                        ; ship mass [fighter = 1]
+momentOfInertiaX                    4600.0                        ; resistance to rotation
+momentOfInertiaY                    4600.0                        ; [fighter = 1]
+momentOfInertiaZ                    4600.0
+maxvelocity                         900.0                      ; [fighter = 1000]
+maxrot                              10.0                       ; maximum rotation speed [don't make faster than ~10]
+
+;Basic Ship Stats
+;=--------------=
+shipclass                           CLASS_Corvette
+buildCost                           400                        ; resource units to build
+buildTime                           112                         ; time in seconds to build
+maxhealth                           5000                        ; hit points
+maxfuel                             100000.0
+lowfuelpoint                        0.35                          ; percentage of tank which is considered "low on fuel"
+fuelburnrate                        0.021                         ; based on distance ship moves in the world
+attackfuelburnrate                  0.040
+groupSize                           1                             ; size of group ships of this type tend to form
+repairTime                          1                   ; every this many seconds
+repairDamage                        3.6                  ; this much damage is repaired
+repairCombatTime                    1                   ; every this many seconds
+repairCombatDamage                  0.36                 ; this much damage is repaired
+
+blastRadiusShockWave                0.4
+blastRadiusDamage                   160
+
+;Moving Around
+;=-----------=
+thruststrength[TRANS_UP]            270.0                     ; acceleration (m/s^2) [1-1000 approx. range]
+thruststrength[TRANS_DOWN]          270.0
+thruststrength[TRANS_RIGHT]         270.0
+thruststrength[TRANS_LEFT]          270.0
+thruststrength[TRANS_FORWARD]       900.0
+thruststrength[TRANS_BACK]          450.0
+rotstrength[ROT_YAWLEFT]            90.0                     ; rotational acceleration (deg/s^2) [0.01 - 1.0]
+rotstrength[ROT_YAWRIGHT]           90.0                     
+rotstrength[ROT_PITCHUP]            90.0                     
+rotstrength[ROT_PITCHDOWN]          90.0                     
+rotstrength[ROT_ROLLRIGHT]          90.0                     
+rotstrength[ROT_ROLLLEFT]           90.0                     
+turnspeed[TURN_YAW]                 0.9                     
+turnspeed[TURN_PITCH]               1.8
+turnspeed[TURN_ROLL]                0.9                     
+
+;Weapons
+;=-----=
+NUMBER_OF_GUNS                      2
+
+rotateToRetaliate                   TRUE
+
+GUN         0
+{
+Type                            GUN_MineLauncher                      ; the mine dispenser
+SoundType                       GS_MineLauncher
+DamageLo                        1080                              ; damage variance per shot - low
+DamageHi                        1320                              ; damage variance per shot - high
+BulletRange                     5000.0                         ; distance bullets travel before disappearing
+BulletSpeed                     1000.0                         ; measured in m/s.
+BulletLifeTime                  240.0                            ;Life time of bullet
+FireTime                        5.0                            ; fire repeat rate (reciprocal = shots/second)
+MaxMissiles                     2                              ; maximum # of missiles this missile launcher can carry
+TriggerHappy                    60                             ; how triggerHapppy the ship is when firing the fixed.
+}
+
+GUN         1
+{
+Type                            GUN_MineLauncher                      ; the mine dispenser
+SoundType                       GS_MineLauncher
+DamageLo                        1080                              ; damage variance per shot - low
+DamageHi                        1320                              ; damage variance per shot - high
+BulletRange                     5000.0                         ; distance bullets travel before disappearing
+BulletSpeed                     1000.0                         ; measured in m/s.
+BulletLifeTime                  240.0                            ;Life time of bullet
+FireTime                        5.0                            ; fire repeat rate (reciprocal = shots/second)
+MaxMissiles                     2                              ; maximum # of missiles this missile launcher can carry
+TriggerHappy                    60                             ; how triggerHapppy the ship is when firing the fixed.
+}
+
+; Force drop differeing variables from normal attack drops
+gunReFireTime                   5.0                            ; Total Fire time, hence 5 seconds to fire two guns
+                                                                ; This number MUST be bigger than individual gun refire times above, otherwise won't function
+
+mineRegenerateTime              5.0
+
+forced_drop_damage_lo           1440                             ; force dropped mine dammage lo
+forced_drop_damage_hi           1760                             ; obvious
+
+forced_drop_lifetime            1200                             ; force dropped equivalent of BulletLifeTime
+
+;Ship AI
+;=-----=
+//Too variables NOT used by minelayer corvette
+repositionTime                      2.0                        ; time in seconds which corvette will spend to reposition
+                                                               ; itself to a new location for it to fire.
+circleRange                         1000.0
+
+breakInAwayDist                     2500.0                      ; Distance ship changes heading
+                                                               ; And decides on attack pattern
+DropRange                           1500.0                      ; Distance Ship starts dropping mines
+DropStopRange                       2500.0                      ; Distance Ship STOPS dropping mines
+
+// don't change this format to Evasive stuff unless you tell Gary first
+FlyAwayDist[CLASS_Mothership]       3000.0
+FlyAwayDist[CLASS_HeavyCruiser]     3000.0
+FlyAwayDist[CLASS_Carrier]          3000.0
+FlyAwayDist[CLASS_Destroyer]        3000.0
+FlyAwayDist[CLASS_Frigate]          3000.0
+FlyAwayDist[CLASS_Corvette]         3000.0
+FlyAwayDist[CLASS_Fighter]          3000.0
+FlyAwayDist[CLASS_Resource]         3000.0
+FlyAwayDist[CLASS_NonCombat]        3000.0
+
+FlyAwayTolerance                    100.0                      ; Within this # of FlyAway dist ship will turnaround
+
+Break2SphereizeFreq                 3.5                        ; After 'adjusting' entering
+                                                               ; mine drop off range, waits
+                                                               ; this long, then recalculates
+                                                               ; flight path to curve around the
+                                                               ; attacked ship...lays mines more
+                                                               ; effectivly.
+
+specialActivateIsContinuous         TRUE
+
+;Explosions
+;=--------=
+explosionType                       ET_InterceptorExplosion
+
+NumMinesInSide                       4                      ; number of mines to drop in a static drop
+                                                            ; between mine drops.
+MINE_STOP_FRICTION                  0.95                    ; Mine Velocity is multiplied by this
+MineDropDistance                    1000.0                   ; Distance from end of mine layer that WALL is formed
+MineSpacing                         2000.0                   ; spaceing between mines in wall
+MineClearDistance                   500.0                    ; Distance mine must go from minelayer centre before it
+                                                            ; starts to form a wall
+
+;Engine Glow
+;=---------=
+trailWidth    20.0
+trailHeight   20.0
+trailLength   50.0
+
+trailWidth2    20.0
+trailHeight2   20.0
+trailLength2   50.0
+
+minimumZoomDistance                 350
+
+Overlay_Selection_Scalar            0.95         ; scale the tactical overlay by this amount

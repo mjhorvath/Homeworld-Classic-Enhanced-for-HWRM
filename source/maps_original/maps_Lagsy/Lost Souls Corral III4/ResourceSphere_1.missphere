@@ -1,0 +1,20 @@
+; MissionMan script, Saturday, Dec 25 2004, 3:26:14 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-60000.0,0.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,-60000.0,-10000.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,-60000.0,9658.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,-60000.0,-20047.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,60000.0,0.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,60000.0,9800.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,60000.0,19692.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,60000.0,-10000.0,-10000.0,Rectangle,rock.dist,35,7000.0,10000.0,7000.0,0.0,2408,4
+Resources    Asteroid,0.0,0.0,0.0,Sphere,rock.dist,90,6000.6000,6000.0,6000.0,0.0,2408,4
+Resources    Asteroid,0.0,-20000.0,0.0,Sphere,rock.dist,25,2000.2000,20000.0,7000.0,0.0,2408,4
+Resources    Asteroid,0.0,20000.0,0.0,Sphere,rock.dist,25,2000.2000,20000.0,7000.0,0.0,2408,4
+Resources    Asteroid,-20000.0,-20000.0,0.0,Sphere,rock.dist,25,20000.2000,2000.0,7000.0,0.0,2408,4
+Resources    Asteroid,20000.0,20000.0,0.0,Sphere,rock.dist,25,20000.2000,2000.0,7000.0,0.0,2408,4
+
+
+

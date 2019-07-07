@@ -1,0 +1,10 @@
+Description	Overkill (2 vs 2 only)
+Description     Superb for quick games. Thx to (teelan)sjet for all his help and suggestions.
+Description     SETTINGS : small bounties, no resource injections, everything else on.
+Description	AUTHOR	 : (ib)Overkill
+Description	Email	 : Rob_128@Hotmail.com and dave / teelan (sjet )targ63@aol.com with any comments or ideas.
+
+
+Font            Arial_b12.hff
+Color           255, 200, 0
+DropShadow      Yes

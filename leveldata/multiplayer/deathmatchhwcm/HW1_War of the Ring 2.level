@@ -1,0 +1,141 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"War of the Ring 2 - 6",
+	"There is no escape. This map places all motherships close together at the start of a frantic rush to secure resources and overpower your enemies.",
+	"",
+	"AUTHOR:	Beltemall(DWillia552@aol.com)",
+	"VERSION: 1.0 (8 May 2001)",
+}
+
+LevelName = [[War of the Ring (2-6)]]
+LevelFile = [[War of the Ring 2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {30000, 300000,}
+UniverseSize = {115000, 115000, 35000, }
+
+LevelBackground = "ez07"
+LevelMusic = "15"
+
+RUsRatio = 1
+
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 10000.0, 0.0, 90.0,},
+	{0.0, -10000.0, 0.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 10000.0, 0.0,}, 0, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -10000.0, 0.0,}, 1, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	tiny =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 3,
+		asteroid4 = 5,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{8412.0, 63893.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -7.5,},
+	{{24663.0, 59540.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -22.5,},
+	{{39232.0, 51128.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -37.5,},
+	{{51128.0, 39232.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -52.5,},
+	{{59540.0, 24663.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -67.5,},
+	{{63895.0, 8413.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -82.5,},
+	{{-8412.0, -63893.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -7.5,},
+	{{-24663.0, -59540.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -22.5,},
+	{{-39232.0, -51128.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -37.5,},
+	{{-51128.0, -39232.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -52.5,},
+	{{-59540.0, -24663.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -67.5,},
+	{{-63895.0, -8413.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, -82.5,},
+	{{8412.0, -63893.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 7.5,},
+	{{24663.0, -59540.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 22.5,},
+	{{39232.0, -51128.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 37.5,},
+	{{51128.0, -39232.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 52.5,},
+	{{59540.0, -24663.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 67.5,},
+	{{63895.0, -8413.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 82.5,},
+	{{-8412.0, 63893.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 7.5,},
+	{{-24663.0, 59540.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 22.5,},
+	{{-39232.0, 51128.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 37.5,},
+	{{-51128.0, 39232.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 52.5,},
+	{{-59540.0, 24663.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 67.5,},
+	{{-63895.0, 8413.0, 0.0,}, "cylinder", "tiny", 10, 7500.0, 16969.0, 0.0, 82.5,},
+	{{8412.0, 63893.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -7.5,},
+	{{24663.0, 59540.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -22.5,},
+	{{39232.0, 51128.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -37.5,},
+	{{51128.0, 39232.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -52.5,},
+	{{59540.0, 24663.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -67.5,},
+	{{63895.0, 8413.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -82.5,},
+	{{-8412.0, -63893.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -7.5,},
+	{{-24663.0, -59540.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -22.5,},
+	{{-39232.0, -51128.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -37.5,},
+	{{-51128.0, -39232.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -52.5,},
+	{{-59540.0, -24663.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -67.5,},
+	{{-63895.0, -8413.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, -82.5,},
+	{{8412.0, -63893.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 7.5,},
+	{{24663.0, -59540.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 22.5,},
+	{{39232.0, -51128.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 37.5,},
+	{{51128.0, -39232.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 52.5,},
+	{{59540.0, -24663.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 67.5,},
+	{{63895.0, -8413.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 82.5,},
+	{{-8412.0, 63893.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 7.5,},
+	{{-24663.0, 59540.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 22.5,},
+	{{-39232.0, 51128.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 37.5,},
+	{{-51128.0, 39232.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 52.5,},
+	{{-59540.0, 24663.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 67.5,},
+	{{-63895.0, 8413.0, 0.0,}, "cylinder", "dustcloud", 10, 7500.0, 16969.0, 0.0, 82.5,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

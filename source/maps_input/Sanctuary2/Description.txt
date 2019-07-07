@@ -1,0 +1,10 @@
+Description    This is the Sanctuary of the Sixteen Sacred Rocks of T-Mat. The Death waits those that dare to profane its sanctity! Will the desire to exterminate the Enemy be stronger than the fear to the punishment of Gods? 
+Description  
+Description    AUTHOR: Randix (starmaker72@hotmail.com)
+Description    VERSION: 10 Sept 2000
+
+Font Arial_b12.hff
+Color 0, 250, 0
+DropShadow Yes
+
+ 

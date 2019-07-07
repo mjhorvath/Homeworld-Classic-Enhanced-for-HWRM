@@ -1,0 +1,6 @@
+; MissionMan script, Tuesday, Jan 26 1999, 11:55:47 AM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; MissionSphere Object: R2,Mothership
+
+Ships     ,2215.8,-12718.1,0.0,0.0,R2,SalCapCorvette,12,BROAD_FORMATION|?|?,0,?
+

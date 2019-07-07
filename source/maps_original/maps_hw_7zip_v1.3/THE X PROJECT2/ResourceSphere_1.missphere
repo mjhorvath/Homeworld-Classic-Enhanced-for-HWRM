@@ -1,0 +1,17 @@
+; MissionMan script, Monday, Jun 19 2000, 12:34:15 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Derelict    Scaffold,0.0,0.0,0.0,0.0,0.0,0,?,?
+Resources    Asteroid,0.0,440.0,4390.0,Sphere,Tiny.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,-11505.0,-715.0,-510.0,Sphere,Tiny.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,-12555.0,6925.0,-1220.0,Sphere,Tiny.dist,10,500.0,1000.0,-67.0,-29.0,0,?
+Resources    Asteroid,-12735.0,2135.0,0.0,Sphere,Tiny.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,-11745.0,-3985.0,0.0,Sphere,Tiny.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,-915.0,1415.0,-4890.0,Sphere,Tiny.dist,10,500.0,1000.0,-36.2,35.6,0,?
+Resources    Asteroid,-485.0,1775.0,-4030.0,Sphere,Tiny.dist,10,500.0,1000.0,-36.2,35.6,0,?
+Resources    Asteroid,395.0,530.0,-4955.0,Sphere,Tiny.dist,10,500.0,1000.0,-36.2,35.6,0,?
+Resources    Asteroid,555.0,345.0,5520.0,Sphere,Tiny.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,505.0,385.0,4800.0,Sphere,Tiny.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,555.0,-425.0,5100.0,Sphere,Tiny.dist,10,500.0,1000.0,0.0,0.0,0,?
+

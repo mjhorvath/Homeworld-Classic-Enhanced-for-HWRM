@@ -1,0 +1,163 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"&Divine &Passage II",
+	"Follow the path to the divine dust and claim victory",
+	"",
+	"",
+	"Map By: &L&a&g&s&y",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Divine Passage III (4)]]
+LevelFile = [[Divine Passage III4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {200000, 200000, 60000, }
+
+LevelBackground = "ez05"
+LevelMusic = "16"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, -100000.0, 0.0, 90.0,},
+	{-100000.0, 0.0, 0.0, 0.0,},
+	{0.0, 100000.0, 0.0, -90.0,},
+	{100000.0, 0.0, 0.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-100000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 100000.0, 0.0,}, 2, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -100000.0, 0.0,}, 0, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {100000.0, 0.0, 0.0,}, 3, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 1,
+		dustcloud3 = 1,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	pillar =
+	{
+		asteroid0 = 0,
+		asteroid1 = 5,
+		asteroid2 = 4,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-17000.0, 55000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 70.0,},
+	{{-20000.0, -32000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-38000.0, -15000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 0.0,},
+	{{-20000.0, 32000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-17000.0, -55000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -70.0,},
+	{{17000.0, 55000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -70.0,},
+	{{20000.0, -32000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -90.0,},
+	{{17000.0, -55000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 70.0,},
+	{{20000.0, 32000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -90.0,},
+	{{38000.0, -15000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dust", 3, 2500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "roid", 6, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-61000.0, -13000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -10.0,},
+	{{-38000.0, 15000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 0.0,},
+	{{-61000.0, 13000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 10.0,},
+	{{38000.0, 15000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 0.0,},
+	{{61000.0, -13000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, 10.0,},
+	{{61000.0, 13000.0, 0.0,}, "cylinder", "rubble", 5, 4000.0, 20000.0, 0.0, -10.0,},
+	{{-15000.0, -105000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, 20.0,},
+	{{15000.0, -110000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, -30.0,},
+	{{0.0, -100000.0, 0.0,}, "cylinder", "pebble", 15, 10000.0, 50000.0, 0.0, -10.0,},
+	{{-100000.0, 0.0, 0.0,}, "cylinder", "pebble", 15, 10000.0, 50000.0, 0.0, -85.0,},
+	{{-105000.0, -15000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, 70.0,},
+	{{-105000.0, 15000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, -70.0,},
+	{{100000.0, 0.0, 0.0,}, "cylinder", "pebble", 15, 10000.0, 50000.0, 0.0, -85.0,},
+	{{105000.0, -15000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, -70.0,},
+	{{105000.0, 15000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, 70.0,},
+	{{-15000.0, 105000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, -30.0,},
+	{{15000.0, 105000.0, 0.0,}, "cylinder", "roid", 8, 4000.0, 20000.0, 0.0, 20.0,},
+	{{0.0, 100000.0, 0.0,}, "cylinder", "pebble", 15, 10000.0, 50000.0, 0.0, 10.0,},
+	{{-10000.0, -10000.0, 20000.0,}, "cylinder", "pillar", 18, 1000.0, 40000.0, -45.0, 45.0,},
+	{{10000.0, 10000.0, 20000.0,}, "cylinder", "pillar", 18, 1000.0, 40000.0, 45.0, 45.0,},
+	{{-10000.0, 10000.0, -20000.0,}, "cylinder", "pillar", 18, 1000.0, 40000.0, 45.0, -45.0,},
+	{{10000.0, -10000.0, -20000.0,}, "cylinder", "pillar", 18, 1000.0, 40000.0, -45.0, -45.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

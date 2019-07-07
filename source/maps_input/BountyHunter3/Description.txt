@@ -1,0 +1,9 @@
+Description	Your foe's have a price on their head. Dead or alive its all the same to you. Will you capture their ships or blow them into space dust. Its up to you
+Description	
+Description	
+Description	
+Description	AUTHOR  : Teelan(sjet)<dp>
+Description	E-MAIL  : www.DrunkenPirate1@aol.com
+Font 		Arial_b12.hff
+Color 		255, 100, 0
+DropShadow 	Yes

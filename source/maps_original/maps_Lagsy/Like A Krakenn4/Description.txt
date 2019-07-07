@@ -1,0 +1,17 @@
+Description     Like A Krakken You Die
+Description	this map will test your skillz for sure.
+Description     all fighters have been disabled except bombers
+Description     and all corvettes been disabled except for multi gun
+Description     corvettes
+Description     
+Description           
+Description	Map By: &L&a&g&s&y
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

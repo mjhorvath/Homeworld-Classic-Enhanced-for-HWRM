@@ -1,0 +1,39 @@
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: TheForgotten2
+; Info: The Forgotten (2-4) players
+
+[The Forgotten (2-4) players]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+
+Lighting    ez05
+Background    ez05, 95, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    50000
+smZoomMin    30000
+smInitialDistance    50000
+smUniverseSizeX    70000
+smUniverseSizeZ    35000
+smUniverseSizeY    70000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips    Traders,Junk_Lgun
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeGasCloud	All
+ExcludeDerelict	All
+IncludeDerelict PrisonShipNew
+IncludeDerelict Crate
+SongNumber    25

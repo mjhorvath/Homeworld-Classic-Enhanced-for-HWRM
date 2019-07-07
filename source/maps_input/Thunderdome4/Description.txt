@@ -1,0 +1,20 @@
+Description	Thunderdome 2v2 tvb 
+Description
+Description     This map can only b played with 4 players and is best TVB 
+Description
+Description     This map is also Dedicated To Pyscho(&B&i&B) who Tragically died on 10-10-01
+      
+Description     V 1.0 By: B][LLy Da &B&i&B    
+Description     14-10-2k1
+Description
+Description
+Description	
+Description	
+
+
+Font            Arial_b12.hff
+Color           900, 900, 900
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

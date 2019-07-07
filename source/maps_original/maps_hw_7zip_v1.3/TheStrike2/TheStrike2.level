@@ -1,0 +1,45 @@
+; MissionMan script, Saturday, Oct 19 1999, 11:59:55 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: TheStrike2
+; Info: The Strike (2-4)
+
+[The Strike (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,-30000.0,30000.0,30000.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,30000.0,-30000.0,30000.0,30000.0,0.0,Mothership_1.missphere,0
+
+Lighting    ez01
+Background    ez01, 180, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    200000
+smUniverseSizeZ    150000
+smUniverseSizeY    300000
+IncludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeavyCruiser
+ExcludeShips    R2,HeavyCruiser
+ExcludeShips    R1,MissileDestroyer
+ExcludeShips    R2,MissileDestroyer
+ExcludeShips    R1,StandardDestroyer
+ExcludeShips    R2,StandardDestroyer
+ExcludeShips    R1,IonCannonFrigate
+ExcludeShips    R2,IonCannonFrigate
+ExcludeShips    R1,StandardFrigate
+ExcludeShips    R2,StandardFrigate
+ExcludeShips    R1,GravwellGenerator
+ExcludeShips    R2,GravwellGenerator
+ExcludeShips    R1,DDDFrigate
+ExcludeShips    R2,DFGFrigate
+ExcludeShips    R1,AdvanceSupportFrigate
+ExcludeShips    R2,AdvanceSupportFrigate
+SongNumber      8

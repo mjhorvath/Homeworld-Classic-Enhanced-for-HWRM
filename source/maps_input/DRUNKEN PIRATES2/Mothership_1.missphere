@@ -1,0 +1,16 @@
+; MissionMan script, Saturday, Oct 16 1999, 3:12:54 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,67698.0,0.0,-2000.0,40.0,P1,P1Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,67698.0,-10500.0,15000.0,40.0,P1,P1IonArrayFrigate,3,DELTA_FORMATION|?|?,0,?
+Ships     ,67698.0,2500.0,-1500.0,40.0,P1,P1IonArrayFrigate,3,DELTA_FORMATION|?|?,0,?
+Ships     ,67698.0,4000.0,-2000.0,40.0,P1,P1IonArrayFrigate,5,DELTA_FORMATION|?|?,0,?
+Ships     ,67698.0,-11750.0,14750.0,40.0,P1,P1MissileCorvette,5,DELTA3D_FORMATION|?|colorScheme(4),0,?
+Ships     ,67698.0,3500.0,-2500.0,40.0,P1,P1MissileCorvette,5,DELTA3D_FORMATION|?|colorScheme(4),0,?
+Ships     ,67698.0,-10000.0,13450.0,40.0,P2,P2MultiBeamFrigate,3,BROAD_FORMATION|?|colorScheme(4),0,?
+Ships     ,67698.0,3500.0,-2000.0,40.0,P2,P2MultiBeamFrigate,3,BROAD_FORMATION|?|colorScheme(4),0,?
+Ships     ,67698.0,4000.0,-2700.0,40.0,P1,P1StandardCorvette,7,DELTA_FORMATION|?|?,0,?
+Ships     ,67698.0,2000.0,-1800.0,40.0,P1,P1StandardCorvette,7,DELTA_FORMATION|?|?,0,?
+Ships     ,67698.0,1300.0,-1200.0,40.0,P1,P1Fighter,13,DELTA3D_FORMATION|?|?,0,?
+Ships     ,67698.0,4500.0,-2700.0,40.0,P1,P1Fighter,13,DELTA3D_FORMATION|?|?,0,?

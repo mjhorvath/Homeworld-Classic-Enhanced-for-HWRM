@@ -1,0 +1,110 @@
+; MissionMan script, Tuesday, May 23 2000, 9:34:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;Shell positive X,,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,100000.0,0.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,93000.0,25000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,75000.0,43000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,50000.0,50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,50000.0,-50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,75000.0,-43000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,93000.0,-25000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,50000.0,-43000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,50000.0,-25000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,50000.0,25000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,50000.0,43000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,50000.0,0.0,-50000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,75000.0,0.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,93000.0,0.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,86980.0,21500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,71500.0,36980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,71500.0,-36980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,86980.0,-21500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,67678.0,17678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,67678.0,-17678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,315.0,     ?,     ?
+
+;Shell negative X,,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,-50000.0,50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,-75000.0,43000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,-93000.0,25000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,-100000.0,0.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,-93000.0,-25000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,-75000.0,-43000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,-50000.0,-50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,-50000.0,-43000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,-50000.0,-25000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,-50000.0,25000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,-50000.0,43000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,-93000.0,0.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-75000.0,0.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,-50000.0,0.0,-50000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,-71500.0,36980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,-86980.0,21500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,-86980.0,-21500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,-71500.0,-36980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,-67678.0,17678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,-67678.0,-17678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,225.0,     ?,     ?
+
+;Shell positive Y,,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,50000.0,50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,43000.0,75000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,25000.0,93000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,0.0,100000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,-25000.0,93000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,-43000.0,75000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,-50000.0,50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,0.0,75000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,93000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,-43000.0,50000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-25000.0,50000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,0.0,50000.0,-50000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,25000.0,50000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,43000.0,50000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,36980.0,71500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,21500.0,86980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,-21500.0,86980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,-36980.0,71500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,17678.0,67678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,-17678.0,67678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,135.0,     ?,     ?
+
+;Shell negative Y,,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,50000.0,-50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,-50000.0,-50000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,-43000.0,-75000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,-25000.0,-93000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,0.0,-100000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,25000.0,-93000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,43000.0,-75000.0,0.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,0.0,-93000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,0.0,-75000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,-43000.0,-50000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-25000.0,-50000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,0.0,-50000.0,-50000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,25000.0,-50000.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,43000.0,-50000.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,-36980.0,-71500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,-21500.0,-86980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,21500.0,-86980.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,36980.0,-71500.0,-25000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,-17678.0,-67678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,17678.0,-67678.0,-43000.0,Cylinder,Asteroid.dist,25,15000.0,1500.0,60.0,315.0,     ?,     ?
+
+;Bottom,,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,WIDTH,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,0.0,0.0,-50000.0,Rectangle,Asteroid.dist,250,50000.0,50000.0,0.0,0.0,     ?,     ?
+
+;Snakes,,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,NUM TENDRILS,X SIZE,Y SIZE,Z SIZE,NUM CHUNKS,PROP,PARAM
+Resources    Nebula,0.0,0.0,-30000.0,Nebula,Nebula.dist,175,100000.0,100000.0,20000.0,16000,0,?
+
+;Close resources ,,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,80000.0,1500.0,1500.0,Cylinder,Asteroid.dist,15,1500.0,1500,0,0,0,     ?,     ?
+Resources    Asteroid,-80000.0,-1500.0,-1500.0,Cylinder,Asteroid.dist,15,1500.0,1500,0,0,0,     ?,     ?
+Resources    Asteroid,1500.0,80000.0,1500.0,Cylinder,Asteroid.dist,15,1500.0,1500,0,0,0,     ?,     ?
+Resources    Asteroid,-1500.0,-80000.0,-1500.0,Cylinder,Asteroid.dist,15,1500.0,1500,0,0,0,     ?,     ?

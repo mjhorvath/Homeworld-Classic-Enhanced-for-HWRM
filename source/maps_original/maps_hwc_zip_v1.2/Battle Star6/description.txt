@@ -1,0 +1,13 @@
+Description	Battle Star
+Description     This is a modified version of the great Homeworld map made originally by Myst [Co].
+Description     There is a little more dense asteroid distribution than the original.
+Description	BUILT	: Myst [Co]/Beltemall
+Description	VERSION	: 1.C  Sept 2000
+
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

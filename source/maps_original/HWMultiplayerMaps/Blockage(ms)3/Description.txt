@@ -1,0 +1,15 @@
+Description	Blockage (wiv mothership)
+Description     This is a fun map for FFA. This map also will make for an interesting 2v2 game.
+Description
+Description	AUTHOR: medamanx
+Description                NO change in the map or resources just u have a MS instaed of carrier &=&P   Moonquake|&B&i&B
+Description
+
+
+
+Font            Arial_b12.hff
+Color          120, 779, 392
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

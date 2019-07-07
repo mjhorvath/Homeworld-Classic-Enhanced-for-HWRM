@@ -1,0 +1,9 @@
+Description    There is not comments this time... 
+Description
+Description    AUTHOR:  Randix (starmaker72@hotmail)
+Description    VERSION: SEPTEMBER 3/2001 
+
+
+Font Arial_b12.hff
+Color 100, 200, 255
+DropShadow Yes

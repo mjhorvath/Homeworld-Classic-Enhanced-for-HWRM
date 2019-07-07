@@ -1,0 +1,32 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+[Mobius Ring (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,-13504.3,73361.1,-7796.7,30000.0,-79.6,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,-64596.1,7839.6,-37294.5,30000.0,-6.9,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,-26418.4,-68515.9,-15252.6,30000.0,68.9,Mothership_2.missphere,0
+MissionSphere    3,R2,Mothership,48268.6,-50184.8,27867.9,30000.0,133.9,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,56249.9,37500.0,32475.9,30000.0,213.9,Mothership_4.missphere,0
+
+Lighting    ez09
+Background    ez09, 180, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    150000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    200000
+smUniverseSizeZ    200000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    11

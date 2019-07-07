@@ -1,0 +1,40 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:34 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;base screwy - uniform line thickness and extra segments at top check for integrity
+
+;Ships     ,0.0,0.0,0.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+;Ships     ,50000.0,0.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+;Ships     ,0.0,50000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+;	"T"
+Resources    Asteroid,0.0,150000.0,0.0,Cylinder,tiny.dist,100,2000.0,40000.0,0.0,90.0,0,?
+Resources    Asteroid,0.0,170000.0,0.0,Cylinder,tiny.dist,100,2000.0,35000.0,0.0,180.0,0,?
+
+;	"V"
+Resources    Asteroid,5000.0,0.0,0.0,Cylinder,tiny.dist,50,2000.0,20000.0,0.0,60.0,0,?
+Resources    Asteroid,-5000.0,0.0,0.0,Cylinder,tiny.dist,50,2000.0,20000.0,0.0,120.0,0,?
+
+;	"B"
+Resources    Asteroid,-13400.0,-150000.0,0.0,Cylinder,tiny.dist,100,2000.0,40000.0,0.0,90.0,0,?
+Resources    Asteroid,-3330.0,-130000.0,0.0,Cylinder,tiny.dist,50,2000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,6660.0,-140000.0,0.0,Cylinder,tiny.dist,50,2000.0,20000.0,0.0,90.0,0,?
+Resources    Asteroid,0.0,-150000.0,0.0,Cylinder,tiny.dist,70,2000.0,26800.0,0.0,0.0,0,?
+Resources    Asteroid,13400.0,-160000.0,0.0,Cylinder,tiny.dist,50,2000.0,20000.0,0.0,90.0,0,?
+Resources    Asteroid,0.0,-170000.0,0.0,Cylinder,tiny.dist,70,2000.0,26400.0,0.0,0.0,0,?
+
+
+
+;	"T" Rocks
+
+Resources    Asteroid,0.0,80000.0,0.0,Cylinder,asteroid.dist,40,5000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,80000.0,0.0,Cylinder,asteroid.dist,40,5000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,-30000.0,80000.0,0.0,Cylinder,asteroid.dist,40,5000.0,10000.0,0.0,0.0,0,?
+
+
+;	"B" Rocks
+
+Resources    Asteroid,0.0,-80000.0,0.0,Cylinder,asteroid.dist,40,5000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,-80000.0,0.0,Cylinder,asteroid.dist,40,5000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,-30000.0,-80000.0,0.0,Cylinder,asteroid.dist,40,5000.0,10000.0,0.0,0.0,0,?

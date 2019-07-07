@@ -1,0 +1,111 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Title says it all just have fun",
+	"",
+	"",
+	"",
+	"AUTHOR: me",
+	"",
+	"",
+}
+
+LevelName = [[Me Vs One (2)]]
+LevelFile = [[Me Vs One2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {5000, 1000000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = "ez05"
+LevelMusic = "24"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-40000.0, 0.0, 0.0, 0.0,},
+	{40000.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {40000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-40000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 8,
+		dustcloud2 = 2,
+		dustcloud3 = 0,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 7,
+		asteroid3 = 4,
+		asteroid4 = 0,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 7,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, -20.0, 0.0,}, "cylinder", "dust", 30, 1500.0, 30000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "rock", 60, 1500.0, 30000.0, 0.0, 0.0,},
+	{{35000.0, -7000.0, 0.0,}, "sphere", "pebble", 20, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-35000.0, 7000.0, 0.0,}, "sphere", "pebble", 20, 1500.0, 3000.0, 0.0, 0.0,},
+	{{35000.0, -7000.0, 0.0,}, "sphere", "dust", 8, 1600.0, 3200.0, 0.0, 0.0,},
+	{{-35000.0, 7000.0, 0.0,}, "sphere", "dust", 8, 1600.0, 3200.0, 0.0, 0.0,},
+	{{9000.0, 0.0, 0.0,}, "cylinder", "dust", 15, 1500.0, 12000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

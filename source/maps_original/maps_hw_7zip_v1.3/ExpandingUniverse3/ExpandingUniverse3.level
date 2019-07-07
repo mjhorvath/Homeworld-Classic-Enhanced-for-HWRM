@@ -1,0 +1,36 @@
+; MissionMan script, Friday, Jan 14 2000, 5:18:03 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: ExpandingUniverse3
+; Info: Expanding Universe (2-4)
+
+[Expanding Universe (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R2,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    -1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    2,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+
+Lighting    ez12
+Background    ez12, 75, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    190000
+smUniverseSizeZ    180000
+smUniverseSizeY    190000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+IncludeShips    Traders,Junk_LGun
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    27

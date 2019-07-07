@@ -1,0 +1,39 @@
+; MissionMan script, Wednesday, Jun 16 1999, 1:21:58 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Mercenaries6
+; Info: Islolated (2-6)
+
+[TRADERS' MERCENARIES (2-6)]
+
+MissionSphere    1,R1,Mothership,9.8,0.6,0.0,30000.0,-147.0,Mothership_1.missphere,1000
+MissionSphere    0,R2,Mothership,1.1,0.7,0.4,30000.0,-83.0,Mothership_0.missphere,1000
+MissionSphere    -1,?,ResourceSphere,-443001.1,-443000.9,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    2,R1,Mothership,9.8,0.6,0.0,30000.0,-147.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,9.8,0.6,0.0,30000.0,-147.0,Mothership_3.missphere,1000
+MissionSphere    4,R1,Mothership,9.8,0.6,0.0,30000.0,-147.0,Mothership_4.missphere,1000
+MissionSphere    5,R1,Mothership,9.8,0.6,0.0,30000.0,-147.0,Mothership_5.missphere,1000
+
+Lighting    ez01
+Background    ez01, 90, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    1000000
+smZoomMin    25000
+smInitialDistance    60000
+smUniverseSizeX    1000000
+smUniverseSizeZ    1000000
+smUniverseSizeY    1000000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    9

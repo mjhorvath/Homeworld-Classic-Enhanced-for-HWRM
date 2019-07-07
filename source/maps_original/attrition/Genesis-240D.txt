@@ -1,0 +1,130 @@
+Homeworld Custom Map: GENESIS-240D
+Author: *TAKER* aka James Tooman 
+E-Mail: taker@lords.com
+
+
+"Everyone here at Relic is in awe. Great job!"
+Falko - Relic Entertainment
+
+
+"I think this map is destined to be a classic!"
+BlackMane - playtester
+
+
+"Genesis 240-D is one of the greatest maps ever released
+in the Homeworld community."
+Talon - Map Reviewer, Homeworld Map Archive
+
+http://www.strategyplanet.com/hwmaps/reviews/genesis1.html
+
+
+*********************
+Imagine you are low on resources, you have lost your entire 
+military fleet enabling you to escape with only your Mother 
+Ship, one resource collector and your last carrier. Your 
+final jump of desperation takes you to the newly forming 
+star system desribed only by the number "240D".
+
+Worst of all, you do not have the technology to construct 
+Resource Controllers, meaning that you have to risk sending 
+your carrier into the fury of the forming star system to 
+protect your lonely collector...
+
+And the bad news gets even worse. Your lab scientists inform 
+you that the radiation from the forming star is so intense 
+that Sensor Arrays will be completely useless.
+
+Luckily for you there are small pockets of forming gas where 
+planets will some day emerge that you can collect a very 
+limited amount of usable resources from.
+
+Now for the worst news of all... You are not alone! Your 
+enemy has seemingly set up mining opperations in this 
+inhospitable place and you have to fight for every last 
+scrap that the huge system has to offer!
+
+Countless red dots all over the near useless sensors manager, 
+is that lonely dot an enemy collector or an entire Battle Group 
+coming to destroy you? Did you remember to have a back-up 
+probe?? "Proximity alert!" screams the computer... your 
+carrier is under attack!
+****************
+
+
+Genesis-240D is unlike any custom made map to date. A week 
+of brainstorming by some of the most strategy oriented players 
+on the Relic boards and days of programming a utility in order 
+for it to be realized has culiminated in a level that defies 
+the impossible and raises the bar for strategy oriented maps 
+from the user community.
+
+This map is the map of a forming solar system whose outer 
+ring is over Three Million units around! The map files 
+themselves are more than 10 times larger than most custom 
+maps. So large, in fact, that it used to not be downloadable
+over WON.
+
+ALL THIS HAS CHANGED! With the help of Relic, several custom
+map issues were identified and resolved. This means that in 
+this version 1.1, you can download the map straight over WON!
+You can now play the original map in all of its amazing
+scope without having to spend hours trying to get a game together.
+Also, the save game function now works and you can record a game
+without it crashing to the desktop.
+
+As with my previous public map, JOVIAN RINGS, this map was 
+designed for those who want to play Homeworld on a little 
+bit larger (or in this case, a LOT larger!) time/movement 
+scale. It is an advanced map and if you are not comfortable 
+with 3D movement and large scale maneuvers, you may want to 
+wait on it.
+
+In addition, this map is designed for a fairly robust gaming 
+machine. I suggest a minimum of a P2-350 with 96Mb RAM and a 
+12MB Voodoo2 3Dcard or better. Some playtesters have had 
+good luck with P2-300's and only 64Mb RAM but YMMV. Some 
+feedback has also suggested that a good defrag (with ALL 
+the settings) can help speed this and other large maps.
+
+As always, if you like this map or if you dont like this map, 
+LET ME KNOW! I can only design as good a map as my own 
+creativity and your feedback allow me to!
+
+In order to play this may, unzip it into your 
+SIERRA\Homeworld\Multiplayer folder. It should have seven 
+folders named Genesis-240D2 to Genesis-240D8 plus this text 
+file. If you have properly placed the folders, Homeworld 
+will automatically recognize this map on startup when you 
+select Multiplayer maps.
+
+Many thanks to the following contributors:
+Athexx
+Claidheamh
+BPLlama
+Hellhawk666
+Talon
+TheHornet
+Packrat
+jcoltrane
+Fenriss
+Without whom this map would not be what it is!
+
+And thanks also to the playtesters:
+Shin
+UberJumper
+BlackMane
+Culigula
+Sgt-Rock
+Who helped make this map as good as it could be!
+
+Finally, thanks to RELIC and Falco especially for their help 
+in making this update possible and for the kind words about 
+the map.
+
+
+Have a blast!
+
+
+*TAKER*
+J.T.
+

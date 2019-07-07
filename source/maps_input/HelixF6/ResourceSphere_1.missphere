@@ -1,0 +1,47 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+Resources    Asteroid, -13832.7,  60883.9, -27424.6,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, -47238.1,  47709.9, -43752.1,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+; 5
+Resources    Asteroid, -72254.7,  11151.0, -45582.6,Sphere,Small.dist,21,6000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, -71698.9, -31744.3, -30384.2,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+; 4
+Resources    Asteroid, -47056.1, -57427.3,  -7729.4,Sphere,Small.dist,21,6000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, -14230.3, -59385.9,   8263.5,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  15725.5, -48731.9,  12945.8,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  42860.3, -33439.0,  13734.7,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  65205.0,  -8192.1,  18207.7,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  70105.0,  30519.3,  23996.0,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+; 1
+Resources    Asteroid,  47001.5,  68353.6,  23270.1,Sphere,Small.dist,21,6000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,   4889.5,  82803.0,  13833.4,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+; 0 
+Resources    Asteroid, -32167.8,  67352.6,    865.9,Sphere,Small.dist,21,6000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, -48127.8,  36787.8, -11307.8,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, -46923.1,   6966.4, -23224.6,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, -39357.5, -21372.4, -33733.7,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid, -26121.2, -52691.8, -34519.1,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  -1460.2, -78229.2, -17321.5,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+; 3
+Resources    Asteroid,  30275.7, -79504.6,  13612.9,Sphere,Small.dist,21,6000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  52506.3, -51058.7,  41325.2,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+; 2
+Resources    Asteroid,  53972.8,  -9925.3,  50599.5,Sphere,Small.dist,21,6000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  40951.4,  22598.8,  40121.9,Sphere,Small.dist,18,3000.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  26175.1,  41765.5,  18978.4,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,  10801.0,  54812.1,  -4774.7,Sphere,Small.dist,15,2500.0,1000.0,0.0,0.0,0,?
+
+
+Ships     ,     41.3,  59385.9, -16454.9,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -30221.8,  57427.3, -36887.2,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,   1264.9, -54812.1,  11741.1,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  29523.2, -41765.5,  13178.9,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  55222.3, -22598.8,  15403.5,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  70807.1,   9925.3,  21442.4,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -48892.9,  21373.1, -17217.9,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -43575.0,  -6966.4, -29024.1,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -33856.9, -36787.1, -36026.2,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     , -15334.2, -67352.6, -28291.2,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  33324.2,  33439.0,  30250.5,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,  19073.6,  48731.9,   7145.6,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?

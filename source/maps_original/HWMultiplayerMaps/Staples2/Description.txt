@@ -1,0 +1,11 @@
+Description	Staples
+Description	This map, uh, well, what can I say, looks like staples.....
+Description	Hope you enjoy.
+Description	
+Description	AUTHOR  : medamanx
+Description	E-MAIL  : medamanx@hotmail.com
+Description	WEBSITE : www.geocities.com/medamanx aka: Homeworld Screenshot Archive
+
+Font		Arial_b12.hff
+Color		0, 180, 40
+DropShadow	Yes

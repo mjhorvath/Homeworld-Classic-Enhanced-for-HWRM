@@ -1,0 +1,24 @@
+; MissionMan script, Sunday, Jul 22 2001, 12:20:21 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-35897.0,35045.0,-25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,-45.0,0,?
+MeteorStorm 0.0,0.0,0.0,Cylinder,07verywell.dist,60,50000.0,100000.0,0.0,0.0,0,3000,900,1000
+Resources    Nebula,0.0,0.0,0.0,Nebula,nebula.dist,200,50000.0,50000.0,50000.0,15000,0,?
+Resources    DustCloud,0.0,0.0,0.0,Cylinder,Dust.dist,50,15000.0,30000.0,0.0,0.0,2048,7
+Resources    Asteroid,-35897.0,35045.0,25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,-45.0,0,?
+Resources    Asteroid,-35897.0,-35045.0,-25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,45.0,0,?
+Resources    Asteroid,-35897.0,-35045.0,25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,45.0,0,?
+Resources    Asteroid,35897.0,-35045.0,25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,-45.0,0,?
+Resources    Asteroid,35897.0,-35045.0,-25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,-45.0,0,?
+Resources    Asteroid,35897.0,35045.0,25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,45.0,0,?
+Resources    Asteroid,35897.0,35045.0,-25000.0,Cylinder,type3.dist,10,3000.0,8000.0,0.0,45.0,0,?
+Resources    Asteroid,-35897.0,35045.0,-25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,-45.0,0,?
+Resources    Asteroid,-35897.0,35045.0,25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,-45.0,0,?
+Resources    Asteroid,-35897.0,-35045.0,-25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,45.0,0,?
+Resources    Asteroid,-35897.0,-35045.0,25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,45.0,0,?
+Resources    Asteroid,35897.0,-35045.0,25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,-45.0,0,?
+Resources    Asteroid,35897.0,-35045.0,-25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,-45.0,0,?
+Resources    Asteroid,35897.0,35045.0,25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,45.0,0,?
+Resources    Asteroid,35897.0,35045.0,-25000.0,Cylinder,type0.dist,7,3000.0,8000.0,0.0,45.0,0,?
+

@@ -1,0 +1,12 @@
+Description	This map is dedicated to Power&g&u&r&u and mazer&g&u&r&u because it was their 
+Description     idea 8)
+Description     Author: &T&2_Œlite². 5 and 6 player versions added by Beltemall
+Description	
+
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

@@ -1,0 +1,46 @@
+[ALL R1 & R2 Fleets]
+; Format for a player's mission sphere is:
+; MissionSphere       PlayerNumber, RaceName, x,y,z, radius, rotate, Contents.missphere, StartingResourceUnits
+
+; Format for a resource mission sphere is:
+; MissionSphere       -1, RaceName, x,y,z, radius, rotate, Contents.missphere
+
+
+;Fleet Starting Points:
+;=--------------------=
+;
+MissionSphere       0,    R1,         0.0,    12675.0,  0.0,   12000.0,    1000.0,     AllFleetR1.missphere,  18000
+MissionSphere       0,    R2,         0.0,    12675.0,  0.0,   12000.0,    1000.0,     AllFleetR2.missphere,  18000
+MissionSphere       1,    R1,         0.0,   -12675.0,  0.0,   12000.0,    1000.0,     AllFleetR1.missphere,  18000
+MissionSphere       1,    R2,         0.0,   -12675.0,  0.0,   12000.0,    1000.0,     AllFleetR2.missphere,  18000
+MissionSphere       2,    R1,     20000.0,        0.0,  0.0,   12000.0,    1000.0,     AllFleetR1.missphere,  18000
+MissionSphere       2,    R2,     20000.0,        0.0,  0.0,   12000.0,    1000.0,     AllFleetR2.missphere,  18000
+
+;Resource Spheres:
+;=---------------=
+;
+;MissionSphere       -1,   ?,   0.0,       0.0,   0.0,    9000.0,   0.0,     Resources.missphere
+;MissionSphere       -1,   ?,   0.0,  -21593.0,   0.0,    7100.0,   0.0,     ResourcesSmall.missphere
+;MissionSphere       -1,   ?,   0.0,   21593.0,   0.0,    7100.0,   0.0,     ResourcesSmall.missphere
+
+;Lighting:
+;=-------=
+;
+Lighting            default             ;name of .hsf file in data\hsf
+
+smCircleBorder                 90000        ; Fixed-point multiplier
+smDepthCueStartRadiusDepth     20000        ; cueing start distance
+smDepthCueRadius               50000        ; Depth cueing end (100%) distance
+smZoomMax                      80000        ; Farthest camera can zoom back
+smZoomMin                      40000        ; Closest camera can zoom in
+smInitialDistance              60000        ; Starting zoom distance
+ExcludeShips    P1,All
+ExcludeShips    P3,All
+ExcludeShips    P2,All
+ExcludeShips    Traders,All
+ExcludeDerelict    All
+IncludeDerelict     Crate
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+
+

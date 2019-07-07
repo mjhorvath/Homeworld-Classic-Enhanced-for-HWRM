@@ -1,0 +1,33 @@
+; MissionMan script, Wednesday, Oct 6 1999, 9:06:02 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Default Level
+; Info: IX Field Dispute (2-6)
+
+
+[IX Field Dispute (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,45000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R2,Mothership,-45000.0,-45000.0,0.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,45000.0,45000.0,0.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R2,Mothership,-45000.0,45000.0,0.0,30000.0,0.0,Mothership_2.missphere,0
+
+Lighting    ez01
+Background    ez01, 75, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    100000
+smZoomMin    10000
+smInitialDistance    50000
+smUniverseSizeX    150000
+smUniverseSizeZ    150000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    PlanetOfOrigin
+SongNumber    15

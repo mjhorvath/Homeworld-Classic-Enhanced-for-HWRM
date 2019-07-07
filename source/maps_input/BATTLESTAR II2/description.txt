@@ -1,0 +1,13 @@
+Description	BATTLESTAR II
+Description     It's still a good map for team building and 3v3 is they best way to enjoy it. But this map is a corrected version made by an unknown friend, for those players who want more fun and more longer game. (Thanks, man!)
+Description
+Description	REVISED	: ???????
+Description	VERSION	: Review Apr/26/2001
+Description     SALUTE Whoever you be!
+
+
+Color           0, 180, 0
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

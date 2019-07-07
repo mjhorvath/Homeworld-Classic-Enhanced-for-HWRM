@@ -1,0 +1,107 @@
+; MissionMan script, Thursday, Jul 20 2000, 5:59:15 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+
+Resources    Asteroid,806.7,60082.3,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,743.9,61628.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,61138.6,-543.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,60759.8,-980.0,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,29754.3,-51029.0,-2639.8,Cylinder,type3.dist,5,2120.5,7945.5,0.0,0.0,0,?
+Resources    Asteroid,11393.5,-36305.8,15500.0,Cylinder,type3.dist,5,2120.5,7945.5,0.0,11.0,0,?
+Resources    Asteroid,18344.0,-17728.6,-19609.3,Cylinder,type2.dist,5,2120.5,7945.5,0.0,-89.0,0,?
+Resources    Asteroid,10963.9,-21157.3,7781.8,Cylinder,type4.dist,1,2120.5,7945.5,-21.6,-56.2,0,?
+Resources    Asteroid,40376.4,-39114.2,12142.5,Cylinder,type3.dist,5,2120.5,7945.5,-1.9,-9.4,0,?
+Resources    Asteroid,103290.6,3370.8,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,98721.6,3559.7,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,71796.5,28827.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,28914.4,72526.2,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,43615.7,42847.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,43656.6,42270.7,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,70654.0,75421.1,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,67289.7,72323.9,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,112.2,-98785.8,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,-91.0,0,?
+Resources    Asteroid,29929.5,-39660.2,7781.8,Cylinder,type4.dist,1,2120.5,7945.5,-21.6,-56.2,0,?
+
+
+Ships     ,0.0,0.0,0.0,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,10000.0,0.0,0.0,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,-10000.0,0.0,0.0,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,10000.0,0.0,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,-10000.0,0.0,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,0.0,10000.0,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,0.0,-10000.0,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+
+Resources    Asteroid,-806.7,-60082.3,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,-743.9,-61628.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,-61138.6,543.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,-60759.8,980.0,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,-29754.3,51029.0,-2639.8,Cylinder,type3.dist,5,2120.5,7945.5,0.0,0.0,0,?
+Resources    Asteroid,-11393.5,36305.8,15500.0,Cylinder,type3.dist,5,2120.5,7945.5,0.0,11.0,0,?
+Resources    Asteroid,-18344.0,17728.6,-19609.3,Cylinder,type2.dist,5,2120.5,7945.5,0.0,-89.0,0,?
+Resources    Asteroid,-10963.9,21157.3,7781.8,Cylinder,type4.dist,1,2120.5,7945.5,-21.6,-56.2,0,?
+Resources    Asteroid,-40376.4,39114.2,12142.5,Cylinder,type3.dist,5,2120.5,7945.5,-1.9,-9.4,0,?
+Resources    Asteroid,-103290.6,-3370.8,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,-98721.6,-3559.7,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,-71796.5,-28827.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,-28914.4,-72526.2,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,-43615.7,-42847.3,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,-43656.6,-42270.7,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,-70654.0,-75421.1,-2639.8,Cylinder,type2.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,-67289.7,-72323.9,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,-112.2,98785.8,-2639.8,Cylinder,type3.dist,5,1272.2,4766.8,0.0,-91.0,0,?
+Resources    Asteroid,-29929.5,39660.2,7781.8,Cylinder,type4.dist,1,2120.5,7945.5,-21.6,-56.2,0,?
+
+Slipgate    ,100000.0,0.0,0.0,1/2,150.0,dSlipgateMedium
+Slipgate    ,-100000.0,0.0,0.0,2/2,-30.0,dSlipgateMedium
+
+Slipgate    ,0.0,100000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,0.0,-100000.0,0.0,2/2,30.0,dSlipgateMedium
+
+
+
+Resources    Asteroid,806.7,60082.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,743.9,61628.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,61138.6,-543.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,60759.8,-980.0,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,29754.3,-51029.0,-2639.8,Cylinder,type0.dist,5,2120.5,7945.5,0.0,0.0,0,?
+Resources    Asteroid,11393.5,-36305.8,15500.0,Cylinder,type0.dist,5,2120.5,7945.5,0.0,11.0,0,?
+Resources    Asteroid,18344.0,-17728.6,-19609.3,Cylinder,type0.dist,5,2120.5,7945.5,0.0,-89.0,0,?
+Resources    Asteroid,10963.9,-21157.3,7781.8,Cylinder,type0.dist,1,2120.5,7945.5,-21.6,-56.2,0,?
+Resources    Asteroid,40376.4,-39114.2,12142.5,Cylinder,type0.dist,5,2120.5,7945.5,-1.9,-9.4,0,?
+Resources    Asteroid,103290.6,3370.8,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,98721.6,3559.7,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,71796.5,28827.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,28914.4,72526.2,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,43615.7,42847.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,43656.6,42270.7,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,70654.0,75421.1,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,67289.7,72323.9,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,112.2,-98785.8,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,-91.0,0,?
+Resources    Asteroid,29929.5,-39660.2,7781.8,Cylinder,type0.dist,1,2120.5,7945.5,-21.6,-56.2,0,?
+
+
+
+
+
+Resources    Asteroid,-806.7,-60082.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,-743.9,-61628.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,-61138.6,543.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,-60759.8,980.0,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,-6.0,0,?
+Resources    Asteroid,-29754.3,51029.0,-2639.8,Cylinder,type0.dist,5,2120.5,7945.5,0.0,0.0,0,?
+Resources    Asteroid,-11393.5,36305.8,15500.0,Cylinder,type0.dist,5,2120.5,7945.5,0.0,11.0,0,?
+Resources    Asteroid,-18344.0,17728.6,-19609.3,Cylinder,type0.dist,5,2120.5,7945.5,0.0,-89.0,0,?
+Resources    Asteroid,-10963.9,21157.3,7781.8,Cylinder,type0.dist,1,2120.5,7945.5,-21.6,-56.2,0,?
+Resources    Asteroid,-40376.4,39114.2,12142.5,Cylinder,type0.dist,5,2120.5,7945.5,-1.9,-9.4,0,?
+Resources    Asteroid,-103290.6,-3370.8,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,-98721.6,-3559.7,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,1.0,0,?
+Resources    Asteroid,-71796.5,-28827.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,-28914.4,-72526.2,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,40.0,0,?
+Resources    Asteroid,-43615.7,-42847.3,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,-43656.6,-42270.7,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,39.0,0,?
+Resources    Asteroid,-70654.0,-75421.1,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,-67289.7,-72323.9,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,46.0,0,?
+Resources    Asteroid,-112.2,98785.8,-2639.8,Cylinder,type0.dist,5,1272.2,4766.8,0.0,-91.0,0,?
+Resources    Asteroid,-29929.5,39660.2,7781.8,Cylinder,type0.dist,1,2120.5,7945.5,-21.6,-56.2,0,?

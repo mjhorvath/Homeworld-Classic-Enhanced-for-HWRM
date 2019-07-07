@@ -1,0 +1,17 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:43 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships	,40010.0,40790.0,40840.0,0.0,R1,Mothership,1,NULL_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,StandardDestroyer,1,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,ResearchShip,1,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,ProximitySensor,2,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,Probe,2,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,MultiGunCorvette,3,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,LightInterceptor,5,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,HeavyDefender,6,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,HeavyCorvette,3,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,DDDFrigate,1,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,CloakGenerator,1,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,AttackBomber,5,PARADE_FORMATION|?|?,?,?
+Ships	,0.0,0.0,0.0,0.0,R1,AdvanceSupportFrigate,1,PARADE_FORMATION|?|?,?,?

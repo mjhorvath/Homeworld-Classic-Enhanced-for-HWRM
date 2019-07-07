@@ -1,0 +1,54 @@
+; MissionMan script, Monday, Sep 18 2000, 7:10:23 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: RACE_SECT,sMothership
+
+Ships     ,35058.2,16290.6,0.0,-151.0,RACE_SECT,sMothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,-15000.0,0.0,-1000.0,-180.0,RACE_SECT,sWorker,2,PARADE_FORMATION|?|?,0,?
+Ships     ,-15000.0,0.0,-1000.0,-180.0,RACE_SECT,sRecon,3,PARADE_FORMATION|?|?,0,?
+Ships    ,24734.8,64740.7,0.0,83.0,RACE_KUSHAN,kIonCannonFrigate,5,WALL_FORMATION|?|colorScheme(5),0,?,5
+Ships    ,-26726.5,27315.2,-2340.2,-174.0,RACE_KUSHAN,kIonCannonFrigate,4,WALL_FORMATION|?|colorScheme(7),0,?,4
+Ships    ,-19900.3,25951.2,0.0,-174.0,RACE_KUSHAN,kMultiGunCorvette,4,DELTA3D_FORMATION|?|colorScheme(6),0,?,4
+Ships    ,-18370.4,25539.9,0.0,-174.0,RACE_KUSHAN,kCarrier,1,BROAD_FORMATION|?|colorScheme(6),0,?,1
+Ships    ,-18401.0,25104.0,-1193.3,-174.0,RACE_KUSHAN,kStandardDestroyer,2,BROAD_FORMATION|?|colorScheme(4),0,?,2
+Ships    ,-19415.5,21101.3,0.0,-174.0,RACE_KUSHAN,kHeavyInterceptor,7,DELTA3D_FORMATION|?|colorScheme(5),0,?,7
+Ships    ,69413.7,-18272.2,-301.0,-2.0,RACE_KUSHAN,kHeavyInterceptor,5,DELTA3D_FORMATION|?|colorScheme(6),0,?,5
+Ships    ,70066.9,-14724.8,-301.0,-2.0,RACE_KUSHAN,kHeavyInterceptor,6,DELTA3D_FORMATION|?|colorScheme(6),0,?,6
+
+Ships    ,79473.2,-57083.6,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,79169.0,-57445.5,19842.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,79858.6,-57131.7,-20636.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,73100.2,-45409.8,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,72796.5,-45771.8,19842.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,73486.2,-45458.0,-20636.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,69629.5,-31953.3,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,70236.8,-31229.4,19370.3,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,70926.5,-30915.6,-21109.1,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,66092.5,-17738.2,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,66396.2,-17376.3,19370.3,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,67085.8,-17062.4,-21109.1,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,64831.4,-3323.9,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,64831.4,-3323.9,19370.3,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,65521.0,-3010.1,-21109.1,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,63157.8,11436.5,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,62854.1,11074.6,19370.3,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,63543.7,11388.4,-21109.1,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,65410.2,25011.5,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,64802.8,24287.7,19842.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,65492.5,24601.5,-20636.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,68075.0,38240.3,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,67467.7,37516.5,19842.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,68157.3,37830.3,-20636.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,71498.6,51535.5,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,71194.9,51173.6,19842.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,71884.5,51487.4,-20636.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,77198.0,65029.9,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,76590.7,64306.1,19842.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,77280.3,64619.9,-20636.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,83788.9,77073.2,0.0,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,83485.2,76711.4,19842.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+Ships    ,84174.8,77025.1,-20636.7,-137.0,RACE_KUSHAN,kProximitySensor,1,NULL_FORMATION|?|?,0,?,1
+
+
+
+
+

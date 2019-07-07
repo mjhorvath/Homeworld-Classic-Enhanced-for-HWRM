@@ -1,0 +1,145 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Dolt Ring",
+	"enjoy this dolty ring map :)",
+	"",
+	"",
+	"Map By: &L&a&g&s&y",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Dolt Ring (2,4,6,or8)]]
+LevelFile = [[Dolt Ring6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez05"
+LevelMusic = "22"
+
+RUsRatio = 1
+PebRatio = 1/2
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-30000.0, -30000.0, 0.0, 0.0,},
+	{-40000.0, 0.0, 0.0, 0.0,},
+	{-30000.0, 30000.0, 0.0, 0.0,},
+	{30000.0, 30000.0, 0.0, -180.0,},
+	{40000.0, 0.0, 0.0, -180.0,},
+	{30000.0, -30000.0, 0.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-40000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "minelayercorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-30000.0, -30000.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "minelayercorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-30000.0, 30000.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "minelayercorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {30000.0, 30000.0, 0.0,}, 3, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "minelayercorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {40000.0, 0.0, 0.0,}, 4, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "minelayercorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {30000.0, -30000.0, 0.0,}, 5, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "minelayercorvette", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-8412.0, -63893.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -8.0,},
+	{{-24663.0, -59540.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -23.0,},
+	{{-39232.0, -51128.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -38.0,},
+	{{-51128.0, -39232.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -53.0,},
+	{{-59540.0, -24663.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -68.0,},
+	{{-63895.0, -8413.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -83.0,},
+	{{8412.0, 63893.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -8.0,},
+	{{24663.0, 59540.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -23.0,},
+	{{39232.0, 51128.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -38.0,},
+	{{51128.0, 39232.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -53.0,},
+	{{59540.0, 24663.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -68.0,},
+	{{63895.0, 8413.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, -83.0,},
+	{{8412.0, -63893.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 8.0,},
+	{{24663.0, -59540.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 22.0,},
+	{{39232.0, -51128.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 37.0,},
+	{{51128.0, -39232.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 52.0,},
+	{{59540.0, -24663.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 68.0,},
+	{{63983.0, -8412.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 82.0,},
+	{{-63893.0, 8412.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 82.0,},
+	{{-59540.0, 24663.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 67.0,},
+	{{-51128.0, 39232.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 52.0,},
+	{{-39232.0, 51128.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 37.0,},
+	{{-24663.0, 59540.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 22.0,},
+	{{-8412.0, 63893.0, 0.0,}, "cylinder", "rock", 6, 10000.0, 16950.0, 0.0, 8.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "roid", 10, 15000.0, 20000.0, 90.0, 180.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

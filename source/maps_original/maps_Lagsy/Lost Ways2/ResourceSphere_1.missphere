@@ -1,0 +1,29 @@
+; MissionMan script, Saturday, Feb 12 2005, 8:38:23 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,-8000.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,-5216.0,-8043.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,-10993.0,-7957.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,5820.0,-8129.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,11510.0,-8302.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,11510.0,8597.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,5820.0,8770.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,-10993.0,8942.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,-5216.0,8856.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,0.0,8899.0,0.0,Rectangle,rocky.dist,20,6000.0,1000.0,5000.0,0.0,0,?
+Resources    Asteroid,27070.0,19578.0,0.0,Cylinder,Tiny.dist,20,2000.0,20000.0,18.9,-24.2,0,?
+Resources    Asteroid,27351.0,-14365.0,0.0,Cylinder,Tiny.dist,20,2000.0,20000.0,10.0,28.8,0,?
+Resources    Asteroid,10239.0,-18293.0,2000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-6312.0,-24464.0,7000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,30.0,40.0,0,?
+Resources    Asteroid,9959.0,22627.0,3000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-5226.0,27627.0,7000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,30.0,-40.0,0,?
+Resources    Asteroid,-50073.0,-18157.0,-2000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,20.0,-30.0,0,?
+Resources    Asteroid,-49793.0,19601.0,0.0,Cylinder,Tiny.dist,20,2000.0,20000.0,20.0,30.0,0,?
+Resources    Asteroid,-34364.0,24908.0,-3000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-33522.0,-23903.0,-5000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-18935.0,30469.0,-8000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,30.0,40.0,0,?
+Resources    Asteroid,-19777.0,-28745.0,-8000.0,Cylinder,Tiny.dist,20,2000.0,20000.0,30.0,-40.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,rock.dist,10,4000.0,500.0,4000.0,0.0,2048,3
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,rock.dist,10,4000.0,500.0,4000.0,-90.0,2048,3
+

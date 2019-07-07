@@ -1,0 +1,44 @@
+; MissionMan script, Wednesday, Jun 16 1999, 2:05:01 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-35000.0,0.0,0.0,Cylinder,pebble.dist,8,839.5,8395.2,0.0,-90.0,?,?
+Resources    DustCloud,0.0,0.0,0.0,Sphere,BigDustCloud.dist,10,4295.0,8590.0,0.0,0.0,?,?
+Resources    DustCloud,-340.0,0.0,7000.0,Sphere,BigDustCloud.dist,7,3200.0,6400.0,0.0,0.0,?,?
+Resources    DustCloud,0.0,0.0,-7000.0,Sphere,BigDustCloud.dist,7,4295.0,8590.0,0.0,0.0,?,?
+Resources    DustCloud,0.0,0.0,0.0,Sphere,BigDustCloud.dist,10,5000.0,10000.0,0.0,0.0,?,?
+Resources    DustCloud,0.0,0.0,0.0,Sphere,BigDustCloud.dist,10,24485.0,71070.0,0.0,0.0,?,?
+Resources    Asteroid,-33969.5,-11432.2,-59.5,Cylinder,pebble.dist,8,632.9,6328.8,0.0,-71.0,?,?
+Resources    Asteroid,-29419.9,-20994.9,-59.5,Cylinder,pebble.dist,8,901.7,9017.5,0.0,-51.0,?,?
+Resources    Asteroid,-21230.6,-29579.1,-59.5,Cylinder,pebble.dist,8,728.8,7288.4,0.0,-39.0,?,?
+Resources    Asteroid,-10895.3,-35107.3,-59.5,Cylinder,pebble.dist,8,865.4,8653.8,0.0,164.0,?,?
+Resources    Asteroid,40.9,-35948.5,-59.5,Cylinder,pebble.dist,8,850.5,8505.1,0.0,-179.0,?,?
+Resources    Asteroid,11097.3,-34357.5,-59.5,Cylinder,pebble.dist,8,838.6,8386.4,0.0,-165.0,?,?
+Resources    Asteroid,21192.2,-29458.9,-59.5,Cylinder,pebble.dist,8,718.5,7185.1,0.0,-139.0,?,?
+Resources    Asteroid,29003.8,-21647.3,-59.5,Cylinder,pebble.dist,8,831.2,8312.3,0.0,-130.0,?,?
+Resources    Asteroid,34171.5,-11552.3,-59.5,Cylinder,pebble.dist,8,944.6,9446.5,0.0,-106.0,?,?
+Resources    Asteroid,35132.9,-496.0,-59.5,Cylinder,pebble.dist,8,841.2,8412.4,0.0,-89.0,?,?
+Resources    Asteroid,34171.5,10320.1,-59.5,Cylinder,pebble.dist,8,693.2,6932.3,0.0,-67.0,?,?
+Resources    Asteroid,28763.4,20535.2,-59.5,Cylinder,pebble.dist,15,702.6,7025.6,0.0,-51.0,?,?
+Resources    Asteroid,20951.9,28346.8,-59.5,Cylinder,pebble.dist,8,674.4,6743.6,0.0,-39.0,?,?
+Resources    Asteroid,10977.1,33394.3,-59.5,Cylinder,pebble.dist,8,843.3,8433.0,0.0,-16.0,?,?
+Resources    Asteroid,-79.3,35557.5,-59.5,Cylinder,pebble.dist,8,784.7,7846.7,0.0,2.0,?,?
+Resources    Asteroid,-10895.3,33394.3,-59.5,Cylinder,pebble.dist,8,811.1,8110.7,0.0,-158.0,?,?
+Resources    Asteroid,-20870.1,28226.6,-59.5,Cylinder,pebble.dist,8,717.6,7175.8,0.0,-141.0,?,?
+Resources    Asteroid,-29162.4,20535.2,-59.5,Cylinder,pebble.dist,8,718.1,7180.9,0.0,-125.0,?,?
+Resources    Asteroid,-33969.5,10320.1,-59.5,Cylinder,pebble.dist,8,829.5,8295.4,0.0,-106.0,?,?
+Resources    Asteroid,-1234.9,-16880.1,-60.0,Sphere,Boomer.dist,8,2000.0,4000.0,0.0,-90.0,?,?
+Resources    Asteroid,-1408.7,29737.6,297.8,Cylinder,pebble.dist,8,512.6,11317.2,0.0,59.0,?,?
+Resources    Asteroid,-4785.5,18640.5,297.8,Cylinder,pebble.dist,8,512.6,11317.2,0.0,86.0,?,?
+Resources    Asteroid,-3438.1,7484.3,297.8,Cylinder,Boomer.dist,8,512.6,11317.2,0.0,108.0,?,?
+Resources    Asteroid,1785.2,-29406.1,297.8,Cylinder,pebble.dist,8,512.6,11317.2,0.0,-112.0,?,?
+Resources    Asteroid,4357.9,-17987.8,297.8,Cylinder,pebble.dist,8,512.6,11317.2,0.0,-92.0,?,?
+Resources    Asteroid,1777.8,-6299.8,297.8,Cylinder,Boomer.dist,8,512.6,11317.2,0.0,-69.0,?,?
+Resources    Asteroid,587.2,-54946.3,297.8,Sphere,Boomer.dist,8,2000.0,4000.0,0.0,-143.0,?,?
+Resources    Asteroid,-260.3,56262.1,297.8,Sphere,Boomer.dist,8,2000.0,4000.0,0.0,-90.0,?,?
+Resources    Asteroid,-35048.4,702.2,297.8,Sphere,Boomer.dist,8,2000.0,4000.0,0.0,-90.0,?,?
+Resources    Asteroid,17857.1,30475.6,297.8,Sphere,Boomer.dist,8,2000.0,4000.0,0.0,-90.0,?,?
+Resources    Asteroid,36353.6,-364.4,297.8,Sphere,Boomer.dist,8,2000.0,4000.0,0.0,-90.0,?,?
+Resources    Asteroid,-1227.0,-64.0,298.0,Cylinder,Boomer.dist,8,2000.0,20000.0,90.0,135.0,?,?
+Resources    Asteroid,429.5,16482.7,-645.6,Sphere,Boomer.dist,8,2000.0,4000.0,0.0,-90.0,?,?
+

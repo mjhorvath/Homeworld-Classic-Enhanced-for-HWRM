@@ -1,0 +1,162 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[Power Lines (2-6)]],
+	[[AUTHOR	: Flashs-&A&o&D]],
+	[[VERSION	 : 1.0 (June 10 2001)]],
+}
+
+LevelName = [[Powerlines (2-6)]]
+LevelFile = [[Powerline4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez09_btg"
+LevelMusic = "3"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-60000, 0, 0, 0,},
+	{-30000, -55000, 0, 60,},
+	{60000, 0, 0, -180,},
+	{30000, 55000, 0, -120,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-30000, -55000, 0,}, 1, {0, 0, 60,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-60000, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {60000, 0, 0,}, 2, {0, 0, -180,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {30000, 55000, 0,}, 3, {0, 0, -120,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid2 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 2,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	dust2 =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 0,
+	},
+	asteroid1 =
+	{
+		asteroid0 = 1,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 3,
+		asteroid4 = 3,
+	},
+	dust1 =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 3,
+		dustcloud3 = 3,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{30000, -20000, 0,}, "cylinder", "asteroid2", 15, 1000, 40000, 0, -30,},
+	{{-30000, -20000, 0,}, "cylinder", "asteroid2", 15, 1000, 40000, 0, 30,},
+	{{0, -32500, 0,}, "cylinder", "asteroid2", 15, 1000, 45000, 0, -90,},
+	{{0, 32500, 0,}, "cylinder", "asteroid2", 15, 1000, 45000, 0, -90,},
+	{{30000, 20000, 0,}, "cylinder", "asteroid2", 15, 1000, 40000, 0, 30,},
+	{{-30000, 20000, 0,}, "cylinder", "asteroid2", 15, 1000, 40000, 0, -30,},
+	{{-30000, 20000, 5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, -30,},
+	{{30000, 20000, 5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, 30,},
+	{{0, 32500, 5000,}, "cylinder", "dust2", 15, 1000, 45000, 0, -90,},
+	{{0, -32500, 5000,}, "cylinder", "dust2", 15, 1000, 45000, 0, -90,},
+	{{-30000, -20000, 5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, 30,},
+	{{30000, -20000, 5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, -30,},
+	{{30000, -20000, -5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, -30,},
+	{{-30000, -20000, -5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, 30,},
+	{{0, -32500, -5000,}, "cylinder", "dust2", 15, 1000, 45000, 0, -90,},
+	{{0, 32500, -5000,}, "cylinder", "dust2", 15, 1000, 45000, 0, -90,},
+	{{30000, 20000, -5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, 30,},
+	{{-30000, 20000, -5000,}, "cylinder", "dust2", 15, 1000, 40000, 0, -30,},
+	{{0, 0, 0,}, "sphere", "asteroid1", 50, 10000.0, 30000, 0, 0,},
+	{{0, 0, 5000,}, "sphere", "dust1", 50, 10000.0, 30000, 0, 0,},
+	{{0, 0, -5000,}, "sphere", "dust1", 50, 10000.0, 30000, 0, 0,},
+	{{-50000, 0, 0,}, "cylinder", "asteroid2", 20, 500, 60000, 0, -90,},
+	{{-25000, -45000, 0,}, "cylinder", "asteroid2", 20, 500, 55000, 0, -30,},
+	{{25000, -45000, 0,}, "cylinder", "asteroid2", 20, 500, 55000, 0, 30,},
+	{{-25000, 45000, 0,}, "cylinder", "asteroid2", 20, 500, 55000, 0, 30,},
+	{{25000, 45000, 0,}, "cylinder", "asteroid2", 20, 500, 55000, 0, -30,},
+	{{50000, 0, 5000,}, "cylinder", "dust2", 20, 500, 60000, 0, -90,},
+	{{50000, 0, 0,}, "cylinder", "asteroid2", 20, 500, 60000, 0, -90,},
+	{{50000, 0, -5000,}, "cylinder", "dust2", 20, 500, 60000, 0, -90,},
+	{{-50000, 0, 5000,}, "cylinder", "dust2", 20, 500, 60000, 0, -90,},
+	{{-50000, 0, -5000,}, "cylinder", "dust2", 20, 500, 60000, 0, -90,},
+	{{-25000, -45000, 5000,}, "cylinder", "dust2", 20, 500, 55000, 0, -30,},
+	{{-25000, -45000, -5000,}, "cylinder", "dust2", 20, 500, 55000, 0, -30,},
+	{{25000, -45000, 5000,}, "cylinder", "dust2", 20, 500, 55000, 0, 30,},
+	{{25000, -45000, -5000,}, "cylinder", "dust2", 20, 500, 55000, 0, 30,},
+	{{-25000, 45000, -5000,}, "cylinder", "dust2", 20, 500, 55000, 0, 30,},
+	{{-25000, 45000, 5000,}, "cylinder", "dust2", 20, 500, 55000, 0, 30,},
+	{{25000, 45000, 5000,}, "cylinder", "dust2", 20, 500, 55000, 0, -30,},
+	{{25000, 45000, -5000,}, "cylinder", "dust2", 20, 500, 55000, 0, -30,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,322 @@
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+;30-290,,,,,,,,,,,,
+Resources    Asteroid,32501,285060,18764,Cylinder,Tiny.dist,10,5000,75706,-29.71741572,-8.6417699,     ?,     ?
+Resources    Asteroid,95289,265634,55015,Cylinder,Tiny.dist,10,5000,75706,-27.51307188,-25.55980341,     ?,     ?
+Resources    Asteroid,151583,228105,87516,Cylinder,Tiny.dist,10,5000,75706,-23.36841967,-41.54054935,     ?,     ?
+Resources    Asteroid,197546,175032,114053,Cylinder,Tiny.dist,10,5000,75706,-17.72160317,-56.39513535,     ?,     ?
+Resources    Asteroid,230047,110030,132818,Cylinder,Tiny.dist,10,5000,75706,-11.03043729,-70.26620472,     ?,     ?
+Resources    Asteroid,246871,37529,142531,Cylinder,Tiny.dist,10,5000,75706,-3.740928974,-83.49383021,     ?,     ?
+Resources    Asteroid,-32501,-285060,-18764,Cylinder,Tiny.dist,10,5000,75706,-29.71741572,-8.6417699,     ?,     ?
+Resources    Asteroid,-95289,-265634,-55015,Cylinder,Tiny.dist,10,5000,75706,-27.51307188,-25.55980341,     ?,     ?
+Resources    Asteroid,-151583,-228105,-87516,Cylinder,Tiny.dist,10,5000,75706,-23.36841967,-41.54054935,     ?,     ?
+Resources    Asteroid,-197546,-175032,-114053,Cylinder,Tiny.dist,10,5000,75706,-17.72160317,-56.39513535,     ?,     ?
+Resources    Asteroid,-230047,-110030,-132818,Cylinder,Tiny.dist,10,5000,75706,-11.03043729,-70.26620472,     ?,     ?
+Resources    Asteroid,-246871,-37529,-142531,Cylinder,Tiny.dist,10,5000,75706,-3.740928974,-83.49383021,     ?,     ?
+Resources    Asteroid,32501,-285060,18764,Cylinder,Tiny.dist,10,5000,75706,-29.71741572,8.6417699,     ?,     ?
+Resources    Asteroid,95289,-265634,55015,Cylinder,Tiny.dist,10,5000,75706,-27.51307188,25.55980341,     ?,     ?
+Resources    Asteroid,151583,-228105,87516,Cylinder,Tiny.dist,10,5000,75706,-23.36841967,41.54054935,     ?,     ?,
+Resources    Asteroid,197546,-175032,114053,Cylinder,Tiny.dist,10,5000,75706,-17.72160317,56.39513535,     ?,     ?,
+Resources    Asteroid,230047,-110030,132818,Cylinder,Tiny.dist,10,5000,75706,-11.03043729,70.26620472,     ?,     ?,
+Resources    Asteroid,246871,-37529,142531,Cylinder,Tiny.dist,10,5000,75706,-3.740928974,83.49383021,     ?,     ?,
+Resources    Asteroid,-32501,285060,-18764,Cylinder,Tiny.dist,10,5000,75706,-29.71741572,8.6417699,     ?,     ?,
+Resources    Asteroid,-95289,265634,-55015,Cylinder,Tiny.dist,10,5000,75706,-27.51307188,25.55980341,     ?,     ?,
+Resources    Asteroid,-151583,228105,-87516,Cylinder,Tiny.dist,10,5000,75706,-23.36841967,41.54054935,     ?,     ?,
+Resources    Asteroid,-197546,175032,-114053,Cylinder,Tiny.dist,10,5000,75706,-17.72160317,56.39513535,     ?,     ?,
+Resources    Asteroid,-230047,110030,-132818,Cylinder,Tiny.dist,10,5000,75706,-11.03043729,70.26620472,     ?,     ?,
+Resources    Asteroid,-246871,37529,-142531,Cylinder,Tiny.dist,10,5000,75706,-3.740928974,83.49383021,     ?,     ?,
+
+;,;30-300,,,,,,,,,,,,
+;,Resources    Asteroid,33622,294889,19412,Cylinder,Tiny.dist,10,5000,78317,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,98575,274793,56912,Cylinder,Tiny.dist,10,5000,78317,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,156811,235970,90535,Cylinder,Tiny.dist,10,5000,78317,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,204360,181066,117987,Cylinder,Tiny.dist,10,5000,78317,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,237982,113822,137399,Cylinder,Tiny.dist,10,5000,78317,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,255386,38821,147447,Cylinder,Tiny.dist,10,5000,78317,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,-33622,-294889,-19412,Cylinder,Tiny.dist,10,5000,78317,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,-98575,-274793,-56912,Cylinder,Tiny.dist,10,5000,78317,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,-156811,-235970,-90535,Cylinder,Tiny.dist,10,5000,78317,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,-204360,-181066,-117987,Cylinder,Tiny.dist,10,5000,78317,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,-237982,-113822,-137399,Cylinder,Tiny.dist,10,5000,78317,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,-255386,-38821,-147447,Cylinder,Tiny.dist,10,5000,78317,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,33622,-294889,19412,Cylinder,Tiny.dist,10,5000,78317,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,98575,-274793,56912,Cylinder,Tiny.dist,10,5000,78317,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,156811,-235970,90535,Cylinder,Tiny.dist,10,5000,78317,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,204360,-181066,117987,Cylinder,Tiny.dist,10,5000,78317,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,237982,-113822,137399,Cylinder,Tiny.dist,10,5000,78317,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,255386,-38821,147447,Cylinder,Tiny.dist,10,5000,78317,-3.740928974,83.49383021,     ?,     ?
+;,Resources    Asteroid,-33622,294889,-19412,Cylinder,Tiny.dist,10,5000,78317,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,-98575,274793,-56912,Cylinder,Tiny.dist,10,5000,78317,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,-156811,235970,-90535,Cylinder,Tiny.dist,10,5000,78317,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,-204360,181066,-117987,Cylinder,Tiny.dist,10,5000,78317,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,-237982,113822,-137399,Cylinder,Tiny.dist,10,5000,78317,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,-255386,38821,-147447,Cylinder,Tiny.dist,10,5000,78317,-3.740928974,83.49383021,     ?,     ?
+
+;30-310 Missing Ring,,,,,,,,,,,,,
+
+;,;30-320,,,,,,,,,,,,
+;,Resources    Asteroid,35864,314549,20706,Cylinder,Tiny.dist,10,5000,83538,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,105147,293113,60707,Cylinder,Tiny.dist,10,5000,83538,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,167264,251702,96570,Cylinder,Tiny.dist,10,5000,83538,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,217983,193138,125853,Cylinder,Tiny.dist,10,5000,83538,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,253846,121411,146558,Cylinder,Tiny.dist,10,5000,83538,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,272411,41410,157277,Cylinder,Tiny.dist,10,5000,83538,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,-35864,-314549,-20706,Cylinder,Tiny.dist,10,5000,83538,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,-105147,-293113,-60707,Cylinder,Tiny.dist,10,5000,83538,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,-167264,-251702,-96570,Cylinder,Tiny.dist,10,5000,83538,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,-217983,-193138,-125853,Cylinder,Tiny.dist,10,5000,83538,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,-253846,-121411,-146558,Cylinder,Tiny.dist,10,5000,83538,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,-272411,-41410,-157277,Cylinder,Tiny.dist,10,5000,83538,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,35864,-314549,20706,Cylinder,Tiny.dist,10,5000,83538,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,105147,-293113,60707,Cylinder,Tiny.dist,10,5000,83538,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,167264,-251702,96570,Cylinder,Tiny.dist,10,5000,83538,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,217983,-193138,125853,Cylinder,Tiny.dist,10,5000,83538,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,253846,-121411,146558,Cylinder,Tiny.dist,10,5000,83538,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,272411,-41410,157277,Cylinder,Tiny.dist,10,5000,83538,-3.740928974,83.49383021,     ?,     ?
+;,Resources    Asteroid,-35864,314549,-20706,Cylinder,Tiny.dist,10,5000,83538,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,-105147,293113,-60707,Cylinder,Tiny.dist,10,5000,83538,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,-167264,251702,-96570,Cylinder,Tiny.dist,10,5000,83538,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,-217983,193138,-125853,Cylinder,Tiny.dist,10,5000,83538,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,-253846,121411,-146558,Cylinder,Tiny.dist,10,5000,83538,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,-272411,41410,-157277,Cylinder,Tiny.dist,10,5000,83538,-3.740928974,83.49383021,     ?,     ?
+
+;30-330,,,,,,,,,,,,
+;7th Planet,,,,,,,,,,,,
+Resources    Asteroid,-261777,-125206,-151137,Cylinder,Tiny.dist,100,2000,4000,0,0,?,?
+Resources    Asteroid,-261777,-125206,-151137,Cylinder,Tiny.dist,100,2000,4000,45,45,?,?
+Resources    DustCloud,-261777,-125206,-151137,Cylinder,DustCloud.dist,20,2000,4000,0,0,?,?
+Resources    DustCloud,-261777,-125206,-151137,Cylinder,DustCloud.dist,20,2000,4000,45,45,?,?
+;7th PlanetTrailing,,,,,,,,,,,,
+Resources    Asteroid,-224793,-199174,-129784,Cylinder,Tiny.dist,15,1500,86148,-17.72160317,-56.39513535,     ?,     ?
+Resources    Asteroid,-261777,-125206,-151137,Cylinder,Tiny.dist,30,3000,86148,-11.03043729,-70.26620472,     ?,     ?
+Resources    Asteroid,-280921,-42706,-162190,Cylinder,Tiny.dist,15,1500,86148,-3.740928974,-83.49383021,     ?,     ?
+Resources    DustCloud,-224793,-199174,-129784,Cylinder,DustCloud.dist,10,1500,86148,-17.72160317,-56.39513535,?,?
+Resources    DustCloud,-261777,-125206,-151137,Cylinder,DustCloud.dist,15,3000,86148,-11.03043729,-70.26620472,?,?
+Resources    DustCloud,-280921,-42706,-162190,Cylinder,DustCloud.dist,10,1500,86148,-3.740928974,-83.49383021,?,?
+
+;,;30-340,,,,,,,,,,,
+;,Resources    Asteroid,38105,334208,22000,Cylinder,Tiny.dist,7,5000,88759,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,111718,311432,64500,Cylinder,Tiny.dist,7,5000,88759,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,177718,267433,102606,Cylinder,Tiny.dist,7,5000,88759,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,231606,205208,133718,Cylinder,Tiny.dist,7,5000,88759,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,269711,128998,155718,Cylinder,Tiny.dist,7,5000,88759,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,289436,43998,167106,Cylinder,Tiny.dist,7,5000,88759,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,-38105,-334208,-22000,Cylinder,Tiny.dist,7,5000,88759,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,-111718,-311432,-64500,Cylinder,Tiny.dist,7,5000,88759,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,-177718,-267433,-102606,Cylinder,Tiny.dist,7,5000,88759,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,-231606,-205208,-133718,Cylinder,Tiny.dist,7,5000,88759,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,-269711,-128998,-155718,Cylinder,Tiny.dist,7,5000,88759,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,-289436,-43998,-167106,Cylinder,Tiny.dist,7,5000,88759,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,38105,-334208,22000,Cylinder,Tiny.dist,7,5000,88759,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,111718,-311432,64500,Cylinder,Tiny.dist,7,5000,88759,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,177718,-267433,102606,Cylinder,Tiny.dist,7,5000,88759,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,231606,-205208,133718,Cylinder,Tiny.dist,7,5000,88759,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,269711,-128998,155718,Cylinder,Tiny.dist,7,5000,88759,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,289436,-43998,167106,Cylinder,Tiny.dist,7,5000,88759,-3.740928974,83.49383021,     ?,     ?
+;,Resources    Asteroid,-38105,334208,-22000,Cylinder,Tiny.dist,7,5000,88759,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,-111718,311432,-64500,Cylinder,Tiny.dist,7,5000,88759,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,-177718,267433,-102606,Cylinder,Tiny.dist,7,5000,88759,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,-231606,205208,-133718,Cylinder,Tiny.dist,7,5000,88759,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,-269711,128998,-155718,Cylinder,Tiny.dist,7,5000,88759,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,-289436,43998,-167106,Cylinder,Tiny.dist,7,5000,88759,-3.740928974,83.49383021,     ?,     ?
+;,,,,,,,,,,,,,
+;30-350,,,,,,,,,,,,,
+Resources    Asteroid,39226,344037,22647,Cylinder,Tiny.dist,7,5000,91369,-29.71741572,-8.6417699,     ?,     ?,
+Resources    Asteroid,115004,320592,66398,Cylinder,Tiny.dist,7,5000,91369,-27.51307188,-25.55980341,     ?,     ?,
+Resources    Asteroid,182944,275299,105623,Cylinder,Tiny.dist,7,5000,91369,-23.36841967,-41.54054935,     ?,     ?,
+Resources    Asteroid,238417,211245,137650,Cylinder,Tiny.dist,7,5000,91369,-17.72160317,-56.39513535,     ?,     ?,
+Resources    Asteroid,277643,132795,160297,Cylinder,Tiny.dist,7,5000,91369,-11.03043729,-70.26620472,     ?,     ?,
+Resources    Asteroid,297947,45295,172020,Cylinder,Tiny.dist,7,5000,91369,-3.740928974,-83.49383021,     ?,     ?,
+Resources    Asteroid,-39226,-344037,-22647,Cylinder,Tiny.dist,7,5000,91369,-29.71741572,-8.6417699,     ?,     ?
+Resources    Asteroid,-115004,-320592,-66398,Cylinder,Tiny.dist,7,5000,91369,-27.51307188,-25.55980341,     ?,     ?
+Resources    Asteroid,-182944,-275299,-105623,Cylinder,Tiny.dist,7,5000,91369,-23.36841967,-41.54054935,     ?,     ?
+Resources    Asteroid,-238417,-211245,-137650,Cylinder,Tiny.dist,7,5000,91369,-17.72160317,-56.39513535,     ?,     ?
+Resources    Asteroid,-277643,-132795,-160297,Cylinder,Tiny.dist,7,5000,91369,-11.03043729,-70.26620472,     ?,     ?
+Resources    Asteroid,-297947,-45295,-172020,Cylinder,Tiny.dist,7,5000,91369,-3.740928974,-83.49383021,     ?,     ?
+Resources    Asteroid,39226,-344037,22647,Cylinder,Tiny.dist,7,5000,91369,-29.71741572,8.6417699,     ?,     ?
+Resources    Asteroid,115004,-320592,66398,Cylinder,Tiny.dist,7,5000,91369,-27.51307188,25.55980341,     ?,     ?
+Resources    Asteroid,182944,-275299,105623,Cylinder,Tiny.dist,7,5000,91369,-23.36841967,41.54054935,     ?,     ?
+Resources    Asteroid,238417,-211245,137650,Cylinder,Tiny.dist,7,5000,91369,-17.72160317,56.39513535,     ?,     ?
+Resources    Asteroid,277643,-132795,160297,Cylinder,Tiny.dist,7,5000,91369,-11.03043729,70.26620472,     ?,     ?
+Resources    Asteroid,297947,-45295,172020,Cylinder,Tiny.dist,7,5000,91369,-3.740928974,83.49383021,     ?,     ?
+Resources    Asteroid,-39226,344037,-22647,Cylinder,Tiny.dist,7,5000,91369,-29.71741572,8.6417699,     ?,     ?
+Resources    Asteroid,-115004,320592,-66398,Cylinder,Tiny.dist,7,5000,91369,-27.51307188,25.55980341,     ?,     ?
+Resources    Asteroid,-182944,275299,-105623,Cylinder,Tiny.dist,7,5000,91369,-23.36841967,41.54054935,     ?,     ?
+Resources    Asteroid,-238417,211245,-137650,Cylinder,Tiny.dist,7,5000,91369,-17.72160317,56.39513535,     ?,     ?
+Resources    Asteroid,-277643,132795,-160297,Cylinder,Tiny.dist,7,5000,91369,-11.03043729,70.26620472,     ?,     ?,
+Resources    Asteroid,-297947,45295,-172020,Cylinder,Tiny.dist,7,5000,91369,-3.740928974,83.49383021,     ?,     ?,
+;,,,,,,,,,,,,,
+;,;30-360,,,,,,,,,,,,
+;,Resources    Asteroid,40347,353867,23294,Cylinder,Tiny.dist,7,5000,93980,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,118290,329752,68295,Cylinder,Tiny.dist,7,5000,93980,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,188172,283165,108641,Cylinder,Tiny.dist,7,5000,93980,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,245231,217280,141584,Cylinder,Tiny.dist,7,5000,93980,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,285577,136587,164878,Cylinder,Tiny.dist,7,5000,93980,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,306462,46587,176936,Cylinder,Tiny.dist,7,5000,93980,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,-40347,-353867,-23294,Cylinder,Tiny.dist,7,5000,93980,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,-118290,-329752,-68295,Cylinder,Tiny.dist,7,5000,93980,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,-188172,-283165,-108641,Cylinder,Tiny.dist,7,5000,93980,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,-245231,-217280,-141584,Cylinder,Tiny.dist,7,5000,93980,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,-285577,-136587,-164878,Cylinder,Tiny.dist,7,5000,93980,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,-306462,-46587,-176936,Cylinder,Tiny.dist,7,5000,93980,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,40347,-353867,23294,Cylinder,Tiny.dist,7,5000,93980,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,118290,-329752,68295,Cylinder,Tiny.dist,7,5000,93980,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,188172,-283165,108641,Cylinder,Tiny.dist,7,5000,93980,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,245231,-217280,141584,Cylinder,Tiny.dist,7,5000,93980,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,285577,-136587,164878,Cylinder,Tiny.dist,7,5000,93980,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,306462,-46587,176936,Cylinder,Tiny.dist,7,5000,93980,-3.740928974,83.49383021,     ?,     ?
+;,Resources    Asteroid,-40347,353867,-23294,Cylinder,Tiny.dist,7,5000,93980,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,-118290,329752,-68295,Cylinder,Tiny.dist,7,5000,93980,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,-188172,283165,-108641,Cylinder,Tiny.dist,7,5000,93980,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,-245231,217280,-141584,Cylinder,Tiny.dist,7,5000,93980,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,-285577,136587,-164878,Cylinder,Tiny.dist,7,5000,93980,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,-306462,46587,-176936,Cylinder,Tiny.dist,7,5000,93980,-3.740928974,83.49383021,     ?,     ?
+;,,,,,,,,,,,,,
+;,;30-370,,,,,,,,,,,,
+;,Resources    Asteroid,41467,363697,23941,Cylinder,Tiny.dist,7,5000,96590,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,121575,338912,70191,Cylinder,Tiny.dist,7,5000,96590,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,193398,291030,111658,Cylinder,Tiny.dist,7,5000,96590,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,252042,223316,145517,Cylinder,Tiny.dist,7,5000,96590,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,293509,140383,169458,Cylinder,Tiny.dist,7,5000,96590,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,314973,47883,181850,Cylinder,Tiny.dist,7,5000,96590,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,-41467,-363697,-23941,Cylinder,Tiny.dist,7,5000,96590,-29.71741572,-8.6417699,     ?,     ?
+;,Resources    Asteroid,-121575,-338912,-70191,Cylinder,Tiny.dist,7,5000,96590,-27.51307188,-25.55980341,     ?,     ?
+;,Resources    Asteroid,-193398,-291030,-111658,Cylinder,Tiny.dist,7,5000,96590,-23.36841967,-41.54054935,     ?,     ?
+;,Resources    Asteroid,-252042,-223316,-145517,Cylinder,Tiny.dist,7,5000,96590,-17.72160317,-56.39513535,     ?,     ?
+;,Resources    Asteroid,-293509,-140383,-169458,Cylinder,Tiny.dist,7,5000,96590,-11.03043729,-70.26620472,     ?,     ?
+;,Resources    Asteroid,-314973,-47883,-181850,Cylinder,Tiny.dist,7,5000,96590,-3.740928974,-83.49383021,     ?,     ?
+;,Resources    Asteroid,41467,-363697,23941,Cylinder,Tiny.dist,7,5000,96590,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,121575,-338912,70191,Cylinder,Tiny.dist,7,5000,96590,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,193398,-291030,111658,Cylinder,Tiny.dist,7,5000,96590,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,252042,-223316,145517,Cylinder,Tiny.dist,7,5000,96590,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,293509,-140383,169458,Cylinder,Tiny.dist,7,5000,96590,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,314973,-47883,181850,Cylinder,Tiny.dist,7,5000,96590,-3.740928974,83.49383021,     ?,     ?
+;,Resources    Asteroid,-41467,363697,-23941,Cylinder,Tiny.dist,7,5000,96590,-29.71741572,8.6417699,     ?,     ?
+;,Resources    Asteroid,-121575,338912,-70191,Cylinder,Tiny.dist,7,5000,96590,-27.51307188,25.55980341,     ?,     ?
+;,Resources    Asteroid,-193398,291030,-111658,Cylinder,Tiny.dist,7,5000,96590,-23.36841967,41.54054935,     ?,     ?
+;,Resources    Asteroid,-252042,223316,-145517,Cylinder,Tiny.dist,7,5000,96590,-17.72160317,56.39513535,     ?,     ?
+;,Resources    Asteroid,-293509,140383,-169458,Cylinder,Tiny.dist,7,5000,96590,-11.03043729,70.26620472,     ?,     ?
+;,Resources    Asteroid,-314973,47883,-181850,Cylinder,Tiny.dist,7,5000,96590,-3.740928974,83.49383021,     ?,     ?
+
+;30-380 Missing Ring,,,,,,,,,,,,,
+
+;30-390,,,,,,,,,,,,,
+Resources    Asteroid,43709,383356,25235,Cylinder,Tiny.dist,7,5000,101812,-29.71741572,-8.6417699,     ?,     ?,
+Resources    Asteroid,128147,357231,73986,Cylinder,Tiny.dist,7,5000,101812,-27.51307188,-25.55980341,     ?,     ?,
+Resources    Asteroid,203853,306761,117695,Cylinder,Tiny.dist,7,5000,101812,-23.36841967,-41.54054935,     ?,     ?,
+Resources    Asteroid,265666,235385,153382,Cylinder,Tiny.dist,7,5000,101812,-17.72160317,-56.39513535,     ?,     ?,
+Resources    Asteroid,309375,147968,178618,Cylinder,Tiny.dist,7,5000,101812,-11.03043729,-70.26620472,     ?,     ?,
+Resources    Asteroid,332001,50467,191681,Cylinder,Tiny.dist,7,5000,101812,-3.740928974,-83.49383021,     ?,     ?,
+Resources    Asteroid,-43709,-383356,-25235,Cylinder,Tiny.dist,7,5000,101812,-29.71741572,-8.6417699,     ?,     ?
+Resources    Asteroid,-128147,-357231,-73986,Cylinder,Tiny.dist,7,5000,101812,-27.51307188,-25.55980341,     ?,     ?
+Resources    Asteroid,-203853,-306761,-117695,Cylinder,Tiny.dist,7,5000,101812,-23.36841967,-41.54054935,     ?,     ?
+Resources    Asteroid,-265666,-235385,-153382,Cylinder,Tiny.dist,7,5000,101812,-17.72160317,-56.39513535,     ?,     ?
+Resources    Asteroid,-309375,-147968,-178618,Cylinder,Tiny.dist,7,5000,101812,-11.03043729,-70.26620472,     ?,     ?
+Resources    Asteroid,-332001,-50467,-191681,Cylinder,Tiny.dist,7,5000,101812,-3.740928974,-83.49383021,     ?,     ?
+Resources    Asteroid,43709,-383356,25235,Cylinder,Tiny.dist,7,5000,101812,-29.71741572,8.6417699,     ?,     ?
+Resources    Asteroid,128147,-357231,73986,Cylinder,Tiny.dist,7,5000,101812,-27.51307188,25.55980341,     ?,     ?
+Resources    Asteroid,203853,-306761,117695,Cylinder,Tiny.dist,7,5000,101812,-23.36841967,41.54054935,     ?,     ?
+Resources    Asteroid,265666,-235385,153382,Cylinder,Tiny.dist,7,5000,101812,-17.72160317,56.39513535,     ?,     ?
+Resources    Asteroid,309375,-147968,178618,Cylinder,Tiny.dist,7,5000,101812,-11.03043729,70.26620472,     ?,     ?
+Resources    Asteroid,332001,-50467,191681,Cylinder,Tiny.dist,7,5000,101812,-3.740928974,83.49383021,     ?,     ?
+Resources    Asteroid,-43709,383356,-25235,Cylinder,Tiny.dist,7,5000,101812,-29.71741572,8.6417699,     ?,     ?
+Resources    Asteroid,-128147,357231,-73986,Cylinder,Tiny.dist,7,5000,101812,-27.51307188,25.55980341,     ?,     ?
+Resources    Asteroid,-203853,306761,-117695,Cylinder,Tiny.dist,7,5000,101812,-23.36841967,41.54054935,     ?,     ?
+Resources    Asteroid,-265666,235385,-153382,Cylinder,Tiny.dist,7,5000,101812,-17.72160317,56.39513535,     ?,     ?
+Resources    Asteroid,-309375,147968,-178618,Cylinder,Tiny.dist,7,5000,101812,-11.03043729,70.26620472,     ?,     ?
+Resources    Asteroid,-332001,50467,-191681,Cylinder,Tiny.dist,7,5000,101812,-3.740928974,83.49383021,     ?,     ?
+
+;30-400,,,,,,,,,,,,
+Resources    Asteroid,44829,393186,25882,Cylinder,Tiny.dist,7,5000,104422,-29.71741572,-8.6417699,     ?,     ?
+Resources    Asteroid,131432,366391,75882,Cylinder,Tiny.dist,7,5000,104422,-27.51307188,-25.55980341,     ?,     ?
+Resources    Asteroid,209079,314627,120712,Cylinder,Tiny.dist,7,5000,104422,-23.36841967,-41.54054935,     ?,     ?
+Resources    Asteroid,272477,241422,157315,Cylinder,Tiny.dist,7,5000,104422,-17.72160317,-56.39513535,     ?,     ?
+Resources    Asteroid,317307,151764,183197,Cylinder,Tiny.dist,7,5000,104422,-11.03043729,-70.26620472,     ?,     ?
+Resources    Asteroid,340512,51763,196595,Cylinder,Tiny.dist,7,5000,104422,-3.740928974,-83.49383021,     ?,     ?
+Resources    Asteroid,-44829,-393186,-25882,Cylinder,Tiny.dist,7,5000,104422,-29.71741572,-8.6417699,     ?,     ?
+Resources    Asteroid,-131432,-366391,-75882,Cylinder,Tiny.dist,7,5000,104422,-27.51307188,-25.55980341,     ?,     ?
+Resources    Asteroid,-209079,-314627,-120712,Cylinder,Tiny.dist,7,5000,104422,-23.36841967,-41.54054935,     ?,     ?
+Resources    Asteroid,-272477,-241422,-157315,Cylinder,Tiny.dist,7,5000,104422,-17.72160317,-56.39513535,     ?,     ?
+Resources    Asteroid,-317307,-151764,-183197,Cylinder,Tiny.dist,7,5000,104422,-11.03043729,-70.26620472,     ?,     ?
+Resources    Asteroid,-340512,-51763,-196595,Cylinder,Tiny.dist,7,5000,104422,-3.740928974,-83.49383021,     ?,     ?
+Resources    Asteroid,44829,-393186,25882,Cylinder,Tiny.dist,7,5000,104422,-29.71741572,8.6417699,     ?,     ?
+Resources    Asteroid,131432,-366391,75882,Cylinder,Tiny.dist,7,5000,104422,-27.51307188,25.55980341,     ?,     ?
+Resources    Asteroid,209079,-314627,120712,Cylinder,Tiny.dist,7,5000,104422,-23.36841967,41.54054935,     ?,     ?
+Resources    Asteroid,272477,-241422,157315,Cylinder,Tiny.dist,7,5000,104422,-17.72160317,56.39513535,     ?,     ?
+Resources    Asteroid,317307,-151764,183197,Cylinder,Tiny.dist,7,5000,104422,-11.03043729,70.26620472,     ?,     ?
+Resources    Asteroid,340512,-51763,196595,Cylinder,Tiny.dist,7,5000,104422,-3.740928974,83.49383021,     ?,     ?
+Resources    Asteroid,-44829,393186,-25882,Cylinder,Tiny.dist,7,5000,104422,-29.71741572,8.6417699,     ?,     ?
+Resources    Asteroid,-131432,366391,-75882,Cylinder,Tiny.dist,7,5000,104422,-27.51307188,25.55980341,     ?,     ?
+Resources    Asteroid,-209079,314627,-120712,Cylinder,Tiny.dist,7,5000,104422,-23.36841967,41.54054935,     ?,     ?
+Resources    Asteroid,-272477,241422,-157315,Cylinder,Tiny.dist,7,5000,104422,-17.72160317,56.39513535,     ?,     ?
+Resources    Asteroid,-317307,151764,-183197,Cylinder,Tiny.dist,7,5000,104422,-11.03043729,70.26620472,     ?,     ?
+Resources    Asteroid,-340512,51763,-196595,Cylinder,Tiny.dist,7,5000,104422,-3.740928974,83.49383021,     ?,     ?
+
+;30-390 Cloud,,,,,,,,,,,,
+Resources    DustCloud,43709,383356,25235,Cylinder,DustCloud.dist,5,5000,127917,-29.71741572,-8.6417699,2408,1
+Resources    DustCloud,128147,357231,73986,Cylinder,DustCloud.dist,5,5000,127917,-27.51307188,-25.55980341,2408,1
+Resources    DustCloud,309375,147968,178618,Cylinder,DustCloud.dist,5,5000,127917,-11.03043729,-70.26620472,2408,1
+Resources    DustCloud,332001,50467,191681,Cylinder,DustCloud.dist,5,5000,127917,-3.740928974,-83.49383021,2408,1
+Resources    DustCloud,-43709,-383356,-25235,Cylinder,DustCloud.dist,5,5000,127917,-29.71741572,-8.6417699,2408,1
+Resources    DustCloud,-128147,-357231,-73986,Cylinder,DustCloud.dist,5,5000,127917,-27.51307188,-25.55980341,2408,1
+Resources    DustCloud,-203853,-306761,-117695,Cylinder,DustCloud.dist,5,5000,127917,-23.36841967,-41.54054935,2408,1
+Resources    DustCloud,-265666,-235385,-153382,Cylinder,DustCloud.dist,5,5000,127917,-17.72160317,-56.39513535,2408,1
+Resources    DustCloud,-332001,-50467,-191681,Cylinder,DustCloud.dist,5,5000,127917,-11.03043729,-70.26620472,2408,1
+Resources    DustCloud,43709,-383356,25235,Cylinder,DustCloud.dist,5,5000,127917,-3.740928974,-83.49383021,2408,1
+Resources    DustCloud,128147,-357231,73986,Cylinder,DustCloud.dist,5,5000,127917,-27.51307188,25.55980341,2408,1
+Resources    DustCloud,203853,-306761,117695,Cylinder,DustCloud.dist,5,5000,127917,-23.36841967,41.54054935,2408,1
+Resources    DustCloud,309375,-147968,178618,Cylinder,DustCloud.dist,5,5000,127917,-11.03043729,70.26620472,2408,1
+Resources    DustCloud,332001,-50467,191681,Cylinder,DustCloud.dist,5,5000,127917,-3.740928974,83.49383021,2408,1
+Resources    DustCloud,-43709,383356,-25235,Cylinder,DustCloud.dist,5,5000,127917,-29.71741572,8.6417699,2408,1
+Resources    DustCloud,-128147,357231,-73986,Cylinder,DustCloud.dist,5,5000,127917,-27.51307188,25.55980341,2408,1
+Resources    DustCloud,-203853,306761,-117695,Cylinder,DustCloud.dist,5,5000,127917,-23.36841967,41.54054935,2408,1
+Resources    DustCloud,-265666,235385,-153382,Cylinder,DustCloud.dist,5,5000,127917,-11.03043729,70.26620472,2408,1
+Resources    DustCloud,-309375,147968,-178618,Cylinder,DustCloud.dist,5,5000,127917,-3.740928974,83.49383021,2408,1
+
+
+
+;30-400 Eccentric,,,,,,,,,,,,
+Resources    Asteroid,25882,493186,-44829,Cylinder,Tiny.dist,20,5000,104422,59.16111271,-14.75069988,     ?,     ?
+Resources    Asteroid,75883,466391,-131433,Cylinder,Tiny.dist,20,5000,104422,53.14052882,-39.6386811,     ?,     ?
+Resources    Asteroid,120712,414627,-209079,Cylinder,Tiny.dist,20,5000,104422,43.39845035,-56.91104399,     ?,     ?
+Resources    Asteroid,157315,341422,-272478,Cylinder,Tiny.dist,20,5000,104422,31.81628482,-69.0099156,     ?,     ?
+Resources    Asteroid,183197,251764,-317307,Cylinder,Tiny.dist,20,5000,104422,19.35467279,-78.29920151,     ?,     ?
+Resources    Asteroid,196595,151763,-340513,Cylinder,Tiny.dist,20,5000,104422,6.490663849,-86.23378995,     ?,     ?
+Resources    Asteroid,-25882,-293186,44829,Cylinder,Tiny.dist,20,5000,104422,59.16111271,-14.75069988,     ?,     ?
+Resources    Asteroid,-75883,-266391,131433,Cylinder,Tiny.dist,20,5000,104422,53.14052882,-39.6386811,     ?,     ?
+Resources    Asteroid,-120712,-214627,209079,Cylinder,Tiny.dist,20,5000,104422,43.39845035,-56.91104399,     ?,     ?
+Resources    Asteroid,-157315,-141422,272478,Cylinder,Tiny.dist,20,5000,104422,31.81628482,-69.0099156,     ?,     ?
+Resources    Asteroid,-183197,-51764,317307,Cylinder,Tiny.dist,20,5000,104422,19.35467279,-78.29920151,     ?,     ?
+Resources    Asteroid,-196595,48237,340513,Cylinder,Tiny.dist,20,5000,104422,6.490663849,-86.23378995,     ?,     ?
+Resources    Asteroid,25882,-293186,-44829,Cylinder,Tiny.dist,20,5000,104422,59.16111271,14.75069988,     ?,     ?
+Resources    Asteroid,75883,-266391,-131433,Cylinder,Tiny.dist,20,5000,104422,53.14052882,39.6386811,     ?,     ?
+Resources    Asteroid,120712,-214627,-209079,Cylinder,Tiny.dist,20,5000,104422,43.39845035,56.91104399,     ?,     ?
+Resources    Asteroid,157315,-141422,-272478,Cylinder,Tiny.dist,20,5000,104422,31.81628482,69.0099156,     ?,     ?
+Resources    Asteroid,183197,-51764,-317307,Cylinder,Tiny.dist,20,5000,104422,19.35467279,78.29920151,     ?,     ?
+Resources    Asteroid,196595,48237,-340513,Cylinder,Tiny.dist,20,5000,104422,6.490663849,86.23378995,     ?,     ?
+Resources    Asteroid,-25882,493186,44829,Cylinder,Tiny.dist,20,5000,104422,59.16111271,14.75069988,     ?,     ?
+Resources    Asteroid,-75883,466391,131433,Cylinder,Tiny.dist,20,5000,104422,53.14052882,39.6386811,     ?,     ?
+Resources    Asteroid,-120712,414627,209079,Cylinder,Tiny.dist,20,5000,104422,43.39845035,56.91104399,     ?,     ?
+Resources    Asteroid,-157315,341422,272478,Cylinder,Tiny.dist,20,5000,104422,31.81628482,69.0099156,     ?,     ?
+Resources    Asteroid,-183197,251764,317307,Cylinder,Tiny.dist,20,5000,104422,19.35467279,78.29920151,     ?,     ?
+Resources    Asteroid,-196595,151763,340513,Cylinder,Tiny.dist,20,5000,104422,6.490663849,86.23378995,     ?,     ?
+
+;EccentricPlanet,,,,,,,,,,,,
+Resources    Asteroid,-75883,-266391,131433,Cylinder,Tiny.dist,100,2000,4000,0,0,?,?
+Resources    Asteroid,-75883,-266391,131433,Cylinder,Tiny.dist,100,2000,4000,45,45,?,?
+Resources    DustCloud,-75883,-266391,131433,Cylinder,DustCloud.dist,40,2500,5000,0,0,?,?
+Resources    DustCloud,-75883,-266391,131433,Cylinder,DustCloud.dist,35,2500,5000,45,45,?,?
+
+;Outbound Comet Head,,,,,,,,,,,,
+Resources    Asteroid,-140160,75534,-175000,Cylinder,Asteroid.dist,5,1000,2000,0,0,     ?,     ?
+Resources    Asteroid,-140160,75534,-175000,Cylinder,Asteroid.dist,5,1000,2000,45,45,     ?,     ?
+Resources    DustCloud,-140160,75534,-175000,Cylinder,DustCloud.dist,15,1000,2000,0,0,     ?,     ?
+Resources    DustCloud,-140160,75534,-175000,Cylinder,DustCloud.dist,15,1000,2000,45,45,     ?,     ?
+Resources    Asteroid,-140160,75534,-175000,Cylinder,Tiny.dist,50,1000,2000,0,0,     ?,     ?
+Resources    Asteroid,-140160,75534,-175000,Cylinder,Tiny.dist,50,1000,2000,45,45,     ?,     ?
+Resources    Asteroid,-141410,77584,-175000,Cylinder,Tiny.dist,50,1000,2000,0,0,     ?,     ?
+Resources    Asteroid,-141410,77584,-175000,Cylinder,Tiny.dist,50,1000,2000,45,45,     ?,     ?
+Resources    DustCloud,-141410,77584,-175000,Cylinder,DustCloud.dist,10,1000,2000,0,0,     ?,     ?
+Resources    DustCloud,-141410,77584,-175000,Cylinder,DustCloud.dist,10,1000,2000,45,45,     ?,     ?
+;Outbound Comet Tail,,,,,,,,,,,,
+Resources    Asteroid,-165160,118835,-175000,Cylinder,Tiny.dist,75,500,105000,0,-60,     ?,     ?
+Resources    DustCloud,-165160,118835,-175000,Cylinder,DustCloud.dist,20,500,105000,0,-60,     ?,     ?

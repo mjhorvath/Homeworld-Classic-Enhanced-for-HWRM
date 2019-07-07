@@ -1,0 +1,107 @@
+; MissionMan script, Saturday, Oct 16 1999, 3:12:51 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+; Center Sphere of Asteroids
+Resources    Asteroid,0.0,0.0,0.0,Sphere,AsteroidSphere.dist,24,4000.0,8000.0,0.0,0.0,0,?
+
+; Asteroid Spheres radiating out along the 3 axis
+Resources    Asteroid,0.0,15000.0,0.0,Sphere,AsteroidSphere.dist,20,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,30000.0,0.0,Sphere,AsteroidSphere.dist,16,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-15000.0,0.0,Sphere,AsteroidSphere.dist,20,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-30000.0,0.0,Sphere,AsteroidSphere.dist,16,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,15000.0,0.0,0.0,Sphere,AsteroidSphere.dist,20,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,30000.0,0.0,0.0,Sphere,AsteroidSphere.dist,16,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,-15000.0,0.0,0.0,Sphere,AsteroidSphere.dist,20,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,-30000.0,0.0,0.0,Sphere,AsteroidSphere.dist,16,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,15000.0,Sphere,AsteroidSphere.dist,20,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,30000.0,Sphere,AsteroidSphere.dist,16,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-15000.0,Sphere,AsteroidSphere.dist,20,3000.0,6000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,-30000.0,Sphere,AsteroidSphere.dist,16,3000.0,6000.0,0.0,0.0,0,?
+
+; Gasclouds suspended between the asteroid spheres
+Resources    DustCloud,20000.0,20000.0,20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,20000.0,20000.0,-20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,20000.0,-20000.0,20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,20000.0,-20000.0,-20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,-20000.0,20000.0,20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,-20000.0,20000.0,-20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,-20000.0,-20000.0,20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+Resources    DustCloud,-20000.0,-20000.0,-20000.0,Sphere,BigDustCloud.dist,24,5000.0,10000.0,0.0,0.0,2048,0
+
+; Asteroid belts extending along the 3 axis
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidBelt.dist,90,1000.0,60000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidBelt.dist,90,1000.0,60000.0,90.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,AsteroidBelt.dist,90,1000.0,60000.0,0.0,90.0,0,?
+
+; Asteroid belts leading from endpoints to gasclouds
+Resources    Asteroid,10000.0,25000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,-26.6,0,?
+Resources    Asteroid,10000.0,25000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,-26.6,0,?
+Resources    Asteroid,-10000.0,25000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,26.6,0,?
+Resources    Asteroid,-10000.0,25000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,26.6,0,?
+
+Resources    Asteroid,10000.0,-25000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,26.6,0,?
+Resources    Asteroid,10000.0,-25000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,26.6,0,?
+Resources    Asteroid,-10000.0,-25000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,-26.6,0,?
+Resources    Asteroid,-10000.0,-25000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,-26.6,0,?
+
+Resources    Asteroid,25000.0,10000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,116.6,0,?
+Resources    Asteroid,25000.0,10000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,116.6,0,?
+Resources    Asteroid,25000.0,-10000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,-116.6,0,?
+Resources    Asteroid,25000.0,-10000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,-116.6,0,?
+
+Resources    Asteroid,-25000.0,10000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,63.4,0,?
+Resources    Asteroid,-25000.0,10000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,63.4,0,?
+Resources    Asteroid,-25000.0,-10000.0,10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-45.0,-63.4,0,?
+Resources    Asteroid,-25000.0,-10000.0,-10000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,45.0,-63.4,0,?
+
+Resources    Asteroid,10000.0,10000.0,25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,26.6,45.0,0,?
+Resources    Asteroid,10000.0,-10000.0,25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,26.6,-45.0,0,?
+Resources    Asteroid,-10000.0,10000.0,25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,26.6,135.0,0,?
+Resources    Asteroid,-10000.0,-10000.0,25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,26.6,-135.0,0,?
+
+Resources    Asteroid,10000.0,10000.0,-25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-26.6,45.0,0,?
+Resources    Asteroid,10000.0,-10000.0,-25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-26.6,-45.0,0,?
+Resources    Asteroid,-10000.0,10000.0,-25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-26.6,135.0,0,?
+Resources    Asteroid,-10000.0,-10000.0,-25000.0,Cylinder,AsteroidBelt.dist,45,1000.0,30000.0,-26.6,-135.0,0,?
+
+; Finally the gun enplacements (Dustclouds)
+Ships        ,20500.0,20500.0,20500.0,-135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,19500.0,19500.0,19500.0,-135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,20000.0,20000.0,20000.0,-135.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+Ships        ,20500.0,20500.0,-20500.0,-135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,19500.0,19500.0,-19500.0,-135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,20000.0,20000.0,-20000.0,-135.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+Ships        ,-20500.0,20500.0,20500.0,-45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-19500.0,19500.0,19500.0,-45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-20000.0,20000.0,20000.0,-45.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+Ships        ,-20500.0,20500.0,-20500.0,-45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-19500.0,19500.0,-19500.0,-45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-20000.0,20000.0,-20000.0,-45.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+Ships        ,20500.0,-20500.0,20500.0,135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,19500.0,-19500.0,19500.0,135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,20000.0,-20000.0,20000.0,135.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+Ships        ,20500.0,-20500.0,-20500.0,135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,19500.0,-19500.0,-19500.0,135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,20000.0,-20000.0,-20000.0,135.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+Ships        ,-20500.0,-20500.0,20500.0,45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-19500.0,-19500.0,19500.0,45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-20000.0,-20000.0,20000.0,45.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+Ships        ,-20500.0,-20500.0,-20500.0,45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-19500.0,-19500.0,-19500.0,45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-20000.0,-20000.0,-20000.0,45.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+
+; More gun enplacements (center)
+Ships        ,500.0,500.0,500.0,-135.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-500.0,-500.0,-500.0,45.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,500.0,-500.0,500.0,135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-500.0,500.0,500.0,-45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,500.0,-500.0,-500.0,135.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?
+Ships        ,-500.0,500.0,-500.0,-45.0,Traders,Junk_SGun,1,NULL_FORMATION|?|?,0,?

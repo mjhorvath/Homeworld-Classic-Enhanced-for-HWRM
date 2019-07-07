@@ -1,0 +1,169 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"The tube (2 Players)",
+	"",
+	"This is what it sounds like. A tube shaped map. You got a long tube cant move up or down or to the sides yust straight forward to your opponents waiting arms.",
+	"This is a 1v1 map for the brave souls out there.",
+	"",
+	"Settings: Crates off.",
+	"AUTHOR: CroftDAB (croft@telia.com) (http://www.darkangelbattalion.com)",
+	"VERSION: Beta (september 10 2001)",
+}
+
+LevelName = [[The tube (2)]]
+LevelFile = [[The tube 2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {30000, 250000,}
+UniverseSize = {18000, 150000, 15000, }
+
+LevelBackground = "ez02"
+LevelMusic = "-1"
+
+RUsRatio = 1/4
+
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 100000.0, 0.0, -90.0,},
+	{0.0, -100000.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, -100000.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 100000.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 3,
+		asteroid4 = 1,
+	},
+	tiny =
+	{
+		asteroid0 = 15,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 50000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, 50000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, 50000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, 50000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, 50000.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 0.0, 0.0,},
+	{{0.0, 50000.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 45.0, 45.0,},
+	{{0.0, 80000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, -80000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, 80000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, -80000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, 60000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, -60000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, 60000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, -60000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, 90000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, -90000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, 90000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, -90000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, 30000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, -30000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, 30000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, -30000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 45.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 45.0, 45.0,},
+	{{0.0, -50000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 0.0, 0.0,},
+	{{0.0, -50000.0, 0.0,}, "cylinder", "asteroid", 16, 6000.4, 12000.8, 45.0, 45.0,},
+	{{0.0, -50000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 0.0, 0.0,},
+	{{0.0, -50000.0, 0.0,}, "cylinder", "asteroid", 16, 8000.4, 16000.8, 45.0, 45.0,},
+	{{0.0, -50000.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 0.0, 0.0,},
+	{{0.0, -50000.0, 0.0,}, "cylinder", "tiny", 30, 10000.4, 22000.8, 45.0, 45.0,},
+	{{0, 20000, 0,}, "sphere", "tiny", 250, 10000, 20000, 0, 0,},
+	{{0, -20000, 0,}, "sphere", "tiny", 250, 10000, 20000, 0, 0,},
+	{{0, 40000, 0,}, "sphere", "tiny", 250, 12000, 24000, 0, 0,},
+	{{0, 80000, 0,}, "sphere", "tiny", 250, 12000, 24000, 0, 0,},
+	{{0, -80000, 0,}, "sphere", "tiny", 250, 12000, 24000, 0, 0,},
+	{{0, 80000, 0,}, "sphere", "tiny", 250, 12000, 24000, 0, 0,},
+	{{0, -80000, 0,}, "sphere", "tiny", 250, 12000, 24000, 0, 0,},
+	{{0, -40000, 0,}, "sphere", "tiny", 250, 12000, 24000, 0, 0,},
+	{{0, 50000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+	{{0, 60000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+	{{0, -60000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+	{{0, -50000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+	{{0, 60000, 0,}, "sphere", "tiny", 250, 16000, 32000, 0, 0,},
+	{{0, -60000, 0,}, "sphere", "tiny", 250, 16000, 32000, 0, 0,},
+	{{0, 80000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+	{{0, -80000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+	{{0, 80000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+	{{0, -80000, 0,}, "sphere", "tiny", 250, 14000, 28000, 0, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

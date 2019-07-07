@@ -1,0 +1,98 @@
+Fixed:
+- armeddeux2_8			distribution names begin with numbers
+- Blizzard spec4		background typo
+- Blizzard6			background typo
+- Broken PomiseII(no mines)4	background typo, broken level name
+- Bubblicious4			background typo, music typo
+- Carrier8			background typo
+- Carriers8			background typo
+- Chaos4			distribution names begin with numbers
+- Circle4			distribution names begin with numbers
+- Claw2				music typo
+- Cocoon8			background typo
+- Conflict4			background typo
+- CosmicCrunch4			music typo
+- CrazyLegs8			music typo
+- crystalpalace8		has the string "BROAD" instead of an amount for some crystals, changed to 5
+- CrystalPrison4		background typo
+- Cubic Balls6			resource sphere has a lot of ?s where the number of resources should be, no way to know the correct value
+- Death Globe6			music typo
+- DerelictWorks6		spaces around derelicts
+- Diamond6			music typo
+- Dolt Hunting8			? instead of number in resource, no way to know the correct value
+- Dolterious II4		? instead of number in resource, no way to know the correct value
+- Dolterious III4		? instead of number in resource, no way to know the correct value
+- Dolterious4			? instead of number in resource, no way to know the correct value
+- Echinoid6			music typo
+- ferrousfaucets2		distribution names begin with numbers
+- Fireball4			music typo
+- Flakes4			unkown dust cloud types
+- Fools5			unkown dust cloud types
+- Hanging Gardens4		music typo
+- KrakenWave4			integer starting positions need to be changed to floats in misspheres by adding ".0" to the end, music typo
+- LaunchPad4			background typo, music typo
+- LunarSeige2			spaces around derelicts
+- LunarSeigeII2			spaces around derelicts
+- LunarSeigeIII2		spaces around derelicts
+- Minefield4			distribution names begin with numbers, background typo
+- Rings4			distribution names begin with numbers
+- RockWars8			distribution names begin with numbers
+- scattered6			missing commas in misspheres
+- Sigyn4			music typo
+- SlimsWeb8			missing an "0.0" at line 59 of the resource sphere
+- Spiral2			music typo
+- Sputnik3			background typo, music typo
+- Staples4			unkown dust cloud types, background typo
+- StarLight6			background typo
+- ThreeForAll3			background typo, music typo
+- Thunderdome6			background typo
+- Walkabout8			distribution names begin with numbers
+- Watusi4			unkown dust cloud types
+- Whoo4				background typo
+- WildThing8			distribution names begin with numbers
+- Wor Small4			lots of NaNs instead of actual numbers in res file
+- Wormhole4			music typo
+
+Tweaked:
+- Carrier8			universe size too small, increase to 100000
+- Carriers8			universe size too small, increase to 100000
+- crystalpalace8		universe size too small, increase to 100000
+- Dolt Hunting8			maybe too much stuff, otherwise there's not much I can do unfortunately :(
+- FoggysSmallRoom4		resource weights in distributions unneccessarily high, can reduce them with no unwanted effects
+- Lagsy's Bomber Park4		universe size too large, decrease to 50000
+- Lags crossway4.level		universe size too small, increase to 150000
+- Lags Death Path4		universe size too small, increase to 200000
+- Mogwa's Last Stand III4	universe size too small, increase to 275000
+- Ringed8			not sure what's going on here, where are the other ships?
+- RingedNG8			not sure what's going on here, where are the other ships?
+- Special ED6			universe size too large, decrease to 100000
+- War of the Pyramid6		still kind of crowded at top
+- Wormhole4			tweaked curve.dist from 1000 to 10
+
+Unresolved:
+- Cap maddy4			no starting positions/motherships
+- Scout Inter Training4		no starting positions/motherships
+- Swarm Training Map4		no starting positions/motherships
+- Wall Training Map4		no starting positions/motherships
+- Scout Madness6		no starting positions/motherships
+- Scout MadnessII6		no starting positions/motherships
+
+Duplicates:
+- Arachne6
+- Battle Star6
+- bigGrillworks2v24
+- bigGrillworks3v36
+- Creations6
+- Crusade4
+- DantesFateSpect6
+- hyperspacearena6
+- OK Corral 6
+- Staples4
+- ThePlex4
+- scattered6
+- t00ners RevengeII8
+- Talas8
+- treeoflife5
+- Curtain4
+- War of the Ring 6
+- Watusi4

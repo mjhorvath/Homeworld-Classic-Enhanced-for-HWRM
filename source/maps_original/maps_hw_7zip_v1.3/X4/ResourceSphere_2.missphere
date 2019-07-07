@@ -1,0 +1,8 @@
+; MissionMan script, Wednesday, Jun 16 1999, 1:23:06 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere 
+Resources     DustCloud,0,0,0,Cylinder,BigDustCloud.dist,150,2000,190000,-135,0,0,?
+Resources     DustCloud,0,0,0,Cylinder,BigDustCloud.dist,150,2000,190000,-45,0,0,?
+Resources     Asteroid,0,0,0,Sphere,BigAsteriod.dist,60,4000,8000,0,0,2048,7
+
+Ships     ,0.0,0.0,0.0,0.0,P3,P3Megaship,1,NULL_FORMATION|?|?,0,?

@@ -1,0 +1,136 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Mogwa's Last Stand",
+	"Here is where Mogwa stood agaist custard and his tribe crushed",
+	"this evil trespasser of native land.",
+	"",
+	"Map By: &L&a&g&s&y",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Mogwa's Last Stand III (4)]]
+LevelFile = [[Mogwa's Last Stand III4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {275000, 275000, 275000, }
+
+LevelBackground = "ez05"
+LevelMusic = "21"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-40000.0, 30000.0, 0.0, 0.0,},
+	{-40000.0, -30000.0, 0.0, 0.0,},
+	{40000.0, -30000.0, 0.0, -180.0,},
+	{40000.0, 30000.0, 0.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-40000.0, -30000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-40000.0, 30000.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {40000.0, -30000.0, 0.0,}, 2, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {40000.0, 30000.0, 0.0,}, 3, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 0,
+		dustcloud3 = 1,
+	},
+	dusty =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 0,
+		dustcloud3 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "rock", 20, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-30000.0, -40000.0, 0.0,}, "sphere", "rock", 4, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-30000.0, 40000.0, 0.0,}, "sphere", "rock", 4, 5000.0, 10000.0, 0.0, 0.0,},
+	{{30000.0, -40000.0, 0.0,}, "sphere", "rock", 4, 5000.0, 10000.0, 0.0, 0.0,},
+	{{30000.0, 40000.0, 0.0,}, "sphere", "rock", 4, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-30000.0, -40000.0, 0.0,}, "sphere", "dust", 6, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-30000.0, 40000.0, 0.0,}, "sphere", "dust", 6, 5000.0, 10000.0, 0.0, 0.0,},
+	{{30000.0, -40000.0, 0.0,}, "sphere", "dust", 6, 5000.0, 10000.0, 0.0, 0.0,},
+	{{30000.0, 40000.0, 0.0,}, "sphere", "dust", 6, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, -80000.0, 0.0,}, "cylinder", "dusty", 8, 3500.0, 15000.0, 0.0, -90.0,},
+	{{0.0, 80000.0, 0.0,}, "cylinder", "dusty", 8, 3500.0, 15000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 40000.0,}, "cylinder", "dusty", 8, 3500.0, 15000.0, 0.0, -90.0,},
+	{{0.0, 0.0, -40000.0,}, "cylinder", "dusty", 8, 3500.0, 15000.0, 0.0, -90.0,},
+	{{0.0, 200000.0, -20000.5,}, "sphere", "rock", 80, 10000, 10000, 10000, -90.0,},
+	{{0.0, -200000.0, 20000.0,}, "sphere", "rock", 80, 10000, 10000, 10000, -90.0,},
+	{{0.0, 20000.0, 200000.5,}, "sphere", "rock", 80, 10000, 10000, 10000, -90.0,},
+	{{0.0, -20000.0, -200000.0,}, "sphere", "rock", 80, 10000, 10000, 10000, -90.0,},
+	{{0.0, 300000.0, 300000.5,}, "sphere", "rock", 80, 10000, 10000, 10000, -90.0,},
+	{{0.0, -300000.0, -300000.0,}, "sphere", "rock", 80, 10000, 10000, 10000, -90.0,},
+	{{0.0, 0.0, -1.0,}, "sphere", "rock", 300, 150000, 150000, 150000, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

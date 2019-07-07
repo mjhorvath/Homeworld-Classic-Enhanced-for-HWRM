@@ -1,0 +1,55 @@
+Asteroid; MissionMan script, Saturday, May 27 2000, 2:21:34 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;z
+Resources    Asteroid,8412.0,63893.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-7.5,      ?,     ?
+Resources    Asteroid,24663.0,59540.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,39232.0,51128.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,51128.0,39232.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,59540.0,24663.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,63895.0,8413.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-8412.0,-63893.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-24663.0,-59540.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-39232.0,-51128.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-51128.0,-39232.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-59540.0,-24663.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-63895.0,-8413.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,8412.0,-63893.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,24663.0,-59540.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,39232.0,-51128.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,51128.0,-39232.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,59540.0,-24663.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,63895.0,-8413.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-8412.0,63893.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-24663.0,59540.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-39232.0,51128.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-51128.0,39232.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-59540.0,24663.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-63895.0,8413.0,0.0,Cylinder,Tiny.dist,10,7500.0,16969.0,0.0,82.5,     ?,     ?
+
+Resources    DustCloud,8412.0,63893.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-7.5,2048   ,     ?
+Resources    DustCloud,24663.0,59540.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-22.5,2048   ,     ?
+Resources    DustCloud,39232.0,51128.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-37.5,2048   ,     ?
+Resources    DustCloud,51128.0,39232.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-52.5,2048   ,     ?
+Resources    DustCloud,59540.0,24663.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-67.5,2048   ,     ?
+Resources    DustCloud,63895.0,8413.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-82.5,2048   ,     ?
+Resources    DustCloud,-8412.0,-63893.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-7.5,2048   ,     ?
+Resources    DustCloud,-24663.0,-59540.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-22.5,2048   ,     ?
+Resources    DustCloud,-39232.0,-51128.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-37.5,2048   ,     ?
+Resources    DustCloud,-51128.0,-39232.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-52.5,2048   ,     ?
+Resources    DustCloud,-59540.0,-24663.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-67.5,2048   ,     ?
+Resources    DustCloud,-63895.0,-8413.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,-82.5,2048   ,     ?
+Resources    DustCloud,8412.0,-63893.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,7.5,2048   ,     ?
+Resources    DustCloud,24663.0,-59540.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,22.5,2048   ,     ?
+Resources    DustCloud,39232.0,-51128.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,37.5,2048   ,     ?
+Resources    DustCloud,51128.0,-39232.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,52.5,2048   ,     ?
+Resources    DustCloud,59540.0,-24663.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,67.5,2048   ,     ?
+Resources    DustCloud,63895.0,-8413.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,82.5,2048   ,     ?
+Resources    DustCloud,-8412.0,63893.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,7.5,2048   ,     ?
+Resources    DustCloud,-24663.0,59540.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,22.5,2048   ,     ?
+Resources    DustCloud,-39232.0,51128.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,37.5,2048   ,     ?
+Resources    DustCloud,-51128.0,39232.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,52.5,2048   ,     ?
+Resources    DustCloud,-59540.0,24663.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,67.5,2048   ,     ?
+Resources    DustCloud,-63895.0,8413.0,0.0,Cylinder,DustCloud.dist,15,7500.0,16969.0,0.0,82.5,2048   ,     ?
+

@@ -1,0 +1,43 @@
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Kim takh 5
+; Info: Kim takh (2-6)
+
+[Kim takh (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,1000
+
+Lighting    ez02
+Background    dab.btg
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    500000
+smZoomMin    30000
+smInitialDistance    145000
+smUniverseSizeX    200000
+smUniverseSizeZ    200000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips	Traders,ResearchStation
+ExcludeShips	Traders,Junk_Lgun
+ExcludeShips	Traders,Junk_Sgun
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+IncludeShips    R1,All
+IncludeShips    R2,All
+ExcludeGasCloud	All
+ExcludeDerelict	All
+SongNumber    10

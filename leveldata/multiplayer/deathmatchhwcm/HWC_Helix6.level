@@ -1,0 +1,155 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Helix (2-6) by Aknott",
+	"",
+	"Ringed Helix",
+	"",
+	"",
+	"",
+	"v 1.2 - January 7th, 2001",
+	"Email any comments to :",
+	"nicolasnaudet@yahoo.com",
+}
+
+LevelName = [[Helix (2-6)]]
+LevelFile = [[Helix6]]
+SourceGame = "HWC"
+NumberOfPlayers = 6
+
+SensorsZoom = {50000, 200000,}
+UniverseSize = {300000, 300000, 300000, }
+
+LevelBackground = "mission17"
+LevelMusic = "17"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-34213.0, 103987.0, 5901.0, -108.2,},
+	{77888.0, 85294.0, 34342.0, -49.7,},
+	{78433.0, -28888.0, 70938.0, 44.3,},
+	{31928.0, -115934.0, 7807.0, 74.6,},
+	{-77546.0, -75098.0, -19116.0, 135.0,},
+	{-96012.0, 30639.0, -66059.0, -142.8,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "smothership", {-34213.0, 103987.0, 5901.0,}, 0, {0, 0, -108.2,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {77888.0, 85294.0, 34342.0,}, 1, {0, 0, -49.7,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {78433.0, -28888.0, 70938.0,}, 2, {0, 0, 44.3,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {31928.0, -115934.0, 7807.0,}, 3, {0, 0, 74.6,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-77546.0, -75098.0, -19116.0,}, 4, {0, 0, 135.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-96012.0, 30639.0, -66059.0,}, 5, {0, 0, -142.8,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+	{1, "dcrystal1", {59.0, 84837.0, -23507.0,},},
+	{1, "dcrystal1", {-43174.0, 82039.0, -52696.0,},},
+	{1, "dcrystal1", {-88804.0, 45349.0, -67001.0,},},
+	{1, "dcrystal1", {-108005.0, -15930.0, -56833.0,},},
+	{1, "dcrystal1", {-87871.0, -68157.0, -27191.0,},},
+	{1, "dcrystal1", {-43810.0, -86977.0, 2475.0,},},
+	{1, "dcrystal1", {1807.0, -78303.0, 16773.0,},},
+	{1, "dcrystal1", {42176.0, -59665.0, 18827.0,},},
+	{1, "dcrystal1", {78889.0, -32284.0, 22005.0,},},
+	{1, "dcrystal1", {101153.0, 14179.0, 30632.0,},},
+	{1, "dcrystal1", {88631.0, 72941.0, 35441.0,},},
+	{1, "dcrystal1", {38467.0, 113578.0, 27733.0,},},
+	{1, "dcrystal1", {-22473.0, 111756.0, 10566.0,},},
+	{1, "dcrystal1", {-61364.0, 75274.0, -7660.0,},},
+	{1, "dcrystal1", {-69847.0, 30533.0, -24597.0,},},
+	{1, "dcrystal1", {-62250.0, -9952.0, -41463.0,},},
+	{1, "dcrystal1", {-48367.0, -52553.0, -51466.0,},},
+	{1, "dcrystal1", {-21906.0, -96218.0, -40416.0,},},
+	{1, "dcrystal1", {20607.0, -118290.0, -3832.0,},},
+	{1, "dcrystal1", {62362.0, -97648.0, 41528.0,},},
+	{1, "dcrystal1", {79763.0, -43598.0, 69592.0,},},
+	{1, "dcrystal1", {69101.0, 11703.0, 67665.0,},},
+	{1, "dcrystal1", {47606.0, 47770.0, 43215.0,},},
+	{1, "dcrystal1", {27248.0, 69617.0, 10208.0,},},
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-19761.0, 86977.0, -39178.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-67483.0, 68157.0, -62503.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-103221.0, 15930.0, -65118.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-102427.0, -45349.0, -43406.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-67223.0, -82039.0, -11042.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-20329.0, -84837.0, 11805.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{22465.0, -69617.0, 18494.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{61229.0, -47770.0, 19621.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{93150.0, -11703.0, 26011.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{100150.0, 43599.0, 34280.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{67145.0, 97648.0, 33243.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{6985.0, 118290.0, 19762.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-45954.0, 96218.0, 1237.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-68754.0, 52554.0, -16154.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-67033.0, 9952.0, -33178.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-56225.0, -30532.0, -48191.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-37316.0, -75274.0, -49313.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{-2086.0, -111756.0, -24745.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{43251.0, -113578.0, 19447.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{75009.0, -72941.0, 59036.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{77104.0, -14179.0, 72285.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{58502.0, 32284.0, 57317.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{37393.0, 59665.0, 27112.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+	{{15430.0, 78303.0, -6821.0,}, "sphere", "asteroid", 16, 4000.0, 4000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

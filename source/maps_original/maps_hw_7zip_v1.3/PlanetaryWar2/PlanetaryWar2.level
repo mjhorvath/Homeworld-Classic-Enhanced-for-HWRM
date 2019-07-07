@@ -1,0 +1,74 @@
+; MissionMan script, Tuesday, Dec 28 1999, 12:36:20 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: PlanetaryWar2
+; Info: Planetary War (2-6)
+
+[Planetary War (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,-75000.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,75000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,0
+
+Lighting    ez11
+Background    ez11,80,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    200000
+smZoomMin    50000
+smInitialDistance    100000
+smUniverseSizeX    200000
+smUniverseSizeZ    200000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,ResearchShip
+ExcludeShips    R2,ResearchShip
+ExcludeShips    R1,ResourceCollector
+ExcludeShips    R2,ResourceCollector
+ExcludeShips    R1,ResourceController
+ExcludeShips    R2,ResourceController
+ExcludeShips    R1,CryoTray
+ExcludeShips    R2,CryoTray
+ExcludeShips    R1,ProximitySensor
+ExcludeShips    R2,ProximitySensor
+ExcludeShips    R1,SensorArray
+ExcludeShips    R2,SensorArray
+ExcludeShips    R1,Probe
+ExcludeShips    R2,Probe
+ExcludeShips    R1,GravWellGenerator
+ExcludeShips    R2,GravWellGenerator
+ExcludeShips    R1,CloakGenerator
+ExcludeShips    R2,CloakGenerator
+
+ExcludeShips    R1,IonCannonFrigate
+ExcludeShips    R2,IonCannonFrigate
+ExcludeShips    R1,AdvanceSupportFrigate
+ExcludeShips    R2,AdvanceSupportFrigate
+ExcludeShips    R1,StandardFrigate
+ExcludeShips    R2,StandardFrigate
+ExcludeShips    R1,DDDFrigate
+ExcludeShips    R2,DFGFrigate
+
+ExcludeShips    R1,LightCorvette
+ExcludeShips    R2,LightCorvette
+ExcludeShips    R1,HeavyCorvette
+ExcludeShips    R2,HeavyCorvette
+ExcludeShips    R1,MultiGunCorvette
+ExcludeShips    R2,MultiGunCorvette
+ExcludeShips    R1,RepairCorvette
+ExcludeShips    R2,RepairCorvette
+ExcludeShips    R1,SalCapCorvette
+ExcludeShips    R2,SalCapCorvette
+ExcludeShips    R1,MinelayerCorvette
+ExcludeShips    R2,MinelayerCorvette
+
+ExcludeShips    R1,CloakedFighter
+ExcludeShips    R2,DefenseFighter
+
+ExcludeDerelict    ALL
+SongNumber    11

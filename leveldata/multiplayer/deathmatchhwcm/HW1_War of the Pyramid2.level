@@ -1,0 +1,126 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"The ancient Egyptions didn't get the",
+	"pyramid design on their own :) they found ",
+	"it in the stars.",
+	"enjoy",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[War of the Pyramid (2,4,6,or8)]]
+LevelFile = [[War of the Pyramid2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {130000, 130000, 80000, }
+
+LevelBackground = "ez06"
+LevelMusic = "11"
+
+RUsRatio = 1/8
+PebRatio = 15/16
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{10000.0, 0.0, -30000.0, 0.0,},
+	{-10000.0, 0.0, -30000.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-10000.0, 0.0, -30000.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {10000.0, 0.0, -30000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	cyl =
+	{
+		asteroid0 = 800,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 40,
+		asteroid4 = 60,
+	},
+	roid =
+	{
+		asteroid0 = 900,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 45,
+		asteroid4 = 70,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 200,
+		dustcloud2 = 30,
+		dustcloud3 = 30,
+	},
+	tiny =
+	{
+		asteroid0 = 800,
+		asteroid1 = 100,
+		asteroid2 = 50,
+		asteroid3 = 10,
+		asteroid4 = 60,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, -30000.0, -30000.0,}, "cylinder", "cyl", 500, 5000.0, 50000.0, 0.0, 0.0,},
+	{{-30000.0, 0.0, -30000.0,}, "cylinder", "cyl", 500, 5000.0, 50000.0, 0.0, -90.0,},
+	{{30000.0, 0.0, -30000.0,}, "cylinder", "cyl", 500, 5000.0, 50000.0, 0.0, -90.0,},
+	{{0.0, 30000.0, -30000.0,}, "cylinder", "cyl", 500, 5000.0, 50000.0, 0.0, 0.0,},
+	{{15000.0, -15000.0, -10000.0,}, "cylinder", "roid", 500, 5000.0, 50000.0, 45.0, -45.0,},
+	{{-15000.0, 15000.0, -10000.0,}, "cylinder", "roid", 500, 5000.0, 50000.0, -45.0, -45.0,},
+	{{-15000.0, -15000.0, -10000.0,}, "cylinder", "roid", 500, 5000.0, 50000.0, -45.0, 45.0,},
+	{{15000.0, 15000.0, -10000.0,}, "cylinder", "roid", 500, 5000.0, 50000.0, 45.0, 45.0,},
+	{{0.0, 0.0, 15000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 15001.0,}, "sphere", "roid", 100, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -38000.0,}, "rectangle", "tiny", 1000, 60000.0, 60000.0, 6000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

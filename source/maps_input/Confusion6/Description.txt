@@ -1,0 +1,20 @@
+Description	Field of Confusion (2-6) by Aknott
+Description
+Description     It's A New 3D Experience!
+Description
+Description
+Description
+Description
+Description
+Description
+Description	v 1.0 - March 19, 2000
+Description	nicolasnaudet@yahoo.com
+Description	aknott.free.fr
+
+
+Font            Arial_b12.hff
+Color           64, 128, 192
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

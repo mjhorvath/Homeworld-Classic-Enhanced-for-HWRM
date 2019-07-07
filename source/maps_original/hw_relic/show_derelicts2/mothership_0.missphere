@@ -1,0 +1,46 @@
+; MissionMan script, Tuesday, Jun 15 1999, 3:24:18 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,-386.3,6316.8,0.0,0.0,Traders,FloatingCity,1,NULL_FORMATION|?|?,?,?
+Derelict    Shipwreck,109.1,-5939.8,0.0,29.0,48.0,?,?,?
+Derelict    AdvanceSupportFrigate,-4973.7,-7043.4,0.0,0.0,0.0,0,?,?
+Derelict    Carrier,-5227.6,-3985.0,0.0,0.0,0.0,0,?,?
+Derelict    Crate,-4944.0,-1967.2,0.0,0.0,0.0,0,?,?
+Ships     ,-1978.7,-6949.0,0.0,0.0,R1,CryoTray,1,NULL_FORMATION|?|?,0,?
+Derelict    DDDFrigate,-5156.2,2139.3,0.0,0.0,0.0,0,?,?
+Derelict    HeavyCorvette,-4979.8,3980.0,0.0,0.0,0.0,0,?,?
+Derelict    HeavyCruiser,-5191.8,5997.4,0.0,0.0,0.0,0,?,?
+Derelict    IonCannonFrigate,-5263.0,8051.0,0.0,0.0,0.0,0,?,?
+Derelict    LifeBoat,-5049.8,10032.6,0.0,0.0,0.0,0,?,?
+Derelict    LightCorvette,-5120.8,11130.8,0.0,0.0,0.0,0,?,?
+Derelict    MinelayerCorvette,-8023.5,-20.4,0.0,0.0,0.0,0,?,?
+Derelict    MultiGunCorvette,-8129.6,1006.6,0.0,0.0,0.0,0,?,?
+Derelict    PrisonShipNew,-8201.0,3024.0,0.0,0.0,0.0,0,?,?
+Derelict    RepairCorvette,-8023.8,4971.4,0.0,0.0,0.0,0,?,?
+Derelict    ResourceController,-7953.0,6068.0,0.0,0.0,0.0,0,?,?
+Derelict    SalCapCorvette,-8059.0,7094.8,0.0,0.0,0.0,0,?,?
+Derelict    Scaffold,-13085.8,-1479.9,0.0,0.0,0.0,0,?,?
+Derelict    StandardFrigate,-7953.0,8015.0,0.0,0.0,0.0,0,?,?
+Derelict    PrisonShipOld,-8201.0,3024.0,1200.0,0.0,0.0,0,?,?
+Ships     ,-7915.0,8979.0,0.0,0.0,Traders,CargoBarge,1,NULL_FORMATION|?|?,0,?
+Ships     ,-16227.6,10048.2,0.0,0.0,Traders,MiningBase,1,NULL_FORMATION|?|?,0,?
+Ships     ,-6927.2,11085.0,0.0,0.0,Traders,ResearchStation,1,NULL_FORMATION|?|?,0,?
+Ships     ,-7729.0,12942.0,0.0,0.0,Traders,JunkyardDawg,1,NULL_FORMATION|?|?,0,?
+Ships     ,-8000.0,14000.0,0.0,0.0,Traders,JunkyardHQ,1,NULL_FORMATION|?|?,0,?
+Ships     ,-6927.0,16085.0,0.0,0.0,Traders,GhostShip,1,NULL_FORMATION|?|?,0,?
+Ships     ,-753.0,-2510.0,0.0,0.0,R1,HeadShotAsteroid,1,NULL_FORMATION|?|?,0,?
+Ships     ,-669.0,1816.0,0.0,0.0,R2,HeadShotAsteroid,1,NULL_FORMATION|?|?,0,?
+Derelict    FragmentPanel0a,7558.0,4893.0,-240.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel0b,6558.0,7893.0,-2000.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel0c,7558.3,9893.5,0.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel1,8558.0,3894.0,0.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel2,10558.3,4894.8,0.0,0.0,0.0,0,?,?
+Derelict    FragmentPanel3,8558.0,7894.0,0.0,0.0,0.0,0,?,?
+Ships     ,-1979.0,-7949.0,0.0,0.0,R2,CryoTray,1,NULL_FORMATION|?|?,0,?
+Derelict    Scaffold_scarred,-13000.2,-7000.3,0.0,0.0,0.0,0,?,?
+Derelict    ScaffoldFingerA_scarred,-13000.0,-11000.1,0.0,0.0,0.0,0,?,?
+Derelict    ScaffoldFingerB_scarred,-13000.3,-14000.0,0.0,0.0,0.0,0,?,?
+Derelict    AngelMoon_clean,347956.0,-344897.0,0.0,0.0,130.0,0,?,?
+Derelict    AngelMoon,356768.0,286615.7,0.0,0.0,-126.0,0,?,?
+

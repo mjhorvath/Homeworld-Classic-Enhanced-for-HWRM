@@ -1,0 +1,199 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"War Of Kadesh Lite (2-6)",
+	"Same plot as War of Kadesh, but half the length and almost no derelicts.  For those with slow computers, or desire faster play.",
+	"Settings: Hyperspace off",
+	"Author:The Reflection (WStar345@aol.com)",
+}
+
+LevelName = [[War Of Kadesh Lite (2-6)]]
+LevelFile = [[WarOfKadeshLite3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {25000, 110000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "ez07"
+LevelMusic = "14"
+
+RUsRatio = 1
+
+PebRatio = 3/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{75000.0, 0.0, 0.0, 180.0,},
+	{-37500, -64591.9, 0.0, 60.0,},
+	{0.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {75000.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{30, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "ioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "missiledestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-37500, -64591.9, 0.0,}, 1, {0, 0, 60.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{30, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "ioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "p2mothership", {0.0, 0.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "p2", "null_formation",},
+	{4, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{5, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{40, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{20, "", "p2advanceswarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{6, "", "proximitysensor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "sensorarray", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+	{1, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{15, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+	{10, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+	{1, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{10, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+	{1, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{10, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{10, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{15, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+	{1, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{15, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "sphere_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "dddfrigate", {37500, 0, 37500,}, -1, {0, 0, 180,}, 0, 0, "r1", "null_formation",},
+	{1, "", "cloakgenerator", {37500, 0, -37500,}, -1, {0, 0, 180,}, 0, 0, "r1", "null_formation",},
+	{1, "", "dfgfrigate", {-18750, -32475.95, 37500,}, -1, {0, 0, -120,}, 0, 0, "r2", "null_formation",},
+	{1, "", "standarddestroyer", {-18750, 32475.95, 37500,}, -1, {0, 0, 120,}, 0, 0, "r1", "null_formation",},
+	{1, "", "ioncannonfrigate", {-18750, -32475.95, -37500,}, -1, {0, 0, -120,}, 0, 0, "r2", "null_formation",},
+	{1, "", "gravwellgenerator", {-18750, 32475.95, -37500,}, -1, {0, 0, 120,}, 0, 0, "r2", "null_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"lightcorvette", {37500, -32476, 0,}, -1, {0, 330.8, 46.1,}, 0, 0,},
+	{"heavycorvette", {37500, 32476, 0,}, -1, {0, 125.4, 308.5,}, 0, 0,},
+	{"repaircorvette", {-75000, 0, 0,}, -1, {0, 333.7, 48.6,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		asteroid0 = 30,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	nebast =
+	{
+		asteroid0 = 10,
+		asteroid1 = 20,
+		asteroid2 = 30,
+		asteroid3 = 20,
+		asteroid4 = 10,
+	},
+	nebula =
+	{
+		nebula0 = 10,
+		nebula1 = 37,
+		nebula2 = 56,
+		nebula3 = 37,
+		nebula4 = 10,
+	},
+	advance =
+	{
+		dustcloud0 = 3,
+		dustcloud1 = 3,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+		dustcloud4 = 1,
+	},
+	spoke =
+	{
+		dustcloud0 = 2,
+		dustcloud1 = 3,
+		dustcloud2 = 3,
+		dustcloud3 = 2,
+	},
+	inter =
+	{
+		asteroid0 = 15,
+		asteroid1 = 7,
+		asteroid2 = 2,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "dust", 1200, 100000.0, 200000.0, 0.0, 0.0,},
+	{{-18750, -32476.0, 0.0,}, "cylinder", "dust", 40, 5000.0, 75000.0, 0.0, -120.0,},
+	{{-18750.0, 32476.0, 0.0,}, "cylinder", "dust", 40, 5000.0, 75000.0, 0.0, 120.0,},
+	{{0.0, 0.0, 37500.0,}, "cylinder", "dust", 40, 5000.0, 75000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -37500.0,}, "cylinder", "dust", 40, 5000.0, 75000.0, 90.0, 180.0,},
+	{{37500.0, 0.0, 0.0,}, "cylinder", "dust", 40, 5000.0, 75000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "nebast", 180, 15000.0, 30000.0, 0.0, 0.0,},
+	{{-18750.0, -32476.0, 0.0,}, "sphere", "advance", 30, 10000.0, 20000.0, 0.0, -120.0,},
+	{{-18750.0, 32476.0, 0.0,}, "sphere", "advance", 30, 10000.0, 20000.0, 0.0, 120.0,},
+	{{0.0, 0.0, 37500.0,}, "sphere", "advance", 30, 10000.0, 20000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -37500.0,}, "sphere", "advance", 30, 10000.0, 20000.0, 90.0, 180.0,},
+	{{37500.0, 0.0, 0.0,}, "sphere", "advance", 30, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-18750, -32476.0, 0.0,}, "cylinder", "spoke", 40, 5000.0, 75000.0, 0.0, -120.0,},
+	{{-18750.0, 32476.0, 0.0,}, "cylinder", "spoke", 40, 5000.0, 75000.0, 0.0, 120.0,},
+	{{0.0, 0.0, 37500.0,}, "cylinder", "spoke", 40, 5000.0, 75000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -37500.0,}, "cylinder", "spoke", 40, 5000.0, 75000.0, 90.0, 180.0,},
+	{{37500.0, 0.0, 0.0,}, "cylinder", "spoke", 40, 5000.0, 75000.0, 0.0, 0.0,},
+	{{-75000.0, 0.0, 0.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{37500.0, -32476.0, 0.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{37500.0, 32476.0, 0.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{37500.0, 0.0, 37500.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{37500.0, 0.0, -37500.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-18750.0, -32475.95, 37500.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-18750.0, 32475.95, 37500.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-18750.0, -32475.95, -37500.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-18750.0, 32475.95, -37500.0,}, "sphere", "inter", 50, 10000.0, 20000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 300, 30000.0, 30000.0, 30000.0, 20000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

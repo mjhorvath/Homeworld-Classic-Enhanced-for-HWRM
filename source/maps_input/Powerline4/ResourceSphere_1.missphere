@@ -1,0 +1,44 @@
+; MissionMan script, Sonntag, Jun 10 2001, 4:34:55 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,30000,-20000,0,Cylinder,Asteroid2.dist,15,1000,40000,0,-30,0,?
+Resources    Asteroid,-30000,-20000,0,Cylinder,Asteroid2.dist,15,1000,40000,0,30,0,?
+Resources    Asteroid,0,-32500,0,Cylinder,Asteroid2.dist,15,1000,45000,0,-90,0,?
+Resources    Asteroid,0,32500,0,Cylinder,Asteroid2.dist,15,1000,45000,0,-90,0,?
+Resources    Asteroid,30000,20000,0,Cylinder,Asteroid2.dist,15,1000,40000,0,30,0,?
+Resources    Asteroid,-30000,20000,0,Cylinder,Asteroid2.dist,15,1000,40000,0,-30,0,?
+Resources    DustCloud,-30000,20000,5000,Cylinder,Dust2.dist,15,1000,40000,0,-30,0,?
+Resources    DustCloud,30000,20000,5000,Cylinder,Dust2.dist,15,1000,40000,0,30,0,?
+Resources    DustCloud,0,32500,5000,Cylinder,Dust2.dist,15,1000,45000,0,-90,0,?
+Resources    DustCloud,0,-32500,5000,Cylinder,Dust2.dist,15,1000,45000,0,-90,0,?
+Resources    DustCloud,-30000,-20000,5000,Cylinder,Dust2.dist,15,1000,40000,0,30,0,?
+Resources    DustCloud,30000,-20000,5000,Cylinder,Dust2.dist,15,1000,40000,0,-30,0,?
+Resources    DustCloud,30000,-20000,-5000,Cylinder,Dust2.dist,15,1000,40000,0,-30,0,?
+Resources    DustCloud,-30000,-20000,-5000,Cylinder,Dust2.dist,15,1000,40000,0,30,0,?
+Resources    DustCloud,0,-32500,-5000,Cylinder,Dust2.dist,15,1000,45000,0,-90,0,?
+Resources    DustCloud,0,32500,-5000,Cylinder,Dust2.dist,15,1000,45000,0,-90,0,?
+Resources    DustCloud,30000,20000,-5000,Cylinder,Dust2.dist,15,1000,40000,0,30,0,?
+Resources    DustCloud,-30000,20000,-5000,Cylinder,Dust2.dist,15,1000,40000,0,-30,0,?
+Resources    Asteroid,0,0,0,Sphere,Asteroid1.dist,50,10000.0,30000,0,0,0.0,?
+Resources    DustCloud,0,0,5000,Sphere,Dust1.dist,50,10000.0,30000,0,0,0.0,?
+Resources    DustCloud,0,0,-5000,Sphere,Dust1.dist,50,10000.0,30000,0,0,0.0,?
+Resources    Asteroid,-50000,0,0,Cylinder,Asteroid2.dist,20,500,60000,0,-90,0,?
+Resources    Asteroid,-25000,-45000,0,Cylinder,Asteroid2.dist,20,500,55000,0,-30,0,?
+Resources    Asteroid,25000,-45000,0,Cylinder,Asteroid2.dist,20,500,55000,0,30,0,?
+Resources    Asteroid,-25000,45000,0,Cylinder,Asteroid2.dist,20,500,55000,0,30,0,?
+Resources    Asteroid,25000,45000,0,Cylinder,Asteroid2.dist,20,500,55000,0,-30,0,?
+Resources    DustCloud,50000,0,5000,Cylinder,Dust2.dist,20,500,60000,0,-90,0,?
+Resources    Asteroid,50000,0,0,Cylinder,Asteroid2.dist,20,500,60000,0,-90,0,?
+Resources    DustCloud,50000,0,-5000,Cylinder,Dust2.dist,20,500,60000,0,-90,0,?
+Resources    DustCloud,-50000,0,5000,Cylinder,Dust2.dist,20,500,60000,0,-90,0,?
+Resources    DustCloud,-50000,0,-5000,Cylinder,Dust2.dist,20,500,60000,0,-90,0,?
+Resources    DustCloud,-25000,-45000,5000,Cylinder,Dust2.dist,20,500,55000,0,-30,0,?
+Resources    DustCloud,-25000,-45000,-5000,Cylinder,Dust2.dist,20,500,55000,0,-30,0,?
+Resources    DustCloud,25000,-45000,5000,Cylinder,Dust2.dist,20,500,55000,0,30,0,?
+Resources    DustCloud,25000,-45000,-5000,Cylinder,Dust2.dist,20,500,55000,0,30,0,?
+Resources    DustCloud,-25000,45000,-5000,Cylinder,Dust2.dist,20,500,55000,0,30,0,?
+Resources    DustCloud,-25000,45000,5000,Cylinder,Dust2.dist,20,500,55000,0,30,0,?
+Resources    DustCloud,25000,45000,5000,Cylinder,Dust2.dist,20,500,55000,0,-30,0,?
+Resources    DustCloud,25000,45000,-5000,Cylinder,Dust2.dist,20,500,55000,0,-30,0,?
+

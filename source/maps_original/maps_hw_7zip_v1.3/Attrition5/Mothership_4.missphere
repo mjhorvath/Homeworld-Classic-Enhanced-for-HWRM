@@ -1,0 +1,20 @@
+; MissionMan script, Friday, Jan 19 2001, 10:01:48 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,50000.0,-125000.0,-70000.0,135.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,100300.0,-146500.0,-68500.0,135.0,R1,AdvanceSupportFrigate,4,PARADE_FORMATION|?|?,0,?
+Ships     ,100000.0,-153000.0,-68500.0,135.0,R1,MissileDestroyer,1,PARADE_FORMATION|?|?,0,?
+Ships     ,100000.0,-155500.0,-8500.0,135.0,R1,StandardDestroyer,2,PARADE_FORMATION|?|?,0,?
+Ships     ,101600.0,-152300.0,-70000.0,135.0,R1,GravWellGenerator,1,PARADE_FORMATION|?|?,0,?
+Ships     ,101600.0,-153600.0,-70000.0,135.0,R1,CloakGenerator,2,PARADE_FORMATION|?|?,0,?
+Ships     ,101600.0,-155100.0,-70000.0,135.0,R1,ProximitySensor,2,PARADE_FORMATION|?|?,0,?
+Ships     ,23800.0,-123800.0,-69750.0,135.0,R1,LightCorvette,30,BROAD_FORMATION|?|?,0,?
+Ships     ,24400.0,-124400.0,-70025.0,135.0,R1,HeavyCorvette,30,BROAD_FORMATION|?|?,0,?
+Ships     ,25000.0,-125000.0,-70000.0,135.0,R1,MultiGunCorvette,30,BROAD_FORMATION|?|?,0,?
+Ships     ,48800.0,-98800.0,-69950.0,135.0,R1,MinelayerCorvette,15,BROAD_FORMATION|?|?,0,?
+Ships     ,49400.0,-99400.0,-69700.0,135.0,R1,SalCapCorvette,10,BROAD_FORMATION|?|?,0,?
+Ships     ,50000.0,-100000.0,-70000.0,135.0,P1,P1MissileCorvette,15,BROAD_FORMATION|?|colorScheme(4),0,?
+Ships     ,36500.0,-111500.0,-69800.0,135.0,P2,P2AdvanceSwarmer,20,BROAD_FORMATION|?|colorScheme(4),0,?
+Ships     ,37200.0,-112800.0,-69500.0,135.0,R1,AdvanceSupportFrigate,2,BROAD_FORMATION|?|?,0,?
+

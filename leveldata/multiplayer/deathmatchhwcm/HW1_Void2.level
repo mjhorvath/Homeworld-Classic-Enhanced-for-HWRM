@@ -1,0 +1,124 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Decimate the pathetic cretins who conspire to claim your prize. The tactically gifted can eliminate their opponents supply lines. Good for intermediate to advanced players.",
+	"",
+	"Settings: Unit Capping Off, Crates Off, Small Bounties, Large Starting Resources.",
+}
+
+LevelName = [[Abundant Void (2)]]
+LevelFile = [[Void2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 130000,}
+UniverseSize = {120000, 120000, 80000, }
+
+LevelBackground = "ez01"
+LevelMusic = "15"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-30000.0, 0.0, 0.0, 0.0,},
+	{30000.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {30000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-30000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroidcentre =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	tiny =
+	{
+		asteroid0 = 40,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{60003.8, 0.0, 30001.9,}, "cylinder", "asteroidcentre", 96, 10000.0, 100000.0, 0.0, 90.0,},
+	{{-60004.0, 0.0, -30002.0,}, "cylinder", "asteroidcentre", 96, 10000.0, 100000.0, 0.0, 90.0,},
+	{{30001.9, -59253.7, 58503.7,}, "sphere", "asteroidcentre", 18, 5000.0, 10000.0, 0.0, 0.0,},
+	{{37502.4, 30751.9, -19501.2,}, "sphere", "asteroidcentre", 18, 5000.0, 10000.0, 0.0, 0.0,},
+	{{60753.8, 60753.8, -60003.8,}, "sphere", "asteroidcentre", 18, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-66754.2, 68254.3, 41252.6,}, "sphere", "asteroidcentre", 18, 5000.0, 10000.0, 0.0, 91.0,},
+	{{-41252.6, -23251.5, 54753.5,}, "sphere", "asteroidcentre", 18, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-36752.3, 27751.8, -66004.1,}, "sphere", "asteroidcentre", 18, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dustcloudcentre", 18, 5000.0, 10000.0, 0.0, 0.0,},
+	{{54561.9, 101545.7, 28796.5,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -84.0,},
+	{{50015.1, -101545.7, 28796.5,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -101.0,},
+	{{-54561.9, -100030.1, -30312.2,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -84.0,},
+	{{-53046.3, 103061.3, -30312.2,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -98.0,},
+	{{36374.6, 203091.4, 28796.5,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -76.0,},
+	{{18187.3, -198544.6, 28796.5,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -113.0,},
+	{{-25765.3, 203091.5, -31827.8,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -111.0,},
+	{{-34859.0, -201575.9, -30312.2,}, "cylinder", "tiny", 48, 10000.0, 100000.0, 0.0, -73.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 256, 10000.0, 250000.0, 90.0, 90.0,},
+	{{41135.4, -791.1, 11470.5,}, "sphere", "asteroidcentre", 12, 7500.0, 15000.0, 0.0, 0.0,},
+	{{-41926.5, -791.1, -11866.0,}, "sphere", "asteroidcentre", 12, 7500.0, 15000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

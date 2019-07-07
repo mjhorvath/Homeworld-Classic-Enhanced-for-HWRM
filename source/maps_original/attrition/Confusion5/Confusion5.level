@@ -1,0 +1,33 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+[Field of Confusion (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,0.0,-80000.0,-40000.0,30000.0,90.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,70000.0,-70000.0,20000.0,30000.0,135.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,-70000.0,-70000.0,-100000.0,30000.0,45.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,70000.0,70000.0,-10000.0,30000.0,-135.0,Mothership_4.missphere,0
+MissionSphere    4,R2,Mothership,-70000.0,70000.0,90000.0,30000.0,-45.0,Mothership_5.missphere,0
+
+
+Lighting    ez05
+Background    ez05, 180, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    250000
+smUniverseSizeZ    250000
+smUniverseSizeY    250000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    12

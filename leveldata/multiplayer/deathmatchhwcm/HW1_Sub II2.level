@@ -1,0 +1,118 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[I tryed to keep the settings the same, have fun...]],
+	[[Should be pre-configured to ladder settings]],
+	[[]],
+	[[2nt map, go easy]],
+	[[AUTHOR: Rabid Mew-CK]],
+}
+
+LevelName = [[Subjugate Your Friends II 2-4]]
+LevelFile = [[Sub II2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = ""
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-75000.0, 0.0, 0.0, 0.0,},
+	{75000.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {75000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{15, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-75000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{15, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	cloudregrow =
+	{
+		dustcloud0 = 1,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+	asteroidmainregrow =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 3,
+		asteroid4 = 5,
+	},
+	asteroidmain =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "cloudregrow", 50, 10000.0, 10000.0, 10000.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroidmainregrow", 50, 10000.0, 10000.0, 10000.0, 0.0,},
+	{{0.0, 0.0, 75000.0,}, "sphere", "cloudregrow", 100, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, 0.0, -75000.0,}, "sphere", "cloudregrow", 100, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{-50000.0, 0.0, 0.0,}, "cylinder", "asteroidmain", 15, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{50000.0, 0.0, 0.0,}, "cylinder", "asteroidmain", 15, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, 50000.0, 0.0,}, "cylinder", "asteroidmain", 15, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, -50000.0, 0.0,}, "cylinder", "asteroidmain", 15, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{28500.0, 0.0, 0.0,}, "cylinder", "asteroidmain", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{-28500.0, 0.0, 0.0,}, "cylinder", "asteroidmain", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{0.0, 28500.0, 0.0,}, "cylinder", "asteroidmain", 15, 2000.0, 40000.0, 0.0, 90.0,},
+	{{0.0, -28500.0, 0.0,}, "cylinder", "asteroidmain", 15, 2000.0, 40000.0, 0.0, 90.0,},
+	{{0.0, 0.0, 28500.0,}, "cylinder", "asteroidmain", 15, 2000.0, 40000.0, 90.0, 0.0,},
+	{{0.0, 0.0, -28500.0,}, "cylinder", "asteroidmain", 15, 2000.0, 40000.0, 90.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

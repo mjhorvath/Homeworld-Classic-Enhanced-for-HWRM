@@ -1,0 +1,17 @@
+Description     Choose your path
+Description	enjoy this dangerous path of resources
+Description      
+Description     
+Description     Map By: sandman
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

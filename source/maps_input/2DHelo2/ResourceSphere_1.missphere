@@ -1,0 +1,23 @@
+; MissionMan script, Friday, Apr 28 2000, 9:41:40 PM,,,,,,,,,
+; Copyright (c) 1998-99, Relic Entertainment Inc.,,,,,,,,,,,
+; MissionSphere Object: ?,ResourceSphere,,,,,,,,,,,
+
+Resources    DustCloud,350000,-40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,0,0,0,Sphere,Dust.dist,50,5000,10000,0,0,0,?
+Resources    DustCloud,280000,0,0,Sphere,Dust.dist,50,5000,10000,0,0,0,?
+Resources    DustCloud,-280000,0,0,Sphere,Dust.dist,50,5000,10000,0,0,0,?
+Resources    DustCloud,-210000,-40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,210000,-40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,210000,40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,210000,40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,210000,-40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,-210000,-40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,-210000,40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,-210000,40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,-350000,40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,-350000,40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,-350000,-40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,-350000,-40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,350000,-40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,350000,40000,-40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?
+Resources    DustCloud,350000,40000,40000,Sphere,Dust.dist,36,5000,10000,0,0,0,?

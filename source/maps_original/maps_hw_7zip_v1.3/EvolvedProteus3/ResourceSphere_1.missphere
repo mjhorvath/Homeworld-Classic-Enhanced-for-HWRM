@@ -1,0 +1,34 @@
+; MissionMan script, lunes, may 8 2000, 12:22:16 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,120000.0,-70000.0,30000.0,Sphere,AsteroidNucleus.dist,40,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,122000.0,-70000.0,30000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,118000.0,-70000.0,30000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-68000.0,30000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-68000.0,30000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-72000.0,30000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-72000.0,30000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-69000.0,32000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-69000.0,32000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-71000.0,32000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-71000.0,32000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-69000.0,28000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-69000.0,28000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,121000.0,-71000.0,28000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+Resources    Asteroid,119000.0,-71000.0,28000.0,Sphere,AsteroidMedium2.dist,10,1000.0,2000.0,0.0,0.0,0,?
+
+
+Resources    Asteroid,130000.0,-70000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,128000.0,-64000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,124000.0,-61000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,118000.0,-60000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,113000.0,-63000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,110000.0,-68000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,111000.0,-74000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,114000.0,-78000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,119000.0,-80000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,124000.0,-79000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+Resources    Asteroid,128000.0,-76000.0,30000.0,Cylinder,Asteroidlight.dist,35,3000.0,200.0,90.0,180.0,0,?
+
+

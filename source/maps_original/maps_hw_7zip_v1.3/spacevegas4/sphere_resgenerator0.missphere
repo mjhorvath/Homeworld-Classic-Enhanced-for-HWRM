@@ -1,0 +1,48 @@
+; MissionSphere Object: ?,ResourceSphere
+; offset froom 0,0,0 -> -50000,0,0
+
+; fast respawning resources (placed in the generator)
+Resources    DustCloud, -50000.0,0.0,0.0,Sphere,BigDustCloud.dist,2,100.0,100.0,0.0,0.0,?,?
+Resources    DustCloud, -49500.0,0.0,0.0,Sphere,BigDustCloud.dist,2,100.0,100.0,0.0,0.0,?,?
+Resources    DustCloud, -49000.0,0.0,0.0,Sphere,BigDustCloud.dist,2,100.0,100.0,0.0,0.0,?,?
+Resources    DustCloud, -48500.0,0.0,0.0,Sphere,BigDustCloud.dist,2,100.0,100.0,0.0,0.0,?,?
+Resources    DustCloud, -48000.0,0.0,0.0,Sphere,BigDustCloud.dist,6,100.0,100.0,0.0,0.0,2048,7
+
+; Resource-Generator
+Derelict    FragmentStrut, -51651.0,     0.0,     0.0,   0.0,  90.0, 0, ?, 1
+;Derelict    FragmentStrut, -48832.0,     0.0,     0.0,   0.0,  90.0, 0, ?, 1
+Derelict    FragmentStrut, -50000.0,  1651.0,     0.0,   0.0,   0.0, 0, ?, 1
+Derelict    FragmentStrut, -50000.0, -1651.0,     0.0,   0.0,   0.0, 0, ?, 1
+Derelict    FragmentStrut, -51168.0,  1168.0,     0.0,   0.0,  45.0, 0, ?, 1
+Derelict    FragmentStrut, -51168.0, -1168.0,     0.0,   0.0, -45.0, 0, ?, 1
+;Derelict    FragmentStrut, -48832.0,  1168.0,     0.0,   0.0, -45.0, 0, ?, 1
+;Derelict    FragmentStrut, -48349.0, -1168.0,     0.0,   0.0,  45.0, 0, ?, 1
+
+Derelict    FragmentStrut, -50684.0,     0.0,   967.0,   0.0,  90.0, 0, ?, 1
+Derelict    FragmentStrut, -49316.0,     0.0,   967.0,   0.0,  90.0, 0, ?, 1
+Derelict    FragmentStrut, -50000.0,   684.0,   967.0,   0.0,   0.0, 0, ?, 1
+Derelict    FragmentStrut, -50000.0,  -684.0,   967.0,   0.0,   0.0, 0, ?, 1
+
+Derelict    FragmentStrut, -50684.0,     0.0,  -967.0, 180.0,  90.0, 0, ?, 1
+Derelict    FragmentStrut, -49316.0,     0.0,  -967.0, 180.0,  90.0, 0, ?, 1
+Derelict    FragmentStrut, -50000.0,   684.0,  -967.0, 180.0,   0.0, 0, ?, 1
+Derelict    FragmentStrut, -50000.0,  -684.0,  -967.0, 180.0,   0.0, 0, ?, 1
+
+Derelict    FragmentStrut, -51168.0,   684.0,   484.0, -45.0,   0.0, 0, ?, 1
+Derelict    FragmentStrut, -51168.0,   684.0,  -484.0, 225.0,   0.0, 0, ?, 1
+Derelict    FragmentStrut, -51168.0,  -684.0,   484.0, -45.0,   0.0, 0, ?, 1
+Derelict    FragmentStrut, -51168.0,  -684.0,  -484.0, 225.0,   0.0, 0, ?, 1
+;Derelict    FragmentStrut, -48832.0,   684.0,   484.0,  45.0,   0.0, 0, ?, 1
+;Derelict    FragmentStrut, -48832.0,   684.0,  -484.0,-225.0,   0.0, 0, ?, 1
+;Derelict    FragmentStrut, -48832.0,  -684.0,   484.0,  45.0,   0.0, 0, ?, 1
+;Derelict    FragmentStrut, -48832.0,  -684.0,  -484.0,-225.0,   0.0, 0, ?, 1
+
+Derelict    FragmentStrut, -50648.0,  1168.0,   484.0,  90.0,  45.0, 0, ?, 1
+Derelict    FragmentStrut, -50648.0,  1168.0,  -484.0, -90.0,  45.0, 0, ?, 1
+Derelict    FragmentStrut, -50648.0, -1168.0,   484.0,  90.0, -45.0, 0, ?, 1
+Derelict    FragmentStrut, -50648.0, -1168.0,  -484.0, -90.0, -45.0, 0, ?, 1
+Derelict    FragmentStrut, -49316.0,  1168.0,   484.0,  90.0,  45.0, 0, ?, 1
+Derelict    FragmentStrut, -49316.0,  1168.0,  -484.0, -90.0,  45.0, 0, ?, 1
+Derelict    FragmentStrut, -49316.0, -1168.0,   484.0,  90.0, -45.0, 0, ?, 1
+Derelict    FragmentStrut, -49316.0, -1168.0,  -484.0, -90.0, -45.0, 0, ?, 1
+

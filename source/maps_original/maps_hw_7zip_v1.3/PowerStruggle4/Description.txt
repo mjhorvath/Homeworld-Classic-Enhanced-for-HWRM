@@ -1,0 +1,6 @@
+Description	Power Struggle (4 player only)
+Description     My aim, when making this map, was to create an enviroment where you can be attacked from every angle by creating a true 3D map
+Description     This can be played either 2 vs 2, or ffa
+Description
+Description	AUTHOR	 : (ib)Overkill
+Description	EMAIL	 : Any comments, please send them to Rob_128@Hotmail.com

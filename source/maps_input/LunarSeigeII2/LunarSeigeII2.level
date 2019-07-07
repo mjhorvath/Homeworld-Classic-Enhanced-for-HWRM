@@ -1,0 +1,76 @@
+; MissionMan script, Thursday, Aug. 3 2001, 1:25:32 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: LunarSeigeII2
+; Info: LunarSeigeII (2)
+
+[LunarSeigeII (2)]
+
+MissionSphere    0,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    Mission01
+Background    Mission01,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    250000
+smZoomMin    40000
+smInitialDistance    60000
+smUniverseSizeX    200000
+smUniverseSizeZ    100000
+smUniverseSizeY    200000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeDerelict  homeworld
+IncludeDerelict  planetoforigin 
+IncludeDerelict  dnisbuoy
+IncludeDerelict  kMothership
+IncludeShips    RACE_KUSHAN,kHeavyCruiser
+IncludeShips    RACE_KUSHAN,kProximitySensor
+IncludeShips    RACE_KUSHAN,kStandardDestroyer
+IncludeShips    RACE_TAIDAN,tHeavyCruiser
+IncludeShips    RACE_TAIDAN,tStandardDestroyer
+IncludeShips    RACE_TAIDAN,tAttackBomber
+IncludeShips    RACE_TAIDAN,tAdvanceSupportFrigate
+IncludeShips    RACE_TAIDAN,tResourceCollector
+IncludeShips    RACE_TAIDAN,tGravWellGenerator
+IncludeShips    RACE_P1,p1IonArrayFrigate
+IncludeShips    RACE_P1,p1Outpost
+IncludeShips    RACE_P1,p1MissileCorvette
+IncludeShips    RACE_KUSHAN,kAttackBomber
+IncludeShips    RACE_DERELICT,dprisonshipinfected
+IncludeShips    RACE_DERELICT,djunk2Shipwreck
+IncludeShips    RACE_DERELICT,dbiggun
+IncludeShips    RACE_DERELICT,dbiggununit
+IncludeShips    RACE_DERELICT,djunk1shell
+IncludeShips    RACE_DERELICT,dslipgatenode
+IncludeShips    RACE_TRADERS,trMiningBase
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+BaseColor 7,200,0,0
+StripeColor 7,0,0,255
+BaseColor 5,255,128,64
+StripeColor 5,255,255,0
+AvailableColorSchemes RACE_KUSHAN,kAttackBomber 5,7
+AvailableColorSchemes RACE_KUSHAN,kHeavyCruiser 5,7
+AvailableColorSchemes RACE_TAIDAN,tAttackBomber 5,7
+
+SongNumber    9
+LensFlare    ps-50-300mm-zoom
+
+
+
+
+
+
+
+

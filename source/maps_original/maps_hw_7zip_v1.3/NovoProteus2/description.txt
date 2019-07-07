@@ -1,0 +1,10 @@
+Description     Another vortex of ateroids in the middle of the space, and we all have arrived at the same time to harvest. The battle for resources will start at once...
+Description     
+Description     AUTHOR: Randix (starmaker72@hotmail.com)
+Description     VERSION: APRIL 24/2001 
+Description     
+
+Font            Arial_b12.hff
+Color           0, 200, 255
+DropShadow      Yes
+

@@ -1,0 +1,200 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"LunarSeigeIII(2)",
+	"Version 1.0 ",
+	"This battle is between the remaining space-based lunar defenses and a large Hiigaran attack fleet. Each side has 3 main battle groups already spread out, and 1 strike craft regiment nearby. There is also an additional battle group escorting the command ship. Slipgate generators are included, one being a converted Turanic outpost, the rest composed of Bentusi slipgate nodes.       ",
+	"This map has a large starting fleet. Build support modules on the carriers right away. If you dont like the extra ships, you can easily scuttle them to instantly free up support needs, but they are part of this story line which is why they were included. I understand that some people get frustrated by lots of starting ships. Please, if lots of starting ships bother you, dont get mad, just retire them (or scuttle them for that instant satisfaction!!)",
+	"I love ALL the ships in the Homeworld series, and i like to give players the ability to use some ships that they wouldn't otherwise be able to use. And i happen to enjoy massive fleets. I also like to include older ships as a tribute to Homeworld, without which Cataclysm would not have come about. Enjoy my maps!",
+	"Author : Gen&F&l&a&kRabbi (shig2@peoplepc.com)",
+}
+
+LevelName = [[LunarSeigeIII (2)]]
+LevelFile = [[LunarSeigeIII2]]
+SourceGame = "HWC"
+NumberOfPlayers = 2
+
+SensorsZoom = {40000, 250000,}
+UniverseSize = {200000, 200000, 100000, }
+
+LevelBackground = "mission01"
+LevelMusic = "20"
+
+RUsRatio = 1/2
+
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-160000.0, 0.0, -12000.0, 0.0,},
+	{160000.0, 0.0, 12000.0, -135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "smothership", {-160000.0, 0.0, -12000.0,}, 0, {0, 0, 0.0,}, 0, 0, "race_sect", "null_formation",},
+	{14, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {-160000.0, 0.0, -12000.0,}, 0, {0, 0, 0.0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "sprocessor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{4, "", "kheavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_kushan", "wall_formation",},
+	{30, "", "sacv", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{3, "", "tdfgfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "broad_formation",},
+	{1, "", "sdreadnought", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "kheavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_kushan", "broad_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{2, "", "kheavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_kushan", "broad_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{2, "", "kheavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_kushan", "broad_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "null_formation",},
+	{30, "", "theavyinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_taidan", "sphere_formation",},
+	{1, "", "smothership", {160000.0, 0.0, 12000.0,}, 1, {0, 0, -135.0,}, 0, 0, "race_sect", "null_formation",},
+	{14, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {160000.0, 0.0, 12000.0,}, 1, {0, 0, -135.0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "sprocessor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{4, "", "kheavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "wall_formation",},
+	{30, "", "sacv", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{3, "", "tdfgfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_taidan", "broad_formation",},
+	{1, "", "sdreadnought", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "kheavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "broad_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{2, "", "kheavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "broad_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{2, "", "kheavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "broad_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "sdestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "wall_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{1, "", "kioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "null_formation",},
+	{30, "", "kheavyinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_kushan", "sphere_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "djunk2shipwreck", {-35000.0, 120000.0, -25000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "djunk3boiler", {35000.0, -120000.0, 25000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dbiggun", {-35000.0, -115000.0, 4000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dbiggununit", {82000.0, 121000.0, 1000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "djunk1shell", {6000.0, 0.0, -8000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {0.0, -1000.0, 2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {0.0, 1000.0, 2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {0.0, -1000.0, -2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {0.0, 1000.0, -2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {0.0, -2000.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {0.0, 2000.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {80000, 119000.0, 2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {80000.0, 121000.0, 2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {80000.0, 119000.0, -2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {80000.0, 121000.0, -2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {80000.0, 118000.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "dslipgatenode", {80000.0, 122000.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_derelict", "null_formation",},
+	{1, "", "p1outpost", {-30000.0, -120000.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_p1", "null_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"homeworld", {1150000.0, 900000.0, -200000.0,}, -1, {0, 40.0, -90.0,}, 0, 0,},
+	{"planetoforigin", {-450000.0, -100000.0, 100000.0,}, -1, {0, 0.0, 20.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+	{1, "dcrystal1", {1200.0, 1700.0, 1800.0,},},
+	{1, "dcrystal1", {1200.0, -2000.0, -2000.0,},},
+	{1, "dcrystal1", {-1600.0, 1200.0, -1200.0,},},
+	{1, "dcrystal1", {-2000.0, -1200.0, 1800.0,},},
+}
+
+Distributions =
+{
+	garden =
+	{
+		asteroid0 = 3,
+		asteroid1 = 0,
+		asteroid2 = 2,
+		asteroid3 = 6,
+		asteroid4 = 6,
+	},
+	other =
+	{
+		asteroid0 = 5,
+		asteroid1 = 0,
+		asteroid2 = 10,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{170000.0, -60000.0, -20000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 90.0,},
+	{{165000.0, -50000.0, -19000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 100.0,},
+	{{160000.0, -40000.0, -16000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 110.0,},
+	{{155000.0, -30000.0, -11000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 120.0,},
+	{{160000.0, -20000.0, -6000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 130.0,},
+	{{160000.0, -10000.0, -1000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 140.0,},
+	{{160000.0, 0.0, 4000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 150.0,},
+	{{160000.0, 10000.0, 9000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 160.0,},
+	{{160000.0, 20000.0, 14000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 170.0,},
+	{{-170000.0, 60000.0, 16000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 90.0,},
+	{{-165000.0, 50000.0, 15000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 100.0,},
+	{{-160000.0, 40000.0, 12000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 110.0,},
+	{{-155000.0, 30000.0, 7000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 120.0,},
+	{{-160000.0, 20000.0, 2000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 130.0,},
+	{{-160000.0, 10000.0, -3000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 140.0,},
+	{{-160000.0, 0.0, -8000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 150.0,},
+	{{-160000.0, -10000.0, -13000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 160.0,},
+	{{-160000.0, -20000.0, -18000.0,}, "sphere", "garden", 10, 10000, 20000, 0, 170.0,},
+	{{80000.0, 110000.0, 0.0,}, "sphere", "other", 10, 10000, 20000, 0, 100.0,},
+	{{-30000.0, -110000.0, 0.0,}, "sphere", "other", 10, 10000, 20000, 0, 110.0,},
+	{{-140000.0, 100000.0, 0.0,}, "sphere", "other", 10, 10000, 20000, 0, 130.0,},
+	{{140000.0, -100000.0, 0.0,}, "sphere", "other", 10, 10000, 20000, 0, 140.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "other", 20, 5000, 0, 0, 170.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

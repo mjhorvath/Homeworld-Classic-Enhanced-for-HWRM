@@ -1,0 +1,9 @@
+; MissionMan script, Spino, Dec 15th,2006 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,32500.0,56291.0,0.0,-120.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,34537.0,55173.0,0.0,-120.0,R1,ResearchShip,1,PARADE_FORMATION|?|?,0,?
+Ships     ,30151.0,56637.0,0.0,-120.0,R1,ResourceCollector,2,PARADE_FORMATION|?|?,0,?
+Ships     ,32038.0,53058.0,0.0,-120.0,R1,LightInterceptor,5,PARADE_FORMATION|?|?,0,?
+

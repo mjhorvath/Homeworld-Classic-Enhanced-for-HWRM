@@ -1,0 +1,35 @@
+; MissionMan script, Friday, Oct 14 2005, 2:23:53 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Talas Crossroads II2
+; Info: Talas Crossroads II (1v1)
+
+[Talas Crossroads II (1v1)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,40000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    ez06
+Background    ez06,180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    200000
+smZoomMin    20000
+smInitialDistance    145000
+smUniverseSizeX    75500
+smUniverseSizeZ    22500
+smUniverseSizeY    84000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    42

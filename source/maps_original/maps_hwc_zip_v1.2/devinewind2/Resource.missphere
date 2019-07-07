@@ -1,0 +1,33 @@
+; MissionMan script, Monday, Sep 18 2000, 2:10:53 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,17.7,3.9,0.0,Cylinder,type0.dist,10,2500.0,1000.0,0.0,0.0,0,?
+Mine    878.2,-1441.6,6430.0,63.0
+Resources    Asteroid,29.6,962.4,-4810.0,Cylinder,type3.dist,5,1270.0,950.0,0.0,0.0,0,?
+MeteorStorm 105.4,-7060.0,0.0,Cylinder,02rare.dist,10,500.0,1000.0,0.0,0.0,0,1000,500,500
+Resources    DustCloud,210.7,8535.2,0.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+MeteorStorm -15.0,-1875.0,0.0,Cylinder,02rare.dist,10,500.0,1000.0,0.0,0.0,0,1000,500,500
+MeteorStorm -155.0,-495.0,2750.0,Sphere,02rare.dist,10,500.0,1000.0,0.0,0.0,0,1000,500,500
+Resources    DustCloud,-1860.5,1351.4,4740.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-1100.5,3181.4,6880.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,0.0,2151.4,8585.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-1450.5,751.4,11440.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,6949.5,-1398.6,8280.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,5709.5,711.4,11140.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,4579.5,6391.4,19000.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-1650.5,-3878.6,-200.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-1340.5,-5548.6,-2120.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-1720.5,-7088.6,-2910.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-4320.0,-6418.6,-4305.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-5650.5,-5270.0,-6245.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Resources    DustCloud,-8500.5,-5808.6,-4200.0,Cylinder,Dust.dist,10,500.0,1000.0,0.0,0.0,0,?
+Mine    -10050.5,-5958.6,-2180.0,63.0
+Ships     ,0.0,0.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,20000.0,1000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,-20000.0,-1000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,40170.7,3.9,0.0,Cylinder,type0.dist,10,2500.0,1000.0,0.0,0.0,0,?
+Resources    Asteroid,-40170.7,3.9,0.0,Cylinder,type0.dist,10,2500.0,1000.0,0.0,0.0,0,?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Resources    Asteroid,45029.6,962.4,-4810.0,Cylinder,type3.dist,5,1270.0,950.0,0.0,0.0,0,?
+Resources    Asteroid,-45029.6,962.4,-4810.0,Cylinder,type3.dist,5,1270.0,950.0,0.0,0.0,0,?

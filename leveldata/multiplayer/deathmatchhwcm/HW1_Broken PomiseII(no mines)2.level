@@ -1,0 +1,127 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Broken Promise II No Mines (2-4)",
+	"",
+	"Original Map by AM Cartman. Second version by Iam.hg",
+	"",
+	"A few other changes as well.",
+	"",
+	"Minelayers removed ny Music ",
+	"*kickbans SpawnLS*",
+}
+
+LevelName = [[Broken PomiseII(no mines) (2-4)]]
+LevelFile = [[Broken PomiseII(no mines)2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 150000,}
+UniverseSize = {150000, 150000, 60000, }
+
+LevelBackground = "ez3"
+LevelMusic = "12"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-50000.0, 0.0, 0.0, 0.0,},
+	{50000.0, 0.0, 0.0, -180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-50000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "p1fighter", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p1", "parade_formation",},
+	{1, "", "mothership", {50000.0, 0.0, 0.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "p1fighter", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	tiny =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 3,
+		asteroid4 = 2,
+	},
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 4,
+		asteroid3 = 3,
+		asteroid4 = 1,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "tiny", 25, 2500.0, 15000.0, 30.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 35, 3500.0, 15000.0, 0.0, 0.0,},
+	{{-50000.0, 10000.0, 4000.0,}, "cylinder", "asteroid", 20, 950.0, 8000.0, 0.0, 0.0,},
+	{{-42000.0, 8000.0, 4000.0,}, "cylinder", "asteroid", 20, 950.0, 8000.0, 0.0, -35.0,},
+	{{-58000.0, 8000.0, 4000.0,}, "cylinder", "asteroid", 19, 950.0, 8000.0, 0.0, 35.0,},
+	{{50000.0, -10000.0, 4000.0,}, "cylinder", "asteroid", 20, 950.0, 8000.0, 0.0, 0.0,},
+	{{42000.0, -8000.0, 4000.0,}, "cylinder", "asteroid", 20, 950.0, 8000.0, 0.0, -35.0,},
+	{{58000.0, -8000.0, 4000.0,}, "cylinder", "asteroid", 19, 950.0, 8000.0, 0.0, 35.0,},
+	{{-22500.0, 10000.0, -4000.0,}, "sphere", "dustcloud", 15, 2000.0, 2000.0, 0.0, 0.0,},
+	{{22500.0, -10000.0, -4000.0,}, "sphere", "dustcloud", 15, 2000.0, 2000.0, 0.0, 0.0,},
+	{{-10000.0, 0.0, 0.0,}, "cylinder", "asteroid", 50, 750.0, 20000.0, 90.0, 0.0,},
+	{{10000.0, 0.0, 0.0,}, "cylinder", "asteroid", 50, 750.0, 20000.0, 90.0, 0.0,},
+	{{10000.0, 0.0, 0.0,}, "cylinder", "dustcloud", 6, 600.0, 8000.0, 90.0, 0.0,},
+	{{-10000.0, 0.0, 0.0,}, "cylinder", "dustcloud", 6, 600.0, 8000.0, 90.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

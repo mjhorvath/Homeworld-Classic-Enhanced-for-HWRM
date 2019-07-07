@@ -1,0 +1,44 @@
+; MissionMan script, sábado, abr 1 2000, 9:58:45 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: DragonDen2
+; Info: DEN OF DRAGON (2-4)
+
+[DEN OF DRAGON (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    1,R2,Mothership,-60000.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,60000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    -1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,1000
+MissionSphere    -1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,1000
+
+Lighting    ez06
+Background    ez06, 45, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    150000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    200000
+smUniverseSizeZ    100000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips    Traders,Junk_LGun
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,LightInterceptor
+ExcludeShips    R2,LightInterceptor
+ExcludeShips    R1,HeavyInterceptor
+ExcludeShips    R2,HeavyInterceptor
+ExcludeShips    R1,MissileDestroyer
+ExcludeShips    R2,MissileDestroyer
+IncludeShips    P3,P3Megaship
+IncludeShips    P3,P3Frigate
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    12

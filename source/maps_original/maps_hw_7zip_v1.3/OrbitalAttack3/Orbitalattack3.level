@@ -1,0 +1,37 @@
+; MissionMan script, Friday, Nov 26 1999, 6:30:42 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Orbitalattack3
+; Info: Orbital Attack (2-4)
+
+[Orbital Attack (2-4)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    ez02
+Background    ez02, 85, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    130000
+smZoomMin    40000
+smInitialDistance    60000
+smUniverseSizeX    200000
+smUniverseSizeZ    45000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+IncludeShips    P2,P2MultiBeamFrigate
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    1

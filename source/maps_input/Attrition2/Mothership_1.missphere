@@ -1,0 +1,31 @@
+; MissionMan script, Friday, Jan 19 2001, 9:52:36 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,105000.0,-125000.0,-100000.0,135.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,97000.0,-133000.0,-101500.0,135.0,R1,HeadShotAsteroid,1,NULL_FORMATION|?|colorScheme(1),0,?
+Ships     ,130000.0,-152700.0,-128500.0,135.0,R1,MissileDestroyer,2,PARADE_FORMATION|?|?,0,?
+Ships     ,130000.0,-156200.0,-128500.0,135.0,R1,StandardDestroyer,2,PARADE_FORMATION|?|?,0,?
+Ships     ,130300.0,-146900.0,-128500.0,135.0,R1,StandardFrigate,3,PARADE_FORMATION|?|?,0,?
+Ships     ,130300.0,-144400.0,-128500.0,135.0,R1,IonCannonFrigate,3,PARADE_FORMATION|?|?,0,?
+Ships     ,130300.0,-142800.0,-128500.0,135.0,R1,DDDFrigate,2,PARADE_FORMATION|?|?,0,?
+Ships     ,130300.0,-140000.0,-128500.0,135.0,R1,AdvanceSupportFrigate,4,PARADE_FORMATION|?|?,0,?
+Ships     ,98000.0,-118000.0,-102000.0,135.0,P2,P2MultiBeamFrigate,3,BROAD_FORMATION|?|colorScheme(1),0,?
+Ships     ,100000.0,-120000.0,-102300.0,135.0,P1,P1IonArrayFrigate,3,BROAD_FORMATION|?|colorScheme(1),0,?
+Ships     ,106700.0,-128300.0,-100000.0,135.0,R1,GravWellGenerator,2,PARADE_FORMATION|?|?,0,?
+Ships     ,106700.0,-129900.0,-99700.0,135.0,R1,CloakGenerator,2,PARADE_FORMATION|?|?,0,?
+Ships     ,116700.0,-131400.0,-100000.0,135.0,R1,ProximitySensor,2,PARADE_FORMATION|?|?,0,?
+Ships     ,80000.0,-125000.0,-100000.0,135.0,R1,CloakedFighter,20,BROAD_FORMATION|?|?,0,?
+Ships     ,79500.0,-124500.0,-100050.0,135.0,R1,AttackBomber,20,BROAD_FORMATION|?|?,0,?
+Ships     ,79000.0,-124000.0,-99925.0,135.0,R1,HeavyInterceptor,20,BROAD_FORMATION|?|?,0,?
+Ships     ,78500.0,-123500.0,-99700.0,135.0,R1,HeavyDefender,20,BROAD_FORMATION|?|?,0,?
+Ships     ,78000.0,-123000.0,-99700.0,135.0,R1,LightDefender,20,BROAD_FORMATION|?|?,0,?
+Ships     ,105000.0,-100000.0,-100000.0,135.0,R1,SalCapCorvette,10,BROAD_FORMATION|?|?,0,?
+Ships     ,104400.0,-99400.0,-99800.0,135.0,R1,MinelayerCorvette,10,BROAD_FORMATION|?|?,0,?
+Ships     ,103800.0,-98800.0,-99850.0,135.0,R1,MultiGunCorvette,10,BROAD_FORMATION|?|?,0,?
+Ships     ,103200.0,-98200.0,-99825.0,135.0,R1,HeavyCorvette,10,BROAD_FORMATION|?|?,0,?
+Ships     ,102600.0,-97600.0,-99650.0,135.0,R1,LightCorvette,10,BROAD_FORMATION|?|?,0,?
+Ships     ,92500.0,-112500.0,-100000.0,135.0,P1,P1MissileCorvette,10,BROAD_FORMATION|?|colorScheme(1),0,?
+Ships     ,91000.0,-111000.0,-99800.0,135.0,R1,AdvanceSupportFrigate,3,BROAD_FORMATION|?|?,0,?
+Ships     ,90000.0,-110000.0,-100100.0,135.0,P2,P2AdvanceSwarmer,30,BROAD_FORMATION|?|colorScheme(1),0,?
+

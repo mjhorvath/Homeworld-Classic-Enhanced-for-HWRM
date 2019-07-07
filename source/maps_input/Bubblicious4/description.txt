@@ -1,0 +1,13 @@
+Description	Bubblicious4
+Description
+Description     Be prepared to battle for you're Resources on this map
+Description	VERSION	: 2.1 (6 Nov 2000)
+Description
+Description	By Geritol_OMO
+
+Font            Arial_b12.hff
+Color           200, 100, 200
+DropShadow      Yes
+
+type.startingResources		2
+

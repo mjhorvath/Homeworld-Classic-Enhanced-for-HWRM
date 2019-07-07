@@ -1,0 +1,36 @@
+; MissionMan script, Sunday, Dec 12 1999, 3:14:36 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Derelict    Scaffold,3672.2,306.0,0.0,0.0,0.0,0,?,?
+Derelict    Scaffold,-2317.0,-448.1,0.0,0.0,180.0,0,?,?
+Resources    Nebula,0.0,70.2,0.0,Nebula,nebby.dist,25,12531.9,12531.9,12531.9,2000,0,?
+Derelict    Scaffold,3651.8,-4459.4,0.0,0.0,0.0,0,?,?
+Derelict    Scaffold,-2337.4,-5283.7,0.0,0.0,180.0,0,?,?
+Derelict    Scaffold,3651.8,5231.9,0.0,0.0,0.0,0,?,?
+Derelict    Scaffold,-2337.4,4407.6,0.0,0.0,180.0,0,?,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,miny.dist,100,1000.0,188300.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-133.2,0.0,Cylinder,miny.dist,100,1000.0,188300.0,0.0,-90.0,0,?
+Resources    Asteroid,-350.5,-175.2,350.5,Cylinder,miny.dist,100,1000.0,188300.0,90.0,180.0,0,?
+Resources    Asteroid,-54677.1,-54677.2,0.0,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Asteroid,-56429.6,56254.4,0.0,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Asteroid,54677.1,55553.4,0.0,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Asteroid,54677.1,-55553.4,0.0,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Asteroid,-25235.6,-25235.6,350.5,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Asteroid,-24885.1,25410.9,0.0,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Asteroid,25586.1,25410.9,0.0,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Asteroid,24885.1,-25060.4,0.0,Sphere,cluster.dist,25,5561.0,11121.9,0.0,0.0,0,?
+Resources    Nebula,-39956.4,-39430.6,0.0,Nebula,nebby.dist,25,20875.8,20875.8,20875.8,2000,0,?
+Resources    Nebula,-40306.9,40482.1,0.0,Nebula,nebby.dist,25,20875.8,20875.8,20875.8,2000,0,?
+Resources    Nebula,39956.4,39781.1,0.0,Nebula,nebby.dist,25,20875.8,20875.8,20875.8,2000,0,?
+Resources    Nebula,39605.9,-40832.6,0.0,Nebula,nebby.dist,25,20875.8,20875.8,20875.8,2000,0,?
+Resources    DustCloud,-54677.1,-55027.6,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Resources    DustCloud,-25586.1,-24709.9,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Resources    DustCloud,24885.1,-24359.4,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Resources    DustCloud,54326.7,-55202.9,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Resources    DustCloud,25235.6,25410.9,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Resources    DustCloud,54326.6,55202.9,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Resources    DustCloud,-24885.1,25761.3,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Resources    DustCloud,-56429.6,56604.9,0.0,Cylinder,gas.dist,25,2500.0,64450.0,90.0,180.0,0,?
+Derelict    AngelMoon_clean,-301166.6,1083.3,0.0,0.0,0.0,0,?,?
+

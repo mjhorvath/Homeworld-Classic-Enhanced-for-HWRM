@@ -1,0 +1,45 @@
+; MissionMan script, Monday, Mar 12 2001, 3:38:01 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Chaos4
+; Info: Chaos (4)
+
+[Chaos (4)]
+
+
+MissionSphere    -1,?,ResourceSphere,0.0,-34.0,0.0,30000.0,0.0,Resource.missphere,4000
+MissionSphere    0,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,4000
+MissionSphere    1,RACE_SECT,sMothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_1.missphere,4000
+MissionSphere    2,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,4000
+MissionSphere    3,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,4000
+
+Lighting    darknebula
+Background    darknebula,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    120000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    60000
+smUniverseSizeX    120000
+smUniverseSizeZ    45000
+smUniverseSizeY    120000
+
+IncludeDerelict    Homeworld
+IncludeDerelict    PlanetOfOrigin
+IncludeDerelict    lavaball
+IncludeDerelict    mattworld
+IncludeDerelict    planetoforigin_scarred
+IncludeDerelict    galaxy
+
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+SongNumber    24

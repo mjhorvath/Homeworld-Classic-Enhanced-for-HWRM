@@ -1,0 +1,47 @@
+; MissionMan script, Friday, Apr 28 2000, 7:34:05 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,26412.4,-29754.4,-2359.1,Cylinder,DustCloud.dist,15,1218.1,613.2,7.7,-169.6,0,?
+Resources    Asteroid,30066.4,-31891.0,-1700.6,Cylinder,type0.dist,20,3898.4,1978.9,9.1,-173.6,0,?
+Resources    Asteroid,32107.6,-31053.0,-658.5,Cylinder,verywell07.dist,10,1922.8,976.0,9.1,-173.6,0,?
+Resources    DustCloud,-22115.4,26649.9,6190.0,Cylinder,DustCloud.dist,15,1218.1,613.2,9.2,-31.1,0,?
+Resources    Asteroid,-24635.9,31623.6,7099.6,Cylinder,type0.dist,20,3898.4,1978.9,10.8,-35.0,0,?
+Resources    Asteroid,-25495.2,31306.1,8167.6,Cylinder,verywell07.dist,10,1922.8,976.0,10.8,-35.0,0,?
+Resources    Asteroid,20250.0,-26516.4,-2034.9,Cylinder,type0.dist,10,1500.0,1980.0,0.7,152.9,0,?
+Resources    Asteroid,12183.0,-20595.8,-1935.6,Cylinder,type0.dist,10,1500.0,1980.0,-1.8,136.6,0,?
+Resources    Asteroid,5923.2,-13500.3,-696.6,Cylinder,type0.dist,10,1500.0,1980.0,-11.5,130.0,0,?
+Resources    Asteroid,-1127.5,-7022.0,99.3,Cylinder,type0.dist,10,1500.0,1980.0,-1.2,143.5,0,?
+Resources    Asteroid,-8268.8,-90.0,160.9,Cylinder,type0.dist,10,1500.0,1980.0,-3.9,130.4,0,?
+Resources    Asteroid,-12950.5,8704.4,972.7,Cylinder,type0.dist,10,1500.0,1980.0,-6.7,114.8,0,?
+Resources    Asteroid,-18163.9,17998.8,3066.3,Cylinder,type0.dist,10,1753.0,2313.9,-11.9,124.8,0,?
+Slipgate    ,-28974.0,19407.7,0.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,45787.7,-30123.8,514.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,25312.3,-25194.7,-4564.2,Cylinder,type0.dist,10,704.4,281.8,-24.2,150.9,0,?
+Resources    Asteroid,40569.8,-38869.7,-2768.6,Cylinder,type2.dist,1,704.4,281.8,-14.9,-31.8,0,?
+Resources    Asteroid,29365.5,-39303.3,-1082.4,Cylinder,type3.dist,1,704.4,281.8,-14.9,-31.8,0,?
+Resources    Asteroid,29301.2,-25876.0,741.9,Cylinder,type4.dist,1,704.4,281.8,-14.9,-31.8,0,?
+Resources    Asteroid,21757.6,-35106.3,-4812.8,Cylinder,type2.dist,1,704.4,281.8,-53.9,-70.2,0,?
+Resources    Asteroid,34648.4,-40400.4,-5057.5,Cylinder,type3.dist,1,704.4,281.8,-53.9,-70.2,0,?
+Resources    Asteroid,23696.6,-41007.8,-5150.1,Cylinder,type4.dist,1,704.4,281.8,-53.9,-70.2,0,?
+Resources    Asteroid,-23248.4,29473.1,4565.8,Cylinder,type0.dist,10,2241.2,2958.4,-2.2,110.6,0,?
+Resources    Asteroid,29504.9,-32908.5,-1384.5,Cylinder,type0.dist,10,2467.3,3256.8,-2.2,110.6,0,?
+Resources    Asteroid,-32753.3,4213.7,-3108.1,Cylinder,type0.dist,10,1500.0,1980.0,-2.4,16.4,0,?
+Resources    Asteroid,-22895.7,5568.0,-2044.8,Cylinder,type0.dist,10,1500.0,1980.0,-9.1,1.2,0,?
+Resources    Asteroid,-13725.3,5166.8,564.9,Cylinder,type0.dist,10,1500.0,1980.0,-20.2,-2.9,0,?
+Resources    Asteroid,-4330.0,5619.3,2523.8,Cylinder,type0.dist,10,1500.0,1980.0,-6.8,7.8,0,?
+Resources    Asteroid,5528.1,5636.2,3891.7,Cylinder,type0.dist,10,1500.0,1980.0,-12.7,-4.4,0,?
+Resources    Asteroid,14728.7,2883.1,6665.0,Cylinder,type0.dist,10,1500.0,1980.0,-18.7,-19.5,0,?
+Resources    Asteroid,24489.5,457.8,10762.9,Cylinder,type0.dist,10,1753.0,2313.9,-21.7,-8.0,0,?
+Ships     ,-26764.2,532.7,14320.6,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,-4725.2,14215.4,9488.5,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,25214.5,-47118.9,-17131.5,42.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,-12226.0,24351.8,13275.2,42.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,2701.6,17572.2,-1767.3,41.1,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,-7960.4,-13172.7,-399.6,41.1,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,34903.4,-12539.4,7279.2,-3.3,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,14263.9,-6358.7,-16182.4,-3.3,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,322.6,-22809.3,-6031.5,-38.6,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,9331.4,-36681.5,-7332.4,-38.6,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+;Resources    Nebula,35154.0,-49435.0,0.0,Nebula,nebula.dist,15,4091.9,4091.9,8780.9,10000,0,?
+

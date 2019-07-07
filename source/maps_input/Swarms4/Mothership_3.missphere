@@ -1,0 +1,15 @@
+; MissionMan script, martes, mar 28 2000, 4:55:11 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,0.0,-50000.0,0.0,90.0,R2,Carrier,1,NULL_FORMATION|UseAsMothership|?,0,?
+Ships     ,-1250.0,-49000.0,0.0,90.0,R2,HeavyDefender,20,BROAD_FORMATION|?1?,0,?
+Ships     ,-1250.0,-49500.0,0.0,90.0,R2,AttackBomber,20,BROAD_FORMATION|?|?,0,?
+Ships     ,-1250.0,-50500.0,0.0,90.0,R2,HeavyCorvette,15,BROAD_FORMATION|?|?,0,?
+Ships     ,1500.0,-48500.0,0.0,90.0,R2,StandardFrigate,4,BROAD_FORMATION|?|?,0,?
+Ships     ,1500.0,-50000.0,0.0,90.0,R2,GravWellGenerator,3,BROAD_FORMATION|?|?,0,?
+Ships     ,1500.0,-48500.0,0.0,90.0,R2,AdvanceSupportFrigate,4,BROAD_FORMATION|?|?,0,?
+Ships     ,1250.0,-50000.0,0.0,90.0,R2,ResourceCollector,2,BROAD_FORMATION|?|?,0,?
+Ships     ,1250.0,-51500.0,0.0,90.0,R2,ResearchShip,6,BROAD_FORMATION|?|?,0,?
+
+

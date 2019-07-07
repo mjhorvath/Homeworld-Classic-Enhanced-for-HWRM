@@ -1,0 +1,38 @@
+; MissionMan script, Friday, Jan 14 2000, 5:19:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Outposts7
+; Info: Outposts (2 - 8)
+
+[Outposts (2 - 8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,0
+MissionSphere    5,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,0
+MissionSphere    6,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_6.missphere,0
+
+Lighting    burst.hsf
+Background    burst.btg
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    100000
+smUniverseSizeX    225000
+smUniverseSizeZ    225000
+smUniverseSizeY    225000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    8

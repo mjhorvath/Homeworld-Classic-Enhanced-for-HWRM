@@ -1,0 +1,6 @@
+Ships ,-35000,60000,0,-60,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships ,-33699,57494,0,-60,R1,LightInterceptor,5,PARADE_FORMATION|?|?,0,?
+Ships ,-32947,58046,0,-60,R1,ResearchShip,2,PARADE_FORMATION|?|?,0,?
+Ships ,-33354,57756,0,-60,R1,ResourceCollector,2,PARADE_FORMATION|?|?,0,?
+Ships ,-32581,58314,0,-60,R1,StandardFrigate,2,PARADE_FORMATION|?|?,0,?
+Ships ,-31957,59036,0,-60,R1,ResourceController,1,PARADE_FORMATION|?|?,0,?

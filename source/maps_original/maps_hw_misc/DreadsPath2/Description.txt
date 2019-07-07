@@ -1,0 +1,17 @@
+Description	Dreads Path (2, 4, 6)
+Description
+Description	-You have entered dreads path. BEWARE!! Someone is after you.-
+Description
+Description
+Description	Map dedicated to the Lost Souls Clan.
+Description
+Description
+Description
+Description	Creator: &Outcast&L&S
+Description	Date: October 1, 2004
+Description
+
+
+Font            Arial_b12.hff
+Color           255, 255, 255
+DropShadow      Yes

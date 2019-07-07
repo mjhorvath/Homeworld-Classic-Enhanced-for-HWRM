@@ -1,0 +1,38 @@
+; MissionMan script, Saturday, Feb 26 2000, 11:59:55 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: GalaxyN4
+; Info: GalaxyN (4 player)
+
+[GalaxyN (4 player)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,40000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_0.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_2.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,1000
+
+Lighting    ez07
+Background   hyperspace.btg
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder     90000
+smZoomMax    600000
+smZoomMin    30000
+smInitialDistance    145000
+smUniverseSizeX    10500000
+smUniverseSizeZ    600000
+smUniverseSizeY    10500000
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeDerelict    All
+Asteroid0sCanMove    True
+SongNumber    -1

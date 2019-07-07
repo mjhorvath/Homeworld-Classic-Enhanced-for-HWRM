@@ -1,0 +1,10 @@
+Description	Saa4
+Description	If i got this to work right, then you should start with a few regenerating resource                 pockets and a certain Hiigaran Planet that we have done so much to live on.
+
+Description     Created by Hiigara[SAA] 7-23-00 
+Description	(it was a pain in the butt too, been trying to get it to work for a month)
+Description	wizardme@earthlink.net
+
+Font            Arial_b12.hff
+Color           255, 200, 0
+DropShadow      No

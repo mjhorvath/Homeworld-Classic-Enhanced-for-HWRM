@@ -1,0 +1,104 @@
+; MissionMan script, Wednesday, Jul 18 2001, 10:09:15 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;Slipgates
+
+;P1 to center
+
+Slipgate    ,150000.0,130000.0,0.0,1/2,150.0,dSlipgateMedium
+Slipgate    ,150000.0,10000.0,0.0,2/2,-30.0,dSlipgateMedium
+
+;P3 to center
+
+Slipgate    ,150000.0,-10000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,150000.0,-130000.0,0.0,2/2,30.0,dSlipgateMedium
+
+;P4 to center
+
+Slipgate    ,-150000.0,-130000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,-150000.0,-10000.0,0.0,2/2,30.0,dSlipgateMedium
+
+;P2 to center
+
+Slipgate    ,-150000.0,130000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,-150000.0,10000.0,0.0,2/2,30.0,dSlipgateMedium
+
+;center to center
+
+Slipgate    ,-130000.0,0.0,0.0,1/2,-150.0,dSlipgateLarge
+Slipgate    ,130000.0,0.0,0.0,2/2,30.0,dSlipgateLarge
+
+
+;P1 to middle
+
+Slipgate    ,130000.0,150000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,15000.0,140000.0,0.0,2/2,30.0,dSlipgateMedium
+
+;P2 to middle
+
+Slipgate    ,-130000.0,150000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,-15000.0,140000.0,0.0,2/2,30.0,dSlipgateMedium
+
+;P3 to middle
+
+Slipgate    ,130000.0,-150000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,15000.0,-140000.0,0.0,2/2,30.0,dSlipgateMedium
+
+;P4 to middle
+
+Slipgate    ,-130000.0,-150000.0,0.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,-15000.0,-140000.0,0.0,2/2,30.0,dSlipgateMedium
+
+;Resources
+
+;P1
+
+Resources    Asteroid,140000.0,140000.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,140000.0,140000.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+;P2
+Resources    Asteroid,-140000.0,140000.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,-140000.0,140000.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+;P3
+Resources    Asteroid,140000.0,-140000.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,140000.0,-140000.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+;P4
+Resources    Asteroid,-140000.0,-140000.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,-140000.0,-140000.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+;Center left
+
+Resources    Asteroid,-140000.0,0.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,-140000.0,0.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+;Center right
+
+Resources    Asteroid,140000.0,0.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,140000.0,0.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+;Center bottom
+
+Resources    Asteroid,0.0,-140000.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,0.0,-140000.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+;Center top
+
+Resources    Asteroid,0.0,140000.0,0.0,Cylinder,type3.dist,5,1272.2,4766.8,0.0,83.0,0,?
+Resources    Asteroid,0.0,140000.0,0.0,Cylinder,type2.dist,5,1272.2,4766.8,0.0,83.0,0,?
+
+
+
+
+
+
+
+
+
+
+
+
+
+

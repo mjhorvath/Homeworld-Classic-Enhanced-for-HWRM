@@ -1,0 +1,38 @@
+; MissionMan script, Sunday, Dec 12 1999, 2:28:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: NutZone2
+; Info: Neutral Zone (2-4)
+
+[Neutral Zone (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,-47689.0,-75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    -1,R1,Mothership,27689.0,35044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+
+Lighting    default
+Background    ez07
+smDepthCueRadius    75000
+smDepthCueStartRadius    30000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    85000
+smUniverseSizeX    120000
+smUniverseSizeZ    85000
+smUniverseSizeY    120000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+IncludeShips    P2,P2MultiBeamFrigate
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    Scaffold_scarred
+IncludeDerelict    Junk2_shipwreck
+IncludeDerelict    FragmentStrut
+SongNumber      16

@@ -1,0 +1,151 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Very small map with moderate resources, suitable for both team-play and free-for-all.",
+	"For team-play suggested setting is top vs bottom.",
+	"",
+	"- Settings: large resources, starting force consists in 5 Scouts and 2 Collectors.",
+	"- Author: Guido 'Ugruk' Conte",
+	"- E-mail: guidoconte@yahoo.com",
+	"- Web: digilander.iol.it/ugruk",
+}
+
+LevelName = [[Foggy's Small Room C (2-4)]]
+LevelFile = [[FoggysSmallRoom4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {60000, 60000, 40000, }
+
+LevelBackground = "ez06"
+LevelMusic = "15"
+
+RUsRatio = 1
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-14000.0, -3000.0, -2000.0, -180.0,},
+	{-3000.0, 14000.0, 2000.0, 90.0,},
+	{14000.0, 3000.0, -2000.0, 0.0,},
+	{3000.0, -14000.0, 2000.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-3000.0, 14000.0, 2000.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-14000.0, -3000.0, -2000.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {14000.0, 3000.0, -2000.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {3000.0, -14000.0, 2000.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	bigasteroids =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 100,
+	},
+	asteroid =
+	{
+		asteroid0 = 10,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 60,
+		asteroid4 = 30,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 80,
+		dustcloud3 = 20,
+	},
+	pebble =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "bigasteroids", 6, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-20000.0, 1000.0, 3000.0,}, "cylinder", "bigasteroids", 6, 2000.0, 10000.0, 20.0, 10.0,},
+	{{500.0, 20000.0, -3000.0,}, "cylinder", "bigasteroids", 6, 2000.0, 10000.0, -20.0, -75.0,},
+	{{20000.0, -1000.0, 3000.0,}, "cylinder", "bigasteroids", 6, 2000.0, 10000.0, -20.0, 10.0,},
+	{{-500.0, -20000.0, -3000.0,}, "cylinder", "bigasteroids", 6, 2000.0, 10000.0, 20.0, -75.0,},
+	{{-29500.0, 2500.0, 7000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, -25.0,},
+	{{-2500.0, 29500.0, -7000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, -65.0,},
+	{{29500.0, -2500.0, 7000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, -25.0,},
+	{{2500.0, -29500.0, -7000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, -65.0,},
+	{{-37000.0, 9500.0, 10500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, -60.0,},
+	{{-9500.0, 37000.0, -10500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, -30.0,},
+	{{37000.0, -9500.0, 10500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, -60.0,},
+	{{9500.0, -37000.0, -10500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, -30.0,},
+	{{-40000.0, 19000.0, 14000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, -90.0,},
+	{{-19000.0, 40000.0, -14000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, 0.0,},
+	{{40000.0, -19000.0, 14000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, -90.0,},
+	{{19000.0, -40000.0, -14000.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, 0.0,},
+	{{-37500.0, 29000.0, 17500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, -120.0,},
+	{{-29000.0, 37500.0, -17500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, 30.0,},
+	{{37500.0, -29000.0, 17500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, -20.0, -120.0,},
+	{{29000.0, -37500.0, -17500.0,}, "cylinder", "asteroid", 12, 2000.0, 10000.0, 20.0, 30.0,},
+	{{-31000.0, 36000.0, 21000.0,}, "cylinder", "asteroid", 9, 2000.0, 10000.0, 20.0, -150.0,},
+	{{-36000.0, 31000.0, -21000.0,}, "cylinder", "asteroid", 9, 2000.0, 10000.0, -20.0, 60.0,},
+	{{31000.0, -36000.0, 21000.0,}, "cylinder", "asteroid", 9, 2000.0, 10000.0, -20.0, -150.0,},
+	{{36000.0, -31000.0, -21000.0,}, "cylinder", "asteroid", 9, 2000.0, 10000.0, 20.0, 60.0,},
+	{{34000.0, -34000.0, 20000.0,}, "sphere", "dustcloud", 9, 2000.0, 4000.0, 0.0, 0.0,},
+	{{34000.0, -34000.0, -20000.0,}, "sphere", "dustcloud", 9, 2000.0, 4000.0, 0.0, 0.0,},
+	{{-34000.0, 34000.0, 20000.0,}, "sphere", "dustcloud", 9, 2000.0, 4000.0, 0.0, 0.0,},
+	{{-34000.0, 34000.0, -20000.0,}, "sphere", "dustcloud", 9, 2000.0, 4000.0, 0.0, 0.0,},
+	{{-35000.0, -35000.0, 0.0,}, "cylinder", "pebble", 15, 15000.0, 50000.0, 0.0, 45.0,},
+	{{35000.0, 35000.0, 0.0,}, "cylinder", "pebble", 15, 15000.0, 50000.0, 0.0, 45.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

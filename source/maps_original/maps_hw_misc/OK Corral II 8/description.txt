@@ -1,0 +1,11 @@
+Description     OK Corral II 
+Description	The ultimate team showdown at high noon. 
+Description	AUTHOR	: Concept by Mazerguru map by Beltemall (dwillia552@aol.com)
+Description	ADAPTED : BEAR vII up to 8 players
+Description	VERSION	: 2 (6th Nov 2003)
+
+
+Font            Arial_b12.hff
+Color           200, 100, 200
+DropShadow      Yes
+

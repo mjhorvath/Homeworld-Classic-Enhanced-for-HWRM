@@ -1,0 +1,118 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+}
+
+LevelName = [[TRADERS' MERCENARIES (2-6)]]
+LevelFile = [[Mercenaries3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {25000, 700000,}
+UniverseSize = {1000000, 1000000, 1000000, }
+
+LevelBackground = "ez01"
+LevelMusic = "9"
+
+RUsRatio = 1/4
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 500000.0, 0.0, -90.0,},
+	{-500000.0, -300000.0, 0.0, 0.0,},
+	{500000.0, -300000.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 500000.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "mothership", {0.0, 510000.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "broad_formation",},
+	{3, "", "floatingcity", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "standarddestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{12, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{12, "", "ioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "heavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-500000.0, -300000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "mothership", {-510000.0, -310000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "broad_formation",},
+	{3, "", "floatingcity", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{12, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{12, "", "ioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {500000.0, -300000.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "mothership", {510000.0, -310000.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "broad_formation",},
+	{3, "", "floatingcity", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "standarddestroyer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{12, "", "standardfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{12, "", "ioncannonfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "advancesupportfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "heavycruiser", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 10,
+		asteroid3 = 50,
+		asteroid4 = 5,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 1000, 800000.0, 1600000.0, 0.0, 0.0,},
+	{{500000.0, -246000.0, 50000.0,}, "sphere", "asteroid", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{500000.0, -246000.0, -50000.0,}, "sphere", "asteroid", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 300, 200000.0, 400000.0, 0.0, 0.0,},
+	{{-500000.0, -246000.0, 50000.0,}, "sphere", "asteroid", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{-500000.0, -246000.0, -50000.0,}, "sphere", "asteroid", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, 500000.0, 50000.0,}, "sphere", "asteroid", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, 500000.0, -50000.0,}, "sphere", "asteroid", 100, 30000.0, 60000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

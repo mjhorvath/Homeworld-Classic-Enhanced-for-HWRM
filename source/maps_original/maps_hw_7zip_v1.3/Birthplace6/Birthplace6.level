@@ -1,0 +1,42 @@
+; MissionMan script, Saturday, Oct 16 1999, 3:12:55 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Birthplace6
+; Info: Stellar Birthplace (2-8)
+
+[Stellar Birthplace (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,-50000.0,50000.0,50000.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,50000.0,-50000.0,-50000.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,50000.0,50000.0,50000.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R2,Mothership,-50000.0,-50000.0,-50000.0,30000.0,0.0,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,-50000.0,50000.0,-50000.0,30000.0,0.0,Mothership_4.missphere,0
+MissionSphere    5,R2,Mothership,50000.0,-50000.0,50000.0,30000.0,0.0,Mothership_5.missphere,0
+
+
+Lighting    ez07
+Background    ez07, 165, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    200000
+smUniverseSizeZ    190000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+IncludeShips    P1,P1Mothership
+IncludeShips    P1,P1IonArrayFrigate
+IncludeShips    P1,P1MissileCorvette
+IncludeShips    P2,P2MultiBeamFrigate
+IncludeShips    P1,P1StandardCorvette
+IncludeShips    P1,P1Fighter
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    8

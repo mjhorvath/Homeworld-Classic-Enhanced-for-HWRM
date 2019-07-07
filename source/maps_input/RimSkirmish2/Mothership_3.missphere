@@ -1,0 +1,16 @@
+; MissionMan script, Monday, May 29 2000, 9:24:49 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,39008.0,-358.0,30087.0,-180.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,30185.0,-6220.0,30087.0,-180.0,R1,HeavyInterceptor,10,CLAW_FORMATION|?|?,0,?
+Ships     ,30005.0,6330.0,30087.0,-180.0,R1,AttackBomber,10,CLAW_FORMATION|?|?,0,?
+Ships     ,38970.0,-6578.0,30087.0,-180.0,R1,StandardDestroyer,3,BROAD_FORMATION|?|?,0,?
+Ships     ,35563.0,5075.0,30087.0,-180.0,R1,IonCannonFrigate,4,BROAD_FORMATION|?|?,0,?
+Ships     ,37894.0,5075.0,30087.0,-180.0,R1,StandardFrigate,6,BROAD_FORMATION|?|?,0,?
+Ships     ,38964.0,-9992.0,30103.0,-180.0,R1,MissileDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,35031.0,-9992.0,30103.0,-180.0,R1,DDDFrigate,2,BROAD_FORMATION|?|?,0,?
+Ships     ,42275.0,-590.0,30477.0,-180.0,R1,RepairCorvette,4,DELTA_FORMATION|?|?,0,?
+Ships     ,39689.0,4927.0,31460.0,-180.0,R1,AdvanceSupportFrigate,1,NULL_FORMATION|?|?,0,?
+Ships     ,34968.0,-140.0,30003.0,-180.0,R1,LightInterceptor,10,CLAW_FORMATION|?|?,0,?
+

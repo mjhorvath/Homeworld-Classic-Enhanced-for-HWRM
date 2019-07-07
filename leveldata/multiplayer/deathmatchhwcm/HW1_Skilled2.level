@@ -1,0 +1,109 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Skilled to Advanced Map for (2 or 4 players)",
+	"Original Design by Flea&g&u&r&u August|2001",
+	"",
+	"",
+	"revised(july|2003)wra†h&P&S&A",
+}
+
+LevelName = [[Skilled]]
+LevelFile = [[Skilled2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "darknebula"
+LevelMusic = "0"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-6209.4, -6278.3, 0.0, -131.0,},
+	{3857.9, 6415.2, 0.0, 49.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {3857.9, 6415.2, 0.0,}, 1, {0, 0, 49.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-6209.4, -6278.3, 0.0,}, 0, {0, 0, -131.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dist0 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 5,
+	},
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 5,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{14727.0, 19636.0, 0.0,}, "sphere", "dist0", 8, 3500.5, 29824.7, 0.0, -131.0,},
+	{{-17672.4, -19636.0, 0.0,}, "sphere", "dist0", 8, 3500.5, 29824.7, 0.0, -131.0,},
+	{{-20617.8, -44180.9, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 143.0,},
+	{{16690.6, 41235.5, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 145.0,},
+	{{3927.2, -51053.5, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 6.0,},
+	{{-5890.8, 46144.5, 0.0,}, "cylinder", "asteroid", 15, 2796.8, 27967.8, 0.0, 6.0,},
+	{{35344.8, -17672.4, 0.0,}, "cylinder", "asteroid", 15, 2748.3, 27483.2, 0.0, 75.0,},
+	{{-40253.7, 15708.8, 0.0,}, "cylinder", "asteroid", 15, 2867.3, 28673.3, 0.0, 81.0,},
+	{{24545.0, -39271.9, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 45.0,},
+	{{-28472.2, 37308.3, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 33.0,},
+	{{-42217.3, -9818.0, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 98.0,},
+	{{36326.6, 5890.8, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 91.0,},
+	{{30435.8, 25526.8, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 116.0,},
+	{{-33381.2, -30435.8, 0.0,}, "cylinder", "asteroid", 15, 2531.6, 25315.7, 0.0, 128.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

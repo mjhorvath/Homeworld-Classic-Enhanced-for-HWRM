@@ -1,0 +1,28 @@
+; MissionMan script, Tuesday, Jan 26 1999, 11:55:48 AM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; Multiplayer Level: Show_T-Mat2
+; Info: ALL T-Mat
+
+[ALL T-Mat]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting    default
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    80000
+smZoomMin    53000
+smInitialDistance    60000
+smUniverseSizeX    100000
+smUniverseSizeZ    50000
+smUniverseSizeY    100000
+ExcludeShips    R1,All
+ExcludeShips    R2,All
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+IncludeShips    R2,SalCapCorvette
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    All

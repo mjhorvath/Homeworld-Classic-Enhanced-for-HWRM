@@ -1,0 +1,17 @@
+Description     War of The Oval II
+Description	based on War of The Ring.
+Description      enjoy Lower resources but same as version 1
+Description     
+Description     Map By: &Lagsy
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

@@ -1,0 +1,38 @@
+; MissionMan script, Saturday, Jan 13 2000, 5:35:49 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: DysanL2
+; Info: Dyson Sphere Lite (2-8)
+
+[Dyson Sphere Lite (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,57735.0,57735.0,57735.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,-57735.0,-57735.0,-57735.0,30000.0,0.0,Mothership_7.missphere,0
+
+
+Lighting    ez13
+Background    ez13, 0, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    450000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    250000
+smUniverseSizeZ    250000
+smUniverseSizeY    250000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    FragmentPanel0a
+IncludeDerelict    FragmentPanel0b
+IncludeDerelict    FragmentPanel0c
+IncludeDerelict    FragmentPanel1
+IncludeDerelict    FragmentPanel2
+IncludeDerelict    FragmentPanel3
+IncludeDerelict    Crate
+SongNumber    6

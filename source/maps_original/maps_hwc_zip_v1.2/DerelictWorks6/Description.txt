@@ -1,0 +1,10 @@
+Description	DerelictWorks(6)
+Description Version 1.4        
+Description Some interesting derelicts occupy a large asteroid field. All threats in the area must be eliminated and the derelicts secured as they may be of value to us. No opposition may be allowed to survive lest the derelicts fall into their possession. Use caution as some of the derelicts &m&a&y have active automatic defenses. There is rumor of a nearby salvaging base being set up by an unknown foe. If it is located destroy it as well. The Republican Taidan has donated crews manning Taidani ships under our command for this operation. The Kushan have donated some materials as well.
+Description Author : Gen&F&l&a&kRabbi (shig2@peoplepc.com)
+
+
+Font            Arial_b12.hff
+Color           0, 200, 255
+DropShadow      Yes
+

@@ -1,0 +1,39 @@
+; MissionMan script, Saturday, Jun 19 1999, 6:50:54 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: ProtoPlanet Lite 5
+; Info: ProtoPlanet Lite (2-6)
+
+[ProtoPlanet Lite (2-6)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    ez07
+Background    ez07, -160, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    500000
+smZoomMin    30000
+smInitialDistance    150000
+smUniverseSizeX    400000
+smUniverseSizeZ    200000
+smUniverseSizeY    400000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+IncludeShips    P2,P2MultiBeamFrigate
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    15

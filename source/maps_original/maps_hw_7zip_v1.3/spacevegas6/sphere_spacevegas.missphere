@@ -1,0 +1,8 @@
+; MissionSphere Object: ?,ResourceSphere
+
+; Space Vegas 'Star'
+Ships    , 850.0,   0.0,0.0,180.0,Traders,Researchstation,1,NULL_FORMATION|?|?,256,?,1
+Ships    ,   0.0, 850.0,0.0,270.0,Traders,Researchstation,1,NULL_FORMATION|?|?,256,?,1
+Ships    ,-850.0,   0.0,0.0,  0.0,Traders,Researchstation,1,NULL_FORMATION|?|?,256,?,1
+Ships    ,   0.0,-850.0,0.0, 90.0,Traders,Researchstation,1,NULL_FORMATION|?|?,256,?,1
+

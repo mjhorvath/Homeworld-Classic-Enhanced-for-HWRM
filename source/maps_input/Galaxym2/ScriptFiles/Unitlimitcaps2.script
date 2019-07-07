@@ -1,0 +1,64 @@
+; Total unit caps
+
+ShipTotalCaps   297
+
+; Unit caps for each ship type
+; -1 means it will use the CapCLASS value?
+
+CapAdvanceSupportFrigate           -1
+CapAttackBomber                    -1
+CapCarrier                         1
+CapCloakedFighter                  -1
+CapCloakGenerator                  3
+CapDDDFrigate                      -1
+CapDefenseFighter                  -1
+CapDFGFrigate                      -1
+CapGravWellGenerator               3
+CapHeavyCorvette                   -1
+CapHeavyCruiser                    2
+CapHeavyDefender                   -1
+CapHeavyInterceptor                -1
+CapIonCannonFrigate                -1
+CapLightCorvette                   -1
+CapLightDefender                   -1
+CapLightInterceptor                -1
+CapMinelayerCorvette               10
+CapMissileDestroyer                4
+CapMothership                      1
+CapMultiGunCorvette                -1
+CapProbe                           4
+CapProximitySensor            4
+CapRepairCorvette                  -1
+CapResearchShip                    6
+CapResourceCollector               6
+CapResourceController              2
+CapSalCapCorvette                  -1
+CapSensorArray                     1
+CapStandardDestroyer               4
+CapStandardFrigate                 -1
+CapDrone                           10
+CapTargetDrone                     10
+CapP1Fighter                       15
+CapP1IonArrayFrigate               15
+CapP1MissileCorvette               15
+CapP1Mothership                    15
+CapP1StandardCorvette              15
+CapP2AdvanceSwarmer                15
+CapP2FuelPod                       15
+CapP2Mothership                    15
+CapP2MultiBeamFrigate              15
+CapP2Swarmer                       15
+CapP3Destroyer                     15
+CapP3Frigate                       15
+CapP3Megaship                      15
+CapFloatingCity                    15
+
+CapCLASS_Mothership                1
+CapCLASS_HeavyCruiser              2
+CapCLASS_Carrier                   1
+CapCLASS_Destroyer                 4
+CapCLASS_Frigate                   6
+CapCLASS_Corvette                  10
+CapCLASS_Fighter                   20
+CapCLASS_Resource                  6
+CapCLASS_NonCombat                 6

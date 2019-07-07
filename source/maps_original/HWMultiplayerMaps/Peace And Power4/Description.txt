@@ -1,0 +1,18 @@
+Description     Peace And Power (4) - a good TvB map. could make a good FFA.
+Description
+Description     Peace And Love Marn  =P
+Description     Starting Ships : 5 Scouts.1 research ship.1 collector.  
+Description     
+Description     Map By : Moonquake|&B&i&B
+Description     v 1.0 - October 15, Y2k+1
+Description    
+Description    
+Description           
+
+
+Font            Arial_b12.hff
+Color          120, 779, 392
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

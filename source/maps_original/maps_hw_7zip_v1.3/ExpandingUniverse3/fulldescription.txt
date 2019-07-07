@@ -1,0 +1,17 @@
+Expanding Universe
+By AlStar (Alstar_@yahoo.com)
+Full Description
+
+The unforunate residents of this planet were experimenting with drawing energy directly from the core of their world. These experiments brought forth a disastorous planet-shattering explosion, which quickly turned a thriving civilization into dust in a matter of seconds. (oops) However, that's life, and now the remains of the planet make for great harvesting. Reports warn that the orbital defenses that once protected the people of this world still maintain their vigil over the now dead world. Reports also tell of a massive project that was making a new ship of immense power. If these reports are true, then the ship, if it is fully functioning, would make an excellent salvage target. However, as you enter the system, your sensors pick up more targets then expected, either the defenses around this old world are more extensive then initial reports indicated, or you have company....
+
+As far as I know, this map is set to defult settings, and you start off with 1 research ship, 5 light corvettes, and 2 harvestors. 
+
+All ships can be built.
+
+The auto guns from the junkyard mission are in this mission, to simulate the defense sattilites that the dead planet has.
+
+Note: The computer is _Dumb_ on this level, it just leaves the auto turrets alone in the beginning, and so all its resource carriers are shot to death, human opponents are likely to take some kind of action.
+
+Thanks for taking the time to check out this level.
+Look for more in the future.
+Now, I've wasted enough of your time, play the game!

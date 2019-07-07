@@ -1,0 +1,95 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[TwinTowers2  for the fallen angels on sept11.2001]],
+	[[Designed for team action   action]],
+	[[AUTHOR	: Flea&g&u&r&u]],
+	[[LAYOUT  :2vs2 game]],
+	[[]],
+	[[Email	: If you have any comments please email me at Fleaguru@msn.com]],
+}
+
+LevelName = [[TwinTowers2]]
+LevelFile = [[TwinTowers2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-64319.0, 0.0, 0.0, 0.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-64319.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	asteroidbig =
+	{
+		asteroid0 = 30,
+		asteroid1 = 0,
+		asteroid2 = 20,
+		asteroid3 = 30,
+		asteroid4 = 20,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, -21676.4, 0.0,}, "cylinder", "dustcloudcentre", 100, 4535.0, 45350.3, -90.0, 180.0,},
+	{{-1734.1, 19942.3, 0.0,}, "cylinder", "dustcloudcentre", 100, 4535.0, 45350.3, -90.0, 180.0,},
+	{{-37283.4, 0.0, 0.0,}, "cylinder", "asteroidbig", 30, 2449.1, 24491.5, 0.0, 0.0,},
+	{{44219.8, 0.0, 0.0,}, "cylinder", "asteroidbig", 30, 2449.1, 24491.5, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

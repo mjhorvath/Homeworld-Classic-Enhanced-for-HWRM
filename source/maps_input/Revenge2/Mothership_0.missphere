@@ -1,0 +1,18 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:34 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,15000.0,-30000.0,0.0,90.0,R1,Mothership,1,NULL_FORMATION|?|colorScheme(6),0,?
+Ships     ,10000.0,30000.0,0.0,-90.0,R1,HeavyCruiser,4,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,10000.0,30000.0,0.0,-90.0,R1,StandardDestroyer,6,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,10000.0,30000.0,0.0,-90.0,R1,MissileDestroyer,4,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,10000.0,30000.0,0.0,-90.0,R1,IonCannonFrigate,6,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,10000.0,30000.0,0.0,-90.0,R1,StandardFrigate,8,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,10000.0,30000.0,0.0,-90.0,R1,Carrier,1,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,-30000.0,5000.0,9000.0,90.0,P1,P1Mothership,1,NULL_FORMATION|?|colorScheme(6),0,?
+Ships     ,-30000.0,4000.0,9000.0,90.0,P1,P1IonArrayFrigate,8,BROAD_FORMATION|?|colorScheme(6),0,?
+Ships     ,30000.0,4000.0,9000.0,-90.0,R1,HeavyCorvette,20,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,30000.0,4000.0,9000.0,-90.0,R1,HeavyDefender,40,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,30000.0,4000.0,9000.0,-90.0,R1,HeavyInterceptor,30,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,30000.0,4000.0,9000.0,-90.0,R1,AttackBomber,20,PARADE_FORMATION|?|colorScheme(6),0,?
+Ships     ,30000.0,4000.0,9000.0,-90.0,R1,LightDefender,40,PARADE_FORMATION|?|colorScheme(6),0,?

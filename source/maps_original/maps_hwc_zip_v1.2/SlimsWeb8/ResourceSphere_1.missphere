@@ -1,0 +1,64 @@
+; MissionMan script, Saturday, Sep 16 2000, 3:45:22 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-101164.1,0.0,-75006.0,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,33357.4,82901.4,69571.0,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,84082.4,-101324.0,-91135.8,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-44153.1,-92112.7,50004.0,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-32310.1,75006.1,-100008.1,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,69013.9,-109219.4,75006.1,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-96788.9,88165.0,94744.5,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,96647.7,82901.4,0.0,Sphere,type0.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,24960.5,-98653.3,-1188.6,Sphere,type1.dist,20,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-99841.9,-47543.8,-48732.4,Sphere,type1.dist,30,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,96276.1,-35657.8,110539.2,Sphere,type1.dist,30,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,71315.6,47543.8,-91521.7,Sphere,type1.dist,30,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-116482.2,-10697.3,83201.6,Sphere,type1.dist,30,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,-33280.6,-90333.1,-102219.1,Sphere,type1.dist,30,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,87956.0,-7131.6,Sphere,type1.dist,30,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,105598,-19925,-77013,Sphere,type1.dist,30,10000.0,20000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Sphere,type2.dist,40,15000.0,30000.0,0.0,0.0,0,?
+Slipgate    ,-106164.1,0.0,-80006.0,1/2,61.5,dSlipgateLarge
+Slipgate    ,29960.5,-93653.3,-1188.6,2/2,107.0,dSlipgateLarge
+Slipgate    ,-96164.1,0.0,-70006.0,1/2,3.5,dSlipgateLarge
+Slipgate    ,-94841.9,-47543.8,-43732.4,2/2,67.0,dSlipgateLarge
+Slipgate    ,38357.4,87901.4,69571.0,1/2,78.5,dSlipgateLarge
+Slipgate    ,-104841.9,-42543.8,-48732.4,2/2,160.0,dSlipgateLarge
+Slipgate    ,48357.4,82901.4,63571.0,1/2,29.5,dSlipgateLarge
+Slipgate    ,91276.1,-30657.8,110539.2,2/2,269.0,dSlipgateLarge
+Slipgate    ,79082.4,-106324.0,-91135.8,1/2,-50.5,dSlipgateLarge
+Slipgate    ,96276.1,-40657.8,115539.2,2/2,12.0,dSlipgateLarge
+Slipgate    ,89082.4,-101324.0,-96135.8,1/2,89.5,dSlipgateLarge
+Slipgate    ,76315.6,42543.8,-91521.7,2/2,-73.0,dSlipgateLarge
+Slipgate    ,-39153.1,-97112.7,50004.0,1/2,19.5,dSlipgateLarge
+Slipgate    ,71315.6,52543.8,-96521.7,2/2,58.0,dSlipgateLarge
+Slipgate    ,-44153.1,-87112.7,55004.0,1/2,92.5,dSlipgateLarge
+Slipgate    ,-106482.2,-10697.3,88201.6,2/2,-75.0,dSlipgateLarge
+Slipgate    ,-37310.1,80006.1,-100008.1,1/2,28.5,dSlipgateLarge
+Slipgate    ,-111482.2,-15697.3,83201.6,2/2,2.0,dSlipgateLarge
+Slipgate    ,-27310.1,75006.1,-105008.1,1/2,-95.5,dSlipgateLarge
+Slipgate    ,-33280.6,-95333.1,-107219.1,2/2,53.0,dSlipgateLarge
+Slipgate    ,69013.9,-104219.4,80006.1,1/2,98.5,dSlipgateLarge
+Slipgate    ,-38280.6,-85333.1,-102219.1,2/2,35.0,dSlipgateLarge
+Slipgate    ,64013.9,-109219.4,70006.1,1/2,-29.5,dSlipgateLarge
+Slipgate    ,0.0,82956.0,-2131.6,2/2,28.0,dSlipgateLarge
+Slipgate    ,-91788.9,83165.0,94744.5,1/2,90.5,dSlipgateLarge
+Slipgate    ,0.0,92956.0,-12131.6,2/2,-90.0,dSlipgateLarge
+Slipgate    ,-96788.9,93165.0,99744.5,1/2,29.5,dSlipgateLarge
+Slipgate    ,110598,-14925,-77013,2/2,-82.0,dSlipgateLarge
+Slipgate    ,96647.7,87901.4,5000.0,1/2,27.5,dSlipgateLarge
+Slipgate    ,105598,-24925,-82013,2/2,-92.0,dSlipgateLarge
+Slipgate    ,91647.7,77901.4,0.0,1/2,45.5,dSlipgateLarge
+Slipgate    ,19960.5,-98653.3,-6188.6,2/2,69.0,dSlipgateLarge
+Ships     ,24960.5,-98653.3,-1188.6,0.0,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,-99841.9,-47543.8,-48732.4,0.0,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,96276.1,-35657.8,110539.2,0.0,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,71315.6,47543.8,-91521.7,0.0,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,-116482.2,-10697.3,83201.6,0.0,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,-33280.6,-90333.1,-102219.1,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,0.0,87956.0,-7131.6,0.0,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,105598,-19925,-77013,0.0,RACE_DERELICT,dCrystal0,1,SPHERE_FORMATION|?|?,0,?
+Ships     ,0.0,0.0,0.0,0.0,RACE_DERELICT,dCrystal0,7,SPHERE_FORMATION|?|?,0,?
+MeteorStorm 0.0,0.0,0.0,Sphere,type0.dist,75,20000.0,60000.0,0.0,0.0,0,5000,1000,0
+

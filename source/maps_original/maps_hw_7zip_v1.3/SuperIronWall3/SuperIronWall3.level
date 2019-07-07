@@ -1,0 +1,34 @@
+; MissionMan script, Wednesday, Jun 16 1999, 1:23:28 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: SuperIronwall3
+; Info: SuperIronWall (2-4)
+
+[SuperIronWall (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,30000.0,-41000.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,30000.0,32000.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    2,R1,Mothership,-35000.0,-40000.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+
+Lighting    ez10
+Background    ez10, 90, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    400000
+smZoomMin    20000
+smInitialDistance    75000
+smUniverseSizeX    150000
+smUniverseSizeZ    100000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    11

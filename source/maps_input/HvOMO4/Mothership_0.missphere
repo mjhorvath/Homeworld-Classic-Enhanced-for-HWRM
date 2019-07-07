@@ -1,0 +1,9 @@
+; MissionMan script, Monday, Oct 27 1999, 12:27:23 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,90000.0,30000.0,8000.0,180.0,R1,Mothership,1,NULL_FORMATION|?|?,?,?,,,,
+Ships     ,90000.0,28500.0,8000.0,180.0,R1,HeavyCruiser,1,NULL_FORMATION|?|?,?,?,,,,
+Ships     ,90000.0,31500.0,8000.0,180.0,R1,HeavyCruiser,1,NULL_FORMATION|?|?,?,?,,,,
+Ships     ,92000.0,29000.0,8400.0,180.0,R1,StandardDestroyer,2,BROAD_FORMATION|?|?,?,?,,,,
+Ships     ,88000.0,29000.0,7000.0,180.0,R1,MissileDestroyer,2,BROAD_FORMATION|?|?,?,?,,,,

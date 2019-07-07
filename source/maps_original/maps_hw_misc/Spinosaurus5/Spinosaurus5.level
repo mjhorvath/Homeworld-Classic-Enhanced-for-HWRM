@@ -1,0 +1,38 @@
+; MissionMan script, Spino, Dec 15th,2006 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Spinosaurus5
+; Info: Spinosaurus (2,3,4,5,6)
+
+[Spinosaurus (2,3,4,5,6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,?,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_0.missphere,?
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_2.missphere,?
+MissionSphere    3,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_3.missphere,?
+MissionSphere    4,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_4.missphere,?
+
+Lighting    jits
+Background    jits
+smDepthCueRadius    50000
+smDepthCueStartRadius    95000
+smCircleBorder    70000
+smZoomMax    250000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    150000
+smUniverseSizeZ    150000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    15

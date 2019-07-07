@@ -1,0 +1,108 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Lost Souls Corral  II",
+	"A nice corral style map for a great batter oh ya u can build a carrier",
+	"hehe :)",
+	"closer in have fun",
+	"",
+	"",
+	"",
+	"AUTHOR: &L&a&g&s&†&L&S",
+	"Email  LagsLS@aol.com",
+	"",
+}
+
+LevelName = [[Lost Souls Corral II (4,6,8)]]
+LevelFile = [[Lost Souls Corral II4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {5000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "17"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-32382.0, 9548.0, -10000.0, 0.0,},
+	{-33944.0, -21667.0, -10000.0, 0.0,},
+	{29622.0, -10220.0, -10000.0, 180.0,},
+	{31002.0, 18906.0, -10000.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-32382.0, 9548.0, -10000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-33944.0, -21667.0, -10000.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {29622.0, -10220.0, -10000.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {31002.0, 18906.0, -10000.0,}, 3, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 4,
+		asteroid3 = 4,
+		asteroid4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-40000.0, 0.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+	{{-40000.0, -10000.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+	{{-40000.0, 9658.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+	{{-40000.0, -20047.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+	{{40000.0, 0.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+	{{40000.0, 9800.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+	{{40000.0, 19692.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+	{{40000.0, -10000.0, -10000.0,}, "rectangle", "rock", 35, 7000.0, 10000.0, 7000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

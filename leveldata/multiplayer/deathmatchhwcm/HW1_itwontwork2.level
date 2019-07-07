@@ -1,0 +1,85 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"The Kadeshi have now lost their home, and are seeking out the Taiidan with the help from their bretheren, the Kushan. Using their technology they have begun a campaign, and here is it's finale. Barely any resources are left, and, as a result for the money, the shite games store, Electronics Botique , has sponsored the showdown.",
+	"",
+	"Settings: default.",
+}
+
+LevelName = [[Kadeshi (2)]]
+LevelFile = [[itwontwork2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "giant_btg"
+LevelMusic = "0"
+
+RUsRatio = 1/4
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{67698.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "p2mothership", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroids =
+	{
+		asteroid0 = 10,
+		asteroid1 = 4,
+		asteroid2 = 4,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{1515.8, 0.0, 909.5,}, "sphere", "asteroids", 35, 500.0, 1000.0, 0.0, 0.0,},
+	{{-2880.1, -39032.5, 1743.2,}, "sphere", "asteroids", 35, 500.0, 1000.0, 0.0, 0.0,},
+	{{-303.2, -23874.3, 2804.3,}, "sphere", "asteroids", 35, 500.0, 1000.0, 0.0, 0.0,},
+	{{0.0, 2046.4, 3713.8,}, "sphere", "asteroids", 35, 500.0, 1000.0, 0.0, 0.0,},
+	{{-606.3, -2349.5, 3713.8,}, "sphere", "asteroids", 35, 500.0, 1000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

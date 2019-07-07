@@ -1,0 +1,36 @@
+; MissionMan script, Wednesday, Jun 16 1999, 1:23:28 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Curtain3
+; Info: Iron Curtain (2-4)
+
+[Iron Curtain (2-4)]
+
+MissionSphere    0,R1,Mothership,67999.8,72000.6,0.0,30000.0,-147.0,Mothership_1.missphere,1000
+MissionSphere    1,R2,Mothership,-62000.6,18000.7,-10000.4,30000.0,-73.0,Mothership_0.missphere,1000
+MissionSphere    -1,?,ResourceSphere,22000.8,53000.8,0.0,30000.0,0.0,ResourceSphere_2.missphere,1000
+MissionSphere    2,R1,Mothership,67999.8,72000.6,0.0,30000.0,-147.0,Mothership_2.missphere,1000
+
+Lighting    ez05
+Background    ez05, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    120000
+smZoomMin    53000
+smInitialDistance    60000
+smUniverseSizeX    95000
+smUniverseSizeZ    45000
+smUniverseSizeY    95000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    0

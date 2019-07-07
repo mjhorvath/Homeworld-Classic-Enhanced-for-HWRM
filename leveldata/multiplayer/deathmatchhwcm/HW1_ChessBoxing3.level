@@ -1,0 +1,135 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"ChessBoxing",
+	"Designed for (2-4) players with NO HARVESTING ( injections only ) Each player starts out with 1MS 1Carrier 1SensorsArray 2RS. NOTE: Looks like a chessboard to me.",
+	"",
+	"AUTHOR	: Jacelor",
+	"VERSION	: 4:20 - (2-4)players",
+	"WEBSITE	: 207.254.160.247/HWM",
+}
+
+LevelName = [[ChessBoxing (2-4)]]
+LevelFile = [[ChessBoxing3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-64319.0, 0.0, 0.0, 0.0,},
+	{-356.7, -63147.0, 0.0, 180.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-356.7, -63147.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "sensorarray", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {2114.1, -67047.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-64319.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "sensorarray", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {-68255.0, -1510.1, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "sensorarray", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {67953.0, 6342.3, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	jacelor4 =
+	{
+		asteroid0 = 50,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 151.0, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{0.0, 20273.0, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{0.0, 40231.3, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{327.2, 59862.5, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{0.0, -19643.8, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-327.2, -39929.3, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{327.2, -59560.5, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-59875.1, -12.6, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 90.0,},
+	{{-40243.9, 314.6, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 90.0,},
+	{{-19958.4, 314.6, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 90.0,},
+	{{0.0, 641.8, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 90.0,},
+	{{19958.4, 314.6, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 90.0,},
+	{{40571.1, 314.6, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 90.0,},
+	{{60202.3, 641.8, 0.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 90.0,},
+	{{-410.9, 0.0, 205.4,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-410.9, 0.0, 20327.4,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-410.9, 0.0, 40285.8,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-83.7, 0.0, 59916.9,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-410.9, 0.0, -19589.4,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-738.0, 0.0, -39874.9,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-83.7, 0.0, -59506.1,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, 0.0,},
+	{{-60285.9, 0.0, 41.8,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -90.0,},
+	{{-40654.8, 0.0, 369.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -90.0,},
+	{{-20369.2, 0.0, 369.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -90.0,},
+	{{19547.5, 0.0, 369.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -90.0,},
+	{{40160.2, 0.0, 369.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -90.0,},
+	{{59791.4, 0.0, 696.2,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -90.0,},
+	{{-410.9, -54.7, 273.7,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, -90.0,},
+	{{-410.9, -54.7, 20395.7,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, -90.0,},
+	{{-410.9, -54.7, 40354.1,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, -90.0,},
+	{{-410.9, -381.8, 59985.2,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, -90.0,},
+	{{-410.9, -54.7, -19521.0,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, -90.0,},
+	{{-410.9, 272.5, -39806.6,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, -90.0,},
+	{{-410.9, -381.8, -59437.8,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, 0.0, -90.0,},
+	{{-410.8, 59820.5, 110.1,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -71.0,},
+	{{-410.9, 40189.3, 437.3,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -71.0,},
+	{{-410.9, 19903.7, 437.3,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -71.0,},
+	{{-410.9, -20013.0, 437.3,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -71.0,},
+	{{-410.9, -40625.8, 437.3,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -71.0,},
+	{{-410.9, -60257.0, 764.5,}, "cylinder", "jacelor4", 50, 250.0, 119550.0, -90.0, -71.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

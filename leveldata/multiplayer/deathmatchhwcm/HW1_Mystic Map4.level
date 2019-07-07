@@ -1,0 +1,105 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+}
+
+LevelName = [[Mystic Map(4)]]
+LevelFile = [[Mystic Map4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-47999.0, 51000.0, -10000.0, 0.0,},
+	{44001.0, 60000.0, 6000.0, 180.0,},
+	{48994.0, -48725.0, 0.0, 130.0,},
+	{-38999.0, -48000.0, 10000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {44001.0, 60000.0, 6000.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-47999.0, 51000.0, -10000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {48994.0, -48725.0, 0.0,}, 2, {0, 0, 130.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-38999.0, -48000.0, 10000.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	shmid =
+	{
+		asteroid0 = 10,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 90,
+		asteroid4 = 150,
+	},
+	rec1 =
+	{
+		asteroid0 = 200,
+		asteroid1 = 150,
+		asteroid2 = 50,
+		asteroid3 = 50,
+		asteroid4 = 50,
+	},
+	rec2 =
+	{
+		asteroid0 = 200,
+		asteroid1 = 150,
+		asteroid2 = 50,
+		asteroid3 = 50,
+		asteroid4 = 50,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "shmid", 250, 12500.0, 25000.0, 0.0, 0.0,},
+	{{-43000.0, 0.0, 0.0,}, "rectangle", "rec1", 500, 10000.0, 50000.0, 10000.0, 0.0,},
+	{{43000.0, 8000.0, 0.0,}, "rectangle", "rec2", 500, 10000.0, 50000.0, 10000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,75 @@
+Fixed issues:
+- AlliedForces4			fixed4: typo background
+- Azreal6			fixed4: typo music
+- Battle Zone6			fixed4: typo music
+- BlackPalace2			fixed3: has a very small max sensors manager size. Maybe a map feature and not a bug. Multiplied it by 10.
+- BungleintheJungle2		fixed3: "GhostShip" misspelled "Ghostship" in resource file.
+- Carbon6			fixed4: typo music
+- Civilian revolt2		fixed4: typo background
+- Colony Bound4			fixed1: there was whitespace after a number in Colony Bound4, and a line was broken in ResourceSphere_1.missphere, spaces around "_FORMATION" in Mothership_1.missphere, spaces around commas in other misspheres.
+- DebrisField4			fixed1: whitespace around commas in DebrisField4 and ResourceSphere_1.missphere
+- DebrisFieldS4			fixed3: out of memory, spaces around commas in res
+- DNA6				fixed4: typo music
+- DRUNKEN PIRATES2		fixed3: out of memory, out of place junk text in res
+- Dustzone6			fixed4: typo background
+- Galaxym2			fixed1: whitespace around commas in level file and resource files
+- GalaxyN4			fixed3: extra commas in Mothership_1.missphere.
+- GODZILLA4			fixed3: out of memory, bad filename for background and lighting, junk text in res
+- Great Dwarf4			fixed1: whitespace around fields in ResourceSphere_1.missphere
+- Hancock(PSN)6			fixed2: illegal (AFAIK) question mark in derelict - line number?, spaces around ?s in ResourceSphere_1.missphere
+- Hancock(RMN)6			fixed2: illegal (AFAIK) question mark in derelict - line number?, spaces around ?s in ResourceSphere_1.missphere
+- Hiigara2			fixed3: ampersands in name/description.
+- Hiveworld2			fixed3: level description had square brackets in it.
+- IceDesert2			fixed3: distribution file names made up entirely of numbers, just renamed them to something starting with characters. bad filename for background and lighting (fixed?).
+- Karos4			fixed3: out of memory, junk text in res
+- Knoted4			fixed4: typo music
+- Legacy6			fixed4: typo music
+- Mystic6			fixed4: typo music
+- NeutronStar4			fixed4: typo background
+- NOMAD2			fixed4: typo background
+- PlanetaryWar6			fixed3: missing comma on line 12 of Mothership_3.missphere, spaces around comma in resource file
+- PowerStruggle4		fixed4: rename background
+- returntokharak(attack)2	fixed2: was missing the last few chars in the resource file
+- returntokharak(defend)2	fixed2: was missing the last few chars in the resource file
+- Rich4				fixed1: used numbers with two decimal points in derelict
+- Snakepit4			fixed3: missing "Nebula.dist" can be copied from Snakepit2
+- spacevegas6			fixed1: was missing ",?" at the end of some of the misspheres lines in the level file.
+- SpiralReef2			fixed1: used decimal points instead of commas in number in resource on line 21, 48 and 75
+- SubIII6			fixed4: typo music
+- The tube 2			fixed3: the mothership missphere was mislabeled 'carrier'.
+- THEFORGOTTEN4			fixed3: Junk_LGun misspelled Junk_Lgun in resource file
+- ThePlex4			fixed1: quotation marks in level description. converter has been fixed to accomadate this
+- TheStrike4			fixed1: missing number in resource on line 9
+- Torus6			fixed4: typo music
+- TradersIntervention6		fixed3: missing "Asteroid.dist" can be copied from TradersIntervention5
+- WarOfKadesh5			fixed3: missing the last few parameters after "colorscheme()" in "kadesh.missphere" and "derelicts.missphere", just type ",0,?" afterward.
+- WarOfKadeshKA6		fixed3: missing the last few parameters after "colorscheme()" in "kadesh.missphere" and "derelicts.missphere", just type ",0,?" afterward. missing commas after "ships" in Mothership_3.missphere and Mothership_4.missphere. line of 49 Kadesh.missphere has a ? misplaced.
+- WarOfKadeshLite6		fixed3: missing the last few parameters after "colorscheme()" in "kadesh.missphere" and "derelicts.missphere", just type ",0,?" afterward.
+- Badlands4			missing "Nebula.dist", comment it out, junk text in res, commas missing in mispph
+- CalculationError4		misnamed level file
+- Frontier2			misnamed level file
+- give me shelter2		missing "Nebula.dist", comment it out
+- shelterk2			missing "Nebula.dist", comment it out
+
+Unresolved:
+
+
+- CivilWar2			ships were not being added (how did I fix it?)
+- THE X PROJECT2		some kind of a squadron problem (how did I fix it?)
+- GODZILLA4			missing fourth player pos?
+
+Tweaking:
+- shelterk2			too many ghost ships
+- give me shelter2		too many ghost ships
+- Dustiness4			too many heavy defenders
+- PirateKharak4			too many junk guns
+- Welcometoearth4		spheres too small, roids packed
+- Star5				too many squadrons of several types without there being formations
+- WarOfKadesh5			too many squadrons of several types without there being formations
+
+Duplicates:
+- bigGrillworks2v24
+- Grillworks2v24
+- Staples4
+- Confusion6
+- Mobius6

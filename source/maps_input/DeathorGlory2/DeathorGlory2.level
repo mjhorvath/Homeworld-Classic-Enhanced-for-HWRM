@@ -1,0 +1,35 @@
+; MissionMan script, Sunday, Jan 2 2000, 2:40:29 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: DeathorGlory2
+; Info: Death or Glory (2-4)
+
+[Death or Glory (2-4)]
+
+MissionSphere    0,R1,Mothership,67999.8,72000.6,0.0,30000.0,-147.0,Mothership_1.missphere,1000
+MissionSphere    1,R2,Mothership,-47000.9,43000.4,-10000.4,30000.0,-83.0,Mothership_0.missphere,1000
+MissionSphere    -1,?,ResourceSphere,17001.1,64000.9,0.0,30000.0,0.0,ResourceSphere_2.missphere,1000
+
+Lighting    ez02
+Background    ez02, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    120000
+smZoomMin    40000
+smInitialDistance    60000
+smUniverseSizeX    105000
+smUniverseSizeZ    55000
+smUniverseSizeY    105000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,TargetDrone
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    7

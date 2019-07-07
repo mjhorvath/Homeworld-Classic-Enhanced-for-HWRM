@@ -1,0 +1,88 @@
+; MissionMan script, Tuesday, Aug 24 1999, 5:27:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+; Bottom Reef
+
+Resources         Asteroid,3236.0,24574.0,-9600.0,Cylinder,asteroids.dist,20,2000,8000,-15,-7.5,?
+Resources         Asteroid,9486.0,22900.0,-9200.0,Cylinder,asteroids.dist,20,2000,8000,-15,-22.5,?
+Resources         Asteroid,15090.0,19665.0,-8800.0,Cylinder,asteroids.dist,20,2000,8000,-15,-35.5,?
+Resources         Asteroid,19666.0,15090.0,-8400.0,Cylinder,asteroids.dist,20,2000,8000,-15,-52.5,?
+Resources         Asteroid,22901.0,9486.0,-8000.0,Cylinder,asteroids.dist,20,2000,8000,-15,-67.5,?
+Resources         Asteroid,24575.0,3235.0,-7600.0,Cylinder,asteroids.dist,20,2000,8000,-15,-82.5,?
+Resources         Asteroid,22901.0,-9486.0,-7200.0,Cylinder,asteroids.dist,20,2000,8000,15,67.5,?
+Resources         Asteroid,24575.0,-3235.0,-6800.0,Cylinder,asteroids.dist,20,2000,8000,15,82.5,?
+Resources         Asteroid,19666.0,-15090.0,-6400.0,Cylinder,asteroids.dist,20,2000,8000,15,52.5,?
+Resources         Asteroid,15090.0,-19665.0,-6000.0,Cylinder,asteroids.dist,20,2000,8000,15,35.5,?
+Resources         Asteroid,9486.0,-22900.0,-5600.0,Cylinder,asteroids.dist,20,2000,8000,15,22.5,?
+Resources         Asteroid,3236.0,-24574.0,-5200.0,Cylinder,asteroids.dist,20,2000,8000,15,7.5,?
+Resources         Asteroid,-3236.0,-24574.0,-4800.0,Cylinder,asteroids.dist,20,2000,8000,15,-7.5,?
+Resources         Asteroid,-9486.0,-22900.0,-4400.0,Cylinder,asteroids.dist,20,2000,8000,15,-22.5,?
+Resources         Asteroid,-15090.0,-19665.0,-4000.0,Cylinder,asteroids.dist,20,2000,8000,15,-35.5.?
+Resources         Asteroid,-19666.0,-15090.0,-3600.0,Cylinder,asteroids.dist,20,2000,8000,15,-52.5,?
+Resources         Asteroid,-22901.0,-9486.0,-3200.0,Cylinder,asteroids.dist,20,2000,8000,15,-67.5,?
+Resources         Asteroid,-24575.0,-3235.0,-2800.0,Cylinder,asteroids.dist,20,2000,8000,15,-82.5,?
+Resources         Asteroid,-24575.0,3235.0,-2400.0,Cylinder,asteroids.dist,20,2000,8000,-15,82.5,?
+Resources         Asteroid,-22901.0,9486.0,-2000.0,Cylinder,asteroids.dist,20,2000,8000,-15,67.5,?
+Resources         Asteroid,-19666.0,15090.0,-1600.0,Cylinder,asteroids.dist,20,2000,8000,-15,52.5,?
+Resources         Asteroid,-15090.0,19665.0,-1200.0,Cylinder,asteroids.dist,20,2000,8000,-15,35.5,?
+Resources         Asteroid,-9486.0,22900.0,-800.0,Cylinder,asteroids.dist,20,2000,8000,-15,22.5,?
+Resources         Asteroid,-3236.0,24574.0,-400.0,Cylinder,asteroids.dist,20,2000,8000,-15,7.5,?
+
+; Middle Reef
+
+Resources         Asteroid,3236.0,24574.0,0.0,Cylinder,asteroids.dist,20,2000,8000,-15,-7.5,?
+Resources         Asteroid,9486.0,22900.0,400.0,Cylinder,asteroids.dist,20,2000,8000,-15,-22.5,?
+Resources         Asteroid,15090.0,19665.0,800.0,Cylinder,asteroids.dist,20,2000,8000,-15,-35.5,?
+Resources         Asteroid,19666.0,15090.0,1200.0,Cylinder,asteroids.dist,20,2000,8000,-15,-52.5,?
+Resources         Asteroid,22901.0,9486.0,1600.0,Cylinder,asteroids.dist,20,2000,8000,-15,-67.5,?
+Resources         Asteroid,24575.0,3235.0,2000.0,Cylinder,asteroids.dist,20,2000,8000,-15,-82.5,?
+Resources         Asteroid,22901.0,-9486.0,2400.0,Cylinder,asteroids.dist,20,2000,8000,15,67.5,?
+Resources         Asteroid,24575.0,-3235.0,2800.0,Cylinder,asteroids.dist,20,2000,8000,15,82.5,?
+Resources         Asteroid,19666.0,-15090.0,3200.0,Cylinder,asteroids.dist,20,2000,8000,15,52.5,?
+Resources         Asteroid,15090.0,-19665.0,3600.0,Cylinder,asteroids.dist,20,2000,8000,15,35.5,?
+Resources         Asteroid,9486.0,-22900.0,4000.0,Cylinder,asteroids.dist,20,2000,8000,15,22.5,?
+Resources         Asteroid,3236.0,-24574.0,4400.0,Cylinder,asteroids.dist,20,2000,8000,15,7.5,?
+Resources         Asteroid,-3236.0,-24574.0,4800.0,Cylinder,asteroids.dist,20,2000,8000,15,-7.5,?
+Resources         Asteroid,-9486.0,-22900.0,5200.0,Cylinder,asteroids.dist,20,2000,8000,15,-22.5,?
+Resources         Asteroid,-15090.0,-19665.0,5600.0,Cylinder,asteroids.dist,20,2000,8000,15,-35.5.?
+Resources         Asteroid,-19666.0,-15090.0,6000.0,Cylinder,asteroids.dist,20,2000,8000,15,-52.5,?
+Resources         Asteroid,-22901.0,-9486.0,6400.0,Cylinder,asteroids.dist,20,2000,8000,15,-67.5,?
+Resources         Asteroid,-24575.0,-3235.0,6800.0,Cylinder,asteroids.dist,20,2000,8000,15,-82.5,?
+Resources         Asteroid,-24575.0,3235.0,7200.0,Cylinder,asteroids.dist,20,2000,8000,-15,82.5,?
+Resources         Asteroid,-22901.0,9486.0,7600.0,Cylinder,asteroids.dist,20,2000,8000,-15,67.5,?
+Resources         Asteroid,-19666.0,15090.0,8000.0,Cylinder,asteroids.dist,20,2000,8000,-15,52.5,?
+Resources         Asteroid,-15090.0,19665.0,8400.0,Cylinder,asteroids.dist,20,2000,8000,-15,35.5,?
+Resources         Asteroid,-9486.0,22900.0,8800.0,Cylinder,asteroids.dist,20,2000,8000,-15,22.5,?
+Resources         Asteroid,-3236.0,24574.0,9200.0,Cylinder,asteroids.dist,20,2000,8000,-15,7.5,?
+
+; Top Reef
+
+Resources         Asteroid,3236.0,24574.0,9600.0,Cylinder,asteroids.dist,20,2000,8000,-15,-7.5,?
+Resources         Asteroid,9486.0,22900.0,10000.0,Cylinder,asteroids.dist,20,2000,8000,-15,-22.5,?
+Resources         Asteroid,15090.0,19665.0,10400.0,Cylinder,asteroids.dist,20,2000,8000,-15,-35.5,?
+Resources         Asteroid,19666.0,15090.0,10800.0,Cylinder,asteroids.dist,20,2000,8000,-15,-52.5,?
+Resources         Asteroid,22901.0,9486.0,11200.0,Cylinder,asteroids.dist,20,2000,8000,-15,-67.5,?
+Resources         Asteroid,24575.0,3235.0,11600.0,Cylinder,asteroids.dist,20,2000,8000,-15,-82.5,?
+Resources         Asteroid,22901.0,-9486.0,12000.0,Cylinder,asteroids.dist,20,2000,8000,15,67.5,?
+Resources         Asteroid,24575.0,-3235.0,12400.0,Cylinder,asteroids.dist,20,2000,8000,15,82.5,?
+Resources         Asteroid,19666.0,-15090.0,12800.0,Cylinder,asteroids.dist,20,2000,8000,15,52.5,?
+Resources         Asteroid,15090.0,-19665.0,13200.0,Cylinder,asteroids.dist,20,2000,8000,15,35.5,?
+Resources         Asteroid,9486.0,-22900.0,13600.0,Cylinder,asteroids.dist,20,2000,8000,15,22.5,?
+Resources         Asteroid,3236.0,-24574.0,14000.0,Cylinder,asteroids.dist,20,2000,8000,15,7.5,?
+Resources         Asteroid,-3236.0,-24574.0,14400.0,Cylinder,asteroids.dist,20,2000,8000,15,-7.5,?
+Resources         Asteroid,-9486.0,-22900.0,14800.0,Cylinder,asteroids.dist,20,2000,8000,15,-22.5,?
+Resources         Asteroid,-15090.0,-19665.0,15200.0,Cylinder,asteroids.dist,20,2000,8000,15,-35.5.?
+Resources         Asteroid,-19666.0,-15090.0,15600.0,Cylinder,asteroids.dist,20,2000,8000,15,-52.5,?
+Resources         Asteroid,-22901.0,-9486.0,16000.0,Cylinder,asteroids.dist,20,2000,8000,15,-67.5,?
+Resources         Asteroid,-24575.0,-3235.0,16400.0,Cylinder,asteroids.dist,20,2000,8000,15,-82.5,?
+Resources         Asteroid,-24575.0,3235.0,16800.0,Cylinder,asteroids.dist,20,2000,8000,-15,82.5,?
+Resources         Asteroid,-22901.0,9486.0,17200.0,Cylinder,asteroids.dist,20,2000,8000,-15,67.5,?
+Resources         Asteroid,-19666.0,15090.0,17600.0,Cylinder,asteroids.dist,20,2000,8000,-15,52.5,?
+Resources         Asteroid,-15090.0,19665.0,18000.0,Cylinder,asteroids.dist,20,2000,8000,-15,35.5,?
+Resources         Asteroid,-9486.0,22900.0,18400.0,Cylinder,asteroids.dist,20,2000,8000,-15,22.5,?
+Resources         Asteroid,-3236.0,24574.0,18800.0,Cylinder,asteroids.dist,20,2000,8000,-15,7.5,?
+
+; Dust
+
+Resources         Asteroid,0.0,0.0,0.0,Sphere,dust.dist,500,75000,0.0,0.0,0.0,2

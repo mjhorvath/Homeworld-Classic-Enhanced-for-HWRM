@@ -1,0 +1,74 @@
+; MissionMan script, Wednesday, Jul 21 1999, 4:49:20 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MultiPlayer Level: spacevegas2
+
+[Space Vegas (2-6)]
+
+; =============================================================================
+
+; your fleet
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+; your Resources-Generator
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,Sphere_ResGenerator0.missphere
+
+; enemy fleet
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+; enemy Resources-Generator
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,Sphere_ResGenerator1.missphere
+
+;  Space Vegas
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,Sphere_SpaceVegas.missphere
+
+; Decoration
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,Sphere_Decoration.missphere
+
+; =============================================================================
+
+; Background by FoX
+Lighting    Coloredsuns
+Background    Coloredsuns, 0, 0
+
+; =============================================================================
+
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    70000
+smZoomMax    90000
+smZoomMin    30000
+smInitialDistance    60000
+smUniverseSizeX    55000
+smUniverseSizeZ    55000
+smUniverseSizeY    55000
+
+; =============================================================================
+
+; r1-textures
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,CryoTray
+ExcludeShips    R1,LightDefender
+
+; r2-textures
+ExcludeShips    R2,CryoTray
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R2,LightDefender
+
+; other races textures
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips    Traders,ResearchStation
+
+; derelicts textures
+ExcludeDerelict    All
+IncludeDerelict    fragmentstrut
+
+; resources textures
+ExcludeAsteroid   Asteroid, All
+IncludeAsteroid   Asteroid, Asteroid0
+ExcludeAsteroid   Nebula, All
+
+; =============================================================================
+
+; supernova
+SongNumber    23

@@ -1,0 +1,133 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Darclight",
+	"this map is a close team map",
+	"middle is the key for victory.",
+	"Mines are disabled",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  Lagsy@sobanforce.com.com",
+	"",
+}
+
+LevelName = [[Darclight (4)]]
+LevelFile = [[Darclight4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "ez05"
+LevelMusic = "13"
+
+RUsRatio = 1
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-25000.0, 25000.0, 0.0, -30.0,},
+	{-25000.0, -25000.0, 0.0, 30.0,},
+	{25000.0, -25000.0, 0.0, 150.0,},
+	{25000.0, 25000.0, 0.0, -150.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-25000.0, -25000.0, 0.0,}, 1, {0, 0, 30.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "ioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-25000.0, 25000.0, 0.0,}, 0, {0, 0, -30.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "ioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {25000.0, -25000.0, 0.0,}, 2, {0, 0, 150.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "ioncannonfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {25000.0, 25000.0, 0.0,}, 3, {0, 0, -150.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "ioncannonfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{11647.0, 30000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, 8.0,},
+	{{34146.0, 20000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, 23.0,},
+	{{-11647.0, 30000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, -8.0,},
+	{{-34146.0, 20000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, -23.0,},
+	{{-34164.0, -20000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, 23.0,},
+	{{34164.0, -20000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, -23.0,},
+	{{-11647.0, -30000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, 8.0,},
+	{{11647.0, -30000.0, 0.0,}, "cylinder", "asteroid", 45, 1750.0, 26000.0, 0.0, -8.0,},
+	{{-60000.0, 0.0, 0.0,}, "cylinder", "rock", 12, 2000.0, 10000.0, 0.0, -90.0,},
+	{{60000.0, 0.0, 0.0,}, "cylinder", "rock", 12, 2000.0, 10000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "rectangle", "rubble", 200, 10000.0, 10000.0, 10000.0, 0.0,},
+	{{-30000.0, 18000.0, 0.0,}, "cylinder", "rock", 4, 1750.0, 10000.0, 0.0, -23.0,},
+	{{30000.0, -18000.0, 0.0,}, "cylinder", "rock", 4, 1750.0, 10000.0, 0.0, -23.0,},
+	{{-30000.0, -18000.0, 0.0,}, "cylinder", "rock", 4, 1750.0, 10000.0, 0.0, 23.0,},
+	{{30000.0, 18000.0, 0.0,}, "cylinder", "rock", 4, 1750.0, 10000.0, 0.0, 23.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

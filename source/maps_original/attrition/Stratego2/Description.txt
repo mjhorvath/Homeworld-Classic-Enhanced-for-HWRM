@@ -1,0 +1,11 @@
+Description	Stragego
+Description	This map has been designed those of you out there that are good strategists. You get a hefty fleet, but can you survive. What you build makes or breaks you. 
+Description	Hope you enjoy.
+Description	
+Description	SETTINGS : harvesting disabled, no injects, no research, and carriers only
+Description	AUTHOR  : medamanx
+Description	E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)
+
+Font 		Arial_b12.hff
+Color 		140, 245, 133
+DropShadow 	Yes

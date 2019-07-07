@@ -1,0 +1,17 @@
+Description	Final Conflict
+Description     Map is a large scale "Team Standoff"
+Description	Teams are lined up on either Side 
+Description	Built By : Archangel
+Description	Member of the OOC 	
+Description	Teams are Top Vrs. Bottom
+Description	
+Description	Version 1.1 (4-21-00)
+Description
+Description
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

@@ -1,0 +1,8 @@
+; Relative frequencies of asteroid types
+
+Asteroid0       0	15
+Asteroid1       15	30	
+Asteroid2       30	40
+Asteroid3       40	15
+Asteroid4       15	0
+

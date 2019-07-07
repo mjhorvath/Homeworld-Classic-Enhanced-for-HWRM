@@ -1,0 +1,36 @@
+// RUMulti
+The Lost Falls (e3skirmish): 
+Fields of Plaz (gardensalad): 6
+Iron Curtain (curtain): 16
+Talas Crossroads (dustcloud): 6
+Subjugate Your Friends (gatesofhell): 6
+Hyperspace Arena (hyperspacearena): 
+Radial Symmetry (radial_symmetry): 16
+Scattered (scattered): 
+Tree of Life (treeoflife): 
+
+// Stock HW
+The Lost Falls (e3skirmish) has too few RUs.
+Fields of Plaz (gardensalad) is OK.
+Iron Curtain (curtain) is OK.
+Talas Crossroads (dustcloud) may be OK.
+Subjugate Your Friends (gatesofhell) has too few RUs.
+Hyperspace Arena (hyperspacearena) is OK.
+Radial Symmetry (radial_symmetry) is OK. Has too many overlapping asteroids. Need to increase the multiplier to 16.
+Scattered (scattered) is OK.
+Tree of Life (treeoflife) is OK.
+
+// Custom
+Arachne & Arachne Huge are kind of interesting, but have way too many asteroids and RUs. Even had to cut back on pebbles.
+Aruna is derivative.
+Attrition is OK, but has weird starting positions.
+Azrael has a few too many starting positions. Is kind of derivative.
+Battle Star and Battle Zone are derivative.
+Rings of Plazmodeus (BellyOfTheBeast) is OK, if you like a giant Fields of Plaz.
+Big Grillworks (bigGrillworks3v3) has the same problem.
+Chain of Fate is lame.
+Chaotic Star is lame.
+Club OMO is lame.
+Field of Confusion has a few too many asteroids.
+Creations is derivative.
+Crusade is derivative.

@@ -1,0 +1,9 @@
+Description    Asteroidal Cluster L1XVI, Sigma-8.800 Sector. Spectral analysis: It harvest viable. Poll: Unexplored. Only exists a referencial note in the stellar maps: the Bentusi denominates it "Den of Dragons"...  
+Description  
+Description    AUTHOR: Randix (starmaker72@hotmail.com)
+Description    VERSION: 2.0 (21 May 2000)
+
+Font Arial_b12.hff
+Color 0, 200, 200
+DropShadow Yes
+

@@ -1,0 +1,128 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+}
+
+LevelName = [[Art of War (2-4)]]
+LevelFile = [[Art of war 4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {30000, 250000,}
+UniverseSize = {200000, 100000, 200000, }
+
+LevelBackground = "ez02"
+LevelMusic = "-1"
+
+RUsRatio = 1/4
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-20000.0, 0.0, 60000.0, 0.0,},
+	{20000.0, 0.0, 60000.0, 180.0,},
+	{20000.0, 0.0, -60000.0, 180.0,},
+	{-20000.0, 0.0, -60000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {20000.0, 0.0, 60000.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20000.0, 0.0, 60000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {20000.0, 0.0, -60000.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20000.0, 0.0, -60000.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	pebble =
+	{
+		asteroid0 = 10,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	med =
+	{
+		asteroid0 = 7,
+		asteroid1 = 4,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, -90000.0,}, "cylinder", "pebble", 200, 50000.0, 20000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -70000.0,}, "cylinder", "pebble", 200, 35000.0, 25000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -43000.0,}, "cylinder", "pebble", 200, 20000.0, 30000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -15000.0,}, "cylinder", "pebble", 200, 15000.0, 35000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 15000.0,}, "cylinder", "pebble", 200, 15000.0, 35000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 43000.0,}, "cylinder", "pebble", 200, 20000.0, 30000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 70000.0,}, "cylinder", "pebble", 200, 35000.0, 25000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 90000.0,}, "cylinder", "pebble", 200, 50000.0, 20000.0, 90.0, 180.0,},
+	{{-40000.0, 0.0, 0.0,}, "cylinder", "pebble", 200, 15000.0, 50000.0, 0.0, 0.0,},
+	{{40000.0, 0.0, 0.0,}, "cylinder", "pebble", 200, 15000.0, 50000.0, 0.0, 0.0,},
+	{{88000.0, 0.0, 0.0,}, "cylinder", "pebble", 200, 20000.0, 50000.0, 0.0, 0.0,},
+	{{-88000.0, 0.0, 0.0,}, "cylinder", "pebble", 200, 20000.0, 50000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dust", 200, 15000.0, 30000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 35000.0,}, "cylinder", "med", 200, 5000.0, 35000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -35000.0,}, "cylinder", "med", 200, 5000.0, 35000.0, 90.0, 180.0,},
+	{{90000.0, 0.0, 0.0,}, "sphere", "dust", 200, 10000.0, 20000.0, 90.0, 180.0,},
+	{{-90000.0, 0.0, 0.0,}, "sphere", "dust", 200, 10000.0, 20000.0, 90.0, 180.0,},
+	{{-30000.0, 0.0, 0.0,}, "cylinder", "dust", 60, 5000.0, 20000.0, 0.0, 0.0,},
+	{{30000.0, 0.0, 0.0,}, "cylinder", "dust", 60, 5000.0, 20000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

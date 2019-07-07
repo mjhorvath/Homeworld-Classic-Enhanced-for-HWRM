@@ -1,0 +1,51 @@
+; MissionMan script, Thursday, Jul 29 1999, 8:33:37 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-1646.0,2349.6,-757.6,Sphere,Pebble.dist,30,2419.9,11990.1,0.0,-1.0,0,?
+Resources    Asteroid,6354.4,66.0,-3154.0,Sphere,Pebble.dist,50,7500.0,18000.0,1.0,-1.0,0,?
+Resources    Asteroid,15174.0,1284.0,-2156.0,Sphere,Pebble.dist,30,3118.2,14750.0,0.0,-20.0,0,?
+Resources    Asteroid,22172.5,-715.6,-5156.8,Sphere,Pebble.dist,15,1561.4,11410.0,0.0,-20.0,0,?
+Resources    Asteroid,26888.2,5568.0,-6312.3,Sphere,Pebble.dist,10,1044.2,6940.0,0.0,-20.0,0,?
+Resources    Asteroid,30657.4,8284.0,-7616.3,Sphere,Pebble.dist,12,1437.7,5130.0,0.0,-20.0,0,?
+Resources    Asteroid,32602.0,11141.0,-9156.0,Sphere,AsteroidCentre2.dist,5,1220.0,4350.0,0.0,-20.0,2048,?
+Resources    Asteroid,-3969.0,-6933.0,-4013.0,Sphere,Pebble.dist,20,3250.0,8940.0,0.0,-20.0,0,?
+Resources    Asteroid,-5995.0,-11933.0,-6205.0,Sphere,Pebble.dist,10,2500.0,6480.0,0.0,-20.0,0,?
+Resources    Asteroid,-8995.0,-15934.0,-8205.4,Sphere,Pebble.dist,10,1510.6,5390.0,0.0,-20.0,0,?
+Resources    Asteroid,-12191.0,-18934.0,-8840.0,Sphere,AsteroidCentre2.dist,5,1165.0,4150.0,0.0,-20.0,2048,?
+Resources    Asteroid,25186.0,-1716.0,-156.0,Sphere,Pebble.dist,8,2334.5,8330.0,0.0,-19.0,0,?
+Resources    Asteroid,-14191.0,-20934.0,-9840.0,Sphere,AsteroidCentre2.dist,8,1025.0,3660.0,0.0,-20.0,2048,?
+Resources    Asteroid,-9827.4,14066.0,4844.0,Sphere,Pebble.dist,6,1981.4,7070.0,0.0,-19.0,0,?
+Resources    Asteroid,-13826.6,19067.0,5843.7,Sphere,Pebble.dist,12,1628.3,5810.0,0.0,-19.0,0,?
+Resources    Asteroid,-15827.0,22068.0,4844.0,Sphere,AsteroidCentre2.dist,5,1160.0,4140.0,0.0,-19.0,2048,?
+Resources    Asteroid,-18826.0,22428.0,3844.0,Sphere,AsteroidCentre2.dist,8,980.0,3500.0,0.0,-19.0,2048,?
+Resources    Asteroid,-20969.0,22428.7,3242.5,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources    Asteroid,-13969.0,23428.5,6243.0,Sphere,Pebble.dist,3,697.8,2490.0,0.0,-19.0,0,?
+Resources    Asteroid,-13766.7,24294.6,5243.0,Sphere,Pebble.dist,2,568.9,2030.0,0.0,-19.0,0,?
+Resources    Asteroid,-12767.3,25294.7,4243.0,Sphere,Pebble.dist,3,484.8,1730.0,0.0,-19.0,0,?
+Resources    Asteroid,-5970.0,8067.0,2844.2,Sphere,Pebble.dist,5,2505.5,8940.0,0.0,-20.0,0,?
+Resources    Asteroid,28281.0,-6715.0,1843.0,Sphere,Pebble.dist,5,3500.0,7010.0,0.0,-19.0,0,?
+Resources    Asteroid,30579.0,-10568.0,3843.0,Sphere,Pebble.dist,6,2250.0,5940.0,0.0,-19.0,0,?
+Resources    Asteroid,32740.5,-14568.0,5842.0,Sphere,Pebble.dist,8,2000.0,5420.0,0.0,-19.0,0,?
+Resources    Asteroid,33134.0,-16568.0,6842.0,Sphere,AsteroidCentre2.dist,5,1500.0,4220.0,0.0,-19.0,2048,?
+Resources    Asteroid,33675.0,-19108.0,7842.0,Sphere,AsteroidCentre2.dist,8,815.0,2900.0,0.0,-19.0,2048,?
+Resources    Asteroid,7171.0,2284.0,4599.0,Sphere,AsteroidCentre.dist,30,3000.0,9000.0,0.0,-20.0,2048,?
+Resources    Asteroid,7029.0,2284.0,7612.0,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,-20.0,0,?
+Resources    Asteroid,34602.0,13140.0,-9156.0,Sphere,AsteroidCentre2.dist,8,1220.0,4350.0,0.0,-20.0,2048,?
+Resources    Asteroid,6947.0,2150.0,-6859.0,Sphere,AsteroidCentre.dist,30,3000.0,9000.0,0.0,-20.0,2048,?
+Resources    Asteroid,7289.4,2948.8,10178.1,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,-20.0,0,?
+Resources    Asteroid,7545.5,4477.2,12764.7,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,-20.0,0,?
+Resources    DustCloud,8460.6,11188.2,19283.8,Sphere,DustCloudCentre.dist,15,2338.9,4677.8,0.0,-20.0,2048,?
+Resources    Asteroid,7699.8,6640.7,15085.9,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,-20.0,0,?
+Resources    Asteroid,7826.6,8922.4,17240.8,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,-20.0,0,?
+Resources    Asteroid,7029.0,2284.0,-10046.0,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,-20.0,0,?
+Resources    Asteroid,9008.2,-1600.9,-14873.1,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,12.0,0,?
+Resources    Asteroid,10109.8,-3603.0,-17028.0,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,12.0,0,?
+Resources    DustCloud,11718.0,-6952.0,-21936.0,Sphere,DustCloudCentre.dist,15,2433.7,4867.4,0.0,12.0,2048,?
+Resources    Asteroid,11125.4,-5519.6,-19349.2,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,12.0,0,?
+Resources    Asteroid,8345.0,657.0,-12830.0,Sphere,Pebble.dist,10,1500.0,3000.0,0.0,12.0,0,?
+Resources    DustCloud,33461.8,-16692.8,7082.7,Sphere,DustCloudCentre2.dist,12,2494.2,4988.4,0.0,-19.0,?,?
+Resources    DustCloud,-12971.6,-19659.8,-9087.5,Sphere,DustCloudCentre2.dist,12,2494.2,4988.4,0.0,-19.0,?,?
+Resources    DustCloud,33758.7,12680.5,-9087.4,Sphere,DustCloudCentre2.dist,12,2494.2,4988.4,0.0,-19.0,?,?
+Resources    DustCloud,-16680.4,22471.6,5005.8,Sphere,DustCloudCentre2.dist,12,2494.2,4988.4,0.0,-19.0,?,?
+

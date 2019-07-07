@@ -1,0 +1,20 @@
+Description     Great Barrier Reefa II
+Description	Now you can play any amount of players from one to six thanx to Goku87&K&O&H:KG.
+Description      
+Description     
+Description     Map By: B][LLy Da &B&i&B
+Description     Concept by: Wicksy[&B&i&B]
+Description     v1.0 ...25-6-2K1
+Description     bunglebear@talk21.com
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

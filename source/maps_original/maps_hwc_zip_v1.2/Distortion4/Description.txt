@@ -1,0 +1,15 @@
+Description	Distortion (2-4) by Aknott
+Description
+Description	
+Description
+Description
+Description
+Description	v 1.2 - January 23th, 2001
+Description	aknott.free.fr
+Description	nicolasnaudet@yahoo.com
+
+Font            Arial_b12.hff
+Color           64, 128, 192
+DropShadow      Yes
+
+; DEFAULT SETTINGS:

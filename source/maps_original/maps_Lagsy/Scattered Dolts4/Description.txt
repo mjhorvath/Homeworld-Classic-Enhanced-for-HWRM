@@ -1,0 +1,17 @@
+Description     Scattered dolts 4 players
+Description	enjoy this fun 2v2 or 4 player FFA map
+Description     have fun
+Description     
+Description     Map By: LagsyPSA
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

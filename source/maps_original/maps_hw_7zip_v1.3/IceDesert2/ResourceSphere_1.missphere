@@ -1,0 +1,8 @@
+; MissionMan script, Saturday, Mar 3 2001, 12:59:54 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Nebula,0.0,0.0,0.0,Nebula,40505.dist,1500,300000.0,400000.0,100000.0,100000,0,?
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,10505.dist,1000,200000.0,200000.0,10000.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,10505.dist,300,200000.0,200000.0,10000.0,0.0,0,?
+

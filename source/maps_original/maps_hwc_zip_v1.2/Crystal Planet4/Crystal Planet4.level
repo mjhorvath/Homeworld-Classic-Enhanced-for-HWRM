@@ -1,0 +1,43 @@
+; MissionMan script, Saturday, Jun 19 1999, 6:50:54 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Crystal Planet (4)
+; Info: Crystal Planet (4)
+
+[Crystal Planet (4)]
+
+MissionSphere    0,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,RACE_SECT,sMothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    Mission13
+Background    Mission13,90,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    350000
+smZoomMin    40000
+smInitialDistance    60000
+smUniverseSizeX    300000
+smUniverseSizeZ    175000
+smUniverseSizeY    300000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeShips    RACE_DERELICT,dJunk1PartA
+IncludeShips    RACE_DERELICT,dJunk1Shell
+IncludeShips    RACE_DERELICT,dJunk2Shipwreck
+IncludeShips    RACE_DERELICT,dJunk1Strut
+IncludeShips    RACE_DERELICT,dJunk3BoilerCasing
+IncludeShips    RACE_DERELICT,dJunk3Boiler
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+SongNumber    11
+LensFlare    ps-50-300mm-zoom

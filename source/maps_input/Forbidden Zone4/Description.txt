@@ -1,0 +1,19 @@
+Description     Forbidden Zone (4) - Best Played TvB But Can Be Played FFA
+Description
+Description     Sub 2 look alike  =)   Starting Ships : 7 Scouts 2 research ships 1 collector
+Description     
+Description     Map By : Moonquake-&B&i&B
+Description     v 1.0 - June 22, 2001
+Description     moonquake3@hotmail.com
+Description     &B&i&B Addy : www.bestinbritain.org
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          200, 240, 70
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

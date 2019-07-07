@@ -1,0 +1,35 @@
+; MissionMan script, Friday, Sep 3 1999, 12:24:04 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Scattered2
+; Info: Scattered (2-8)
+
+[Scattered (2-8)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_21.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_22.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    ez04
+Background    ez04, 150, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    280000
+smZoomMin    40000
+smInitialDistance    60000
+smUniverseSizeX    178000
+smUniverseSizeZ    33000
+smUniverseSizeY    169000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    1

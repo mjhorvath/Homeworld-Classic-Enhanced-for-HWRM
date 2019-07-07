@@ -1,0 +1,32 @@
+; MissionMan script, Friday, Mar 5 1999, 3:53:03 PM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; Multiplayer Level: Show_Derelicts2
+; Info: ALL Derelicts and Miscellany
+
+[ALL Derelicts and Miscellany]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,-177.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting    default
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    80000
+smZoomMin    53000
+smInitialDistance    60000
+smUniverseSizeX    1000000000000
+smUniverseSizeZ    500000000000
+smUniverseSizeY    1000000000000
+ExcludeShips    R1,All
+ExcludeShips    R2,All
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+IncludeShips    R1,SalCapCorvette
+IncludeShips    R2,SalCapCorvette
+IncludeShips    R1,HeadShotAsteroid
+IncludeShips    R2,HeadShotAsteroid
+IncludeShips    R1,CryoTray
+IncludeShips    R2,CryoTray
+AvailableColorSchemes    Derelicts,Scaffold,0

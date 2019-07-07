@@ -1,0 +1,146 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Milliways (2-4 Players)",
+	"",
+	"If you've done 3 impossible things today, why not round it off with Breakfast at MILLIWAYS, The restaurant at the end of the universe, and then make off with the Admirals Flag-ship !!",
+	"",
+	"Settings: Crates off.",
+	"AUTHOR	 : Stoned (stealth_gibbon@hotmail.com)",
+	"VERSION	 : 1.0 (May 17 2000)",
+}
+
+LevelName = [[Milliways (2-4)]]
+LevelFile = [[Milliways3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {30000, 100000,}
+UniverseSize = {100000, 100000, 45000, }
+
+LevelBackground = "ez07"
+LevelMusic = "10"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r2","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 40000, 0.0, -90.0,},
+	{34641, -20000, 0.0, 150.0,},
+	{-34641, -20000, 0.0, 30.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 40000, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{7, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {34641, -20000, 0.0,}, 1, {0, 0, 150.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{7, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-34641, -20000, 0.0,}, 3, {0, 0, 30.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{7, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "researchstation", {3500.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "researchstation", {-3500.0, 0.0, 0.0,}, -1, {0, 0, 180.0,}, 0, 0, "traders", "null_formation",},
+	{6, "", "junk_lgun", {1500.0, 0.0, 0.0,}, -1, {0, 0, 180.0,}, 0, 0, "traders", "wall_formation",},
+	{6, "", "junk_lgun", {-1500.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "wall_formation",},
+	{6, "", "junk_lgun", {0.0, 1500.0, 0.0,}, -1, {0, 0, -90,}, 0, 0, "traders", "wall_formation",},
+	{6, "", "junk_lgun", {0.0, -1500.0, 0.0,}, -1, {0, 0, 90,}, 0, 0, "traders", "wall_formation",},
+	{1, "", "standarddestroyer", {0.0, 0.0, 0.0,}, -1, {0, 0, 90,}, 0, 0, "r2", "wall_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"planetoforigin_scarred", {-200000.0, 0.0, 100000.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	nebula =
+	{
+		nebula0 = 3,
+		nebula1 = 4,
+		nebula2 = 4,
+		nebula3 = 4,
+		nebula4 = 3,
+	},
+	asteroidcentre =
+	{
+		asteroid0 = 1,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+	asteroidshell =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 3,
+		asteroid4 = 2,
+	},
+	dustshell =
+	{
+		dustcloud0 = 2,
+		dustcloud1 = 3,
+		dustcloud2 = 2,
+		dustcloud3 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 40000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 12000, 24000, 0.0, 0.0,},
+	{{0.0, 40000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 12000, 24000, 45.0, 0.0,},
+	{{0.0, 40000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 10000, 20000, 0.0, 0.0,},
+	{{0.0, 40000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 10000, 20000, 45.0, 0.0,},
+	{{-34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 12000, 24000, 45.0, 0.0,},
+	{{-34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 12000, 24000, 0.0, 0.0,},
+	{{-34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 10000, 20000, 45.0, 0.0,},
+	{{-34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 10000, 20000, 0.0, 0.0,},
+	{{34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 12000, 24000, 45.0, 0.0,},
+	{{34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 12000, 24000, 0.0, 0.0,},
+	{{34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 10000, 20000, 45.0, 0.0,},
+	{{34641, -20000.0, 0.0,}, "cylinder", "asteroidcentre", 15, 10000, 20000, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroidshell", 100, 30000, 60000, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroidshell", 100, 25000, 50000, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dustshell", 100, 30000, 60000, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0, 0, 0.0,}, "nebula", "nebula", 150, 20000, 20000, 20000, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,14 @@
+Description	Orbital Attack
+Description     Destroy your enemies in orbit of a Burning Homeworld!
+Description
+Description	BUILT	: Marcus Hutchinson (marcus3@mediaone.net)
+Description	HANDLE  : Mouse-DD
+Description	VERSION	: 1.0b (November,1999).
+Description	WEBSITE	: www.Marcus3.com
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

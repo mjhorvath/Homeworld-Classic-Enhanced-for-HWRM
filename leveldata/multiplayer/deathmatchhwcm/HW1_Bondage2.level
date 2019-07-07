@@ -1,0 +1,125 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"&Bondage",
+	"no regenerating resources here collect fast and build",
+	"wise",
+	"",
+	"Map By: &Lagsy",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Bondage (2or4)]]
+LevelFile = [[Bondage2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez05"
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 1/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-5000.0, 0.0, 0.0, -180.0,},
+	{5000.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-5000.0, 0.0, 0.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {5000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 4,
+		asteroid4 = 0,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 10000.0,}, "cylinder", "rubble", 20, 1000.0, 25000.0, 90.0, 180.0,},
+	{{-40000.0, 0.0, 20000.0,}, "cylinder", "rock", 5, 2000.0, 20000.0, 0.0, 0.0,},
+	{{40000.0, 0.0, 20000.0,}, "cylinder", "rock", 5, 2000.0, 20000.0, 0.0, 0.0,},
+	{{-40000.0, 0.0, 20000.0,}, "cylinder", "dust", 3, 1000.0, 10000.0, 0.0, 0.0,},
+	{{40000.0, 0.0, 20000.0,}, "cylinder", "dust", 3, 1000.0, 10000.0, 0.0, 0.0,},
+	{{-15000.0, 5000.0, 0.0,}, "cylinder", "roid", 7, 2500.0, 5000.0, 90.0, 180.0,},
+	{{15000.0, -5000.0, 0.0,}, "cylinder", "roid", 7, 2500.0, 5000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 40000.0,}, "cylinder", "rubble", 20, 1000.0, 40000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

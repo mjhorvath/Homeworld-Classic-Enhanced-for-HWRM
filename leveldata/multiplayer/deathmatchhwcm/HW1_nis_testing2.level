@@ -1,0 +1,75 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[This map is for testing NIS's.  It's very old, and I don't know if it still works.]],
+	[[]],
+	[[Settings: default.]],
+}
+
+LevelName = [[For testing NIS's 2-2]]
+LevelFile = [[nis_testing2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {40000, 80000,}
+UniverseSize = {100000, 100000, 45000, }
+
+LevelBackground = ""
+LevelMusic = "0"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{44001.0, 60000.0, 6000.0, -128.0,},
+	{-43999.0, -54000.0, -10000.0, 44.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {44001.0, 60000.0, 6000.0,}, 0, {0, 0, -128.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-43999.0, -54000.0, -10000.0,}, 1, {0, 0, 44.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

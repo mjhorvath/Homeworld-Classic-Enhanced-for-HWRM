@@ -1,0 +1,17 @@
+Description	Field of Confusion (2-6) by Aknott
+Description
+Description     Same field, same confusion.
+Description
+Description
+Description
+Description	v 1.1 - December 2nd, 2000
+Description	nicolasnaudet@yahoo.com
+Description	aknott.free.fr
+
+
+Font            Arial_b12.hff
+Color           64, 128, 192
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

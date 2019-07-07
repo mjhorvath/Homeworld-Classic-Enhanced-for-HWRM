@@ -1,0 +1,196 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Medium-sized map with moderate resources, suitable for both team-play and free-for-all.",
+	"For team-play suggested setting is top vs bottom.",
+	"- Settings: medium resources, starting force includes 2 Assault Frigates, one extra collector and one controller.",
+	"- Author: Guido 'Ugruk' Conte",
+	"- E-mail: guidoconte@yahoo.com",
+	"- Web: digilander.iol.it/ugruk",
+	"- 3v3 Edit: &Far&scape &Æ 11-5-02",
+}
+
+LevelName = [[Dante's Fate (2-6)]]
+LevelFile = [[DantesFate6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {50000, 160000,}
+UniverseSize = {120000, 120000, 60000, }
+
+LevelBackground = "ez02"
+LevelMusic = "11"
+
+RUsRatio = 1/4
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r2","r1","r2","r1","r1","r1","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-70000.0, 0.0, 0.0, 0.0,},
+	{-35000.0, 60000.0, 0.0, -60.0,},
+	{10000.0, 60000.0, 0.0, -90.0,},
+	{70000.0, 0.0, 0.0, -180.0,},
+	{35000.0, -60000.0, 0.0, 120.0,},
+	{-4000.0, -70000.0, 0.0, 100.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-70000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-35000.0, 60000.0, 0.0,}, 1, {0, 0, -60.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {10000.0, 60000.0, 0.0,}, 2, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {70000.0, 0.0, 0.0,}, 3, {0, 0, -180.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {35000.0, -60000.0, 0.0,}, 4, {0, 0, 120.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-4000.0, -70000.0, 0.0,}, 5, {0, 0, 100.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"angelmoon", {-160000.0, -400000.0, 10000.0,}, -1, {0, -10.0, 70.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroidmed =
+	{
+		asteroid0 = 30,
+		asteroid1 = 0,
+		asteroid2 = 30,
+		asteroid3 = 20,
+		asteroid4 = 20,
+	},
+	asteroidsmall =
+	{
+		asteroid0 = 30,
+		asteroid1 = 20,
+		asteroid2 = 30,
+		asteroid3 = 10,
+		asteroid4 = 10,
+	},
+	pebble =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	dustmid =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 30,
+		dustcloud2 = 50,
+		dustcloud3 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, 60.0,},
+	{{13646.0, 15737.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, 40.0,},
+	{{-13646.0, -15737.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, 40.0,},
+	{{-32002.0, -26584.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 20.0,},
+	{{32002.0, 26584.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 20.0,},
+	{{52861.0, 30339.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 0.0,},
+	{{-52861.0, -30339.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 0.0,},
+	{{-73720.4, -32439.3, 1541.0,}, "cylinder", "pebble", 10, 2500.0, 20000.0, 10.0, 10.0,},
+	{{73411.5, 26584.0, -1848.9,}, "cylinder", "pebble", 10, 2500.0, 20000.0, 10.0, -20.0,},
+	{{-93288.7, -39337.3, 6472.0,}, "cylinder", "pebble", 5, 2500.0, 20000.0, 20.0, 30.0,},
+	{{-29544.0, -5209.0, 10000.0,}, "sphere", "dustmid", 10, 2500.0, 5000.0, 0.0, 0.0,},
+	{{29544.0, 5209.0, 10000.0,}, "sphere", "dustmid", 10, 2500.0, 5000.0, 0.0, 0.0,},
+	{{10260.0, -28190.0, -10000.0,}, "sphere", "dustmid", 10, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-10260.0, 28190.0, -10000.0,}, "sphere", "dustmid", 10, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-109148.9, -50021.5, 15101.0,}, "cylinder", "pebble", 5, 2500.0, 20000.0, 30.0, 40.0,},
+	{{91748.5, 17765.0, -7704.6,}, "cylinder", "pebble", 5, 2500.0, 20000.0, 20.0, -30.0,},
+	{{107608.4, 8109.1, -16333.7,}, "cylinder", "pebble", 5, 2500.0, 20000.0, 30.0, -35.0,},
+	{{156.0, -60948.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, -60.0,},
+	{{-7021.0, -41006.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, -80.0,},
+	{{-6805.0, -19686.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, -100.0,},
+	{{6805.0, 19686.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, -100.0,},
+	{{7021.0, 41006.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, -80.0,},
+	{{-156.0, 60948.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, -60.0,},
+	{{-86602.0, 50000.0, 0.0,}, "cylinder", "asteroidsmall", 30, 1500.0, 20000.0, -25.7, 56.3,},
+	{{-74906.0, 65761.0, 7535.0,}, "cylinder", "asteroidsmall", 22, 1500.0, 20000.0, -15.2, 48.2,},
+	{{-95345.0, 32398.0, -7535.0,}, "cylinder", "asteroidsmall", 22, 1500.0, 20000.0, -15.0, 69.3,},
+	{{-60372.0, 80094.0, 11522.0,}, "cylinder", "asteroidsmall", 15, 1500.0, 20000.0, -6.4, 39.6,},
+	{{-100865.0, 12771.0, -11522.0,}, "cylinder", "asteroidsmall", 15, 1500.0, 20000.0, -7.9, 79.9,},
+	{{-42892.0, 92054.0, 12749.0,}, "cylinder", "pebble", 5, 1500.0, 20000.0, 0.0, 30.0,},
+	{{-24185.0, 100641.0, 12749.0,}, "cylinder", "pebble", 5, 1500.0, 20000.0, 0.0, 20.0,},
+	{{86602.0, -50000.0, 0.0,}, "cylinder", "asteroidsmall", 30, 1500.0, 20000.0, 25.7, 56.3,},
+	{{74906.0, -65761.0, 7535.0,}, "cylinder", "asteroidsmall", 22, 1500.0, 20000.0, 15.2, 48.2,},
+	{{95345.0, -32398.0, -7535.0,}, "cylinder", "asteroidsmall", 22, 1500.0, 20000.0, 15.0, 69.3,},
+	{{60372.0, -80094.0, 11522.0,}, "cylinder", "asteroidsmall", 15, 1500.0, 20000.0, 6.4, 39.6,},
+	{{100865.0, -12771.0, -11522.0,}, "cylinder", "asteroidsmall", 15, 1500.0, 20000.0, 7.9, 79.9,},
+	{{42892.0, -92054.0, 12749.0,}, "cylinder", "pebble", 5, 1500.0, 20000.0, 0.0, 30.0,},
+	{{24185.0, -100641.0, 12749.0,}, "cylinder", "pebble", 5, 1500.0, 20000.0, 0.0, 20.0,},
+	{{100317.0, -18468.0, -10000.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{64976.0, -78630.0, 10000.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-100317.0, 18468.0, -10000.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-64976.0, 78630.0, 10000.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{12571.0, -76509.2, 1848.9,}, "cylinder", "pebble", 10, 2500.0, 20000.0, -10.0, -40.0,},
+	{{-8565.1, 78666.5, -1849.0,}, "cylinder", "pebble", 10, 2500.0, 20000.0, -10.0, -70.0,},
+	{{-13496.0, 98082.8, -7396.7,}, "cylinder", "pebble", 5, 2500.0, 20000.0, -20.0, -80.0,},
+	{{65778.0, 23941.0, 0.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-65778.0, -23941.0, 0.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{12155.0, -68935.0, 0.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-12155.0, 68935.0, 0.0,}, "sphere", "dustmid", 7, 2500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidmed", 80, 2500.0, 40000.0, 90.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,146 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"&Dolt &Arena",
+	"enjoy this dolty spin off of dual arena ;)",
+	"",
+	"",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[Dolt Arena (2or4)]]
+LevelFile = [[Dolt Arena4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = "ez05"
+LevelMusic = "36"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-20000.0, 0.0, 0.0, 90.0,},
+	{0.0, 0.0, 0.0, 90.0,},
+	{0.0, 25000.0, 0.0, -90.0,},
+	{-20000.0, 25000.0, 0.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 0.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "salcapcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20000.0, 0.0, 0.0,}, 0, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "salcapcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 25000.0, 0.0,}, 2, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "salcapcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20000.0, 25000.0, 0.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "salcapcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 10,
+		dustcloud2 = 4,
+		dustcloud3 = 1,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 10,
+		asteroid3 = 5,
+		asteroid4 = 1,
+	},
+	neb =
+	{
+		nebula0 = 20,
+		nebula1 = 11,
+		nebula2 = 15,
+		nebula3 = 20,
+		nebula4 = 30,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, -10000.0, 5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{0.0, -10000.0, -5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{0.0, -10000.0, 5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{0.0, -10000.0, -5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{-20000.0, -10000.0, -5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{-20000.0, -10000.0, 5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{-20000.0, -10000.0, -5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-20000.0, -10000.0, 5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{0.0, 35000.0, -5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{0.0, 35000.0, 5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{0.0, 35000.0, -5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{0.0, 35000.0, 5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-20000.0, 35000.0, 5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-20000.0, 35000.0, -5000.0,}, "sphere", "rock", 7, 1250.0, 2500.0, 0.0, 0.0,},
+	{{-20000.0, 35000.0, 5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{-20000.0, 35000.0, -5000.0,}, "sphere", "dust", 5, 500.0, 1000.0, 0.0, 0.0,},
+	{{-10000.0, 12500.0, 5000.0,}, "cylinder", "pebble", 15, 3250.0, 500.0, 90.0, 180.0,},
+	{{-10000.0, 12500.0, -5000.0,}, "cylinder", "pebble", 15, 3250.0, 500.0, 90.0, 180.0,},
+	{{-10000.0, 12500.0, 5000.0,}, "cylinder", "dust", 7, 3250.0, 500.0, 90.0, 180.0,},
+	{{-10000.0, 12500.0, -5000.0,}, "cylinder", "dust", 7, 3250.0, 500.0, 90.0, 180.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{-10000.0, 12500.0, 0.0,}, "nebula", "neb", 100, 2000.0, 2000.0, 100000.0, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

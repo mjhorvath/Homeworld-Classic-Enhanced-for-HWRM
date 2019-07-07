@@ -1,0 +1,5 @@
+Description	Nova Apex (2-8)
+Description	
+Description	This resource pocket received its name due to its unique structure.  It has a thin unharvestable outer layer with three inner harvestable layers.  These layers consist of an asteroid and dust cloud shell with the inner-most layer being a compact resource rich dust cloud collection.  This inner layer has baffled our scientist as it continues to provide resources far beyond its size indicates it can support.  Finally rich resource arms jet out from the center at various angles.
+Description	
+Description	This map plays best with a high starting resources and little to no injections.  The center dust cloud collection is of strategic importance as it regenerates itself.

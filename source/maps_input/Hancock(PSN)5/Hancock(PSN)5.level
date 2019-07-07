@@ -1,0 +1,76 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Hancock(PSN)5
+; Info: First Battle at Hancock Station (PSN, 2-6 players)
+
+[Hancock Station (PSN, 2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0,0,0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0,0,0,300000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R1,Mothership,0,0,0,300000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R2,Mothership,0,0,0,300000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R2,Mothership,0,0,0,300000.0,0.0,Mothership_3.missphere,1000
+MissionSphere    4,R2,Mothership,0,0,0,300000.0,0.0,Mothership_4.missphere,1000
+
+Lighting    ez08
+Background    ez08, -165, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    300000
+smZoomMin    20000
+smInitialDistance    60000
+smUniverseSizeX    400000
+smUniverseSizeZ    200000
+smUniverseSizeY    400000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips    Traders,Junk_LGun
+IncludeShips    Traders,Junk_SGun
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,CryoTray
+ExcludeShips    R2,CryoTray
+ExcludeShips    R1,ResearchShip
+ExcludeShips    R2,ResearchShip
+ExcludeShips    R1,ResourceCollector
+ExcludeShips    R2,ResourceCollector
+ExcludeShips    R1,ResourceController
+ExcludeShips    R2,ResourceController
+ExcludeShips    R1,CloakedFighter
+ExcludeShips    R2,DefenseFighter
+ExcludeShips    R1,AttackBomber
+ExcludeShips    R2,AttackBomber
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,LightInterceptor
+ExcludeShips    R2,LightInterceptor
+ExcludeShips    R1,HeavyDefender
+ExcludeShips    R2,HeavyDefender
+ExcludeShips    R1,HeavyInterceptor
+ExcludeShips    R2,HeavyInterceptor
+ExcludeShips    R1,Mothership
+ExcludeShips    R2,Mothership
+ExcludeShips    R1,LightCorvette
+ExcludeShips    R2,LightCorvette
+ExcludeShips    R1,HeavyCorvette
+ExcludeShips    R2,HeavyCorvette
+ExcludeShips    R1,MultiGunCorvette
+ExcludeShips    R2,MultiGunCorvette
+ExcludeShips    R1,RepairCorvette
+ExcludeShips    R2,RepairCorvette
+ExcludeShips    R1,SalCapCorvette
+ExcludeShips    R2,SalCapCorvette
+ExcludeShips    R1,AdvanceSupportFrigate
+ExcludeShips    R2,AdvanceSupportFrigate
+ExcludeShips    R1,GravWellGenerator
+ExcludeShips    R2,GravWellGenerator
+ExcludeDerelict    All
+IncludeDerelict    Scaffold
+IncludeDerelict    PrisonShipNew
+IncludeDerelict    PlanetOfOrigin
+SongNumber    11

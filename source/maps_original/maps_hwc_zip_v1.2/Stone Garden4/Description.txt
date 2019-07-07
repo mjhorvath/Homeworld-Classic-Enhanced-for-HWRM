@@ -1,0 +1,11 @@
+Description	Stone Garden(4)
+Description         
+Description	A large 2v2 map with a central vertical dust cloud and surrounding asteroid clusters. Slipgates cross the map but beware crystal detonations as you emerge! Your starting assets include a carrier. The idea in design was to favor longer games and eliminate the rush strategies. 
+Description 	              
+Description	AUTHOR: Beltemall (dwillia552@aol.com)
+
+
+Font            Arial_b12.hff
+Color           0, 200, 255
+DropShadow      Yes
+

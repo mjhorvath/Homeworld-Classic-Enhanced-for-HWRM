@@ -1,0 +1,34 @@
+; MissionMan script, Friday, Oct 8 1999, 10:14:46 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: IXStelarAnomaly8
+; Info: IX Stelar Anomaly (2-8)
+
+[IX Stelar Anomaly (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,-45.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,25000.0,25000.0,-25000.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,-25000.0,-25000.0,25000.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,-25000.0,25000.0,-25000.0,30000.0,0.0,Mothership_2.missphere,0
+
+Lighting    ez02
+Background    ez02, 75, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    150000
+smZoomMin    10000
+smInitialDistance    75000
+smUniverseSizeX    150000
+smUniverseSizeZ    100000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    AngelMoon
+IncludeDerelict    AngelMoon_clean
+SongNumber    14

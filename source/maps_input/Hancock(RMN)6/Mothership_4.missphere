@@ -1,0 +1,72 @@
+; MissionMan script, Monday, Jun 21 1999, 12:27:25 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,194300.0,110000.0,10000.0,180,R1,StandardDestroyer,1,BROAD_FORMATION|?|?,?,?
+Ships     ,194200.0,110450.0,10450.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,194200.0,109550.0,10450.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,194200.0,110450.0,9550.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,194200.0,109550.0,9550.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,195050.0,110000.0,9800.0,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,195050.0,110300.0,10200.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,195550.0,110000.0,10000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+
+Ships     ,200000.0,110000.0,10000.0,180,R1,Carrier,1,NULL_FORMATION|UseAsMothership|?,?,?
+
+Ships     ,200000.0,109200.0,10600.0,180,R1,StandardDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,200000.0,110800.0,10600.0,180,R1,StandardDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,200000.0,109200.0,9400.0,180,R1,MissileDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,200000.0,110800.0,9400.0,180,R1,MissileDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,198500.0,110000.0,9700.0,180,R1,StandardFrigate,3,BROAD_FORMATION|?|?,?,?
+Ships     ,201500.0,110000.0,9700.0,180,R1,IonCannonFrigate,3,BROAD_FORMATION|?|?,?,?
+Ships     ,200100.0,110800.0,10000.0,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,200100.0,109200.0,10000.0,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,200700.0,110800.0,10000.0,180,R1,CloakGenerator,1,NULL_FORMATION|?|?,?,?
+Ships     ,200700.0,109200.0,10000.0,180,R1,CloakGenerator,1,NULL_FORMATION|?|?,?,?
+Ships     ,201700.0,110000.0,10600.0,180,R1,CloakGenerator,1,NULL_FORMATION|?|?,?,?
+Ships     ,201700.0,110000.0,9800.0,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,202000.0,110000.0,10000.0,180,R1,ProximitySensor,4,NULL_FORMATION|?|?,?,?
+
+Ships     ,205000.0,110000.0,10000.0,180,R1,MissileDestroyer,1,BROAD_FORMATION|?|?,?,?
+Ships     ,204900.0,110450.0,10450.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,204900.0,109550.0,10450.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,204900.0,110450.0,9550.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,204900.0,109550.0,9550.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,205750.0,110000.0,9800.0,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,205750.0,110300.0,10200.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,206250.0,110000.0,10000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+
+Ships     ,154300.0,60000.0,60000.0,180,R1,StandardDestroyer,1,BROAD_FORMATION|?|?,?,?
+Ships     ,154200.0,60450.0,60450.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154200.0,59550.0,60450.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154200.0,60450.0,59550.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154200.0,59550.0,59550.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,155050.0,60000.0,59800.0,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,155050.0,60300.0,60200.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,155550.0,60000.0,60000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+
+Ships     ,154300.0,160000.0,60000.0,180,R1,MissileDestroyer,1,BROAD_FORMATION|?|?,?,?
+Ships     ,154200.0,160450.0,60450.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154200.0,159550.0,60450.0,180,R1,StandardFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154200.0,160450.0,59550.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154200.0,159550.0,59550.0,180,R1,IonCannonFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,155050.0,160000.0,59800.0,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,155050.0,160300.0,60200.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,155550.0,160000.0,60000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+
+Ships     ,154121,30000,9600,180,R1,IonCannonFrigate,3,DELTA_FORMATION|?|?,?,?
+Ships     ,154121,30000,10400,180,R1,StandardFrigate,3,DELTA_FORMATION|?|?,?,?
+Ships     ,154921,30000,10550,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154921,30250,10300,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,155321,30000,10000,180,R1,ProximitySensor,3,NULL_FORMATION|?|?,?,?
+
+Ships     ,154121,190000,9600,180,R1,IonCannonFrigate,3,DELTA_FORMATION|?|?,?,?
+Ships     ,154121,190000,10400,180,R1,StandardFrigate,3,DELTA_FORMATION|?|?,?,?
+Ships     ,154921,190000,10550,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154921,190250,10300,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,155321,190000,10000,180,R1,ProximitySensor,3,NULL_FORMATION|?|?,?,?
+Ships     ,154121,110000,-40400,180,R1,IonCannonFrigate,3,DELTA_FORMATION|?|?,?,?
+Ships     ,154121,110000,-39600,180,R1,StandardFrigate,3,DELTA_FORMATION|?|?,?,?
+Ships     ,154921,110000,-39450,180,R1,DDDFrigate,1,NULL_FORMATION|?|?,?,?
+Ships     ,154921,110250,-39700,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,155321,110000,-40000,180,R1,ProximitySensor,3,NULL_FORMATION|?|?,?,?

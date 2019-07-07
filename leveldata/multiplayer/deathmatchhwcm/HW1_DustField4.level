@@ -1,0 +1,90 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Fields of Dust",
+	"This map has been designed for those of you out there that like a quick game. It is a small arena, there are dust clouds everywhere, so expect intense action. ",
+	"Hope you enjoy.",
+	"",
+	"AUTHOR  : medamanx",
+	"E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)",
+	"",
+	"Special thanx to Rollie (Overkill) for the bg.",
+}
+
+LevelName = [[Fields of Dust (2-6)]]
+LevelFile = [[DustField4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "firstone_btg"
+LevelMusic = "-1"
+
+RUsRatio = 1/2
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-30000.0, 20000.0, 15000.0, 0.0,},
+	{30000.0, -20000.0, 15000.0, 180.0,},
+	{30000.0, 20000.0, -15000.0, 180.0,},
+	{-30000.0, -20000.0, -15000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {30000.0, -20000.0, 15000.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-30000.0, 20000.0, 15000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {30000.0, 20000.0, -15000.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-30000.0, -20000.0, -15000.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "dust", 1200, 25000.0, 80000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

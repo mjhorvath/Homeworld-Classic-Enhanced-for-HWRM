@@ -1,0 +1,55 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM,,,,,,,,,
+; Copyright (c) 1998-99, Relic Entertainment Inc.,,,,,,,,,,,
+; MissionSphere Object: ?,ResourceSphere,,,,,,,,,,,
+
+;3rd-1st  Tilting Ring (From 'Ring1' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,-217647,-245741,0,Cylinder,Asteroid.dist,5,27000,65264,0,7.5,     ?,     ?
+Resources    Asteroid,-155146,-228995,0,Cylinder,Asteroid.dist,5,27267,65264,0,22.5,     ?,     ?
+Resources    Asteroid,-99109,-196642,0,Cylinder,Asteroid.dist,6,27533,65264,0,37.5,     ?,     ?
+Resources    Asteroid,-53356,-150889,0,Cylinder,Asteroid.dist,6,27800,65264,0,52.5,     ?,     ?
+Resources    Asteroid,-21003,-94852,0,Cylinder,Asteroid.dist,6,28067,65264,0,67.5,     ?,     ?
+Resources    Asteroid,-4256,-32352,0,Cylinder,Asteroid.dist,7,28333,65264,0,82.5,     ?,     ?
+
+Resources    Asteroid,-217647,-245741,0,Sphere,Asteroidbigsphere.dist,12,16000,24000,90,0,     2,     ?
+Resources    Asteroid,-217647,-245741,0,Sphere,Asteroidbigsphere.dist,12,16000,24000,0,0,     2,     ?
+Resources    Dustcloud,-217647,-245741,0,Sphere,Dustcloudarm.dist,12,15800,23600,0,0,     2,     ?
+
+;3rd-2nd  Tilting Ring (From 'Ring2' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,-741485,185296,0,Cylinder,Asteroid.dist,4,25400,130527,0,-82.5,     ?,     ?
+Resources    Asteroid,-707991,60295,0,Cylinder,Asteroid.dist,5,25667,130527,0,-67.5,     ?,     ?
+Resources    Asteroid,-643285,-51777,0,Cylinder,Asteroid.dist,6,25933,130527,0,-52.5,     ?,     ?
+Resources    Asteroid,-551778,-143284,0,Cylinder,Asteroid.dist,6,26200,130527,0,-37.5,     ?,     ?
+Resources    Asteroid,-439706,-207988,0,Cylinder,Asteroid.dist,7,26467,130527,0,-22.5,     ?,     ?
+Resources    Asteroid,-314705,-241482,0,Cylinder,Asteroid.dist,8,26733,130527,0,-7.5,     ?,     ?
+
+Resources    Asteroid,-314705,-241482,0,Sphere,Asteroidbigsphere.dist,12,22000,24000,90,0,     2,     ?
+Resources    Asteroid,-314705,-241482,0,Sphere,Asteroidbigsphere.dist,12,22000,24000,0,0,     2,     ?
+Resources    Dustcloud,-314705,-241482,0,Sphere,Dustcloudarm.dist,12,21800,23600,0,0,     2,     ?
+
+;3rd-3rd  Tilting Ring (From 'Ring3' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,120590,1232963,0,Cylinder,Asteroid.dist,3,23800,261053,0,7.5,     ?,     ?
+Resources    Asteroid,-129411,1165976,0,Cylinder,Asteroid.dist,3,24067,261053,0,22.5,     ?,     ?
+Resources    Asteroid,-353556,1036567,0,Cylinder,Asteroid.dist,4,24333,261053,0,37.5,     ?,     ?
+Resources    Asteroid,-536569,853555,0,Cylinder,Asteroid.dist,5,24600,261053,0,52.5,     ?,     ?
+Resources    Asteroid,-665979,629411,0,Cylinder,Asteroid.dist,6,24867,261053,0,67.5,     ?,     ?
+Resources    Asteroid,-732966,379411,0,Cylinder,Asteroid.dist,6,25133,261053,0,82.5,     ?,     ?
+
+Resources    Asteroid,-314705,-241482,0,Sphere,Asteroidbigsphere.dist,12,5000,10000,90,0,     2,     ?
+Resources    Asteroid,-314705,-241482,0,Sphere,Asteroidbigsphere.dist,12,5000,10000,0,0,     2,     ?
+Resources    Dustcloud,-314705,-241482,0,Sphere,Dustcloudarm.dist,12,4800,9600,0,0,     2,     ?
+
+;3rd-4th  Tilting Ring (From 'Ring4' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,2215935,-491185,0,Cylinder,Asteroid.dist,3,22200,522107,0,-82.5,     ?,     ?
+Resources    Asteroid,2081959,8817,0,Cylinder,Asteroid.dist,3,22467,522107,0,-67.5,     ?,     ?
+Resources    Asteroid,1823139,457106,0,Cylinder,Asteroid.dist,3,22733,522107,0,-52.5,     ?,     ?
+Resources    Asteroid,1457112,823132,0,Cylinder,Asteroid.dist,4,23000,522107,0,-37.5,     ?,     ?
+Resources    Asteroid,1008822,1081952,0,Cylinder,Asteroid.dist,4,23267,522107,0,-22.5,     ?,     ?
+Resources    Asteroid,508820,1215926,0,Cylinder,Asteroid.dist,4,23533,522107,0,-7.5,     ?,     ?
+
+Resources    Asteroid,2214926,-406180,0,Sphere,Asteroidbigsphere.dist,12,32000,64000,90,0,     2,     ?
+Resources    Asteroid,2212926,-406180,0,Sphere,Asteroidbigsphere.dist,12,42000,84000,0,0,     2,     ?
+Resources    Dustcloud,2213926,-406180,0,Sphere,Dustcloudarm.dist,12,41800,83600,0,0,     2,     ?

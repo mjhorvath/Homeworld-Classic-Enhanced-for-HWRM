@@ -1,0 +1,7 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+Ships     ,20968.6,-1727.7,0.0,67.5,RACE_SECT,sMothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,20968.6,-1727.7,0.0,67.5,RACE_SECT,sProcessor,1,PARADE_FORMATION|?|?,0,?
+Ships     ,20968.6,-1727.7,0.0,67.5,RACE_SECT,sWorker,5,PARADE_FORMATION|?|?,0,?
+Ships     ,20968.6,-1727.7,0.0,67.5,RACE_SECT,sRecon,15,PARADE_FORMATION|?|?,0,?

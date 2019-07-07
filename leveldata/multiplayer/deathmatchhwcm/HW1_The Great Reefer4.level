@@ -1,0 +1,130 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"The Great Reefer 1v1 or 2v2",
+	"",
+	"a whole new barrier reefa with a twist",
+	"",
+	"",
+	"",
+	"",
+	"AUTHOR: &L&a&g&s&ÿ&L&S",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[The Great Reefer (2or4)]]
+LevelFile = [[The Great Reefer4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {5000, 1000000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = ""
+LevelMusic = "32"
+
+RUsRatio = 1/2
+
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{10000.0, -15000.0, -5000.0, 180.0,},
+	{10000.0, 15000.0, -5000.0, 180.0,},
+	{-25000.0, -15000.0, 5000.0, 0.0,},
+	{-25000.0, 15000.0, 5000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {10000.0, 15000.0, -5000.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "heavyinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {10000.0, -15000.0, -5000.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "heavyinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-25000.0, -15000.0, 5000.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "heavyinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-25000.0, 15000.0, 5000.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "heavyinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 7,
+		asteroid3 = 6,
+		asteroid4 = 4,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	tiny =
+	{
+		asteroid0 = 100,
+		asteroid1 = 30,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, -5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{0.0, -20000.0, -5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{0.0, 20000.0, -5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{0.0, -40000.0, -5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{0.0, 40000.0, -5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-15000.0, 0.0, 5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-15000.0, 20000.0, 5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-15000.0, 40000.0, 5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-15000.0, -20000.0, 5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-15000.0, -40000.0, 5000.0,}, "cylinder", "rock", 15, 4000.0, 20000.0, 0.0, -90.0,},
+	{{-8000.0, -40000.0, 0.0,}, "cylinder", "dust", 15, 500.0, 50000.0, 50.0, -90.0,},
+	{{-8000.0, 40000.0, 0.0,}, "cylinder", "dust", 15, 500.0, 50000.0, -50.0, -90.0,},
+	{{-8000.0, -30000.0, 0.0,}, "cylinder", "tiny", 60, 10000.0, 40000.0, 0.0, -90.0,},
+	{{-8000.0, 30000.0, 0.0,}, "cylinder", "tiny", 60, 10000.0, 40000.0, 0.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

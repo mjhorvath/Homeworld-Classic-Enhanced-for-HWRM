@@ -1,0 +1,35 @@
+; MissionMan script, Thursday, Mar 13 2003, 4:45:53 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Scout MadnessII2
+; Info: Scout Madness 2 (2-8)
+
+[Scout Madness 2 (2-8)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,40000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,1000
+
+Lighting    BlueNebula.hsf
+Background    BlueNebula.btg
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    155000
+smZoomMin    40000
+smInitialDistance    145000
+smUniverseSizeX    75500
+smUniverseSizeZ    22500
+smUniverseSizeY    84000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    11

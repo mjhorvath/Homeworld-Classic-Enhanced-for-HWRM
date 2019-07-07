@@ -1,0 +1,6 @@
+Description	Watusi
+Description	This map is designed for quick games. You will have to conquer the column of dust in the middle to win. But beware, it wont come easy. Best if played with research OFF and no injects.
+Description	Hope you enjoy.
+Description
+Description	AUTHOR	: medamanx
+Description	E-MAIL	: medamanx@hotmail.com

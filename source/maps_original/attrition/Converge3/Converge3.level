@@ -1,0 +1,33 @@
+; MissionMan script, Wednesday, Dec 15 1999, 3:57:55 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Converge3
+; Info: Convergence (2-8)
+
+[Convergence (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R2,Mothership,0.0,51961.6,-30000.0,30000.0,100.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,45000.0,-25980.8,-30000.0,30000.0,-120.0,Mothership_1.missphere,0
+MissionSphere    2,R2,Mothership,-45000.0,-25980.8,-30000.0,30000.0,-140.0,Mothership_2.missphere,0
+
+
+Lighting    ez10
+Background    ez10, 90, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    150000
+smUniverseSizeZ    140000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    9

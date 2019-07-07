@@ -1,0 +1,11 @@
+Description	Crystal Planet (4)
+Description         
+Description	A huge 2v2 map with clusters of resources around a protoplanet rich in crystals. The layout favors team tactics and a longer game. Slipgates allow fast movement between resource clusters. 
+Description 	              
+Description	AUTHOR: Beltemall (dwillia552@aol.com)
+Description	VERSION: 1.0 (Oct 2000)
+
+Font            Arial_b12.hff
+Color           0, 200, 255
+DropShadow      Yes
+

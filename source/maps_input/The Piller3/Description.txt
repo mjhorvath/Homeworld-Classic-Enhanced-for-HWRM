@@ -1,0 +1,17 @@
+Description     The Pillar
+Description	fight for the mighty pillar that supports victory
+Description     to he who can protect it.
+Description     
+Description     Map By: &L&a&g&s&y
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

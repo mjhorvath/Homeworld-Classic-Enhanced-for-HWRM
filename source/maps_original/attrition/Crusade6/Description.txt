@@ -1,0 +1,10 @@
+Description	Crusade (4, 6 or 8 player team game) Teams of tvb.
+Description   	
+Description     SETTINGS  : No resource injections prefereably. there are enough resources already. Anything else you want.
+Description	AUTHOR	  : [DP]Overkill (Rob_128@Hotmail.com)
+Description	DATE MADE : (March 23 2000)
+
+Font            Arial_b12.hff
+Color           0, 180, 40
+DropShadow      Yes
+

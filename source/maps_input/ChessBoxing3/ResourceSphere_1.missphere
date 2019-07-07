@@ -1,0 +1,45 @@
+; MissionMan script, Wednesday, Dec 1 1999, 8:09:08 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,151.0,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,20273.0,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,40231.3,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,327.2,59862.5,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-19643.8,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-327.2,-39929.3,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,327.2,-59560.5,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-59875.1,-12.6,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,90.0,0,?
+Resources    Asteroid,-40243.9,314.6,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,90.0,0,?
+Resources    Asteroid,-19958.4,314.6,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,90.0,0,?
+Resources    Asteroid,0.0,641.8,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,90.0,0,?
+Resources    Asteroid,19958.4,314.6,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,90.0,0,?
+Resources    Asteroid,40571.1,314.6,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,90.0,0,?
+Resources    Asteroid,60202.3,641.8,0.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,90.0,0,?
+Resources    Asteroid,-410.9,0.0,205.4,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-410.9,0.0,20327.4,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-410.9,0.0,40285.8,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-83.7,0.0,59916.9,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-410.9,0.0,-19589.4,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-738.0,0.0,-39874.9,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-83.7,0.0,-59506.1,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,0.0,0,?
+Resources    Asteroid,-60285.9,0.0,41.8,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-90.0,0,?
+Resources    Asteroid,-40654.8,0.0,369.0,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-90.0,0,?
+Resources    Asteroid,-20369.2,0.0,369.0,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-90.0,0,?
+Resources    Asteroid,19547.5,0.0,369.0,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-90.0,0,?
+Resources    Asteroid,40160.2,0.0,369.0,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-90.0,0,?
+Resources    Asteroid,59791.4,0.0,696.2,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-90.0,0,?
+Resources    Asteroid,-410.9,-54.7,273.7,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,-90.0,0,?
+Resources    Asteroid,-410.9,-54.7,20395.7,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,-90.0,0,?
+Resources    Asteroid,-410.9,-54.7,40354.1,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,-90.0,0,?
+Resources    Asteroid,-410.9,-381.8,59985.2,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,-90.0,0,?
+Resources    Asteroid,-410.9,-54.7,-19521.0,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,-90.0,0,?
+Resources    Asteroid,-410.9,272.5,-39806.6,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,-90.0,0,?
+Resources    Asteroid,-410.9,-381.8,-59437.8,Cylinder,jacelor4.dist,50,250.0,119550.0,0.0,-90.0,0,?
+Resources    Asteroid,-410.8,59820.5,110.1,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-71.0,0,?
+Resources    Asteroid,-410.9,40189.3,437.3,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-71.0,0,?
+Resources    Asteroid,-410.9,19903.7,437.3,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-71.0,0,?
+Resources    Asteroid,-410.9,-20013.0,437.3,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-71.0,0,?
+Resources    Asteroid,-410.9,-40625.8,437.3,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-71.0,0,?
+Resources    Asteroid,-410.9,-60257.0,764.5,Cylinder,jacelor4.dist,50,250.0,119550.0,-90.0,-71.0,0,?
+
