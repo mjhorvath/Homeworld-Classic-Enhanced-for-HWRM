@@ -6,7 +6,7 @@ This mod has two readmes and a reference table:
 * [HWR_HWClassicMaps_Readme.txt](HWR_HWClassicMaps_Readme.txt)
 * [HWR_HWClassicMaps_Reference.html](HWR_HWClassicMaps_Reference.html)
 
-There is also a HTML reference for the map functions, but you will need to download it first before you can view it:
+There is also a HTML reference for the maps, but you will need to download it first before you can view it:
 
 * [HWR_HWClassicMaps_Reference.html](HWR_HWClassicMaps_Reference.html)
 
