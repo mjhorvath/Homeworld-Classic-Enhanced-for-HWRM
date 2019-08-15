@@ -16,3 +16,7 @@ The Steam Workshop page for this mod is here:
 An older version of this mod for Homeworld 2 Classic is located here:
 
 * https://github.com/mjhorvath/Homeworld-Classic-Enhanced-for-HW2C
+
+The original uncompressed TGA level thumbnails can be downloaded from here:
+
+* https://my.pcloud.com/publink/show?code=XZ7aP37ZcdCxOscvccJdGScD6vHTNj8jN3cV
