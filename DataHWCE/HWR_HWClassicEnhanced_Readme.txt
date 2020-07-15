@@ -1,9 +1,9 @@
-﻿Title:		Homeworld Classic Enhanced for HWRM
+﻿Title:		Homeworld Classic Enhanced for Homeworld Remastered
 Version:	2.3.1
 Authors:	Mikali, Luke Moloney (original version of HWC mod) and many, 
 		many individual map authors
 Created:	2011/11/18
-Updated:	2016/08/15
+Updated:	2020/07/15
 Homepage:	http://isometricland.net/homeworld/homeworld.php
 Steam:		For HWRM
 		  http://steamcommunity.com/sharedfiles/filedetails/?id=707870413
