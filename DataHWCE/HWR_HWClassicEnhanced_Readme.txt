@@ -1,5 +1,5 @@
 ﻿Title:		Homeworld Classic Enhanced for HWRM
-Version:	2.3.0
+Version:	2.3.1
 Authors:	Mikali, Luke Moloney (original version of HWC mod) and many, 
 		many individual map authors
 Created:	2011/11/18
@@ -428,6 +428,9 @@ TO DO
 
 
 CHANGE LOG
+
+2.3.1 --- 2020/07/15
+• Moved data files into a subfolder of the game's GIT directory.
 
 2.3.0 --- 2016/08/15
 • Switched to a new and better PRNG.
