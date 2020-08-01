@@ -1,0 +1,9 @@
+; MissionSphere Object: R1,Mothership
+
+Ships     ,-43000.0,0.0,0.0,0.0,R1,Mothership,1,NULL_FORMATION|?|?,?,?
+Ships     ,     0.0,0.0,0.0,0.0,R1,ResearchShip,1,PARADE_FORMATION|?|?,?,?
+;Ships     ,     0.0,0.0,0.0,0.0,R1,SensorArray,1,PARADE_FORMATION|?|?,?,?
+
+; guests at station
+Ships     , -3000.0,100.0, -500.0, 40.0,R1,ResourceController,1,BROAD_FORMATION|?|?,?,?
+Ships     , -4000.0,  0.0,  400.0, 25.0,R1,ResourceCollector,2,BROAD_FORMATION|?|?,?,?

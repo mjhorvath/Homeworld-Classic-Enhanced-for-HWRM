@@ -1,0 +1,50 @@
+; MissionMan script, Saturday, Oct 16 1999, 3:12:55 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Piratesinthemist2
+; Info: Pirates in the Mist (1 vs. 1)
+
+[Pirates in the Mist (1 vs. 1)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R2,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    -1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+
+Lighting    ez12
+Background    ez12, 75, 0
+smDepthCueRadius    75000
+smDepthCueStartRadius    20000
+smCircleBorder    100000
+smZoomMax    120000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    190000
+smUniverseSizeZ    180000
+smUniverseSizeY    190000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+IncludeShips    P1,P1Mothership
+IncludeShips    P1,P1IonArrayFrigate
+IncludeShips    P1,P1MissileCorvette
+IncludeShips    P2,P2MultiBeamFrigate
+IncludeShips    P1,P1StandardCorvette
+IncludeShips    P1,P1Fighter
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    AngelMoon
+IncludeDerelict    AngelMoon_clean
+IncludeDerelict    Scaffold_scarred
+IncludeDerelict    ScaffoldFingerA_scarred
+IncludeDerelict    ScaffoldFingerB_scarred
+IncludeDerelict    Junk2_shipwreck
+IncludeDerelict    R1,HeavyCruiser
+IncludeDerelict    PrisonShipOld
+IncludeDerelict    R1,HeavyCruiser
+IncludeDerelict    Junk3_BoilerCasing
+IncludeDerelict    FragmentStrut
+IncludeDerelict    Junk2_panelB
+SongNumber    3

@@ -1,0 +1,75 @@
+; MissionMan script, Martes, Sep 5 2000, 11:11:18 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Ships    ,200000.0,15000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,200000.0,35000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,195000.0,55000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,185000.0,75000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,175000.0,95000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,165000.0,115000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,155000.0,130000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,145000.0,140000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,15000.0,200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,35000.0,200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,55000.0,195000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,75000.0,185000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,95000.0,175000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,115000.0,165000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,130000.0,155000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,140000.0,145000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+
+Ships    ,-200000.0,15000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-200000.0,35000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-195000.0,55000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-185000.0,75000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-175000.0,95000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-165000.0,115000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-155000.0,130000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-145000.0,140000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-15000.0,200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-35000.0,200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-55000.0,195000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-75000.0,185000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-95000.0,175000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-115000.0,165000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-130000.0,155000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-140000.0,145000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-200000.0,-15000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+
+Ships    ,-200000.0,-35000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-195000.0,-55000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-185000.0,-75000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-175000.0,-95000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-165000.0,-115000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-155000.0,-130000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-145000.0,-140000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-15000.0,-200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-35000.0,-200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-55000.0,-195000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-75000.0,-185000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-95000.0,-175000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-115000.0,-165000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-130000.0,-155000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,-140000.0,-145000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+
+Ships    ,200000.0,-15000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,200000.0,-35000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,195000.0,-55000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,185000.0,-75000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,175000.0,-95000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,165000.0,-115000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,155000.0,-130000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,145000.0,-140000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,15000.0,-200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,35000.0,-200000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,55000.0,-195000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,75000.0,-185000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,95000.0,-175000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,115000.0,-165000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,130000.0,-155000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+Ships    ,140000.0,-145000.0,0.0,0.0,P3,P3Frigate,2,BROAD_FORMATION|?|?,?,?
+
+
+
+

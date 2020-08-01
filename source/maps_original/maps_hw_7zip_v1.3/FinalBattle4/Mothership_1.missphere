@@ -1,0 +1,17 @@
+; MissionMan script, martes, mar 28 2000, 4:24:06 p.m.
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R2,Mothership
+
+Ships     ,51000.0,0.0,1000.0,180.0,R2,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,48000.0,0.0,1250.0,180.0,R2,AttackBomber,15,BROAD_FORMATION|?|?,0,?
+Ships     ,48500.0,0.0,1250.0,180.0,R2,HeavyInterceptor,20,BROAD_FORMATION|?|?,0,?
+Ships     ,48500.0,0.0,-1500.0,180.0,R2,StandardDestroyer,3,BROAD_FORMATION|?|?,0,?
+Ships     ,49000.0,0.0,2500.0,180.0,R2,MissileDestroyer,3,BROAD_FORMATION|?|,0,?
+Ships     ,52750.0,0.0,-1500.0,180.0,R2,IonCannonFrigate,4,BROAD_FORMATION|?|?,0,?
+Ships     ,52750.0,0.0,1500.0,180.0,R2,StandardFrigate,4,BROAD_FORMATION|?|?,0,?
+Ships     ,53750.0,0.0,0.0,180.0,R2,AdvanceSupportFrigate,6,BROAD_FORMATION|?|?,0,?
+Ships     ,49500.0,0.0,-1250.0,180.0,R2,MultiGunCorvette,10,BROAD_FORMATION|?|?,0,?
+Ships     ,51000.0,0.0,0.0,180.0,R2,ResearchShip,6,PARADE_FORMATION|?|?,0,?
+Ships     ,51000.0,2000.0,0.0,180.0,R2,ResourceCollector,2,BROAD_FORMATION|?|?,0,?
+Ships     ,51000.0,3000.0,0.0,180.0,R2,ResourceController,1,BROAD_FORMATION|?|?,0,?
+Ships     ,51000.0,0.0,0.0,180.0,R2,HeavyCruiser,1,PARADE_FORMATION|?|?,0,?   

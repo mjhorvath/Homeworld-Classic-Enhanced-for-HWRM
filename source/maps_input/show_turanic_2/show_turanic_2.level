@@ -1,0 +1,27 @@
+; MissionMan script, Tuesday, Jan 19 1999, 9:46:10 PM
+; Copyright (c) 1998, Relic Entertainment Inc.
+; Multiplayer Level: Show_Turanic_2
+; Info: ALL Turanic Raiders
+
+[ALL Turanic Raiders]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting    default
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    80000
+smZoomMin    53000
+smInitialDistance    60000
+smUniverseSizeX    100000
+smUniverseSizeZ    50000
+smUniverseSizeY    100000
+ExcludeShips    R1,All
+ExcludeShips    R2,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+IncludeShips    R1,SalCapCorvette
+IncludeShips    R2,SalCapCorvette
+ExcludeDerelict    All

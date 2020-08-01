@@ -1,0 +1,33 @@
+; MissionMan script, Thursday, Jul 29 1999, 8:07:49 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: E3Skirmish2
+; Info: The Lost Falls (2-4)
+
+[The Lost Falls (2-4)]
+
+MissionSphere    0,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_2.missphere,1000
+MissionSphere    -1,?,ResourceSphere,-13000.0,24000.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,1000
+
+Lighting    ez06
+Background    ez06,180,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    280000
+smZoomMin    28000
+smInitialDistance    110000
+smUniverseSizeX    48500
+smUniverseSizeZ    42000
+smUniverseSizeY    58000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    1

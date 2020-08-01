@@ -1,0 +1,136 @@
+Resources       Asteroid,-50000.00,50000.00,40000.00,Cylinder,curve.dist,200,9000.00,4048.31,45,315,0,?
+Resources       Asteroid,-47059.20,49317.12,35953.92,Cylinder,curve.dist,120,6450.00,4908.13,45,315,0,?
+Resources       Asteroid,-44233.60,48472.96,32207.36,Cylinder,curve.dist,47,4000.00,4638.86,50.94,341.59,0,?
+Resources       Asteroid,-41518.40,47474.24,28747.84,Cylinder,curve.dist,25,2250.00,4391.97,49.13,338.04,0,?
+Resources       Asteroid,-38908.80,46327.68,25562.88,Cylinder,curve.dist,10,1000.00,4167.82,47.10,334.56,0,?
+Resources       Asteroid,-36400.00,45040.00,22640.00,Cylinder,curve.dist,5,250.00,3966.60,44.85,331.16,0,?
+Resources       Asteroid,-33987.20,43617.92,19966.72,Cylinder,curve.dist,5,250.00,3788.33,42.39,327.88,0,?
+Resources       Asteroid,-31665.60,42068.16,17530.56,Cylinder,curve.dist,5,250.00,3632.79,39.75,324.75,0,?
+Resources       Asteroid,-29430.40,40397.44,15319.04,Cylinder,curve.dist,5,250.00,3499.45,36.98,321.79,0,?
+Resources       Asteroid,-27276.80,38612.48,13319.68,Cylinder,curve.dist,5,250.00,3387.46,34.10,319.00,0,?
+Resources       Asteroid,-25200.00,36720.00,11520.00,Cylinder,curve.dist,5,250.00,3295.64,31.17,316.41,0,?
+Resources       Asteroid,-23195.20,34726.72,9907.52,Cylinder,curve.dist,5,250.00,3222.49,28.24,314.02,0,?
+Resources       Asteroid,-21257.60,32639.36,8469.76,Cylinder,curve.dist,5,250.00,3166.23,25.37,311.82,0,?
+Resources       Asteroid,-19382.40,30464.64,7194.24,Cylinder,curve.dist,5,250.00,3124.88,22.59,309.82,0,?
+Resources       Asteroid,-17564.80,28209.28,6068.48,Cylinder,curve.dist,5,250.00,3096.33,19.96,308.01,0,?
+Resources       Asteroid,-15800.00,25880.00,5080.00,Cylinder,curve.dist,5,250.00,3078.44,17.51,306.38,0,?
+Resources       Asteroid,-14083.20,23483.52,4216.32,Cylinder,curve.dist,5,250.00,3069.09,15.26,304.94,0,?
+Resources       Asteroid,-12409.60,21026.56,3464.96,Cylinder,curve.dist,5,250.00,3066.28,13.23,303.67,0,?
+Resources       Asteroid,-10774.40,18515.84,2813.44,Cylinder,curve.dist,5,250.00,3068.19,11.43,302.56,0,?
+Resources       Asteroid,-9172.80,15958.08,2249.28,Cylinder,curve.dist,5,250.00,3073.16,9.87,301.62,0,?
+Resources       Asteroid,-7600.00,13360.00,1760.00,Cylinder,curve.dist,5,250.00,3079.76,8.56,300.83,0,?
+Resources       Asteroid,-6051.20,10728.32,1333.12,Cylinder,curve.dist,5,250.00,3086.78,7.48,300.20,0,?
+Resources       Asteroid,-4521.60,8069.76,956.16,Cylinder,curve.dist,5,250.00,3093.25,6.65,299.70,0,?
+Resources       Asteroid,-3006.40,5391.04,616.64,Cylinder,curve.dist,5,250.00,3098.40,6.06,299.36,0,?
+Resources       Asteroid,-1500.80,2698.88,302.08,Cylinder,curve.dist,5,250.00,3101.70,5.70,299.15,0,?
+Resources       Asteroid,0.00,0.00,0.00,Cylinder,curve.dist,5,250.00,3102.84,5.59,299.08,0,?
+Resources       Asteroid,1500.80,-2698.88,-302.08,Cylinder,curve.dist,5,250.00,3101.70,5.70,299.15,0,?
+Resources       Asteroid,3006.40,-5391.04,-616.64,Cylinder,curve.dist,5,250.00,3098.40,6.06,299.36,0,?
+Resources       Asteroid,4521.60,-8069.76,-956.16,Cylinder,curve.dist,5,250.00,3093.25,6.65,299.70,0,?
+Resources       Asteroid,6051.20,-10728.32,-1333.12,Cylinder,curve.dist,5,250.00,3086.78,7.48,300.20,0,?
+Resources       Asteroid,7600.00,-13360.00,-1760.00,Cylinder,curve.dist,5,250.00,3079.76,8.56,300.83,0,?
+Resources       Asteroid,9172.80,-15958.08,-2249.28,Cylinder,curve.dist,5,250.00,3073.16,9.87,301.62,0,?
+Resources       Asteroid,10774.40,-18515.84,-2813.44,Cylinder,curve.dist,5,250.00,3068.19,11.43,302.56,0,?
+Resources       Asteroid,12409.60,-21026.56,-3464.96,Cylinder,curve.dist,5,250.00,3066.28,13.23,303.67,0,?
+Resources       Asteroid,14083.20,-23483.52,-4216.32,Cylinder,curve.dist,5,250.00,3069.09,15.26,304.94,0,?
+Resources       Asteroid,15800.00,-25880.00,-5080.00,Cylinder,curve.dist,5,250.00,3078.44,17.51,306.38,0,?
+Resources       Asteroid,17564.80,-28209.28,-6068.48,Cylinder,curve.dist,5,250.00,3096.33,19.96,308.01,0,?
+Resources       Asteroid,19382.40,-30464.64,-7194.24,Cylinder,curve.dist,5,250.00,3124.88,22.59,309.82,0,?
+Resources       Asteroid,21257.60,-32639.36,-8469.76,Cylinder,curve.dist,5,250.00,3166.23,25.37,311.82,0,?
+Resources       Asteroid,23195.20,-34726.72,-9907.52,Cylinder,curve.dist,5,250.00,3222.49,28.24,314.02,0,?
+Resources       Asteroid,25200.00,-36720.00,-11520.00,Cylinder,curve.dist,5,250.00,3295.64,31.17,316.41,0,?
+Resources       Asteroid,27276.80,-38612.48,-13319.68,Cylinder,curve.dist,5,250.00,3387.46,34.10,319.00,0,?
+Resources       Asteroid,29430.40,-40397.44,-15319.04,Cylinder,curve.dist,5,250.00,3499.45,36.98,321.79,0,?
+Resources       Asteroid,31665.60,-42068.16,-17530.56,Cylinder,curve.dist,5,250.00,3632.79,39.75,324.75,0,?
+Resources       Asteroid,33987.20,-43617.92,-19966.72,Cylinder,curve.dist,5,250.00,3788.33,42.39,327.88,0,?
+Resources       Asteroid,36400.00,-45040.00,-22640.00,Cylinder,curve.dist,5,250.00,3966.60,44.85,331.16,0,?
+Resources       Asteroid,38908.80,-46327.68,-25562.88,Cylinder,curve.dist,10,1000.00,4167.82,47.10,334.56,0,?
+Resources       Asteroid,41518.40,-47474.24,-28747.84,Cylinder,curve.dist,25,2250.00,4391.97,49.13,338.04,0,?
+Resources       Asteroid,44233.60,-48472.96,-32207.36,Cylinder,curve.dist,47,4000.00,4638.86,50.94,341.59,0,?
+Resources       Asteroid,47059.20,-49317.12,-35953.92,Cylinder,curve.dist,120,6450.00,4908.13,45,315,0,?
+Resources       Asteroid,50000.00,-50000.00,-40000.00,Cylinder,curve.dist,200,9000.00,4048.31,45,315,0,?
+
+
+Slipgate    ,-50500,50500,40400,1/2,-180.0,dSlipgateLarge
+Slipgate    ,50500,-50500,-40400,2/2,0.0,dSlipgateLarge
+
+Ships     ,-63250.00,57861.22,26992.52,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,63250.00,-57861.22,-26992.52,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+Ships     ,29985.52,-29985.52,-67752.64,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,-29985.52,29985.52,67752.64,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+Resources       Asteroid,-70000,-15000,60000,Cylinder,start.dist,6,1500,682.27,61.57,72.75,0,?
+Resources       Asteroid,70000,15000,-60000,Cylinder,start.dist,6,1500,682.27,61.57,72.75,0,?
+Resources       Asteroid,-15000,-70000,-60000,Cylinder,start.dist,6,1500,682.27,61.57,72.75,0,?
+Resources       Asteroid,15000,70000,60000,Cylinder,start.dist,6,1500,682.27,61.57,72.75,0,?
+
+Resources    Asteroid,47059.20,-49317.12,-35953.92,Sphere,pocket.dist,5,3000.0,3000.0,0.0,0.0,2048,1
+Resources    Asteroid,-47059.20,49317.12,35953.92,Sphere,pocket.dist,5,3000.0,3000.0,0.0,0.0,2048,1
+
+
+Resources    Asteroid,47500,47500,0,Sphere,pocket2.dist,20,7000.0,3000.0,0.0,0.0,?,?
+Resources    Asteroid,-47500,-47500,0,Sphere,pocket2.dist,20,7000.0,3000.0,0.0,0.0,?,?
+
+Ships     ,49500,49500,2000,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,45500,45500,-2000,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,-49500,-49500,2000,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships     ,-45500,-45500,-2000,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+Slipgate    ,-68000,-27000,53000,1/2,-180.0,dSlipgateMedium
+Slipgate    ,-47500,-57500,0,2/2,0.0,dSlipgateMedium
+Slipgate    ,-27000,-68000,-53000,1/2,-180.0,dSlipgateMedium
+Slipgate    ,-47500,-37500,0,2/2,0.0,dSlipgateMedium
+
+Slipgate    ,68000,27000,-53000,1/2,-180.0,dSlipgateMedium
+Slipgate    ,47500,57500,0,2/2,0.0,dSlipgateMedium
+Slipgate    ,27000,68000,53000,1/2,-180.0,dSlipgateMedium
+Slipgate    ,47500,37500,0,2/2,0.0,dSlipgateMedium
+
+
+Resources     DustCloud,-22636.56,37507.07,67637.58,Cylinder,dust.dist,1,500.00,2761.35,10.03,55.84,2048,1
+Resources     DustCloud,-29985.52,29985.52,67752.64,Cylinder,dust.dist,1,500.00,2601.82,-9.00,35.30,2048,1
+Resources     DustCloud,-36643.59,26500.00,65637.60,Cylinder,dust.dist,1,500.00,2646.60,-21.79,19.85,2048,1
+Resources     DustCloud,-41317.86,25272.27,63339.91,Cylinder,dust.dist,1,500.00,2714.79,-28.63,9.53,2048,1
+
+Resources     DustCloud,-78363.44,63492.93,13162.42,Cylinder,dust.dist,1,500.00,2761.35,-10.03,235.84,2048,1
+Resources     DustCloud,-71014.48,71014.48,13047.36,Cylinder,dust.dist,1,500.00,2601.82,9.00,215.30,2048,1
+Resources     DustCloud,-64356.41,74500.00,15162.40,Cylinder,dust.dist,1,500.00,2646.60,21.79,199.85,2048,1
+Resources     DustCloud,-59682.14,75727.73,17460.09,Cylinder,dust.dist,1,500.00,2714.79,28.63,189.53,2048,1
+
+Resources     DustCloud,-37507.07,78363.44,30486.33,Cylinder,dust.dist,1,500.00,3700.82,42.77,145.84,2048,1
+Resources     DustCloud,-29985.52,71014.48,40400.00,Cylinder,dust.dist,1,500.00,3503.75,42.87,125.30,2048,1
+Resources     DustCloud,-26500.00,64356.41,47162.40,Cylinder,dust.dist,1,500.00,3227.92,40.45,109.85,2048,1
+Resources     DustCloud,-25272.27,59682.14,51097.06,Cylinder,dust.dist,1,500.00,3002.38,37.48,99.53,2048,1
+
+Resources     DustCloud,-63492.93,22636.56,50313.67,Cylinder,dust.dist,1,500.00,3700.82,-42.77,325.84,2048,1
+Resources     DustCloud,-71014.48,29985.52,40400.00,Cylinder,dust.dist,1,500.00,3503.75,-42.87,305.30,2048,1
+Resources     DustCloud,-74500.00,36643.59,33637.60,Cylinder,dust.dist,1,500.00,3227.92,-40.45,289.85,2048,1
+Resources     DustCloud,-75727.73,41317.86,29702.94,Cylinder,dust.dist,1,500.00,3002.38,-37.48,279.53,2048,1
+
+
+Resources     DustCloud,22636.56,-37507.07,-67637.58,Cylinder,dust.dist,1,500.00,2761.35,10.03,55.84,2048,1
+Resources     DustCloud,29985.52,-29985.52,-67752.64,Cylinder,dust.dist,1,500.00,2601.82,-9.00,35.30,2048,1
+Resources     DustCloud,36643.59,-26500.00,-65637.60,Cylinder,dust.dist,1,500.00,2646.60,-21.79,19.85,2048,1
+Resources     DustCloud,41317.86,-25272.27,-63339.91,Cylinder,dust.dist,1,500.00,2714.79,-28.63,9.53,2048,1
+
+Resources     DustCloud,78363.44,-63492.93,-13162.42,Cylinder,dust.dist,1,500.00,2761.35,-10.03,235.84,2048,1
+Resources     DustCloud,71014.48,-71014.48,-13047.36,Cylinder,dust.dist,1,500.00,2601.82,9.00,215.30,2048,1
+Resources     DustCloud,64356.41,-74500.00,-15162.40,Cylinder,dust.dist,1,500.00,2646.60,21.79,199.85,2048,1
+Resources     DustCloud,59682.14,-75727.73,-17460.09,Cylinder,dust.dist,1,500.00,2714.79,28.63,189.53,2048,1
+
+Resources     DustCloud,37507.07,-78363.44,-30486.33,Cylinder,dust.dist,1,500.00,3700.82,42.77,145.84,2048,1
+Resources     DustCloud,29985.52,-71014.48,-40400.00,Cylinder,dust.dist,1,500.00,3503.75,42.87,125.30,2048,1
+Resources     DustCloud,26500.00,-64356.41,-47162.40,Cylinder,dust.dist,1,500.00,3227.92,40.45,109.85,2048,1
+Resources     DustCloud,25272.27,-59682.14,-51097.06,Cylinder,dust.dist,1,500.00,3002.38,37.48,99.53,2048,1
+
+Resources     DustCloud,63492.93,-22636.56,-50313.67,Cylinder,dust.dist,1,500.00,3700.82,-42.77,325.84,2048,1
+Resources     DustCloud,71014.48,-29985.52,-40400.00,Cylinder,dust.dist,1,500.00,3503.75,-42.87,305.30,2048,1
+Resources     DustCloud,74500.00,-36643.59,-33637.60,Cylinder,dust.dist,1,500.00,3227.92,-40.45,289.85,2048,1
+Resources     DustCloud,75727.73,-41317.86,-29702.94,Cylinder,dust.dist,1,500.00,3002.38,-37.48,279.53,2048,1
+
+
+Resources     DustCloud,-50500,50500,40400,Sphere,dust.dist,15,5000,3000,0,0,0,0
+Resources     DustCloud,50500,-50500,-40400,Sphere,dust.dist,15,5000,3000,0,0,0,0
+
+

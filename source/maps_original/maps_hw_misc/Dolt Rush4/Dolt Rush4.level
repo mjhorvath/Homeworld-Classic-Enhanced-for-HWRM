@@ -1,0 +1,37 @@
+; MissionMan script, Friday, Aug 12 2005, 2:00:54 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Dolt Rush4
+; Info: Dolt Rush (4)
+
+[Dolt Rush (4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+
+Lighting    default
+smDepthCueRadius    500000
+smDepthCueStartRadius    200000
+smCircleBorder    900000
+smZoomMax    1000000
+smZoomMin    5000
+smInitialDistance    750000
+smUniverseSizeX    1000000
+smUniverseSizeZ    500000
+smUniverseSizeY    1000000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+IncludeShips    Traders,Ghostship
+IncludeShips    Traders,JunkyardHQ
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    PrisonShipNew
+SongNumber    36

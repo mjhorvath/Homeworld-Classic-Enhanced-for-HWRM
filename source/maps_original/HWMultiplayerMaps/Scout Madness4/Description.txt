@@ -1,0 +1,19 @@
+Description     Scout Madness 4-6
+Description
+Description     HEHE  FIGHT!    may the best scout warroir team or lucky B______D WIN!  8)
+Description     
+Description     
+Description     v 1.0 - 13-8-2K1
+Description     Map by: B][LLy Da &B&i&B
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          900, 900, 900
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

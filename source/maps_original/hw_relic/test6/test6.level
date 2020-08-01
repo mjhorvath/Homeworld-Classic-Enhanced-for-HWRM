@@ -1,0 +1,82 @@
+[Test 2-8]
+; Format for a player's mission sphere is:
+; MissionSphere       PlayerNumber, RaceName, x,y,z, radius, rotate, Contents.missphere, StartingResourceUnits
+
+; Format for a resource mission sphere is:
+; MissionSphere       -1, RaceName, x,y,z, radius, rotate, Contents.missphere
+
+
+;Fleet Starting Points:
+;=--------------------=
+;
+MissionSphere       0,    R1,   -20000.0,    28000.0,     5670.0,   12000.0,    1000.0,     StdSkirmishFleetR1.missphere,    800
+MissionSphere       1,    R1,    20000.0,   -28000.0,    -5670.0,   12000.0,    1000.0,     StdSkirmishFleetR1.missphere,    800
+MissionSphere       2,    R1,   -28500.0,   -21430.0,     2100.0,   12000.0,    1000.0,     StdSkirmishFleetR1.missphere,    800
+MissionSphere       3,    R1,    28500.0,    21430.0,     2100.0,   12000.0,    1000.0,     StdSkirmishFleetR1.missphere,    800
+MissionSphere       4,    R1,        0.0,   -21430.0,   -28500.0,   12000.0,    1000.0,     StdSkirmishFleetR1.missphere,    800
+MissionSphere       5,    R1,        0.0,    21430.0,    28500.0,   12000.0,    1000.0,     StdSkirmishFleetR1.missphere,    800
+MissionSphere       0,    R2,   -20000.0,    28000.0,     5670.0,   12000.0,    1000.0,     StdSkirmishFleetR2.missphere,    800
+MissionSphere       1,    R2,    20000.0,   -28000.0,    -5670.0,   12000.0,    1000.0,     StdSkirmishFleetR2.missphere,    800
+MissionSphere       2,    R2,   -28500.0,   -21430.0,     2100.0,   12000.0,    1000.0,     StdSkirmishFleetR2.missphere,    800
+MissionSphere       3,    R2,    28500.0,    21430.0,     2100.0,   12000.0,    1000.0,     StdSkirmishFleetR2.missphere,    800
+MissionSphere       4,    R2,        0.0,   -21430.0,   -28500.0,   12000.0,    1000.0,     StdSkirmishFleetR2.missphere,    800
+MissionSphere       5,    R2,        0.0,    21430.0,    28500.0,   12000.0,    1000.0,     StdSkirmishFleetR2.missphere,    800
+
+
+;Resource Spheres:
+;=---------------=
+;
+MissionSphere       -1,   ?,   0.0,       0.0,   0.0,    10000.0,  0.0,     ResourcesArm6.missphere
+
+
+
+;Lighting:
+;=-------=
+;
+Lighting            default             ;name of .hsf file in data\hsf
+
+
+
+smCircleBorder                 90000        ; Fixed-point multiplier
+smDepthCueStartRadiusDepth     20000        ; cueing start distance
+smDepthCueRadius               50000        ; Depth cueing end (100%) distance
+smZoomMax                     120000        ; Farthest camera can zoom back
+smZoomMin                      53000        ; Closest camera can zoom in
+smInitialDistance              60000        ; Starting zoom distance
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    All
+ExcludeShips    R1,CloakedFighter
+ExcludeShips    R2,DefenseFighter
+ExcludeShips    R1,AttackBomber
+ExcludeShips    R2,AttackBomber
+ExcludeShips    R1,MultiGunCorvette
+ExcludeShips    R2,MultiGunCorvette
+ExcludeShips    R1,MinelayerCorvette
+ExcludeShips    R2,MinelayerCorvette
+ExcludeShips    R1,DDDFrigate
+ExcludeShips    R2,DFGFrigate
+ExcludeShips    R1,MissileDestroyer
+ExcludeShips    R2,MissileDestroyer
+ExcludeShips    R1,HeavyCruiser
+ExcludeShips    R2,HeavyCruiser
+ExcludeShips    R1,ProximitySensor
+ExcludeShips    R2,ProximitySensor
+ExcludeShips    R1,GravWellGenerator
+ExcludeShips    R2,GravWellGenerator
+ExcludeShips    R1,CloakGenerator
+ExcludeShips    R2,CloakGenerator
+ExcludeShips    R1,Probe
+ExcludeShips    R2,Probe
+ExcludeShips    R1,RepairCorvette
+ExcludeShips    R2,RepairCorvette
+ExcludeShips    R1,SalCapCorvette
+ExcludeShips    R2,SalCapCorvette
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+
+

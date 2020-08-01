@@ -1,8 +1,0 @@
-; MissionMan script, Saturday, May 20 2006, 3:34:10 PM
-; Copyright (c) 1998-99, Relic Entertainment Inc.
-; MissionSphere Object: R1,Mothership
-
-Ships     ,-60000.0,-65000.0,0.0,0.0,R1,Mothership,1,PARADE_FORMATION|?|?,0,?
-Ships     ,-61638.0,-33341.0,0.0,0.0,R1,ResearchShip,1,PARADE_FORMATION|?|?,0,?
-Ships     ,-61680.0,-37163.0,0.0,0.0,R1,ResourceCollector,1,PARADE_FORMATION|?|?,0,?
-

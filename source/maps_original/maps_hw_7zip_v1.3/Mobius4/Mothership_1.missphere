@@ -1,0 +1,6 @@
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+Ships     ,-56250.0,-37500.0,-32476.0,33.7,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,-56250.0,-37500.0,-32476.0,33.7,R1,ResearchShip,1,PARADE_FORMATION|?|?,0,?
+Ships     ,-56250.0,-37500.0,-32476.0,33.7,R1,ResourceCollector,2,PARADE_FORMATION|?|?,0,?

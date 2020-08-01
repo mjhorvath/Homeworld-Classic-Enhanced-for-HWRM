@@ -1,0 +1,33 @@
+; MissionMan script, Sunday, Mar 5 2000, 2:55:48 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Battle Zone2
+; Info: Battle Zone(2-6)
+
+[Battle Zone(2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,4000
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,4000
+
+Lighting    default
+Background    ez14
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    100000
+smUniverseSizeZ    100000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    06

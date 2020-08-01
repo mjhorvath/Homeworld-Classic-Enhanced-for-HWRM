@@ -1,0 +1,35 @@
+; MissionMan script, Monday, Dec 12 2005, 9:45:32 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Unifusion4
+; Info: Uni&f&u&s&i&o&n (4 or 6)
+
+[Uni&f&u&s&i&o&n (4 or 6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,roids.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Host.missphere,0
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Guest.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Guest1.missphere,0
+MissionSphere    3,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Guest2.missphere,0
+
+Lighting    ez05, 180
+Background    ez06
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    35000
+smZoomMax    115750
+smZoomMin    17500
+smInitialDistance    49125
+smUniverseSizeX    50000
+smUniverseSizeZ    30000
+smUniverseSizeY    50000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+ExcludeDerelict    Crate
+SongNumber    15

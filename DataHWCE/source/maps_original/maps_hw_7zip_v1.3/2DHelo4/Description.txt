@@ -1,9 +1,0 @@
-Description	2D Helo (v1.1)
-Description	This map has been designed for great Team or FFA gameplay with 2 or 4 players only. Its your choice. Clash with your neighbor for valuable ru's while trying to get ahead. Hope you enjoy.
-Description	
-Description	AUTHOR  : medamanx (2D ed. by Dylov)
-Description	E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)
-
-Font Arial_b12.hff
-Color 140, 245, 133
-DropShadow Yes

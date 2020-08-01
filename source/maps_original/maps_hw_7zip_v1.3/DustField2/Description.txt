@@ -1,0 +1,12 @@
+Description	Fields of Dust
+Description	This map has been designed for those of you out there that like a quick game. It is a small arena, there are dust clouds everywhere, so expect intense action. 
+Description	Hope you enjoy.
+Description	
+Description	AUTHOR  : medamanx
+Description	E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)
+Description	
+Description	Special thanx to Rollie (Overkill) for the bg.
+
+Font 		Arial_b12.hff
+Color 		255, 100, 0
+DropShadow 	Yes

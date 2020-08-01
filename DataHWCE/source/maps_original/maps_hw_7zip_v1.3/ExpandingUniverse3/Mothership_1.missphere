@@ -1,9 +1,0 @@
-; MissionMan script, Friday, Jan 14 2000, 5:17:58 PM
-; Copyright (c) 1998-99, Relic Entertainment Inc.
-; MissionSphere Object: R2,Mothership
-
-Ships     ,56753.1,-684.1,0.0,180.0,R2,Mothership,1,NULL_FORMATION|?|?,0,?
-Ships     ,54604.0,30.0,131.0,0.0,R2,LightCorvette,5,DELTA_FORMATION|?|?,0,?
-Ships     ,54604.0,1556.0,131.0,0.0,R2,ResourceCollector,2,DELTA_FORMATION|?|?,0,?
-Ships     ,54604.0,3083.0,131.0,0.0,R2,ResearchShip,1,DELTA_FORMATION|?|?,0,?
-

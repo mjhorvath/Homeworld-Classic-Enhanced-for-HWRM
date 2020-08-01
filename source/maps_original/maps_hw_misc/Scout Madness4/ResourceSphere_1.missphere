@@ -1,0 +1,8 @@
+; MissionMan script, Monday, Aug 13 2001, 10:51:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+playerNumber    -1
+radius    30000.0
+contents    ResourceSphere_1.missphere
+startingResourceUnits    1000

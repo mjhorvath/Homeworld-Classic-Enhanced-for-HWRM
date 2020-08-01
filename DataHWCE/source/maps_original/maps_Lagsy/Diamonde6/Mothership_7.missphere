@@ -1,8 +1,0 @@
-; MissionMan script, Sunday, Sep 7 2008, 11:19:37 AM
-; Copyright (c) 1998-99, Relic Entertainment Inc.
-; MissionSphere Object: R1,Mothership
-
-playerNumber    5
-radius    30000.0
-contents    Mothership_7.missphere
-startingResourceUnits    1000

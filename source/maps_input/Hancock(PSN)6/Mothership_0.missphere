@@ -1,0 +1,36 @@
+; MissionMan script, Monday, Jun 21 1999, 12:27:25 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,294300.0,0.0,50000.0,180,R1,HeavyCruiser,1,BROAD_FORMATION|?|?,?,?
+Ships     ,294800.0,-900.0,50000.0,180,R1,StandardDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,294800.0,-900.0,48000.0,180,R1,MissileDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,296000.0,0.0,50000.0,180,R1,DDDFrigate,1,BROAD_FORMATION|?|?,?,?
+Ships     ,296500.0,-300.0,50000.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,296700.0,0.0,50000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+Ships     ,300000.0,0.0,50000.0,180,R1,Carrier,1,NULL_FORMATION|UseAsMothership|?,?,?
+Ships     ,300000.0,800.0,50600.0,180,R1,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,300000.0,-800.0,50600.0,180,R1,HeavyCruiser,1,NULL_FORMATION|?|?,?,?
+Ships     ,300000.0,800.0,49400.0,180,R1,StandardDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,300000.0,-800.0,49400.0,180,R1,MissileDestroyer,1,NULL_FORMATION|?|?,?,?
+Ships     ,302000.0,0.0,50200.0,180,R1,CloakGenerator,3,BROAD_FORMATION|?|?,?,?
+Ships     ,302000.0,0.0,49200.0,180,R1,DDDFrigate,3,BROAD_FORMATION|?|?,?,?
+Ships     ,302200.0,0.0,50000.0,180,R1,ProximitySensor,4,NULL_FORMATION|?|?,?,?
+Ships     ,305000.0,0.0,51000.0,180,R1,HeavyCruiser,1,BROAD_FORMATION|?|?,?,?
+Ships     ,305500.0,-900.0,51000.0,180,R1,StandardDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,305500.0,-900.0,49000.0,180,R1,MissileDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,306300.0,0.0,51000.0,180,R1,DDDFrigate,1,BROAD_FORMATION|?|?,?,?
+Ships     ,306800.0,-300.0,51000.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,307000.0,0.0,51000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+Ships     ,255000.0,-50000.0,20000.0,180,R1,HeavyCruiser,1,BROAD_FORMATION|?|?,?,?
+Ships     ,255500.0,-50900.0,21000.0,180,R1,StandardDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,255500.0,-50900.0,19000.0,180,R1,MissileDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,256300.0,-50000.0,20000.0,180,R1,DDDFrigate,1,BROAD_FORMATION|?|?,?,?
+Ships     ,256800.0,-50300.0,20000.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,257000.0,-50000.0,20000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?
+Ships     ,255000.0,50000.0,20000.0,180,R1,HeavyCruiser,1,BROAD_FORMATION|?|?,?,?
+Ships     ,255500.0,49100.0,21000.0,180,R1,StandardDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,255500.0,49100.0,19000.0,180,R1,MissileDestroyer,2,BROAD_FORMATION|?|?,?,?
+Ships     ,256300.0,50000.0,19500.0,180,R1,DDDFrigate,1,BROAD_FORMATION|?|?,?,?
+Ships     ,256300.0,49700.0,20500.0,180,R1,CloakGenerator,2,BROAD_FORMATION|?|?,?,?
+Ships     ,256500.0,50000.0,20000.0,180,R1,ProximitySensor,2,NULL_FORMATION|?|?,?,?

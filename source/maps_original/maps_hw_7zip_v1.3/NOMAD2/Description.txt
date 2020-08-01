@@ -1,0 +1,9 @@
+Description	Raiders have over run our resource station code name NOMAD. Our enemies have learned the same and are sending a force to capture this station. They must not succeed. Destroy the raider's and stop our enemy from harvesting and establishing a foot hold there
+Description	
+Description	Teelan(sjet)
+Description	DRUNKENPIRATE1@AOL.COM
+Description    
+Description	
+Font 		Arial_b12.hff
+Color 		140, 245, 133
+DropShadow 	Yes

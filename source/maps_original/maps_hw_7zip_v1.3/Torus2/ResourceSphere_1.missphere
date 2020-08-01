@@ -1,0 +1,327 @@
+; MissionMan script, Tuesday, May 23 2000, 9:34:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;12 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,17471.0,132700.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,51221.0,123657.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,81481.0,106187.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,106189.0,81480.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,123660.0,51220.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,132703.0,17470.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-17471.0,-132700.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-51221.0,-123657.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-81481.0,-106187.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-106189.0,-81480.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-123660.0,-51220.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-132703.0,-17470.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,17471.0,-132700.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,51221.0,-123657.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,81481.0,-106187.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,106189.0,-81480.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,123660.0,-51220.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,132703.0,-17470.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-17471.0,132700.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-51221.0,123657.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-81481.0,106187.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-106189.0,81480.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-123660.0,51220.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-132703.0,17470.0,35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,82.5,     ?,     ?
+
+;1 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,19735.0,149902.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,57861.0,139687.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,92043.0,119952.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,119953.0,92042.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,139688.0,57860.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,149903.0,19735.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-19735.0,-149902.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-57861.0,-139687.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-92043.0,-119952.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-119953.0,-92042.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-139688.0,-57860.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-149903.0,-19735.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,19735.0,-149902.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,57861.0,-139687.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,92043.0,-119952.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,119953.0,-92042.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,139688.0,-57860.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,149903.0,-19735.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-19735.0,149902.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-57861.0,139687.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-92043.0,119952.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-119953.0,92042.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-139688.0,57860.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-149903.0,19735.0,30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,82.5,     ?,     ?
+
+;2 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,21393.0,162495.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,62721.0,151422.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,99775.0,130030.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,130029.0,99776.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,151422.0,62722.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,162496.0,21395.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-21393.0,-162495.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-62721.0,-151422.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-99775.0,-130030.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-130029.0,-99776.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-151422.0,-62722.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-162496.0,-21395.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,21393.0,-162495.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,62721.0,-151422.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,99775.0,-130030.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,130029.0,-99776.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,151422.0,-62722.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,162496.0,-21395.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-21393.0,162495.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-62721.0,151422.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-99775.0,130030.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-130029.0,99776.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-151422.0,62722.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-162496.0,21395.0,17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,82.5,     ?,     ?
+
+3 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,22000.0,167104.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,64501.0,155717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,102607.0,133717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,133720.0,102605.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,155720.0,64500.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,167108.0,21999.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-22000.0,-167104.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-64501.0,-155717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-102607.0,-133717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-133720.0,-102605.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-155720.0,-64500.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-167108.0,-21999.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,22000.0,-167104.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,64501.0,-155717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,102607.0,-133717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,133720.0,-102605.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,155720.0,-64500.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,167108.0,-21999.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-22000.0,167104.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-64501.0,155717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-102607.0,133717.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-133720.0,102605.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-155720.0,64500.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-167108.0,21999.0,0.0,Cylinder,Asteroid.dist,15,250.0,44380.0,0.0,82.5,     ?,     ?
+
+;4 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,21393.0,162495.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,62721.0,151422.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,99775.0,130030.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,130029.0,99776.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,151422.0,62722.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,162496.0,21395.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-21393.0,-162495.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-62721.0,-151422.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-99775.0,-130030.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-130029.0,-99776.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-151422.0,-62722.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-162496.0,-21395.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,21393.0,-162495.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,62721.0,-151422.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,99775.0,-130030.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,130029.0,-99776.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,151422.0,-62722.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,162496.0,-21395.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-21393.0,162495.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-62721.0,151422.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-99775.0,130030.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-130029.0,99776.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-151422.0,62722.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-162496.0,21395.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,43155.0,0.0,82.5,     ?,     ?
+
+;5 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,19735.0,149902.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,57861.0,139687.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,92043.0,119952.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,119953.0,92042.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,139688.0,57860.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,149903.0,19735.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-19735.0,-149902.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-57861.0,-139687.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-92043.0,-119952.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-119953.0,-92042.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-139688.0,-57860.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-149903.0,-19735.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,19735.0,-149902.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,57861.0,-139687.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,92043.0,-119952.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,119953.0,-92042.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,139688.0,-57860.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,149903.0,-19735.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-19735.0,149902.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-57861.0,139687.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-92043.0,119952.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-119953.0,92042.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-139688.0,57860.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-149903.0,19735.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,39811.0,0.0,82.5,     ?,     ?
+
+;6 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,17471.0,132700.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,51221.0,123657.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,81481.0,106187.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,106189.0,81480.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,123660.0,51220.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,132703.0,17470.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-17471.0,-132700.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-51221.0,-123657.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-81481.0,-106187.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-106189.0,-81480.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-123660.0,-51220.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-132703.0,-17470.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,17471.0,-132700.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,51221.0,-123657.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,81481.0,-106187.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,106189.0,-81480.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,123660.0,-51220.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,132703.0,-17470.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-17471.0,132700.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-51221.0,123657.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-81481.0,106187.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-106189.0,81480.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-123660.0,51220.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-132703.0,17470.0,-35000.0,Cylinder,Asteroid.dist,15,250.0,35243.0,0.0,82.5,     ?,     ?
+
+;7 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,15206.0,115499.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,44582.0,107628.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,70919.0,92423.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,92423.0,70919.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,107628.0,44582.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,115499.0,15207.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-15206.0,-115499.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-44582.0,-107628.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-70919.0,-92423.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-92423.0,-70919.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-107628.0,-44582.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-115499.0,-15207.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,15206.0,-115499.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,44582.0,-107628.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,70919.0,-92423.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,92423.0,-70919.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,107628.0,-44582.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,115499.0,-15207.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-15206.0,115499.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-44582.0,107628.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-70919.0,92423.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-92423.0,70919.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-107628.0,44582.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-115499.0,15207.0,-30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,82.5,     ?,     ?
+
+;8 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,13548.0,102906.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,39721.0,95893.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,63187.0,82346.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,82347.0,63186.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,95895.0,39721.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,102908.0,13548.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-13548.0,-102906.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-39721.0,-95893.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-63187.0,-82346.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-82347.0,-63186.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-95895.0,-39721.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-102908.0,-13548.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,13548.0,-102906.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,39721.0,-95893.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,63187.0,-82346.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,82347.0,-63186.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,95895.0,-39721.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,102908.0,-13548.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-13548.0,102906.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-39721.0,95893.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-63187.0,82346.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-82347.0,63186.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-95895.0,39721.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-102908.0,13548.0,-17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,82.5,     ?,     ?
+
+;9 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,12942.0,98297.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,37943.0,91598.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,60358.0,78657.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,78659.0,60356.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,91600.0,37941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,98299.0,12941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-12942.0,-98297.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-37943.0,-91598.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-60358.0,-78657.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-78659.0,-60356.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-91600.0,-37941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-98299.0,-12941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,12942.0,-98297.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,37943.0,-91598.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,60358.0,-78657.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,78659.0,-60356.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,91600.0,-37941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,98299.0,-12941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-12942.0,98297.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-37943.0,91598.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-60358.0,78657.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-78659.0,60356.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-91600.0,37941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-98299.0,12941.0,0.0,Cylinder,Asteroid.dist,15,250.0,26106.0,0.0,82.5,     ?,     ?
+
+;10 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,13548.0,102906.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,39721.0,95893.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,63187.0,82346.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,82347.0,63186.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,95895.0,39721.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,102908.0,13548.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-13548.0,-102906.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-39721.0,-95893.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-63187.0,-82346.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-82347.0,-63186.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-95895.0,-39721.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-102908.0,-13548.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,13548.0,-102906.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,39721.0,-95893.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,63187.0,-82346.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,82347.0,-63186.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,95895.0,-39721.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,102908.0,-13548.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-13548.0,102906.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-39721.0,95893.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-63187.0,82346.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-82347.0,63186.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-95895.0,39721.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-102908.0,13548.0,17500.0,Cylinder,Asteroid.dist,15,250.0,27330.0,0.0,82.5,     ?,     ?
+
+;11 o'clock Ring (From 'Rings' Sheet),,,,,,,,,,,,
+;TYPE,X_POS,Y-POS,Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+Resources    Asteroid,15206.0,115499.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,44582.0,107628.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,70919.0,92423.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,92423.0,70919.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,107628.0,44582.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,115499.0,15207.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,-15206.0,-115499.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-44582.0,-107628.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-70919.0,-92423.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-92423.0,-70919.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-107628.0,-44582.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-115499.0,-15207.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,-82.5,     ?,     ?
+Resources    Asteroid,15206.0,-115499.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,44582.0,-107628.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,70919.0,-92423.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,92423.0,-70919.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,107628.0,-44582.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,115499.0,-15207.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,82.5,     ?,     ?
+Resources    Asteroid,-15206.0,115499.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,7.5,     ?,     ?
+Resources    Asteroid,-44582.0,107628.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,22.5,     ?,     ?
+Resources    Asteroid,-70919.0,92423.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,37.5,     ?,     ?
+Resources    Asteroid,-92423.0,70919.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,52.5,     ?,     ?
+Resources    Asteroid,-107628.0,44582.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,67.5,     ?,     ?
+Resources    Asteroid,-115499.0,15207.0,30311.0,Cylinder,Asteroid.dist,15,250.0,30674.0,0.0,82.5,     ?,     ?

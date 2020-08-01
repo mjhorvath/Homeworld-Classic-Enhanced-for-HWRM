@@ -1,0 +1,96 @@
+; MissionMan script, Sunday, Apr 9 2000, 2:28:48 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+;Thanks to Taker and Dylov for their Excel map making Tool - it ROCKS
+
+;0 tilt
+Resources    Asteroid,10353.0,68637.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,30354.0,63278.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,48286.0,52926.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,62927.0,38285.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,73280.0,20353.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,78639.0,0352.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-82.5,     ?,     ?
+
+Resources    Asteroid,-10353.0,-68637.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-7.5,     ?,     ?
+Resources    Asteroid,-30354.0,-63278.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-22.5,     ?,     ?
+Resources    Asteroid,-48286.0,-52926.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-37.5,     ?,     ?
+Resources    Asteroid,-62927.0,-38285.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-52.5,     ?,     ?
+Resources    Asteroid,-73280.0,-20353.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-67.5,     ?,     ?
+Resources    Asteroid,-78639.0,-0352.0,0.0,Cylinder,Tiny.dist,8,4500.0,20885.0,0.0,-82.5,     ?,     ?
+
+;60 tilt
+Resources    Asteroid,5177.0,-68637.0,8967.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-59.2,14.8,     ?,     ?
+Resources    Asteroid,15177.0,-63278.0,26287.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-53.1,39.6,     ?,     ?
+Resources    Asteroid,24144.0,-52926.0,41819.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-43.4,56.9,     ?,     ?
+Resources    Asteroid,31465.0,-38285.0,54499.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-31.8,69.0,     ?,     ?
+Resources    Asteroid,36641.0,-20353.0,63464.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-19.4,78.3,     ?,     ?
+Resources    Asteroid,39321.0,-0352.0,68106.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-6.5,86.2,     ?,     ?
+
+Resources    Asteroid,-5177.0,68637.0,-8967.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-59.2,14.8,     ?,     ?
+Resources    Asteroid,-15177.0,63278.0,-26287.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-53.1,39.6,     ?,     ?
+Resources    Asteroid,-24144.0,52926.0,-41819.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-43.4,56.9,     ?,     ?
+Resources    Asteroid,-31465.0,38285.0,-54499.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-31.8,69.0,     ?,     ?
+Resources    Asteroid,-36641.0,20353.0,-63464.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-19.4,78.3,     ?,     ?
+Resources    Asteroid,-39321.0,0352.0,-68106.0,Cylinder,Tiny.dist,8,4500.0,20885.0,-6.5,86.2,     ?,     ?
+
+;120 tilt
+Resources    Asteroid,-5176.0,68637.0,8965.0,Cylinder,Tiny.dist,8,4500.0,20885.0,59.2,7.5,     ?,     ?
+Resources    Asteroid,-15177.0,63278.0,26287.0,Cylinder,Tiny.dist,8,4500.0,20885.0,53.1,22.5,     ?,     ?
+Resources    Asteroid,-24143.0,52926.0,41817.0,Cylinder,Tiny.dist,8,4500.0,20885.0,43.4,37.5,     ?,     ?
+Resources    Asteroid,-31464.0,38285.0,54497.0,Cylinder,Tiny.dist,8,4500.0,20885.0,31.8,52.5,     ?,     ?
+Resources    Asteroid,-36641.0,20353.0,63464.0,Cylinder,Tiny.dist,8,4500.0,20885.0,19.4,67.5,     ?,     ?
+Resources    Asteroid,-39320.0,0352.0,68104.0,Cylinder,Tiny.dist,8,4500.0,20885.0,6.5,82.5,     ?,     ?
+
+Resources    Asteroid,5176.0,-68637.0,-8965.0,Cylinder,Tiny.dist,8,4500.0,20885.0,59.2,7.5,     ?,     ?
+Resources    Asteroid,15177.0,-63278.0,-26287.0,Cylinder,Tiny.dist,8,4500.0,20885.0,53.1,22.5,     ?,     ?
+Resources    Asteroid,24143.0,-52926.0,-41817.0,Cylinder,Tiny.dist,8,4500.0,20885.0,43.4,37.5,     ?,     ?
+Resources    Asteroid,31464.0,-38285.0,-54497.0,Cylinder,Tiny.dist,8,4500.0,20885.0,31.8,52.5,     ?,     ?
+Resources    Asteroid,36641.0,-20353.0,-63464.0,Cylinder,Tiny.dist,8,4500.0,20885.0,19.4,67.5,     ?,     ?
+Resources    Asteroid,39320.0,-0352.0,-68104.0,Cylinder,Tiny.dist,8,4500.0,20885.0,6.5,82.5,     ?,     ?
+
+;0 tilt
+Resources    DustCloud,10353.0,68637.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-7.5,2048     ,     ?
+Resources    DustCloud,30354.0,63278.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-22.5,2048     ,     ?
+Resources    DustCloud,48286.0,52926.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-37.5,2048     ,     ?
+Resources    DustCloud,62927.0,38285.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-52.5,2048     ,     ?
+Resources    DustCloud,73280.0,20353.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-67.5,2048     ,     ?
+Resources    DustCloud,78639.0,0352.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-82.5,2048     ,     ?
+
+Resources    DustCloud,-10353.0,-68637.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-7.5,2048     ,     ?
+Resources    DustCloud,-30354.0,-63278.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-22.5,2048     ,     ?
+Resources    DustCloud,-48286.0,-52926.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-37.5,2048     ,     ?
+Resources    DustCloud,-62927.0,-38285.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-52.5,2048     ,     ?
+Resources    DustCloud,-73280.0,-20353.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-67.5,2048     ,     ?
+Resources    DustCloud,-78639.0,-0352.0,0.0,Cylinder,Dust.dist,3,4500.0,20885.0,0.0,-82.5,2048     ,     ?
+
+;60 tilt
+Resources    DustCloud,5177.0,-68637.0,8967.0,Cylinder,Dust.dist,3,4500.0,20885.0,-59.2,14.8,2048     ,     ?
+Resources    DustCloud,15177.0,-63278.0,26287.0,Cylinder,Dust.dist,3,4500.0,20885.0,-53.1,39.6,2048     ,     ?
+Resources    DustCloud,24144.0,-52926.0,41819.0,Cylinder,Dust.dist,3,4500.0,20885.0,-43.4,56.9,2048     ,     ?
+Resources    DustCloud,31465.0,-38285.0,54499.0,Cylinder,Dust.dist,3,4500.0,20885.0,-31.8,69.0,2048     ,     ?
+Resources    DustCloud,36641.0,-20353.0,63464.0,Cylinder,Dust.dist,3,4500.0,20885.0,-19.4,78.3,2048     ,     ?
+Resources    DustCloud,39321.0,-0352.0,68106.0,Cylinder,Dust.dist,3,4500.0,20885.0,-6.5,86.2,2048     ,     ?
+
+Resources    DustCloud,-5177.0,68637.0,-8967.0,Cylinder,Dust.dist,3,4500.0,20885.0,-59.2,14.8,2048     ,     ?
+Resources    DustCloud,-15177.0,63278.0,-26287.0,Cylinder,Dust.dist,3,4500.0,20885.0,-53.1,39.6,2048     ,     ?
+Resources    DustCloud,-24144.0,52926.0,-41819.0,Cylinder,Dust.dist,3,4500.0,20885.0,-43.4,56.9,2048     ,     ?
+Resources    DustCloud,-31465.0,38285.0,-54499.0,Cylinder,Dust.dist,3,4500.0,20885.0,-31.8,69.0,2048     ,     ?
+Resources    DustCloud,-36641.0,20353.0,-63464.0,Cylinder,Dust.dist,3,4500.0,20885.0,-19.4,78.3,2048     ,     ?
+Resources    DustCloud,-39321.0,0352.0,-68106.0,Cylinder,Dust.dist,3,4500.0,20885.0,-6.5,86.2,2048     ,     ?
+
+;120 tilt
+Resources    DustCloud,-5176.0,68637.0,8965.0,Cylinder,Dust.dist,3,4500.0,20885.0,59.2,7.5,2048     ,     ?
+Resources    DustCloud,-15177.0,63278.0,26287.0,Cylinder,Dust.dist,3,4500.0,20885.0,53.1,22.5,2048     ,     ?
+Resources    DustCloud,-24143.0,52926.0,41817.0,Cylinder,Dust.dist,3,4500.0,20885.0,43.4,37.5,2048     ,     ?
+Resources    DustCloud,-31464.0,38285.0,54497.0,Cylinder,Dust.dist,3,4500.0,20885.0,31.8,52.5,2048     ,     ?
+Resources    DustCloud,-36641.0,20353.0,63464.0,Cylinder,Dust.dist,3,4500.0,20885.0,19.4,67.5,2048     ,     ?
+Resources    DustCloud,-39320.0,0352.0,68104.0,Cylinder,Dust.dist,3,4500.0,20885.0,6.5,82.5,2048     ,     ?
+
+Resources    DustCloud,5176.0,-68637.0,-8965.0,Cylinder,Dust.dist,3,4500.0,20885.0,59.2,7.5,2048     ,     ?
+Resources    DustCloud,15177.0,-63278.0,-26287.0,Cylinder,Dust.dist,3,4500.0,20885.0,53.1,22.5,2048     ,     ?
+Resources    DustCloud,24143.0,-52926.0,-41817.0,Cylinder,Dust.dist,3,4500.0,20885.0,43.4,37.5,2048     ,     ?
+Resources    DustCloud,31464.0,-38285.0,-54497.0,Cylinder,Dust.dist,3,4500.0,20885.0,31.8,52.5,2048     ,     ?
+Resources    DustCloud,36641.0,-20353.0,-63464.0,Cylinder,Dust.dist,3,4500.0,20885.0,19.4,67.5,2048     ,     ?
+Resources    DustCloud,39320.0,-0352.0,-68104.0,Cylinder,Dust.dist,3,4500.0,20885.0,6.5,82.5,2048     ,     ?
+
+;IF YOU READ THIS FAR YOU MAY NEED HELP WITH MAP-MAKING ADDICTION!

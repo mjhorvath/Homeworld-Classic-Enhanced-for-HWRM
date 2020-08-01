@@ -1,0 +1,27 @@
+; MissionMan script, Monday, Jun 19 2000, 12:34:19 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R2,Mothership
+
+Ships     ,67698.0,0.0,0.0,180.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,60640.0,50.0,0.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60375.0,-3025.0,0.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60775.0,3015.0,0.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60605.0,1435.0,0.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60545.0,-1315.0,0.0,-3.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60235.0,335.0,1950.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,58715.0,205.0,1100.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60305.0,3095.0,1950.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60245.0,1685.0,1950.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60175.0,-2645.0,1950.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,60175.0,-925.0,1950.0,0.0,R2,HeavyCruiser,1,NULL_FORMATION|?|?,0,?
+Ships     ,65120.0,2360.0,270.0,-3.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66065.0,-175.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66175.0,-875.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66095.0,-2685.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66085.0,-2105.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66175.0,515.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66315.0,985.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66495.0,1655.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,66075.0,-1505.0,0.0,180.0,R1,StandardDestroyer,1,NULL_FORMATION|?|?,0,?
+Ships     ,72955.0,-95.0,-380.0,180.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+

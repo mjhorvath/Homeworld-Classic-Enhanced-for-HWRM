@@ -1,0 +1,13 @@
+Description         DOES NOT WORK YET !!!!!!!!!!!!
+Description         
+Description         This is the very first Custom map for Homeworld Cataclysm
+Description
+Description         This map makes for a very intense fight for the ru's, good for ffa or team play.
+Description         
+Description         AUTHOR: Gen_DP_medamanx
+Description         WEBSITE: www.strategyplanet.com/hwshots		
+
+Font            Arial_b12.hff
+Color           255, 200, 0
+DropShadow      Yes
+

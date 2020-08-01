@@ -1,0 +1,11 @@
+Description     OK Corral - for 2, 4, 6 or 8 players.
+Description	The ultimate team showdown at high noon. 
+Description	AUTHOR	: Concept by Mazerguru map by Beltemall (dwillia552@aol.com)
+Description	UPDATED : DevestatorBiB, Increased to 8 Players
+Description	VERSION	: 2.0 (28 May 2001)
+
+
+Font            Arial_b12.hff
+Color           200, 100, 200
+DropShadow      Yes
+

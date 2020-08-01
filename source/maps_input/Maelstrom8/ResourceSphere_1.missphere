@@ -1,0 +1,351 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:34 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;gates
+Slipgate    ,-116602.0,50000.0,76000.0,1/2,-120.0,dSlipgateMedium
+Slipgate    ,38890.0,-38890.0,-60000.0,2/2,-120.0,dSlipgateMedium
+
+Slipgate    ,116602.0,-50000.0,76000.0,1/2,60.0,dSlipgateMedium
+Slipgate    ,-38890.0,38890.0,-60000.0,2/2,60.0,dSlipgateMedium
+
+Slipgate    ,50000.0,116602.0,76000.0,1/2,150.0,dSlipgateMedium
+Slipgate    ,-38890.0,-38890.0,-60000.0,2/2,150.0,dSlipgateMedium
+
+Slipgate    ,-50000.0,-116602.0,76000.0,1/2,-30.0,dSlipgateMedium
+Slipgate    ,38890.0,38890.0,-60000.0,2/2,-30.0,dSlipgateMedium
+
+Slipgate    ,38890.0,38890.0,60000.0,1/2,120.0,dSlipgateMedium
+Slipgate    ,-116602.0,-50000.0,-76000.0,2/2,120.0,dSlipgateMedium
+
+Slipgate    ,-38890.0,38890.0,60000.0,1/2,-150.0,dSlipgateMedium
+Slipgate    ,50000.0,-116602.0,-76000.0,2/2,-150.0,dSlipgateMedium
+
+Slipgate    ,-38890.0,-38890.0,60000.0,1/2,-60.0,dSlipgateMedium
+Slipgate    ,116602.0,50000.0,-76000.0,2/2,-60.0,dSlipgateMedium
+
+Slipgate    ,38890.0,-38890.0,60000.0,1/2,30.0,dSlipgateMedium
+Slipgate    ,-50000.0,116602.0,-76000.0,2/2,30.0,dSlipgateMedium
+
+
+
+;outer arms upstairs
+;shift horiz -30k
+Resources    Asteroid,70000.0,0.0,66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,90.0,0,?
+Resources    Asteroid,66592.0,25882.0,67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,105.0,0,?
+Resources    Asteroid,56602.0,50000.0,68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,120.0,0,?
+Resources    Asteroid,40711.0,70711.0,69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,135.0,0,?
+Resources    Asteroid,20000.0,86602.0,70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,150.0,0,?
+Resources    Asteroid,-4118.0,96592.0,71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,165.0,0,?
+Ships     ,-5118.0,96592.0,72000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-30000.0,100000.0,72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,180.0,0,?
+Resources    Asteroid,-55882.0,96592.0,73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-165.0,0,?
+Resources    Asteroid,-80000.0,86602.0,74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-150.0,0,?
+Resources    Asteroid,-100711.0,70711.0,75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-135.0,0,?
+Resources    Asteroid,-116602.0,50000.0,76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-120.0,0,?
+Resources    Asteroid,-126592.0,25882.0,77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,75.0,0,?
+
+;shift horiz 30k
+Resources    Asteroid,-70000.0,0.0,66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-90.0,0,?
+Resources    Asteroid,-66592.0,-25882.0,67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-75.0,0,?
+Resources    Asteroid,-56602.0,-50000.0,68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-60.0,0,?
+Resources    Asteroid,-40711.0,-70711.0,69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-45.0,0,?
+Resources    Asteroid,-20000.0,-86602.0,70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-30.0,0,?
+Resources    Asteroid,4118.0,-96592.0,71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-15.0,0,?
+Resources    Asteroid,30000.0,-100000.0,72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,0.0,0,?
+Ships     ,31000.0,-101000.0,72000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,55882.0,-96592.0,73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,15.0,0,?
+Resources    Asteroid,80000.0,-86602.0,74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,30.0,0,?
+Resources    Asteroid,100711.0,-70711.0,75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,45.0,0,?
+Resources    Asteroid,116602.0,-50000.0,76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,60.0,0,?
+Resources    Asteroid,126592.0,-25882.0,77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,75.0,0,?
+
+;shift vert 30k
+Resources    Asteroid,0.0,-70000.0,66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,0.0,0,?
+Resources    Asteroid,25882.0,-66592.0,67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,15.0,0,?
+Resources    Asteroid,50000.0,-56602.0,68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,30.0,0,?
+Resources    Asteroid,70711.0,-40711.0,69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,45.0,0,?
+Resources    Asteroid,86602.0,-20000.0,70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,60.0,0,?
+Resources    Asteroid,96592.0,4118.0,71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,75.0,0,?
+Ships     ,97592.0,4118.0,70000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,100000.0,30000.0,72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,90.0,0,?
+Resources    Asteroid,96592.0,55882.0,73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,105.0,0,?
+Resources    Asteroid,86602.0,80000.0,74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,120.0,0,?
+Resources    Asteroid,70711.0,100711.0,75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,135.0,0,?
+Resources    Asteroid,50000.0,116602.0,76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,150.0,0,?
+Resources    Asteroid,25882.0,126592.0,77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,165.0,0,?
+
+;shift vert -30k
+Resources    Asteroid,0.0,70000.0,66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,180.0,0,?
+Resources    Asteroid,-25882.0,66592.0,67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-165.0,0,?
+Resources    Asteroid,-50000.0,56602.0,68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-150.0,0,?
+Resources    Asteroid,-70711.0,40711.0,69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-135.0,0,?
+Resources    Asteroid,-86602.0,20000.0,70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-120.0,0,?
+Resources    Asteroid,-96592.0,-4118.0,71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-105.0,0,?
+Ships     ,-95592.0,-5118.0,71000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-100000.0,-30000.0,72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-90.0,0,?
+Resources    Asteroid,-96592.0,-55882.0,73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-75.0,0,?
+Resources    Asteroid,-86602.0,-80000.0,74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-60.0,0,?
+Resources    Asteroid,-70711.0,-100711.0,75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-45.0,0,?
+Resources    Asteroid,-50000.0,-116602.0,76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-30.0,0,?
+Resources    Asteroid,-25882.0,-126592.0,77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,-15.0,0,?
+
+
+;core
+Resources    DustCloud,0.0,0.0,0.0,Cylinder,Dust.dist,100,25000.0,126000.0,90.0,0.0,2048,?
+MeteorStorm	,0.0,0.0,0.0,Cylinder,Meteor.dist,50,20000.0,300000.0,90.0,0.0,0,300,0,0
+
+;core helices
+
+;65k ring
+Resources    Asteroid,16825.0,62785.0,65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,0.0,150.0,0,?
+Ships     ,16825.0,61785.0,66000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-62785.0,16825.0,65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,0.0,-120.0,0,?
+Ships     ,-61785.0,16825.0,66000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-16825.0,-62785.0,65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,-30.0,0,?
+Ships     ,-15825.0,-62785.0,66000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,62785.0,-16825.0,65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,0.0,60.0,0,?
+Ships     ,63785.0,-16825.0,64000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+;60k ring
+Resources    Asteroid,30000.0,51961.0,62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-15.0,135.0,0,?
+Resources    Asteroid,-51961.0,30000.0,62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-15.0,-135.0,0,?
+Resources    Asteroid,-30000.0,-51961.0,62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-15.0,-45.0,0,?
+Resources    Asteroid,51961.0,-30000.0,62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-15.0,45.0,0,?
+
+;55k ring
+Resources    Asteroid,38890.0,38890.0,60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,120.0,0,?
+Resources    Asteroid,-38890.0,38890.0,60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,-150.0,0,?
+Resources    Asteroid,-38890.0,-38890.0,60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,-60.0,0,?
+Resources    Asteroid,38890.0,-38890.0,60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,30.0,0,?
+
+;50k ring
+Resources    Asteroid,43301.0,25000.0,55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,105.0,0,?
+Ships     ,42301.0,26000.0,56000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-25000.0,43301.0,55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,-165.0,0,?
+Resources    Asteroid,-43301.0,-25000.0,55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,-75.0,0,?
+Resources    Asteroid,25000.0,-43301.0,55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,15.0,0,?
+
+;45k ring
+Resources    Asteroid,43466.0,11646.0,50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,90.0,0,?
+Resources    Asteroid,-11646.0,43466.0,50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,-180.0,0,?
+Resources    Asteroid,-43466.0,-11646.0,50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,-90.0,0,?
+Ships     ,-42466.0,-12646.0,50000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,11646.0,-43466.0,50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,0.0,0,?
+
+;42.5k ring
+Resources    Asteroid,42500.0,0.0,45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,75.0,0,?
+Resources    Asteroid,0.0,42500.0,45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,165.0,0,?
+Resources    Asteroid,-42500.0,0.0,45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,-105.0,0,?
+Resources    Asteroid,0.0,-42500.0,45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,-15.0,0,?
+
+;40k ring
+Resources    Asteroid,10352.0,38637.0,40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,157.0,0,?
+Resources    Asteroid,-38637.0,10352.0,40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,-112.0,0,?
+Resources    Asteroid,-10352.0,-38637.0,40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,-22.0,0,?
+Resources    Asteroid,38637.0,-10352.0,40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,67.0,0,?
+
+;37.5k ring
+Resources    Asteroid,18750.0,32476.0,35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,150.0,0,?
+Ships     ,17750.0,31476.0,35000.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-32476.0,18750.0,35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,-120.0,0,?
+Resources    Asteroid,-18750.0,-32476.0,35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,-30.0,0,?
+Resources    Asteroid,32476.0,-18750.0,35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,60.0,0,?
+
+;35k ring
+Resources    Asteroid,24749.0,24749.0,30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,135.0,0,?
+Resources    Asteroid,-24749.0,24749.0,30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,-135.0,0,?
+Ships     ,-24749.0,23749.0,31000.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-24749.0,-24749.0,30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,-45.0,0,?
+Resources    Asteroid,24749.0,-24749.0,30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,45.0,0,?
+
+;32.5k ring
+Resources    Asteroid,28146.0,16250.0,25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,120.0,0,?
+Resources    Asteroid,-16250.0,28146.0,25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,-150.0,0,?
+Resources    Asteroid,-28146.0,-16250.0,25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,-60.0,0,?
+Resources    Asteroid,16250.0,-28146.0,25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,30.0,0,?
+
+;30k ring
+Resources    Asteroid,28978.0,7765.0,20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,105.0,0,?
+Resources    Asteroid,-7765.0,28978.0,20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,-165.0,0,?
+Resources    Asteroid,-28978.0,-7765.0,20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,-75.0,0,?
+Ships     ,-29978.0,-7765.0,20000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,7765.0,-28978.0,20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,15.0,0,?
+
+;28.5k ring
+Resources    Asteroid,28500.0,0.0,15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,90.0,0,?
+Resources    Asteroid,0.0,28500.0,15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,180.0,0,?
+Resources    Asteroid,-28500.0,0.0,15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,-90.0,0,?
+Resources    Asteroid,0.0,-28500.0,15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,0.0,0,?
+
+;27k ring
+Resources    Asteroid,6988.0,26080.0,10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,165.0,0,?
+Resources    Asteroid,-26080.0,6988.0,10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,-105.0,0,?
+Ships     ,-26080.0,7988.0,10000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-6988.0,-26080.0,10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,-15.0,0,?
+Resources    Asteroid,26080.0,-6988.0,10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,75.0,0,?
+
+;26k ring
+Resources    Asteroid,13000.0,22517.0,5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,150.0,0,?
+Ships     ,14000.0,22517.0,5000.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-22517.0,13000.0,5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,-120.0,0,?
+Resources    Asteroid,-13000.0,-22517.0,5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,-30.0,0,?
+Resources    Asteroid,22517.0,-13000.0,5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,60.0,0,?
+
+;26k ring ctr
+Resources    Asteroid,18385.0,18385.0,0.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,135.0,0,?
+Resources    Asteroid,-18385.0,18385.0,0.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,-135.0,0,?
+Resources    Asteroid,-18385.0,-18385.0,0.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,-45.0,0,?
+Resources    Asteroid,18385.0,-18385.0,0.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,45.0,0,?
+
+;>26k ring 
+Resources    Asteroid,22517.0,13000.0,-5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,120.0,0,?
+Resources    Asteroid,-13000.0,22517.0,-5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,-150.0,0,?
+Ships     ,-13000.0,21517.0,-5000.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-22517.0,-13000.0,-5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,-60.0,0,?
+Resources    Asteroid,13000.0,-22517.0,-5000.0,Cylinder,Tiny.dist,5,2500.0,7523.0,-30.0,30.0,0,?
+
+;>27k ring
+Resources    Asteroid,26080.0,6988.0,-10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,105.0,0,?
+Resources    Asteroid,-6988.0,26080.0,-10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,-165.0,0,?
+Resources    Asteroid,-26080.0,-6988.0,-10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,-75.0,0,?
+Resources    Asteroid,6988.0,-26080.0,-10000.0,Cylinder,Tiny.dist,5,2500.0,7813.0,-30.0,15.0,0,?
+Ships     ,7988.0,-25080.0,-10000.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+;>28.5k ring
+Resources    Asteroid,28500.0,0.0,-15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,90.0,0,?
+Resources    Asteroid,0.0,28500.0,-15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,-180.0,0,?
+Resources    Asteroid,-28500.0,0.0,-15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,-90.0,0,?
+Resources    Asteroid,0.0,-28500.0,-15000.0,Cylinder,Tiny.dist,5,2500.0,8246.0,-30.0,0.0,0,?
+
+;>30k ring
+Resources    Asteroid,7765.0,28978.0,-20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,165.0,0,?
+Resources    Asteroid,-28978.0,7765.0,-20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,-105.0,0,?
+Resources    Asteroid,-7765.0,-28978.0,-20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,-15.0,0,?
+Resources    Asteroid,28978.0,-7765.0,-20000.0,Cylinder,Tiny.dist,5,2500.0,8681.0,-30.0,75.0,0,?
+
+;>32.5k ring
+Resources    Asteroid,16250.0,28146.0,-25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,150.0,0,?
+Resources    Asteroid,-28146.0,16250.0,-25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,-120.0,0,?
+Resources    Asteroid,-16250.0,-28146.0,-25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,-30.0,0,?
+Ships     ,-17250.0,-28146.0,-25000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,28146.0,-16250.0,-25000.0,Cylinder,Tiny.dist,5,2500.0,9405.0,-30.0,60.0,0,?
+
+;>35k ring
+Resources    Asteroid,24749.0,24749.0,-30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,135.0,0,?
+Resources    Asteroid,-24749.0,24749.0,-30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,-135.0,0,?
+Resources    Asteroid,-24749.0,-24749.0,-30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,-45.0,0,?
+Resources    Asteroid,24749.0,-24749.0,-30000.0,Cylinder,Tiny.dist,5,2500.0,10128.0,-30.0,45.0,0,?
+
+;>37.5k ring
+Resources    Asteroid,32476.0,18750.0,-35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,120.0,0,?
+Ships     ,32476.0,19750.0,-34000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-18750.0,32476.0,-35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,-150.0,0,?
+Resources    Asteroid,-32476.0,-18750.0,-35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,-60.0,0,?
+Resources    Asteroid,18750.0,-32476.0,-35000.0,Cylinder,Tiny.dist,5,2500.0,10851.0,-30.0,30.0,0,?
+
+;>40k ring
+Resources    Asteroid,38637.0,10352.0,-40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,105.0,0,?
+Resources    Asteroid,-10352.0,38637.0,-40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,-165.0,0,?
+Resources    Asteroid,-38637.0,-10352.0,-40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,-75.0,0,?
+Resources    Asteroid,10352.0,-38637.0,-40000.0,Cylinder,Tiny.dist,5,2500.0,11574.0,-30.0,15.0,0,?
+
+;>42.5k ring
+Resources    Asteroid,42500.0,0.0,-45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,98.0,0,?
+Resources    Asteroid,0.0,42500.0,-45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,-172.0,0,?
+Resources    Asteroid,-42500.0,0.0,-45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,-82.0,0,?
+Ships     ,-43500.0,0.0,-46000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,0.0,-42500.0,-45000.0,Cylinder,Tiny.dist,5,2500.0,12298.0,-30.0,8.0,0,?
+
+;>45k ring
+Resources    Asteroid,11646.0,43466.0,-50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,180.0,0,?
+Ships     ,12646.0,43466.0,-51000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-43466.0,11646.0,-50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,-90.0,0,?
+Resources    Asteroid,-11646.0,-43466.0,-50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,0.0,0,?
+Resources    Asteroid,43466.0,-11646.0,-50000.0,Cylinder,Tiny.dist,5,2500.0,13020.0,-30.0,90.0,0,?
+
+;>50k ring
+Resources    Asteroid,25000.0,43301.0,-55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,165.0,0,?
+Resources    Asteroid,-43301.0,25000.0,-55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,-105.0,0,?
+Resources    Asteroid,-25000.0,-43301.0,-55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,-15.0,0,?
+Resources    Asteroid,43301.0,-25000.0,-55000.0,Cylinder,Tiny.dist,5,2500.0,14467.0,-30.0,75.0,0,?
+
+;>55k ring
+Resources    Asteroid,38890.0,38890.0,-60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,150.0,0,?
+Resources    Asteroid,-38890.0,38890.0,-60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,-120.0,0,?
+Resources    Asteroid,-38890.0,-38890.0,-60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,-30.0,0,?
+Resources    Asteroid,38890.0,-38890.0,-60000.0,Cylinder,Tiny.dist,7,2500.0,15915.0,-30.0,60.0,0,?
+
+;>60k ring
+Resources    Asteroid,51961.0,30000.0,-62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-15.0,135.0,0,?
+Resources    Asteroid,-30000.0,51961.0,-62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-15.0,-135.0,0,?
+Resources    Asteroid,-51961.0,-30000.0,-62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-30.0,-45.0,0,?
+Resources    Asteroid,30000.0,-51961.0,-62500.0,Cylinder,Tiny.dist,7,2500.0,17361.0,-15.0,45.0,0,?
+
+;>65k ring
+Resources    Asteroid,62785.0,16825.0,-65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,0.0,120.0,0,?
+Ships     ,61785.0,16825.0,-65000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-16825.0,62785.0,-65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,0.0,-150.0,0,?
+Ships     ,-17825.0,62785.0,-63000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-62785.0,-16825.0,-65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,0.0,-60.0,0,?
+Ships     ,-61785.0,-16825.0,-65000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,16825.0,-62785.0,-65000.0,Cylinder,Tiny.dist,7,3000.0,16825.0,0.0,30.0,0,?
+Ships     ,16825.0,-63785.0,-64000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+;outer arms downstairs
+;shift horiz -30k
+Resources    Asteroid,70000.0,0.0,-66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,90.0,0,?
+Resources    Asteroid,66592.0,-25882.0,-67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,75.0,0,?
+Resources    Asteroid,56602.0,-50000.0,-68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,60.0,0,?
+Resources    Asteroid,40711.0,-70711.0,-69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,45.0,0,?
+Resources    Asteroid,20000.0,-86602.0,-70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,30.0,0,?
+Ships     ,21000.0,-87602.0,-70000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-4118.0,-96592.0,-71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,15.0,0,?
+Resources    Asteroid,-30000.0,-100000.0,-72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,0.0,0,?
+Resources    Asteroid,-55882.0,-96592.0,-73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,165.0,0,?
+Resources    Asteroid,-80000.0,-86602.0,-74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,150.0,0,?
+Resources    Asteroid,-100711.0,-70711.0,-75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,135.0,0,?
+Resources    Asteroid,-116602.0,-50000.0,-76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,120.0,0,?
+Resources    Asteroid,-126592.0,-25882.0,-77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,105.0,0,?
+;shift horiz 30k
+Resources    Asteroid,-70000.0,0.0,-66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,90.0,0,?
+Resources    Asteroid,-66592.0,25882.0,-67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,75.0,0,?
+Resources    Asteroid,-56602.0,50000.0,-68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,60.0,0,?
+Resources    Asteroid,-40711.0,70711.0,-69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,45.0,0,?
+Resources    Asteroid,-20000.0,86602.0,-70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,30.0,0,?
+Ships     ,-21000.0,86602.0,-71000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,4118.0,96592.0,-71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,15.0,0,?
+Resources    Asteroid,30000.0,100000.0,-72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,0.0,0,?
+Resources    Asteroid,55882.0,96592.0,-73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-15.0,0,?
+Resources    Asteroid,80000.0,86602.0,-74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-30.0,0,?
+Resources    Asteroid,100711.0,70711.0,-75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-45.0,0,?
+Resources    Asteroid,116602.0,50000.0,-76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-60.0,0,?
+Resources    Asteroid,126592.0,25882.0,-77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,-75.0,0,?
+;shift vert 30k
+Resources    Asteroid,0.0,-70000.0,-66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,0.0,0,?
+Resources    Asteroid,-25882.0,-66592.0,-67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,165.0,0,?
+Resources    Asteroid,-50000.0,-56602.0,-68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,150.0,0,?
+Resources    Asteroid,-70711.0,-40711.0,-69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,135.0,0,?
+Resources    Asteroid,-86602.0,-20000.0,-70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,120.0,0,?
+Ships     ,-85602.0,-19000.0,-70000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,-96592.0,4118.0,-71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,105.0,0,?
+Resources    Asteroid,-100000.0,30000.0,-72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,90.0,0,?
+Resources    Asteroid,-96592.0,55882.0,-73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,75.0,0,?
+Resources    Asteroid,-86602.0,80000.0,-74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,60.0,0,?
+Resources    Asteroid,-70711.0,100711.0,-75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,45.0,0,?
+Resources    Asteroid,-50000.0,116602.0,-76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,30.0,0,?
+Resources    Asteroid,-25882.0,126592.0,-77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,15.0,0,?
+;shift vert -30k
+Resources    Asteroid,0.0,70000.0,-66000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,0.0,0,?
+Resources    Asteroid,25882.0,66592.0,-67000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-15.0,0,?
+Resources    Asteroid,50000.0,56602.0,-68000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-30.0,0,?
+Resources    Asteroid,70711.0,40711.0,-69000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-45.0,0,?
+Resources    Asteroid,86602.0,20000.0,-70000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-60.0,0,?
+Resources    Asteroid,96592.0,-4118.0,-71000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-75.0,0,?
+Ships     ,95592.0,-4118.0,-70000.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Resources    Asteroid,100000.0,-30000.0,-72000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-90.0,0,?
+Resources    Asteroid,96592.0,-55882.0,-73000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-105.0,0,?
+Resources    Asteroid,86602.0,-80000.0,-74000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-120.0,0,?
+Resources    Asteroid,70711.0,-100711.0,-75000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-135.0,0,?
+Resources    Asteroid,50000.0,-116602.0,-76000.0,Cylinder,Tiny.dist,8,3000.0,25882.0,0.0,-150.0,0,?
+Resources    Asteroid,25882.0,-126592.0,-77000.0,Cylinder,Asteroid.dist,30,10000.0,25882.0,0.0,-165.0,0,?

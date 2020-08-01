@@ -1,8 +1,0 @@
-Description     War of the Ring2 2 - 6
-Description	two research, collector, 1 controller
-Description	AUTHOR:	Beltemall(DWillia552@aol.com) 1v1 by Farscape Æ
-Description	VERSION: 1.2.2 (24 JUL 2002)
-Font            Arial_b12.hff
-Color           200, 100, 200
-DropShadow      Yes
-

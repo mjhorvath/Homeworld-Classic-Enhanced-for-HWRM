@@ -1,0 +1,67 @@
+[Probe]
+
+;Source Files
+;=----------=
+LODFile                             Probe.lod
+pMexData                            Probe\Rl0\LOD0\Probe.mex
+
+;Ship Physics
+;=----------=
+mass                                0.01                           ; ship mass [fighter = 1]
+momentOfInertiaX                    0.01                           ; resistance to rotation
+momentOfInertiaY                    0.01                           ; [fighter = 1]
+momentOfInertiaZ                    0.01
+maxvelocity                         1000.0                         ; max velocity when flying normally.  See below
+                                                                   ; ProbeDispatchMaxVelocity for speed when dispatched
+
+maxrot                              10.0                          ; maximum rotation speed [don't make faster than ~10]
+
+;Basic Ship Stats
+;=--------------=
+shipclass                           CLASS_NonCombat
+buildCost                           5                           ; resource units to build
+buildTime                           2                             ; time in seconds to build
+maxhealth                           20                           ; hit points
+groupSize                           5                             ; size of group ships of this type tend to form
+
+blastRadiusDamage                   8
+
+;Moving Around
+;=-----------=
+thruststrength[TRANS_UP]           1000.0                         ; acceleration (m/s^2) [1-1000 approx. range]
+thruststrength[TRANS_DOWN]         1000.0
+thruststrength[TRANS_RIGHT]        1000.0
+thruststrength[TRANS_LEFT]         1000.0
+thruststrength[TRANS_FORWARD]      1000.0
+thruststrength[TRANS_BACK]         500.0
+rotstrength[ROT_YAWLEFT]           100.0                          ; rotational acceleration (deg/s^2) [0.01 - 10]
+rotstrength[ROT_YAWRIGHT]          100.0
+rotstrength[ROT_PITCHUP]           100.0
+rotstrength[ROT_PITCHDOWN]         100.0
+rotstrength[ROT_ROLLRIGHT]         100.0
+rotstrength[ROT_ROLLLEFT]          100.0
+turnspeed[TURN_YAW]                  2.5                          ; speed at which ship tries to turn (1=standard)
+turnspeed[TURN_PITCH]                2.5
+turnspeed[TURN_ROLL]                 2.5
+
+
+;Weapons
+;=-----=
+;No weapons
+
+;Explosions
+;=--------=
+explosionType                       ET_InterceptorExplosion
+
+;Scaling effects
+;=--------=
+N-LIPS                              0.003                   ; Max value for Interceptors 0.0005
+scaleFactor                         1.0                      ; Used for debugging
+
+;Probe Special Info
+;=--------=
+ProbeDispatchMaxVelocity            10000.0      ; max velocity of probe when dispatched
+
+minimumZoomDistance                 1
+
+Overlay_Selection_Scalar            0.35         ; scale the tactical overlay by this amount

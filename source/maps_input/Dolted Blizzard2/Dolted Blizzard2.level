@@ -1,0 +1,33 @@
+; MissionMan script, Thursday, Jan 26 2006, 10:31:06 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Dolted Blizzard2
+; Info: Dolted Blizzard (2,4,6,or8)
+
+[Dolted Blizzard (2,4,6,or8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+Lighting    ez06
+Background    ez06,180,  0
+smDepthCueRadius    60000
+smDepthCueStartRadius    30000
+smCircleBorder    100000
+smZoomMax    200000
+smZoomMin    20000
+smInitialDistance    95000
+smUniverseSizeX    200000
+smUniverseSizeZ    60000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    22

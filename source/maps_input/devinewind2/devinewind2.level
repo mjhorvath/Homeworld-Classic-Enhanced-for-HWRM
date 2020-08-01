@@ -1,0 +1,44 @@
+; MissionMan script, Monday, Sep 18 2000, 2:11:29 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: devinewind2
+; Info: DEVINE WIND (2)
+
+[DEVINE WIND (2)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,30000.0,0.0,Resource.missphere,1000
+MissionSphere    0,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,2500
+MissionSphere    1,RACE_SECT,sMothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_1.missphere,2500
+
+Lighting    HIGH_ORBIT.HSF
+Background    HIGH_ORBIT.BTG
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    120000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    60000
+smUniverseSizeX    50000
+smUniverseSizeZ    45000
+smUniverseSizeY    50000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,All
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+IncludeShips    RACE_DERELICT,dJunk1PartA
+IncludeShips    RACE_DERELICT,dJunk1Shell
+IncludeShips    RACE_DERELICT,dJunk2Shipwreck
+IncludeShips    RACE_DERELICT,dJunk1Strut
+IncludeShips    RACE_DERELICT,dJunk3BoilerCasing
+IncludeShips    RACE_DERELICT,dJunk3Boiler
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips    RACE_DERELICT,dSlipgateLarge
+IncludeShips    RACE_DERELICT,dSlipgateMedium
+IncludeShips    RACE_DERELICT,dSlipgateSmall
+IncludeShips    RACE_TAIDAN,tIonCannonFrigate
+IncludeShips    RACE_TAIDAN,tResourceCollector
+IncludeShips    RACE_TAIDAN,tStandardFrigate
+IncludeShips    RACE_P1,p1IonArrayFrigate
+SongNumber    24
