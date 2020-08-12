@@ -1,6 +1,0 @@
-The technology is never certain; something can fail in any sophisticated system as, for example, that of Sailing. A simple sign change or the omission of a punctuation sign, any insignificant detail (perhaps a little mouse is electrocuted when gnawing a small cable, causin a little court in a circuit -because in all good ship it shoul have some bug stowaway, and not necessarily the friend of Tte. Ripley),
-it can behave to a diametrically opposed result to wich we await. What would happen if when carrying out a hyperjump trying to move away from the enemy routes we got exactly the opposite and did we trip of nose with an unexpected opponent? A thing is clear: we must fight. And them to try to continue our trip in the one that, inevitably, we will always meet with the enemy again.
-
-And... of course, the lovers of the mega-hives of sligh ships won't get angry with me this time, I suppose. although they will find difficult to get it; they will have the enemy too much near and he won't give me them time enough to build too much...  ^_^
-
-   

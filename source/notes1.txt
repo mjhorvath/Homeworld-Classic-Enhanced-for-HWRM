@@ -1,0 +1,109 @@
+research
+	remove research modules from build scripts and/or restrict them in gamerules
+		"Hgn_C_Module_Research"
+		"Hgn_MS_Module_Research"
+		"Hgn_C_Module_ResearchAdvanced"
+		"Hgn_MS_Module_ResearchAdvanced"
+	remove research modules from hardpoints in capital ship SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+	remove requirements for research modules from build scripts using duplicate items minus the requirements
+		"Hgn_C_Production_Corvette"
+		"Hgn_MS_Production_Corvette"
+		"Hgn_C_Production_Frigate"
+		"Hgn_MS_Production_Frigate"
+		"Hgn_C_Module_ResearchAdvanced"
+		"Hgn_MS_Module_ResearchAdvanced"
+		"Hgn_C_Module_Hyperspace"
+		"Hgn_MS_Module_Hyperspace"
+		"Hgn_C_Module_HyperspaceInhibitor"
+		"Hgn_MS_Module_HyperspaceInhibitor"
+		"Hgn_C_Module_CloakGenerator"
+		"Hgn_MS_Module_CloakGenerator"
+		"Hgn_C_Module_FireControl"
+		"Hgn_MS_Module_FireControl"
+	remove requirements for research modules from research scripts using duplicate items minus the requirements
+		most research items are affected
+	additional
+		grant all remaining research to players
+
+resources
+	remove collectors and controllers from build scripts and/or restrict them in gamerules
+		"Hgn_ResourceCollector"
+		"Hgn_ResourceController"
+	disable resource drop-off points in the SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+		"Hgn_ResourceController"
+	remove upgrades having to do with resource collection from research scripts and/or restrict them in gamerules
+		"ResourceCollectorHealthUpgrade1"
+		"ResourceControllerHealthUpgrade1"
+		
+hyperspace
+	remove research from the research scripts and/or restrict them in gamerules
+		"HyperspaceCostUpgrade1"
+		"HyperspaceCostUpgrade2"
+	remove modules from build scripts and/or restrict them in gamerules
+		"Hgn_C_Module_Hyperspace"
+		"Hgn_MS_Module_Hyperspace"
+		"Hgn_C_Module_HyperspaceInhibitor"
+		"Hgn_MS_Module_HyperspaceInhibitor"
+		"Hgn_C_Sensors_DetectHyperspace"
+		"Hgn_MS_Sensors_DetectHyperspace"
+	remove hyperspace modules in capital ship SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+		"Hgn_Battlecruiser"
+	remove hyperspace command/ability in capital ship, destroyer and frigate SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+		"Hgn_Battlecruiser"
+		frigates and destroyers too
+	additional
+		remove and/or restrict (vaygr) hyperspace gates from build and research scripts
+
+carrier only
+	remove capital ships (except carriers) from build scripts and/or restrict them in gamerules
+		"Hgn_Mothership"
+		"Hgn_Shipyard"
+		"Hgn_Battlecruiser"
+	remove subsystems having to do with capital ships (except carriers) from build scripts and/or restrict them in gamerules
+		"Hgn_MS_Production_CapShip"
+		"Hgn_SY_Production_CapShip"
+		"Hgn_MS_Module_PlatformControl"
+		"Hgn_MS_Module_Research"
+		"Hgn_MS_Module_ResearchAdvanced"
+		"Hgn_MS_Module_Hyperspace"
+		"Hgn_MS_Module_HyperspaceInhibitor"
+		"Hgn_MS_Module_CloakGenerator"
+		"Hgn_MS_Module_FireControl"
+		"Hgn_MS_Sensors_DetectHyperspace"
+		"Hgn_MS_Sensors_AdvancedArray"
+		"Hgn_MS_Sensors_DetectCloaked"
+		"Hgn_MS_Production_CorvetteMover"
+	remove research items having to do with capital ships (except carriers) from research scripts and/or restrict them in gamerules
+		"DestroyerTech"
+		"DestroyerHealthUpgrade1"
+		"DestroyerMAXSPEEDUpgrade1"
+		"BattlecruiserIonWeapons"
+		"BattlecruiserHealthUpgrade1"
+		"BattlecruiserMAXSPEEDUpgrade1"
+		"DestroyerHealthUpgrade1"
+		"DestroyerMAXSPEEDUpgrade1"
+		"MothershipHealthUpgrade1"
+		"MothershipMAXSPEEDUpgrade1"
+		"MothershipBUILDSPEEDUpgrade1"
+		"ShipyardHealthUpgrade1"
+		"ShipyardMAXSPEEDUpgrade1"
+		"ShipyardBUILDSPEEDUpgrade1"
+	additional
+		vaygr carriers require unique HOD and production subsystems when enabling this mode
+		need to create separate subsystems for shipyards and carriers so that I don't have to restrict carrier subsystems
+
+things that I can control outside of a SHIP file:
+	grant or restrict build or research
+	starting fleet files
