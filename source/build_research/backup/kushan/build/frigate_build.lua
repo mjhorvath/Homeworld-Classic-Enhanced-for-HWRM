@@ -1,0 +1,183 @@
+base_build = nil
+
+base_build =
+{
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_AssaultFrigate_hyp0",
+		RequiredResearch =		"CapitalShipChassis",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		51,
+		DisplayedName =			"$11024",
+		Description =			"$11025",
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_AssaultFrigate_hyp1",
+		RequiredResearch =		"CapitalShipChassis",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		51,
+		DisplayedName =			"$11024",
+		Description =			"$11025",
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_IonCannonFrigate_hyp0",
+		RequiredResearch =		"IonCannons",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		52,
+		DisplayedName =			"$11026",
+		Description =			"$11027",
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_IonCannonFrigate_hyp1",
+		RequiredResearch =		"IonCannons",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		52,
+		DisplayedName =			"$11026",
+		Description =			"$11027",
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_SupportFrigate_hyp0",
+		RequiredResearch =		"CapitalShipDrive",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		50,
+		DisplayedName =			"$11028",
+		Description =			"$11029",
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_SupportFrigate_hyp1",
+		RequiredResearch =		"CapitalShipDrive",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		50,
+		DisplayedName =			"$11028",
+		Description =			"$11029",
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_DroneFrigate_hyp0",
+		RequiredResearch =		"DroneTechnology",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		53,
+		DisplayedName =			"$11030",
+		Description =			"$11031",
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_DroneFrigate_hyp1",
+		RequiredResearch =		"DroneTechnology",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		53,
+		DisplayedName =			"$11030",
+		Description =			"$11031",
+	},
+--Drones
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone0",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone1",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone2",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone3",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone4",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone5",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone6",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone7",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone8",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone9",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone10",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone11",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone12",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+	{
+		Type =					Ship,
+		ThingToBuild =			"Kus_Drone13",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"",
+		DisplayPriority =		100,		
+	},
+}
+
+for i, e in base_build do
+	build[bld_index] = e
+	bld_index = bld_index + 1
+end
+
+base_build = nil
