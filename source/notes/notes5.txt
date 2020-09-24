@@ -1,0 +1,61 @@
+Do these require research modules?
+	vgr_c_production_corvette_car0
+	vgr_c_production_corvette_car1
+	vgr_c_production_fighter_car0
+	vgr_c_production_fighter_car1
+
+Need to continually check and update these when adding or removing builds or researches
+	ai/default/classdef.lua
+	ship/icons/shipicons.lua
+	scripts/productiontimes/buildtimes.lua
+
+Core design issue
+	Should it still be possible to build a shipyard if hyperspace is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers.
+	Should I disable all capship production in "carrier only" mode? This may make the lack of a shipyard less of a big deal when hyperspace is turned off in the other modes.
+	Should vanilla builds and researches be allowed and disabled when not needed? Currently the vanilla researches are but the builds are not.
+
+Miscellaneous
+	Are base_research and res_index used for anything crucial? Can I safely get rid of them and simplify the scripts?
+	Currently I am getting errors such as "Cannot overwrite function HGN_RESOURCECOLLECTOR_ResourceStart_OnSet" and "Cannot overwrite function HGN_RESOURCECOLLECTOR_ResourceStart_OnPause". This is because there is more than one version of the resource collector, and all versions "share" the same base model. To eliminate the error we could check first if the function has already been declared before declaring it again.
+	There are also errors about the functions "ShowProductionSubsystems", "NoSalvageScuttle" and "UnderAttackReissueDock" which I don't know the origins of.
+	In the "MultiBuild" and "MultiResearch" functions in "techfunc.lua" I would like to parse the requirements statements for logical operators (& or |) and additional clauses. However, I discovered I cannot do much further here without the standard string library, which is unavailable.
+
+Things that I can control outside of a SHIP file
+	grant or restrict build or research via gamerule scripts
+	starting fleet files
+
+Problematic
+	In the SHIP folder
+		"hgn_carrier.lua" needs to check the number of motherships but only recognizes the name of one of the motherships instead of all 16
+
+Stupid pet tricks
+	Subsystem and research requirements
+		are the values for subsystem and research requirements case-sensistive?
+		are the values listed/stored in another file somewhere?
+		are they ever surrounded by parentheses?
+		does the white space separating values and operators ever vary?
+	Hgn res
+		default.lua
+			"instant" frigate tech applied to hgn_mothership and no TargetType
+			can I safely change the TargetType to be AllShips instead?
+			or should the default TargetType when absent always be Ship?
+		default.lua
+			item with TargetType AllShips and TargetName Hgn_fleet
+		hyperspace_upgrades.lua
+			two items with TargetType AllShips and TargetName Hgn_Mothership
+		ability_upgrades.lua
+			"DefenseFieldFrigateShield" tech applied to Hgn_DefenseFieldFrigate but no TargetType
+		ai_properties.lua
+			several items with no TargetType and blank TargetName
+		ai_properties.lua
+			several items with TargetType AllShips and no TargetName at all
+		shipyard_upgrades.lua
+			there are three types of shipyard and three properties to upgrade for each
+		most files
+			research modules are required to research most items
+	Hgn bld
+		mothership_builds.lua, carrier_builds.lua
+			some modules require research module before they can be built
+	Vgr res
+		capitalship_upgrades_buildspeed.lua
+			some research with hyperspace requirements

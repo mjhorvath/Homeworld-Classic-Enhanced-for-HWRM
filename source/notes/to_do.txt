@@ -1,0 +1,6 @@
+TO DO
+
+* Make sure all five asteroids have resource latch points.
+* Make sure that only the HW1C resources, clouds, etc. are being used, not the HW2C ones.
+* Make sure there are no stuck collectors attached to asteroids.
+* Make sure as many scripts and stats are adapted from the players patch as possible versus elsewhere.

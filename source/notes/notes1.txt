@@ -1,0 +1,182 @@
+research
+	restrict building of research modules in gamerules
+		"Hgn_C_Module_Research"
+		"Hgn_MS_Module_Research"
+		"Hgn_C_Module_ResearchAdvanced"
+		"Hgn_MS_Module_ResearchAdvanced"
+	remove research modules from hardpoints in SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+		"Hgn_Shipyard_Elohim"
+		"Hgn_Shipyard_SPG"
+	remove requirements for research modules from build scripts
+		"Hgn_C_Production_Corvette"
+		"Hgn_MS_Production_Corvette"
+		"Hgn_C_Production_Frigate"
+		"Hgn_MS_Production_Frigate"
+		"Hgn_C_Module_ResearchAdvanced"
+		"Hgn_MS_Module_ResearchAdvanced"
+		"Hgn_C_Module_Hyperspace"
+		"Hgn_MS_Module_Hyperspace"
+		"Hgn_C_Module_HyperspaceInhibitor"
+		"Hgn_MS_Module_HyperspaceInhibitor"
+		"Hgn_C_Module_CloakGenerator"
+		"Hgn_MS_Module_CloakGenerator"
+		"Hgn_C_Module_FireControl"
+		"Hgn_MS_Module_FireControl"
+	remove requirements for research modules from research scripts
+	or maybe this is unnecessary overkill?
+		"RepairAbility"
+		"ScoutPingAbility"
+		"ImprovedTorpedo"
+		"AttackBomberImprovedBombs"
+		"ScoutEMPAbility"
+		"DefenseFieldFrigateShield"
+		"BattlecruiserHealthUpgrade1"
+		"BattlecruiserMAXSPEEDUpgrade1"
+		"CarrierHealthUpgrade1"
+		"CarrierMAXSPEEDUpgrade1"
+		"CarrierBUILDSPEEDUpgrade1"
+		"AssaultCorvetteHealthUpgrade1"
+		"PulsarCorvetteHealthUpgrade1"
+		"AssaultCorvetteMAXSPEEDUpgrade1"
+		"PulsarCorvetteMAXSPEEDUpgrade1"
+		"InstaAdvancedFrigateTech"
+		"GraviticAttractionMines"
+		"PlatformIonWeapons"
+		"DestroyerTech"
+		"BattlecruiserIonWeapons"
+		"ECMProbe"
+		"SensDisProbe"
+		"DestroyerHealthUpgrade1"
+		"DestroyerMAXSPEEDUpgrade1"
+		"InterceptorMAXSPEEDUpgrade1"
+		"AttackBomberMAXSPEEDUpgrade1"
+		"TorpedoFrigateHealthUpgrade1"
+		"IonCannonFrigateHealthUpgrade1"
+		"AssaultFrigateHealthUpgrade1"
+		"TorpedoFrigateMAXSPEEDUpgrade1"
+		"IonCannonFrigateMAXSPEEDUpgrade1"
+		"AssaultFrigateMAXSPEEDUpgrade1"
+		"HyperspaceCostUpgrade1"
+		"HyperspaceCostUpgrade2"
+		"MothershipHealthUpgrade1"
+		"MothershipMAXSPEEDUpgrade1"
+		"MothershipBUILDSPEEDUpgrade1"
+		"GunTurretHealthUpgrade1"
+		"IonTurretHealthUpgrade1"
+		"ShipyardHealthUpgrade1"
+		"ShipyardMAXSPEEDUpgrade1"
+		"ShipyardBUILDSPEEDUpgrade1"
+		"ResourceCollectorHealthUpgrade1"
+		"ResourceControllerHealthUpgrade1"
+	do not remove requirements for other research from research items
+		"BattlecruiserHealthUpgrade1"
+		"BattlecruiserMAXSPEEDUpgrade1"
+		"DestroyerHealthUpgrade1"
+		"DestroyerMAXSPEEDUpgrade1"
+		"IonTurretHealthUpgrade1"
+	additional
+		as a result of the above, individual research may now target multiple ships or subsystems
+		for instance "ShipyardHealthUpgrade1" could target up to 48 different ships!
+		grant all remaining research to players
+
+resources
+	restrict building of collectors and controllers in gamerules
+		"Hgn_ResourceCollector"
+		"Hgn_ResourceController"
+	disable resource drop-off points in the SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+		"Hgn_ResourceController"
+	restrict upgrades having to do with resource collection in gamerules
+		"ResourceCollectorHealthUpgrade1"
+		"ResourceControllerHealthUpgrade1"
+		"RepairAbility"
+		
+hyperspace
+	restrict hyperspace research in gamerules
+		"HyperspaceCostUpgrade1"
+		"HyperspaceCostUpgrade2"
+	restrict building of hyperspace related modules in gamerules
+		"Hgn_C_Module_Hyperspace"
+		"Hgn_MS_Module_Hyperspace"
+		"Hgn_C_Module_HyperspaceInhibitor"
+		"Hgn_MS_Module_HyperspaceInhibitor"
+		"Hgn_C_Sensors_DetectHyperspace"
+		"Hgn_MS_Sensors_DetectHyperspace"
+	remove hyperspace related modules in capital ship SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+		"Hgn_Shipyard_SPG"
+		"Hgn_Shipyard_Elohim"
+		"Hgn_Battlecruiser"
+	remove hyperspace, hyperspace gate, and hyperspace inhibitor abilities in SHIP files
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+		"Hgn_Battlecruiser"
+		"Hgn_ResourceController"
+		frigates and destroyers too
+	additional
+		remove and/or restrict (vaygr) hyperspace gates from build and research scripts
+
+carrier only
+	restrict building of capital ships (except carriers) in gamerules
+		"Hgn_Mothership"
+		"Hgn_Shipyard"
+		"Hgn_Battlecruiser"
+	restrict building of subsystems having to do with capital ships (except carriers) in gamerules
+		"Hgn_MS_Production_CapShip"
+		"Hgn_SY_Production_CapShip"
+		"Hgn_MS_Module_PlatformControl"
+		"Hgn_MS_Module_Research"
+		"Hgn_MS_Module_ResearchAdvanced"
+		"Hgn_MS_Module_Hyperspace"
+		"Hgn_MS_Module_HyperspaceInhibitor"
+		"Hgn_MS_Module_CloakGenerator"
+		"Hgn_MS_Module_FireControl"
+		"Hgn_MS_Sensors_DetectHyperspace"
+		"Hgn_MS_Sensors_AdvancedArray"
+		"Hgn_MS_Sensors_DetectCloaked"
+		"Hgn_MS_Production_CorvetteMover"
+	remove subsystems/hardpoints having to do with capital ships (except carriers) from SHIP files
+		"Hgn_Mothership"
+		"Hgn_Shipyard"
+		"Hgn_Battlecruiser"
+		see list of subsystems above
+	remove Hiigaran advanced research module slots from capital ship SHIP files (including carriers)
+		"Hgn_Mothership"
+		"Hgn_Carrier"
+		"Hgn_Shipyard"
+	restrict research items having to do with capital ships (except carriers) in gamerules
+		"DestroyerTech"
+		"DestroyerHealthUpgrade1"
+		"DestroyerMAXSPEEDUpgrade1"
+		"BattlecruiserIonWeapons"
+		"BattlecruiserHealthUpgrade1"
+		"BattlecruiserMAXSPEEDUpgrade1"
+		"DestroyerHealthUpgrade1"
+		"DestroyerMAXSPEEDUpgrade1"
+		"MothershipHealthUpgrade1"
+		"MothershipMAXSPEEDUpgrade1"
+		"MothershipBUILDSPEEDUpgrade1"
+		"ShipyardHealthUpgrade1"
+		"ShipyardMAXSPEEDUpgrade1"
+		"ShipyardBUILDSPEEDUpgrade1"
+	additional
+		downgrade requirement for advanced research module to just the regular research module for the Hiigarans
+		disable the advanced research module slot in the Hiigaran carrier SHIP file
+		vaygr carriers require unique HOD and production subsystems when enabling this mode
+		need to create two separate subsystems for shipyards and carriers so that I don't have to restrict carrier subsystems when all I want to restrict are the shipyard subsystems
+	additional
+		Hiigaran carrier has a disadvantage in that it has to build two different research modules versus only one for the Vaygr carrier
+		it either needs another hardpoint just for the advanced module, or the requirement for the advanced research module should be removed from the list of research
+		the Vaygr carrier has a disadvantage in that it has only one production harpoint versus the three slots available to the Hiigaran carrier
+		the Vaygr carrier needs two additional production modules
+		but in case of crate award, we want these don't we?
+	additional
+		should a new "CapShipProduction" research for health, speed, etc. be created just to allow carriers in carrier-only mode to upgrade themselves? maybe "CarrierProduction"?

@@ -1,0 +1,23 @@
+Hgn_Battlecruiser
+	hyperspace - disable hyperspace module, hyperspace ability
+
+Hgn_Carrier
+	research - disable both research modules
+	resource - disable drop-off points
+	hyperspace - disable hyperspace module, hyperspace ability
+	carrieronly - disable advanced research module
+
+Hgn_Mothership
+	research - disable both research modules
+	resource - disable drop-off points
+	hyperspace - disable hyperspace module, hyperspace ability
+	carrieronly - maybe disable capship production, disable advanced research module for fairness
+
+Hgn_Shipyard
+	research - disable both research modules
+	resource - disable drop-off points
+	hyperspace - disable hyperspace module, hyperspace ability
+	carrieronly - maybe disable capship production, disable advanced research module for fairness
+
+All other Hgn ships
+	hyperspace - disable hyperspace and/or hyperspace gate abilities

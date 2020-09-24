@@ -1,0 +1,21 @@
+Example
+
+	{ 
+		Type =					SubSystem, 
+		ThingToBuild =			"Hgn_C_Module_CloakGenerator",
+		RequiredResearch =		"",
+		RequiredFleetSubSystems =	"Research",
+		DisplayPriority =		50,
+		DisplayedName =			"$7018",
+		Description =			"$7019"
+	},
+
+If I create two versions of the subsystem (research and no research versions) 
+will I then need multiple subsystem slots on ships to potentially build them? 
+Not true?
+
+When selecting the "map default" "start with" setting, should I switch to using 
+the new ship types? How do I select the correct ones? Or, should I only use the 
+default ship types instead? (E.g. Relic and Gearbox's ships.)
+
+A lot of research upgrades are missing the "TargetType" field.

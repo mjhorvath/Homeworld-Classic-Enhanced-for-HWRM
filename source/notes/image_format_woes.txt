@@ -1,6 +1,6 @@
-DDS must be a power of two i.e. 128 256 512 1024
-TGA can be multiples of powers of two, such as 384
+DDS dimensions must be a power of two i.e. 128 256 512 1024
+TGA dimensions can be multiples of powers of two, such as 384
 Letting HW2 resize the images makes thumbnails unreadable.
-DDS "compressed" size seems to be the same regardless of the size of the actual image area, at least whne using XnView to convert them.
+DDS "compressed" size seems to be the same regardless of the size of the actual image area, at least when using XnView to convert them.
 Downscaling by 75% and then back up seems to produce OK results.
 Only other alternative is to re-do all the thumbnails with a larger font size.

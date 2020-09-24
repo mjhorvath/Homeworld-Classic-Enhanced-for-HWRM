@@ -1,3 +1,0 @@
-* Make sure all five asteroids have latch points.
-* Make sure that only the HW1C resources, clouds, etc. are being used.
-* Make sure there are no stuck collectors.
