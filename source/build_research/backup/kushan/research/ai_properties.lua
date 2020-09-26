@@ -1,6 +1,7 @@
-base_research = nil 
-base_research = {
+base_research = nil
 
+base_research =
+{
 --AI behaviour 	
 	{ 
 		Name = "cpuplayers_defensive", 
@@ -81,9 +82,6 @@ base_research = {
 		AIOnly = 1,	
 		DoNotGrant = 1,
 	},
-
-
-
 --AI build speed	
 	{ 
 		Name =			"AllShipBuildSpeed",
@@ -171,7 +169,6 @@ base_research = {
 		AIOnly = 1,	
 		DoNotGrant = 1,
 	},
-
 	{ 
 		Name =			"WeaponDamageUpgrade125",
 		RequiredResearch =	"",                       
@@ -188,7 +185,6 @@ base_research = {
 		AIOnly = 1,
 		DoNotGrant = 1,
 	},
-
 	{ 
 		Name =			"WeaponDamageUpgrade150",
 		RequiredResearch =	"",                       
@@ -205,7 +201,6 @@ base_research = {
 		AIOnly = 1,
 		DoNotGrant = 1,
 	},
-
 	{ 
 		Name =			"WeaponDamageUpgrade175",
 		RequiredResearch =	"",                       
@@ -222,7 +217,6 @@ base_research = {
 		AIOnly = 1,
 		DoNotGrant = 1,
 	},
-
 	{ 
 		Name =			"WeaponDamageUpgrade200",
 		RequiredResearch =	"",                       
@@ -239,15 +233,15 @@ base_research = {
 		AIOnly = 1,
 		DoNotGrant = 1,
 	},
-
 }
 
 research = {}
 res_index = 0
+
 -- Add these items to the research tree!
 for i,e in base_research do
 	research[res_index] = e
 	res_index = res_index+1
 end
 
-	base_research = nil 
+base_research = nil 

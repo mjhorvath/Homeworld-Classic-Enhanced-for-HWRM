@@ -1,10 +1,10 @@
 '''
 @caption: Build Research Generator
 @created: 2020-09-22
-@updated: 2020-09-22
+@updated: 2020-09-26
 @authors: Michael Horvath
 @license: CC BY
-@version: 1.0.0
+@version: 1.0.1
 @note: Generates Lua build and research scripts from TSV (tab-separated value) files exported from Excel.
 @note: 
 @note: 
@@ -21,7 +21,7 @@ import csv
 import copy
 
 __appname__ = 'Build Research Generator'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 INPPATH = ''
 OUTPATH = ''
@@ -56,6 +56,8 @@ def format_param_list(t):
         count += 1
     return out
 
+# removes subsystem requirements when dictated by gamerule
+# only used for builds at the moment
 def fix_subsys_reqs(dict_val, param_list, tmp_bits):
     subs = {
         'car':[],                                       # tempted to add CapShipProduction, not sure
@@ -136,15 +138,6 @@ def res_lua(BIGLIST):
     row_count = 0
     for i in BIGLIST:
         print('row_count = ' + str(row_count + 1))
-
-        # fix possible errors in data
-        # need to double-check on discussion forum
-        if 'TargetType' not in i:
-            i['TargetType'] = ['Ship','identifier']
-            print('Adding missing TargetType')
-        if i['TargetType'][0] == 'AllShips' and 'TargetName' in i:
-            del i['TargetName']
-            print('Removing unneeded TargetName')
 
         # param list
         param_list = None

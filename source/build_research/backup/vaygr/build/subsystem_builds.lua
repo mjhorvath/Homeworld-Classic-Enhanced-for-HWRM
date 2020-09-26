@@ -282,7 +282,7 @@ base_build =
 		DisplayedName =			"$7126",
 		Description =			"$7127" 
 	},
-	-- ommitted by whom?
+	-- omitted by relic
 --	{
 --		Type = 					SubSystem, 
 --		ThingToBuild = 			"Vgr_C_Module_BuildSpeed",
@@ -292,7 +292,7 @@ base_build =
 --		DisplayedName =			"$7128",
 --		Description =			"$7129" 
 --	},
-	-- ommitted by whom?
+	-- omitted by relic
 --	{
 --		Type = 					SubSystem, 
 --		ThingToBuild = 			"Vgr_MS_Module_BuildSpeed",

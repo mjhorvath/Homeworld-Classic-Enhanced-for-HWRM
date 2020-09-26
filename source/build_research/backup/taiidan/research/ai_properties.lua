@@ -82,9 +82,6 @@ base_research =
 		AIOnly = 1,	
 		DoNotGrant = 1,
 	},
-
-
-
 --AI build speed	
 	{ 
 		Name =			"AllShipBuildSpeed",
@@ -172,7 +169,6 @@ base_research =
 		AIOnly = 1,	
 		DoNotGrant = 1,
 	},
-
 	{ 
 		Name =			"WeaponDamageUpgrade125",
 		RequiredResearch =	"",                       
@@ -189,7 +185,6 @@ base_research =
 		AIOnly = 1,
 		DoNotGrant = 1,
 	},
-
 	{ 
 		Name =			"WeaponDamageUpgrade150",
 		RequiredResearch =	"",                       

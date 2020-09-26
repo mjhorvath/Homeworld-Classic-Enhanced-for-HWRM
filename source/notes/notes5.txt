@@ -4,34 +4,39 @@ Do these require research modules?
 	vgr_c_production_fighter_car0
 	vgr_c_production_fighter_car1
 
-Need to continually check and update these when adding or removing builds or researches
+Need to continually check and update these when adding or removing builds and researches
 	ai/default/classdef.lua
 	ship/icons/shipicons.lua
 	scripts/productiontimes/buildtimes.lua
 	scripts/races/<race>/hwclassicmaps/props/gbx.lua
+	scripts/races/<race>/ai_upgrades.lua
+	scripts/races/<race>/crate_ships.lua
 
-Core design issue
-	Should it still be possible to build a shipyard if hyperspace is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers.
-	Should I disable all capship production in "carrier only" mode? This may make the lack of a shipyard less of a big deal when hyperspace is turned off in the other modes.
-	Should vanilla builds and researches be allowed and disabled when not needed? Currently the vanilla researches are but the builds are not.
+Core design issues
+	Should it still be possible to build a shipyard if hyperspacing is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers.
+	Should I disable all capship production in "carrier only" mode for all races? This may make the lack of a shipyard for the Taiidan and Kushan less of a big deal.
+	Should vanilla builds and researches be enabled and disabled when not needed? Currently the vanilla researches are but the builds are not.
+	Should I modify the need for an advanced research module in the "carrier only" mode?
+	The Players Patch features many additional races. Should I add support for these as well?
+	Should I remove the Research and AdvancedResearch module requirements for researches when researching is disabled, or is this pointless? This is already the case for builds. It would (or maybe not?) require additional versions of affected ships.
+	Should I remove the requirements for a Hyperspace module when hyperspacing is disabled? (This only involves shipyards as far as I have found.)
+	Maybe need separate params for ships and build/research.
 
 Miscellaneous
 	Are base_research and res_index used for anything crucial? Can I safely get rid of them and simplify the scripts?
 	Currently I am getting errors such as "Cannot overwrite function HGN_RESOURCECOLLECTOR_ResourceStart_OnSet" and "Cannot overwrite function HGN_RESOURCECOLLECTOR_ResourceStart_OnPause". This is because there is more than one version of the resource collector, and all versions "share" the same base model. To eliminate the error we could check first if the function has already been declared before declaring it again.
 	There are also errors about the functions "ShowProductionSubsystems", "NoSalvageScuttle" and "UnderAttackReissueDock" which I don't know the origins of.
-	In the "MultiBuild" and "MultiResearch" functions in "techfunc.lua" I would like to parse the requirements statements for logical operators (& or |) and additional clauses. However, I discovered I cannot do much further here without the standard string library, which is unavailable.
+	The file "hgn_carrier.lua" needs to check the number of motherships but only recognizes the name of one of the motherships instead of all 16.
+	The singleplayer builds need to be explicitly restricted in multiplayer.
+	Taiidan and Kushan ship builds should require the related production subsystems since I may be enabling or disabling some of these subsystems in the future. I don't want them being built by mistake.
 
 Things that I can control outside of a SHIP file
 	grant or restrict build or research via gamerule scripts
 	starting fleet files
 
-Problematic
-	In the SHIP folder
-		"hgn_carrier.lua" needs to check the number of motherships but only recognizes the name of one of the motherships instead of all 16
-
 Stupid pet tricks
 	Subsystem and research requirements
-		are the values for subsystem and research requirements case-sensistive?
+		are the values for subsystem and research requirements case-sensistive? (note: target ship names do not appear to be case-sensitive)
 		are the values listed/stored in another file somewhere?
 		are they ever surrounded by parentheses?
 		does the white space separating values and operators ever vary?
@@ -60,3 +65,26 @@ Stupid pet tricks
 	Vgr res
 		capitalship_upgrades_buildspeed.lua
 			some research with hyperspace requirements
+		capitalship_upgrades_buildspeed.lua
+			two types of mothership need to be handled
+		ai_properties.lua
+			several items with no TargetType and blank TargetName
+		ai_properties.lua
+			several items with TargetType AllShips and no TargetName at all
+		default.lua
+			several items with no TargetType that would default to Ship
+		singleplayer_hacks.lua
+			several items with TargetType AllShips and no TargetName at all
+	Kus res
+		ai_properties.lua
+			several items with TargetType AllShips and no TargetName at all
+		default.lua
+			item with TargetType AllShips and TargetName Hgn_fleet
+		corvette_tech.lua, default.lua, fighter_tech.lua, frigate_tech.lua, supercapital_tech.lua
+			several items with TargetName but no TargetType
+			they should default to ship
+	Kus bld
+		corvette_build.lua
+			there is a developer warning about keeping this file and another file synced
+			I think the order in which the items appear in the build table matter to this other file
+			it would be better to actually look for the desired table member by name instead of relying on a hardcoded table index
