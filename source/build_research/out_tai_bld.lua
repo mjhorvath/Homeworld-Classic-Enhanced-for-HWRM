@@ -400,6 +400,46 @@ build =
 		ThingToBuild = "Tai_SupportFrigate_hyp1",
 		Type = Ship,
 	},
+	-- #20.0, production_build.lua
+	{
+		Description = "$7007",
+		DisplayPriority = 0,
+		DisplayedName = "$7006",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "hw1_production_capital",
+		Type = SubSystem,
+	},
+	-- #21.0, production_build.lua
+	{
+		Description = "$7003",
+		DisplayPriority = 0,
+		DisplayedName = "$7002",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "hw1_production_corvette",
+		Type = SubSystem,
+	},
+	-- #22.0, production_build.lua
+	{
+		Description = "$7001",
+		DisplayPriority = 0,
+		DisplayedName = "$7000",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "hw1_production_fighter",
+		Type = SubSystem,
+	},
+	-- #23.0, production_build.lua
+	{
+		Description = "$7005",
+		DisplayPriority = 0,
+		DisplayedName = "$7004",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "hw1_production_frigate",
+		Type = SubSystem,
+	},
 	-- #24.1, utility_build.lua
 	{
 		Description = "$11051",
@@ -478,6 +518,66 @@ build =
 		RequiredResearch = "ProximitySensor",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Tai_ProximitySensor_hyp1",
+		Type = Ship,
+	},
+	-- #28.0, utility_build.lua
+	{
+		Description = "$11043",
+		DisplayPriority = 110,
+		DisplayedName = "$11042",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Tai_ResearchShip",
+		Type = Ship,
+	},
+	-- #29.0, utility_build.lua
+	{
+		Description = "$11043",
+		DisplayPriority = 111,
+		DisplayedName = "$11058",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Tai_ResearchShip_1",
+		Type = Ship,
+	},
+	-- #30.0, utility_build.lua
+	{
+		Description = "$11043",
+		DisplayPriority = 112,
+		DisplayedName = "$11059",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Tai_ResearchShip_2",
+		Type = Ship,
+	},
+	-- #31.0, utility_build.lua
+	{
+		Description = "$11043",
+		DisplayPriority = 113,
+		DisplayedName = "$11060",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Tai_ResearchShip_3",
+		Type = Ship,
+	},
+	-- #32.0, utility_build.lua
+	{
+		Description = "$11043",
+		DisplayPriority = 114,
+		DisplayedName = "$11061",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Tai_ResearchShip_4",
+		Type = Ship,
+	},
+	-- #33.0, utility_build.lua
+	{
+		Description = "$11043",
+		DisplayPriority = 115,
+		DisplayedName = "$11062",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Tai_ResearchShip_5",
 		Type = Ship,
 	},
 	-- #34.1, utility_build.lua

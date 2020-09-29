@@ -5,15 +5,16 @@ Do these require research modules?
 	vgr_c_production_fighter_car1
 
 Need to continually check and update these when adding or removing builds and researches
-	ai/default/classdef.lua
-	ship/icons/shipicons.lua
-	scripts/productiontimes/buildtimes.lua
-	scripts/races/<race>/hwclassicmaps/props/gbx.lua
-	scripts/races/<race>/ai_upgrades.lua
-	scripts/races/<race>/crate_ships.lua
+	- ai/default/classdef.lua
+	- ship/icons/shipicons.lua
+	+ scripts/productiontimes/buildtimes.lua (see notes in file)
+	- scripts/races/<race>/hwclassicmaps/props/gbx.lua
+	- scripts/races/<race>/ai_upgrades.lua
+	- scripts/races/<race>/crate_ships.lua
+	- scripts/races/<race>/scripts/ai_build.lua - hardcoded "k" ships at the top of the file and elsewhere
 
 Core design issues
-	Should it still be possible to build a shipyard if hyperspacing is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers.
+	Should it still be possible to build a shipyard if hyperspacing is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers, but do require motherships.
 	Should I disable all capship production in "carrier only" mode for all races? This may make the lack of a shipyard for the Taiidan and Kushan less of a big deal.
 	Should vanilla builds and researches be enabled and disabled when not needed? Currently the vanilla researches are but the builds are not.
 	Should I modify the need for an advanced research module in the "carrier only" mode?
@@ -29,6 +30,7 @@ Miscellaneous
 	The file "hgn_carrier.lua" needs to check the number of motherships but only recognizes the name of one of the motherships instead of all 16.
 	The singleplayer builds need to be explicitly restricted in multiplayer.
 	Taiidan and Kushan ship builds should require the related production subsystems since I may be enabling or disabling some of these subsystems in the future. I don't want them being built by mistake.
+	Do Kushan and Taiidan carriers need hidden production modules too?
 
 Things that I can control outside of a SHIP file
 	grant or restrict build or research via gamerule scripts

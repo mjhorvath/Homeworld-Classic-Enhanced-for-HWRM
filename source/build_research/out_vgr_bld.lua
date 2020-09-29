@@ -207,7 +207,7 @@ build =
 		DisplayedName = "$7156",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "",
-		ThingToBuild = "Vgr_ShipYard_rch0_res0_hyp0",
+		ThingToBuild = "Vgr_ShipYard_car0_rch0_res0_hyp0",
 		Type = Ship,
 	},
 	-- #4.2, capital_builds.lua
@@ -217,7 +217,7 @@ build =
 		DisplayedName = "$7156",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "",
-		ThingToBuild = "Vgr_ShipYard_rch1_res0_hyp0",
+		ThingToBuild = "Vgr_ShipYard_car1_rch0_res0_hyp0",
 		Type = Ship,
 	},
 	-- #4.3, capital_builds.lua
@@ -226,8 +226,8 @@ build =
 		DisplayPriority = 320,
 		DisplayedName = "$7156",
 		RequiredResearch = "",
-		RequiredShipSubSystems = "Hyperspace",
-		ThingToBuild = "Vgr_ShipYard_rch0_res0_hyp1",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_ShipYard_car0_rch0_res1_hyp0",
 		Type = Ship,
 	},
 	-- #4.4, capital_builds.lua
@@ -236,8 +236,8 @@ build =
 		DisplayPriority = 320,
 		DisplayedName = "$7156",
 		RequiredResearch = "",
-		RequiredShipSubSystems = "Hyperspace",
-		ThingToBuild = "Vgr_ShipYard_rch1_res0_hyp1",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_ShipYard_car1_rch0_res1_hyp0",
 		Type = Ship,
 	},
 	-- #4.5, capital_builds.lua
@@ -246,8 +246,8 @@ build =
 		DisplayPriority = 320,
 		DisplayedName = "$7156",
 		RequiredResearch = "",
-		RequiredShipSubSystems = "",
-		ThingToBuild = "Vgr_ShipYard_rch0_res1_hyp0",
+		RequiredShipSubSystems = "Hyperspace",
+		ThingToBuild = "Vgr_ShipYard_car0_rch0_res0_hyp1",
 		Type = Ship,
 	},
 	-- #4.6, capital_builds.lua
@@ -256,8 +256,8 @@ build =
 		DisplayPriority = 320,
 		DisplayedName = "$7156",
 		RequiredResearch = "",
-		RequiredShipSubSystems = "",
-		ThingToBuild = "Vgr_ShipYard_rch1_res1_hyp0",
+		RequiredShipSubSystems = "Hyperspace",
+		ThingToBuild = "Vgr_ShipYard_car1_rch0_res0_hyp1",
 		Type = Ship,
 	},
 	-- #4.7, capital_builds.lua
@@ -267,7 +267,7 @@ build =
 		DisplayedName = "$7156",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "Hyperspace",
-		ThingToBuild = "Vgr_ShipYard_rch0_res1_hyp1",
+		ThingToBuild = "Vgr_ShipYard_car0_rch0_res1_hyp1",
 		Type = Ship,
 	},
 	-- #4.8, capital_builds.lua
@@ -277,7 +277,87 @@ build =
 		DisplayedName = "$7156",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "Hyperspace",
-		ThingToBuild = "Vgr_ShipYard_rch1_res1_hyp1",
+		ThingToBuild = "Vgr_ShipYard_car1_rch0_res1_hyp1",
+		Type = Ship,
+	},
+	-- #4.9, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_ShipYard_car0_rch1_res0_hyp0",
+		Type = Ship,
+	},
+	-- #4.10, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_ShipYard_car1_rch1_res0_hyp0",
+		Type = Ship,
+	},
+	-- #4.11, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_ShipYard_car0_rch1_res1_hyp0",
+		Type = Ship,
+	},
+	-- #4.12, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_ShipYard_car1_rch1_res1_hyp0",
+		Type = Ship,
+	},
+	-- #4.13, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "Hyperspace",
+		ThingToBuild = "Vgr_ShipYard_car0_rch1_res0_hyp1",
+		Type = Ship,
+	},
+	-- #4.14, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "Hyperspace",
+		ThingToBuild = "Vgr_ShipYard_car1_rch1_res0_hyp1",
+		Type = Ship,
+	},
+	-- #4.15, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "Hyperspace",
+		ThingToBuild = "Vgr_ShipYard_car0_rch1_res1_hyp1",
+		Type = Ship,
+	},
+	-- #4.16, capital_builds.lua
+	{
+		Description = "$7157",
+		DisplayPriority = 320,
+		DisplayedName = "$7156",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "Hyperspace",
+		ThingToBuild = "Vgr_ShipYard_car1_rch1_res1_hyp1",
 		Type = Ship,
 	},
 	-- #5.1, corvettes_builds.lua
@@ -540,24 +620,14 @@ build =
 		ThingToBuild = "Vgr_WeaponPlatform_missile_hyp1",
 		Type = Ship,
 	},
-	-- #18.1, special_builds.lua
+	-- #18.0, special_builds.lua
 	{
 		Description = "",
 		DisplayPriority = 612,
 		DisplayedName = "$1704",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "",
-		ThingToBuild = "Vgr_PlanetKillerMissile_hyp0",
-		Type = Ship,
-	},
-	-- #18.2, special_builds.lua
-	{
-		Description = "",
-		DisplayPriority = 612,
-		DisplayedName = "$1704",
-		RequiredResearch = "",
-		RequiredShipSubSystems = "",
-		ThingToBuild = "Vgr_PlanetKillerMissile_hyp1",
+		ThingToBuild = "Vgr_PlanetKillerMissile",
 		Type = Ship,
 	},
 	-- #19.1, subsystem_builds.lua
@@ -600,6 +670,16 @@ build =
 		ThingToBuild = "Vgr_C_Module_FireControl_rch1",
 		Type = SubSystem,
 	},
+	-- #21.0, subsystem_builds.lua
+	{
+		Description = "$7115",
+		DisplayPriority = 20,
+		DisplayedName = "$7114",
+		RequiredResearch = "HyperspaceGateTech",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_C_Module_Hyperspace",
+		Type = SubSystem,
+	},
 	-- #22.1, subsystem_builds.lua
 	{
 		Description = "$7117",
@@ -618,6 +698,26 @@ build =
 		RequiredFleetSubSystems = "Research",
 		RequiredResearch = "",
 		ThingToBuild = "Vgr_C_Module_HyperspaceInhibitor_rch1",
+		Type = SubSystem,
+	},
+	-- #23.0, subsystem_builds.lua
+	{
+		Description = "$7109",
+		DisplayPriority = 0,
+		DisplayedName = "$7108",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_C_Module_PlatformControl",
+		Type = SubSystem,
+	},
+	-- #24.0, subsystem_builds.lua
+	{
+		Description = "$7111",
+		DisplayPriority = 10,
+		DisplayedName = "$7110",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_C_Module_Research",
 		Type = SubSystem,
 	},
 	-- #25.1, subsystem_builds.lua
@@ -660,6 +760,36 @@ build =
 		ThingToBuild = "Vgr_C_Production_Fighter_car1",
 		Type = SubSystem,
 	},
+	-- #27.0, subsystem_builds.lua
+	{
+		Description = "$7105",
+		DisplayPriority = 0,
+		DisplayedName = "$7104",
+		RequiredResearch = "FrigateTech",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_C_Production_Frigate",
+		Type = SubSystem,
+	},
+	-- #28.0, subsystem_builds.lua
+	{
+		Description = "$7123",
+		DisplayPriority = 25,
+		DisplayedName = "$7122",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_C_Sensors_AdvancedArray",
+		Type = SubSystem,
+	},
+	-- #29.0, subsystem_builds.lua
+	{
+		Description = "$7127",
+		DisplayPriority = 30,
+		DisplayedName = "$7126",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_C_Sensors_DetectHyperspace",
+		Type = SubSystem,
+	},
 	-- #30.1, subsystem_builds.lua
 	{
 		Description = "$7119",
@@ -700,6 +830,16 @@ build =
 		ThingToBuild = "Vgr_MS_Module_FireControl_rch1",
 		Type = SubSystem,
 	},
+	-- #32.0, subsystem_builds.lua
+	{
+		Description = "$7115",
+		DisplayPriority = 20,
+		DisplayedName = "$7114",
+		RequiredResearch = "HyperspaceGateTech",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Module_Hyperspace",
+		Type = SubSystem,
+	},
 	-- #33.1, subsystem_builds.lua
 	{
 		Description = "$7117",
@@ -718,6 +858,96 @@ build =
 		RequiredFleetSubSystems = "Research",
 		RequiredResearch = "",
 		ThingToBuild = "Vgr_MS_Module_HyperspaceInhibitor_rch1",
+		Type = SubSystem,
+	},
+	-- #34.0, subsystem_builds.lua
+	{
+		Description = "$7109",
+		DisplayPriority = 0,
+		DisplayedName = "$7108",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Module_PlatformControl",
+		Type = SubSystem,
+	},
+	-- #35.0, subsystem_builds.lua
+	{
+		Description = "$7111",
+		DisplayPriority = 10,
+		DisplayedName = "$7110",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Module_Research",
+		Type = SubSystem,
+	},
+	-- #36.0, subsystem_builds.lua
+	{
+		Description = "$7107",
+		DisplayPriority = 0,
+		DisplayedName = "$7106",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Production_CapShip",
+		Type = SubSystem,
+	},
+	-- #37.0, subsystem_builds.lua
+	{
+		Description = "$7103",
+		DisplayPriority = 0,
+		DisplayedName = "$7102",
+		RequiredResearch = "CorvetteTech",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Production_Corvette",
+		Type = SubSystem,
+	},
+	-- #38.0, subsystem_builds.lua
+	{
+		Description = "$7101",
+		DisplayPriority = 0,
+		DisplayedName = "$7100",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Production_Fighter",
+		Type = SubSystem,
+	},
+	-- #39.0, subsystem_builds.lua
+	{
+		Description = "$7105",
+		DisplayPriority = 0,
+		DisplayedName = "$7104",
+		RequiredResearch = "FrigateTech",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Production_Frigate",
+		Type = SubSystem,
+	},
+	-- #40.0, subsystem_builds.lua
+	{
+		Description = "$7123",
+		DisplayPriority = 25,
+		DisplayedName = "$7122",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Sensors_AdvancedArray",
+		Type = SubSystem,
+	},
+	-- #41.0, subsystem_builds.lua
+	{
+		Description = "$7127",
+		DisplayPriority = 30,
+		DisplayedName = "$7126",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_MS_Sensors_DetectHyperspace",
+		Type = SubSystem,
+	},
+	-- #42.0, subsystem_builds.lua
+	{
+		Description = "$7107",
+		DisplayPriority = 10,
+		DisplayedName = "$7106",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Vgr_SY_Production_CapShip",
 		Type = SubSystem,
 	},
 	-- #43.1, utility_builds.lua

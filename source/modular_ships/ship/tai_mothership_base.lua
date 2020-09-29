@@ -1,11 +1,11 @@
 resourceModule = ""
-capshipbuildModule = "hw1_production_capital"
+capitalModule = "hw1_production_capital"
 
 if resBool == 1 then
 	resourceModule = "Tai_MothershipResource"
 end
 if carBool == 1 then
-	capshipbuildModule = ""
+	capitalModule = ""
 end
 
 NewShipType = StartShipConfig()
@@ -174,7 +174,7 @@ StartShipHardPointConfig(NewShipType,"Resource","Hardpoint_Resource","System","I
 StartShipHardPointConfig(NewShipType,"Fighter Production","Hardpoint_Resource","System","Production","Indestructible","","hw1_production_fighter","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Corvette Production","Hardpoint_Resource","System","Production","Indestructible","","hw1_production_corvette","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Frigate Production","Hardpoint_Resource","System","Production","Indestructible","","hw1_production_frigate","","","","","","","");
-StartShipHardPointConfig(NewShipType,"CapShip Production","Hardpoint_Resource","System","Production","Indestructible","",capshipbuildModule,"","","","","","","");
+StartShipHardPointConfig(NewShipType,"CapShip Production","Hardpoint_Resource","System","Production","Indestructible","",capitalModule,"","","","","","","");
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg03",1, 0.34,0,0,0, 0,0,0,50,0,0,0,200,0,0,0,50,0,0,0,50);
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg02",1, 0.13,0,0,0, 30,-20,200,25,300,150,85,50,0,0,0,85,0,0,0,50);
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg04",1, 0.12,0,0,0, 50,40,-150,50,65,25,5,25,0,0,0,95,0,0,0,50);

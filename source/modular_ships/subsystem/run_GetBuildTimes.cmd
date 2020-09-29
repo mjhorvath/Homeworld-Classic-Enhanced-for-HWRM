@@ -1,5 +1,5 @@
 ::Place the Python script into the SHIP or SUBSYSTEM directory.
-copy NUL buildtimes.csv
+copy NUL buildtimes.tsv
 python.exe "GetBuildTimes.py" subs "hgn_c_module_cloakgenerator_rch0"
 python.exe "GetBuildTimes.py" subs "hgn_c_module_cloakgenerator_rch1"
 python.exe "GetBuildTimes.py" subs "hgn_c_module_firecontrol_rch0"

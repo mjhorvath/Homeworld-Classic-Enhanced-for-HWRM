@@ -266,6 +266,31 @@ def bld_lua(BIGLIST):
                             OUTTEXT += dict_val
                         OUTTEXT += ',\n'
                 OUTTEXT += '\t},\n'
+        else:
+            new_i = copy.deepcopy(i)
+
+            # file name as part of a leading comment
+            for j in new_i:
+                if j == 'row_desti':
+                    OUTTEXT += '\t-- #' + str(row_count + 1) + '.0, ' + i[j] + '\n'
+                    break
+
+            # then the actual table
+            OUTTEXT += '\t{\n'
+            for j in sorted(new_i):
+                if j != 'row_param' and j != 'row_desti':
+                    dict_key = j
+                    dict_val = new_i[j][0]
+                    dict_typ = new_i[j][1]
+                    if dict_key == 'RequiredFleetSubSystems' or dict_key == 'RequiredShipSubSystems':
+                        dict_val = fix_subsys_reqs(dict_val, param_list, tmp_bits)
+                    OUTTEXT += '\t\t' + dict_key + ' = '
+                    if dict_typ == 'string':
+                        OUTTEXT += '"' + dict_val + '"'
+                    else:
+                        OUTTEXT += dict_val
+                    OUTTEXT += ',\n'
+            OUTTEXT += '\t},\n'
 
         row_count += 1
     OUTTEXT += '}\n'

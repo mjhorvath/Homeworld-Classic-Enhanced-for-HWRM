@@ -1,10 +1,10 @@
 '''
 @caption: Get SHIP and SUBS Build Times Script
 @created: 2020-08-18
-@updated: 2020-09-17
+@updated: 2020-09-26
 @authors: Michael Horvath
 @license: CC BY
-@version: 1.0.1
+@version: 1.0.2
 @note: This Python script file needs to run from within the "data\ship" or "data\subsystem" directory.
 @note: The script searches for the parameter "buildTime" in SHIP or SUBS files.
 @note: The script will append the output data to the file "buildtimes.csv".
@@ -17,7 +17,7 @@ import sys
 import os
 
 __appname__ = "GetBuildTimes"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 INT_SUBSTRING = -1
 
@@ -28,7 +28,7 @@ STR_OBJTYPE = ''
 OBJ_OBJTABLE = []
 OBJ_OBJFILE = None
 
-STR_OUTPATH = 'buildtimes.csv'
+STR_OUTPATH = 'buildtimes.tsv'
 STR_OUTTEXT = ''
 OBJ_OUTFILE = None
 

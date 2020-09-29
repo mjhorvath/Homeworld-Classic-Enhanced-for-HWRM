@@ -1,3 +1,4 @@
+capitalModule = "Vgr_MS_Production_CapShip"
 hyperspaceModule = ""
 hyperinhibitModule = ""
 hyperdetectModule = ""
@@ -14,6 +15,9 @@ if resBool == 1 then
 end
 if rchBool == 1 then
 	researchModule = "Vgr_MS_Module_Research"
+end
+if carBool == 1 then
+	capitalModule = ""
 end
 
 NewShipType = StartShipConfig()
@@ -171,7 +175,7 @@ addShield(NewShipType,"EMP",10000,20);
 StartShipHardPointConfig(NewShipType,"Production 1","HardPoint_Production1","System","Production","Destroyable","","Vgr_MS_Production_Fighter","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Production 2","HardPoint_Production2","System","Production","Destroyable","","Vgr_MS_Production_Corvette","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Production 3","HardPoint_Production3","System","Production","Destroyable","","Vgr_MS_Production_Frigate","","","","","","","");
-StartShipHardPointConfig(NewShipType,"Production 4","HardPoint_Production4","System","Production","Destroyable","","Vgr_MS_Production_CapShip","","","","","","","");
+StartShipHardPointConfig(NewShipType,"Production 4","HardPoint_Production4","System","Production","Destroyable","",capitalModule,"","","","","","","");
 StartShipHardPointConfig(NewShipType,"Generic 1","HardPoint_System1","System","Generic","Destroyable","",researchModule,"Vgr_MS_Module_CloakGenerator","Vgr_MS_Module_PlatformControl","Vgr_MS_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
 StartShipHardPointConfig(NewShipType,"Generic 2","HardPoint_System2","System","Generic","Destroyable","",researchModule,"Vgr_MS_Module_CloakGenerator","Vgr_MS_Module_PlatformControl","Vgr_MS_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
 StartShipHardPointConfig(NewShipType,"Generic 3","HardPoint_System3","System","Generic","Destroyable","",researchModule,"Vgr_MS_Module_CloakGenerator","Vgr_MS_Module_PlatformControl","Vgr_MS_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");

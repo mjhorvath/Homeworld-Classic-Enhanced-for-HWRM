@@ -484,6 +484,61 @@ build =
 		ThingToBuild = "Hgn_C_Module_HyperspaceInhibitor_rch1",
 		Type = SubSystem,
 	},
+	-- #9.0, carrier_builds.lua
+	{
+		Description = "$7011",
+		DisplayPriority = 0,
+		DisplayedName = "$7010",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_C_Module_Research",
+		Type = SubSystem,
+	},
+	-- #10.0, carrier_builds.lua
+	{
+		Description = "$7013",
+		DisplayPriority = 10,
+		DisplayedName = "$7012",
+		RequiredFleetSubSystems = "Research",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_C_Module_ResearchAdvanced",
+		Type = SubSystem,
+	},
+	-- #11.0, carrier_builds.lua
+	{
+		Description = "$7023",
+		DisplayPriority = 151,
+		DisplayedName = "$7022",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_C_Sensors_AdvancedArray",
+		Type = SubSystem,
+	},
+	-- #12.0, carrier_builds.lua
+	{
+		Description = "$7025",
+		DisplayPriority = 152,
+		DisplayedName = "$7024",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_C_Sensors_DetectCloaked",
+		Type = SubSystem,
+	},
+	-- #13.0, carrier_builds.lua
+	{
+		Description = "$7037",
+		DisplayPriority = 150,
+		DisplayedName = "$7036",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_C_Sensors_DetectHyperspace",
+		Type = SubSystem,
+	},
 	-- #14.1, corvette_builds.lua
 	{
 		Description = "$7039",
@@ -814,6 +869,61 @@ build =
 		ThingToBuild = "Hgn_MS_Module_HyperspaceInhibitor_rch1",
 		Type = SubSystem,
 	},
+	-- #29.0, mothership_builds.lua
+	{
+		Description = "$7011",
+		DisplayPriority = 0,
+		DisplayedName = "$7010",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Module_Research",
+		Type = SubSystem,
+	},
+	-- #30.0, mothership_builds.lua
+	{
+		Description = "$7013",
+		DisplayPriority = 10,
+		DisplayedName = "$7012",
+		RequiredFleetSubSystems = "Research",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Module_ResearchAdvanced",
+		Type = SubSystem,
+	},
+	-- #31.0, mothership_builds.lua
+	{
+		Description = "$7023",
+		DisplayPriority = 151,
+		DisplayedName = "$7022",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Sensors_AdvancedArray",
+		Type = SubSystem,
+	},
+	-- #32.0, mothership_builds.lua
+	{
+		Description = "$7025",
+		DisplayPriority = 152,
+		DisplayedName = "$7024",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Sensors_DetectCloaked",
+		Type = SubSystem,
+	},
+	-- #33.0, mothership_builds.lua
+	{
+		Description = "$7037",
+		DisplayPriority = 150,
+		DisplayedName = "$7036",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Sensors_DetectHyperspace",
+		Type = SubSystem,
+	},
 	-- #34.1, platform_builds.lua
 	{
 		Description = "$7063",
@@ -858,6 +968,17 @@ build =
 		ThingToBuild = "Hgn_IonTurret_hyp1",
 		Type = Ship,
 	},
+	-- #36.0, production_builds.lua
+	{
+		Description = "$7009",
+		DisplayPriority = 10,
+		DisplayedName = "$7008",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_C_Module_PlatformControl",
+		Type = SubSystem,
+	},
 	-- #37.1, production_builds.lua
 	{
 		Description = "$7003",
@@ -878,6 +999,17 @@ build =
 		RequiredResearch = "",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Hgn_C_Production_Corvette_rch1",
+		Type = SubSystem,
+	},
+	-- #38.0, production_builds.lua
+	{
+		Description = "$7001",
+		DisplayPriority = 0,
+		DisplayedName = "$7000",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_C_Production_Fighter",
 		Type = SubSystem,
 	},
 	-- #39.1, production_builds.lua
@@ -902,6 +1034,28 @@ build =
 		ThingToBuild = "Hgn_C_Production_Frigate_rch1",
 		Type = SubSystem,
 	},
+	-- #40.0, production_builds.lua
+	{
+		Description = "$7009",
+		DisplayPriority = 20,
+		DisplayedName = "$7008",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Module_PlatformControl",
+		Type = SubSystem,
+	},
+	-- #41.0, production_builds.lua
+	{
+		Description = "$7007",
+		DisplayPriority = 0,
+		DisplayedName = "$7006",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Production_CapShip",
+		Type = SubSystem,
+	},
 	-- #42.1, production_builds.lua
 	{
 		Description = "$7003",
@@ -924,6 +1078,17 @@ build =
 		ThingToBuild = "Hgn_MS_Production_Corvette_rch1",
 		Type = SubSystem,
 	},
+	-- #43.0, production_builds.lua
+	{
+		Description = "$7001",
+		DisplayPriority = 0,
+		DisplayedName = "$7000",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_MS_Production_Fighter",
+		Type = SubSystem,
+	},
 	-- #44.1, production_builds.lua
 	{
 		Description = "$7005",
@@ -944,6 +1109,17 @@ build =
 		RequiredResearch = "",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Hgn_MS_Production_Frigate_rch1",
+		Type = SubSystem,
+	},
+	-- #45.0, production_builds.lua
+	{
+		Description = "$7007",
+		DisplayPriority = 0,
+		DisplayedName = "$7006",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "",
+		ThingToBuild = "Hgn_SY_Production_CapShip",
 		Type = SubSystem,
 	},
 	-- #46.1, singleplayer_builds.lua
@@ -1319,6 +1495,17 @@ build =
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kpr_Mover_hyp1",
 		Type = Ship,
+	},
+	-- #49.0, singleplayer_builds.lua
+	{
+		Description = "$7911",
+		DisplayPriority = 10,
+		DisplayedName = "$7910",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "",
+		RequiredShipSubSystems = "CorvetteProduction",
+		ThingToBuild = "Hgn_MS_Production_CorvetteMover",
+		Type = SubSystem,
 	},
 	-- #50.1, utility_builds.lua
 	{
