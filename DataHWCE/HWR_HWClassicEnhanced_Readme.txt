@@ -39,11 +39,11 @@ Discussion:
 DESCRIPTION
 This mod is a port of my Homeworld Classic Enhanced mod for Homeworld 2 
 Classic. It combines my HW Classic Rebalance and Gameplay Enhanced HW2C mods 
-into a single mod, providing you with a greater number of gameplay options than 
-can be found in either mod alone. Development of those earlier mods has stopped 
-in favor of this one. This mod also includes a collection of almost 1500 
-Homeworld and Homeworld: Cataclysm maps converted to work with Homeworld 
-Remastered.
+into a single collection, providing you with a greater number of gameplay 
+options than can be found in either of the other mods alone. Development of 
+those earlier mods has stopped in favor of this one. This mod also includes a 
+collection of almost 1500 Homeworld and Homeworld: Cataclysm maps converted to 
+work with Homeworld Remastered.
 
 INSTALLATION
 Installation is done by subscribing to the mod on Steam Workshop if you have 
@@ -55,8 +55,11 @@ Players Patch mod beforehand. Installation of the 2.3 Players Patch mod depends
 on the version of the mod. (E.g. BIG file version or loose folders.)
 
 DOCUMENTATION
-An extended online version of this documentation can be found on GitHub at the 
-address above if it does not already appear below.
+An extended online version of this documentation (as well as the mod's source 
+code) can be found on GitHub at the following address if the text does not 
+already appear below.
+
+https://github.com/mjhorvath/Homeworld-Classic-Enhanced-for-HWRM
 
 
 ================================================================================
