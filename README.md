@@ -2,12 +2,12 @@
 
 This mod has two readmes:
 
-* [HWR_HWClassicEnhanced_Readme.txt](HWR_HWClassicEnhanced_Readme.txt)
-* [HWR_HWClassicMaps_Readme.txt](HWR_HWClassicMaps_Readme.txt)
+* [HWR_HWClassicEnhanced_Readme.txt](DataHWCE/HWR_HWClassicEnhanced_Readme.txt)
+* [HWR_HWClassicMaps_Readme.txt](DataHWCE/HWR_HWClassicMaps_Readme.txt)
 
-There is also a HTML reference for the maps, but you will need to download it first before you can view it properly:
+There is also a HTML reference for the maps, but you will need to download it first to your hard drive before you can view it properly:
 
-* [HWR_HWClassicMaps_Reference.html](HWR_HWClassicMaps_Reference.html)
+* [HWR_HWClassicMaps_Reference.html](DataHWCE/HWR_HWClassicMaps_Reference.html)
 
 The Steam Workshop page for this mod is here:
 
