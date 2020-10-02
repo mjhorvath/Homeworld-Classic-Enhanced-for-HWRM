@@ -12,6 +12,7 @@ Need to continually check and update these when adding or removing builds and re
 	- scripts/races/<race>/ai_upgrades.lua
 	- scripts/races/<race>/crate_ships.lua
 	- scripts/races/<race>/scripts/ai_build.lua - hardcoded "k" ships at the top of the file and elsewhere
+	- scripts/races/<race>/scripts/ai_upgrades.lua - several hardcoded ship tables
 
 Core design issues
 	Should it still be possible to build a shipyard if hyperspacing is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers, but do require motherships.

@@ -1,31 +1,36 @@
-﻿Title:		Homeworld Classic Enhanced for Homeworld Remastered
-Version:	2.3.1
-Authors:	Mikali, Luke Moloney (original version of HWC mod) and many, 
-		many individual map authors
-Created:	2011/11/18
-Updated:	2020/07/15
-Homepage:	http://isometricland.net/homeworld/homeworld.php
-Steam:		For HWRM
-		  http://steamcommunity.com/sharedfiles/filedetails/?id=707870413
-		For HW2C
-		  http://steamcommunity.com/sharedfiles/filedetails/?id=401858560
-ModDB:		For HWRM
-		  http://www.moddb.com/mods/homeworld-classic-enhanced-for-hwrm
-		For HW2C
-		  http://www.moddb.com/mods/homeworld-classic-enhanced
+﻿Caption:    Homeworld Classic Enhanced for Homeworld Remastered
+Version:    2.3.1
+Authors:    Mikali, Luke Moloney (original version of HWC mod) and many, many 
+            individual map authors
+Created:    2011/11/18
+Updated:    2020/07/15
+Website:    http://isometricland.net/homeworld/homeworld.php
+
+Steam:      For HWRM
+              http://steamcommunity.com/sharedfiles/filedetails/?id=707870413
+            For HW2C
+              http://steamcommunity.com/sharedfiles/filedetails/?id=401858560
+ModDB:      For HWRM
+              http://www.moddb.com/mods/homeworld-classic-enhanced-for-hwrm
+            For HW2C
+              http://www.moddb.com/mods/homeworld-classic-enhanced
+GitHub:     For HWRM
+              https://github.com/mjhorvath/Homeworld-Classic-Enhanced-for-HWRM
+			For HW2C
+              https://github.com/mjhorvath/Homeworld-Classic-Enhanced-for-HW2C
 Discussion:
-		Homeworld Classic Enhanced for HWRM by Mikali
-		  https://forums.gearboxsoftware.com/t/1525115
-		Homeworld Classic Enhanced for HW2C by Mikali
-		  http://forums.relicnews.com/showthread.php?263886
-		Homeworld Classic Rebalance by Mikali
-		  http://forums.relicnews.com/showthread.php?t=22972
-		Converted HW1 maps by Mikali
-		  http://forums.relicnews.com/showthread.php?t=81821
-		Gameplay Enhanced by Mikali
-		  http://forums.relicnews.com/showthread.php?t=111559
-		Homeworld Classic by Luke Moloney
-		  http://forums.relicnews.com/showthread.php?t=22748
+            Homeworld Classic Enhanced for HWRM by Mikali
+              https://forums.gearboxsoftware.com/t/1525115
+            Homeworld Classic Enhanced for HW2C by Mikali
+              http://forums.relicnews.com/showthread.php?263886
+            Homeworld Classic Rebalance by Mikali
+              http://forums.relicnews.com/showthread.php?t=22972
+            Converted HW1 maps by Mikali
+              http://forums.relicnews.com/showthread.php?t=81821
+            Gameplay Enhanced by Mikali
+              http://forums.relicnews.com/showthread.php?t=111559
+            Homeworld Classic by Luke Moloney
+              http://forums.relicnews.com/showthread.php?t=22748
 
 
 ================================================================================
@@ -42,11 +47,20 @@ Remastered.
 
 INSTALLATION
 Installation is done by subscribing to the mod on Steam Workshop if you have 
-the Steam version of the game. For the ModDB/GOG.com version, extract the ZIP  
-archive and copy the "DataHWClassicEnhancedHWRM" folder to your "Homeworld 
-Remastered" directory, then add "-moddatapath DataHWClassicEnhancedHWRM 
--overrideBigFile -luatrace -traceHODs" to your desktop shortcut's "Target" 
-field.
+the Steam version of the game. For the GOG.com or other version, extract this 
+ZIP archive and copy the "DataHWCE" folder to your "Homeworld Remastered" 
+directory, adding "-moddatapath DataHWCE -overrideBigFile -luatrace -traceHODs" 
+to your desktop shortcut's "Target" field. I recommend also installing the 2.3 
+Players Patch mod beforehand. Installation of the 2.3 Players Patch mod depends 
+on the version of the game and the version of the mod.
+
+DOCUMENTATION
+An extended online version of this documentation can be found on GitHub at the 
+address above if it does not already appear below.
+
+
+================================================================================
+
 
 START WITH/MULTIPLAYER MAPS
 Start with either:
@@ -205,14 +219,12 @@ CUSTOM GUI SCREENS
 
 
 LICENSE
-
 You're free to use this code in any way as long as proper credit is given for 
 the work that I, Luke Moloney and the many map authors have done. See the 
 section titled "Modding Instructions" for instructions on how to reconfigure 
 the scripts to work with your mod.
 
 MODDING INSTRUCTIONS
-
 The files in the "data\scripts\rules\lib\" folder beginning with "objectlist" 
 can be reconfigured to make the game rules work with your own mods. Simply add 
 or remove items to and from the tables as needed, and the gamerules will auto-
@@ -225,7 +237,6 @@ tables can be found within the "objectlist" files themselves.
 
 
 CREDITS
-
 • Luke "B1FF" Moloney for the HW Classic mod in its original state.
 • Deionerra for dockpath info.
 • LeviathanChiken for the crystals, as well as for taking interest in the mod 
@@ -251,7 +262,6 @@ CREDITS
 
 
 TO DO
-
 • SPECIAL FLEETS mode causes the starting ships to all point in the same 
   direction. It would be better to retain their original facing. [Maybe 
   impossible. Regardless, SPECIAL FLEETS mode is disabled completely for the 
