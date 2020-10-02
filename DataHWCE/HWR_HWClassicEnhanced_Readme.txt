@@ -10,14 +10,14 @@ Steam:      For HWRM
               http://steamcommunity.com/sharedfiles/filedetails/?id=707870413
             For HW2C
               http://steamcommunity.com/sharedfiles/filedetails/?id=401858560
-ModDB:      For HWRM
-              http://www.moddb.com/mods/homeworld-classic-enhanced-for-hwrm
-            For HW2C
-              http://www.moddb.com/mods/homeworld-classic-enhanced
 GitHub:     For HWRM
               https://github.com/mjhorvath/Homeworld-Classic-Enhanced-for-HWRM
 			For HW2C
               https://github.com/mjhorvath/Homeworld-Classic-Enhanced-for-HW2C
+ModDB:      For HWRM
+              http://www.moddb.com/mods/homeworld-classic-enhanced-for-hwrm
+            For HW2C
+              http://www.moddb.com/mods/homeworld-classic-enhanced
 Discussion:
             Homeworld Classic Enhanced for HWRM by Mikali
               https://forums.gearboxsoftware.com/t/1525115
@@ -52,7 +52,7 @@ ZIP archive and copy the "DataHWCE" folder to your "Homeworld Remastered"
 directory, adding "-moddatapath DataHWCE -overrideBigFile -luatrace -traceHODs" 
 to your desktop shortcut's "Target" field. I recommend also installing the 2.3 
 Players Patch mod beforehand. Installation of the 2.3 Players Patch mod depends 
-on the version of the game and the version of the mod.
+on the version of the mod. (E.g. BIG file version or loose folders.)
 
 DOCUMENTATION
 An extended online version of this documentation can be found on GitHub at the 
