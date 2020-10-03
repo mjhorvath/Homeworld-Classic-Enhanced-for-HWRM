@@ -1,9 +1,9 @@
 ﻿Caption:    Homeworld Classic Enhanced for Homeworld Remastered
-Version:    2.3.1
+Version:    2.3.2
 Authors:    Mikali, Luke Moloney (original version of HWC mod) and many, many 
             individual map authors
 Created:    2011/11/18
-Updated:    2020/07/15
+Updated:    2020/10/03
 Website:    http://isometricland.net/homeworld/homeworld.php
 
 Steam:      For HWRM
@@ -51,8 +51,9 @@ the Steam version of the game. For the GOG.com or other version, extract this
 ZIP archive and copy the "DataHWCE" folder to your "Homeworld Remastered" 
 directory, adding "-moddatapath DataHWCE -overrideBigFile -luatrace -traceHODs" 
 to your desktop shortcut's "Target" field. I recommend also installing the 2.3 
-Players Patch mod beforehand. Installation of the 2.3 Players Patch mod depends 
-on the version of the mod. (E.g. BIG file version or loose folders.)
+Players Patch mod beforehand. The installation method for the 2.3 Players Patch 
+mod depends on the version of the mod. (E.g. the Steam version, the BIG file 
+version, or the loose files and folders from GitHub.)
 
 DOCUMENTATION
 An extended online version of this documentation (as well as the mod's source 
@@ -435,6 +436,12 @@ TO DO
   error was made during conversion.
 • Not sure if "Universe_RandomPlayerList()" is really necessary. Is it more 
   fair than just iterating from 0 to Player_Count?
+• Harvestable dust clouds should be working properly now but they are not being 
+  used in any of the mod's maps.
+• Pixel representations of asteroids look ugly. Wrong color, and slightly too 
+  large.
+• Replace "Defined Roles" mode with "Special Fleets" since AI is unable to deal 
+  with the former. Re-release "Defined Roles" as its own separate mod.
 
 
 ================================================================================
@@ -442,8 +449,14 @@ TO DO
 
 CHANGE LOG
 
+2.3.2 --- 2020/10/03
+• Created many scripts and a spreadsheet for a planned "modular ships" version 
+  of the mod. I think I will be abandoning these efforts soon, however.
+• This involves the GitHub repo, only.
+
 2.3.1 --- 2020/07/15
-• Moved data files into a subfolder of the game's GIT directory.
+• Moved data files into a subfolder of the game's Git directory.
+• This involves the GitHub repo, only.
 
 2.3.0 --- 2016/08/15
 • Switched to a new and better PRNG.

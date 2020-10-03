@@ -54,14 +54,14 @@ TO DO
 • There may be performance issues with some maps due to too many asteroids, or 
   overlapping resource pockets.
 • Slipgates are not currently supported.
-• Since the HWRM 2.0 patch, formations have been supported. But can they be set 
-  in level files?
+• Since the HWRM 2.0 patch, formations are supported by HWRM. But can they be 
+  set within level files?
 • Since the HWRM 2.0 patch, ships within a squadron are sometimes counted 
   individually. Or something like that.
 • The number cloud HODs have not been updated to HWRM Patch 2.0 format.
 • The map "HW1_Scout MadnessII8.level" does not use start points currently, and 
   causes the match to end right away when selected. Instead of start points, it 
-  uses the "useasmothership" formation which is unsupported at this time by the 
+  uses the "useasmothership" formation which is unsupported at this time by my 
   map converter.
 • Level converter prints the wrong function help text to level files.
 • FYI, the map ECLOSION (2-6) has non-player squadrons located in the middle of 
