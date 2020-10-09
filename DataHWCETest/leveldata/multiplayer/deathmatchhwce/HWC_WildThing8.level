@@ -1,0 +1,239 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"This is a good map for 8 people to brawl it out tournament-style in ffa or teams.  To comment on this map send e-mail to GIMPbeowulf@hotmail.com, enjoy.",
+	"",
+	"!!! IMPORTANT !!!",
+	"",
+	"Listen up commander.  ",
+	"This particular area of space offers enough resources for any and all command ships to get started building sizable fleets.  However,  you will soon find yourself in a hairy mess fighting for the central resources, control of slipgates, and crystals.  You may find the layout of slipgates useful for laying ambushes, but be sure you don't become the ambushed.  Resource patterns indicate your use of slipgates and your prificiency at vertical movement will be keys to your success.  ",
+	"",
+	"Groups of heavy autoguns (luckily no dawg this time) have been detected around most slipgates and sensors show mines near some resources and slipgates so be wary.  ",
+	"You are dismissed.",
+	"",
+	"Settings: default.",
+	"",
+	"Look for a smaller version of this map soon!",
+}
+
+LevelName = [[Wild Thing (8)]]
+LevelFile = [[WildThing8]]
+SourceGame = "HWC"
+NumberOfPlayers = 8
+
+SensorsZoom = {50000, 300000,}
+UniverseSize = {230000, 230000, 120000, }
+
+LevelBackground = "mission07"
+LevelMusic = "24"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-103436.0, -105409.2, 48237.7, 44.0,},
+	{99305.3, -102845.9, 48030.7, 87.0,},
+	{105044.5, 103958.9, 48358.4, 4.0,},
+	{106780.1, 108536.1, -50024.5, -88.0,},
+	{-99151.6, 95130.4, -46946.9, -139.0,},
+	{97234.7, -98949.4, -46946.9, -179.0,},
+	{-102088.2, -106772.5, -51538.3, -44.0,},
+	{-97749.7, 93516.1, 43623.5, 135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "smothership", {-103436.0, -105409.2, 48237.7,}, 0, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {99305.3, -102845.9, 48030.7,}, 1, {0, 0, 87.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {105044.5, 103958.9, 48358.4,}, 2, {0, 0, 4.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {106780.1, 108536.1, -50024.5,}, 3, {0, 0, -88.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-99151.6, 95130.4, -46946.9,}, 4, {0, 0, -139.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {97234.7, -98949.4, -46946.9,}, 5, {0, 0, -179.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-102088.2, -106772.5, -51538.3,}, 6, {0, 0, -44.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-97749.7, 93516.1, 43623.5,}, 7, {0, 0, 135.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "sworker", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{13, "", "trjunk_lgun", {0.0, 0.0, 3000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {-309.0, -40440.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {-39205.0, -4013.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {-4013.0, 38588.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {35501.0, -1544.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{13, "", "trjunk_lgun", {0.0, 0.0, 34386.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{13, "", "trjunk_lgun", {0.0, 0.0, -34386.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {-65008.0, 63579.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {-63579.0, -66437.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {62151.0, -65008.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+	{7, "", "trjunk_lgun", {63579.0, 60722.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "sphere_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+	{1, "dcrystal0", {0.0, 0.0, 10000.0,},},
+	{1, "dcrystal0", {0.0, 0.0, 20000.0,},},
+	{1, "dcrystal0", {0.0, 0.0, 30000.0,},},
+	{1, "dcrystal1", {0.0, 0.0, 35000.0,},},
+	{1, "dcrystal0", {0.0, 0.0, -10000.0,},},
+	{1, "dcrystal0", {0.0, 0.0, -20000.0,},},
+	{1, "dcrystal0", {0.0, 0.0, -30000.0,},},
+	{1, "dcrystal1", {0.0, 0.0, -35000.0,},},
+	{1, "dcrystal1", {35644.0, -1765.0, 0.0,},},
+	{1, "dcrystal1", {-3882.0, 37762.0, 0.0,},},
+	{1, "dcrystal1", {-38468.0, -3176.0, 0.0,},},
+	{1, "dcrystal1", {-353.0, -40585.0, 0.0,},},
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 3,
+		dustcloud2 = 4,
+		dustcloud3 = 2,
+		dustcloud4 = 0,
+--		dustcloud5 = 0,
+--		dustcloud6 = 0,
+--		dustcloud7 = 0,
+	},
+	bluerare01 =
+	{
+		asteroid0 = 1,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	mediumwell05 =
+	{
+		asteroid0 = 1,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	verywell07 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+	heavydust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+		dustcloud4 = 1,
+--		dustcloud5 = 0,
+--		dustcloud6 = 0,
+--		dustcloud7 = 0,
+	},
+	regendust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+		dustcloud4 = 1,
+--		dustcloud5 = 0,
+--		dustcloud6 = 0,
+--		dustcloud7 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-14224.0, -34716.0, 0.0,}, "cylinder", "dust", 50, 825.0, 30000.0, 0.0, -19.0,},
+	{{32951.3, -12918.5, 0.0,}, "cylinder", "dust", 50, 825.0, 30000.0, 0.0, 71.0,},
+	{{13963.1, -33228.5, 0.0,}, "cylinder", "dust", 50, 825.0, 30000.0, 0.0, 22.0,},
+	{{-34516.3, -14762.5, 0.0,}, "cylinder", "dust", 25, 825.0, 30000.0, 0.0, 111.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dust", 50, 1000.0, 70000.0, 90.0, 180.0,},
+	{{12394.4, 33984.5, 0.0,}, "cylinder", "dust", 10, 825.0, 30000.0, 0.0, -19.0,},
+	{{32385.3, 14793.3, 0.0,}, "cylinder", "dust", 50, 825.0, 30000.0, 0.0, 111.0,},
+	{{-34784.2, 14793.3, 0.0,}, "cylinder", "dust", 25, 825.0, 30000.0, 0.0, 71.0,},
+	{{-16392.5, 33984.5, 0.0,}, "cylinder", "dust", 10, 825.0, 30000.0, 0.0, 22.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "bluerare01", 100, 35000.0, 1000.0, 90.0, 180.0,},
+	{{53491.4, 53542.6, 5564.4,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 44.3,},
+	{{-50644.7, -52669.5, -6492.0,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 45.3,},
+	{{55178.4, 54748.7, -6492.1,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 44.3,},
+	{{-50966.8, -50842.7, 6491.8,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 45.3,},
+	{{50903.9, -50334.8, -6936.2,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, 135.5,},
+	{{49077.2, -50656.9, 6047.6,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, 135.5,},
+	{{-50974.3, 48421.6, -6936.2,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, -44.5,},
+	{{-49147.6, 48743.7, 6047.6,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, -44.5,},
+	{{52303.2, 53389.7, -8333.7,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 44.3,},
+	{{52303.2, 53389.7, 6806.7,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 44.3,},
+	{{50460.2, -51352.2, 6377.9,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, 135.5,},
+	{{50460.2, -51352.2, -7972.3,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, 135.5,},
+	{{-51585.8, -52946.7, -7972.3,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 45.3,},
+	{{-51907.9, -51119.9, 5011.5,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 45.3,},
+	{{-51915.5, 48144.4, -8416.6,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, -44.5,},
+	{{-50088.7, 48466.5, 4567.3,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, -44.5,},
+	{{0.0, 0.0, 0.0,}, "sphere", "verywell07", 10, 78220.0, 156440.0, 0.0, 0.0,},
+	{{53054.9, 54638.6, 4751.2,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 44.3,},
+	{{54741.8, 55844.7, -7305.4,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 44.3,},
+	{{-51410.9, 49517.7, -7749.5,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, -44.5,},
+	{{-49584.1, 49839.7, 5234.4,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, -44.5,},
+	{{51866.6, 54485.8, -9146.9,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 44.3,},
+	{{51866.6, 54485.8, 5993.5,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 44.3,},
+	{{-52352.0, 49240.5, -9229.8,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, -44.5,},
+	{{-50525.2, 49562.5, 3754.0,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, -44.5,},
+	{{-49887.4, -53054.9, -6334.9,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 45.3,},
+	{{-50209.5, -51228.1, 6648.9,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 45.3,},
+	{{51661.2, -50720.2, -6779.1,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, 135.5,},
+	{{49834.4, -51042.3, 6204.7,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, 135.5,},
+	{{51217.5, -51737.6, 6535.0,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, 30.1, 135.5,},
+	{{51217.5, -51737.6, -7815.3,}, "cylinder", "mediumwell05", 30, 1843.1, 156665.5, -30.1, 135.5,},
+	{{-50828.6, -53332.1, -7815.3,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, -30.0, 45.3,},
+	{{-51150.6, -51505.3, 5168.6,}, "cylinder", "mediumwell05", 30, 2000.0, 170000.0, 30.0, 45.3,},
+	{{-62858.1, -65915.2, 0.0,}, "sphere", "heavydust", 10, 4264.2, 8528.4, 0.0, 0.0,},
+	{{-64843.7, 63806.2, 0.0,}, "sphere", "heavydust", 10, 4264.2, 8528.4, 0.0, 0.0,},
+	{{62768.7, -64843.7, 0.0,}, "sphere", "heavydust", 10, 4264.2, 8528.4, 0.0, 0.0,},
+	{{63806.2, 61731.2, 0.0,}, "sphere", "heavydust", 10, 4264.2, 8528.4, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "regendust", 100, 1267.8, 2535.6, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

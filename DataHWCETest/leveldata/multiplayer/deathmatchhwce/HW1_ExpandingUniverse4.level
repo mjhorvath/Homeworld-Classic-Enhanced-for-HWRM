@@ -1,0 +1,120 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Expanding Universe",
+	"This planet was experimenting with drawing energy directly from the core of their world. These experiments brought forth a disastorous planet-shattering explosion, which quickly turned a thriving civilization into dust. (oops) However, that's life, and now the remains of the planet make for great harvesting.",
+	"",
+	"AUTHOR	: AlStar (AlStar_@yahoo.com)",
+	"VERSION	: 1.0",
+	"",
+}
+
+LevelName = [[Expanding Universe (2-4)]]
+LevelFile = [[ExpandingUniverse4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 120000,}
+UniverseSize = {190000, 190000, 180000, }
+
+LevelBackground = "ez12"
+LevelMusic = "27"
+
+RUsRatio = 1
+PebRatio = 2/5
+NebRatio = 1/100
+
+PlayerRaces = {"r2","r1","r2","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-53057.2, 0.0, 0.0, 0.0,},
+	{56753.1, -684.1, 0.0, 180.0,},
+	{1076.9, -54676.8, 0.0, 90.0,},
+	{631.7, 54425.9, 0.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {56753.1, -684.1, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r2", "null_formation",},
+	{5, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{1, "", "mothership", {-53057.2, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{1, "", "mothership", {1076.9, -54676.8, 0.0,}, 2, {0, 0, 90.0,}, 0, 0, "r2", "null_formation",},
+	{5, "", "lightcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{1, "", "mothership", {631.7, 54425.9, 0.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "lightcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	ring =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 4,
+		asteroid4 = 0,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{1326.0, -1495.0, 0.0,}, "sphere", "ring", 60, 42520.0, 85040.0, 0.0, 0.0,},
+	{{1825.0, 0.0, 0.0,}, "sphere", "ring", 60, 53235.0, 106470.0, 0.0, 0.0,},
+	{{329.0, -997.0, 0.0,}, "sphere", "ring", 60, 75975.0, 151950.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 0.0, 90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 0.0, 45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 0.0, -44.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 90.0, 180.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 46.0, 90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 44.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 48.0, 180.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 60, 6495.0, 64950.0, 43.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

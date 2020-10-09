@@ -1,0 +1,113 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Dustiness",
+	"This map is designed for great Team or FFA gameplay. Its your choice. Beware of the void. What you dont know will hurt you.",
+	"Hope you enjoy.",
+	"",
+	"AUTHOR  : medamanx",
+	"E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)",
+}
+
+LevelName = [[Dustiness (2-4)]]
+LevelFile = [[Dustiness2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 200000,}
+UniverseSize = {250000, 200000, 100000, }
+
+LevelBackground = "ez09"
+LevelMusic = "12"
+
+RUsRatio = 3/4
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{150000.0, 100000.0, 50000.0, 0.0,},
+	{-150000.0, -100000.0, 50000.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-150000.0, -100000.0, 50000.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {150000.0, 100000.0, 50000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "heavycruiser", {0.0, 0.0, 50000.0,}, -1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "carrier", {0.0, 0.0, -50000.0,}, -1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {100000.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {-100000.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "r1", "broad_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+	aster =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 20,
+		asteroid4 = 25,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-150000.0, -100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{100000.0, 0.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "rectangle", "aster", 50, 20000.0, 20000.0, 20000.0, 0.0,},
+	{{100000.0, 0.0, 50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{50000.0, -100000.0, 50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-50000.0, -100000.0, 50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-50000.0, 100000.0, 50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{50000.0, 100000.0, 50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{50000.0, 100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-50000.0, 100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-50000.0, -100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-100000.0, 0.0, 50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-100000.0, 0.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{50000.0, -100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{150000.0, -100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{150000.0, 100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-150000.0, 100000.0, -50000.0,}, "sphere", "dust", 50, 5000.0, 10000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

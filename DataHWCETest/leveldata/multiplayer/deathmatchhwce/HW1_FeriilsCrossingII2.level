@@ -1,0 +1,190 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Feriil's Crossing II",
+	"(1v1, 2v2, 3v3)",
+	"AUTHOR: &Xtron",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Feriils Crossing II (2,4,6)]]
+LevelFile = [[FeriilsCrossingII2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "coloredsuns_btg"
+LevelMusic = "11"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-46000.0, 0.0, 0.0, 0.0,},
+	{46000.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {46000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-46000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	tiny =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 30,
+		asteroid4 = 0,
+	},
+	jacelor =
+	{
+		dustcloud0 = 15,
+		dustcloud1 = 15,
+		dustcloud2 = 0,
+		dustcloud3 = 0,
+	},
+	bigasteroids =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 100,
+	},
+	asteroid1 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 0,
+	},
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 5,
+	},
+	pebble =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{35000.0, 15000.0, 0.0,}, "rectangle", "tiny", 13, 3000.0, 4000.0, 4000.0, 0.0,},
+	{{35000.0, 15000.0, 0.0,}, "cylinder", "jacelor", 9, 2500.0, 7500.0, 0.0, 0.0,},
+	{{-35000.0, -15000.0, 0.0,}, "rectangle", "tiny", 13, 3000.0, 4000.0, 4000.0, 0.0,},
+	{{-35000.0, -15000.0, 0.0,}, "cylinder", "jacelor", 9, 2500.0, 7500.0, 0.0, 0.0,},
+	{{55000.0, 8000.0, 0.0,}, "rectangle", "bigasteroids", 2, 4000.0, 4000.0, 4000.0, 0.0,},
+	{{-55000.0, -8000.0, 0.0,}, "rectangle", "bigasteroids", 2, 4000.0, 4000.0, 4000.0, 0.0,},
+	{{-35000.0, 10000.0, -10000.0,}, "rectangle", "bigasteroids", 2, 2000.0, 2000.0, 2000.0, 0.0,},
+	{{35000.0, -10000.0, -10000.0,}, "rectangle", "bigasteroids", 1, 2000.0, 2000.0, 2000.0, 0.0,},
+	{{40000.0, 25000.0, -3000.0,}, "rectangle", "bigasteroids", 3, 4000.0, 4000.0, 4000.0, 0.0,},
+	{{-40000.0, -25000.0, -3000.0,}, "rectangle", "bigasteroids", 3, 4000.0, 4000.0, 4000.0, 0.0,},
+	{{50000.0, 50000.0, -3000.0,}, "rectangle", "asteroid1", 60, 30000.0, 20000.0, 6000.0, 0.0,},
+	{{70000.0, 30000.0, -3000.0,}, "rectangle", "asteroid1", 40, 30000.0, 20000.0, 6000.0, -45.0,},
+	{{-50000.0, -50000.0, -3000.0,}, "rectangle", "asteroid1", 60, 30000.0, 20000.0, 6000.0, 0.0,},
+	{{-70000.0, -30000.0, -3000.0,}, "rectangle", "asteroid1", 40, 30000.0, 20000.0, 6000.0, -45.0,},
+	{{80000.0, 10000.0, -3000.0,}, "rectangle", "asteroid1", 20, 15000.0, 20000.0, 6000.0, -85.0,},
+	{{-80000.0, -10000.0, -3000.0,}, "rectangle", "asteroid1", 20, 15000.0, 20000.0, 6000.0, -85.0,},
+	{{15500.0, -13000.0, -9000.0,}, "rectangle", "bigasteroids", 1, 3000.0, 3000.0, 3000.0, 0.0,},
+	{{-15500.0, 15000.0, -9000.0,}, "rectangle", "asteroid", 2, 3000.0, 3000.0, 3000.0, 0.0,},
+	{{22000.0, -25000.0, -10500.0,}, "rectangle", "asteroid1", 20, 8000.0, 2000.0, 2000.0, 0.0,},
+	{{14252.0, -23902.0, -7958.0,}, "rectangle", "asteroid1", 20, 8000.0, 2000.0, 2000.0, -15.0,},
+	{{-22000.0, 25000.0, -10500.0,}, "rectangle", "asteroid1", 20, 8000.0, 2000.0, 2000.0, 0.0,},
+	{{-14252.0, 23902.0, -7958.0,}, "rectangle", "asteroid1", 20, 8000.0, 2000.0, 2000.0, -15.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 30, 4000.0, 10000.0, 0.0, -60.0,},
+	{{-3962.0, 5853.0, -1000.0,}, "cylinder", "pebble", 25, 3500.0, 7500.0, -20.0, -50.0,},
+	{{3962.0, -5853.0, -1000.0,}, "cylinder", "pebble", 25, 3500.0, 7500.0, 20.0, -50.0,},
+	{{9013.5, -10985.5, -3521.5,}, "cylinder", "pebble", 20, 3000.0, 7500.0, 20.0, -35.0,},
+	{{-9013.0, 10986.0, -3522.0,}, "cylinder", "pebble", 20, 3000.0, 7500.0, -20.0, -35.0,},
+	{{-14596.0, 14138.0, -5773.0,}, "cylinder", "pebble", 17, 2500.0, 7500.0, -20.0, -16.0,},
+	{{14596.0, -14138.0, -5773.0,}, "cylinder", "pebble", 17, 2500.0, 7500.0, 20.0, -16.0,},
+	{{21258.8, -15038.8, -8384.2,}, "cylinder", "pebble", 15, 2000.0, 7500.0, 20.0, -5.0,},
+	{{-21259.0, 15039.0, -8384.0,}, "cylinder", "pebble", 15, 2000.0, 7500.0, -20.0, -5.0,},
+	{{-34969.0, 13322.2, -15887.0,}, "cylinder", "pebble", 15, 1500.0, 25000.0, -30.0, 10.0,},
+	{{36271.0, -16390.0, -11656.1,}, "cylinder", "pebble", 18, 1500.0, 25000.0, 10.0, -5.0,},
+	{{72737.0, -21921.0, -16017.0,}, "cylinder", "pebble", 15, 1000.0, 50000.0, 5.0, -10.0,},
+	{{-61577.5, 3762.7, -39451.2,}, "cylinder", "pebble", 5, 1000.0, 50000.0, -45.0, 25.0,},
+	{{-82438.3, -7201.8, -67357.9,}, "cylinder", "pebble", 3, 500.0, 25000.0, -60.0, 35.0,},
+	{{109359.0, -29486.9, -17669.0,}, "cylinder", "pebble", 9, 500.0, 25000.0, -2.0, -15.0,},
+	{{127812.0, -35786.9, -15243.0,}, "cylinder", "pebble", 6, 250.0, 15000.0, -15.0, -25.0,},
+	{{-88740.2, -12526.8, -85076.5,}, "cylinder", "pebble", 2, 250.0, 15000.0, -75.0, 55.0,},
+	{{-89923.0, -15709.8, -96763.0,}, "cylinder", "pebble", 1, 125.0, 10000.0, -75.0, 85.0,},
+	{{138228.1, -40347.2, -10470.2,}, "cylinder", "pebble", 3, 125.0, 10000.0, -35.0, -20.0,},
+	{{35000.0, 15000.0, 0.0,}, "rectangle", "pebble", 7, 3000.0, 5000.0, 5000.0, 0.0,},
+	{{-35000.0, -15000.0, 0.0,}, "rectangle", "pebble", 4, 5000.0, 5000.0, 7000.0, 0.0,},
+	{{46308.5, -4061.7, 0.0,}, "rectangle", "asteroid1", 10, 4000.0, 1000.0, 1000.0, 45.0,},
+	{{49825.0, -104.9, 0.0,}, "rectangle", "asteroid1", 10, 4000.0, 1000.0, 1000.0, 65.0,},
+	{{-48067.5, 4501.6, 0.0,}, "rectangle", "asteroid1", 10, 4000.0, 1000.0, 1000.0, 45.0,},
+	{{-49825.0, 105.0, 0.0,}, "rectangle", "asteroid1", 10, 4000.0, 1000.0, 1000.0, 65.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dustcloud", 7, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-10215.3, 27210.8, -6105.1,}, "rectangle", "asteroid1", 30, 6000.0, 6000.0, 6000.0, -15.0,},
+	{{10215.0, -27211.0, -6105.0,}, "rectangle", "asteroid1", 30, 6000.0, 6000.0, 6000.0, -15.0,},
+	{{10215.0, -33233.0, -6105.0,}, "cylinder", "dustcloud", 10, 3000.0, 10000.0, 19.0, -15.0,},
+	{{-10215.0, 33233.0, -6105.0,}, "cylinder", "dustcloud", 10, 3000.0, 10000.0, -19.0, -15.0,},
+	{{20000.0, -10000.0, -10000.0,}, "rectangle", "bigasteroids", 1, 2000.0, 2000.0, 2000.0, 0.0,},
+	{{28000.0, -10000.0, -8000.0,}, "rectangle", "bigasteroids", 1, 1000.0, 1000.0, 1000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

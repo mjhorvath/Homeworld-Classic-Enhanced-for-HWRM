@@ -1,0 +1,117 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[ALERT!: We have arrive to area under Kadeshi protection. Some unknown technology of them disables most of detection systems. PROBES/P.SENSORS/S.ARRAY DON'T WORK. And LightInterceptor teams are NOT AVAILABLE. We are almost blindly and the Enemy can be in any place. God help us to survive. Amen. ]],
+	[[]],
+	[[AUTHOR: Randix (starmaker@hotmail.com)]],
+}
+
+LevelName = [[BLINDLY IN THE DARK (2-4)]]
+LevelFile = [[InTheDark2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {220000, 220000, 220000, }
+
+LevelBackground = "ez02"
+LevelMusic = "20"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r2","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{50000.0, 0.0, 0.0, 180.0,},
+	{0.0, -75000.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, -75000.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "heavyinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {50000.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "heavyinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 3,
+		dustcloud3 = 2,
+	},
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 2,
+		asteroid3 = 5,
+		asteroid4 = 0,
+	},
+	nebula =
+	{
+		nebula0 = 0,
+		nebula1 = 5,
+		nebula2 = 3,
+		nebula3 = 2,
+		nebula4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "dustcloud", 300, 100000.0, 200000.0, 0.0, 0.0,},
+	{{-50000.0, -50000.0, 0.0,}, "sphere", "asteroid", 250, 37500.0, 75000.0, 0.0, 0.0,},
+	{{50000.0, 50000.0, 0.0,}, "sphere", "asteroid", 250, 37500.0, 75000.0, 0.0, 0.0,},
+	{{50000.0, -50000.0, 0.0,}, "sphere", "asteroid", 250, 37500.0, 75000.0, 0.0, 0.0,},
+	{{-50000.0, 50000.0, 0.0,}, "sphere", "asteroid", 250, 37500.0, 75000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 50000.0,}, "sphere", "asteroid", 250, 37500.0, 75000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -50000.0,}, "sphere", "asteroid", 250, 37500.0, 75000.0, 0.0, 0.0,},
+	{{60000.0, 0.0, 0.0,}, "sphere", "asteroid", 20, 3000.0, 6000.0, 0.0, 0.0,},
+	{{0.0, -85000.0, 5000.0,}, "sphere", "asteroid", 20, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-25000.0, 28000.0, 60000.0,}, "sphere", "asteroid", 20, 4000.0, 8000.0, 0.0, 0.0,},
+	{{-75000.0, -40000.0, -40000.0,}, "sphere", "asteroid", 20, 4000.0, 8000.0, 0.0, 0.0,},
+	{{0.0, -50000.0, 12000.0,}, "sphere", "asteroid", 20, 3000.0, 0.0, 0.0, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 300, 50000.0, 50000.0, 50000.0, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

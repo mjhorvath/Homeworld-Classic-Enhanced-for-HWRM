@@ -145,6 +145,57 @@ RestrictedBy =
 			},
 		},
 	},
+	-- incomplete, need to restrict these for human players
+	AIUpgradesOnly =
+	{
+		hiigaran =
+		{
+			build =
+			{
+			},
+			research =
+			{
+				"cpuplayers_defensive",
+				"cpuplayers_aggressive",
+				"cpuplayers_dynamic",
+				"cpuplayers_norushtime5",
+				"cpuplayers_norushtime10",
+				"cpuplayers_norushtime15",
+				"AllShipBuildSpeed",
+				"AllShipBuildSpeedHard",
+				"AllShipBuildSpeedExpert",
+				"ResourceCollectionRateHard",
+				"ResourceCollectionRateExpert",
+			},
+		},
+		vaygr =
+		{
+			build =
+			{
+			},
+			research =
+			{
+			},
+		},
+		kushan =
+		{
+			build =
+			{
+			},
+			research =
+			{
+			},
+		},
+		taiidan =
+		{
+			build =
+			{
+			},
+			research =
+			{
+			},
+		},
+	}
 	-- "Start With" is set to "Mothership".
 	StartWithMothership = 
 	{
@@ -344,9 +395,9 @@ RestrictedBy =
 				"Hgn_C_Module_ResearchAdvanced",
 				"Hgn_MS_Module_ResearchAdvanced",
 				"Hgn_Carrier",
-				"Hgn_Shipyard",	-- aka "_research1_hyperspace1"
-				"hgn_shipyard_research1_hyperspace0",
+				"Hgn_Shipyard",	-- aka "_research1"
 				"Hgn_Shipyard_Elohim",
+				"Hgn_Shipyard_SPG",
 				"Hgn_Battlecruiser",
 			},
 			research =
@@ -377,6 +428,11 @@ RestrictedBy =
 			build =
 			{
 				"kus_researchship",
+				"kus_researchship_1",
+				"kus_researchship_2",
+				"kus_researchship_3",
+				"kus_researchship_4",
+				"kus_researchship_5",
 			},
 			research =
 			{
@@ -387,6 +443,11 @@ RestrictedBy =
 			build =
 			{
 				"tai_researchship",
+				"tai_researchship_1",
+				"tai_researchship_2",
+				"tai_researchship_3",
+				"tai_researchship_4",
+				"tai_researchship_5",
 			},
 			research =
 			{
@@ -403,8 +464,7 @@ RestrictedBy =
 				"Hgn_C_Module_FireControl_research0",
 				"Hgn_MS_Module_FireControl_research0",
 				"Hgn_Carrier_research0",
-				"Hgn_Shipyard_research0_hyperspace0",
-				"Hgn_Shipyard_research0_hyperspace1",
+				"Hgn_Shipyard_research0",
 				"Hgn_Battlecruiser_research0",
 			},
 			research =
@@ -462,8 +522,10 @@ RestrictedBy =
 				"Hgn_MS_Module_Hyperspace",
 				"Hgn_MS_Module_HyperspaceInhibitor",
 				"Hgn_MS_Sensors_DetectHyperspace",
-				"Hgn_Shipyard_research0_hyperspace1",
-				"Hgn_Shipyard_research1_hyperspace1",
+				"Hgn_Shipyard",
+				"Hgn_Shipyard_research0",
+				"Hgn_Shipyard_Elohim",
+				"Hgn_Shipyard_SPG",
 			},
 			research =
 			{
@@ -483,7 +545,6 @@ RestrictedBy =
 				"Vgr_MS_Sensors_DetectHyperspace",
 				"Vgr_HyperSpace_Platform",
 				"Vgr_Shipyard",
-				"Vgr_Shipyard_Makaan",
 			},
 			research =
 			{
@@ -516,8 +577,6 @@ RestrictedBy =
 		{
 			build =
 			{
-				"Hgn_Shipyard_research0_hyperspace0",
-				"Hgn_Shipyard_research1_hyperspace0",
 			},
 			research =
 			{
@@ -527,7 +586,6 @@ RestrictedBy =
 		{
 			build =
 			{
-				"Vgr_Shipyard_hyperspace0",
 			},
 			research =
 			{

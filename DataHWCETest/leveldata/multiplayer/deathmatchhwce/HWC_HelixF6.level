@@ -1,0 +1,143 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Helix Factor.7 (2-6) by Aknott",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"v 1.1 - January 17th, 2001",
+	"Email any comments to :",
+	"nicolasnaudet@yahoo.com",
+}
+
+LevelName = [[Helix Factor.7 (2-6)]]
+LevelFile = [[HelixF6]]
+SourceGame = "HWC"
+NumberOfPlayers = 6
+
+SensorsZoom = {50000, 175000,}
+UniverseSize = {100000, 100000, 65000, }
+
+LevelBackground = "mission15"
+LevelMusic = "15"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-32167.8, 67352.6, 865.9, 295.0,},
+	{47001.5, 68353.6, 23270.1, 235.0,},
+	{53972.8, -9925.3, 50599.5, 170.0,},
+	{30275.7, -79504.6, 13612.9, 110.0,},
+	{-47056.1, -57427.3, -7729.4, 50.0,},
+	{-72254.7, 11151.0, -45582.6, -9.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "smothership", {-32167.8, 67352.6, 865.9,}, 0, {0, 0, 295.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {47001.5, 68353.6, 23270.1,}, 1, {0, 0, 235.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {53972.8, -9925.3, 50599.5,}, 2, {0, 0, 170.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {30275.7, -79504.6, 13612.9,}, 3, {0, 0, 110.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-47056.1, -57427.3, -7729.4,}, 4, {0, 0, 50.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "smothership", {-72254.7, 11151.0, -45582.6,}, 5, {0, 0, -9.0,}, 0, 0, "race_sect", "null_formation",},
+	{5, "", "srecon", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "sworker", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+	{1, "dcrystal1", {41.3, 59385.9, -16454.9,},},
+	{1, "dcrystal1", {-30221.8, 57427.3, -36887.2,},},
+	{1, "dcrystal1", {1264.9, -54812.1, 11741.1,},},
+	{1, "dcrystal1", {29523.2, -41765.5, 13178.9,},},
+	{1, "dcrystal1", {55222.3, -22598.8, 15403.5,},},
+	{1, "dcrystal1", {70807.1, 9925.3, 21442.4,},},
+	{1, "dcrystal1", {-48892.9, 21373.1, -17217.9,},},
+	{1, "dcrystal1", {-43575.0, -6966.4, -29024.1,},},
+	{1, "dcrystal1", {-33856.9, -36787.1, -36026.2,},},
+	{1, "dcrystal1", {-15334.2, -67352.6, -28291.2,},},
+	{1, "dcrystal1", {33324.2, 33439.0, 30250.5,},},
+	{1, "dcrystal1", {19073.6, 48731.9, 7145.6,},},
+}
+
+Distributions =
+{
+	small =
+	{
+		asteroid0 = 1,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-13832.7, 60883.9, -27424.6,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{-47238.1, 47709.9, -43752.1,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{-72254.7, 11151.0, -45582.6,}, "sphere", "small", 21, 6000.0, 1000.0, 0.0, 0.0,},
+	{{-71698.9, -31744.3, -30384.2,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{-47056.1, -57427.3, -7729.4,}, "sphere", "small", 21, 6000.0, 1000.0, 0.0, 0.0,},
+	{{-14230.3, -59385.9, 8263.5,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{15725.5, -48731.9, 12945.8,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{42860.3, -33439.0, 13734.7,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{65205.0, -8192.1, 18207.7,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{70105.0, 30519.3, 23996.0,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{47001.5, 68353.6, 23270.1,}, "sphere", "small", 21, 6000.0, 1000.0, 0.0, 0.0,},
+	{{4889.5, 82803.0, 13833.4,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{-32167.8, 67352.6, 865.9,}, "sphere", "small", 21, 6000.0, 1000.0, 0.0, 0.0,},
+	{{-48127.8, 36787.8, -11307.8,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{-46923.1, 6966.4, -23224.6,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{-39357.5, -21372.4, -33733.7,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{-26121.2, -52691.8, -34519.1,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{-1460.2, -78229.2, -17321.5,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{30275.7, -79504.6, 13612.9,}, "sphere", "small", 21, 6000.0, 1000.0, 0.0, 0.0,},
+	{{52506.3, -51058.7, 41325.2,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{53972.8, -9925.3, 50599.5,}, "sphere", "small", 21, 6000.0, 1000.0, 0.0, 0.0,},
+	{{40951.4, 22598.8, 40121.9,}, "sphere", "small", 18, 3000.0, 1000.0, 0.0, 0.0,},
+	{{26175.1, 41765.5, 18978.4,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+	{{10801.0, 54812.1, -4774.7,}, "sphere", "small", 15, 2500.0, 1000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

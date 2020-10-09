@@ -1,0 +1,169 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"A bizarre vertical spiral reef of asteroids is the setting for short to medium length 2 player games.  The commander who can think and move easily in 3 dimensions will win this one.",
+	"",
+	"SETTINGS: Injections off, carriers only, no hyperspacing.",
+	"AUTHOR	: Hellhawk666",
+	"VERSION	: 1.0 (13 December 1999)",
+	"MAP	: 2 players",
+}
+
+LevelName = [[Spiral Reef (2)]]
+LevelFile = [[SpiralReef2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 130000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "ez07"
+LevelMusic = "14"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 0.0, 35000.0, 0.0,},
+	{0.0, 0.0, -35000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 0.0, 35000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 0.0, -35000.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroids =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 1,
+	},
+	dust =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{3236.0, 24574.0, -9600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -7.5,},
+	{{9486.0, 22900.0, -9200.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -22.5,},
+	{{15090.0, 19665.0, -8800.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -35.5,},
+	{{19666.0, 15090.0, -8400.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -52.5,},
+	{{22901.0, 9486.0, -8000.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -67.5,},
+	{{24575.0, 3235.0, -7600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -82.5,},
+	{{22901.0, -9486.0, -7200.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 67.5,},
+	{{24575.0, -3235.0, -6800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 82.5,},
+	{{19666.0, -15090.0, -6400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 52.5,},
+	{{15090.0, -19665.0, -6000.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 35.5,},
+	{{9486.0, -22900.0, -5600.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 22.5,},
+	{{3236.0, -24574.0, -5200.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 7.5,},
+	{{-3236.0, -24574.0, -4800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -7.5,},
+	{{-9486.0, -22900.0, -4400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -22.5,},
+	{{-15090.0, -19665.0, -4000.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -35.5,},
+	{{-19666.0, -15090.0, -3600.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -52.5,},
+	{{-22901.0, -9486.0, -3200.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -67.5,},
+	{{-24575.0, -3235.0, -2800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -82.5,},
+	{{-24575.0, 3235.0, -2400.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 82.5,},
+	{{-22901.0, 9486.0, -2000.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 67.5,},
+	{{-19666.0, 15090.0, -1600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 52.5,},
+	{{-15090.0, 19665.0, -1200.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 35.5,},
+	{{-9486.0, 22900.0, -800.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 22.5,},
+	{{-3236.0, 24574.0, -400.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 7.5,},
+	{{3236.0, 24574.0, 0.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -7.5,},
+	{{9486.0, 22900.0, 400.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -22.5,},
+	{{15090.0, 19665.0, 800.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -35.5,},
+	{{19666.0, 15090.0, 1200.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -52.5,},
+	{{22901.0, 9486.0, 1600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -67.5,},
+	{{24575.0, 3235.0, 2000.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -82.5,},
+	{{22901.0, -9486.0, 2400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 67.5,},
+	{{24575.0, -3235.0, 2800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 82.5,},
+	{{19666.0, -15090.0, 3200.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 52.5,},
+	{{15090.0, -19665.0, 3600.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 35.5,},
+	{{9486.0, -22900.0, 4000.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 22.5,},
+	{{3236.0, -24574.0, 4400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 7.5,},
+	{{-3236.0, -24574.0, 4800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -7.5,},
+	{{-9486.0, -22900.0, 5200.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -22.5,},
+	{{-15090.0, -19665.0, 5600.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -35.5,},
+	{{-19666.0, -15090.0, 6000.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -52.5,},
+	{{-22901.0, -9486.0, 6400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -67.5,},
+	{{-24575.0, -3235.0, 6800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -82.5,},
+	{{-24575.0, 3235.0, 7200.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 82.5,},
+	{{-22901.0, 9486.0, 7600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 67.5,},
+	{{-19666.0, 15090.0, 8000.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 52.5,},
+	{{-15090.0, 19665.0, 8400.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 35.5,},
+	{{-9486.0, 22900.0, 8800.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 22.5,},
+	{{-3236.0, 24574.0, 9200.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 7.5,},
+	{{3236.0, 24574.0, 9600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -7.5,},
+	{{9486.0, 22900.0, 10000.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -22.5,},
+	{{15090.0, 19665.0, 10400.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -35.5,},
+	{{19666.0, 15090.0, 10800.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -52.5,},
+	{{22901.0, 9486.0, 11200.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -67.5,},
+	{{24575.0, 3235.0, 11600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, -82.5,},
+	{{22901.0, -9486.0, 12000.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 67.5,},
+	{{24575.0, -3235.0, 12400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 82.5,},
+	{{19666.0, -15090.0, 12800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 52.5,},
+	{{15090.0, -19665.0, 13200.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 35.5,},
+	{{9486.0, -22900.0, 13600.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 22.5,},
+	{{3236.0, -24574.0, 14000.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, 7.5,},
+	{{-3236.0, -24574.0, 14400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -7.5,},
+	{{-9486.0, -22900.0, 14800.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -22.5,},
+	{{-15090.0, -19665.0, 15200.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -35.5,},
+	{{-19666.0, -15090.0, 15600.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -52.5,},
+	{{-22901.0, -9486.0, 16000.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -67.5,},
+	{{-24575.0, -3235.0, 16400.0,}, "cylinder", "asteroids", 20, 2000, 8000, 15, -82.5,},
+	{{-24575.0, 3235.0, 16800.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 82.5,},
+	{{-22901.0, 9486.0, 17200.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 67.5,},
+	{{-19666.0, 15090.0, 17600.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 52.5,},
+	{{-15090.0, 19665.0, 18000.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 35.5,},
+	{{-9486.0, 22900.0, 18400.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 22.5,},
+	{{-3236.0, 24574.0, 18800.0,}, "cylinder", "asteroids", 20, 2000, 8000, -15, 7.5,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dust", 500, 75000, 0.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

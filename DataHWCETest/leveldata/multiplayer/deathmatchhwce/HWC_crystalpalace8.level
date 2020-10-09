@@ -1,0 +1,138 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Tiidan Imperialist have are attempting crystal processing. They set up a research station, code name (Crystal Palace).  Beware this station is heavliy defended . map by teelan backgound by overkill(the drunken pirate clan)        ",
+	"",
+	"",
+	"",
+	"Settings: default.",
+}
+
+LevelName = [[CRYSTAL PALACE (8)]]
+LevelFile = [[crystalpalace8]]
+SourceGame = "HWC"
+NumberOfPlayers = 8
+
+SensorsZoom = {50000, 300000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "goldneb_btg"
+LevelMusic = "24"
+
+RUsRatio = 1
+
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-20906.0, -19276.0, 27150.0, 44.0,},
+	{-123.0, -22487.7, -18150.0, 87.0,},
+	{-32672.7, -177.7, 14320.0, 4.0,},
+	{-355.3, 27893.2, -15690.0, -88.0,},
+	{25227.2, 26278.3, 12650.0, -139.0,},
+	{35602.9, -222.5, -380.0, -179.0,},
+	{-27338.6, 21798.8, 1390.0, -44.0,},
+	{19896.7, -20075.4, -16930.0, 135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "smothership", {-20906.0, -19276.0, 27150.0,}, 0, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smothership", {-123.0, -22487.7, -18150.0,}, 1, {0, 0, 87.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smothership", {-32672.7, -177.7, 14320.0,}, 2, {0, 0, 4.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smothership", {-355.3, 27893.2, -15690.0,}, 3, {0, 0, -88.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smothership", {25227.2, 26278.3, 12650.0,}, 4, {0, 0, -139.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smothership", {35602.9, -222.5, -380.0,}, 5, {0, 0, -179.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smothership", {-27338.6, 21798.8, 1390.0,}, 6, {0, 0, -44.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "smothership", {19896.7, -20075.4, -16930.0,}, 7, {0, 0, 135.0,}, 0, 0, "race_sect", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{2, "", "tstandardfrigate", {0.0, 0.0, 2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "broad_formation",},
+	{2, "", "tstandardfrigate", {-1000.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "broad_formation",},
+	{1, "", "tstandardfrigate", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "trresearchstation", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_traders", "null_formation",},
+	{2, "", "tstandardfrigate", {1000.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "null_formation",},
+	{2, "", "tstandardfrigate", {0.0, 0.0, -3000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tgravwellgenerator", {0.0, -1000.0, 1000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "null_formation",},
+	{1, "", "tgravwellgenerator", {0.0, 1000.0, 2000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "null_formation",},
+	{3, "", "tresourcecollector", {-3000.0, 1000.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "delta_formation",},
+	{1, "", "tcarrier", {3000.0, -1250.0, -1000.0,}, -1, {0, 0, 0.0,}, 0, 0, "race_taidan", "null_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+	{1, "dcrystal0", {201.8, 4216.4, 3070.0,},},
+	{5, "dcrystal0", {655.0, -1615.0, 1900.0,},},
+	{5, "dcrystal0", {-2310.0, 2595.0, 2015.0,},},
+	{5, "dcrystal0", {-415.0, -1635.0, 6480.0,},},
+}
+
+Distributions =
+{
+	type0 =
+	{
+		asteroid0 = 1,
+		asteroid1 = 4,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+	type3 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+		dustcloud4 = 0,
+		dustcloud5 = 0,
+		dustcloud6 = 0,
+		dustcloud7 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{17.7, 3.9, 0.0,}, "cylinder", "type0", 10, 2500.0, 1000.0, 0.0, 0.0,},
+	{{29.6, -4497.6, 0.0,}, "cylinder", "type3", 5, 1270.0, 950.0, 0.0, 0.0,},
+	{{210.7, 8535.2, 0.0,}, "cylinder", "dust", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{-1385.0, -1385.0, 0.0,}, "rectangle", "type0", 200, 100000.0, 5000.0, 5000.0, 0.0,},
+	{{30450.0, 20925.0, -6215.0,}, "rectangle", "type0", 185, 100000.0, 5000.0, 5000.0, -40.0,},
+	{{0.0, -29405.0, 8335.0,}, "rectangle", "type0", 200, 100000.0, 5000.0, 5000.0, -15.0,},
+	{{0.0, -10835.0, 1355.0,}, "rectangle", "type0", 300, 100000.0, 5000.0, 5000.0, -1.7,},
+	{{0.0, 8335.0, -75.0,}, "rectangle", "type0", 199, 100000.0, 5000.0, 5000.0, -1.7,},
+	{{-9345.0, 29295.0, 850.0,}, "rectangle", "type0", 200, 100000.0, 5000.0, 5000.0, -15.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,141 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Upset the balance of power. Strike multiple, less significant targets to weaken your opponent. Good for intermediate to advanced players.",
+	"",
+	"Settings: Unit Capping Off, Crates Off, Small Bounties, Large Starting Resources.",
+}
+
+LevelName = [[Nexus (2)]]
+LevelFile = [[Nexus2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 140000,}
+UniverseSize = {200000, 200000, 60000, }
+
+LevelBackground = "ez02"
+LevelMusic = "11"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-115000.0, 0.0, 0.0, 0.0,},
+	{115000.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {115000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{7, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-115000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{7, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	tiny =
+	{
+		asteroid0 = 40,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	asteroidcentre =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{101926.2, 0.0, 0.0,}, "cylinder", "dustcloudcentre", 18, 5000.0, 50000.0, -20.0, -90.0,},
+	{{107588.7, 49219.9, -17914.6,}, "cylinder", "dustcloudcentre", 12, 5000.0, 50000.0, -19.7, -100.6,},
+	{{107588.7, -49219.9, 17914.6,}, "cylinder", "dustcloudcentre", 12, 5000.0, 50000.0, -19.5, -77.3,},
+	{{101926.2, 0.0, 0.0,}, "cylinder", "tiny", 16, 7500.0, 50000.0, -20.0, -90.0,},
+	{{107588.7, 49220.0, -17914.6,}, "cylinder", "tiny", 16, 7500.0, 50000.0, -19.6, -101.7,},
+	{{107588.7, -49219.9, 17914.6,}, "cylinder", "tiny", 16, 7500.0, 50000.0, -19.5, -77.3,},
+	{{138733.3, 114403.4, -41639.4,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -17.4, -120.5,},
+	{{135902.0, -117063.4, 42607.6,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -18.2, -64.6,},
+	{{195525.5, 198266.3, -72163.0,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -16.1, -127.7,},
+	{{187412.4, -198176.2, 72130.3,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -15.4, -49.2,},
+	{{305053.3, 305001.3, -111011.4,}, "cylinder", "tiny", 16, 7500.0, 200000.0, -13.2, -139.8,},
+	{{300996.7, -297286.1, 108203.3,}, "cylinder", "tiny", 16, 7500.0, 200000.0, -12.2, -36.3,},
+	{{-101926.2, 0.0, 0.0,}, "cylinder", "tiny", 16, 7500.0, 50000.0, -20.0, 90.0,},
+	{{-107588.8, -49220.1, -17914.6,}, "cylinder", "tiny", 16, 7500.0, 50000.0, -19.6, 78.3,},
+	{{-107588.8, 49220.0, 17914.6,}, "cylinder", "tiny", 16, 7500.0, 50000.0, -19.5, 102.7,},
+	{{-138733.4, -114403.5, -41639.5,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -17.4, 59.5,},
+	{{-135902.0, 117063.5, 42607.6,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -18.2, 115.4,},
+	{{-195525.7, -198266.7, -72163.1,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -16.1, 52.3,},
+	{{-187412.5, 198176.4, 72130.3,}, "cylinder", "tiny", 16, 7500.0, 100000.0, -15.4, 130.8,},
+	{{-305053.5, -305001.8, -111011.6,}, "cylinder", "tiny", 16, 7500.0, 200000.0, -13.2, 40.2,},
+	{{-300997.0, 297286.3, 108203.4,}, "cylinder", "tiny", 16, 7500.0, 200000.0, -12.2, 143.7,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroidcentre", 64, 15000.0, 90000.0, 0.0, 0.0,},
+	{{68592.5, -140103.8, 18972.4,}, "sphere", "dustcloudcentre", 14, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-107588.8, 49220.0, 17914.6,}, "cylinder", "dustcloudcentre", 12, 5000.0, 50000.0, -19.5, 102.7,},
+	{{-107588.8, -49219.9, -17914.6,}, "cylinder", "dustcloudcentre", 12, 5000.0, 50000.0, -19.7, 79.4,},
+	{{-101926.2, 0.0, 0.0,}, "cylinder", "dustcloudcentre", 18, 5000.0, 50000.0, -20.0, 90.0,},
+	{{-65673.7, 129887.9, -17513.0,}, "sphere", "dustcloudcentre", 14, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-16053.6, -87564.9, 5837.7,}, "sphere", "dustcloudcentre", 14, 5000.0, 10000.0, 0.0, 0.0,},
+	{{32107.1, 84646.1, -5837.7,}, "sphere", "dustcloudcentre", 14, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 384332.3,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+	{{0.0, 0.0, -397700.8,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+	{{0.0, 391016.4, -6684.1,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+	{{0.0, -387674.3, -6684.1,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+	{{0.0, -277387.7, 270703.6,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+	{{0.0, 280729.6, 270703.5,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+	{{0.0, -277387.6, -287414.0,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+	{{0.0, 280729.6, -287414.1,}, "rectangle", "tiny", 24, 300000.0, 150000.0, 50000.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

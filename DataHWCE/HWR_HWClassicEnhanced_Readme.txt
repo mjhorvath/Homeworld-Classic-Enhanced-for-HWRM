@@ -1,9 +1,9 @@
 ﻿Caption:    Homeworld Classic Enhanced for Homeworld Remastered
-Version:    2.3.2
+Version:    2.4.0
 Authors:    Mikali, Luke Moloney (original version of HWC mod) and many, many 
             individual map authors
 Created:    2011/11/18
-Updated:    2020/10/03
+Updated:    2020/10/09
 Website:    http://isometricland.net/homeworld/homeworld.php
 
 Steam:      For HWRM
@@ -53,7 +53,7 @@ directory, adding "-moddatapath DataHWCE -overrideBigFile -luatrace -traceHODs"
 to your desktop shortcut's "Target" field. I recommend also installing the 2.3 
 Players Patch mod beforehand. The installation method for the 2.3 Players Patch 
 mod depends on the version of the mod. (E.g. the Steam version, the BIG file 
-version, or the loose files and folders from GitHub.)
+version, or loose files and folders.)
 
 DOCUMENTATION
 An extended online version of this documentation (as well as the mod's source 
@@ -165,8 +165,13 @@ for everyone on the same team.
 
 CURRENTLY THE AI DOES NOT KNOW HOW TO DEAL WITH THE DEFINED ROLES SETTING. IT 
 CAN FIGHT, BUT IT IS UNABLE TO BUILD OR RESEARCH PROPERLY. THUS, THIS MODE IS 
-ONLY SUITABLE FOR MATCHES WHERE - AT THE VERY LEAST - THE "PRODUCTION/CAPITAL" 
-ROLES ARE ASSIGNED TO HUMAN PLAYERS.
+ONLY SUITABLE FOR MATCHES WHERE, AT THE VERY LEAST, THE "PRODUCTION/CAPITAL" 
+ROLES ARE ASSIGNED TO HUMAN PLAYERS AND NOT THE AI.
+
+DEFINED ROLES MODE HAS BEEN DISABLED BECAUSE THERE ARE NO LONGER ENOUGH 
+GAMETYPE MENU OPTIONS TO SUPPORT THIS MODE. THERE IS A HARDCODED CAP OF 32 
+SETTINGS IN THE GAMETYPE MENU, AND THE DEFINED ROLES MODE PUTS THIS MOD OVER 
+THAT LIMIT. MAYBE GEARBOX WILL FIX THE HARDCODED CAP IN THE FUTURE.
 
 BENTUSI ROULETTE
 In this game-mode a selectable number of research options (up to seven) are 
@@ -180,14 +185,9 @@ This mode gives the player extended starting fleet options. You can choose from
 several different fleet makeups, each composed of a different assortment of 
 starting ships, subsystems and research.
 
-SPECIAL FLEETS MODE HAS BEEN DISABLED BECAUSE THERE ARE NO LONGER ENOUGH 
-GAMETYPE MENU OPTIONS TO SUPPORT THIS MODE. THERE IS A HARD CAP OF 32 SETTINGS 
-IN THE MENU, AND THE SPECIAL FLEETS MODE PUTS THIS MOD OVER THE LIMIT. MAYBE 
-GEARBOX WILL FIX THIS IN THE FUTURE.
-
-SPECIAL FLEETS MODE ALSO CURRENTLY IGNORES/OVERRIDES THE START WITH, RESOURCING 
-OFF, RESEARCH OFF AND HYPERSPACE OFF SETTINGS UNTIL I CAN THINK OF A BETTER 
-SOLUTION TO A PROBLEM.
+SPECIAL FLEETS MODE CURRENTLY IGNORES/OVERRIDES THE START WITH, RESOURCING OFF, 
+RESEARCH OFF AND HYPERSPACE OFF SETTINGS UNTIL I CAN THINK OF A BETTER SOLUTION 
+TO A PROBLEM WITH THE MOD. [NEED TO DESCRIBE PROBLEM HERE.]
 
 GAME SPEED
 This setting allows the host to slow the game down to a fraction of its default 
@@ -432,16 +432,24 @@ TO DO
 • Need to test this mod in multiplayer against human players, not just in 
   skirmish battles. This can be done on one computer by running multiple 
   instances of HWRM, apparently.
-• "HW1_Empty Sphere4.level" has a problem with "nan" values. Some calculation 
+• "HW1_Empty Sphere4.level" has a problem with "nan" values. Some sort of math 
   error was made during conversion.
-• Not sure if "Universe_RandomPlayerList()" is really necessary. Is it more 
-  fair than just iterating from 0 to Player_Count?
-• Harvestable dust clouds should be working properly now but they are not being 
-  used in any of the mod's maps.
-• Pixel representations of asteroids look ugly. Wrong color, and slightly too 
+• Not sure if "Universe_RandomPlayerList()" is really necessary. Is it really 
+  more fair than simply iterating from 0 to Player_Count?
+• Harvestable dust clouds should be working properly now as of the latest patch 
+  but they are not being used in any of the mod's maps.
+• Pixel representations of asteroids look ugly. Ugly color, and slightly too 
   large.
-• Replace "Defined Roles" mode with "Special Fleets" since AI is unable to deal 
-  with the former. Re-release "Defined Roles" as its own separate mod.
+• Re-release "Defined Roles" as its own separate mod maybe compatible with this 
+  one.
+• Make sure the correct numbered research ships are being granted to Kushan and 
+  Taiidan.
+• Make sure "Special Fleets" doesn't grant restricted items.
+• Make sure "research0" versions of Hiigaran capital ships are referenced 
+  properly in other ships' .lua scripts where needed. Ship names are often hard-
+  coded in these files.
+• "Research Off" rule tries to grant researches located in "ai_properties.lua" 
+  and fails with errors.
 
 
 ================================================================================
@@ -449,19 +457,30 @@ TO DO
 
 CHANGE LOG
 
-2.3.2 --- 2020/10/03
+2.4.0 --- 2020/10/09
 • Created many scripts and a spreadsheet for a planned "modular ships" version 
-  of the mod. I think I will be abandoning these efforts soon, however.
-• This involves the GitHub repo, only.
+  of this mod. These files exist in the GitHub repository only as of now. This 
+  code will form the basis of version 3.0.0 of the mod once completed.
+• Moved some miscellaneous as-of-yet non-functional "Defined Roles"-related AI 
+  scripts to the "source" folder.
+• Disabled "Defined Roles" mode and re-enabled "Special Fleets" mode. The AI 
+  has no idea how to deal with the former, but is able to deal with the latter 
+  perfectly fine. Updated docs to reflect this.
+• "Special Fleets" mode now spawns the correct research ships for the Kushan 
+  and Taiidan races. These ships are now instantly spawned in formation with 
+  the mothership instead of made to exit out of the shiphold.
+• Removed hyperspace-less shipyards as there was no point to having them. Fixed 
+  ship names to reflect this.
 
 2.3.1 --- 2020/07/15
-• Moved data files into a subfolder of the game's Git directory.
-• This involves the GitHub repo, only.
+• Moved data files into a subfolder of the game's GitHub directory. This means 
+  these files will longer be packaged in the BIG file along with the rest of 
+  the mod via Steam, and will exist only in the GitHub repository.
 
 2.3.0 --- 2016/08/15
-• Switched to a new and better PRNG.
+• Switched to a newer and better PRNG.
 • Fixed a bug in "writestats.lua".
-• Discovered that I had to imnplement GearBox's "cpuplayers" rules in order for 
+• Discovered that I had to implement GearBox's "cpuplayers" rules in order for 
   the AI to build anything. Did this, and implemented the "norushtime" scripts 
   in the process.
 

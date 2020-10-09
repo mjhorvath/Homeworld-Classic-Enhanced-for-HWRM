@@ -1,0 +1,211 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Volans Fleet Wars ",
+	"Fear not swarmers and wallers volans comes with his caps",
+	"to decimate your puny fleets :)",
+	"",
+	"Map By: &L&a&g&s&y",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Volans Fleet Wars (2,4,6,or8)]]
+LevelFile = [[Volans Fleet Wars8]]
+SourceGame = "HW1"
+NumberOfPlayers = 8
+
+SensorsZoom = {20000, 250000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez05"
+LevelMusic = "34"
+
+RUsRatio = 1
+
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","r1","r1",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-60000.0, 0.0, 0.0, 0.0,},
+	{-60000.0, -60000.0, 0.0, 0.0,},
+	{-45000.0, 50000.0, 0.0, 0.0,},
+	{-10000.0, 70000.0, 0.0, -90.0,},
+	{60000.0, 0.0, 0.0, -180.0,},
+	{60000.0, 60000.0, 0.0, -180.0,},
+	{45000.0, -50000.0, 0.0, -180.0,},
+	{10000.0, -70000.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-60000.0, -60000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-60000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-45000.0, 50000.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-10000.0, 70000.0, 0.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {60000.0, 0.0, 0.0,}, 4, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {60000.0, 60000.0, 0.0,}, 5, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {45000.0, -50000.0, 0.0,}, 6, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {10000.0, -70000.0, 0.0,}, 7, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 4,
+		asteroid4 = 0,
+	},
+	neb =
+	{
+		nebula0 = 20,
+		nebula1 = 11,
+		nebula2 = 15,
+		nebula3 = 20,
+		nebula4 = 30,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 3,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 1,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 0,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, -15000.0, 0.0,}, "rectangle", "rubble", 40, 20000.0, 2000.0, 20000.0, 0.0,},
+	{{0.0, 15000.0, 0.0,}, "rectangle", "rubble", 40, 20000.0, 2000.0, 20000.0, 0.0,},
+	{{-15000.0, 0.0, 0.0,}, "rectangle", "rubble", 40, 2000.0, 20000.0, 20000.0, 0.0,},
+	{{15000.0, 0.0, 0.0,}, "rectangle", "rubble", 40, 2000.0, 20000.0, 20000.0, 0.0,},
+	{{0.0, 0.0, 15000.0,}, "rectangle", "rubble", 40, 20000.0, 20000.0, 2000.0, 0.0,},
+	{{0.0, 0.0, -15000.0,}, "rectangle", "rubble", 40, 20000.0, 20000.0, 2000.0, 0.0,},
+	{{-70000.0, 0.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{-68000.0, 22000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -100.0,},
+	{{-62000.0, 43000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -110.0,},
+	{{-52500.0, 63000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -120.0,},
+	{{-32000.0, 80000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, 20.0,},
+	{{-11000.0, 84000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 40000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{0.0, 62000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{0.0, 84000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{70000.0, 0.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{68000.0, -22000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -100.0,},
+	{{62000.0, -43000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -110.0,},
+	{{52500.0, -63000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -120.0,},
+	{{32000.0, -80000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, 20.0,},
+	{{11000.0, -84000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 10000.0, 0.0, 0.0,},
+	{{0.0, -40000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{0.0, -62000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{0.0, -84000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{-15000.0, -25000.0, 0.0,}, "cylinder", "roid", 6, 2000.0, 10000.0, 0.0, 45.0,},
+	{{-24000.0, -34500.0, 0.0,}, "cylinder", "roid", 6, 2000.0, 10000.0, 0.0, 45.0,},
+	{{-32815.2, -43568.2, 0.0,}, "cylinder", "roid", 6, 2000.0, 10000.0, 0.0, 45.0,},
+	{{-43197.0, -53950.0, 0.0,}, "cylinder", "roid", 8, 3000.0, 10000.0, 0.0, 45.0,},
+	{{15000.0, 25000.0, 0.0,}, "cylinder", "roid", 6, 2000.0, 10000.0, 0.0, 45.0,},
+	{{24000.0, 34500.0, 0.0,}, "cylinder", "roid", 6, 2000.0, 10000.0, 0.0, 45.0,},
+	{{32815.0, 43568.0, 0.0,}, "cylinder", "roid", 6, 2000.0, 10000.0, 0.0, 45.0,},
+	{{43197.0, 53950.0, 0.0,}, "cylinder", "roid", 8, 3000.0, 10000.0, 0.0, 45.0,},
+	{{-70000.0, -22000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{-70000.0, -44000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{70000.0, 22000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{70000.0, 44000.0, 0.0,}, "cylinder", "rock", 8, 2500.0, 20000.0, 0.0, -90.0,},
+	{{-70000.0, -10000.0, 0.0,}, "cylinder", "dust", 6, 3000.0, 15000.0, 0.0, -90.0,},
+	{{-70000.0, -32000.0, 0.0,}, "cylinder", "dust", 6, 3000.0, 15000.0, 0.0, -90.0,},
+	{{70000.0, 10000.0, 0.0,}, "cylinder", "dust", 6, 3000.0, 15000.0, 0.0, -90.0,},
+	{{70000.0, 32000.0, 0.0,}, "cylinder", "dust", 6, 3000.0, 15000.0, 0.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "neb", 50, 10000.0, 10000.0, 10000.0, 800,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

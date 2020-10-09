@@ -1,0 +1,120 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Dolterious 4 players only",
+	"enjoy this crazy dolty map from your dolty pal kahless :)",
+	"",
+	"",
+	"AUTHOR: &Kahless",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Dolterious (4)]]
+LevelFile = [[Dolterious4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {30000, 200000,}
+UniverseSize = {200000, 200000, 70000, }
+
+LevelBackground = ""
+LevelMusic = "19"
+
+RUsRatio = 1
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{44000.0, -31400.0, 0.0, 180.0,},
+	{44000.0, 31400.0, 0.0, 180.0,},
+	{-44000.0, 31400.0, 0.0, 0.0,},
+	{-44000.0, -31400.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {44000.0, 31400.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {44000.0, -31400.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-44000.0, 31400.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-44000.0, -31400.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"shipwreck", {0.0, 0.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 2,
+		asteroid1 = 3,
+		asteroid2 = 4,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+	neb =
+	{
+		nebula0 = 20,
+		nebula1 = 11,
+		nebula2 = 15,
+		nebula3 = 20,
+		nebula4 = 30,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{50564.0, 43695.0, 0.0,}, "cylinder", "rock", 10, 1000.0, 7500.0, -44.0, 30.0,},
+	{{52281.0, -39306.0, 0.0,}, "cylinder", "rock", 10, 1000.0, 7500.0, -44.0, -30.0,},
+	{{80521.0, -41596.0, 0.0,}, "cylinder", "rock", 10, 1000.0, 7500.0, 0.0, -90.0,},
+	{{80520.6, 45030.5, 0.0,}, "cylinder", "rock", 10, 1000.0, 7500.0, 0.0, -90.0,},
+	{{-51327.0, 41787.0, 0.0,}, "cylinder", "rock", 10, 1000.0, 7500.0, 44.0, -30.0,},
+	{{-56288.0, -47511.0, 0.0,}, "cylinder", "rock", 10, 1000.0, 7500.0, 44.0, 30.0,},
+	{{-80711.0, -43313.0, 0.0,}, "cylinder", "rock", 10, 1000.0, 7500.0, 0.0, -90.0,},
+	{{-79184.5, 44839.8, 0.0,}, "cylinder", "rock", 5, 1000.0, 7500.0, 0.0, -90.0,},
+	{{-2.0, -435.0, 0.0,}, "cylinder", "rock", 10, 2500.0, 50000.0, 0.0, -60.0,},
+	{{23301.0, -42597.0, 0.0,}, "cylinder", "rock", 10, 2500.0, 50000.0, -30.0, -40.0,},
+	{{-24974.0, 44597.0, 0.0,}, "cylinder", "rock", 10, 2500.0, 50000.0, 30.0, -40.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "neb", 20, 51000.0, 2000.0, 2000.0, 0.0,},
+	{{-572.0, -191.0, 0.0,}, "nebula", "neb", 20, 51000.0, 2000.0, 2000.0, 0.0,},
+	{{191.0, -191.0, 0.0,}, "nebula", "neb", 20, 51000.0, 2000.0, 2000.0, 0.0,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

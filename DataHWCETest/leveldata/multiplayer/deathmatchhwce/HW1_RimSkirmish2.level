@@ -1,0 +1,117 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"RimSkirmish 1vs1",
+	"Your battle group has detected an enemy force of equal strength in your area.  Resources are extremely limited, so you must use cunning and strategy to defeat your enemy.",
+	"Settings: Crates off.",
+	"AUTHOR: LordofBones (boehmdeath@hotmail.com)",
+	"VERSION: 1.0 (May 2000)",
+}
+
+LevelName = [[RimSkirmish2]]
+LevelFile = [[RimSkirmish2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {25000, 50000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez08"
+LevelMusic = "10"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{39008.0, -358.0, 30087.0, -180.0,},
+	{-39930.0, -358.0, -29440.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-39930.0, -358.0, -29440.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{10, "", "heavyinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "claw_formation",},
+	{10, "", "attackbomber", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "claw_formation",},
+	{3, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{4, "", "ioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{6, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "missiledestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "dddfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "repaircorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "claw_formation",},
+	{1, "", "mothership", {39008.0, -358.0, 30087.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{10, "", "heavyinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "claw_formation",},
+	{10, "", "attackbomber", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "claw_formation",},
+	{3, "", "standarddestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{4, "", "ioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{6, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{1, "", "missiledestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "dddfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{4, "", "repaircorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "claw_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"shipwreck", {301.0, 321.0, 0.0,}, -1, {0, -60.0, -35.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 5,
+		dustcloud2 = 3,
+		dustcloud3 = 3,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-15140.0, -15927.0, -15000.0,}, "sphere", "asteroid", 50, 7500.0, 15000.0, 0.0, 0.0,},
+	{{-15140.0, 15140.0, -14354.0,}, "sphere", "asteroid", 50, 7500.0, 15000.0, 0.0, 0.0,},
+	{{20252.0, -15533.0, 14747.0,}, "sphere", "asteroid", 50, 7500.0, 15000.0, 0.0, 0.0,},
+	{{20252.0, 15140.0, 15140.0,}, "sphere", "asteroid", 50, 7500.0, 15000.0, 0.0, 0.0,},
+	{{-9714.0, 0.0, 20203.0,}, "sphere", "dustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{17719.2, 0.0, -17476.7,}, "sphere", "dustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

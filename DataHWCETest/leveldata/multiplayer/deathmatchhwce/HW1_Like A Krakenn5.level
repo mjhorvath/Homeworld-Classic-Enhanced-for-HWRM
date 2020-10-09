@@ -1,0 +1,160 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Like A Krakken You Die",
+	"this map will test your skillz for sure.",
+	"all fighters have been disabled except bombers",
+	"and all corvettes been disabled except for multi gun",
+	"corvettes",
+	"",
+	"",
+	"Map By: &L&a&g&s&y",
+}
+
+LevelName = [[Like A Krakenn You Die (2-8)]]
+LevelFile = [[Like A Krakenn5]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez05"
+LevelMusic = "26"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-50000.0, 0.0, -20000.0, 0.0,},
+	{0.0, -50000.0, -20000.0, 90.0,},
+	{50000.0, 0.0, 20000.0, -180.0,},
+	{0.0, -50000.0, 20000.0, 90.0,},
+	{0.0, 50000.0, -20000.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, -50000.0, -20000.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-50000.0, 0.0, -20000.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -50000.0, 20000.0,}, 3, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 50000.0, -20000.0,}, 4, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {50000.0, 0.0, 20000.0,}, 2, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 1,
+		asteroid3 = 5,
+		asteroid4 = 0,
+	},
+	rocky =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 3,
+		asteroid4 = 0,
+	},
+	krakenn =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 4,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 3,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-45000.0, 12000.0, -20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 80.0,},
+	{{-31000.0, 31000.0, -20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 47.0,},
+	{{-12000.0, 45000.0, -20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 20.0,},
+	{{31000.0, -31000.0, -20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 47.0,},
+	{{45000.0, -12000.0, -20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 80.0,},
+	{{12000.0, -45000.0, -20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 20.0,},
+	{{0.0, 0.0, -11000.0,}, "cylinder", "rocky", 15, 4000.0, 20000.0, 90.0, 180.0,},
+	{{-30000.0, 5000.0, -20000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, 0.0, 0.0,},
+	{{30000.0, -5000.0, -20000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, 0.0, 0.0,},
+	{{5000.0, -10000.0, -30000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, 40.0, -90.0,},
+	{{-5000.0, 10000.0, -30000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, -40.0, -90.0,},
+	{{-45000.0, 12000.0, -20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 80.0,},
+	{{45000.0, -12000.0, -20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 80.0,},
+	{{-12000.0, 45000.0, -20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 20.0,},
+	{{12000.0, -45000.0, -20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 20.0,},
+	{{12000.0, -45000.0, 20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 20.0,},
+	{{-12000.0, 45000.0, 20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 20.0,},
+	{{45000.0, -12000.0, 20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 80.0,},
+	{{-45000.0, 12000.0, 20000.0,}, "cylinder", "dust", 10, 1000.0, 10000.0, 0.0, 80.0,},
+	{{-5000.0, 10000.0, 30000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, 40.0, -90.0,},
+	{{5000.0, -10000.0, 30000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, -40.0, -90.0,},
+	{{30000.0, -5000.0, 20000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, 0.0, 0.0,},
+	{{-30000.0, 5000.0, 20000.0,}, "cylinder", "krakenn", 15, 1500.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 11000.0,}, "cylinder", "rocky", 15, 4000.0, 20000.0, 90.0, 180.0,},
+	{{12000.0, -45000.0, 20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 20.0,},
+	{{45000.0, -12000.0, 20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 80.0,},
+	{{31000.0, -31000.0, 20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 47.0,},
+	{{-12000.0, 45000.0, 20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 20.0,},
+	{{-31000.0, 31000.0, 20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 47.0,},
+	{{-45000.0, 12000.0, 20000.0,}, "cylinder", "rubble", 15, 2500.0, 15000.0, 0.0, 80.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

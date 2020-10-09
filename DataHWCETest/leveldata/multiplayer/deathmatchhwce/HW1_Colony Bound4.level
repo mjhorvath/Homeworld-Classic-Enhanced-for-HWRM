@@ -1,0 +1,126 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Colony Bound 2 - 4 ",
+	"The esablishment of colonies is your only key to survival.  Harvest what you can and crush your foes. ",
+	"",
+	"Settings: You'll find out.",
+	"",
+	"AUTHOR	: Alan Chavira",
+	"E-mail  : XxCHScrazyGUYxx@aol.com ",
+}
+
+LevelName = [[Colony Bound(2-4)]]
+LevelFile = [[Colony Bound4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {30000, 300000,}
+UniverseSize = {290000, 290000, 290000, }
+
+LevelBackground = "cool"
+LevelMusic = "16"
+
+RUsRatio = 1/2
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r2","r2","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-115000.0, 0.0, 0.0, 0.0,},
+	{115000.0, 0.0, 0.0, 180.0,},
+	{0.0, 115000.0, 0.0, -90.0,},
+	{0.0, -115000.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {115000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{5, "", "multiguncorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "minelayercorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {150000.0, 150000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-115000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{5, "", "multiguncorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "minelayercorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "carrier", {-150000.0, -150000.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "mothership", {0.0, 115000.0, 0.0,}, 2, {0, 0, -90.0,}, 0, 0, "r2", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{5, "", "multiguncorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "minelayercorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "carrier", {-150000.0, 150000.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "mothership", {0.0, -115000.0, 0.0,}, 3, {0, 0, 90.0,}, 0, 0, "r2", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{5, "", "multiguncorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "minelayercorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "carrier", {150000.0, -150000.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 1,
+		asteroid1 = 5,
+		asteroid2 = 3,
+		asteroid3 = 4,
+		asteroid4 = 3,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 3,
+		dustcloud2 = 2,
+		dustcloud3 = 2,
+		dustcloud4 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-150000.0, 150000.0, 0.0,}, "sphere", "asteroid", 100, 15000.0, 15000.0, 0.0, 0.0,},
+	{{-150000.0, 150000.0, 0.0,}, "sphere", "dust", 150, 10000.0, 10000.0, 0.0, 0.0,},
+	{{-150000.0, -150000.0, 0.0,}, "sphere", "asteroid", 100, 15000.0, 15000.0, 0.0, 0.0,},
+	{{-150000.0, -150000.0, 0.0,}, "sphere", "dust", 150, 10000.0, 10000.0, 0.0, 0.0,},
+	{{150000.0, -150000.0, 0.0,}, "sphere", "asteroid", 100, 15000.0, 15000.0, 0.0, 0.0,},
+	{{150000.0, -150000.0, 0.0,}, "sphere", "dust", 150, 10000.0, 10000.0, 0.0, 0.0,},
+	{{150000.0, 150000.0, 0.0,}, "sphere", "asteroid", 100, 15000.0, 15000.0, 0.0, 0.0,},
+	{{150000.0, 150000.0, 0.0,}, "sphere", "dust", 150, 10000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 150, 30000.0, 30000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

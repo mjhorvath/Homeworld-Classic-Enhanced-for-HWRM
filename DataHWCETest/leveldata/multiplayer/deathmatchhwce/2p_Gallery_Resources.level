@@ -1,0 +1,244 @@
+-- Modified Resource Gallery by Mikali
+-- Homepage: http://isometricland.net/homeworld/homeworld.php
+
+dofilepath("data:scripts/utilfunc.lua")
+
+levelDesc = "<c=FF0033>000 Test Resource Gallery</c>"
+maxPlayers = 2
+player = {}
+loadHW1 = false
+loadMMM = false
+loadHWCE = true
+
+for k = 0, maxPlayers - 1 do
+	player[k] = {id = k, name = "", raceName = "Vaygr", resources = 1500, raceID = 2, startPos = 1,}
+end
+
+pebbles =
+{
+	"Pebble_0",
+	"Pebble_1",
+	"Pebble_2",
+	loadMMM or loadHWCE and "pebble_m_0" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, HW1RM does not use pebbles
+	loadMMM or loadHWCE and "pebble_m_1" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, HW1RM does not use pebbles
+	loadMMM or loadHWCE and "pebble_m_2" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, HW1RM does not use pebbles
+}
+asteroids =
+{
+	"Asteroid_1",
+	"Asteroid_2",
+	"Asteroid_3",
+	"Asteroid_4",
+	"Asteroid_5",
+	"asteroid_4_piece01",
+	"asteroid_4_piece02",
+	"asteroid_4_piece03",
+	"asteroid_5_piece01",
+	"asteroid_5_piece02",
+	"asteroid_5_piece03",
+	loadHW1 and "asteroid0" or nil,						-- HW1RM campaign only
+	loadHW1 and "asteroid1" or nil,						-- HW1RM campaign only
+	loadHW1 and "asteroid2" or nil,						-- HW1RM campaign only
+	loadHW1 and "asteroid3" or nil,						-- HW1RM campaign only
+	loadHW1 and "asteroid4" or nil,						-- HW1RM campaign only
+	loadHW1 and "m06_killer_asteroid3" or nil,			-- HW1RM campaign only
+	loadHW1 and "m06_killer_asteroid4" or nil,			-- HW1RM campaign only
+	loadMMM and "asteroid_m_1" or nil,		-- MikaliMaps only
+	loadMMM and "asteroid_m_2" or nil,		-- MikaliMaps only
+	loadMMM and "asteroid_m_3" or nil,		-- MikaliMaps only
+	loadMMM and "asteroid_m_4" or nil,		-- MikaliMaps only
+	loadMMM and "asteroid_m_5" or nil,		-- MikaliMaps only
+	loadHWCE and "asteroid_m_0" or nil,		-- Homeworld Classic Enhanced only
+	loadHWCE and "asteroid_m_1" or nil,		-- Homeworld Classic Enhanced only
+	loadHWCE and "asteroid_m_2" or nil,		-- Homeworld Classic Enhanced only
+	loadHWCE and "asteroid_m_3" or nil,		-- Homeworld Classic Enhanced only
+	loadHWCE and "asteroid_m_4" or nil,		-- Homeworld Classic Enhanced only
+}
+salvage =
+{
+	"container",
+	"headshotpebble",
+	"headshotpebble0",
+	"headshotpebble1",
+	"hgn_hscore",
+	"Slv_Chunk_Lrg01",
+	"Slv_Chunk_Lrg02",
+	"Slv_Chunk_Lrg03",
+	"Slv_Chunk_Lrg04",
+	"Slv_Chunk_Lrg05",
+	"Slv_Chunk_Lrg06",
+	"Slv_Chunk_Sml01",
+	"Slv_Chunk_Sml02",
+	"Slv_Chunk_Sml03",
+	"Slv_Chunk_Sml04",
+	"Slv_Chunk_Sml05",
+	"Slv_Chunk_Sml06",
+	"Slv_Chunk_Sml07",
+	"Slv_Chunk_Sml08",
+	"staticcontainer",
+	"staticcontainerlow",
+	loadHWCE and "crystal_m_1" or nil,		-- Homeworld Classic Enhanced only
+	loadHWCE and "crystal_m_2" or nil,		-- Homeworld Classic Enhanced only
+}
+clouds =
+{
+	"Cloud_0",
+	"Cloud_NoRes",
+	"Cloud_NoRes2",
+	"Cloud_NoRes3",
+--	loadMMM or loadHWCE and "cloud_text_1" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+--	loadMMM or loadHWCE and "cloud_text_2" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+--	loadMMM or loadHWCE and "cloud_text_3" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+--	loadMMM or loadHWCE and "cloud_text_4" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+--	loadMMM or loadHWCE and "cloud_text_5" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+--	loadMMM or loadHWCE and "cloud_text_6" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+--	loadMMM or loadHWCE and "cloud_text_7" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+--	loadMMM or loadHWCE and "cloud_text_8" or nil,		-- MikaliMaps and Homeworld Classic Enhanced only, old HOD format, will crash the game
+}
+dustclouds =
+{
+	"DustCloud_0",
+	"DustCloud_NoRes",
+	"DustCloud_NoRes_M05",
+	"DustCloud_NoRes_NoCharge",
+	"DustCloud_NoRes2",
+	"DustCloud_NoRes2_M05",
+	"DustCloud_NoRes3",
+	"DustCloud_NoRes3_M05",
+	"DustCloud_Teal",
+	"dustcloud0_hw1",							-- are these harvestable?
+	"dustcloud1_hw1",							-- are these harvestable?
+	"dustcloud2_hw1",							-- are these harvestable?
+	"dustcloud3_hw1",							-- are these harvestable?
+	loadHW1 and "gascloud0" or nil,				-- HW1RM campaign only
+	loadHW1 and "gascloud1" or nil,				-- HW1RM campaign only
+	loadHWCE and "gascloud_m_0" or nil,			-- Homeworld Classic Enhanced campaign only
+	loadHWCE and "gascloud_m_1" or nil,			-- Homeworld Classic Enhanced campaign only
+}
+nebulae =
+{
+	"M05_DustCloud_Nebula",
+	"M05_NebualDustCloud_NoRes",
+	"M05_NebualDustCloud_NoRes2",
+	"M05_NebualDustCloud_NoRes3",
+	"M07_Foundry_Radiation",
+	"M08_NoDamage_Radiation",
+	"M11_Bentusi_Debris",
+	"M11_Bentusi_Radiation",
+	"MP_Bentusi_Radiation",
+	"Nebula_0",
+	"Nebula_Hiding",
+	"Nebula01_Cream",
+	"Nebula01_Teal",
+	"Radiation",
+}
+harvestdustclouds =
+{
+	loadHW1 and "DustCloud0" or nil,			-- HW1RM campaign only
+	loadHW1 and "DustCloud1" or nil,			-- HW1RM campaign only
+	loadHW1 and "DustCloud2" or nil,			-- HW1RM campaign only
+	loadHW1 and "DustCloud3" or nil,			-- HW1RM campaign only
+	loadHWCE and "dustcloud_m_0" or nil,		-- Homeworld Classic Enhanced campaign only
+	loadHWCE and "dustcloud_m_1" or nil,		-- Homeworld Classic Enhanced campaign only
+	loadHWCE and "dustcloud_m_2" or nil,		-- Homeworld Classic Enhanced campaign only
+	loadHWCE and "dustcloud_m_3" or nil,		-- Homeworld Classic Enhanced campaign only
+}
+harvestnebulae =
+{
+	loadHW1 and "Nebula0" or nil,				-- HW1RM campaign only
+	loadHWCE and "nebula_m_0" or nil,			-- Homeworld Classic Enhanced campaign only
+}
+
+function DetermChunk()
+	print("Gallery: Start DetermChunk")
+
+--	local offsetCoo = {-20000,0,-20000}
+	local offsetCoo = {0,0,0}
+
+	setWorldBoundsInner({0, 0, 0}, {150000, 50000, 150000})
+
+	addPoint("StartPos0", { 100000, 0, 0}, {0, 0, 0})
+	addPoint("StartPos1", { 0, 100000, 0}, {0, 0, 0})
+
+--	addCamera("pieplatetest", {0,0,0,}, {0, 32768,0,})
+
+	print("Gallery: Pebbles")
+	for i, oType in pebbles do
+		local xShift = i * 5000
+		local zShift = 5000
+		local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+		addPebble(oType, tCoo, 0, 0, 0)
+	end
+	print("Gallery: Asteroids")
+	for i, oType in asteroids do
+		local xShift = i * 5000
+		local zShift = 10000
+		local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+		addAsteroid(oType, tCoo, 100, 0, 0, 0, 0)
+	end
+	print("Gallery: Salvage")
+	for i, oType in salvage do
+		local xShift = i * 5000
+		local zShift = 15000
+		local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+		addSalvage(oType, tCoo, 100, 0, 0, 0, 0)
+	end
+	print("Gallery: Clouds")
+	for i, oType in clouds do
+		local xShift = i * 5000
+		local zShift = 20000
+		local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+		addCloud("polySurface1", oType, tCoo, {1,1,1,1}, 0, 2500)
+	end
+	print("Gallery: Dust Clouds")
+	for i, oType in dustclouds do
+		local xShift = i * 5000
+		local zShift = 25000
+		local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+--		print("..." .. oType)
+		addDustCloud("polySurface1", oType, tCoo, {1,1,1,1}, 0, 2500)
+	end
+	print("Gallery: Nebulae")
+	for i, oType in nebulae do
+		local xShift = i * 5000
+		local zShift = 30000
+		local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+		addNebula("polySurface1", oType, tCoo, {1,1,1,1}, 0, 2500)
+	end
+	-- requires DustCloud0 to DustCloud3 from HW1 campaign
+	print("Gallery: Harvestable Dust Clouds")
+	for i, oType in harvestdustclouds do
+		local xShift = i * 5000
+		local zShift = 35000
+		local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+		addDustCloudWithResources("CloudNameToIgnore", oType, tCoo, 1000, {1.0,1.0,1.0,0.7}, 0, 100, 1)
+	end
+	-- requires Nebula0 from HW1 campaign
+	print("Gallery: Harvestable Nebulae and Tendrils")
+	for i, oType in harvestnebulae do
+		local jCoo = {}
+		for j = 1, 6 do
+			local xShift = j * 5000
+			local zShift = 35000 + i * 5000
+			local tCoo = vaddV({xShift,0,zShift}, offsetCoo)
+			jCoo[j] = tCoo
+			addNebulaWithResources("NebulaGroup2"..i, oType, tCoo, 1000, {1.0,1.0,1.0,0.7}, 0, 100, 0)
+		end
+		addTendrils(unpack(jCoo))
+	end
+
+	print("Gallery: End DetermChunk")
+end
+
+function NonDetermChunk()
+	local my_seed_1 = {seed = -19082105445}
+	loadBackground("m02")
+	setDefaultMusic("data:sound/music/battle/b03_swarmers")
+	fogSetActive(0)
+	setGlareIntensity(0)
+	setLevelShadowColour(0.000000, 0.000000, 0.000000, 1.0)
+	setSensorsManagerCameraDistances(0, 100000)
+--	randomBackground(my_seed_1, 1)
+--	randomMusic(my_seed_1, 1)
+--	randomBattleMusic(my_seed_1, 1)
+end

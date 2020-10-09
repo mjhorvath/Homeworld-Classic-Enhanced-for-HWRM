@@ -1,0 +1,178 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"&We Own Ya's",
+	"have fun in this dangerous region of space",
+	"harvest and build wisely.",
+	"",
+	"",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[We Own ya's4 (4)]]
+LevelFile = [[We Own ya's4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez06"
+LevelMusic = "45"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-50000.0, 0.0, 0.0, 0.0,},
+	{50000.0, 0.0, 0.0, -180.0,},
+	{-32000.0, -50000.0, 0.0, 50.0,},
+	{32000.0, 50000.0, 0.0, -125.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {50000.0, 0.0, 0.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "attackbomber", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-50000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "attackbomber", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-32000.0, -50000.0, 0.0,}, 2, {0, 0, 50.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "attackbomber", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {32000.0, 50000.0, 0.0,}, 3, {0, 0, -125.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "attackbomber", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 3,
+		asteroid4 = 0,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+	pebble =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	pebblesmall =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 2,
+		asteroid4 = 0,
+	},
+	dustball =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 5,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+	pebblemiddle =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 3,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-55000.0, -10000.0, -5000.0,}, "cylinder", "rubble", 6, 1000.0, 6000.0, 30.0, -120.0,},
+	{{-43000.0, 10000.0, 5000.0,}, "cylinder", "roid", 9, 1000.0, 6000.0, 30.0, -120.0,},
+	{{55000.0, 10000.0, -5000.0,}, "cylinder", "rubble", 6, 1000.0, 6000.0, -30.0, -120.0,},
+	{{43000.0, -10000.0, 5000.0,}, "cylinder", "roid", 9, 1000.0, 6000.0, -30.0, -120.0,},
+	{{0.0, -45000.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, 0.0,},
+	{{-30000.0, -25000.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, -50.0,},
+	{{30000.0, -25000.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, 50.0,},
+	{{-85000.0, 0.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, 0.0,},
+	{{85000.0, 0.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, 0.0,},
+	{{0.0, 45000.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, 0.0,},
+	{{-30000.0, 25000.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, 50.0,},
+	{{30000.0, 25000.0, 0.0,}, "cylinder", "pebble", 70, 500.0, 50000.0, 0.0, -50.0,},
+	{{0.0, -10000.0, 0.0,}, "cylinder", "pebblesmall", 30, 4000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 10000.0, 0.0,}, "cylinder", "pebblesmall", 30, 4000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -10000.0, 0.0,}, "cylinder", "dustball", 7, 4000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 10000.0, 0.0,}, "cylinder", "dustball", 7, 4000.0, 20000.0, 0.0, 0.0,},
+	{{8000.0, 0.0, -10000.0,}, "rectangle", "rock", 10, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{-8000.0, 0.0, 10000.0,}, "rectangle", "rock", 10, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebblemiddle", 15, 250.0, 20000.0, 50.0, 0.0,},
+	{{-8000.0, 0.0, -10000.0,}, "rectangle", "rock", 10, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{8000.0, 0.0, 10000.0,}, "rectangle", "rock", 10, 5000.0, 5000.0, 5000.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebblemiddle", 15, 250.0, 20000.0, -50.0, 0.0,},
+	{{-35000.0, -55000.0, 0.0,}, "cylinder", "roid", 12, 1000.0, 6000.0, 30.0, 120.0,},
+	{{35000.0, 55000.0, 0.0,}, "cylinder", "roid", 12, 1000.0, 6000.0, 30.0, 120.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

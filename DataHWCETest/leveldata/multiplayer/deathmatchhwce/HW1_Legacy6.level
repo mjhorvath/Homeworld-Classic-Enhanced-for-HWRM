@@ -1,0 +1,148 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"&L&e&g&a&c&y  &(&2&-&6&)",
+	"A large crown (200 km diameter) is the battlefield for this map - commissioned by a king to celebrate his legacy.",
+	"",
+	"Top vs. Bottom for team play",
+	"",
+	"AUTHOR: Aged (aged@oldmenonline.com)",
+	"VERSION: 1.0  July 7, 2000",
+	"BACKGROUND: 'Ghost' by FoX",
+}
+
+LevelName = [[Legacy (2-6)]]
+LevelFile = [[Legacy6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {50000, 500000,}
+UniverseSize = {200000, 200000, 50000, }
+
+LevelBackground = "ghost"
+LevelMusic = "1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{90000.0, 0.0, 0.0, 180.0,},
+	{45000.0, 77940.0, 0.0, -120.0,},
+	{-45000.0, 77940.0, 0.0, -60.0,},
+	{-90000.0, 0.0, 0.0, 0.0,},
+	{-45000.0, -77940.0, 0.0, 60.0,},
+	{45000.0, -77940.0, 0.0, 120.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {90000.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {45000.0, 77940.0, 0.0,}, 1, {0, 0, -120.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-45000.0, 77940.0, 0.0,}, 2, {0, 0, -60.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-90000.0, 0.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-45000.0, -77940.0, 0.0,}, 4, {0, 0, 60.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {45000.0, -77940.0, 0.0,}, 5, {0, 0, 120.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 4,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{25442.5, 94947.5, 15000.0,}, "cylinder", "asteroid", 35, 1000.0, 39622.3, 229.2, 165.0,},
+	{{49150.5, 85127.5, 15000.0,}, "cylinder", "asteroid", 35, 2000.0, 39622.0, 130.8, 150.0,},
+	{{69508.5, 69506.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39621.4, 229.2, 135.0,},
+	{{85129.5, 49148.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.0, 130.8, 120.0,},
+	{{94949.5, 25441.0, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39621.7, 229.2, 105.0,},
+	{{98299.0, 0.0, 15000.0,}, "cylinder", "asteroid", 35, 1500.0, 39621.7, 130.8, 90.0,},
+	{{94949.5, -25441.0, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39621.7, 229.2, 75.0,},
+	{{85129.5, -49148.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.0, 130.8, 60.0,},
+	{{69508.5, -69506.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39621.4, 229.2, 45.0,},
+	{{49150.5, -85127.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.0, 130.8, 30.0,},
+	{{25442.5, -94947.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.3, 229.2, 15.0,},
+	{{0.0, -98297.0, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39623.0, 229.2, 180.0,},
+	{{-25442.5, -94947.5, 15000.0,}, "cylinder", "asteroid", 35, 1500.0, 39622.3, 130.8, 165.0,},
+	{{-49150.5, -85127.5, 15000.0,}, "cylinder", "asteroid", 35, 1500.0, 39622.0, 229.2, 150.0,},
+	{{-69508.5, -69506.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39621.4, 130.8, 135.0,},
+	{{-85129.5, -49148.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.0, 229.2, 120.0,},
+	{{-94949.5, -25441.0, 15000.0,}, "cylinder", "asteroid", 35, 1500.0, 39621.7, 130.8, 105.0,},
+	{{-98299.0, 0.0, 15000.0,}, "cylinder", "asteroid", 35, 1500.0, 39621.7, 229.2, 90.0,},
+	{{-94949.5, 25441.0, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39621.7, 130.8, 75.0,},
+	{{-85129.5, 49148.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.0, 229.2, 60.0,},
+	{{-69508.5, 69506.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39621.4, 130.8, 45.0,},
+	{{-49150.5, 85127.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.0, 229.2, 30.0,},
+	{{-25442.5, 94947.5, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39622.3, 130.8, 15.0,},
+	{{0.0, 98297.0, 15000.0,}, "cylinder", "asteroid", 35, 2500.0, 39623.0, 229.2, 0.0,},
+	{{100000.0, 0.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 0.0,},
+	{{86000.0, 50000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 30.0,},
+	{{50000.0, 86000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 60.0,},
+	{{0.0, 100000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 90.0,},
+	{{-50000.0, 86000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 120.0,},
+	{{-86000.0, 50000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 150.0,},
+	{{-100000.0, 0.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 180.0,},
+	{{-86000.0, -50000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 210.0,},
+	{{-50000.0, -86000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 240.0,},
+	{{0.0, -100000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 270.0,},
+	{{50000.0, -86000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 300.0,},
+	{{86000.0, -50000.0, -15000.0,}, "cylinder", "asteroid", 100, 30000.0, 100.0, 0.0, 330.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

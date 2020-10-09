@@ -1,0 +1,142 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Standoff (2-8 Players)",
+	"",
+	"3 Research, 2 coll, 1 controller, 2 Assaults Frigs, 10 scouts",
+	"",
+	"AUTHOR	 : Iam|HG (Iam_HG@hotmail.com)",
+	"technical assistance by FarscapeHG",
+	"VERSION	 : 1.0 (January 24th 2003)",
+	"",
+	"The stage is set. Will you persue, flee, or stand and fight? It's a STANDOFF!",
+}
+
+LevelName = [[Standoff (2-8)]]
+LevelFile = [[Standoff5]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {30000, 500000,}
+UniverseSize = {110000, 110000, 110000, }
+
+LevelBackground = "bluenebula"
+LevelMusic = "10"
+
+RUsRatio = 1/4
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r2","r2","r2","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-65000.0, 0.0, 0.0, 0.0,},
+	{-20086.0, 61818.0, 0.0, -72.0,},
+	{52586.0, 38206.0, 0.0, -144.0,},
+	{52586.0, -38206.0, 0.0, 144.0,},
+	{-20086.0, -61818.0, 0.0, 72.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-65000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-20086.0, 61818.0, 0.0,}, 1, {0, 0, -72.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {52586.0, 38206.0, 0.0,}, 2, {0, 0, -144.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {52586.0, -38206.0, 0.0,}, 3, {0, 0, 144.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-20086.0, -61818.0, 0.0,}, 4, {0, 0, 72.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "standardfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 3,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{11647.0, 88467.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -7.5,},
+	{{34146.0, 82438.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -22.5,},
+	{{54319.0, 70792.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -35.5,},
+	{{70789.0, 54321.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -52.5,},
+	{{82436.0, 34149.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -67.5,},
+	{{88464.0, 11649.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -82.5,},
+	{{-11647.0, -88467.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -7.5,},
+	{{-34146.0, -82438.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -22.5,},
+	{{-54319.0, -70792.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -35.5,},
+	{{-70789.0, -54321.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -52.5,},
+	{{-82436.0, -34149.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -67.5,},
+	{{-88464.0, -11649.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, -82.5,},
+	{{11647.0, -88467.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 7.5,},
+	{{34146.0, -82438.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 22.5,},
+	{{54319.0, -70792.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 35.5,},
+	{{70789.0, -54321.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 52.5,},
+	{{82436.0, -34149.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 67.5,},
+	{{88464.0, -11649.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 82.5,},
+	{{-11647.0, 88467.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 7.5,},
+	{{-34146.0, 82438.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 22.0,},
+	{{-54319.0, 70792.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 35.0,},
+	{{-70789.0, 54321.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 52.0,},
+	{{-82436.0, 34149.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 67.0,},
+	{{-88464.0, 11649.0, 0.0,}, "cylinder", "asteroid", 95, 3500.4, 26106.8, 0.0, 82.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

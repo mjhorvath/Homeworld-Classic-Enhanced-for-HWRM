@@ -1,0 +1,136 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"A large nebula in which all players start with Kadesh ships.",
+	"",
+	"- Settings: medium resources, starting force includes 2 Collectors, 1 Controler, 50 Swarmeres, 25 Advanced Swarmers, 4 Fuel Pods, 4 Multi-Beam Frigates, and a Kadesh Needle Mothership.",
+	"- Author: Vicker&2&0&0&0",
+	"- E-mail: Vicker3000@hotmail.com",
+}
+
+LevelName = [[Kadesh Crossroads (4)]]
+LevelFile = [[KadeshCrossroads4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 160000,}
+UniverseSize = {120000, 120000, 60000, }
+
+LevelBackground = "ez10"
+LevelMusic = "14"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, -67698.0, 0.0, 90.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+	{0.0, 67698.0, 0.0, -90.0,},
+	{-67698.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "p2mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "p2", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{25, "", "p2advanceswarmer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{50, "", "p2swarmer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2multibeamfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2fuelpod", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{1, "", "p2mothership", {0.0, -67698.0, 0.0,}, 0, {0, 0, 90.0,}, 0, 0, "p2", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{25, "", "p2advanceswarmer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{50, "", "p2swarmer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2multibeamfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2fuelpod", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{1, "", "p2mothership", {0.0, 67698.0, 0.0,}, 2, {0, 0, -90.0,}, 0, 0, "p2", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{25, "", "p2advanceswarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{50, "", "p2swarmer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2multibeamfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2fuelpod", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{1, "", "p2mothership", {-67698.0, 0.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "p2", "null_formation",},
+	{3, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{25, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{50, "", "p2swarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2multibeamfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{4, "", "p2fuelpod", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+	nebula =
+	{
+		nebula0 = 5,
+		nebula1 = 0,
+		nebula2 = 0,
+		nebula3 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "asteroid", 10, 7500.0, 15000.0, 0.0, 0.0,},
+	{{-30000.0, -30000.0, 0.0,}, "sphere", "asteroid", 10, 2500.0, 5000.0, 0.0, 0.0,},
+	{{30000.0, 30000.0, 0.0,}, "sphere", "asteroid", 10, 2500.0, 5000.0, 0.0, 0.0,},
+	{{10000.0, -10000.0, 20000.0,}, "sphere", "asteroid", 10, 2500.0, 10000.0, 0.0, 0.0,},
+	{{10000.0, -10000.0, -20000.0,}, "sphere", "asteroid", 10, 2500.0, 10000.0, 0.0, 0.0,},
+	{{-10000.0, 10000.0, -20000.0,}, "sphere", "asteroid", 10, 2500.0, 10000.0, 0.0, 0.0,},
+	{{-10000.0, 10000.0, 20000.0,}, "sphere", "asteroid", 10, 2500.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "rectangle", "asteroid", 10, 20000.0, 120000.0, 100000.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "rectangle", "asteroid", 10, 120000.0, 20000.0, 100000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 150, 100000.0, 5000.0, 5000.0, 10000,},
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 150, 5000.0, 100000.0, 5000.0, 10000,},
+	{{-10000.0, 10000.0, 0.0,}, "nebula", "nebula", 150, 6000.0, 6000.0, 40000.0, 10000,},
+	{{10000.0, -10000.0, 0.0,}, "nebula", "nebula", 150, 6000.0, 6000.0, 40000.0, 10000,},
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 150, 200000.0, 200000.0, 200000.0, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

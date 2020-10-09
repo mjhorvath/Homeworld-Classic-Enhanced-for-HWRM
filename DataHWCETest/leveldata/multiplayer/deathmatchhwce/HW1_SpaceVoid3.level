@@ -1,0 +1,92 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Space Void",
+	"This map is designed for quick games. If you are smart enough you can emerge as the victor. Good for ffa or team games.",
+	"Hope you enjoy.",
+	"",
+	"AUTHOR	: medamanx",
+	"E-MAIL	: medamanx@hotmail.com",
+}
+
+LevelName = [[Space Void (2-6)]]
+LevelFile = [[SpaceVoid3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {10000, 100000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "ionsphere2_btg"
+LevelMusic = "-1"
+
+RUsRatio = 1
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-67698.0, 0.0, 0.0, 0.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+	{0.0, -67698.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-67698.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {0.0, -67698.0, 0.0,}, 2, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustspot =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 60000.0, 0.0,}, "sphere", "dustspot", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{60000.0, 0.0, 0.0,}, "sphere", "dustspot", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "dustspot", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-60000.0, 0.0, 0.0,}, "sphere", "dustspot", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, -60000.0, 0.0,}, "sphere", "dustspot", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -60000.0,}, "sphere", "dustspot", 50, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 60000.0,}, "sphere", "dustspot", 50, 5000.0, 10000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

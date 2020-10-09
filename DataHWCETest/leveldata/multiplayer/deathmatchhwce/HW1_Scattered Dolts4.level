@@ -1,0 +1,168 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Scattered dolts 4 players",
+	"enjoy this fun 2v2 or 4 player FFA map",
+	"have fun",
+	"",
+	"Map By: LagsyPSA",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Scattered Dolts (4)]]
+LevelFile = [[Scattered Dolts4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {300000, 300000, 80000, }
+
+LevelBackground = "ez06"
+LevelMusic = "44"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 50000.0, 0.0, -90.0,},
+	{50000.0, 0.0, 0.0, -180.0,},
+	{-50000.0, 0.0, 0.0, 0.0,},
+	{0.0, -50000.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {50000.0, 0.0, 0.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {0.0, -50000.0, 0.0,}, 3, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-50000.0, 0.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 50000.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 2,
+		asteroid3 = 4,
+		asteroid4 = 2,
+	},
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 3,
+		asteroid4 = 1,
+	},
+	middlerock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 1,
+		asteroid3 = 1,
+		asteroid4 = 1,
+	},
+	dustball =
+	{
+		dustcloud0 = 2,
+		dustcloud1 = 4,
+		dustcloud2 = 0,
+		dustcloud3 = 0,
+	},
+	rocky =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	dolt =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 6,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-10000.0, 0.0, -5000.0,}, "cylinder", "roid", 17, 2500.0, 20000.0, 50.0, 0.0,},
+	{{-10000.0, 0.0, 15000.0,}, "cylinder", "roid", 17, 2500.0, 20000.0, -50.0, 0.0,},
+	{{10000.0, 0.0, -5000.0,}, "cylinder", "roid", 17, 2500.0, 20000.0, -50.0, 0.0,},
+	{{10000.0, 0.0, 15000.0,}, "cylinder", "roid", 17, 2500.0, 20000.0, 50.0, 0.0,},
+	{{60000.0, 30000.0, 0.0,}, "cylinder", "rubble", 26, 2500.0, 20000.0, 0.0, -40.0,},
+	{{60000.0, -30000.0, 0.0,}, "cylinder", "rubble", 26, 2500.0, 20000.0, 0.0, 40.0,},
+	{{-60000.0, -30000.0, 0.0,}, "cylinder", "rubble", 26, 2500.0, 20000.0, 0.0, -40.0,},
+	{{-60000.0, 30000.0, 0.0,}, "cylinder", "rubble", 26, 2500.0, 20000.0, 0.0, 40.0,},
+	{{0.0, 0.0, 5000.0,}, "cylinder", "middlerock", 26, 4000.0, 20000.0, 0.0, -90.0,},
+	{{0.0, -80000.0, 0.0,}, "cylinder", "dustball", 2, 5000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 80000.0, 0.0,}, "cylinder", "dustball", 2, 5000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 80000.0, 0.0,}, "cylinder", "rocky", 40, 7500.0, 50000.0, 0.0, 0.0,},
+	{{0.0, -80000.0, 0.0,}, "cylinder", "rocky", 40, 7500.0, 50000.0, 0.0, 0.0,},
+	{{-60000.0, 0.0, 25000.0,}, "cylinder", "rubble", 26, 2500.0, 20000.0, -30.0, 0.0,},
+	{{60000.0, 0.0, 25000.0,}, "cylinder", "rubble", 35, 2500.0, 20000.0, 30.0, 0.0,},
+	{{0.0, 0.0, 80000.0,}, "rectangle", "dolt", 15, 10000.0, 10000.0, 10000.0, 0.0,},
+	{{200000.0, 200000.0, 40000.0,}, "sphere", "dolt", 22, 25000.0, 50000.0, 0.0, 0.0,},
+	{{-200000.0, -200000.0, -40000.0,}, "sphere", "dolt", 22, 25000.0, 50000.0, 0.0, 0.0,},
+	{{200000.0, -200000.0, -50000.0,}, "cylinder", "dust", 15, 3500.0, 100000.0, 0.0, -40.0,},
+	{{-200000.0, 200000.0, 50000.0,}, "cylinder", "dust", 15, 3500.0, 100000.0, 0.0, -40.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -604,34 +604,13 @@ build =
 	-- needed because it can build the modified fire control module
 	{
 		Type = Ship,
-		ThingToBuild = "Hgn_Shipyard_research0_hyperspace0",
+		ThingToBuild = "Hgn_Shipyard_research0",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "CapShipProduction",
 		DisplayPriority = 117,
 		DisplayedName = "$7058",
 		Description = "$7059",
 	},
-	-- needed because it can build the modified fire control module
-	{
-		Type = Ship,
-		ThingToBuild = "Hgn_Shipyard_research0_hyperspace1",
-		RequiredResearch = "",
-		RequiredShipSubSystems = "Hyperspace",
-		DisplayPriority = 117,
-		DisplayedName = "$7058",
-		Description = "$7059",
-	},
-	-- needed because it can build the modified fire control module
-	{
-		Type = Ship,
-		ThingToBuild = "Hgn_Shipyard_research1_hyperspace0",
-		RequiredResearch = "",
-		RequiredShipSubSystems = "CapShipProduction",
-		DisplayPriority = 117,
-		DisplayedName = "$7058",
-		Description = "$7059",
-	},
-	-- "Hgn_Shipyard_research1_hyperspace1" would be the same as a stock shipyard, so no need to duplicate it here
 	-- needed because it can build the modified fire control module
 	{
 		Type = Ship,

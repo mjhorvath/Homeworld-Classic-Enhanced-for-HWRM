@@ -1,0 +1,154 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Civilian revolt (1v1)",
+	"Orbital stations are being over run with pirate influence, our treaty with Nimbal prime prohibits us from heavy weapons manufacturing. All avalible support units in the sector have been contacted and are at your disposel. ",
+	"",
+	"Settings: Crates on. carrier only.",
+	"AUTHOR: Scott C. Payne (cubicloop@verizon.net)",
+	"VERSION: 1.1 (June 18, 2001)",
+}
+
+LevelName = [[Civilian revolt (2)]]
+LevelFile = [[Civilian revolt2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez06"
+LevelMusic = "24"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-64319.0, 0.0, 0.0, 0.0,},
+	{67698.0, 340.0, -1400.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "carrier", {67698.0, 340.0, -1400.0,}, 1, {0, 0, 180.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "p1ionarrayfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p1", "broad_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{3, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{1, "", "sensorarray", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchstation", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{12, "", "heavyinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{20, "", "lightdefender", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "delta_formation",},
+	{1, "", "carrier", {-64319.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "p1ionarrayfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p1", "broad_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{1, "", "sensorarray", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchstation", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{12, "", "heavyinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+	{20, "", "lightdefender", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "delta_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"angelmoon", {-400000.0, 490000.0, 0.0,}, -1, {0, 0.0, -30.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	heavydebris =
+	{
+		asteroid0 = 2,
+		asteroid1 = 7,
+		asteroid2 = 1,
+		asteroid3 = 7,
+		asteroid4 = 2,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 4,
+		dustcloud1 = 4,
+		dustcloud2 = 2,
+		dustcloud3 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-103694.5, 44203.6, 14608.7,}, "sphere", "heavydebris", 32, 4000.0, 10000.0, 0.0, 0.0,},
+	{{-99839.2, 25259.3, -48104.0,}, "sphere", "heavydebris", 32, 4000.0, 10000.0, 0.0, 0.0,},
+	{{-72960.8, 82092.2, -29283.5,}, "sphere", "heavydebris", 32, 4000.0, 10000.0, 0.0, 0.0,},
+	{{-40978.0, -88406.5, 58523.1,}, "sphere", "heavydebris", 32, 4000.0, 10000.0, 0.0, 0.0,},
+	{{-37122.8, -107350.8, -4189.7,}, "sphere", "heavydebris", 32, 4000.0, 10000.0, 0.0, 0.0,},
+	{{16634.1, -107350.8, 33451.3,}, "sphere", "heavydebris", 32, 4000.0, 10000.0, 0.0, 0.0,},
+	{{-92201.1, 0.0, 131676.8,}, "sphere", "dustcloud", 48, 4000.0, 20000.0, 0.0, 0.0,},
+	{{-76780.0, -75777.1, -119174.2,}, "sphere", "dustcloud", 48, 4000.0, 20000.0, 0.0, 0.0,},
+	{{138247.4, -75777.1, 31389.6,}, "sphere", "dustcloud", 48, 4000.0, 20000.0, 0.0, 0.0,},
+	{{30733.7, 151554.5, -43892.3,}, "sphere", "dustcloud", 48, 4000.0, 20000.0, 0.0, 0.0,},
+	{{-74627.5, -3254.6, 96750.9,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-61897.1, -9356.1, 60145.2,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-54294.7, -18168.1, 22677.9,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-51989.8, -29493.7, -14814.2,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-55034.1, -43080.0, -51493.7,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-63359.6, -58623.8, -86541.6,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-65392.1, -3254.6, 103217.7,}, "sphere", "dustcloud", 12, 3000.0, 10000, 0.0, 0.0,},
+	{{-35347.9, -9356.1, 78735.1,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-2740.4, -18168.1, 58776.6,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{31702.3, -29493.7, 43787.7,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{67211.0, -43080.0, 34103.3,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{102992.7, -58623.8, 29939.5,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-70009.8, 6509.3, 99984.3,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-48622.5, 18712.3, 69440.1,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-28517.6, 36336.2, 40727.3,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-10143.8, 58987.5, 14486.8,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{6088.4, 86160.1, -8695.2,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{19816.6, 117247.5, -28301.0,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-53461.8, -61878.4, -90848.9,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-26580.9, -52436.2, -63876.0,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{3261.7, -47661.8, -38858.7,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{35399.6, -47661.8, -16355.5,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{69115.0, -52436.2, 3130.9,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{103655.1, -61878.4, 19165.4,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{29714.3, 113992.8, -32608.4,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{34541.7, 76803.9, -21077.6,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{43292.6, 44657.3, -10828.7,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{61176.7, 6842.4, 1693.8,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{82389.6, -24367.9, 12425.9,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{108272.8, -52114.6, 22398.8,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-58079.5, -52114.4, -94082.3,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-39855.5, -24367.7, -73171.0,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-22515.4, 6842.5, -56908.0,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{-4631.3, 44657.4, -44385.4,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{7992.5, 76804.0, -39667.5,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+	{{20478.9, 113992.9, -39075.1,}, "sphere", "dustcloud", 12, 3000.0, 10000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

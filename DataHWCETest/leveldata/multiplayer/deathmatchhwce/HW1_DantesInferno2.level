@@ -1,0 +1,132 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Dante's Inferno",
+	"Rocks only, no dust, great non-syncing map. 3v3 version is 3D ",
+	"By: &Fa&R, &Hg",
+	"",
+	"January 31, 2003",
+}
+
+LevelName = [[Dante's Inferno 2,4 or 6]]
+LevelFile = [[DantesInferno2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 150000,}
+UniverseSize = {180000, 180000, 100000, }
+
+LevelBackground = "ez02"
+LevelMusic = "10"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{50000.0, 0.0, 0.0, 180.0,},
+	{-50000.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-50000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {50000.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroidmed =
+	{
+		asteroid0 = 30,
+		asteroid1 = 0,
+		asteroid2 = 30,
+		asteroid3 = 20,
+		asteroid4 = 20,
+	},
+	asteroidsmall =
+	{
+		asteroid0 = 30,
+		asteroid1 = 20,
+		asteroid2 = 30,
+		asteroid3 = 10,
+		asteroid4 = 10,
+	},
+	pebble =
+	{
+		asteroid0 = 100,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, 60.0,},
+	{{13646.0, 15737.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, 40.0,},
+	{{-13646.0, -15737.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, 40.0,},
+	{{-32002.0, -26584.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 20.0,},
+	{{32002.0, 26584.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 20.0,},
+	{{52861.0, 30339.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 0.0,},
+	{{-52861.0, -30339.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 0.0,},
+	{{-73720.4, -32439.3, 1541.0,}, "cylinder", "pebble", 10, 2500.0, 20000.0, 10.0, 10.0,},
+	{{73411.5, 26584.0, -1848.9,}, "cylinder", "pebble", 10, 2500.0, 20000.0, 10.0, -20.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, -60.0,},
+	{{-13646.0, 15737.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, -40.0,},
+	{{13646.0, -15737.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, 0.0, -40.0,},
+	{{32002.0, -26584.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, -20.0,},
+	{{-32002.0, 26584.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, -20.0,},
+	{{-52861.0, 30339.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 0.0,},
+	{{52861.0, -30339.0, 0.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, 0.0, 0.0,},
+	{{73720.4, -32439.3, 1541.0,}, "cylinder", "pebble", 10, 2500.0, 20000.0, -10.0, -10.0,},
+	{{-73411.5, 26584.0, -1848.9,}, "cylinder", "pebble", 10, 2500.0, 20000.0, 10.0, 20.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, -60.0, -60.0,},
+	{{0.0, 15737.0, -13646.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, -40.0, -40.0,},
+	{{0.0, -15737.0, 13646.0,}, "cylinder", "asteroidmed", 30, 2500.0, 20000.0, -40.0, -40.0,},
+	{{0.0, -26584.0, 32002.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, -20.0, -20.0,},
+	{{0.0, 26584.0, -32002.0,}, "cylinder", "asteroidsmall", 30, 2500.0, 20000.0, -20.0, -20.0,},
+	{{0.0, 30339.0, -52861.0,}, "cylinder", "asteroidsmall", 30, 2000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -30339.0, 52861.0,}, "cylinder", "asteroidsmall", 30, 2000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -32439.3, 73720.4,}, "cylinder", "pebble", 10, 1000.0, 20000.0, -10.0, -10.0,},
+	{{0.0, 26584.0, -73411.5,}, "cylinder", "pebble", 10, 1000.0, 20000.0, 20.0, 20.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

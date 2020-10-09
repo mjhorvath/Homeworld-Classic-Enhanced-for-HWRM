@@ -467,13 +467,13 @@ FleetsTable =
 				},
 				ships =
 				{
-					"Kus_ResearchShip",
-					"Kus_ResearchShip",
 				},
 				ships_hyper =
 				{
 					"Kus_ResourceCollector",
 					"Kus_ResourceCollector",
+					"Kus_ResearchShip",
+					"Kus_ResearchShip_1",
 				},
 			},
 			{
@@ -640,13 +640,13 @@ FleetsTable =
 				},
 				ships =
 				{
-					"Tai_ResearchShip",
-					"Tai_ResearchShip",
 				},
 				ships_hyper =
 				{
 					"Tai_ResourceCollector",
 					"Tai_ResourceCollector",
+					"Tai_ResearchShip",
+					"Tai_ResearchShip_1",
 				},
 			},
 			{

@@ -1,0 +1,121 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"The X Project. Bentuis, Kadesh, Turranic Pirates and the M3 rock ship vs a dozen or so heavy gun ships and destroyers.",
+	"",
+	"",
+	"AUTHOR	 :Teelan(sjet) ",
+	"Email	 : DrunkenPirate1@aol.com",
+}
+
+LevelName = [[THE X PROJECT]]
+LevelFile = [[THE X PROJECT2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "giant_btg"
+LevelMusic = "3"
+
+RUsRatio = 1/4
+
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r2","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{1370.0, 20.0, 0.0, -90.0,},
+	{67698.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "heavycruiser", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {72955.0, -95.0, -380.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "carrier", {1370.0, 20.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "floatingcity", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "p2mothership", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{1, "", "p3megaship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p3", "null_formation",},
+	{1, "", "p1mothership", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"scaffold", {0.0, 0.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	tiny =
+	{
+		asteroid0 = 3,
+		asteroid1 = 2,
+		asteroid2 = 2,
+		asteroid3 = 4,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 440.0, 4390.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{-11505.0, -715.0, -510.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{-12555.0, 6925.0, -1220.0,}, "sphere", "tiny", 10, 500.0, 1000.0, -67.0, -29.0,},
+	{{-12735.0, 2135.0, 0.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{-11745.0, -3985.0, 0.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{-915.0, 1415.0, -4890.0,}, "sphere", "tiny", 10, 500.0, 1000.0, -36.2, 35.6,},
+	{{-485.0, 1775.0, -4030.0,}, "sphere", "tiny", 10, 500.0, 1000.0, -36.2, 35.6,},
+	{{395.0, 530.0, -4955.0,}, "sphere", "tiny", 10, 500.0, 1000.0, -36.2, 35.6,},
+	{{555.0, 345.0, 5520.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{505.0, 385.0, 4800.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 0.0,},
+	{{555.0, -425.0, 5100.0,}, "sphere", "tiny", 10, 500.0, 1000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

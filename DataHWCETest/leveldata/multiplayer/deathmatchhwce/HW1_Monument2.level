@@ -1,0 +1,120 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"This is the last great thing left by the most ancient of ancient races.  It is a very rich asteroid field arranged in an abominible way. You must kill your enemies and take their power.",
+	"",
+	"By Edmund Magdeberg, E-Mail me at Boomstyless@aol.com or LackamoBob@aol.com ",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Monument of the First Ones(2-4)]]
+LevelFile = [[Monument2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 1000000,}
+UniverseSize = {250000, 250000, 250000, }
+
+LevelBackground = "ez08"
+LevelMusic = "12"
+
+RUsRatio = 1/4
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-200000.0, 0.0, 0.0, 0.0,},
+	{200000.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {200000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-200000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	bigdustcloud =
+	{
+		dustcloud0 = 5,
+		dustcloud1 = 10,
+		dustcloud2 = 20,
+		dustcloud3 = 10,
+	},
+	asteroidvein =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 0,
+		asteroid4 = 20,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-140000.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 120, 10000.0, 100000.0, 90.0, 180.0,},
+	{{140000.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 120, 10000.0, 100000.0, 90.0, 180.0,},
+	{{0.0, -140000.0, 0.0,}, "cylinder", "bigdustcloud", 120, 10000.0, 100000.0, 90.0, 180.0,},
+	{{0.0, 140000.0, 0.0,}, "cylinder", "bigdustcloud", 120, 10000.0, 100000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidvein", 300, 20000.0, 200000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidvein", 300, 85000.0, 25000.0, 90.0, 180.0,},
+	{{-150000.0, 0.0, 0.0,}, "cylinder", "asteroidvein", 80, 10000.0, 100000.0, 0.0, 0.0,},
+	{{150000.0, 0.0, 0.0,}, "cylinder", "asteroidvein", 80, 10000.0, 100000.0, 0.0, 0.0,},
+	{{0.0, -150000.0, 0.0,}, "cylinder", "asteroidvein", 80, 10000.0, 100000.0, 0.0, -90.0,},
+	{{0.0, 150000.0, 0.0,}, "cylinder", "asteroidvein", 80, 10000.0, 100000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 100, 85000.0, 25000.0, 90.0, 180.0,},
+	{{-150000.0, 0.0, 60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, 45.0, 0.0,},
+	{{0.0, 150000.0, 60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, 45.0, -90.0,},
+	{{0.0, -150000.0, 60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, -45.0, -90.0,},
+	{{150000.0, 0.0, 60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, -45.0, 0.0,},
+	{{-150000.0, 0.0, -60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, -45.0, 0.0,},
+	{{150000.0, 0.0, -60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, 45.0, 0.0,},
+	{{0.0, -150000.0, -60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, 45.0, -90.0,},
+	{{0.0, 150000.0, -60000.0,}, "cylinder", "asteroidvein", 60, 10000.0, 100000.0, -45.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

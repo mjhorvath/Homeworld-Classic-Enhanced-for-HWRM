@@ -1,0 +1,127 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"ELecTriC AvEnUe 2-6 players ",
+	"",
+	"this map is best played tvb starting units r: 1 Reseach 5 Scouts 1 Collector",
+	"",
+	"",
+	"By: B][LLy Da &B&i&B  ",
+	"v 1.2 - June 24 , 2k1",
+	"bunglebear@talk21.com",
+	"",
+	"",
+	"",
+	"",
+}
+
+LevelName = [[Electric Avenue (2-6)]]
+LevelFile = [[Electric Avenue2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {40000, 175000,}
+UniverseSize = {67000, 100000, 100000, }
+
+LevelBackground = "ez10"
+LevelMusic = "14"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-52000.0, 22001.0, 0.0, -30.0,},
+	{54001.0, -41000.0, 0.0, 150.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-52000.0, 22001.0, 0.0,}, 0, {0, 0, -30.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {54001.0, -41000.0, 0.0,}, 1, {0, 0, 150.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	jacelor =
+	{
+		dustcloud0 = 15,
+		dustcloud1 = 15,
+		dustcloud2 = 0,
+		dustcloud3 = 0,
+	},
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	asteroidlong =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	scattered =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{25000.0, -25000.0, -15000.0,}, "cylinder", "dustcloudcentre", 20, 500.0, 65000.0, -33.9, -31.6,},
+	{{-25000.0, 5000.0, 15000.0,}, "cylinder", "dustcloudcentre", 20, 500.0, 65000.0, -33.9, -31.6,},
+	{{-25000.0, 5000.0, 15000.0,}, "cylinder", "asteroidlong", 20, 500.0, 65000.0, -33.9, -31.6,},
+	{{0.0, -10000.0, 0.0,}, "cylinder", "scattered", 40, 1500.0, 65000.0, 90.0, 90.0,},
+	{{0.0, -10000.0, 0.0,}, "cylinder", "dustcloudcentre", 20, 500.0, 65000.0, 90.0, 90.0,},
+	{{25000.0, -25000.0, -15000.0,}, "cylinder", "asteroidlong", 20, 500.0, 65000.0, -33.9, -31.6,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, -10000.0, 0.0,}, "nebula", "jacelor", 100, 3000.0, 3000.0, 70000.0, 11000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

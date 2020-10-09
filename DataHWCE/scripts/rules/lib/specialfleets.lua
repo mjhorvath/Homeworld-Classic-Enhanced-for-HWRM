@@ -50,7 +50,7 @@ function SpecialFleets_Init()
 				local kCount = shipsList[k]
 				for l = 1, getn(kCount.items) do
 					local lCount = kCount.items[l]
-					local lTypes = lCount.type
+					local lTypes = lCount.types
 					local lName = lCount.name
 					for m = 1, getn(lTypes) do
 						local mType = lTypes[m]
@@ -82,7 +82,7 @@ function SpecialFleets_Init()
 				local kCount = shipsList[k]
 				for l = 1, getn(kCount.items) do
 					local lCount = kCount.items[l]
-					local lTypes = lCount.type
+					local lTypes = lCount.types
 					local lName = lCount.name
 					for m = 1, getn(lTypes) do
 						local mType = lTypes[m]
@@ -122,7 +122,7 @@ function SpecialFleets_Init()
 				local kCount = subsystemsList[k]
 				for l = 1, getn(kCount.items) do
 					local lCount = kCount.items[l]
-					local lTypes = lCount.type
+					local lTypes = lCount.types
 					local lName = lCount.name
 					for m = 1, getn(lTypes) do
 						local mType = lTypes[m]

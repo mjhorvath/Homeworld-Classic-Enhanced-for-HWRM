@@ -1,0 +1,135 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"There is not comments this time... ",
+	"",
+	"AUTHOR:  Randix (starmaker72@hotmail)",
+	"VERSION: SEPTEMBER 3/2001 ",
+}
+
+LevelName = [[ANCIENT HATE (2-4)]]
+LevelFile = [[AncientHate2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 150000,}
+UniverseSize = {500000, 100000, 500000, }
+
+LevelBackground = "ez02"
+LevelMusic = "15"
+
+RUsRatio = 1/4
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-70000.0, 0.0, 0.0, 0.0,},
+	{70000.0, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {70000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "carrier", {0.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-70000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "carrier", {0.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	type34 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	type3 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	type2 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	type4 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-70000.0, 0.0, 0.0,}, "sphere", "type34", 75, 15000.0, 30000.0, 0.0, 0.0,},
+	{{-70000.0, 0.0, 0.0,}, "sphere", "type3", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{-70000.0, 0.0, 0.0,}, "sphere", "type2", 200, 45000.0, 90000.0, 0.0, 0.0,},
+	{{70000.0, 0.0, 0.0,}, "sphere", "type34", 75, 15000.0, 30000.0, 0.0, 0.0,},
+	{{70000.0, 0.0, 0.0,}, "sphere", "type3", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{70000.0, 0.0, 0.0,}, "sphere", "type2", 200, 45000.0, 90000.0, 0.0, 0.0,},
+	{{0.0, 70000.0, 0.0,}, "sphere", "type34", 75, 15000.0, 30000.0, 0.0, 0.0,},
+	{{0.0, 70000.0, 0.0,}, "sphere", "type3", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, 70000.0, 0.0,}, "sphere", "type2", 200, 45000.0, 90000.0, 0.0, 0.0,},
+	{{0.0, -70000.0, 0.0,}, "sphere", "type34", 75, 15000.0, 30000.0, 0.0, 0.0,},
+	{{0.0, -70000.0, 0.0,}, "sphere", "type3", 100, 30000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, -70000.0, 0.0,}, "sphere", "type2", 200, 45000.0, 90000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "type4", 100, 15000.0, 30000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "type3", 200, 30000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "type2", 400, 150000.0, 300000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 30000.0,}, "sphere", "type4", 100, 25000.0, 50000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 30000.0,}, "sphere", "type3", 200, 50000.0, 100000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -30000.0,}, "sphere", "type4", 100, 25000.0, 50000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -30000.0,}, "sphere", "type3", 200, 50000.0, 100000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

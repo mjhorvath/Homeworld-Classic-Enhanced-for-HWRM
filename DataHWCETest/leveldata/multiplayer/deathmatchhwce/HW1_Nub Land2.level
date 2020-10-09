@@ -1,0 +1,118 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Nub Land",
+	"Map inspired by vicious's nubyness and made just for him",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"AUTHOR: &L&a&g&s&†&L&S",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Nub Land (2OR4)]]
+LevelFile = [[Nub Land2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "19"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{53032.0, 21894.0, 0.0, 180.0,},
+	{-32060.0, 15688.0, 7000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-32060.0, 15688.0, 7000.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {53032.0, 21894.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 2,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+	tiny =
+	{
+		asteroid0 = 70,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{52178.0, 30480.0, 0.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, 0.0, 0.0,},
+	{{43707.0, 28652.0, -2000.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, -20.0, 20.0,},
+	{{36130.0, 25342.0, -6000.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, -25.0, 25.0,},
+	{{27897.0, 21009.0, -9000.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, -10.0, 25.0,},
+	{{19287.0, 17565.0, -8000.0,}, "cylinder", "rock", 5, 1000.0, 15000.0, 10.0, 25.0,},
+	{{3100.0, 9643.0, 0.0,}, "cylinder", "rock", 5, 1000.0, 15000.0, 1.0, -25.0,},
+	{{-6317.0, 14517.0, 0.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, 10.0, -25.0,},
+	{{-14563.0, 18534.0, 3000.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, 25.0, -25.0,},
+	{{-22175.0, 22128.0, 6000.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, 20.0, -20.0,},
+	{{-30421.0, 24243.0, 7000.0,}, "cylinder", "rock", 5, 1000.0, 10000.0, 0.0, 0.0,},
+	{{11423.0, 10011.0, 10000.0,}, "sphere", "rock", 9, 3000.0, 6000.0, 0.0, 0.0,},
+	{{11841.0, 9593.0, -10000.0,}, "sphere", "rock", 9, 3000.0, 6000.0, 0.0, 0.0,},
+	{{4447.0, 58986.0, 0.0,}, "cylinder", "tiny", 5, 2500.0, 25000.0, 20.0, -70.0,},
+	{{20220.0, 42082.0, -2000.0,}, "cylinder", "tiny", 5, 2500.0, 25000.0, 0.0, -20.0,},
+	{{-4741.0, 42251.0, -1000.0,}, "cylinder", "tiny", 5, 2500.0, 25000.0, 0.0, 20.0,},
+	{{8692.0, -42555.0, 0.0,}, "cylinder", "tiny", 5, 2500.0, 25000.0, 20.0, 70.0,},
+	{{24465.0, -30459.0, -2000.0,}, "cylinder", "tiny", 5, 2500.0, 25000.0, 0.0, 20.0,},
+	{{1200.0, -24290.0, -1000.0,}, "cylinder", "tiny", 5, 2500.0, 25000.0, 0.0, -40.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

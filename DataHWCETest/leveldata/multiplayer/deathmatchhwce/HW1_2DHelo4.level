@@ -1,0 +1,105 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"2D Helo (v1.1)",
+	"This map has been designed for great Team or FFA gameplay with 2 or 4 players only. Its your choice. Clash with your neighbor for valuable ru's while trying to get ahead. Hope you enjoy.",
+	"",
+	"AUTHOR  : medamanx (2D ed. by Dylov)",
+	"E-MAIL  : medamanx@hotmail.com (fer any ?s or !s ya have bout this map or others of my creation)",
+}
+
+LevelName = [[2D Helo]]
+LevelFile = [[2DHelo4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 400000,}
+UniverseSize = {415000, 165000, 165000, }
+
+LevelBackground = "ez09"
+LevelMusic = "-1"
+
+RUsRatio = 3/4
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{200000.0, 0.0, 0.0, 0.0,},
+	{360000.0, 0.0, 0.0, 180.0,},
+	{-200000.0, 0.0, 0.0, 180.0,},
+	{-360000.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {360000.0, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {200000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-200000.0, 0.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-360000.0, 0.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{350000, -40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{0, 0, 0,}, "sphere", "dust", 50, 5000, 10000, 0, 0,},
+	{{280000, 0, 0,}, "sphere", "dust", 50, 5000, 10000, 0, 0,},
+	{{-280000, 0, 0,}, "sphere", "dust", 50, 5000, 10000, 0, 0,},
+	{{-210000, -40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{210000, -40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{210000, 40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{210000, 40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{210000, -40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{-210000, -40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{-210000, 40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{-210000, 40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{-350000, 40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{-350000, 40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{-350000, -40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{-350000, -40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{350000, -40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{350000, 40000, -40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+	{{350000, 40000, 40000,}, "sphere", "dust", 36, 5000, 10000, 0, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

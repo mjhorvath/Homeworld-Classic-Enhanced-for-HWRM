@@ -1,0 +1,124 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Two Vs Three",
+	"here those leet dolts can make dolts feel bad ",
+	"by beating them 2v3 or they can eat their smack talk",
+	"when they lose enjoy :)",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[Two Vs Three (5)]]
+LevelFile = [[Two Vs Three5]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez06"
+LevelMusic = "33"
+
+RUsRatio = 1
+
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{20000.0, 15000.0, 0.0, -180.0,},
+	{20000.0, -15000.0, 0.0, -180.0,},
+	{-20000.0, -15000.0, 0.0, 0.0,},
+	{-20000.0, 15000.0, 0.0, 0.0,},
+	{-55000.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {20000.0, -15000.0, 0.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {20000.0, 15000.0, 0.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20000.0, -15000.0, 0.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20000.0, 15000.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-55000.0, 0.0, 0.0,}, 4, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{30000.0, -15000.0, 0.0,}, "sphere", "dust", 20, 1500.0, 3000.0, 0.0, 0.0,},
+	{{30000.0, 15000.0, 0.0,}, "sphere", "dust", 20, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-30000.0, -15000.0, 0.0,}, "sphere", "dust", 15, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-30000.0, 15000.0, 0.0,}, "sphere", "dust", 15, 1500.0, 3000.0, 0.0, 0.0,},
+	{{-65000.0, 0.0, 0.0,}, "sphere", "dust", 15, 1500.0, 3000.0, 0.0, 0.0,},
+	{{0.0, -30000.0, 0.0,}, "cylinder", "rock", 15, 3000.0, 10000.0, 0.0, -90.0,},
+	{{0.0, -20000.0, 0.0,}, "cylinder", "rock", 15, 3000.0, 10000.0, 0.0, -90.0,},
+	{{0.0, -10000.0, 0.0,}, "cylinder", "rock", 15, 3000.0, 10000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "rock", 15, 3000.0, 10000.0, 0.0, -90.0,},
+	{{0.0, 10000.0, 0.0,}, "cylinder", "rock", 15, 3000.0, 10000.0, 0.0, -90.0,},
+	{{0.0, 20000.0, 0.0,}, "cylinder", "rock", 15, 3000.0, 10000.0, 0.0, -90.0,},
+	{{0.0, 30000.0, 0.0,}, "cylinder", "rock", 15, 3000.0, 10000.0, 0.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

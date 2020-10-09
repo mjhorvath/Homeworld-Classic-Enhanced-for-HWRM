@@ -1,0 +1,119 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Dolt Rush",
+	"hehe ya i made a nother dolty map",
+	"",
+	"",
+	"",
+	"",
+	"AUTHOR: &L&a&g&s&ÿ&L&S",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Dolt Rush (4)]]
+LevelFile = [[Dolt Rush4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {5000, 1000000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = ""
+LevelMusic = "36"
+
+RUsRatio = 1
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-15000.0, 0.0, 0.0, 180.0,},
+	{15000.0, 0.0, 0.0, 0.0,},
+	{0.0, 15000.0, 0.0, 90.0,},
+	{0.0, -15000.0, 0.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {15000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-15000.0, 0.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 15000.0, 0.0,}, 2, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -15000.0, 0.0,}, 3, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "standarddestroyer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "ghostship", {0.0, 0.0, 15000.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "junkyardhq", {0.0, 0.0, -15000.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"prisonshipnew", {0.0, 0.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	pebble =
+	{
+		asteroid0 = 20,
+		asteroid1 = 8,
+		asteroid2 = 8,
+		asteroid3 = 6,
+		asteroid4 = 0,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 7,
+		asteroid3 = 6,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "pebble", 100, 2500.0, 25000.0, 90.0, 180.0,},
+	{{0.0, 30000.0, 0.0,}, "cylinder", "rock", 60, 5000.0, 15000.0, 0.0, -90.0,},
+	{{0.0, -30000.0, 0.0,}, "cylinder", "rock", 60, 5000.0, 15000.0, 0.0, -90.0,},
+	{{-30000.0, 0.0, 0.0,}, "cylinder", "rock", 60, 5000.0, 15000.0, 0.0, 0.0,},
+	{{30000.0, 0.0, 0.0,}, "cylinder", "rock", 60, 5000.0, 15000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

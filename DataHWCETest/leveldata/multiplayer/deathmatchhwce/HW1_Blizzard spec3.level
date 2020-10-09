@@ -1,0 +1,102 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Blizzard (1v1 spectating)",
+	"",
+	"This is a map that has a blizzard. Dust blizzard. Made for 1v1, 2v2, 3v3, or 4v4. :)",
+	"",
+	"Author: BlackFalcon.&H&G",
+	"Created: Feburary 8, 2004",
+}
+
+LevelName = [[Blizzard spec (1v1 spec)]]
+LevelFile = [[Blizzard spec3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {200000, 200000, 100000, }
+
+LevelBackground = "ez4 120"
+LevelMusic = "12"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-20000.0, 0.0, 0.0, 0.0,},
+	{20000.0, 0.0, 0.0, -180.0,},
+	{0.0, 0.0, 50000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-20000.0, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {20000.0, 0.0, 0.0,}, 1, {0, 0, -180.0,}, 0, 0, "r2", "null_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {0.0, 0.0, 50000.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	pebble =
+	{
+		asteroid0 = 10,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	curtain =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 5,
+		asteroid3 = 5,
+		asteroid4 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "rectangle", "pebble", 2000, 150000.0, 150000.0, 75000.0, 0.0,},
+	{{-48000.0, 0.0, 0.0,}, "cylinder", "curtain", 200, 3000.0, 48000.0, 0.0, 0.0,},
+	{{48000.0, 0.0, 0.0,}, "cylinder", "curtain", 200, 3000.0, 48000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "rectangle", "curtain", 200, 150000.0, 150000.0, 75000.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

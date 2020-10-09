@@ -1,0 +1,130 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"",
+	"",
+	"",
+	"",
+	"",
+	"AUTHOR: &Sir &Lagg&0r",
+	"Email  Lagsy@sobanforce.com",
+	"",
+}
+
+LevelName = [[Blizzard II (2,4,6,8)]]
+LevelFile = [[Blizzard II2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {105000, 105000, 100000, }
+
+LevelBackground = "ez05"
+LevelMusic = "36"
+
+RUsRatio = 1/4
+PebRatio = 1/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-10000.0, 0.0, 0.0, -180.0,},
+	{10000.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {10000.0, 0.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "ioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-10000.0, 0.0, 0.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "ioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	tiny =
+	{
+		asteroid0 = 200,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 2,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	dust =
+	{
+		dustcloud0 = 5,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 1,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 1,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "rectangle", "tiny", 5000, 150000.0, 150000.0, 75000.0, 0.0,},
+	{{-48000.0, 0.0, 0.0,}, "cylinder", "rock", 12, 1500.0, 48000.0, 0.0, 0.0,},
+	{{48000.0, 0.0, 0.0,}, "cylinder", "rock", 12, 1500.0, 48000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -10000.0,}, "cylinder", "dust", 22, 4000.0, 2500.0, 90.0, 180.0,},
+	{{-48001.0, 0.0, 0.0,}, "cylinder", "roid", 20, 1500.0, 48000.0, 0.0, 0.0,},
+	{{48001.0, 0.0, 0.0,}, "cylinder", "roid", 20, 1500.0, 48000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -10000.0,}, "cylinder", "rubble", 30, 4000.0, 2500.0, 90.0, 180.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

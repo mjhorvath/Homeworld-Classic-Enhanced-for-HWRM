@@ -1,0 +1,134 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	[[X Marks The Spot (4) - Best Played TvB But Can Be Played FFA]],
+	[[]],
+	[[My first map so have fun  =)   also a regenerating dust cloud in the middle (oooooooh) =P    Starting Ships : 5 scouts 1 research ship 1 collector]],
+	[[]],
+	[[Map By : Moonquake-&B&i&B]],
+	[[v 1.0 - June 18, 2001]],
+	[[moonquake3@hotmail.com]],
+	[[&B&i&B Addy : www.bestinbritain.com]],
+	[[]],
+	[[]],
+}
+
+LevelName = [[X Marks The Spot (4)]]
+LevelFile = [[X Marks The Spot4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {40000, 320000,}
+UniverseSize = {215000, 215000, 45000, }
+
+LevelBackground = "ez06"
+LevelMusic = "10"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-39999.8, -59999.7, 0.0, 45.0,},
+	{40000.0, -60000.0, 0.0, 135.0,},
+	{40000.0, 60000.0, 0.0, -137.0,},
+	{-40000.0, 60000.0, 0.0, -45.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {40000.0, 60000.0, 0.0,}, 2, {0, 0, -137.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {40000.0, -60000.0, 0.0,}, 1, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-39999.8, -59999.7, 0.0,}, 0, {0, 0, 45.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-40000.0, 60000.0, 0.0,}, 3, {0, 0, -45.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloudcentre =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 2,
+	},
+	asteroidlong =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	scattered =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-10000.0, -10000.0, -10000.0,}, "sphere", "dustcloudcentre", 10, 1835.0, 3670.0, 0.0, -40.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dustcloudcentre", 40, 1000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidlong", 250, 4000.0, 151200.0, 0.0, -56.0,},
+	{{-99999.0, 0.0, 9999.0,}, "sphere", "scattered", 20, 14275.0, 28550.0, 0.0, -1.0,},
+	{{99999.0, 0.0, 9999.0,}, "sphere", "scattered", 20, 14275.0, 28550.0, 0.0, -1.0,},
+	{{0.0, -99999.0, -9999.0,}, "sphere", "scattered", 20, 14275.0, 28550.0, 0.0, -1.0,},
+	{{0.0, 99999.0, -9999.0,}, "sphere", "scattered", 20, 14275.0, 28550.0, 0.0, -1.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroidlong", 250, 4000.0, 151200.0, 0.0, -124.0,},
+	{{-10000.0, 10000.0, 10000.0,}, "sphere", "dustcloudcentre", 10, 1835.0, 3670.0, 0.0, -40.0,},
+	{{10000.0, 10000.0, -10000.0,}, "sphere", "dustcloudcentre", 10, 1835.0, 3670.0, 0.0, -40.0,},
+	{{10000.0, -10000.0, 10000.0,}, "sphere", "dustcloudcentre", 10, 1835.0, 3670.0, 0.0, -40.0,},
+	{{2000.0, -60000.0, 0.0,}, "cylinder", "dustcloudcentre", 12, 1835.0, 18350.0, 0.0, 180.0,},
+	{{-2000.0, 60000.0, 0.0,}, "cylinder", "dustcloudcentre", 12, 1835.0, 18350.0, 0.0, 180.0,},
+	{{1000.0, 21001.0, 0.0,}, "sphere", "dustcloudcentre", 10, 1835.0, 3670.0, 0.0, -40.0,},
+	{{998.0, -25999.0, 0.0,}, "sphere", "dustcloudcentre", 10, 1835.0, 3670.0, 0.0, -40.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

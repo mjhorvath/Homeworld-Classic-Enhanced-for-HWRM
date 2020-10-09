@@ -1,0 +1,135 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"BirthPlace (2-8)",
+	"This nebula is gradually collapsing into a star.  If you can harness the energy and resources concentrated here you can easily smash your opponents.",
+	"",
+	"SETTINGS : Default",
+	"AUTHOR	 : Jason Attard (BPLlama@canada.com)",
+	"VERSION	 : 2.0 (October 17,1999)",
+}
+
+LevelName = [[Stellar Birthplace (2-8)]]
+LevelFile = [[Birthplace3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {50000, 120000,}
+UniverseSize = {200000, 200000, 190000, }
+
+LevelBackground = "ez07"
+LevelMusic = "8"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-50000.0, 50000.0, 50000.0, -45.0,},
+	{50000.0, -50000.0, -50000.0, 135.0,},
+	{50000.0, 50000.0, 50000.0, -135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-50000.0, 50000.0, 50000.0,}, 0, {0, 0, -45.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {50000.0, -50000.0, -50000.0,}, 1, {0, 0, 135.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {50000.0, 50000.0, 50000.0,}, 2, {0, 0, -135.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	nebula =
+	{
+		nebula0 = 0,
+		nebula1 = 5,
+		nebula2 = 3,
+		nebula3 = 2,
+		nebula4 = 10,
+	},
+	bigdustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "bigdustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "sphere", "bigdustcloud", 80, 20000.0, 40000.0, 0.0, 0.0,},
+	{{40000.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 0.0,},
+	{{-40000.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 0.0,},
+	{{0.0, 40000.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 90.0,},
+	{{0.0, -40000.0, 0.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 0.0, 90.0,},
+	{{0.0, 0.0, 40000.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 90.0, 0.0,},
+	{{0.0, 0.0, -40000.0,}, "cylinder", "bigdustcloud", 20, 4000.0, 60000.0, 90.0, 0.0,},
+	{{50000.0, 50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{50000.0, -50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, 50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, -50000.0, 0.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 50000.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 50000.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -50000.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -50000.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{50000.0, 0.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{50000.0, 0.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, 0.0, 50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-50000.0, 0.0, -50000.0,}, "sphere", "bigdustcloud", 24, 10000.0, 20000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 128, 40000.0, 40000.0, 40000.0, 12800,},
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 256, 80000.0, 80000.0, 80000.0, 25600,},
+	{{60000.0, 60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{60000.0, 60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{60000.0, -60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{60000.0, -60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, 60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, 60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, -60000.0, 60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+	{{-60000.0, -60000.0, -60000.0,}, "nebula", "nebula", 16, 10000.0, 10000.0, 10000.0, 960,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

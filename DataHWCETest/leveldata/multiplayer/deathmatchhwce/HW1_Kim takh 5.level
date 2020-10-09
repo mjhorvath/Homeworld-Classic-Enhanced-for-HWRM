@@ -1,0 +1,119 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+}
+
+LevelName = [[Kim takh (2-6)]]
+LevelFile = [[Kim takh 5]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {30000, 500000,}
+UniverseSize = {200000, 200000, 200000, }
+
+LevelBackground = "dab_btg"
+LevelMusic = "10"
+
+RUsRatio = 1/4
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r1","r2","r1","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 90000.0, 0.0, -90.0,},
+	{0.0, -90000.0, 0.0, 90.0,},
+	{90000.0, 0.0, 0.0, 180.0,},
+	{-90000.0, 0.0, 0.0, 180.0,},
+	{0.0, 0.0, 90000.0, -90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 90000.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -90000.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {90000.0, 0.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-90000.0, 0.0, 0.0,}, 3, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, 0.0, 90000.0,}, 4, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dab =
+	{
+		asteroid0 = 0,
+		asteroid1 = 6,
+		asteroid2 = 4,
+		asteroid3 = 3,
+		asteroid4 = 0,
+	},
+	med =
+	{
+		asteroid0 = 7,
+		asteroid1 = 4,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0, 0, 0,}, "cylinder", "dab", 200, -40000, -500, -600000, 0,},
+	{{0, 0, 0,}, "cylinder", "dab", 200, 40000, 500, 600000, 0,},
+	{{-20000, 0, -10000,}, "cylinder", "dab", 300, -4000, -500, -60, 600,},
+	{{20000, 0, 10000,}, "cylinder", "dab", 300, 4000, 500, 60, 600,},
+	{{20000, 90000, 0,}, "cylinder", "dab", 200, -6000, -300, -600, 0,},
+	{{-20000, -90000, 0,}, "cylinder", "dab", 200, -6000, -300, -600, 0,},
+	{{20000, 0, -90000,}, "cylinder", "dab", 200, -6000, -300, -600, 0,},
+	{{-20000, 0, 90000,}, "cylinder", "dab", 200, -6000, -300, -600, 0,},
+	{{-90000, -20000, 0,}, "cylinder", "dab", 200, -6000, -300, -600, 0,},
+	{{90000, 20000, 0,}, "cylinder", "dab", 200, -6000, -300, -600, 0,},
+	{{0.0, 0.0, 35000.0,}, "cylinder", "med", 200, 5000.0, 35000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -35000.0,}, "cylinder", "med", 200, 5000.0, 35000.0, 90.0, 180.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

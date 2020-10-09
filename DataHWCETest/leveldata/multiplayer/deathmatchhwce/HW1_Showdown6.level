@@ -1,0 +1,191 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Showdown",
+	"Designed for Team Play - Motherships are placed side by side when viewing from the sensors manager, teams are tvb.",
+	"AUTHOR	: (ib)Overkill",
+	"LAYOUT  : 3vs3 game",
+	"",
+	"Email	: If you have any comments please email me at Rob_128@Hotmail.com",
+}
+
+LevelName = [[Showdown (3vs3)]]
+LevelFile = [[Showdown6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {120000, 280000, 80000, }
+
+LevelBackground = ""
+LevelMusic = "10"
+
+RUsRatio = 1/8
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r2","r1","r2","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-100470.9, -98733.6, 0.0, 78.0,},
+	{-806.5, -104559.5, 0.0, 92.0,},
+	{99880.6, -105072.7, 0.0, 83.0,},
+	{853.1, 96867.6, 0.0, -90.0,},
+	{98522.7, 96662.5, 0.0, -88.0,},
+	{-98077.8, 98871.5, 0.0, -89.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-806.5, -104559.5, 0.0,}, 1, {0, 0, 92.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-100470.9, -98733.6, 0.0,}, 0, {0, 0, 78.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {99880.6, -105072.7, 0.0,}, 2, {0, 0, 83.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {853.1, 96867.6, 0.0,}, 3, {0, 0, -90.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "mothership", {98522.7, 96662.5, 0.0,}, 4, {0, 0, -88.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-98077.8, 98871.5, 0.0,}, 5, {0, 0, -89.0,}, 0, 0, "r2", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroidsphere =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 4,
+		asteroid3 = 20,
+		asteroid4 = 19,
+	},
+	asteroidbelt =
+	{
+		asteroid0 = 1,
+		asteroid1 = 4,
+		asteroid2 = 4,
+		asteroid3 = 32,
+		asteroid4 = 1,
+	},
+	curtain =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 5,
+		asteroid3 = 5,
+		asteroid4 = 10,
+	},
+	noasteroid =
+	{
+		asteroid0 = 20,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-80498.0, 393.0, -12967.0,}, "sphere", "asteroidsphere", 55, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-90219.0, 86586.0, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{-109594.9, 86586.0, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{-100512.4, 84164.1, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{-89613.5, 86586.0, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{-108989.4, 86586.0, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{-99906.9, 84164.0, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{-89818.8, 86433.5, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{-109194.6, 86433.5, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{-100112.2, 84011.5, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{9462.0, 86025.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{-9913.9, 86025.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{-831.4, 83603.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{10067.5, 86025.2, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{-9308.4, 86025.2, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{-225.9, 83603.2, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{9862.3, 85872.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{-9513.6, 85872.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{-431.2, 83450.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{108262.6, 86025.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{88886.7, 86025.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{97969.2, 83603.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{108868.1, 86025.2, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{89492.3, 86025.2, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{98574.7, 83603.2, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{108662.9, 85872.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 32.0,},
+	{{89287.0, 85872.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -33.0,},
+	{{98369.5, 83450.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 0.0,},
+	{{-109966.7, -88801.5, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{-90590.9, -88801.5, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{-99673.3, -86379.5, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{-110572.3, -88801.5, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{-91196.4, -88801.5, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{-100278.8, -86379.5, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{-110367.0, -88648.9, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{-90991.1, -88648.9, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{-100073.6, -86226.9, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{-10134.8, -88713.1, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{9241.0, -88713.1, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{158.6, -86291.1, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{-10740.3, -88713.1, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{8635.5, -88713.1, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{-446.9, -86291.1, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{-10535.1, -88560.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{8840.8, -88560.5, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{-241.7, -86138.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{89482.4, -88713.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{108858.2, -88713.1, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{99775.7, -86291.2, 0.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{88876.9, -88713.1, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{108252.7, -88713.1, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{99170.2, -86291.2, -6055.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{89082.1, -88560.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, -148.0,},
+	{{108457.9, -88560.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 147.0,},
+	{{99375.5, -86138.6, 6124.0,}, "cylinder", "asteroidbelt", 7, 1500.0, 12000.0, 0.0, 180.0,},
+	{{-100523.0, -817.0, 0.0,}, "cylinder", "curtain", 20, 3000.0, 70000.0, 0.0, -90.0,},
+	{{-99954.0, 1105.0, -20123.0,}, "cylinder", "curtain", 18, 2500.0, 55000.0, 0.0, -90.0,},
+	{{-99940.0, 1369.0, 20040.0,}, "cylinder", "curtain", 18, 2500.0, 55000.0, 0.0, -90.0,},
+	{{-116563.0, -1882.0, -421.0,}, "cylinder", "noasteroid", 80, 10000.0, 185000.0, 0.0, -90.0,},
+	{{-51704.5, -1468.5, -1707.9,}, "cylinder", "noasteroid", 80, 10000.0, 200000.0, 0.0, -71.0,},
+	{{48277.0, -312.0, -70.0,}, "cylinder", "noasteroid", 80, 10000.0, 200000.0, 0.0, 71.0,},
+	{{116564.5, 0.0, -532.3,}, "cylinder", "noasteroid", 80, 10000.0, 185000.0, 0.0, -90.0,},
+	{{-51096.8, -3193.6, 0.0,}, "cylinder", "noasteroid", 80, 10000.0, 200000.0, 0.0, 71.0,},
+	{{47903.2, -1064.5, 0.0,}, "cylinder", "noasteroid", 80, 10000.0, 200000.0, 0.0, -71.0,},
+	{{-20226.0, 0.0, 0.0,}, "sphere", "asteroidsphere", 55, 5000.0, 10000.0, 0.0, 0.0,},
+	{{20261.0, 0.0, 0.0,}, "sphere", "asteroidsphere", 55, 5000.0, 10000.0, 0.0, 0.0,},
+	{{79422.0, 0.0, -13777.0,}, "sphere", "asteroidsphere", 55, 5000.0, 10000.0, 0.0, 0.0,},
+	{{79422.0, 0.0, 12156.0,}, "sphere", "asteroidsphere", 55, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-80232.0, 0.0, 12156.0,}, "sphere", "asteroidsphere", 55, 5000.0, 10000.0, 0.0, 0.0,},
+	{{-798.2, -1917.7, 0.0,}, "cylinder", "curtain", 20, 3000.0, 70000.0, 0.0, -90.0,},
+	{{-229.2, 4.3, -20123.0,}, "cylinder", "curtain", 18, 2500.0, 55000.0, 0.0, -90.0,},
+	{{-215.2, 268.3, 20040.0,}, "cylinder", "curtain", 18, 2500.0, 55000.0, 0.0, -90.0,},
+	{{99421.9, -1917.7, 0.0,}, "cylinder", "curtain", 20, 3000.0, 70000.0, 0.0, -90.0,},
+	{{99990.9, 4.3, -20123.0,}, "cylinder", "curtain", 18, 2500.0, 55000.0, 0.0, -90.0,},
+	{{100004.9, 268.3, 20040.0,}, "cylinder", "curtain", 18, 2500.0, 55000.0, 0.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,107 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Follow the line of DustClouds to the middle clump of Asteriods that ",
+	"is Gaurded by a Megaship.  Sieze control of these everlasting Resources to win!",
+	"",
+	"Settings: default.",
+	"",
+	"Author: Tycho",
+	"E-Mial: jridley@spiritone.com",
+}
+
+LevelName = [[X (2-4)]]
+LevelFile = [[X2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {40000, 160000,}
+UniverseSize = {950000, 950000, 450000, }
+
+LevelBackground = "ez03"
+LevelMusic = "1"
+
+RUsRatio = 1
+
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{67000.0, 0.0, 67000.0, -128.0,},
+	{-67000, 0, 67000, -46.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67000.0, 0.0, 67000.0,}, 0, {0, 0, -128.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{15, "", "p2advanceswarmer", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "p3frigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p3", "parade_formation",},
+	{2, "", "p1ionarrayfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p1", "parade_formation",},
+	{1, "", "mothership", {-67000, 0, 67000,}, 1, {0, 0, -46.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{15, "", "p2advanceswarmer", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "p3frigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p3", "parade_formation",},
+	{2, "", "p1ionarrayfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "p3megaship", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "p3", "null_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	bigdustcloud =
+	{
+		dustcloud0 = 5,
+		dustcloud1 = 10,
+		dustcloud2 = 20,
+		dustcloud3 = 10,
+	},
+	bigasteriod =
+	{
+		asteroid0 = 10,
+		asteroid1 = 20,
+		asteroid2 = 10,
+		asteroid3 = 20,
+		asteroid4 = 20,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0, 0, 0,}, "cylinder", "bigdustcloud", 150, 2000, 190000, -135, 0,},
+	{{0, 0, 0,}, "cylinder", "bigdustcloud", 150, 2000, 190000, -45, 0,},
+	{{0, 0, 0,}, "sphere", "bigasteriod", 60, 4000, 8000, 0, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

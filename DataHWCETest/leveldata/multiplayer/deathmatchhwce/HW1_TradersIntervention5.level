@@ -1,0 +1,143 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"From inmemoriables times, the wars, almost always, have been for economic reasons and commercial interests to protect. We believed that the Bentusi helped us peacefully, staying outside of our war. Now it's evident that we are in the middle of a conflict of commercial matters, where we are being used as simple peons...",
+	"AUTHOR: Randix (starmaker2@hotmail.com)",
+	"VERSION: 1.0 (25 April 2000)",
+}
+
+LevelName = [[TRADERS INTERVENTION (2-5)]]
+LevelFile = [[TradersIntervention5]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {40000, 175000,}
+UniverseSize = {350000, 350000, 22500, }
+
+LevelBackground = "ez06"
+LevelMusic = "0"
+
+RUsRatio = 1/2
+
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-38999.6, -56999.4, 0.0, 45.0,},
+	{-52000.4, 22001.0, 0.0, -15.0,},
+	{2334.6, 61999.7, 0.0, -87.0,},
+	{37000.3, -59000.1, 0.0, 135.0,},
+	{54000.5, 21000.0, 0.0, -155.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-38999.6, -56999.4, 0.0,}, 0, {0, 0, 45.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "floatingcity", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {-37999.2, -52000.0, 0.0,}, 0, {0, 0, 45.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "ioncannonfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-52000.4, 22001.0, 0.0,}, 1, {0, 0, -15.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "floatingcity", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {-48000.4, 21999.8, 0.0,}, 1, {0, 0, -15.0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "ioncannonfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {2334.6, 61999.7, 0.0,}, 2, {0, 0, -87.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "floatingcity", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "ioncannonfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {4335.2, 58001.1, 3000.0,}, 2, {0, 0, -87.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {37000.3, -59000.1, 0.0,}, 3, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "floatingcity", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "ioncannonfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {34999.6, -56001.9, 3000.0,}, 3, {0, 0, 135.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {54000.5, 21000.0, 0.0,}, 4, {0, 0, -155.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "floatingcity", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "traders", "broad_formation",},
+	{4, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "ioncannonfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "carrier", {49999.9, 20998.5, 3000.0,}, 4, {0, 0, -155.0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 40,
+		asteroid4 = 0,
+	},
+	curtain =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 5,
+		asteroid3 = 5,
+		asteroid4 = 10,
+	},
+	bigdustcloud =
+	{
+		dustcloud0 = 5,
+		dustcloud1 = 10,
+		dustcloud2 = 20,
+		dustcloud3 = 10,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroid", 200, 45000.0, 1000.0, 75.0, -90.0,},
+	{{0.0, 0.0, 2000.0,}, "sphere", "curtain", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{-145.0, 20.0, -2000.0,}, "sphere", "curtain", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 1000.0,}, "sphere", "bigdustcloud", 34, 17500.0, 35000.0, 0.0, 0.0,},
+	{{55000.0, 70000.0, 0.0,}, "sphere", "asteroid", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-55000.0, 70000.0, 0.0,}, "sphere", "asteroid", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-80000.0, -30000.0, 0.0,}, "sphere", "asteroid", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, -80000.0, 0.0,}, "sphere", "asteroid", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{80000.0, -30000.0, 0.0,}, "sphere", "asteroid", 24, 10000.0, 20000.0, 0.0, 0.0,},
+	{{1000.0, 1000.0, 1000.0,}, "cylinder", "asteroid", 200, 45000.0, 1000.0, -75.0, -90.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

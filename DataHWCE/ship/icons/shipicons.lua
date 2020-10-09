@@ -2404,18 +2404,15 @@ HW1_FighterTank 			= Icon_Subsystem_Engine
 
 -- HWCE Hacks -------------------------------------------------------------------
 -- Are these flags case-sensitive?
-Hgn_Carrier_research0			= Hgn_Carrier
-Hgn_Shipyard_research0_hyperspace0	= Hgn_Shipyard
-Hgn_Shipyard_research0_hyperspace1	= Hgn_Shipyard
-Hgn_Shipyard_research1_hyperspace0	= Hgn_Shipyard
 Hgn_Mothership_research0		= Hgn_MotherShip
+Hgn_Carrier_research0			= Hgn_Carrier
+Hgn_Shipyard_research0	= Hgn_Shipyard
 Hgn_Battlecruiser_research0		= Hgn_BattleCruiser
 Hgn_C_Module_FireControl_research0	= Icon_Subsystem_FireControl
 Hgn_MS_Module_FireControl_research0	= Icon_Subsystem_FireControl
 Vgr_Carrier_carrieronly1		= Vgr_Carrier
 Vgr_C_Production_Fighter_carrieronly1	= Vgr_C_Production_Fighter
 Vgr_C_Production_Corvette_carrieronly1	= Vgr_C_Production_Corvette
-Vgr_Shipyard_hyperspace0		= Vgr_Shipyard
 Vgr_PrisonStation			= Vgr_CommStation
 Vgr_CommStation_HWC			= Vgr_CommStation
 Vgr_PrisonStation_HWC			= Vgr_CommStation

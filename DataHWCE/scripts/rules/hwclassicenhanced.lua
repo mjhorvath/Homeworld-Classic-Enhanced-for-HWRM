@@ -1,13 +1,14 @@
 --GUID = { 110,91,157,190,18,23,250,78,144,20,41,246,181,128,214,12 }
-GameRulesName = "HWC Enhanced 2.3.0"
+GameRulesName = "HWC Enhanced 2.4.0"
 Description = "Multiplayer options from the Homeworld Classic Rebalance and Gameplay Enhanced mods for Homeworld 2 Classic."
 SaveGameVersion = 1.0
 SinglePlayer = 0
 ExtFilter = "rules_hwce"
 Race_Paths = "deathmatch"
-Level_Pass_Tags = "hwcm"
 --Level_Pass_Tags = "dm"
+Level_Pass_Tags = "hwcm"
 Race_Pass_Tags = "race_dm,race_random"
+--Race_Pass_Tags = "race_dm_hwce,race_random_hwce"
 
 -- This stuff needs to be here because the game will crash when testing the BIG file, otherwise.
 -- For some reason it's not a problem when using the DATA directory instead of the BIG file.
@@ -370,96 +371,11 @@ GameSetupOptions =
 			"7",    7,
 		},
 	},
-	-- 21. jobs on/off
-	{
-		name = "DutiesOnOff",
-		locName = "Defined Roles",
-		tooltip = "ENABLE SPECIALIZED PLAYER ROLES. HUGE UNITCAPS RECOMMENDED.",
-		default = 0,
-		visible = 1,
-		choices =
-		{
-			"Off",	0,
-			"On",	1,
-		},
-	},
-	-- 22. player 1 job
-	{
-		name = "Duty0",
-		locName = "Position 1 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 1",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
-	-- 23. player 2 job
-	{
-		name = "Duty1",
-		locName = "Position 2 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 2",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
-	-- 24. player 3 job
-	{
-		name = "Duty2",
-		locName = "Position 3 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 3",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
-	-- 25. player 4 job
-	{
-		name = "Duty3",
-		locName = "Position 4 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 4",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
-	-- 26. player 5 job
-	{
-		name = "Duty4",
-		locName = "Position 5 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 5",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
-	-- 27. player 6 job
-	{
-		name = "Duty5",
-		locName = "Position 6 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 6",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
-	-- 28. player 7 job
-	{
-		name = "Duty6",
-		locName = "Position 7 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 7",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
-	-- 29. player 8 job
-	{
-		name = "Duty7",
-		locName = "Position 8 Role",
-		tooltip = "CHOOSE THE JOB FOR PLAYER 8",
-		default = 0,
-		visible = 1,
-		choices = createroletable(),
-	},
---	-- 30. fleets on/off
+--	-- 21. jobs on/off
 --	{
---		name = "FleetsOnOff",
---		locName = "Special Fleets",
---		tooltip = "ENABLE SPECIALIZED STARTING FLEETS",
+--		name = "DutiesOnOff",
+--		locName = "Defined Roles",
+--		tooltip = "ENABLE SPECIALIZED PLAYER ROLES. HUGE UNITCAPS RECOMMENDED.",
 --		default = 0,
 --		visible = 1,
 --		choices =
@@ -468,78 +384,163 @@ GameSetupOptions =
 --			"On",	1,
 --		},
 --	},
---	-- 31. player 1 starting fleet
+--	-- 22. player 1 job
 --	{
---		name = "Fleet0",
---		locName = "Position 1 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 1",
+--		name = "Duty0",
+--		locName = "Position 1 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 1",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
---	-- 32. player 2 starting fleet
+--	-- 23. player 2 job
 --	{
---		name = "Fleet1",
---		locName = "Position 2 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 2",
+--		name = "Duty1",
+--		locName = "Position 2 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 2",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
---	-- 33. player 3 starting fleet
+--	-- 24. player 3 job
 --	{
---		name = "Fleet2",
---		locName = "Position 3 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 3",
+--		name = "Duty2",
+--		locName = "Position 3 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 3",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
---	-- 34. player 4 starting fleet
+--	-- 25. player 4 job
 --	{
---		name = "Fleet3",
---		locName = "Position 4 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 4",
+--		name = "Duty3",
+--		locName = "Position 4 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 4",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
---	-- 35. player 5 starting fleet
+--	-- 26. player 5 job
 --	{
---		name = "Fleet4",
---		locName = "Position 5 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 5",
+--		name = "Duty4",
+--		locName = "Position 5 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 5",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
---	-- 36. player 6 starting fleet
+--	-- 27. player 6 job
 --	{
---		name = "Fleet5",
---		locName = "Position 6 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 6",
+--		name = "Duty5",
+--		locName = "Position 6 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 6",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
---	-- 37. player 7 starting fleet
+--	-- 28. player 7 job
 --	{
---		name = "Fleet6",
---		locName = "Position 7 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 7",
+--		name = "Duty6",
+--		locName = "Position 7 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 7",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
---	-- 38. player 8 starting fleet
+--	-- 29. player 8 job
 --	{
---		name = "Fleet7",
---		locName = "Position 8 Fleet",
---		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 8",
+--		name = "Duty7",
+--		locName = "Position 8 Role",
+--		tooltip = "CHOOSE THE JOB FOR PLAYER 8",
 --		default = 0,
 --		visible = 1,
---		choices = createfleettable(),
+--		choices = createroletable(),
 --	},
+	-- 30. fleets on/off
+	{
+		name = "FleetsOnOff",
+		locName = "Special Fleets",
+		tooltip = "ENABLE SPECIALIZED STARTING FLEETS",
+		default = 0,
+		visible = 1,
+		choices =
+		{
+			"Off",	0,
+			"On",	1,
+		},
+	},
+	-- 31. player 1 starting fleet
+	{
+		name = "Fleet0",
+		locName = "Position 1 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 1",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
+	-- 32. player 2 starting fleet
+	{
+		name = "Fleet1",
+		locName = "Position 2 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 2",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
+	-- 33. player 3 starting fleet
+	{
+		name = "Fleet2",
+		locName = "Position 3 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 3",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
+	-- 34. player 4 starting fleet
+	{
+		name = "Fleet3",
+		locName = "Position 4 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 4",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
+	-- 35. player 5 starting fleet
+	{
+		name = "Fleet4",
+		locName = "Position 5 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 5",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
+	-- 36. player 6 starting fleet
+	{
+		name = "Fleet5",
+		locName = "Position 6 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 6",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
+	-- 37. player 7 starting fleet
+	{
+		name = "Fleet6",
+		locName = "Position 7 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 7",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
+	-- 38. player 8 starting fleet
+	{
+		name = "Fleet7",
+		locName = "Position 8 Fleet",
+		tooltip = "CHOOSE THE STARTING FLEET FOR PLAYER 8",
+		default = 0,
+		visible = 1,
+		choices = createfleettable(),
+	},
 }
 
 dofilepath("data:scripts/rules/hwclassicenhanced/hwclassicenhanced.lua")

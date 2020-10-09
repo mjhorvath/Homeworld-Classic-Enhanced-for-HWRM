@@ -1,0 +1,149 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"LS arena  ",
+	"A very interesting aray of resouces.    start with 1 research 1 collector,",
+	"and 5 scouts.    Taking the middle is key to survival.",
+	"1v1 or 2v2 only ",
+	"",
+	"",
+	"",
+	"AUTHOR: KahlessLS",
+	"Email  KahlessLS@aol.com",
+	"",
+}
+
+LevelName = [[Lost Souls Arean (2-4)]]
+LevelFile = [[LS Arena4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {5000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "14"
+
+RUsRatio = 1/2
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-30782.9, -10527.5, 0.0, 0.0,},
+	{-20561.0, 28871.0, 0.0, -90.0,},
+	{27024.0, 7489.0, 0.0, 180.0,},
+	{20581.0, -29282.0, 0.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-30782.9, -10527.5, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {27024.0, 7489.0, 0.0,}, 2, {0, 0, 180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-20561.0, 28871.0, 0.0,}, 1, {0, 0, -90.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {20581.0, -29282.0, 0.0,}, 3, {0, 0, 90.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	curtain =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 3,
+		asteroid3 = 4,
+		asteroid4 = 6,
+	},
+	tiny =
+	{
+		asteroid0 = 30,
+		asteroid1 = 10,
+		asteroid2 = 0,
+		asteroid3 = 10,
+		asteroid4 = 5,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "curtain", 25, 2500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, -5969.0, 1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, -20.0, -90.0,},
+	{{0.0, 4667.0, 1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 20.0, -90.0,},
+	{{-326.0, -14435.0, 3000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{0.0, 13135.0, 3000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{-3447.0, -16908.0, 1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, -20.0, -30.0,},
+	{{3647.0, 15908.0, 4000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, -20.0, -30.0,},
+	{{11830.0, 13396.0, 6000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{21381.0, 13349.0, 6000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{30234.0, 13349.0, 6000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{34746.0, 13000.0, 6000.0,}, "rectangle", "tiny", 15, 6000.0, 6000.0, 1000.0, 0.0,},
+	{{34621.0, 17437.0, 1000.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 50.0, 90.0,},
+	{{34621.0, 8800.0, 11000.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 50.0, 90.0,},
+	{{-11396.0, -14652.0, 0.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{-21163.6, -14868.8, 0.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{-31148.4, -15085.8, 0.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{-36180.0, -15303.0, 0.0,}, "rectangle", "tiny", 15, 6000.0, 6000.0, 1000.0, 0.0,},
+	{{-36321.0, -11000.0, -4800.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 50.0, 90.0,},
+	{{-36321.0, -19637.0, 4800.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 50.0, 90.0,},
+	{{-5000.0, 0.0, 1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 20.0, 0.0,},
+	{{-14000.0, 0.0, 3000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{-21400.0, 2800.0, 5600.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 30.0, -50.0,},
+	{{-24000.0, 10000.0, 8000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{-24000.0, 18869.0, 8000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{-24000.0, 28086.0, 8000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{-24000.0, 33000.0, 8000.0,}, "rectangle", "tiny", 15, 6000.0, 6000.0, 1000.0, -90.0,},
+	{{-19300.0, 33000.0, 3400.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 40.0, 0.0,},
+	{{-28000.0, 33000.0, 12000.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 40.0, 0.0,},
+	{{5011.0, 0.0, 1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, -20.0, 0.0,},
+	{{14195.0, -172.0, 3000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, 0.0,},
+	{{22000.0, -3000.0, 1000.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 30.0, -50.0,},
+	{{24600.0, -10000.0, -1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{24626.0, -19500.0, -1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{24626.0, -28763.0, -1500.0,}, "cylinder", "tiny", 15, 1500.0, 10000.0, 0.0, -90.0,},
+	{{24536.0, -33994.4, 0.0,}, "rectangle", "tiny", 15, 6000.0, 6000.0, 1000.0, -90.0,},
+	{{29512.0, -34175.0, -4500.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 40.0, 0.0,},
+	{{19900.0, -33994.0, 4500.0,}, "cylinder", "curtain", 10, 500.0, 5000.0, 40.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

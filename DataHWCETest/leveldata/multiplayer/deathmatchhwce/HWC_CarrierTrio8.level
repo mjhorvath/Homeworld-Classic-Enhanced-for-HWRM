@@ -1,0 +1,176 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Parts have detected more resources in this area, carrier parts are going to collect resources for more parts to be grown. Mutate all useful parts to add to our selves. Be wary useful parts can hurt selves if not careful. ",
+	"",
+	"Here is the 3 carrier map I promised, really, I included a processor this time too.",
+	"",
+	"",
+	"Settings: Research &M&U&S&T be off if you want to build more than recons and workers.",
+	"",
+	"Created by &1 Alpha &S&L&S July 2001",
+	"ver 1.0 Carrier Trio, 8 player version",
+}
+
+LevelName = [[Carrier Trio (8 Player)]]
+LevelFile = [[CarrierTrio8]]
+SourceGame = "HWC"
+NumberOfPlayers = 8
+
+SensorsZoom = {50000, 300000,}
+UniverseSize = {50000, 50000, 45000, }
+
+LevelBackground = "mission07"
+LevelMusic = "24"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect","race_sect",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-39897.0, 40045.0, -30000.0, 44.0,},
+	{-39897.0, -40045.0, -30000.0, 87.0,},
+	{-39897.0, -40045.0, 30000.0, 4.0,},
+	{39897.0, 40045.0, 30000.0, -88.0,},
+	{39897.0, 40045.0, -30000.0, -139.0,},
+	{39897.0, -40045.0, -30000.0, -179.0,},
+	{-39897.0, 40045.0, 30000.0, -44.0,},
+	{39897.0, -40045.0, 30000.0, 135.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "scarrier", {-39897.0, 40045.0, -30000.0,}, 0, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {-42897.0, 43045.0, -30000.0,}, 0, {0, 0, 44.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {-39897.0, -40045.0, -30000.0,}, 1, {0, 0, 87.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {-42897.0, -43045.0, -30000.0,}, 1, {0, 0, 87.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {-39897.0, -40045.0, 30000.0,}, 2, {0, 0, 4.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {-42897.0, -43045.0, 30000.0,}, 2, {0, 0, 4.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {39897.0, 40045.0, 30000.0,}, 3, {0, 0, -88.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {42897.0, 43045.0, 30000.0,}, 3, {0, 0, -88.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {39897.0, 40045.0, -30000.0,}, 4, {0, 0, -139.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {42897.0, 43045.0, -30000.0,}, 4, {0, 0, -139.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {39897.0, -40045.0, -30000.0,}, 5, {0, 0, -179.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {42897.0, -43045.0, -30000.0,}, 5, {0, 0, -179.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {-39897.0, 40045.0, 30000.0,}, 6, {0, 0, -44.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {-42897.0, 43045.0, 30000.0,}, 6, {0, 0, -44.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 6, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{1, "", "scarrier", {39897.0, -40045.0, 30000.0,}, 7, {0, 0, 135.0,}, 0, 0, "race_sect", "null_formation",},
+	{2, "", "sworker", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{3, "", "srecon", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+	{2, "", "scarrier", {42897.0, -43045.0, 30000.0,}, 7, {0, 0, 135.0,}, 0, 0, "race_sect", "null_formation",},
+	{1, "", "sprocessor", {0, 0, 0,}, 7, {0, 0, 0,}, 0, 0, "race_sect", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	type3 =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 3,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+	nebula =
+	{
+		asteroid0 = 30,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 2,
+		dustcloud3 = 3,
+		dustcloud4 = 0,
+		dustcloud5 = 0,
+		dustcloud6 = 0,
+		dustcloud7 = 0,
+	},
+	type0 =
+	{
+		asteroid0 = 1,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-35897.0, 35045.0, -25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, -45.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "dust", 50, 15000.0, 30000.0, 0.0, 0.0,},
+	{{-35897.0, 35045.0, 25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, -45.0,},
+	{{-35897.0, -35045.0, -25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, 45.0,},
+	{{-35897.0, -35045.0, 25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, 45.0,},
+	{{35897.0, -35045.0, 25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, -45.0,},
+	{{35897.0, -35045.0, -25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, -45.0,},
+	{{35897.0, 35045.0, 25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, 45.0,},
+	{{35897.0, 35045.0, -25000.0,}, "cylinder", "type3", 10, 3000.0, 8000.0, 0.0, 45.0,},
+	{{-35897.0, 35045.0, -25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, -45.0,},
+	{{-35897.0, 35045.0, 25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, -45.0,},
+	{{-35897.0, -35045.0, -25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, 45.0,},
+	{{-35897.0, -35045.0, 25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, 45.0,},
+	{{35897.0, -35045.0, 25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, -45.0,},
+	{{35897.0, -35045.0, -25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, -45.0,},
+	{{35897.0, 35045.0, 25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, 45.0,},
+	{{35897.0, 35045.0, -25000.0,}, "cylinder", "type0", 7, 3000.0, 8000.0, 0.0, 45.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 200, 50000.0, 50000.0, 50000.0, 15000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

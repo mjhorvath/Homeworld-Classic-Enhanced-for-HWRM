@@ -1,0 +1,124 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Map 1,364 (2-6 Players)",
+	"",
+	"Now what is this kinf of map anyway ? I hope you will enjoy it =)",
+	"",
+	"",
+	"Settings: Crates off.",
+	"AUTHOR: Liquid (LiquidDAB@hotmail.com)",
+	"VERSION: 1.1 (April 13 2001)",
+}
+
+LevelName = [[Map 1,364 (2-4)]]
+LevelFile = [[Map 1,3645]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {30000, 500000,}
+UniverseSize = {200000, 200000, 200000, }
+
+LevelBackground = "ez07"
+LevelMusic = "0"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r1","r2","r1","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{0.0, 150000.0, 0.0, -90.0,},
+	{0.0, -150000.0, 0.0, 90.0,},
+	{-150000.0, 0.0, 0.0, -360.0,},
+	{150000.0, 0.0, 0.0, 360.0,},
+	{0.0, 0.0, 150000.0, 90.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {0.0, 150000.0, 0.0,}, 0, {0, 0, -90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {0.0, -150000.0, 0.0,}, 1, {0, 0, 90.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {-150000.0, 0.0, 0.0,}, 2, {0, 0, -360.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {150000.0, 0.0, 0.0,}, 3, {0, 0, 360.0,}, 0, 0, "r2", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {0.0, 0.0, 150000.0,}, 4, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	a1 =
+	{
+		asteroid0 = 2,
+		asteroid1 = 0,
+		asteroid2 = 4,
+		asteroid3 = 0,
+		asteroid4 = 7,
+	},
+	nebula =
+	{
+		asteroid0 = 30,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0, 0, -170000,}, "sphere", "a1", 130, 18000, 36000, 0, 0,},
+	{{0, 0, 170000,}, "sphere", "a1", 130, 18000, 36000, 0, 0,},
+	{{-170000, 0, 0,}, "sphere", "a1", 130, 18000, 36000, 0, 0,},
+	{{170000, 0, 0,}, "sphere", "a1", 130, 18000, 36000, 0, 0,},
+	{{0, -170000, 0,}, "sphere", "a1", 130, 18000, 36000, 0, 0,},
+	{{0, 170000, 0,}, "sphere", "a1", 130, 18000, 36000, 0, 0,},
+	{{0, 0, 0,}, "sphere", "a1", 130, 18000, 36000, 0, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 150, 39610.0, 39610.0, 39610.0, 10000,},
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 150, 39610.0, 39610.0, 39610.0, 10000,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

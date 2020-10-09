@@ -1,0 +1,98 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"............Bentusi distress Becon.............",
+	"LOCATION: X=500 Y=-30400 Z=46000 ",
+	"Clasificatioin: Cargo class Date:Sat June30,2001 8:49:08AM FRQ:12PSI Taiidan Hunting pack reported 12months ago.",
+	"HATACHI  HARVESTING Corp. Will be helping us to recive the betusi Weapons cargo and supplys for the population of Higara.",
+	"AUTHOR	 : Scott Payne (cubic.loop@verizon.net)",
+	"VERSION	 : 1.0 (June 30 2000)",
+}
+
+LevelName = [[Empires Wrath2]]
+LevelFile = [[Empires Wrath2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = ""
+LevelMusic = "27"
+
+RUsRatio = 1/4
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{67698.0, -30000.0, 0.0, 180.0,},
+	{-64319.0, -30000.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {67698.0, -30000.0, 0.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{3, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{6, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+	{5, "", "repaircorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-64319.0, -30000.0, 0.0,}, 1, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{3, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "broad_formation",},
+	{6, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "broad_formation",},
+	{1, "", "repaircorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "cargobarge", {-500.0, -46000.0, -30400.0,}, -1, {0, 0, 90.0,}, 0, 0, "traders", "broad_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"crate", {-500.0, -49554.0, -30700.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"crate", {-500.0, -48900.0, -30700.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 5,
+		dustcloud3 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, -46000.0, -30400.0,}, "sphere", "dustcloud", 300, 10000.0, 10000.0, 0.0, 0.0,},
+	{{-45000.0, 0.0, 30400.0,}, "sphere", "dustcloud", 300, 10000.0, 10000.0, 0.0, 0.0,},
+	{{45000.0, 0.0, 30400.0,}, "sphere", "dustcloud", 300, 10000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 46000.0, -30400.0,}, "sphere", "dustcloud", 300, 10000.0, 10000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

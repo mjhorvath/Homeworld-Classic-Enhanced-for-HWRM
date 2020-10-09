@@ -1,0 +1,100 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"This map was designed to run at the best performance possable for people with slow PC's (like me)",
+	"A high density asteroids in the centre of the map, to go there means lots of RU's, at a risk of being attacked from every angle.",
+	"AUTHOR	- Admr[DP]Overkill, background by me too",
+	"LAYOUT  - 2 or 4 player map",
+	"Web Site- www.drunkenpirates.homestead.com",
+	"",
+}
+
+LevelName = [[Judgement]]
+LevelFile = [[judgementday2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "goldneb_btg"
+LevelMusic = "6"
+
+RUsRatio = 1
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-684.8, -23484.0, -21590.2, 89.0,},
+	{-1515.1, 23105.3, 19317.5, -89.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-1515.1, 23105.3, 19317.5,}, 1, {0, 0, -89.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "mothership", {-684.8, -23484.0, -21590.2,}, 0, {0, 0, 89.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dust =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 3,
+		dustcloud3 = 4,
+	},
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 3,
+		asteroid3 = 5,
+		asteroid4 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-265.3, 19175.3, 14584.0,}, "cylinder", "dust", 50, 1500.0, 80000.0, 6.8, -172.7,},
+	{{261.9, -20585.9, -15075.0,}, "cylinder", "dust", 50, 1500.0, 80000.0, -5.4, 174.1,},
+	{{864.2, -20150.3, 15376.8,}, "cylinder", "dust", 50, 1500.0, 80000.0, 6.4, 6.4,},
+	{{1803.2, 20147.3, -15373.8,}, "cylinder", "dust", 50, 1500.0, 80000.0, -6.4, -6.4,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "rock", 78, 2000.0, 50000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

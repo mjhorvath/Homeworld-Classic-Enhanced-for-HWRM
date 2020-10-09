@@ -1,0 +1,147 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"nice painfully fun skilled",
+	"map for 2v2 enjoy",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"Map created by: &L&a&g&s&y",
+	"",
+}
+
+LevelName = [[Roids of Pain (4)]]
+LevelFile = [[Roids of Pain4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {10000, 1000000,}
+UniverseSize = {1000000, 1000000, 500000, }
+
+LevelBackground = "ez05"
+LevelMusic = "7"
+
+RUsRatio = 1
+PebRatio = 3/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-35000.0, -35000.0, 0.0, 45.0,},
+	{-35000.0, 35000.0, 0.0, -45.0,},
+	{35000.0, -35000.0, 0.0, 145.0,},
+	{35000.0, 35000.0, 0.0, -145.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-35000.0, -35000.0, 0.0,}, 0, {0, 0, 45.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-35000.0, 35000.0, 0.0,}, 1, {0, 0, -45.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {35000.0, -35000.0, 0.0,}, 2, {0, 0, 145.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {35000.0, 35000.0, 0.0,}, 3, {0, 0, -145.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "junk_lgun", {0.0, 0.0, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "junk_lgun", {109.2, 10023.1, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "junk_lgun", {-82.1, -10064.8, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "junk_lgun", {-9934.7, 74.8, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "junk_lgun", {10248.8, -116.5, 0.0,}, -1, {0, 0, 0.0,}, 0, 0, "traders", "null_formation",},
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"prisonshipold", {-10000.0, -10000.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"prisonshipold", {10000.0, 10000.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"prisonshipold", {-10000.0, 10000.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+	{"prisonshipold", {10000.0, -10000.0, 0.0,}, -1, {0, 0.0, 0.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	dinger =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	gas =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 0,
+		dustcloud3 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 6000.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -6000.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{0.0, -6000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{0.0, 6000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-6000.0, 0.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{6000.0, 0.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-50000.0, -50000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-45000.0, -55000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-55000.0, -45000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-50000.0, -50000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-55000.0, -45000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-45000.0, -55000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{45000.0, -55000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{55000.0, -45000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{50000.0, -50000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{55000.0, -45000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{45000.0, -55000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{50000.0, -50000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-45000.0, 55000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-55000.0, 45000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-50000.0, 50000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-55000.0, 45000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-45000.0, 55000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{-50000.0, 50000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{45000.0, 55000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{55000.0, 45000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{50000.0, 50000.0, 0.0,}, "sphere", "gas", 6, 2500.0, 5000.0, 0.0, 0.0,},
+	{{55000.0, 45000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{45000.0, 55000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+	{{50000.0, 50000.0, 0.0,}, "sphere", "dinger", 1, 1000.0, 2000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

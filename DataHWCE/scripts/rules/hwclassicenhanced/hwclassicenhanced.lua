@@ -149,26 +149,28 @@ function OnInit()
 	ResourceLumpSumTime	= GetGameSettingAsNumber("resourcelumpsumafter")
 	BackgroundMusic		= GetGameSettingAsNumber("bgmusic")
 	GameSpeedMode		= GetGameSettingAsNumber("GameSpeed")
-	-- Disabled this because I've run out of drop-down menu options in the game setup screen. Fix this please, GearBox!
---	SpecialFleetsMode	= GetGameSettingAsNumber("FleetsOnOff")
---	SpecialFleets0		= GetGameSettingAsString("Fleet0")
---	SpecialFleets1		= GetGameSettingAsString("Fleet1")
---	SpecialFleets2		= GetGameSettingAsString("Fleet2")
---	SpecialFleets3		= GetGameSettingAsString("Fleet3")
---	SpecialFleets4		= GetGameSettingAsString("Fleet4")
---	SpecialFleets5		= GetGameSettingAsString("Fleet5")
---	SpecialFleets6		= GetGameSettingAsString("Fleet6")
---	SpecialFleets7		= GetGameSettingAsString("Fleet7")
-	SpecialFleetsMode	= 0
-	DefinedRolesMode	= GetGameSettingAsNumber("DutiesOnOff")
-	DefinedRoles0		= GetGameSettingAsNumber("Duty0")
-	DefinedRoles1		= GetGameSettingAsNumber("Duty1")
-	DefinedRoles2		= GetGameSettingAsNumber("Duty2")
-	DefinedRoles3		= GetGameSettingAsNumber("Duty3")
-	DefinedRoles4		= GetGameSettingAsNumber("Duty4")
-	DefinedRoles5		= GetGameSettingAsNumber("Duty5")
-	DefinedRoles6		= GetGameSettingAsNumber("Duty6")
-	DefinedRoles7		= GetGameSettingAsNumber("Duty7")
+	-- Potentially disabled this because I've run out of drop-down menu options in the game setup screen. Fix this please, GearBox!
+--	SpecialFleetsMode	= 0
+	SpecialFleetsMode	= GetGameSettingAsNumber("FleetsOnOff")
+	SpecialFleets0		= GetGameSettingAsString("Fleet0")
+	SpecialFleets1		= GetGameSettingAsString("Fleet1")
+	SpecialFleets2		= GetGameSettingAsString("Fleet2")
+	SpecialFleets3		= GetGameSettingAsString("Fleet3")
+	SpecialFleets4		= GetGameSettingAsString("Fleet4")
+	SpecialFleets5		= GetGameSettingAsString("Fleet5")
+	SpecialFleets6		= GetGameSettingAsString("Fleet6")
+	SpecialFleets7		= GetGameSettingAsString("Fleet7")
+	-- Potentially disabled this because I've run out of drop-down menu options in the game setup screen. Fix this please, GearBox!
+	DefinedRolesMode	= 0
+--	DefinedRolesMode	= GetGameSettingAsNumber("DutiesOnOff")
+--	DefinedRoles0		= GetGameSettingAsNumber("Duty0")
+--	DefinedRoles1		= GetGameSettingAsNumber("Duty1")
+--	DefinedRoles2		= GetGameSettingAsNumber("Duty2")
+--	DefinedRoles3		= GetGameSettingAsNumber("Duty3")
+--	DefinedRoles4		= GetGameSettingAsNumber("Duty4")
+--	DefinedRoles5		= GetGameSettingAsNumber("Duty5")
+--	DefinedRoles6		= GetGameSettingAsNumber("Duty6")
+--	DefinedRoles7		= GetGameSettingAsNumber("Duty7")
 	BentusiRouletteMode	= GetGameSettingAsNumber("RouletteResearch")
 	WinConditionMode	= GetGameSettingAsNumber("wincondition")
 
@@ -206,15 +208,8 @@ function OnInit()
 			+ srandom(INI_Seed, 100) * ResourceLumpSumTime
 			+ srandom(INI_Seed, 100) * BackgroundMusic
 			+ srandom(INI_Seed, 100) * GameSpeedMode
+			+ srandom(INI_Seed, 100) * SpecialFleetsMode
 			+ srandom(INI_Seed, 100) * DefinedRolesMode
-			+ srandom(INI_Seed, 100) * DefinedRoles0
-			+ srandom(INI_Seed, 100) * DefinedRoles1
-			+ srandom(INI_Seed, 100) * DefinedRoles2
-			+ srandom(INI_Seed, 100) * DefinedRoles3
-			+ srandom(INI_Seed, 100) * DefinedRoles4
-			+ srandom(INI_Seed, 100) * DefinedRoles5
-			+ srandom(INI_Seed, 100) * DefinedRoles6
-			+ srandom(INI_Seed, 100) * DefinedRoles7
 			+ srandom(INI_Seed, 100) * BentusiRouletteMode
 			+ srandom(INI_Seed, 100) * WinConditionMode
 
@@ -243,9 +238,10 @@ function OnInit()
 	-- Extra rule-specific stuff
 
 	for playerIndex = 0, Player_Count do
-		JOB_PlayerRoles[playerIndex + 1] = GetGameSettingAsNumber("Duty" .. playerIndex)
-		-- Disabled this because I've run out of drop-down menu options in the game setup screen. Fix this please, GearBox!
---		FLT_PlayerFleets[playerIndex + 1] = GetGameSettingAsString("Fleet" .. playerIndex)
+		-- Potentially disabled this because I've run out of drop-down menu options in the game setup screen. Fix this please, GearBox!
+--		JOB_PlayerRoles[playerIndex + 1] = GetGameSettingAsNumber("Duty" .. playerIndex)
+		-- Potentially disabled this because I've run out of drop-down menu options in the game setup screen. Fix this please, GearBox!
+		FLT_PlayerFleets[playerIndex + 1] = GetGameSettingAsString("Fleet" .. playerIndex)
 	end
 
 	-- not all game rules are compatible with each other

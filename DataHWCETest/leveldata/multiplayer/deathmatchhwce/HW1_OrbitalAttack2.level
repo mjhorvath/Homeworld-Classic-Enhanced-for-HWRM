@@ -1,0 +1,158 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Orbital Attack",
+	"Destroy your enemies in orbit of a Burning Homeworld!",
+	"",
+	"BUILT	: Marcus Hutchinson (marcus3@mediaone.net)",
+	"HANDLE  : Mouse-DD",
+	"VERSION	: 1.0b (November,1999).",
+	"WEBSITE	: www.Marcus3.com",
+}
+
+LevelName = [[Orbital Attack (2-4)]]
+LevelFile = [[OrbitalAttack2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {40000, 130000,}
+UniverseSize = {200000, 200000, 45000, }
+
+LevelBackground = "ez02"
+LevelMusic = "1"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{60000.0, 90000.0, 20000.0, -135.0,},
+	{-95255.0, -84437.1, 0.0, 45.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {60000.0, 90000.0, 20000.0,}, 0, {0, 0, -135.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "p2multibeamfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-95255.0, -84437.1, 0.0,}, 1, {0, 0, 45.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "p2multibeamfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+	{"planetoforigin_scarred", {0.0, 250000.0, 0.0,}, -1, {0, 10.0, -60.0,}, 0, 0,},
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	scattered =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 2,
+	},
+	bigdustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 0,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+	},
+	asteroidbelt =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	tiny =
+	{
+		asteroid0 = 40,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{57616.0, 143799.0, 0.0,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{78761.6, 354.4, 0.0,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{70993.7, 12561.1, 0.0,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{-10609.2, -92954.6, -4469.2,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{1597.5, -89625.5, 0.0,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{-17822.3, 99578.1, 2979.5,}, "sphere", "scattered", 8, 5960.0, 11920.0, 20.0, -1.0,},
+	{{-7280.1, 100687.8, 0.0,}, "sphere", "scattered", 8, 5960.0, 11920.0, 20.0, -1.0,},
+	{{52623.5, -118666.8, 0.0,}, "sphere", "scattered", 12, 6507.1, 13014.3, 0.0, -1.0,},
+	{{-47128.4, 7183.7, -21469.3,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{-26044.1, 22354.6, -10296.3,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{50656.6, 111057.5, 0.0,}, "sphere", "scattered", 12, 10504.7, 21009.4, 0.0, -1.0,},
+	{{88966.7, -110762.7, 0.0,}, "sphere", "scattered", 8, 4946.8, 9893.6, 0.0, -1.0,},
+	{{-81185.3, -37469.7, -20213.7,}, "sphere", "scattered", 8, 9899.6, 19799.1, 0.0, -1.0,},
+	{{-37141.2, 12177.7, -17000.1,}, "cylinder", "bigdustcloud", 12, 4785.0, 47850.0, -20.0, 50.0,},
+	{{-7835.0, 102907.2, 0.0,}, "cylinder", "bigdustcloud", 7, 4785.0, 47850.0, 20.0, 50.0,},
+	{{-3396.2, -91844.9, 0.0,}, "cylinder", "bigdustcloud", 7, 4785.0, 47850.0, 80.0, -40.0,},
+	{{-82783.3, 119014.6, 0.0,}, "sphere", "scattered", 8, 9173.9, 18347.7, 0.0, -1.0,},
+	{{21382.0, -57444.2, 5959.0,}, "sphere", "scattered", 8, 7576.5, 15153.0, 0.0, -1.0,},
+	{{71318.5, 42428.6, 21061.7,}, "sphere", "scattered", 8, 9679.6, 19359.3, 0.0, -1.0,},
+	{{-79217.6, -114769.4, 0.0,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{-112200.7, -91549.3, 0.0,}, "sphere", "scattered", 12, 9160.6, 18321.2, 0.0, -1.0,},
+	{{-122547.1, 100455.3, 17999.6,}, "sphere", "asteroidbelt", 50, 14274.5, 28548.9, 0.0, -1.0,},
+	{{-165000.0, 29500.0, 0.0,}, "cylinder", "scattered", 32, 9715.0, 102400.0, -0.8, -25.0,},
+	{{-255353.0, 80548.0, 0.0,}, "cylinder", "tiny", 32, 9715.0, 102400.0, -1.2, -36.0,},
+	{{-60000.0, -1000.0, -341.0,}, "cylinder", "asteroidbelt", 32, 9715.0, 102400.0, -0.3, -10.0,},
+	{{44000.0, -9000.0, -341.0,}, "cylinder", "asteroidbelt", 32, 9715.0, 102400.0, 0.0, -1.0,},
+	{{148707.0, -1000.0, -341.0,}, "cylinder", "asteroidbelt", 32, 9715.0, 102400.0, 0.3, 10.0,},
+	{{246000.0, 35000.0, -341.0,}, "cylinder", "tiny", 32, 9715.0, 102400.0, 1.0, 30.0,},
+	{{330000.0, 93000.0, -341.0,}, "cylinder", "tiny", 32, 9715.0, 102400.0, 1.3, 40.0,},
+	{{80000.0, 50000.0, 15000.0,}, "cylinder", "asteroidbelt", 50, 9715.0, 102400.0, 20.0, -90.0,},
+	{{-66841.9, 61599.1, 9000.0,}, "cylinder", "asteroidbelt", 50, 9713.1, 102419.5, -6.0, 131.3,},
+	{{50000.0, -100803.0, -20000.0,}, "cylinder", "asteroidbelt", 50, 9715.0, 102400.0, 22.3, -11.2,},
+	{{-52021.0, -110000.0, 0.0,}, "cylinder", "asteroidbelt", 50, 9715.0, 102400.0, 0.0, -60.0,},
+	{{-127954.9, 7590.5, 0.0,}, "sphere", "scattered", 12, 9160.6, 18321.2, 0.0, -1.0,},
+	{{-113858.2, -13554.5, 0.0,}, "sphere", "scattered", 8, 5960.0, 11920.0, 0.0, -1.0,},
+	{{-136356.0, -83983.0, 0.0,}, "cylinder", "asteroidbelt", 50, 9715.0, 102400.0, 4.3, 24.8,},
+	{{-13746.8, -36558.3, 0.0,}, "cylinder", "asteroidbelt", 50, 9713.1, 102419.5, 0.4, -76.0,},
+	{{23000.0, 100000.0, 10000.0,}, "cylinder", "asteroidbelt", 50, 9715.0, 102400.0, -20.2, -4.3,},
+	{{-332000.0, 152000.0, -2000.0,}, "cylinder", "tiny", 32, 9715.0, 102400.0, -1.5, -50.0,},
+	{{-385000.0, 245000.0, -2000.0,}, "cylinder", "tiny", 32, 9715.0, 102400.0, -1.9, -70.0,},
+	{{400000.0, 170000.0, 0.0,}, "cylinder", "tiny", 32, 9715.0, 102400.0, 1.6, 55.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

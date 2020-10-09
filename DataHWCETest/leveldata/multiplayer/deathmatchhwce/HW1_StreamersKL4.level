@@ -1,0 +1,205 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Streamers (3-7, Kadeshi Last)",
+	"The rich center of the great nebula is an impressive display of swirling gas streams, projecting outwards from the ancient supernova.  A glittering jewel well worth fighting for, it is protected heavily by the Kadeshi.",
+	"",
+	"SETTINGS : Default (Last player is Kadeshi (defaults to AI))",
+	"AUTHOR	 : Jason Attard (BPLlama@canada.com)",
+	"VERSION	 : 1.1 (December 23rd,1999)",
+}
+
+LevelName = [[Streamers (3-7, Kadeshi Last)]]
+LevelFile = [[StreamersKL4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {50000, 200000,}
+UniverseSize = {300000, 300000, 120000, }
+
+LevelBackground = "ez08"
+LevelMusic = "10"
+
+RUsRatio = 1/2
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{94641.0, 94641.0, 40000.0, 180.0,},
+	{-94641.0, -94641.0, -40000.0, 0.0,},
+	{118301.3, -118301.3, 0.0, 90.0,},
+	{0.0, 0.0, 0.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {94641.0, 94641.0, 40000.0,}, 0, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "multiguncorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-94641.0, -94641.0, -40000.0,}, 1, {0, 0, 0.0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{10, "", "multiguncorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{1, "", "mothership", {118301.3, -118301.3, 0.0,}, 2, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "multiguncorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "p2mothership", {0.0, 0.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "p2", "null_formation",},
+	{16, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{32, "", "p2swarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{8, "", "p2fuelpod", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{6, "", "proximitysensor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{8, "", "p2multibeamfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "parade_formation",},
+	{6, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "delta3d_formation",},
+	{12, "", "p2swarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "delta3d_formation",},
+	{4, "", "p2fuelpod", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{4, "", "p2multibeamfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{6, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "delta3d_formation",},
+	{12, "", "p2swarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "delta3d_formation",},
+	{4, "", "p2fuelpod", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{4, "", "p2multibeamfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{2, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{4, "", "p2swarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{1, "", "p2fuelpod", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "null_formation",},
+	{2, "", "p2advanceswarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+	{4, "", "p2swarmer", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "p2", "broad_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	nebula =
+	{
+		nebula0 = 1,
+		nebula1 = 2,
+		nebula2 = 4,
+		nebula3 = 8,
+		nebula4 = 16,
+	},
+	bigdustcloud =
+	{
+		dustcloud0 = 1,
+		dustcloud1 = 2,
+		dustcloud2 = 4,
+		dustcloud3 = 8,
+	},
+	meddustcloud =
+	{
+		dustcloud0 = 2,
+		dustcloud1 = 4,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+	},
+	smldustcloud =
+	{
+		dustcloud0 = 4,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 0,
+	},
+	asteroiddust =
+	{
+		asteroid0 = 1,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "bigdustcloud", 30, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 40000.0,}, "sphere", "bigdustcloud", 20, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -40000.0,}, "sphere", "bigdustcloud", 20, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 20000.0,}, "sphere", "meddustcloud", 10, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -20000.0,}, "sphere", "meddustcloud", 10, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "smldustcloud", 40, 2500.0, 100000.0, 90.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroiddust", 120, 10000.0, 100000.0, 90.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroiddust", 120, 5000.0, 100000.0, 90.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroiddust", 120, 2500.0, 100000.0, 90.0, 0.0,},
+	{{118301.3, -118301.3, 0.0,}, "sphere", "meddustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-118301.3, 118301.3, 0.0,}, "sphere", "meddustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{94641.0, 94641.0, 40000.0,}, "sphere", "meddustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-94641.0, -94641.0, 40000.0,}, "sphere", "meddustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{94641.0, 94641.0, -40000.0,}, "sphere", "meddustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{-94641.0, -94641.0, -40000.0,}, "sphere", "meddustcloud", 40, 10000.0, 20000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "bigdustcloud", 60, 5000.0, 100000.0, 0.0, 0.0,},
+	{{71650.6, -12500.0, 0.0,}, "cylinder", "meddustcloud", 30, 4000.0, 50000.0, 0.0, -30.0,},
+	{{-71650.6, 12500.0, 0.0,}, "cylinder", "meddustcloud", 30, 4000.0, 50000.0, 0.0, -30.0,},
+	{{105801.3, -46650.6, 0.0,}, "cylinder", "meddustcloud", 15, 3000.0, 50000.0, 0.0, -60.0,},
+	{{-105801.3, 46650.6, 0.0,}, "cylinder", "meddustcloud", 15, 3000.0, 50000.0, 0.0, -60.0,},
+	{{118301.3, -93301.3, 0.0,}, "cylinder", "smldustcloud", 15, 2000.0, 50000.0, 0.0, -90.0,},
+	{{-118301.3, 93301.3, 0.0,}, "cylinder", "smldustcloud", 15, 2000.0, 50000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "asteroiddust", 120, 5000.0, 100000.0, 0.0, 0.0,},
+	{{71650.6, -12500.0, 0.0,}, "cylinder", "asteroiddust", 60, 4000.0, 50000.0, 0.0, -30.0,},
+	{{-71650.6, 12500.0, 0.0,}, "cylinder", "asteroiddust", 60, 4000.0, 50000.0, 0.0, -30.0,},
+	{{105801.3, -46650.6, 0.0,}, "cylinder", "asteroiddust", 30, 3000.0, 50000.0, 0.0, -60.0,},
+	{{-105801.3, 46650.6, 0.0,}, "cylinder", "asteroiddust", 30, 3000.0, 50000.0, 0.0, -60.0,},
+	{{118301.3, -93301.3, 0.0,}, "cylinder", "asteroiddust", 15, 2000.0, 50000.0, 0.0, -90.0,},
+	{{-118301.3, 93301.3, 0.0,}, "cylinder", "asteroiddust", 15, 2000.0, 50000.0, 0.0, -90.0,},
+	{{0.0, 0.0, 40000.0,}, "cylinder", "bigdustcloud", 60, 5000.0, 80000.0, 0.0, 90.0,},
+	{{10000.0, 57320.5, 40000.0,}, "cylinder", "meddustcloud", 30, 4000.0, 40000.0, 0.0, 60.0,},
+	{{-10000.0, -57320.5, 40000.0,}, "cylinder", "meddustcloud", 30, 4000.0, 40000.0, 0.0, 60.0,},
+	{{37320.5, 84641.0, 40000.0,}, "cylinder", "meddustcloud", 15, 3000.0, 40000.0, 0.0, 30.0,},
+	{{-37320.5, -84641.0, 40000.0,}, "cylinder", "meddustcloud", 15, 3000.0, 40000.0, 0.0, 30.0,},
+	{{74641.0, 94641.0, 40000.0,}, "cylinder", "smldustcloud", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{-74641.0, -94641.0, 40000.0,}, "cylinder", "smldustcloud", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 40000.0,}, "cylinder", "asteroiddust", 120, 5000.0, 80000.0, 0.0, 90.0,},
+	{{10000.0, 57320.5, 40000.0,}, "cylinder", "asteroiddust", 60, 4000.0, 40000.0, 0.0, 60.0,},
+	{{-10000.0, -57320.5, 40000.0,}, "cylinder", "asteroiddust", 60, 4000.0, 40000.0, 0.0, 60.0,},
+	{{37320.5, 84641.0, 40000.0,}, "cylinder", "asteroiddust", 30, 3000.0, 40000.0, 0.0, 30.0,},
+	{{-37320.5, -84641.0, 40000.0,}, "cylinder", "asteroiddust", 30, 3000.0, 40000.0, 0.0, 30.0,},
+	{{74641.0, 94641.0, 40000.0,}, "cylinder", "asteroiddust", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{-74641.0, -94641.0, 40000.0,}, "cylinder", "asteroiddust", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -40000.0,}, "cylinder", "bigdustcloud", 60, 5000.0, 80000.0, 0.0, 90.0,},
+	{{10000.0, 57320.5, -40000.0,}, "cylinder", "meddustcloud", 30, 4000.0, 40000.0, 0.0, 60.0,},
+	{{-10000.0, -57320.5, -40000.0,}, "cylinder", "meddustcloud", 30, 4000.0, 40000.0, 0.0, 60.0,},
+	{{37320.5, 84641.0, -40000.0,}, "cylinder", "meddustcloud", 15, 3000.0, 40000.0, 0.0, 30.0,},
+	{{-37320.5, -84641.0, -40000.0,}, "cylinder", "meddustcloud", 15, 3000.0, 40000.0, 0.0, 30.0,},
+	{{74641.0, 94641.0, -40000.0,}, "cylinder", "smldustcloud", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{-74641.0, -94641.0, -40000.0,}, "cylinder", "smldustcloud", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -40000.0,}, "cylinder", "asteroiddust", 120, 5000.0, 80000.0, 0.0, 90.0,},
+	{{10000.0, 57320.5, -40000.0,}, "cylinder", "asteroiddust", 60, 4000.0, 40000.0, 0.0, 60.0,},
+	{{-10000.0, -57320.5, -40000.0,}, "cylinder", "asteroiddust", 60, 4000.0, 40000.0, 0.0, 60.0,},
+	{{37320.5, 84641.0, -40000.0,}, "cylinder", "asteroiddust", 30, 3000.0, 40000.0, 0.0, 30.0,},
+	{{-37320.5, -84641.0, -40000.0,}, "cylinder", "asteroiddust", 30, 3000.0, 40000.0, 0.0, 30.0,},
+	{{74641.0, 94641.0, -40000.0,}, "cylinder", "asteroiddust", 15, 2000.0, 40000.0, 0.0, 0.0,},
+	{{-74641.0, -94641.0, -40000.0,}, "cylinder", "asteroiddust", 15, 2000.0, 40000.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+	{{0.0, 0.0, 0.0,}, "nebula", "nebula", 120, 40000.0, 40000.0, 10000.0, 10647,},
+	{{0.0, 0.0, 40000.0,}, "nebula", "nebula", 80, 40000.0, 40000.0, 10000.0, 7153,},
+	{{0.0, 0.0, -40000.0,}, "nebula", "nebula", 80, 40000.0, 40000.0, 10000.0, 6347,},
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

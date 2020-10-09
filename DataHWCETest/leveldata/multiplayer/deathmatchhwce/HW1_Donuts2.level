@@ -1,0 +1,172 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Donuts (2 Players)",
+	"",
+	"Bored of subjugating your freinds? Well why not invite them round for donuts....",
+	"",
+	"Settings: Crates off.",
+	"AUTHOR	 : StonedChiken (stealth_gibbon@hotmail.com)",
+	"VERSION	 : 2.01 (23nd May 2000)",
+}
+
+LevelName = [[Donuts (2)]]
+LevelFile = [[Donuts2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 150000,}
+UniverseSize = {100000, 100000, 75000, }
+
+LevelBackground = "ionsphere2"
+LevelMusic = "11"
+
+RUsRatio = 1/2
+PebRatio = 3/4
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-45000, 0, 0, 0,},
+	{45000, 0, 0, 180,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-45000, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{5, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "probe", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {45000, 0, 0,}, 1, {0, 0, 180,}, 0, 0, "r2", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{4, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{5, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+	{2, "", "probe", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r2", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	big =
+	{
+		asteroid0 = 0,
+		asteroid1 = 2,
+		asteroid2 = 3,
+		asteroid3 = 3,
+		asteroid4 = 1,
+	},
+	small =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 1,
+		dustcloud3 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0, 3882, 29489,}, "cylinder", "big", 50, 3000, 7832, 0, 7.5,},
+	{{0, 11382, 27479,}, "cylinder", "big", 50, 3000, 7832, 0, 22.5,},
+	{{0, 18106, 23597,}, "cylinder", "big", 50, 3000, 7832, 0, 35.5,},
+	{{0, 23596, 18107,}, "cylinder", "big", 50, 3000, 7832, 0, 52.5,},
+	{{0, 27478, 11383,}, "cylinder", "big", 50, 3000, 7832, 0, 67.5,},
+	{{0, 29487, 3884,}, "cylinder", "big", 50, 3000, 7832, 0, 82.5,},
+	{{0, -3882, -29489,}, "cylinder", "big", 50, 3000, 7832, 0, 7.5,},
+	{{0, -11382, -27479,}, "cylinder", "big", 50, 3000, 7832, 0, 22.5,},
+	{{0, -18106, -23597,}, "cylinder", "big", 50, 3000, 7832, 0, 35.5,},
+	{{0, -23596, -18107,}, "cylinder", "big", 50, 3000, 7832, 0, 52.5,},
+	{{0, -27478, -11383,}, "cylinder", "big", 50, 3000, 7832, 0, 67.5,},
+	{{0, -29487, -3884,}, "cylinder", "big", 50, 3000, 7832, 0, 82.5,},
+	{{0, 3882, -29489,}, "cylinder", "big", 50, 3000, 7832, 0, -7.5,},
+	{{0, 11382, -27479,}, "cylinder", "big", 50, 3000, 7832, 0, -22.5,},
+	{{0, 18106, -23597,}, "cylinder", "big", 50, 3000, 7832, 0, -35.5,},
+	{{0, 23596, -18107,}, "cylinder", "big", 50, 3000, 7832, 0, -52.5,},
+	{{0, 27478, -11383,}, "cylinder", "big", 50, 3000, 7832, 0, -67.5,},
+	{{0, 29487, -3884,}, "cylinder", "big", 50, 3000, 7832, 0, -82.5,},
+	{{0, -3882, 29489,}, "cylinder", "big", 50, 3000, 7832, 0, -7.5,},
+	{{0, -11382, 27479,}, "cylinder", "big", 50, 3000, 7832, 0, -22.5,},
+	{{0, -18106, 23597,}, "cylinder", "big", 50, 3000, 7832, 0, -35.5,},
+	{{0, -23596, 18107,}, "cylinder", "big", 50, 3000, 7832, 0, -52.5,},
+	{{0, -27478, 11383,}, "cylinder", "big", 50, 3000, 7832, 0, -67.5,},
+	{{0, -29487, 3884,}, "cylinder", "big", 50, 3000, 7832, 0, -82.5,},
+	{{-45000, 906, 6881,}, "cylinder", "small", 1, 800, 1828, 7.5, 0,},
+	{{-45000, 2656, 6412,}, "cylinder", "small", 1, 800, 1828, 22.5, 0,},
+	{{-45000, 4225, 5507,}, "cylinder", "small", 1, 800, 1828, 35.5, 0,},
+	{{-45000, 5506, 4226,}, "cylinder", "small", 1, 800, 1828, 52.5, 0,},
+	{{-45000, 6412, 2657,}, "cylinder", "small", 1, 800, 1828, 67.5, 0,},
+	{{-45000, 6880, 907,}, "cylinder", "small", 1, 800, 1828, 82.5, 0,},
+	{{-45000, -906, -6881,}, "cylinder", "small", 1, 800, 1828, 7.5, 0,},
+	{{-45000, -2656, -6412,}, "cylinder", "small", 1, 800, 1828, 22.5, 0,},
+	{{-45000, -4225, -5507,}, "cylinder", "small", 1, 800, 1828, 35.5, 0,},
+	{{-45000, -5506, -4226,}, "cylinder", "small", 1, 800, 1828, 52.5, 0,},
+	{{-45000, -6412, -2657,}, "cylinder", "small", 1, 800, 1828, 67.5, 0,},
+	{{-45000, -6880, -907,}, "cylinder", "small", 1, 800, 1828, 82.5, 0,},
+	{{-45000, 906, -6881,}, "cylinder", "small", 1, 800, 1828, -7.5, 0,},
+	{{-45000, 2656, -6412,}, "cylinder", "small", 1, 800, 1828, -22.5, 0,},
+	{{-45000, 4225, -5507,}, "cylinder", "small", 1, 800, 1828, -35.5, 0,},
+	{{-45000, 5506, -4226,}, "cylinder", "small", 1, 800, 1828, -52.5, 0,},
+	{{-45000, 6412, -2657,}, "cylinder", "small", 1, 800, 1828, -67.5, 0,},
+	{{-45000, 6880, -907,}, "cylinder", "small", 1, 800, 1828, -82.5, 0,},
+	{{-45000, -906, 6881,}, "cylinder", "small", 1, 800, 1828, -7.5, 0,},
+	{{-45000, -2656, 6412,}, "cylinder", "small", 1, 800, 1828, -22.5, 0,},
+	{{-45000, -4225, 5507,}, "cylinder", "small", 1, 800, 1828, -35.5, 0,},
+	{{-45000, -5506, 4226,}, "cylinder", "small", 1, 800, 1828, -52.5, 0,},
+	{{-45000, -6412, 2657,}, "cylinder", "small", 1, 800, 1828, -67.5, 0,},
+	{{-45000, -6880, 907,}, "cylinder", "small", 1, 800, 1828, -82.5, 0,},
+	{{45000, 906, 6881,}, "cylinder", "small", 1, 800, 1828, 7.5, 0,},
+	{{45000, 2656, 6412,}, "cylinder", "small", 1, 800, 1828, 22.5, 0,},
+	{{45000, 4225, 5507,}, "cylinder", "small", 1, 800, 1828, 35.5, 0,},
+	{{45000, 5506, 4226,}, "cylinder", "small", 1, 800, 1828, 52.5, 0,},
+	{{45000, 6412, 2657,}, "cylinder", "small", 1, 800, 1828, 67.5, 0,},
+	{{45000, 6880, 907,}, "cylinder", "small", 1, 800, 1828, 82.5, 0,},
+	{{45000, -906, -6881,}, "cylinder", "small", 1, 800, 1828, 7.5, 0,},
+	{{45000, -2656, -6412,}, "cylinder", "small", 1, 800, 1828, 22.5, 0,},
+	{{45000, -4225, -5507,}, "cylinder", "small", 1, 800, 1828, 35.5, 0,},
+	{{45000, -5506, -4226,}, "cylinder", "small", 1, 800, 1828, 52.5, 0,},
+	{{45000, -6412, -2657,}, "cylinder", "small", 1, 800, 1828, 67.5, 0,},
+	{{45000, -6880, -907,}, "cylinder", "small", 1, 800, 1828, 82.5, 0,},
+	{{45000, 906, -6881,}, "cylinder", "small", 1, 800, 1828, -7.5, 0,},
+	{{45000, 2656, -6412,}, "cylinder", "small", 1, 800, 1828, -22.5, 0,},
+	{{45000, 4225, -5507,}, "cylinder", "small", 1, 800, 1828, -35.5, 0,},
+	{{45000, 5506, -4226,}, "cylinder", "small", 1, 800, 1828, -52.5, 0,},
+	{{45000, 6412, -2657,}, "cylinder", "small", 1, 800, 1828, -67.5, 0,},
+	{{45000, 6880, -907,}, "cylinder", "small", 1, 800, 1828, -82.5, 0,},
+	{{45000, -906, 6881,}, "cylinder", "small", 1, 800, 1828, -7.5, 0,},
+	{{45000, -2656, 6412,}, "cylinder", "small", 1, 800, 1828, -22.5, 0,},
+	{{45000, -4225, 5507,}, "cylinder", "small", 1, 800, 1828, -35.5, 0,},
+	{{45000, -5506, 4226,}, "cylinder", "small", 1, 800, 1828, -52.5, 0,},
+	{{45000, -6412, 2657,}, "cylinder", "small", 1, 800, 1828, -67.5, 0,},
+	{{45000, -6880, 907,}, "cylinder", "small", 1, 800, 1828, -82.5, 0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

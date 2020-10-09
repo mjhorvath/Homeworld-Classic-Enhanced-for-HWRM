@@ -528,13 +528,4 @@ build =
 		DisplayedName =			"$2050",
 		Description =			"$2051" 
 	},
-	{ 
-		Type = 					Ship, 
-		ThingToBuild = 			"Vgr_ShipYard_hyperspace0",
-		RequiredResearch =		"",
-		RequiredShipSubSystems =	"CapShipProduction",
-		DisplayPriority =		320,
-		DisplayedName =			"$7156",
-		Description =			"$7157" 
-	},
 }

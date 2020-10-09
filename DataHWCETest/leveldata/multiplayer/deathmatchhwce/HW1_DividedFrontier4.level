@@ -1,0 +1,180 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"DividedFrontier (2vs2)",
+	"",
+	"Divided by a trail of dust particles and dust clouds. Venture to the other side of the frontier. ",
+	"",
+	"AUTHOR	: Division",
+	"VERSION	: 1.2  (2vs2)",
+	"EMAIL	: gandolph@ftc-i.net",
+	"",
+	"July 21,2000",
+	"Salute &S&L&S",
+}
+
+LevelName = [[DividedFrontier (2vs2)]]
+LevelFile = [[DividedFrontier4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {30000, 500000,}
+UniverseSize = {115000, 140000, 65000, }
+
+LevelBackground = "ez02"
+LevelMusic = "10"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-68250, -76363.6, 20000, 45.0,},
+	{68250, -76363.6, -20000, 135.0,},
+	{-68250, 76363.6, -20000, 270.0,},
+	{68250, 76363.6, 20000, 225.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-68250, -76363.6, 20000,}, 0, {0, 0, 45.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {68250, -76363.6, -20000,}, 1, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-68250, 76363.6, -20000,}, 2, {0, 0, 270.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {68250, 76363.6, 20000,}, 3, {0, 0, 225.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{6, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 2,
+		asteroid4 = 2,
+	},
+	dustcloudcenter =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 2,
+		dustcloud3 = 1,
+	},
+	asteroidlen =
+	{
+		asteroid0 = 3,
+		asteroid1 = 8,
+		asteroid2 = 2,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	dustcloudside =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 2,
+		dustcloud2 = 1,
+		dustcloud3 = 1,
+	},
+	tinyast =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 1,
+		asteroid4 = 1,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-68250, -76363.6, 20000,}, "sphere", "asteroid", 20, 10038.4, 20076.8, 0.0, 0.0,},
+	{{68250, -76363.6, -20000,}, "sphere", "asteroid", 20, 10038.4, 20076.8, 0.0, 0.0,},
+	{{-68250, 76363.6, -20000,}, "sphere", "asteroid", 20, 10038.4, 20076.8, 0.0, 0.0,},
+	{{68250, 76363.6, 20000,}, "sphere", "asteroid", 20, 10038.4, 20076.8, 0.0, 0.0,},
+	{{-68250, -76363.6, 20000,}, "cylinder", "asteroid", 28, 10038.4, 20076.8, 0.0, 0.0,},
+	{{68250, -76363.6, -20000,}, "cylinder", "asteroid", 28, 10038.4, 20076.8, 0.0, 0.0,},
+	{{-68250, 76363.6, -20000,}, "cylinder", "asteroid", 28, 10038.4, 20076.8, 0.0, 0.0,},
+	{{68250, 76363.6, 20000,}, "cylinder", "asteroid", 28, 10038.4, 20076.8, 0.0, 0.0,},
+	{{0, 0, 10000,}, "sphere", "dustcloudcenter", 14, 3500, 6225, 0.0, 0.0,},
+	{{0, 0, 10000,}, "sphere", "dustcloudcenter", 14, 10200, 22500, 0.0, 0.0,},
+	{{10500, 0, -10000,}, "sphere", "dustcloudcenter", 14, 3000, 20500, 0.0, 0.0,},
+	{{10500, 0, -10000,}, "sphere", "dustcloudcenter", 12, 10200, 22500, 0.0, 0.0,},
+	{{28500, -6900, 0,}, "sphere", "dustcloudcenter", 12, 10200, 22500, 0.0, 0.0,},
+	{{-10500, 0, 10000,}, "sphere", "dustcloudcenter", 12, 10200, 22500, 0.0, 0.0,},
+	{{-29500, 0, -10000,}, "sphere", "dustcloudcenter", 12, 10200, 22500, 0.0, 0.0,},
+	{{0, 0, 0,}, "sphere", "asteroidlen", 20, 10038.4, 20000, 0.0, 0.0,},
+	{{15000, 0, 0,}, "sphere", "asteroidlen", 30, 10038.4, 20000, 0.0, 0.0,},
+	{{30000, 0, 0,}, "sphere", "asteroidlen", 30, 10038.4, 20000, 0.0, 0.0,},
+	{{41000, 0, 8500,}, "sphere", "asteroidlen", 30, 10038.4, 10000, 0.0, 0.0,},
+	{{50000, 1000, 14250,}, "sphere", "asteroidlen", 20, 10038.4, 25000, 0.0, 0.0,},
+	{{55000, 10000, 13000,}, "sphere", "asteroidlen", 20, 10038.4, 18000, 0.0, 0.0,},
+	{{60000, 20000, 8000,}, "sphere", "asteroidlen", 20, 10038.4, 12000, 0.0, 0.0,},
+	{{65000, 28000, 3000,}, "sphere", "asteroidlen", 20, 10038.4, 16000, 0.0, 0.0,},
+	{{75200, 30000, 0,}, "sphere", "asteroidlen", 20, 10038.4, 16000, 0.0, 0.0,},
+	{{85000, 25000, -3000,}, "sphere", "asteroidlen", 20, 10038.4, 16000, 0.0, 0.0,},
+	{{-15000, 0, -2000,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-30000, 0, -6500,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-41000, 0, -9800,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-50000, -1850, -14235,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-55000, -8200, -14235,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-60000, -18500, -10350,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-68000, -22310, -11235,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-72000, -28100, -12500,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{-83950, -35000, -9200,}, "sphere", "asteroidlen", 20, 10000, 20000, 45.0, 0.0,},
+	{{73500, 28636, -15000,}, "sphere", "dustcloudside", 11, 1510.0, 3020.0, 0.0, 1.0,},
+	{{-73500, 28636, 15000,}, "sphere", "dustcloudside", 11, 1510.0, 3020.0, 0.0, 1.0,},
+	{{-73500, -28636, -15000,}, "sphere", "dustcloudside", 11, 1510.0, 3020.0, 0.0, 1.0,},
+	{{73500, -28636, 15000,}, "sphere", "dustcloudside", 11, 1510.0, 3020.0, 0.0, 1.0,},
+	{{73500, 28636, -15000,}, "sphere", "dustcloudside", 11, 1835.0, 3670.0, 0.0, 0.0,},
+	{{-73500, 28636, 15000,}, "sphere", "dustcloudside", 11, 1835.0, 3670.0, 0.0, 0.0,},
+	{{-73500, -28636, -15000,}, "sphere", "dustcloudside", 11, 1835.0, 3670.0, 0.0, 0.0,},
+	{{73500, -28636, 15000,}, "sphere", "dustcloudside", 11, 1835.0, 3670.0, 0.0, 0.0,},
+	{{26250, 47721.6, 0,}, "sphere", "tinyast", 16, 3000, 9000.8, 0.0, 0.0,},
+	{{-44281, 28636.9, -2522,}, "sphere", "tinyast", 14, 3000, 9000, 0.0, 0.0,},
+	{{-42250, -42721.6, 0,}, "sphere", "tinyast", 16, 3000, 9000.8, 0.0, 0.0,},
+	{{36250, -29721.6, -1450,}, "sphere", "tinyast", 17, 3000, 9000.8, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

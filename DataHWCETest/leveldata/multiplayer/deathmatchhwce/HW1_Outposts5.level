@@ -1,0 +1,170 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"&O&u&t&k&p&o&s&t&s  &(&2 &- &8&)",
+	"",
+	"A large map with ample resources.  Expect a long game.  Starting positions are sort of random, so teams can be anything.",
+	"",
+	"AUTHOR	: Aged (aged@oldmenonline.com)",
+	"VERSION	: 1.0  August 27, 2001",
+	"BACKGROUND: burst",
+}
+
+LevelName = [[Outposts (2 - 8)]]
+LevelFile = [[Outposts5]]
+SourceGame = "HW1"
+NumberOfPlayers = 5
+
+SensorsZoom = {50000, 300000,}
+UniverseSize = {225000, 225000, 225000, }
+
+LevelBackground = "burst_btg"
+LevelMusic = "8"
+
+RUsRatio = 1/2
+PebRatio = 4/5
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{140000.0, 0.0, 20000.0, -180.0,},
+	{-100000.0, 100000.0, -80000.0, -45.0,},
+	{0.0, -140000.0, 60000.0, 90.0,},
+	{100000.0, 100000.0, -80000.0, -135.0,},
+	{-140000.0, 0.0, -20000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {140000.0, 0.0, 20000.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{9, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "wall_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "proximitysensor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "mothership", {-100000.0, 100000.0, -80000.0,}, 1, {0, 0, -45.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{9, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "wall_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "proximitysensor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "mothership", {0.0, -140000.0, 60000.0,}, 2, {0, 0, 90.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{9, "", "lightcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "wall_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "proximitysensor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "mothership", {100000.0, 100000.0, -80000.0,}, 3, {0, 0, -135.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{9, "", "lightcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "wall_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "proximitysensor", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "mothership", {-140000.0, 0.0, -20000.0,}, 4, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "researchship", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "lightinterceptor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "salcapcorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{3, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{9, "", "lightcorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "wall_formation",},
+	{1, "", "advancesupportfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+	{1, "", "proximitysensor", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "picket_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 3,
+		asteroid1 = 0,
+		asteroid2 = 3,
+		asteroid3 = 3,
+		asteroid4 = 1,
+	},
+	dustcloud =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 4,
+		dustcloud2 = 2,
+		dustcloud3 = 4,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-60000.0, 0.0, 0.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{40000.0, -40000.0, -80000.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{0.0, 60000.0, 100000.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{-40000.0, -40000.0, -80000.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{60000.0, 0.0, 0.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{-40000.0, 40000.0, 80000.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{0.0, -60000.0, -100000.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{40000.0, 40000.0, 80000.0,}, "sphere", "asteroid", 100, 10000.0, 0.0, 0.0, 0.0,},
+	{{160000.0, 0.0, 20000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{-100000.0, 120000.0, -80000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{0.0, -160000.0, 60000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{100000.0, 120000.0, -80000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{-160000.0, 0.0, -20000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{100000.0, -120000.0, 80000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{0.0, 160000.0, -60000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{-100000.0, -120000.0, 80000.0,}, "sphere", "dustcloud", 40, 5000.0, 0.0, 0.0, 0.0,},
+	{{40000.0, 180000.0, 160000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{180000.0, -40000.0, -100000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{-40000.0, -180000.0, -160000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{-180000.0, 40000.0, 100000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{120000.0, -140000.0, -40000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{-120000.0, 140000.0, 40000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{140000.0, 120000.0, 140000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{-140000.0, -120000.0, -140000.0,}, "sphere", "asteroid", 60, 8000.0, 0.0, 0.0, 0.0,},
+	{{-60000.0, -100000.0, 140000.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+	{{60000.0, 120000.0, -140000.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+	{{160000.0, -140000.0, -180000.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+	{{-160000.0, 140000.0, 180000.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+	{{-120000.0, -60000.0, -60000.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+	{{120000.0, 60000.0, 60000.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+	{{80000.0, -60000.0, 0.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+	{{-80000.0, 60000.0, 0.0,}, "sphere", "dustcloud", 25, 5000.0, 0.0, 0.0, 0.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,104 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"The Belt of Slims",
+	"A good map for quick 1 vs 1 games. Very few resources add a strategic element to this map's gameplay. ",
+	"",
+	"AUTHOR: Shortboy Slim ",
+	"sbs@ns.sympatico.ca",
+}
+
+LevelName = [[The Belt of Slims]]
+LevelFile = [[TheBeltofSlims2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {50000, 100000,}
+UniverseSize = {100000, 100000, 100000, }
+
+LevelBackground = "ez10"
+LevelMusic = "10"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-28828.6, 39926.7, -54122.8, 0.0,},
+	{63261.7, 27011.4, 24934.2, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {63261.7, 27011.4, 24934.2,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-28828.6, 39926.7, -54122.8,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	asteroid =
+	{
+		asteroid0 = 1,
+		asteroid1 = 3,
+		asteroid2 = 4,
+		asteroid3 = 3,
+		asteroid4 = 0,
+	},
+	tiny =
+	{
+		asteroid0 = 40,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-420.0, -1261.0, 1261.0,}, "sphere", "asteroid", 25, 9500.0, 19000.0, 0.0, 0.0,},
+	{{15554.0, 7987.0, 11350.0,}, "cylinder", "asteroid", 15, 2500.0, 25000.0, -20.0, 35.0,},
+	{{35731.2, 16394.3, 16394.3,}, "cylinder", "asteroid", 15, 2500.0, 25000.0, -3.2, 7.5,},
+	{{53386.5, 19757.5, 16394.4,}, "sphere", "asteroid", 10, 7500.0, 15000.0, 0.0, 0.0,},
+	{{-6052.4, 4707.4, -17342.8,}, "cylinder", "asteroid", 15, 2500.0, 25000.0, -63.1, -54.4,},
+	{{-13225.5, 18157.1, -35275.7,}, "cylinder", "asteroid", 15, 2500.0, 25000.0, -37.2, -64.7,},
+	{{-20847.1, 32055.2, -46483.8,}, "sphere", "asteroid", 10, 7500.0, 15000.0, 0.0, 0.0,},
+	{{72546.0, 22192.0, 18520.0,}, "cylinder", "tiny", 10, 2500.0, 25000.0, -3.3, 7.9,},
+	{{-29016.0, 45292.0, -59145.0,}, "cylinder", "tiny", 10, 2500.0, 25000.0, -37.4, -64.2,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

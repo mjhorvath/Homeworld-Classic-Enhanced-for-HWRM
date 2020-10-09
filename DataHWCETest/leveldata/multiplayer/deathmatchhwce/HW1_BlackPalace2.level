@@ -1,0 +1,130 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"BlackPalace",
+	"A 1on1 map with solid form. Play hard in this geometric pattern of resources, Your SENSORS have been damaged, you will have to fight this one blind! ",
+	"",
+	"AUTHOR	: Jacelor",
+	"VERSION	: 4.20 MAP: 1on1",
+	"HOMEWORLDMAPS.8m.com",
+}
+
+LevelName = [[Black Palace (1vs1)]]
+LevelFile = [[BlackPalace2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {20000, 100000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez05"
+LevelMusic = "4"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-48256.4, 0.0, 0.0, 0.0,},
+	{49464.8, 0.0, 0.0, 180.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {49464.8, 0.0, 0.0,}, 1, {0, 0, 180.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-48256.4, 0.0, 0.0,}, 0, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "researchship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	main =
+	{
+		asteroid0 = 0,
+		asteroid1 = 1,
+		asteroid2 = 2,
+		asteroid3 = 3,
+		asteroid4 = 4,
+	},
+	tiny =
+	{
+		asteroid0 = 40,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{-217.1, 40156.5, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 0.0,},
+	{{0.0, -40048.0, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 0.0,},
+	{{-40048.0, -217.1, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 90.0,},
+	{{40156.5, 0.0, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 90.0,},
+	{{-28132.0, 28506.5, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 44.0,},
+	{{27738.9, -29037.0, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 44.0,},
+	{{-28738.1, -28204.7, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 134.0,},
+	{{28805.4, 27666.2, 0.0,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 134.0,},
+	{{-15300.6, 36899.0, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 22.0,},
+	{{14945.8, -37384.0, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 22.0,},
+	{{-37107.0, -15455.7, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 112.0,},
+	{{37176.0, 14790.7, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 112.0,},
+	{{-36818.7, 15640.2, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 66.0,},
+	{{36540.1, -16783.6, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 66.0,},
+	{{-16136.3, -37168.6, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 156.0,},
+	{{16287.5, 36190.1, -434.1,}, "sphere", "main", 30, 2943.6, 5887.2, 0.0, 156.0,},
+	{{21271.7, 0.1, 12372.5,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, 0.0,},
+	{{14326.1, 14000.5, 12589.6,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, 43.0,},
+	{{-14760.2, -14868.8, 13023.7,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, -134.0,},
+	{{-20186.8, -108.5, 13023.7,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, -180.0,},
+	{{-14326.1, 14434.6, 13023.7,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, 134.0,},
+	{{14326.1, -15520.0, 12155.5,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, -46.0,},
+	{{0.0, -21597.7, 11721.4,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, -90.0,},
+	{{0.0, 22248.9, 12155.5,}, "cylinder", "tiny", 15, 500.0, 50450.0, 34.0, 90.0,},
+	{{-19484.2, 8624.2, -13882.2,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, 157.0,},
+	{{-7620.3, 18797.9, -14099.3,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, 114.0,},
+	{{7873.7, -19141.4, -14533.4,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, -69.0,},
+	{{18636.2, -7674.9, -14533.4,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, -23.0,},
+	{{18923.9, 8002.2, -14533.4,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, 23.0,},
+	{{-19154.9, -8375.9, -13665.2,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, -157.0,},
+	{{-8342.3, -19568.1, -13231.0,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, -113.0,},
+	{{8789.9, 20792.8, -13665.2,}, "cylinder", "tiny", 15, 500.0, 50450.0, -34.0, 67.0,},
+	{{-217.1, -108.5, 25830.4,}, "sphere", "main", 30, 4647.1, 9294.2, 0.0, 121.0,},
+	{{0.0, 0.0, -27566.9,}, "sphere", "main", 30, 4647.1, 9294.2, 0.0, 121.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

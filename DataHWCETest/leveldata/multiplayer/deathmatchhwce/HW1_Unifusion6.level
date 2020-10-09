@@ -1,0 +1,155 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Unifusion for 4, 6, or 8 players.",
+	"",
+	"",
+	"",
+	"AUTHOR: &Dark&Fleet&D&A&B",
+	"REVISION: de-&1&3&3t",
+	"VERSION: &1.&2  {25 Nov 2005}",
+	"",
+	"",
+	"",
+	"",
+	"G&0D FR&0M THE MACH&1NE",
+}
+
+LevelName = [[Unifusion (4 or 6)]]
+LevelFile = [[Unifusion6]]
+SourceGame = "HW1"
+NumberOfPlayers = 6
+
+SensorsZoom = {17500, 115750,}
+UniverseSize = {70000, 70000, 35000, }
+
+LevelBackground = "ez06"
+LevelMusic = "15"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","r1","r1","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{30000.0, 0.0, 0.0, -180.0,},
+	{15000.0, -30000.0, 0.0, 135.0,},
+	{15000.0, 30000.0, 0.0, -135.0,},
+	{-30000.0, 0.0, 0.0, 0.0,},
+	{-15000.0, 30000.0, 0.0, -45.0,},
+	{-15000.0, -30000.0, 0.0, 45.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {30000.0, 0.0, 0.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "standardfrigate", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {15000.0, -30000.0, 0.0,}, 1, {0, 0, 135.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "standardfrigate", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {15000.0, 30000.0, 0.0,}, 2, {0, 0, -135.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "standardfrigate", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-30000.0, 0.0, 0.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "standardfrigate", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-15000.0, 30000.0, 0.0,}, 4, {0, 0, -45.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "standardfrigate", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 4, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-15000.0, -30000.0, 0.0,}, 5, {0, 0, 45.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "lightcorvette", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{2, "", "resourcecollector", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{3, "", "standardfrigate", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecontroller", {0, 0, 0,}, 5, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	centerroids =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 100,
+	},
+	outtyroids =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 2,
+		asteroid4 = 3,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 0.0,}, "sphere", "centerroids", 14, 3500.0, 14000.0, 0.0, 0.0,},
+	{{37920.0, 0.0, 0.0,}, "sphere", "outtyroids", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{33500.0, -21000.0, 0.0,}, "sphere", "centerroids", 14, 3500.0, 7000.0, 0.0, -45.0,},
+	{{18750.0, -35000.0, 0.0,}, "sphere", "outtyroids", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{0.0, -41000.0, 0.0,}, "sphere", "centerroids", 14, 3500.0, 7000.0, 0.0, 0.0,},
+	{{-18750.0, -35000.0, 0.0,}, "sphere", "outtyroids", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{-33500.0, -21000.0, 0.0,}, "sphere", "centerroids", 14, 3500.0, 7000.0, 0.0, -45.0,},
+	{{-37920.0, 0.0, 0.0,}, "sphere", "outtyroids", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{-33500.0, 21000.0, 0.0,}, "sphere", "centerroids", 14, 3500.0, 7000.0, 0.0, -45.0,},
+	{{-18750.0, 35000.0, 0.0,}, "sphere", "outtyroids", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{0.0, 41000.0, 0.0,}, "sphere", "centerroids", 14, 3500.0, 7000.0, 0.0, 0.0,},
+	{{18750.0, 35000.0, 0.0,}, "sphere", "outtyroids", 20, 3500.0, 7000.0, 0.0, 0.0,},
+	{{33500.0, 21000.0, 0.0,}, "sphere", "centerroids", 14, 3500.0, 7000.0, 0.0, -45.0,},
+	{{44920.0, 0.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, -90.0,},
+	{{40000.0, -21750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, 65.0,},
+	{{27000.0, -40750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, 45.0,},
+	{{0.0, -49000.0, 0.0,}, "cylinder", "outtyroids", 40, 3500.0, 40000.0, 0.0, 0.0,},
+	{{-27000.0, -40750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, -45.0,},
+	{{-40000.0, -21750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, -65.0,},
+	{{-44920.0, 0.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, -90.0,},
+	{{-40000.0, 21750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, 65.0,},
+	{{-27000.0, 40750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, 45.0,},
+	{{0.0, 49000.0, 0.0,}, "cylinder", "outtyroids", 40, 3500.0, 40000.0, 0.0, 0.0,},
+	{{27000.0, 40750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, -45.0,},
+	{{40000.0, 21750.0, 0.0,}, "cylinder", "outtyroids", 28, 3500.0, 24500.0, 0.0, -65.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

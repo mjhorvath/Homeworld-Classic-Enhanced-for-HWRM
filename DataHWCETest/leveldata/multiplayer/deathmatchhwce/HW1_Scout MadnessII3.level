@@ -1,0 +1,79 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Scout Madness 2 (2-8)",
+	"",
+	"FIGHT! May the best scout warrior/team or lucky b*****d win!  :D",
+	"Good Luck, May The Scout Be With You! :)",
+	"",
+	"v 2.0 - 13-3-2003",
+	"Map by: Moonquake|&B&i&B",
+	"Original Concept By: B][LLy Da &B&i&B",
+	"",
+	"",
+}
+
+LevelName = [[Scout Madness 2 (2-8)]]
+LevelFile = [[Scout MadnessII3]]
+SourceGame = "HW1"
+NumberOfPlayers = 3
+
+SensorsZoom = {40000, 165000,}
+UniverseSize = {76000, 82000, 22500, }
+
+LevelBackground = "bluenebula_btg"
+LevelMusic = "11"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{80, "", "lightinterceptor", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "useasmothership",},
+	{80, "", "lightinterceptor", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "useasmothership",},
+	{80, "", "lightinterceptor", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "useasmothership",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

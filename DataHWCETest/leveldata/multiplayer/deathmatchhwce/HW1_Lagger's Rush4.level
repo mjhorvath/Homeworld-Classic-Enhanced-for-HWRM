@@ -1,0 +1,177 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"Lagger's Rush",
+	"small close start map with low resources and hard to calculate",
+	"regeneration.",
+	"",
+	"",
+	"AUTHOR: &Lagsy",
+	"Email  LagsFF@aol.com",
+	"",
+}
+
+LevelName = [[Lagger's Rush (4)]]
+LevelFile = [[Lagger's Rush4]]
+SourceGame = "HW1"
+NumberOfPlayers = 4
+
+SensorsZoom = {20000, 200000,}
+UniverseSize = {100000, 100000, 50000, }
+
+LevelBackground = "ez05"
+LevelMusic = "9"
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r1","r1","r1","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+	{-25000.0, 0.0, -15000.0, -180.0,},
+	{-15000.0, -15000.0, 15000.0, -180.0,},
+	{15000.0, 15000.0, 15000.0, 0.0,},
+	{25000.0, 0.0, -15000.0, 0.0,},
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "mothership", {-15000.0, -15000.0, 15000.0,}, 1, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{8, "", "heavydefender", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {-25000.0, 0.0, -15000.0,}, 0, {0, 0, -180.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "heavydefender", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {15000.0, 15000.0, 15000.0,}, 2, {0, 0, 0.0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{10, "", "heavydefender", {0, 0, 0,}, 2, {0, 0, 0,}, 0, 0, "r1", "parade_formation",},
+	{1, "", "mothership", {25000.0, 0.0, -15000.0,}, 3, {0, 0, 0.0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "resourcecollector", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{10, "", "heavydefender", {0, 0, 0,}, 3, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+	rock =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 0,
+		asteroid4 = 1,
+	},
+	rubble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 1,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+	roid =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 1,
+		asteroid4 = 0,
+	},
+	dustball =
+	{
+		dustcloud0 = 0,
+		dustcloud1 = 1,
+		dustcloud2 = 0,
+		dustcloud3 = 0,
+	},
+	tiny =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 0,
+		asteroid3 = 2,
+		asteroid4 = 1,
+	},
+	pebble =
+	{
+		asteroid0 = 0,
+		asteroid1 = 0,
+		asteroid2 = 10,
+		asteroid3 = 0,
+		asteroid4 = 0,
+	},
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+	{{0.0, 0.0, 30000.0,}, "sphere", "rock", 6, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, 30000.0,}, "sphere", "rubble", 12, 7500.0, 15000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -30000.0,}, "sphere", "rock", 6, 5000.0, 10000.0, 0.0, 0.0,},
+	{{0.0, 0.0, -30000.0,}, "sphere", "rubble", 12, 7500.0, 15000.0, 0.0, 0.0,},
+	{{0.0, -15000.0, 30000.0,}, "cylinder", "roid", 8, 2000.0, 15000.0, 20.0, -90.0,},
+	{{0.0, 15000.0, 30000.0,}, "cylinder", "roid", 8, 2000.0, 15000.0, -20.0, -90.0,},
+	{{15000.0, 0.0, -30000.0,}, "cylinder", "roid", 8, 2000.0, 15000.0, -20.0, 0.0,},
+	{{-15000.0, 0.0, -30000.0,}, "cylinder", "roid", 8, 2000.0, 15000.0, 20.0, 0.0,},
+	{{0.0, -25000.0, 25000.0,}, "sphere", "dustball", 4, 2500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, 25000.0, 25000.0,}, "sphere", "dustball", 4, 2500.0, 5000.0, 0.0, 0.0,},
+	{{-25000.0, 0.0, -25000.0,}, "sphere", "dustball", 4, 2500.0, 5000.0, 0.0, 0.0,},
+	{{25000.0, 0.0, -25000.0,}, "sphere", "dustball", 4, 2500.0, 5000.0, 0.0, 0.0,},
+	{{0.0, -25000.0, 20000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-6000.0, -24000.0, 16000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-12000.0, -23000.0, 12000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-18000.0, -22000.0, 8000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-22000.0, -21000.0, 4000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-24000.0, -16000.0, 0.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-26000.0, -12000.0, -4000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-27000.0, -7000.0, -8000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{0.0, 25000.0, 20000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{6000.0, 24000.0, 16000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{12000.0, 23000.0, 12000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{18000.0, 22000.0, 8000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{22000.0, 21000.0, 4000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{24000.0, 16000.0, 0.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{26000.0, 12000.0, -4000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{27000.0, 7000.0, -8000.0,}, "sphere", "tiny", 12, 3000.0, 6000.0, 0.0, 0.0,},
+	{{-45000.0, 10000.0, -15000.0,}, "cylinder", "pebble", 14, 1000.0, 25000.0, 0.0, -25.0,},
+	{{45000.0, -10000.0, -15000.0,}, "cylinder", "pebble", 14, 1000.0, 25000.0, 0.0, -25.0,},
+	{{-36500.0, 6000.0, -15000.0,}, "sphere", "rock", 1, 1000.0, 2000.0, 0.0, -25.0,},
+	{{-45082.0, 9947.0, -15000.0,}, "sphere", "rock", 1, 1000.0, 2000.0, 0.0, -25.0,},
+	{{-53416.0, 13711.0, -15000.0,}, "sphere", "rock", 1, 1000.0, 2000.0, 0.0, -25.0,},
+	{{36379.0, -6183.0, -15000.0,}, "sphere", "rock", 1, 1000.0, 2000.0, 0.0, -25.0,},
+	{{44982.0, -10216.0, -15000.0,}, "sphere", "rock", 1, 1000.0, 2000.0, 0.0, -25.0,},
+	{{53316.0, -13711.0, -15000.0,}, "sphere", "rock", 1, 1000.0, 2000.0, 0.0, -25.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "rubble", 40, 2000.0, 40000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 15000.0,}, "cylinder", "rock", 2, 2000.0, 10000.0, 90.0, 180.0,},
+	{{0.0, 0.0, 0.0,}, "cylinder", "rock", 2, 2000.0, 10000.0, 90.0, 180.0,},
+	{{0.0, 0.0, -15000.0,}, "cylinder", "rock", 2, 2000.0, 10000.0, 90.0, 180.0,},
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+

@@ -1,0 +1,81 @@
+-- Converted using HW2 Map Converter v1.0.0 by Mikali
+
+Description =
+{
+	"This map is for checking out all the derelicts.",
+	"",
+	"Settings: default.",
+}
+
+LevelName = [[ALL Derelicts and Miscellany]]
+LevelFile = [[show_derelicts2]]
+SourceGame = "HW1"
+NumberOfPlayers = 2
+
+SensorsZoom = {53000, 80000,}
+UniverseSize = {1000000000000, 1000000000000, 500000000000, }
+
+LevelBackground = ""
+LevelMusic = ""
+
+RUsRatio = 1
+PebRatio = 7/8
+NebRatio = 1/100
+
+PlayerRaces = {"r1","r2","","","","","","",}
+
+StartPoints =
+{
+	-- [XCoo, YCoo, ZCoo, ZAng]
+}
+
+StartShips =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+	{1, "", "floatingcity", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "cryotray", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "cargobarge", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "miningbase", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "researchstation", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "junkyarddawg", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "junkyardhq", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "ghostship", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "traders", "null_formation",},
+	{1, "", "headshotasteroid", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r1", "null_formation",},
+	{1, "", "headshotasteroid", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{1, "", "cryotray", {0, 0, 0,}, 0, {0, 0, 0,}, 0, 0, "r2", "null_formation",},
+	{7, "", "salcapcorvette", {0, 0, 0,}, 1, {0, 0, 0,}, 0, 0, "r1", "broad_formation",},
+}
+
+Squadrons =
+{
+	-- [Amnt, Name, Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race, Form]
+}
+
+Derelicts =
+{
+	-- [Type, XCoo, YCoo, ZCoo, Plyr, 0, ZAng, Race]
+}
+
+Crystals =
+{
+	-- [Amnt, ~Name~, Type, XCoo, YCoo, ZCoo, ~0~, ~ZAng~]
+}
+
+Distributions =
+{
+}
+
+Resources =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, ResA, Radi, Leng, YAng, ZAng]
+}
+
+Nebulae =
+{
+	-- [XCoo, YCoo, ZCoo, Lyot, Dist, TNum, XSiz, YSiz, ZSiz, CNum]
+}
+
+--------------------------------------------------------------------------------
+
+dofilepath("data:scripts/levelfunc.lua")
+
