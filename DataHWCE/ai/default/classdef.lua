@@ -1,3 +1,6 @@
+-- a ship needs to appear in a build or research script before the AI will know what to do with it
+-- if you don't do this then the game will crash to desktop
+-- some ships are commented out for this reason
 aitrace("CPU: CLASSDEF LOADED")
 
 squadclass = {}
@@ -43,17 +46,17 @@ squadclass[eBuilder] = {
 	HGN_CARRIER_RESEARCH0,
 	HGN_SHIPYARD,
 	HGN_SHIPYARD_RESEARCH0,
-	HGN_SHIPYARD_ELOHIM,
-	HGN_SHIPYARD_SPG,
+--	HGN_SHIPYARD_ELOHIM,		-- not in build/research
+--	HGN_SHIPYARD_SPG,
 	VGR_MOTHERSHIP,
 	VGR_MOTHERSHIP_MAKAAN,
 	VGR_CARRIER,
 	VGR_CARRIER_CARRIERONLY1,
 	VGR_SHIPYARD,
-	VGR_COMMSTATION,
-	VGR_COMMSTATION_HWC,
-	VGR_PRISONSTATION,
-	VGR_PRISONSTATION_HWC,
+--	VGR_COMMSTATION,		-- not in build/research
+--	VGR_COMMSTATION_HWC,		-- not in build/research
+--	VGR_PRISONSTATION,		-- not in build/research
+--	VGR_PRISONSTATION_HWC,		-- not in build/research
 	KUS_MOTHERSHIP,
 	KUS_CARRIER,
 	TAI_MOTHERSHIP,
@@ -66,8 +69,8 @@ squadclass[eDropOff] = {
 	HGN_CARRIER_RESEARCH0,
 	HGN_SHIPYARD,
 	HGN_SHIPYARD_RESEARCH0,
-	HGN_SHIPYARD_ELOHIM,
-	HGN_SHIPYARD_SPG,
+--	HGN_SHIPYARD_ELOHIM,		-- not in build/research
+--	HGN_SHIPYARD_SPG,
 	HGN_RESOURCECONTROLLER,	
 	VGR_MOTHERSHIP,
 	VGR_MOTHERSHIP_MAKAAN,
@@ -75,10 +78,10 @@ squadclass[eDropOff] = {
 	VGR_CARRIER_CARRIERONLY1,
 	VGR_SHIPYARD,
 	VGR_RESOURCECONTROLLER,
-	VGR_COMMSTATION,		-- double check
-	VGR_COMMSTATION_HWC,		-- double check
-	VGR_PRISONSTATION,		-- double check
-	VGR_PRISONSTATION_HWC,		-- double check
+--	VGR_COMMSTATION,		-- not in build/research
+--	VGR_COMMSTATION_HWC,		-- not in build/research
+--	VGR_PRISONSTATION,		-- not in build/research
+--	VGR_PRISONSTATION_HWC,		-- not in build/research
 	KUS_MOTHERSHIP,
 	KUS_CARRIER,	
 	KUS_RESOURCECONTROLLER,	
@@ -93,8 +96,8 @@ squadclass[eSalvageDropOff] = {
 	HGN_CARRIER_RESEARCH0,
 	HGN_SHIPYARD,
 	HGN_SHIPYARD_RESEARCH0,
-	HGN_SHIPYARD_ELOHIM,
-	HGN_SHIPYARD_SPG,
+--	HGN_SHIPYARD_ELOHIM,		-- not in build/research
+--	HGN_SHIPYARD_SPG,
 	VGR_MOTHERSHIP,
 	VGR_MOTHERSHIP_MAKAAN,
 	VGR_CARRIER,
@@ -113,15 +116,15 @@ squadclass[eFighter] = {
 	VGR_BOMBER,
 	VGR_LANCEFIGHTER,
 	KUS_INTERCEPTOR,
---	KUS_ATTACKBOMBER,
+--	KUS_ATTACKBOMBER,		-- why is this commented out?
 	KUS_DEFENDER,
 	KUS_CLOAKEDFIGHTER,
 	TAI_INTERCEPTOR,
---	TAI_ATTACKBOMBER,
+--	TAI_ATTACKBOMBER,		-- why is this commented out?
 	TAI_DEFENDER,
 	TAI_DEFENSEFIGHTER,
-	KPR_ATTACKDROID,
-	KPR_ATTACKDROID_HWC,
+--	KPR_ATTACKDROID,		-- not in build/research
+--	KPR_ATTACKDROID_HWC,		-- not in build/research
 }
 squadclass[eCorvette] = {
 	HGN_ASSAULTCORVETTE,
@@ -143,7 +146,7 @@ squadclass[eCorvette] = {
 	TAI_REPAIRCORVETTE,
 	TAI_MULTIGUNCORVETTE,
 	TAI_MINELAYERCORVETTE,
---	KPR_MOVER,
+--	KPR_MOVER,		-- not in build/research
 }
 squadclass[eFrigate] = {
 	HGN_ASSAULTFRIGATE,
@@ -159,18 +162,18 @@ squadclass[eFrigate] = {
 	KUS_ASSAULTFRIGATE,
 	KUS_IONCANNONFRIGATE,
 	KUS_DRONEFRIGATE,
---	KUS_SUPPORTFRIGATE,
+--	KUS_SUPPORTFRIGATE,		-- why is this commented out?
 	TAI_ASSAULTFRIGATE,
 	TAI_IONCANNONFRIGATE,
 	TAI_FIELDFRIGATE,
---	TAI_SUPPORTFRIGATE,
+--	TAI_SUPPORTFRIGATE,		-- why is this commented out?
 }
 squadclass[eCapture] = {
 	HGN_MARINEFRIGATE,
 	HGN_MARINEFRIGATE_SOBAN,
 	VGR_INFILTRATORFRIGATE,
---	KUS_SALVAGECORVETTE,		-- why are these commented out?
---	TAI_SALVAGECORVETTE,
+--	KUS_SALVAGECORVETTE,		-- why is this commented out?
+--	TAI_SALVAGECORVETTE,		-- why is this commented out?
 }
 squadclass[eShield] = {
 	HGN_DEFENSEFIELDFRIGATE,
@@ -202,10 +205,10 @@ squadclass[eAntiFighter] = {
 	TAI_LIGHTCORVETTE,
 	TAI_MULTIGUNCORVETTE,
 	TAI_MISSILEDESTROYER,
-	KPR_ATTACKDROID,
-	KPR_ATTACKDROID_HWC,
-	KPR_DESTROYER,
-	KPR_DESTROYER_HWC,
+--	KPR_ATTACKDROID,		-- not in build/research
+--	KPR_ATTACKDROID_HWC,		-- not in build/research
+--	KPR_DESTROYER,		-- not in build/research
+--	KPR_DESTROYER_HWC,		-- not in build/research
 }
 squadclass[eAntiCorvette] = {
 	HGN_PULSARCORVETTE,
@@ -228,12 +231,12 @@ squadclass[eAntiCorvette] = {
 	TAI_ASSAULTFRIGATE,
 	TAI_DESTROYER,
 	TAI_MISSILEDESTROYER,
-	KPR_ATTACKDROID,
-	KPR_ATTACKDROID_HWC,
-	KPR_MOVER,
-	KPR_DESTROYER,
-	KPR_DESTROYERM10,
-	KPR_DESTROYER_HWC,
+--	KPR_ATTACKDROID,		-- not in build/research
+--	KPR_ATTACKDROID_HWC,		-- not in build/research
+--	KPR_MOVER,		-- not in build/research
+--	KPR_DESTROYER,		-- not in build/research
+--	KPR_DESTROYERM10,		-- not in build/research
+--	KPR_DESTROYER_HWC,		-- not in build/research
 }
 squadclass[eAntiFrigate] = {
 	HGN_IONTURRET,
@@ -261,12 +264,12 @@ squadclass[eAntiFrigate] = {
 	TAI_IONCANNONFRIGATE,
 	TAI_DESTROYER,	
 	TAI_HEAVYCRUISER,
-	KPR_DESTROYER,
-	KPR_DESTROYERM10,
-	KPR_DESTROYER_HWC,
-	KPR_MOVER,
-	KPR_SAJUUK,
-	KPR_SAJUUK_HWC,
+--	KPR_DESTROYER,		-- not in build/research
+--	KPR_DESTROYERM10,		-- not in build/research
+--	KPR_DESTROYER_HWC,		-- not in build/research
+--	KPR_MOVER,		-- not in build/research
+--	KPR_SAJUUK,		-- not in build/research
+--	KPR_SAJUUK_HWC,		-- not in build/research
 }
 squadclass[eCapital] = {
 	HGN_CARRIER,
@@ -275,8 +278,8 @@ squadclass[eCapital] = {
 	HGN_MOTHERSHIP_RESEARCH0,
 	HGN_SHIPYARD,
 	HGN_SHIPYARD_RESEARCH0,
-	HGN_SHIPYARD_ELOHIM,
-	HGN_SHIPYARD_SPG,
+--	HGN_SHIPYARD_ELOHIM,		-- not in build/research
+--	HGN_SHIPYARD_SPG,
 	HGN_DESTROYER,
 	HGN_BATTLECRUISER,
 	HGN_BATTLECRUISER_RESEARCH0,
@@ -288,10 +291,10 @@ squadclass[eCapital] = {
 	VGR_SHIPYARD,
 	VGR_DESTROYER,
 	VGR_BATTLECRUISER,
-	VGR_COMMSTATION,
-	VGR_COMMSTATION_HWC,
-	VGR_PRISONSTATION,
-	VGR_PRISONSTATION_HWC,
+--	VGR_COMMSTATION,		-- not in build/research
+--	VGR_COMMSTATION_HWC,		-- not in build/research
+--	VGR_PRISONSTATION,		-- not in build/research
+--	VGR_PRISONSTATION_HWC,		-- not in build/research
 	KUS_MOTHERSHIP,
 	KUS_CARRIER,	
 	KUS_DESTROYER,
@@ -302,10 +305,10 @@ squadclass[eCapital] = {
 	TAI_DESTROYER,
 	TAI_MISSILEDESTROYER,
 	TAI_HEAVYCRUISER,
-	KPR_DESTROYER,
-	KPR_DESTROYER_HWC,
-	KPR_SAJUUK,
-	KPR_SAJUUK_HWC,
+--	KPR_DESTROYER,		-- not in build/research
+--	KPR_DESTROYER_HWC,		-- not in build/research
+--	KPR_SAJUUK,		-- not in build/research
+--	KPR_SAJUUK_HWC,		-- not in build/research
 }
 squadclass[eNonThreat] = {
 	HGN_RESOURCECOLLECTOR,
@@ -316,8 +319,8 @@ squadclass[eNonThreat] = {
 	HGN_MOTHERSHIP_RESEARCH0,
 	HGN_SHIPYARD,
 	HGN_SHIPYARD_RESEARCH0,
-	HGN_SHIPYARD_ELOHIM,
-	HGN_SHIPYARD_SPG,
+--	HGN_SHIPYARD_ELOHIM,		-- not in build/research
+--	HGN_SHIPYARD_SPG,
 	HGN_SCOUT,
 	HGN_PROBE,
 	HGN_PROXIMITYSENSOR,
@@ -334,16 +337,16 @@ squadclass[eNonThreat] = {
 	VGR_PROBE_PROX,
 	VGR_PROBE_ECM,	
 	VGR_HYPERSPACE_PLATFORM,
-	VGR_COMMSTATION,
-	VGR_COMMSTATION_HWC,
-	VGR_PRISONSTATION,
-	VGR_PRISONSTATION_HWC,
+--	VGR_COMMSTATION,		-- not in build/research
+--	VGR_COMMSTATION_HWC,		-- not in build/research
+--	VGR_PRISONSTATION,		-- not in build/research
+--	VGR_PRISONSTATION_HWC,		-- not in build/research
 	KUS_RESOURCECOLLECTOR,
 	KUS_RESOURCECONTROLLER,
 	KUS_REPAIRCORVETTE,
 	KUS_MOTHERSHIP,
 	KUS_CARRIER,
---	KUS_SCOUT,
+--	KUS_SCOUT,		-- why is this commented out?
 	KUS_PROBE,
 	KUS_PROXIMITYSENSOR,	
 	KUS_SENSORARRAY,
@@ -359,7 +362,7 @@ squadclass[eNonThreat] = {
 	TAI_REPAIRCORVETTE,
 	TAI_MOTHERSHIP,
 	TAI_CARRIER,
---	TAI_SCOUT,
+--	TAI_SCOUT,		-- why is this commented out?
 	TAI_PROBE,
 	TAI_PROXIMITYSENSOR,
 	TAI_SENSORARRAY,
@@ -382,8 +385,8 @@ squadclass[eSubSystemAttackers] =
 	VGR_BOMBER,
 	KUS_ATTACKBOMBER,
 	TAI_ATTACKBOMBER,
-	KPR_ATTACKDROID,
-	KPR_ATTACKDROID_HWC,
+--	KPR_ATTACKDROID,		-- not in build/research
+--	KPR_ATTACKDROID_HWC,		-- not in build/research
 }
 squadclass[eNonCriticalSubSys] = 
 {
@@ -420,14 +423,14 @@ squadclass[eGoodRepairAttackers] =
 	TAI_DESTROYER,
 	TAI_MISSILEDESTROYER,
 	TAI_HEAVYCRUISER,
-	KPR_ATTACKDROID,
-	KPR_ATTACKDROID_HWC,
-	KPR_MOVER,
-	KPR_DESTROYER,
-	KPR_DESTROYERM10,
-	KPR_DESTROYER_HWC,
-	KPR_SAJUUK,
-	KPR_SAJUUK_HWC,
+--	KPR_ATTACKDROID,		-- not in build/research
+--	KPR_ATTACKDROID_HWC,		-- not in build/research
+--	KPR_MOVER,		-- not in build/research
+--	KPR_DESTROYER,		-- not in build/research
+--	KPR_DESTROYERM10,		-- not in build/research
+--	KPR_DESTROYER_HWC,		-- not in build/research
+--	KPR_SAJUUK,		-- not in build/research
+--	KPR_SAJUUK_HWC,		-- not in build/research
 }
 
 eUselessShips	= eMaxCount
@@ -441,7 +444,7 @@ squadclass[eUselessShips] =
 	VGR_MINELAYERCORVETTE,
 	VGR_COMMANDCORVETTE,
 	KUS_MINELAYERCORVETTE,	
---	KUS_CLOAKEDFIGHTER,
+--	KUS_CLOAKEDFIGHTER,		-- why is this commented out?
 	KUS_SUPPORTFRIGATE,
 	KUS_SALVAGECORVETTE,
 	TAI_MINELAYERCORVETTE,
@@ -455,8 +458,8 @@ squadclass[eBattleCruiser] =
 	VGR_BATTLECRUISER,
 	KUS_HEAVYCRUISER,
 	TAI_HEAVYCRUISER,
-	KPR_SAJUUK,
-	KPR_SAJUUK_HWC,
+--	KPR_SAJUUK,		-- not in build/research
+--	KPR_SAJUUK_HWC,		-- not in build/research
 }
 squadclass[eDestroyer] =
 {
@@ -466,9 +469,9 @@ squadclass[eDestroyer] =
 	KUS_MISSILEDESTROYER,
 	TAI_DESTROYER,
 	TAI_MISSILEDESTROYER,
-	KPR_DESTROYER,
-	KPR_DESTROYERM10,
-	KPR_DESTROYER_HWC,
+--	KPR_DESTROYER,		-- not in build/research
+--	KPR_DESTROYERM10,		-- not in build/research
+--	KPR_DESTROYER_HWC,		-- not in build/research
 }
 
 function FastAddToClass( tbl, classid )

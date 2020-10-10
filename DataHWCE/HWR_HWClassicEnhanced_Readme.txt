@@ -1,9 +1,9 @@
 ﻿Caption:    Homeworld Classic Enhanced for Homeworld Remastered
-Version:    2.4.0
+Version:    2.4.1
 Authors:    Mikali, Luke Moloney (original version of HWC mod) and many, many 
             individual map authors
 Created:    2011/11/18
-Updated:    2020/10/09
+Updated:    2020/10/10
 Website:    http://isometricland.net/homeworld/homeworld.php
 
 Steam:      For HWRM
@@ -443,19 +443,32 @@ TO DO
 • Re-release "Defined Roles" as its own separate mod maybe compatible with this 
   one.
 • Make sure the correct numbered research ships are being granted to Kushan and 
-  Taiidan.
+  Taiidan in "Special Fleets", "Crates", etc.
 • Make sure "Special Fleets" doesn't grant restricted items.
 • Make sure "research0" versions of Hiigaran capital ships are referenced 
   properly in other ships' .lua scripts where needed. Ship names are often hard-
   coded in these files.
 • "Research Off" rule tries to grant researches located in "ai_properties.lua" 
-  and fails with errors.
+  and fails with script errors.
+• The race-specific AI scripts in "Data\scripts\races\<race>\scripts" does not 
+  cope well with multiple versions of a ship, for instance the Hiigaran super 
+  capital ships with the missing advanced research modules.
 
 
 ================================================================================
 
 
 CHANGE LOG
+
+2.4.1 --- 2020/10/10
+• Move motherships list from "objectlist_rulerestrictions.lua" to 
+  "objectlist_misc.lua".
+• Added hyperspace researches for Kushan and Taiidan to "HyperspaceOff" section 
+  of "objectlist_rulerestrictions.lua". Unfortunately, capital ships of those 
+  races have the hyperspace capability that cannot be turned off using build or 
+  research grants or restrictions.
+• Fixed game crashing when playing as Hiigaran or Vaygr under certain combin-
+  ations of game rules.
 
 2.4.0 --- 2020/10/09
 • Created many scripts and a spreadsheet for a planned "modular ships" version 
@@ -465,7 +478,7 @@ CHANGE LOG
   scripts to the "source" folder.
 • Disabled "Defined Roles" mode and re-enabled "Special Fleets" mode. The AI 
   has no idea how to deal with the former, but is able to deal with the latter 
-  perfectly fine. Updated docs to reflect this.
+  much better. Updated docs to reflect this.
 • "Special Fleets" mode now spawns the correct research ships for the Kushan 
   and Taiidan races. These ships are now instantly spawned in formation with 
   the mothership instead of made to exit out of the shiphold.

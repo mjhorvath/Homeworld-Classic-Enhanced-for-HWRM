@@ -36,6 +36,29 @@ ResourceControllersList =
 	},
 }
 
+-- these don't appear in build.lua, so trying to grant or restrict them using the normal scripts results in an error
+MothershipsList =
+{
+	hiigaran =
+	{
+		"Hgn_Mothership",
+		"Hgn_Mothership_research0",
+	},
+	vaygr =
+	{
+		"Vgr_Mothership",
+		"Vgr_Mothership_Makaan",
+	},
+	kushan =
+	{
+		"Kus_Mothership",
+	},
+	taiidan =
+	{
+		"Tai_Mothership",
+	},
+}
+
 -- List of unlikely player-owned ships that should not get counted when determining where to place a crate. (E.g., megaliths.)
 CrateExclusions =
 {

@@ -1,5 +1,5 @@
 --GUID = { 110,91,157,190,18,23,250,78,144,20,41,246,181,128,214,12 }
-GameRulesName = "HWC Enhanced 2.4.0"
+GameRulesName = "HWC Enhanced 2.4.1"
 Description = "Multiplayer options from the Homeworld Classic Rebalance and Gameplay Enhanced mods for Homeworld 2 Classic."
 SaveGameVersion = 1.0
 SinglePlayer = 0

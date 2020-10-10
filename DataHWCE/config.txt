@@ -10,7 +10,7 @@
 // Steam Workshop.  The description text is limited to 8,000 characters total in length.
 
 // title of the MOD that appears on the Steam Workshop (limited to 128 characters)
-Title: [HWRM] Homeworld Classic Enhanced for HWRM 2.3.1
+Title: [HWRM] Homeworld Classic Enhanced for HWRM 2.4.1
 
 // tags must be individual words separated by spaces.
 Tags: HomeworldRM HWRM bounties crates definedroles multiplayer maps

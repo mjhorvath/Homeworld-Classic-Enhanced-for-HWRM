@@ -156,8 +156,8 @@ addAbility(NewShipType,"HyperspaceInhibitorAbility",0,12000);
 NewShipType.noCombatGrouping=1
 addCustomCode(NewShipType,"data:Ship/Hgn_Carrier_Research0/Hgn_Carrier_Research0.lua","","Create_Hgn_Carrier_Research0","Update_Hgn_Carrier_Research0","","Hgn_Carrier_Research0",4)
 
---LoadModel(NewShipType,1)
-LoadSharedModel(NewShipType, "hgn_carrier")
+LoadModel(NewShipType,1)
+--LoadSharedModel(NewShipType, "hgn_carrier")
 
 StartShipWeaponConfig(NewShipType,"Hgn_MSHullDefenseGun2","Weapon_HullDefense1","Weapon_HullDefense1");
 StartShipWeaponConfig(NewShipType,"Hgn_MSHullDefenseGun2","Weapon_HullDefense2","Weapon_HullDefense2");

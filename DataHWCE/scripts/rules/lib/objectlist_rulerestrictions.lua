@@ -99,54 +99,8 @@ RestrictedBy =
 			},
 		},
 	},
-	-- these don't appear in build.lua, so trying to grant or restrict them using the normal scripts results in an error
-	motherships =
-	{
-		hiigaran =
-		{
-			build =
-			{
-				"Hgn_Mothership",
-				"Hgn_Mothership_research0",
-			},
-			research =
-			{
-			},
-		},
-		vaygr =
-		{
-			build =
-			{
-				"vgr_mothership",
-				"vgr_mothership_makaan",
-			},
-			research =
-			{
-			},
-		},
-		kushan =
-		{
-			build =
-			{
-				"kus_mothership",
-			},
-			research =
-			{
-			},
-		},
-		taiidan =
-		{
-			build =
-			{
-				"tai_mothership",
-			},
-			research =
-			{
-			},
-		},
-	},
 	-- incomplete, need to restrict these for human players
-	AIUpgradesOnly =
+	HumanPlayers =
 	{
 		hiigaran =
 		{
@@ -195,7 +149,7 @@ RestrictedBy =
 			{
 			},
 		},
-	}
+	},
 	-- "Start With" is set to "Mothership".
 	StartWithMothership = 
 	{
@@ -320,17 +274,15 @@ RestrictedBy =
 			build =
 			{
 				"Hgn_Shipyard",
-				"Hgn_Shipyard_Elohim",
 				"Hgn_Shipyard_research0",
+--				"Hgn_Shipyard_Elohim",
+--				"Hgn_Shipyard_SPG",
 			},
 			research =
 			{
 				"MothershipHealthUpgrade1",
 				"MothershipMAXSPEEDUpgrade1",
 				"MothershipBUILDSPEEDUpgrade1",
-				"ShipyardHealthUpgrade1",
-				"ShipyardMAXSPEEDUpgrade1",
-				"ShipyardBUILDSPEEDUpgrade1",
 				"CarrierHealthUpgrade1",	-- aka "_carrieronly0_research1"
 --				"CarrierHealthUpgrade2",	-- aka "_carrieronly0_research1"
 				"CarrierMAXSPEEDUpgrade1",	-- aka "_carrieronly0_research1"
@@ -341,14 +293,17 @@ RestrictedBy =
 				"CarrierMAXSPEEDUpgrade1_carrieronly0_research0",
 --				"CarrierMAXSPEEDUpgrade2_carrieronly0_research0",
 				"CarrierBUILDSPEEDUpgrade1_carrieronly0_research0",
+				"ShipyardHealthUpgrade1",
+				"ShipyardMAXSPEEDUpgrade1",
+				"ShipyardBUILDSPEEDUpgrade1",
 			},
 		},
 		vaygr =
 		{
 			build =
 			{
-				"Vgr_Shipyard",
 				"Vgr_Carrier",
+				"Vgr_Shipyard",
 				"Vgr_C_Production_Fighter",
 				"Vgr_C_Production_Corvette",
 			},
@@ -394,11 +349,11 @@ RestrictedBy =
 				"Hgn_MS_Module_FireControl",
 				"Hgn_C_Module_ResearchAdvanced",
 				"Hgn_MS_Module_ResearchAdvanced",
-				"Hgn_Carrier",
+				"Hgn_Carrier",	-- aka "_research1"
 				"Hgn_Shipyard",	-- aka "_research1"
-				"Hgn_Shipyard_Elohim",
-				"Hgn_Shipyard_SPG",
-				"Hgn_Battlecruiser",
+--				"Hgn_Shipyard_Elohim",
+--				"Hgn_Shipyard_SPG",
+				"Hgn_Battlecruiser",	-- aka "_research1"
 			},
 			research =
 			{
@@ -510,6 +465,7 @@ RestrictedBy =
 		},
 	},
 	-- "Hyperspace" is set to "Off".
+	-- Kushan and Taiidan are mostly unaffected by this setting.
 	HyperspaceOff =
 	{
 		hiigaran =
@@ -524,8 +480,8 @@ RestrictedBy =
 				"Hgn_MS_Sensors_DetectHyperspace",
 				"Hgn_Shipyard",
 				"Hgn_Shipyard_research0",
-				"Hgn_Shipyard_Elohim",
-				"Hgn_Shipyard_SPG",
+--				"Hgn_Shipyard_Elohim",
+--				"Hgn_Shipyard_SPG",
 			},
 			research =
 			{
@@ -558,6 +514,8 @@ RestrictedBy =
 			},
 			research =
 			{
+				"HyperspaceDamageReductionUpgrade",
+				"HyperspaceDamageReductionUpgradeHC",
 			},
 		},
 		taiidan =
@@ -567,6 +525,8 @@ RestrictedBy =
 			},
 			research =
 			{
+				"HyperspaceDamageReductionUpgrade",
+				"HyperspaceDamageReductionUpgradeHC",
 			},
 		},
 	},

@@ -261,7 +261,7 @@ function OnInit()
 	--======================================================================
 	-- Homeworld Classic rules
 
-	-- setup per-gamerule build and research restrictions
+	-- set up per-gamerule build and research restrictions
 	print("HWCE: Setting up per-gamerule build and research restrictions.")
 	for playerIndex = 0, Player_Count do
 		local sRace = strlower(Race_GetName(Player_GetRace(playerIndex)))
@@ -310,13 +310,13 @@ function OnInit()
 			DisableListOfBuilds(playerIndex, sRace, RestrictedBy.HumanPlayer[sRace].build)
 			DisableListOfResearch(playerIndex, sRace, RestrictedBy.HumanPlayer[sRace].research)
 		end
-		local mothershipsList = RestrictedBy.motherships[sRace].build
+		local mothershipsList = MothershipsList[sRace]
 		for j = 1, getn(mothershipsList) do
 			tinsert(Player_RestrictedBuilds[playerIndex + 1][sRace], mothershipsList[j])
 		end
 	end
 
-	-- setup resource injections
+	-- set up resource injections
 	if (ResourceInjectionAmount > 0) then
 		print("HWC: RESOURCE INJECTIONS of " .. ResourceInjectionAmount .. " RUs every " .. ResourceInjectionTime .. " seconds.")
 		Rule_AddInterval("ResourceInjectionRule", ResourceInjectionTime)
@@ -324,7 +324,7 @@ function OnInit()
 		print("HWC: RESOURCE INJECTIONS disabled.")
 	end
 
-	-- setup lump sum resource injection
+	-- set up lump sum resource injection
 	if (ResourceLumpSumAmount > 0) then
 		print("HWC: LUMP SUM RESOURCE INJECTION of " .. ResourceLumpSumAmount .. " RUs after " .. ResourceLumpSumTime .. " seconds.")
 		Rule_AddInterval("ResourceLumpSumRule", ResourceLumpSumTime)
@@ -338,7 +338,7 @@ function OnInit()
 		Rule_Add("DespawnPlayerFleetInHyperspaceRule")
 		Rule_Add("DespawnNonPlayerFleetOnMapRule")
 	else
-		-- setup the "Start With" game modes
+		-- set up the "Start With" game modes
 		if (StartWithMode == "mothership") then
 			print("HWC: START WITH mode set to mothership and carrier.")
 			StartFleetSuffixString = StartFleetSuffixString .. "_carrieronly0"
@@ -352,11 +352,11 @@ function OnInit()
 		elseif (StartWithMode == "frommap") then
 			print("HWC: START WITH mode set to HW1 map.")
 			-- this is set later toward the end of the script instead of here
-	--		StartFleetSuffixString = "_blank"
+--			StartFleetSuffixString = "_blank"
 			Rule_Add("SpawnPlayerFleetInHyperspaceRule")
 		end
 
-		-- setup the "no research" game mode
+		-- set up the "no research" game mode
 		if (ResearchMode == 0) then
 			print("HWC: RESEARCH disabled.")
 			StartFleetSuffixString = StartFleetSuffixString .. "_research0"
@@ -368,20 +368,20 @@ function OnInit()
 			StartFleetSuffixString = StartFleetSuffixString .. "_research1"
 		end
 
-		-- setup the "Resourcing Disabled" option
+		-- set up the "Resourcing Disabled" option
 		if (ResourceMode == -1) then
 			print("HWC: RESOURCING disabled.")
 			-- brute force method if needed, but with poor performance issues
-	--		SobGroup_Create("ResourcersToDestroy")
-	--		resourceStartCountingTime = Universe_GameTime()
-	--		Rule_AddInterval("DestroyResourcersRule", 1)
+--			SobGroup_Create("ResourcersToDestroy")
+--			resourceStartCountingTime = Universe_GameTime()
+--			Rule_AddInterval("DestroyResourcersRule", 1)
 			StartFleetSuffixString = StartFleetSuffixString .. "_resource0"
 		else
 			print("HWC: RESOURCING enabled.")
 			StartFleetSuffixString = StartFleetSuffixString .. "_resource1"
 		end
 
-		-- setup the "no hyperspace" game mode
+		-- set up the "no hyperspace" game mode
 		-- need to implement a starting fleet solution for this mode too
 		if (HyperspaceMode == 0) then
 			print("HWC: HYPERSPACE disabled.")

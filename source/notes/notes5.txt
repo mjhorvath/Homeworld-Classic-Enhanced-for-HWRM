@@ -9,6 +9,7 @@ Need to continually check and update these when adding or removing builds and re
 	- ship/icons/shipicons.lua
 	- ship/kus_researchship/kus_researchship.lua - hardcoded mothership and carrier names
 	- ship/tai_researchship/tai_researchship.lua - hardcoded mothership and carrier names
+	- all other ship LUA files
 	+ scripts/productiontimes/buildtimes.lua (see notes in file)
 	- scripts/races/<race>/hwclassicmaps/props/gbx.lua
 	- scripts/races/<race>/ai_upgrades.lua

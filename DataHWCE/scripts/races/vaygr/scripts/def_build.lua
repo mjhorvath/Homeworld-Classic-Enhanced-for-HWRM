@@ -502,6 +502,15 @@ build =
 
 	-- HWC Hacks --------------
 	{ 
+		Type = 					Ship, 
+		ThingToBuild = 			"Vgr_Carrier_carrieronly1",
+		RequiredResearch =		"",
+		RequiredShipSubSystems =	"CapShipProduction",
+		DisplayPriority =		310,
+		DisplayedName =			"$7154",
+		Description =			"$7155" 
+	},
+	{ 
 		Type = 					SubSystem, 
 		ThingToBuild = 			"Vgr_C_Production_Fighter_carrieronly1",
 		RequiredResearch =		"",
