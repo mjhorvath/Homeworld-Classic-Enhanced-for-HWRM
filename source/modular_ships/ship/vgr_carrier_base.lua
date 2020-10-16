@@ -1,24 +1,28 @@
-hyperspaceModule = ""
-hyperinhibitModule = ""
-hyperdetectModule = ""
-researchModule = ""
-resourceModule = ""
-carfighterModule = "vgr_c_production_fighter"
-carcorvetteModule = "vgr_c_production_corvette"
-
 if hypBool == 1 then
+	hyperdetectModule = "Vgr_C_Sensors_DetectHyperspace"
 	hyperspaceModule = "Vgr_C_Module_Hyperspace"
 	hyperinhibitModule = "Vgr_C_Module_HyperspaceInhibitor"
-	hyperdetectModule = "Vgr_C_Sensors_DetectHyperspace"
+else
+	hyperdetectModule = ""
+	hyperspaceModule = ""
+	hyperinhibitModule = ""
 end
 if resBool == 1 then
 	resourceModule = "Vgr_C_Innate_Resource"
+	resourceRate = 40
+else
+	resourceModule = ""
+	resourceRate = 0
 end
 if rchBool == 1 then
 	researchModule = "Vgr_C_Module_Research"
+else
+	researchModule = ""
 end
-if carBool == 1 then
-	-- make sure the spelling of the names here are synced with the SUBS files/folders
+if carBool == 0 then
+	carfighterModule = "vgr_c_production_fighter_car0"
+	carcorvetteModule = "vgr_c_production_corvette_car0"
+else
 	carfighterModule = "vgr_c_production_fighter_car1"
 	carcorvetteModule = "vgr_c_production_corvette_car1"
 end
@@ -164,7 +168,7 @@ NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
 NewShipType.strikeGroupRadius=200
-addAbility(NewShipType,"ShipHold",1,40,100,"rallypoint","Fighter, Corvette, Utility",35,{Fighter="2"},{Corvette="24"},{Utility="88"});
+addAbility(NewShipType,"ShipHold",1,resourceRate,100,"rallypoint","Fighter, Corvette, Utility",35,{Fighter="2"},{Corvette="24"},{Utility="88"});
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"WaypointMove");
 if hypBool == 1 then

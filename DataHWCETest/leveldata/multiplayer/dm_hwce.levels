@@ -1,22 +1,11 @@
-
---Local_Desc - Description of this package
---Package_Sym - Shared name for packages with the same catagory
---Package_Desc - Description - may move to a 'package' desc file...
-
-Root = "DATA:\\LevelData\\Multiplayer\\deathmatchhwce"
-
+Root = "DATA:\\LevelData\\Multiplayer\\deathmatch_hwce"
 ExtFilter = "levels_dm_hwce"
-
---Tags - Set single tags for all levels...
-Tags = "hwce"
-
---TagSets - Set groups of tags for all levels (defined in Scripts/Tags/*.tags) - makes bulk editing faster...
---TagSets = "hw1"
+Tags = "levels_dm_hwce"
 
 LevelList =
 {
-	{Tags = "2p", Name = "2p_Gallery_Resources", Desc = [[<c=FF0033>000 Test Resource Gallery</c>]], MaxPlayers = 2,},
-	{Tags = "2p", Name = "2p_Gallery_Ships", Desc = [[<c=FF0033>000 Test Ship Gallery</c>]], MaxPlayers = 2,},
+	{Tags = "2p", Name = "2p_Gallery_Resources", Desc = [[<c=FFFF00>000 Test Resource Gallery</c>]], MaxPlayers = 2,},
+	{Tags = "2p", Name = "2p_Gallery_Ships", Desc = [[<c=FFFF00>000 Test Ship Gallery</c>]], MaxPlayers = 2,},
 	{Tags = "2p", Name = "HW1_ThePlex2", Desc = [[<c=FF4800>"Plex" By T2_Elite (2-4)</c>]], MaxPlayers = 2,},
 	{Tags = "2p", Name = "HW1_2DHelo2", Desc = [[<c=FF4800>2D Helo</c>]], MaxPlayers = 2,},
 	{Tags = "2p", Name = "HW1_2ndChance2", Desc = [[<c=FF4800>2nd Chance (2-4)</c>]], MaxPlayers = 2,},

@@ -4,19 +4,27 @@ Do these require research modules?
 	vgr_c_production_fighter_car0
 	vgr_c_production_fighter_car1
 
-Need to continually check and update these when adding or removing builds and researches
-	- ai/default/classdef.lua
-	- ship/icons/shipicons.lua
-	- ship/kus_researchship/kus_researchship.lua - hardcoded mothership and carrier names
-	- ship/tai_researchship/tai_researchship.lua - hardcoded mothership and carrier names
-	- all other ship LUA files
-	+ scripts/productiontimes/buildtimes.lua (see notes in file)
-	- scripts/races/<race>/hwclassicmaps/props/gbx.lua
-	- scripts/races/<race>/ai_upgrades.lua
-	- scripts/races/<race>/crate_ships.lua
+Need to continually check and update these when adding or removing stuff to build or research
+	+ ai/default/classdef.lua - need to add new ships here, can keep old ships here too I guess
+	- ai/default/default.lua - some hardcoded research
+	- ship/icons/shipicons.lua - need to add new ships here, can keep old ships here too I guess
+	+ ship/kus_researchship/kus_researchship.lua - hardcoded research ship names
+	+ ship/tai_researchship/tai_researchship.lua - hardcoded research ship names
+	+ ship/kus_gravwellgenerator/kus_gravwellgenerator.lua - several lists of ships that do not take variants into account
+	+ ship/tai_gravwellgenerator/tai_gravwellgenerator.lua - several lists of ships that do not take variants into account
+	+ ship/kus_dronefrigate/kus_dronefrigate.lua - don't create or rename variants of the drones themselves until you have also edited this script
+	+ ship/kus_carrier/kus_carrier.lua - need to count all mothership variants, hardcoded research ship names
+	+ ship/tai_carrier/tai_carrier.lua - need to count all mothership variants, hardcoded research ship names
+	+ ship/hgn_carrier/hgn_carrier.lua - need to count all mothership variants
+	+ ship/vgr_carrier/vgr_carrier.lua - need to count all mothership variants
+	+ ship/kus_mothership/kus_mothership.lua - hardcoded research ship names
+	+ ship/tai_mothership/tai_mothership.lua - hardcoded research ship names
+	+ scripts/productiontimes/buildtimes.lua - see notes in file
 	- scripts/races/<race>/scripts/ai_build.lua - hardcoded "k" ships at the top of the file and elsewhere
 	- scripts/races/<race>/scripts/ai_upgrades.lua - several hardcoded ship tables
-	- scripts/races/<race>/props/default.lua - default mothership, carrier, etc.
+	- scripts/races/<race>/scripts/ai_special.lua - some hardcoded research
+	- scripts/races/<race>/scripts/ai_subsystems.lua - some hardcoded research
+	- scripts/races/<race>/props/default.lua - links to race-specific AI scripts
 
 Core design issues
 	Should it still be possible to build a shipyard if hyperspacing is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers, but do require motherships.
@@ -36,6 +44,10 @@ Miscellaneous
 	The singleplayer builds need to be explicitly restricted in multiplayer.
 	Taiidan and Kushan ship builds should require the related production subsystems since I may be enabling or disabling some of these subsystems in the future. I don't want them being built by mistake.
 	Do Kushan and Taiidan carriers need hidden production modules too?
+	Resource controllers have not had their resource drop off capabilities disabled in the ship files yet.
+	Singleplayer hacks are missing from the HGN research script.
+	Need to add game rule codes to TechList. Rename "types" parameter to "type" and add a "code" parameter for all "items".
+	addAbility(<rShip>, "ShipHold", <bIsActive>, **<fDropoffRate>**, <iShipholdSize>, <sUnknown>, <sDockFamilyList>)
 
 Things that I can control outside of a SHIP file
 	grant or restrict build or research via gamerule scripts

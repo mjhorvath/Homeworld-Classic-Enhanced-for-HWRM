@@ -12,7 +12,7 @@ PersistantData = {
       size = 1,
     },
     {
-      type = "Kus_ResourceCollector_hyp0",
+      type = "Kus_ResourceCollector_res1_hyp0",
       subsystems = {
       },
       shiphold = {

@@ -1,10 +1,13 @@
-resourceModule = ""
-capitalModule = "hw1_production_capital"
-
 if resBool == 1 then
 	resourceModule = "Tai_MothershipResource"
+	resourceRate = 500
+else
+	resourceModule = ""
+	resourceRate = 0
 end
-if carBool == 1 then
+if carBool == 0 then
+	capitalModule = "hw1_production_capital"
+else
 	capitalModule = ""
 end
 
@@ -146,7 +149,7 @@ NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
 NewShipType.canJoinStrikeGroup=0
-addAbility(NewShipType,"ShipHold",1,500,200,"rallypoint","Fighter, Corvette, Utility",100,
+addAbility(NewShipType,"ShipHold",1,resourceRate,200,"rallypoint","Fighter, Corvette, Utility",100,
 {SuperCap="2000"},
 {Frigate="800"},
 {Fighter="36"},

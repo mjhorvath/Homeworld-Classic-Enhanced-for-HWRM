@@ -1,9 +1,7 @@
-Path_Name = "Hiigaran_hwce"
-Symbolic_Name = "Hiigaran_hwce"
-Display_Name = "$1100"
-Prefix = "HGN_"
-
-ExtFilter = "race_dm_hwce,race_hgn"
-Tags = "race_dm_hwce,race_hgn"
-
-SG_Pass_Tags = "sgf_common,sgf_hgn"
+Path_Name		= "hiigaran_hwce"
+Symbolic_Name	= "hiigaran_hwce"
+Display_Name	= "Hiigaran (HWCE)"
+Prefix			= "HGN_"
+ExtFilter		= "races_dm_hwce,races_hw2,races_hgn,races_hwrm,races_dm_hw2"
+Tags			= "race_dm_hwce"
+SG_Pass_Tags	= "sgf_common,sgf_hgn"

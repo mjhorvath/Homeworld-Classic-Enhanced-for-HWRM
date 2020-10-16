@@ -141,7 +141,9 @@ NewShipType.launchTimeBetweenTwoFormations=1
 NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
-addAbility(NewShipType,"ShipHold",1,40,0,"rallypoint","",35,{Utility="88"});
+if resBool == 1 then
+	addAbility(NewShipType,"ShipHold",1,40,0,"rallypoint","",35,{Utility="88"});
+end
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"WaypointMove");
 if hypBool == 1 then

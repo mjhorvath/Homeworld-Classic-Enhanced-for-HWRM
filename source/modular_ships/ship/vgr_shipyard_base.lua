@@ -1,22 +1,27 @@
-capitalModule = "Vgr_MS_Production_CapShip"
-hyperspaceModule = ""
-hyperinhibitModule = ""
-hyperdetectModule = ""
-researchModule = ""
-resourceModule = ""
-
 if hypBool == 1 then
 	hyperspaceModule = "Vgr_MS_Module_Hyperspace"
 	hyperinhibitModule = "Vgr_MS_Module_HyperspaceInhibitor"
 	hyperdetectModule = "Vgr_MS_Sensors_DetectHyperspace"
+else
+	hyperspaceModule = ""
+	hyperinhibitModule = ""
+	hyperdetectModule = ""
 end
 if resBool == 1 then
 	resourceModule = "Vgr_MS_Innate_Resource"
+	resourceRate = 40
+else
+	resourceModule = ""
+	resourceRate = 0
 end
 if rchBool == 1 then
 	researchModule = "Vgr_MS_Module_Research"
+else
+	researchModule = ""
 end
-if carBool == 1 then
+if carBool == 0 then
+	capitalModule = "Vgr_MS_Production_CapShip"
+else
 	capitalModule = ""
 end
 
@@ -147,7 +152,7 @@ NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
 NewShipType.canJoinStrikeGroup=0
-addAbility(NewShipType,"ShipHold",1,40,100,"rallypoint","Fighter, Corvette, Utility",35,{SuperCap="2000"},{Frigate="800"},{Fighter="2"},{Corvette="24"},{Utility="88"});
+addAbility(NewShipType,"ShipHold",1,resourceRate,100,"rallypoint","Fighter, Corvette, Utility",35,{SuperCap="2000"},{Frigate="800"},{Fighter="2"},{Corvette="24"},{Utility="88"});
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"WaypointMove");
 if hypBool == 1 then

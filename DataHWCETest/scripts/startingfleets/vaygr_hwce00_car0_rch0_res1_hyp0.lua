@@ -18,7 +18,7 @@ PersistantData =
 			size = 1,
 		},
 		{
-			type = "Vgr_ResourceCollector_hyp0",
+			type = "Vgr_ResourceCollector_res1_hyp0",
 			subsystems = {},
 			shiphold = {},
 			name = "",

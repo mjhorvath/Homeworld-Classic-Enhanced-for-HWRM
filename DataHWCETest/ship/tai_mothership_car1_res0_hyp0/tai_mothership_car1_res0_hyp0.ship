@@ -3,13 +3,13 @@ resBool = 0
 hypBool = 0
 
 resourceModule = ""
-capitalModule = "hw1_production_capital"
+capitalModule = ""
 
 if resBool == 1 then
 	resourceModule = "Tai_MothershipResource"
 end
-if carBool == 1 then
-	capitalModule = ""
+if carBool == 0 then
+	capitalModule = "hw1_production_capital"
 end
 
 NewShipType = StartShipConfig()

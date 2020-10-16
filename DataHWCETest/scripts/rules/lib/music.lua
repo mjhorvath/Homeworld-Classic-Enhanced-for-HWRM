@@ -8,12 +8,12 @@ function RandomMusicRule()
 	-- function created by Mikail, EvilleJedi
 	local passBool = 1
 	local musicPath = [[data:sound\music\]]
-	local listLen = getn(TracksTable)
+	local listLen = getn(TracksList)
 	local binLen = getn(MUS_playedBin)
 	local track_number = srandom(MUS_Seed, listLen)
-	local track_title = TracksTable[track_number][1]
-	local track_file = musicPath .. TracksTable[track_number][2]
-	local track_length = TracksTable[track_number][3]
+	local track_title = TracksList[track_number][1]
+	local track_file = musicPath .. TracksList[track_number][2]
+	local track_length = TracksList[track_number][3]
 	local track_m = floor(track_length / 60)
 	local track_s = track_length - track_m * 60
 	local track_string = "GPE: Now playing (" .. track_number .. "/" .. listLen .. "): " .. track_title .. " (" .. track_m .. "m " .. track_s .. "s)"
@@ -56,12 +56,12 @@ end
 --
 function StaticMusicRule()
 	local musicPath = [[data:sound\music\]]
-	local listLen = getn(TracksTable)
+	local listLen = getn(TracksList)
 	local binLen = getn(MUS_playedBin)
 	local track_number = BackgroundMusic
-	local track_title = TracksTable[track_number][1]
-	local track_file = musicPath .. TracksTable[track_number][2]
-	local track_length = TracksTable[track_number][3]
+	local track_title = TracksList[track_number][1]
+	local track_file = musicPath .. TracksList[track_number][2]
+	local track_length = TracksList[track_number][3]
 	local track_m = floor(track_length / 60)
 	local track_s = track_length - track_m * 60
 	local track_string = "GPE: Now playing (" .. track_number .. "/" .. listLen .. "): " .. track_title .. " (" .. track_m .. "m " .. track_s .. "s)"

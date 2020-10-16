@@ -26,6 +26,7 @@ CountNonPlayerSquadrons, CountDerelictSquadrons, CountAllSquadrons = 0, 0, 0
 PebNumo, PebDeno = decimal_to_fraction(PebRatio)
 debug_objects = 0
 
+
 --------------------------------------------------------------------------------
 -- Map Conversion Data
 
@@ -538,7 +539,7 @@ maxPlayers = NumberOfPlayers
 player = {}
 
 for k = 0, maxPlayers - 1 do
-	player[k] = {id = k, name = "", raceName = "Vaygr", resources = 0, startPos = 1,}
+	player[k] = {id = k, name = "", raceName = "Vaygr_hwce", resources = 0, startPos = 1,}
 end
 
 function DetermChunk()
@@ -719,7 +720,7 @@ function SpawnPlayerFleet()
 end
 
 function AddStartPoints(i, tCoords)
-	print("HWCM: Adding start points.")
+	print_objects("HWCM: Adding start points.")
 	local StartCoo = convert_position(tCoords, MapScale)
 	local StartRot = {0,tCoords[4] - 90,0}
 	print_objects("addPoint(\"StartPos" .. (i - 1) .. "\", " .. vstr(StartCoo) .. ", " .. vstr(StartRot) .. ")")
@@ -732,7 +733,7 @@ end
 
 function AddSquadrons(sName, sType, tPosition, iPlayer, tRotation, iNumber, bHyper, sRace)
 --	iNumber = 10
-	print("HWCM: Adding squadrons.")
+	print_objects("HWCM: Adding squadrons.")
 	local RUType = ShipTable[sRace][sType]
 	if ((RUType ~= "") and (RUType ~= nil) and (iPlayer < maxPlayers)) then
 		local new_coords = convert_position(tPosition, MapScale)
@@ -747,7 +748,7 @@ function AddSquadrons(sName, sType, tPosition, iPlayer, tRotation, iNumber, bHyp
 end
 
 function AddCrystals(iAmount, sType, tPosition)
-	print("HWCM: Adding crystals.")
+	print_objects("HWCM: Adding crystals.")
 	local RUType = ResourceTable[sType][1]
 	local RUValue = ResourceTable[sType][2] * RUScale
 	local RULatch = ResourceTable[sType][3]
@@ -775,7 +776,7 @@ end
 -- in the future there may be more models
 -- {{0.0, 0.0, 0.0,}, "nebula", "nebula", 35, 10000.0, 10000.0, 10000.0, 6000,},
 function AddNebulas(tPosition, sLayout, sDistribution, iNumStrands, fSizX, fSizY, fSizZ, iNumChunks)
-	print("HWCM: Adding nebulas.")
+	print_objects("HWCM: Adding nebulas.")
 	iNumStrands = ceil(iNumStrands * NebRatio)
 	iNumChunks = ceil(iNumChunks * NebRatio)
 	local RUValue = 100/NebRatio * RUScale
@@ -839,7 +840,7 @@ function AddNebulas(tPosition, sLayout, sDistribution, iNumStrands, fSizX, fSizY
 end
 
 function AddResources(tPosition, sLayout, sDistribution, iNumResources, fA, fB, fRotY, fRotZ)
-	print("HWCM: Adding resources.")
+	print_objects("HWCM: Adding resources.")
 	local Relative, iModulos = 0, 0
 	for k, iCount in Distributions[sDistribution] do
 		if (ResourceTable[k]) then

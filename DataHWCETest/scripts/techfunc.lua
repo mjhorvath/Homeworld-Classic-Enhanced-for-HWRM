@@ -57,7 +57,7 @@ function RemoveSubsysReq(inCommand, inSubSystem)
 --	local iStartIndex = strfind(inCommand, inSubSystem)
 --	print("iStartIndex = " .. iStartIndex)
 --	print(strlower(inCommand))
-	exit()
+--	exit()
 end
 
 function PrintBuildList()
@@ -116,4 +116,49 @@ function PrintResearchNames()
 --		end
 --	end
 --	print("total: " .. icount)
+end
+
+-- used in some ship Lua files
+function Player_GetNumberOfVariantSquadronsOfTypeAwakeOrSleeping(playerIndex, shipType)
+	local tempVariants = VariantShips[shipType]
+	local tempCount = Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, shipType)
+	for i, v in tempVariants do
+		tempCount = tempCount + Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, v)
+	end
+	return tempCount
+end
+
+-- used in some ship Lua files
+function SobGroup_FillVariantShipsByType(groupName, playerIndex, shipType)
+	SobGroup_FillShipsByType(groupName, playerIndex, shipType)
+	local tempVariants = VariantShips[shipType]
+	for i, v in tempVariants do
+		SobGroup_FillShipsByType(groupName, playerIndex, v)
+	end
+end
+
+-- used in kus_gravwellgenerator.lua
+function FillVariantsFromTable(shipList)
+	local tempTable = {}
+	for i, v in shipList do
+--		tinsert(tempTable, v)
+		local tempVariants = VariantShips[v]
+		for j, w in tempVariants do
+			tinsert(tempTable, w)
+		end
+	end
+	return tempTable
+end
+
+-- used in kus_gravwellgenerator.lua
+function ConvertTableToList(tempTable)
+	local tempList = ""
+	local tableLength = getn(tempTable)
+	for i, v in tempTable do
+		tempList = tempList + v
+		if i < tableLength then
+			tempList = tempList + ","
+		end
+	end
+	return tempList
 end

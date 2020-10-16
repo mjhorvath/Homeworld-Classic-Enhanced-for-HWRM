@@ -1,7 +1,9 @@
-resourceModule = ""
-
 if resBool == 1 then
 	resourceModule = "Kus_CarrierResource"
+	resourceRate = 71
+else
+	resourceModule = ""
+	resourceRate = 0
 end
 
 NewShipType = StartShipConfig()
@@ -146,7 +148,7 @@ NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
 NewShipType.strikeGroupRadius=350
-addAbility(NewShipType,"ShipHold",1,71,100,"rallypoint","Fighter, Corvette, Utility",100,
+addAbility(NewShipType,"ShipHold",1,resourceRate,100,"rallypoint","Fighter, Corvette, Utility",100,
 {Fighter="36"},
 {Corvette="340"},
 {Utility="175"});

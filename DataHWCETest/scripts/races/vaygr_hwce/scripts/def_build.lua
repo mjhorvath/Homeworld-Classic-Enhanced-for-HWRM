@@ -11,7 +11,7 @@
 Ship = 0
 SubSystem = 1
 
-dofilepath("data:scripts/races/vaygr/scripts/build/out_vgr_bld.lua")
+dofilepath("data:scripts/races/vaygr_hwce/scripts/build/out_vgr_bld.lua")
 dofilepath("data:scripts/techfunc.lua")
 
 PrintBuildNames()

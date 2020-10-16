@@ -145,7 +145,9 @@ addAbility(NewShipType,"CanAttack",1,5,2,0,0.35,1,"Fighter, Fighter_hw1, Corvett
 {ResourceLarge="kamikaze"});
 addAbility(NewShipType,"SalvageCommand",1, 200);
 addAbility(NewShipType,"GuardCommand",1,3000,500);
-addAbility(NewShipType,"Harvest",1,200,8,300);
+if resBool == 1 then
+	addAbility(NewShipType,"Harvest",1,200,8,300);
+end
 if hypBool == 1 then
 	addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
 end

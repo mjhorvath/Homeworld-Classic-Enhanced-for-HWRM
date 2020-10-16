@@ -1,9 +1,7 @@
-Path_Name = "Kushan_hwce"
-Symbolic_Name = "Kushan_hwce"
-Display_Name = "$1104"
-Prefix = "KUS_"
-
-ExtFilter = "race_dm_hwce,race_kus"
-Tags = "race_dm_hwce,race_kus"
-
-SG_Pass_Tags = "sgf_common,sgf_kus"
+Path_Name		= "kushan_hwce"
+Symbolic_Name	= "kushan_hwce"
+Display_Name	= "Kushan (HWCE)"
+Prefix			= "KUS_"
+ExtFilter		= "races_dm_hwce,races_hw2,races_kus,races_hwrm,races_dm_hw2"
+Tags			= "race_dm_hwce"
+SG_Pass_Tags	= "sgf_common,sgf_kus"

@@ -1,3 +1,9 @@
+if resBool == 1 then
+	resourceRate = 500
+else
+	resourceRate = 0
+end
+
 NewShipType = StartShipConfig()
 NewShipType.displayedName="$10048"
 NewShipType.sobDescription="$10049"
@@ -134,7 +140,9 @@ NewShipType.launchTimeBetweenTwoFormations=1
 NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
-addAbility(NewShipType,"ShipHold",1,500,0,"rallypoint","",70,
+if resBool == 1 then
+	addAbility(NewShipType,"ShipHold",1,resourceRate,0,"rallypoint","",70,
+end
 {Fighter="36"},
 {Corvette="340"},
 {Utility="175"});

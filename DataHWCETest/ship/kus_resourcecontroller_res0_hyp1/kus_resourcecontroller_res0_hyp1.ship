@@ -137,7 +137,9 @@ NewShipType.launchTimeBetweenTwoFormations=1
 NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
-addAbility(NewShipType,"ShipHold",1,500,0,"rallypoint","",70,
+if resBool == 1 then
+	addAbility(NewShipType,"ShipHold",1,500,0,"rallypoint","",70,
+end
 {Fighter="36"},
 {Corvette="340"},
 {Utility="175"});

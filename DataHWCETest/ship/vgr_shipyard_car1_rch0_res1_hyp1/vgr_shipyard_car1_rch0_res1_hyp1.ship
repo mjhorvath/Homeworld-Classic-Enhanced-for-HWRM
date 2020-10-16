@@ -3,7 +3,7 @@ rchBool = 0
 resBool = 1
 hypBool = 1
 
-capitalModule = "Vgr_MS_Production_CapShip"
+capitalModule = ""
 hyperspaceModule = ""
 hyperinhibitModule = ""
 hyperdetectModule = ""
@@ -21,8 +21,8 @@ end
 if rchBool == 1 then
 	researchModule = "Vgr_MS_Module_Research"
 end
-if carBool == 1 then
-	capitalModule = ""
+if carBool == 0 then
+	capitalModule = "Vgr_MS_Production_CapShip"
 end
 
 NewShipType = StartShipConfig()

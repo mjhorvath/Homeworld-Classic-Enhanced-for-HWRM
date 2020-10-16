@@ -1,9 +1,7 @@
-Path_Name = "Taiidan_hwce"
-Symbolic_Name = "Taiidan_hwce"
-Display_Name = "$1105"
-Prefix = "TAI_"
-
-ExtFilter = "race_dm_hwce,race_tai"
-Tags = "race_dm_hwce,race_tai"
-
-SG_Pass_Tags = "sgf_common,sgf_tai"
+Path_Name		= "taiidan_hwce"
+Symbolic_Name	= "taiidan_hwce"
+Display_Name	= "Taiidan (HWCE)"
+Prefix			= "TAI_"
+ExtFilter		= "races_dm_hwce,races_hw2,races_tai,races_hwrm,races_dm_hw2"
+Tags			= "race_dm_hwce"
+SG_Pass_Tags	= "sgf_common,sgf_tai"

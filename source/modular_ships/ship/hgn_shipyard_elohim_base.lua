@@ -1,43 +1,31 @@
 if hypBool == 1 then
-	hyperspaceModule = "Hgn_MS_Module_Hyperspace"
 	hyperdetectModule = "Hgn_MS_Sensors_DetectHyperspace"
-	if rchBool == 0 then
-		hyperinhibitModule = "Hgn_MS_Module_HyperspaceInhibitor_rch0"
-	else
-		hyperinhibitModule = "Hgn_MS_Module_HyperspaceInhibitor_rch1"
-	end
+	hyperspaceModule = "Hgn_MS_Module_Hyperspace"
+	hyperinhibitModule = "Hgn_MS_Module_HyperspaceInhibitor"
 else
-	hyperspaceModule = ""
 	hyperdetectModule = ""
+	hyperspaceModule = ""
 	hyperinhibitModule = ""
 end
 if resBool == 1 then
 	resourceModule = "Hgn_SY_Innate_Resource"
+	resourceRate = 40
 else
 	resourceModule = ""
+	resourceRate = 0
 end
 if rchBool == 1 then
 	researchModule = "Hgn_MS_Module_Research"
 	advancedresearchModule = "Hgn_MS_Module_ResearchAdvanced"
-	corvetteprodModule = "Hgn_MS_Production_Corvette_rch1"
-	frigateprodModule = "Hgn_MS_Production_Frigate_rch1"
-	cloakgenModule = "Hgn_MS_Module_CloakGenerator_rch1"
-	firecontrolModule = "Hgn_MS_Module_FireControl_rch1"
 else
 	researchModule = ""
 	advancedresearchModule = ""
-	corvetteprodModule = "Hgn_MS_Production_Corvette_rch0"
-	frigateprodModule = "Hgn_MS_Production_Frigate_rch0"
-	cloakgenModule = "Hgn_MS_Module_CloakGenerator_rch0"
-	firecontrolModule = "Hgn_MS_Module_FireControl_rch0"
 end
-if carBool == 1 then
-	-- why am I doing this? I forgot
-	advancedresearchModule = ""
-	-- do I really want this?
-	capshipbuildModule = ""
-else
+if carBool == 0 then
 	capshipbuildModule = "Hgn_SY_Production_CapShip"
+else
+	advancedresearchModule = ""
+	capshipbuildModule = ""
 end
 
 NewShipType = StartShipConfig()

@@ -1,3 +1,9 @@
+if resBool == 1 then
+	resourceRate = 40
+else
+	resourceRate = 0
+end
+
 NewShipType = StartShipConfig()
 NewShipType.displayedName="$1534"
 NewShipType.sobDescription="$1535"
@@ -138,7 +144,9 @@ NewShipType.launchTimeBetweenTwoFormations=1
 NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
-addAbility(NewShipType,"ShipHold",1,40,0,"rallypoint","",35,{Utility="88"});
+if resBool == 1 then
+	addAbility(NewShipType,"ShipHold",1,resourceRate,0,"rallypoint","",35,{Utility="88"});
+end
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"WaypointMove");
 if hypBool == 1 then

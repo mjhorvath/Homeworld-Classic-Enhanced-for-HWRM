@@ -461,7 +461,7 @@ TO DO
 CHANGE LOG
 
 2.4.1 --- 2020/10/10
-• Move motherships list from "objectlist_rulerestrictions.lua" to 
+• Moved motherships list from "objectlist_rulerestrictions.lua" to 
   "objectlist_misc.lua".
 • Added hyperspace researches for Kushan and Taiidan to "HyperspaceOff" section 
   of "objectlist_rulerestrictions.lua". Unfortunately, capital ships of those 

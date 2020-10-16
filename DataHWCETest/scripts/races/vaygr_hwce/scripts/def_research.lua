@@ -10,7 +10,7 @@ AllShips = 0
 Family = 1
 Ship = 2
 
-dofilepath("data:scripts/races/vaygr/scripts/research/out_vgr_res.lua")
+dofilepath("data:scripts/races/vaygr_hwce/scripts/research/out_vgr_res.lua")
 dofilepath("data:scripts/techfunc.lua")
 
 PrintResearchNames()

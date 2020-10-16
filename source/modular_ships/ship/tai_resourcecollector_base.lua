@@ -140,7 +140,9 @@ addAbility(NewShipType,"GuardCommand",1,3000,500);
 if hypBool == 1 then
 	addAbility(NewShipType,"HyperSpaceCommand",1,1.1,350,700,0,4);
 end
-addAbility(NewShipType,"Harvest",1,250,10,400);
+if resBool == 1 then
+	addAbility(NewShipType,"Harvest",1,250,10,400);
+end
 if hypBool == 1 then
 	addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
 end

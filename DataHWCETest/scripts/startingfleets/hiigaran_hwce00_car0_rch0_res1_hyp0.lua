@@ -12,7 +12,7 @@ PersistantData =
 			number = 1,
 		},
 		{
-			type = "Hgn_ResourceCollector_hyp0",
+			type = "Hgn_ResourceCollector_res1_hyp0",
 			subsystems = {},
 			shiphold = {},
 			name = "",

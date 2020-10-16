@@ -1,10 +1,11 @@
 -- No hyperspace inhibitor ability for some reason.
-capitalModule = "Vgr_MS_Production_CapShip"
+capitalModule = ""
 hyperspaceModule = ""
 hyperinhibitModule = ""
 hyperdetectModule = ""
 researchModule = ""
 resourceModule = ""
+resourceRate = 0
 
 if hypBool == 1 then
 	hyperspaceModule = "Vgr_MS_Module_Hyperspace"
@@ -13,12 +14,13 @@ if hypBool == 1 then
 end
 if resBool == 1 then
 	resourceModule = "Vgr_MS_Innate_Resource"
+	resourceRate = 250
 end
 if rchBool == 1 then
 	researchModule = "Vgr_MS_Module_Research"
 end
-if carBool == 1 then
-	capitalModule = ""
+if carBool == 0 then
+	capitalModule = "Vgr_MS_Production_CapShip"
 end
 
 NewShipType = StartShipConfig()
@@ -141,7 +143,7 @@ NewShipType.SMHighlightDistMin=20000
 NewShipType.SMHighlightDistMax=30000
 NewShipType.dontDockWithOtherRaceShips=1
 NewShipType.ignoreRaceWhenDocking=0
-addAbility(NewShipType,"ShipHold",1,250,200,"rallypoint","Fighter,Corvette,Utility",25,{Fighter="12"},{Corvette="75"});
+addAbility(NewShipType,"ShipHold",1,resourceRate,200,"rallypoint","Fighter,Corvette,Utility",25,{Fighter="12"},{Corvette="75"});
 addAbility(NewShipType,"WaypointMove");
 if hypBool == 1 then
 	addAbility(NewShipType,"HyperSpaceCommand",0,1,600,1200,0,3);

@@ -11,7 +11,7 @@ PersistantData =
 			size = 1,
 		},
 		{
-			type = "Hgn_ResourceCollector_hyp1",
+			type = "Hgn_ResourceCollector_res1_hyp1",
 			subsystems = {},
 			shiphold = {},
 			name = "",

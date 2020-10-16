@@ -8,6 +8,7 @@ RacesList =
 	"kushan_hwce",
 	"taiidan_hwce",
 }
+
 RacesListCorrectName =
 {
 	hiigaran_hwce = "Hiigaran",
@@ -33,6 +34,91 @@ ResourceControllersList =
 	taiidan_hwce =
 	{
 		"Tai_ResourceController",
+	},
+}
+
+-- these do not appear in the build scripts, so trying to grant or restrict them will result in an error
+MothershipsList =
+{
+	hiigaran_hwce =
+	{
+		"hgn_mothership",
+		"hgn_mothership_car0_rch0_res0_hyp0",
+		"hgn_mothership_car0_rch0_res0_hyp1",
+		"hgn_mothership_car0_rch0_res1_hyp0",
+		"hgn_mothership_car0_rch0_res1_hyp1",
+		"hgn_mothership_car0_rch1_res0_hyp0",
+		"hgn_mothership_car0_rch1_res0_hyp1",
+		"hgn_mothership_car0_rch1_res1_hyp0",
+		"hgn_mothership_car0_rch1_res1_hyp1",
+		"hgn_mothership_car1_rch0_res0_hyp0",
+		"hgn_mothership_car1_rch0_res0_hyp1",
+		"hgn_mothership_car1_rch0_res1_hyp0",
+		"hgn_mothership_car1_rch0_res1_hyp1",
+		"hgn_mothership_car1_rch1_res0_hyp0",
+		"hgn_mothership_car1_rch1_res0_hyp1",
+		"hgn_mothership_car1_rch1_res1_hyp0",
+		"hgn_mothership_car1_rch1_res1_hyp1",
+	},
+	vaygr_hwce =
+	{
+		"vgr_mothership",
+		"vgr_mothership_car0_rch0_res0_hyp0",
+		"vgr_mothership_car0_rch0_res0_hyp1",
+		"vgr_mothership_car0_rch0_res1_hyp0",
+		"vgr_mothership_car0_rch0_res1_hyp1",
+		"vgr_mothership_car0_rch1_res0_hyp0",
+		"vgr_mothership_car0_rch1_res0_hyp1",
+		"vgr_mothership_car0_rch1_res1_hyp0",
+		"vgr_mothership_car0_rch1_res1_hyp1",
+		"vgr_mothership_car1_rch0_res0_hyp0",
+		"vgr_mothership_car1_rch0_res0_hyp1",
+		"vgr_mothership_car1_rch0_res1_hyp0",
+		"vgr_mothership_car1_rch0_res1_hyp1",
+		"vgr_mothership_car1_rch1_res0_hyp0",
+		"vgr_mothership_car1_rch1_res0_hyp1",
+		"vgr_mothership_car1_rch1_res1_hyp0",
+		"vgr_mothership_car1_rch1_res1_hyp1",
+		"vgr_mothership_makaan_car0_rch0_res0_hyp0",
+		"vgr_mothership_makaan_car0_rch0_res0_hyp1",
+		"vgr_mothership_makaan_car0_rch0_res1_hyp0",
+		"vgr_mothership_makaan_car0_rch0_res1_hyp1",
+		"vgr_mothership_makaan_car0_rch1_res0_hyp0",
+		"vgr_mothership_makaan_car0_rch1_res0_hyp1",
+		"vgr_mothership_makaan_car0_rch1_res1_hyp0",
+		"vgr_mothership_makaan_car0_rch1_res1_hyp1",
+		"vgr_mothership_makaan_car1_rch0_res0_hyp0",
+		"vgr_mothership_makaan_car1_rch0_res0_hyp1",
+		"vgr_mothership_makaan_car1_rch0_res1_hyp0",
+		"vgr_mothership_makaan_car1_rch0_res1_hyp1",
+		"vgr_mothership_makaan_car1_rch1_res0_hyp0",
+		"vgr_mothership_makaan_car1_rch1_res0_hyp1",
+		"vgr_mothership_makaan_car1_rch1_res1_hyp0",
+		"vgr_mothership_makaan_car1_rch1_res1_hyp1",
+	},
+	kushan_hwce =
+	{
+		"Kus_Mothership",
+		"Kus_Mothership_car0_res0_hyp0",
+		"Kus_Mothership_car0_res0_hyp1",
+		"Kus_Mothership_car0_res1_hyp0",
+		"Kus_Mothership_car0_res1_hyp1",
+		"Kus_Mothership_car1_res0_hyp0",
+		"Kus_Mothership_car1_res0_hyp1",
+		"Kus_Mothership_car1_res1_hyp0",
+		"Kus_Mothership_car1_res1_hyp1",
+	},
+	taiidan_hwce =
+	{
+		"Tai_Mothership",
+		"Tai_Mothership_car0_res0_hyp0",
+		"Tai_Mothership_car0_res0_hyp1",
+		"Tai_Mothership_car0_res1_hyp0",
+		"Tai_Mothership_car0_res1_hyp1",
+		"Tai_Mothership_car1_res0_hyp0",
+		"Tai_Mothership_car1_res0_hyp1",
+		"Tai_Mothership_car1_res1_hyp0",
+		"Tai_Mothership_car1_res1_hyp1",
 	},
 }
 
@@ -244,10 +330,10 @@ CrateExclusions =
 
 -- the playlist for the random music script
 TracksNumber = 38
-TracksTable =
+TracksList =
 {
 	-- title, filepath, playing time (s),							-- default time (s)
-	-- HW2
+	-- HW2C
 	{"Ambient No.1", "ambient\\amb_01", 628,},						-- 157
 	{"Ambient No.2", "ambient\\amb_02", 660,},						-- 110
 	{"Ambient No.3", "ambient\\amb_03", 620,},						-- 155
@@ -268,7 +354,7 @@ TracksTable =
 	{"Battle - Planet Killers", "battle\\battle_planetkillers", 748,},			-- 187
 	{"Battle - Sajuuk", "battle\\battle_sajuuk", 644,},					-- 161
 	{"Battle - Bentus Arrival", "battle\\bentus_arrival", 640,},				-- 64
-	-- HW1
+	-- HW1C
 	{"Kharak (First Steps)", "ambient\\a01_mission1", 555,},				-- 185
 	{"Great Wasteland", "ambient\\a02_mission2and4", 595,},					-- 119
 	{"Adagio For Strings", "ambient\\a03_mission3and16", 698,},				-- 349

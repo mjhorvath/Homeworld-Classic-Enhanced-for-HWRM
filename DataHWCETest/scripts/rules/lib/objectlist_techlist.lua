@@ -104,7 +104,7 @@ TechList =
 					{
 						types =
 						{
-							"CarrierHealthUpgrade1",		-- aka "_research1"
+							"CarrierHealthUpgrade1",
 						},
 						prob = 1/6,
 						cost = 1000,
@@ -113,7 +113,7 @@ TechList =
 					{
 						types =
 						{
-							"CarrierMAXSPEEDUpgrade1",		-- aka "_research1"
+							"CarrierMAXSPEEDUpgrade1",
 						},
 						name = "Carrier Engine 1",
 						prob = 2/6,
@@ -122,7 +122,7 @@ TechList =
 					{
 						types =
 						{
-							"CarrierBUILDSPEEDUpgrade1",	-- aka "_research1"
+							"CarrierBUILDSPEEDUpgrade1",
 						},
 						name = "Carrier Build Speed",
 						prob = 3/6,
@@ -131,7 +131,7 @@ TechList =
 					{
 						types =
 						{
-							"ShipyardHealthUpgrade1",		-- aka "_research1"
+							"ShipyardHealthUpgrade1",
 						},
 						name = "Shipyard Hull 1",
 						prob = 4/6,
@@ -140,7 +140,7 @@ TechList =
 					{
 						types =
 						{
-							"ShipyardMAXSPEEDUpgrade1",		-- aka "_research1"
+							"ShipyardMAXSPEEDUpgrade1",
 						},
 						name = "Shipyard Engine 1",
 						prob = 5/6,
@@ -149,7 +149,7 @@ TechList =
 					{
 						types =
 						{
-							"ShipyardBUILDSPEEDUpgrade1",		-- aka "_research1"
+							"ShipyardBUILDSPEEDUpgrade1",
 						},
 						name = "Shipyard Build Speed",
 						prob = 6/6,
@@ -248,8 +248,7 @@ TechList =
 					{
 						types =
 						{
-							"Hgn_C_Module_FireControl_research0",
-							"Hgn_C_Module_FireControl",	-- aka "_research1"
+							"Hgn_C_Module_FireControl",
 						},
 						name = "Carrier Fire Control Tower",
 						prob = 1,
@@ -261,8 +260,7 @@ TechList =
 					{
 						types =
 						{
-							"Hgn_MS_Module_FireControl_research0",
-							"Hgn_MS_Module_FireControl",	-- aka "_research1"
+							"Hgn_MS_Module_FireControl",
 						},
 						name = "Mothership Fire Control Tower",
 						prob = 1,
@@ -381,7 +379,7 @@ TechList =
 					{
 						types =
 						{
-							"Hgn_Battlecruiser",	-- aka "_research1"
+							"Hgn_Battlecruiser",
 						},
 						name = "Battlecruiser",
 						prob = 1,
@@ -398,7 +396,7 @@ TechList =
 					{
 						types =
 						{
-							"Hgn_Carrier",			-- aka "_research1"
+							"Hgn_Carrier",
 						},
 						name = "Carrier",
 						prob = 0.9,
@@ -407,7 +405,7 @@ TechList =
 					{
 						types =
 						{
-							"Hgn_Shipyard",			-- aka "_research1"
+							"Hgn_Shipyard",
 						},
 						name = "Shipyard",
 						prob = 1,
@@ -499,7 +497,7 @@ TechList =
 					{
 						types =
 						{
-							"MothershipBUILDSPEEDUpgrade1",				-- aka "_research1"
+							"MothershipBUILDSPEEDUpgrade1",
 						},
 						name = "Mothership Build Speed",
 						prob = 1/3,
@@ -508,7 +506,7 @@ TechList =
 					{
 						types =
 						{
-							"SuperCapHealthUpgrade1",					-- aka "_research1"
+							"SuperCapHealthUpgrade1",
 						},
 						name = "Capital Ship Hull 1",
 						prob = 2/3,
@@ -517,7 +515,7 @@ TechList =
 					{
 						types =
 						{
-							"SuperCapSpeedUpgrade1",					-- aka "_research1"
+							"SuperCapSpeedUpgrade1",
 						},
 						name = "Capital Ship Engines 1",
 						prob = 3/3,
@@ -541,7 +539,7 @@ TechList =
 					{
 						types =
 						{
-							"CarrierBUILDSPEEDUpgrade1",				-- aka "_carrieronly0_research1"
+							"CarrierBUILDSPEEDUpgrade1",
 						},
 						name = "Carrier BuildSpeed",
 						prob = 1/2,
@@ -550,8 +548,7 @@ TechList =
 					{
 						types =
 						{
-							"ShipyardBUILDSPEEDUpgrade1",				-- aka "_research1"
-							"ShipyardBUILDSPEEDUpgrade1_carrieronly1",
+							"ShipyardBUILDSPEEDUpgrade1",
 						},
 						name = "Shipyard Build Speed",
 						prob = 2/2,
@@ -692,8 +689,7 @@ TechList =
 					{
 						types =
 						{
-							"Vgr_C_Production_Corvette",	-- aka "_carrieronly0"
-							"Vgr_C_Production_Corvette_carrieronly1",
+							"Vgr_C_Production_Corvette",
 						},
 						name = "Carrier Corvette Facility",
 						prob = 1,
@@ -710,8 +706,7 @@ TechList =
 					{
 						types =
 						{
-							"Vgr_C_Production_Fighter",	-- aka "_carrieronly0"
-							"Vgr_C_Production_Fighter_carrieronly1",
+							"Vgr_C_Production_Fighter",
 						},
 						name = "Carrier Fighter Facility",
 						prob = 1,

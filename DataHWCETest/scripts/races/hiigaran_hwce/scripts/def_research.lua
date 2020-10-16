@@ -10,7 +10,8 @@ AllShips = 0
 Family = 1
 Ship = 2
 
-dofilepath("data:scripts/races/hiigaran/scripts/research/out_hgn_res.lua")
-dofilepath("data:scripts/techfunc.lua")
+--dofilepath("data:scripts/races/hiigaran_hwce/scripts/research/out_hgn_res.lua")
+--dofilepath("data:scripts/techfunc.lua")
+--PrintResearchNames()
 
-PrintResearchNames()
+research = {}

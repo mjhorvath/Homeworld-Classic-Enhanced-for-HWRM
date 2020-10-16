@@ -4,7 +4,7 @@ PersistantData =
 	Squadrons = 
 	{
 		{
-			type = "Vgr_ResourceCollector_hyp1",
+			type = "Vgr_ResourceCollector_res1_hyp1",
 			subsystems = {},
 			shiphold = {},
 			name = "",

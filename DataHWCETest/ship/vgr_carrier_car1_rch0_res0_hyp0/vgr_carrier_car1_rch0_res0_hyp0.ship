@@ -3,18 +3,18 @@ rchBool = 0
 resBool = 0
 hypBool = 0
 
+hyperdetectModule = ""
 hyperspaceModule = ""
 hyperinhibitModule = ""
-hyperdetectModule = ""
 researchModule = ""
 resourceModule = ""
-carfighterModule = "vgr_c_production_fighter"
-carcorvetteModule = "vgr_c_production_corvette"
+carfighterModule = "vgr_c_production_fighter_car0"
+carcorvetteModule = "vgr_c_production_corvette_car0"
 
 if hypBool == 1 then
+	hyperdetectModule = "Vgr_C_Sensors_DetectHyperspace"
 	hyperspaceModule = "Vgr_C_Module_Hyperspace"
 	hyperinhibitModule = "Vgr_C_Module_HyperspaceInhibitor"
-	hyperdetectModule = "Vgr_C_Sensors_DetectHyperspace"
 end
 if resBool == 1 then
 	resourceModule = "Vgr_C_Innate_Resource"

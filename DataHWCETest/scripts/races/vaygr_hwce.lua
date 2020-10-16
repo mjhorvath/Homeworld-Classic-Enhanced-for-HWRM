@@ -1,9 +1,7 @@
-Path_Name = "Vaygr_hwce"
-Symbolic_Name = "Vaygr_hwce"
-Display_Name = "$1101"
-Prefix = "VGR_"
-
-ExtFilter = "race_dm_hwce,race_vgr"
-Tags = "race_dm_hwce,race_vgr"
-
-SG_Pass_Tags = "sgf_common,sgf_vgr"
+Path_Name		= "vaygr_hwce"
+Symbolic_Name	= "vaygr_hwce"
+Display_Name	= "Vaygr (HWCE)"
+Prefix			= "VGR_"
+ExtFilter		= "races_dm_hwce,races_hw2,races_vgr,races_hwrm,races_dm_hw2"
+Tags			= "race_dm_hwce"
+SG_Pass_Tags	= "sgf_common,sgf_vgr"
