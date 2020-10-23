@@ -1,4 +1,5 @@
 -- updated for HWCE by Mikali
+dofilepath("data:scripts/utilfunc.lua")
 dofilepath("data:scripts/techfunc.lua")
 dofilepath("data:scripts/rules/lib/objectlist_techvariants.lua")
 dofilepath("data:scripts/playerspatch_ships_util.lua")

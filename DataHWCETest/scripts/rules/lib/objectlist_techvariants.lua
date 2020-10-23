@@ -1,804 +1,470 @@
--- This file is used predominantly by the AI since it is not smart enough to 
--- know which game rule settings are enabled or disabled.
--- Not useful for levels since there's no way to tell from within a level which 
--- game rules are active.
+-- Not useful within level files since there is no way to tell from within a 
+-- level which game rules are active or inactive. Need to disable some game 
+-- rules when using the "start with = from map" mode such that the "default" 
+-- ship variants are always selected.
 
--- may not actually be needed
-VariantResearch = {}
+VariantLabels = {"car","rch","res","hyp"}
 
--- not needed currently
-VariantSubs = {}
-
-VariantShips =
+VariantResearch =
 {
-	hgn_carrier =
-	{
-		"hgn_carrier_car0_rch0_res0_hyp0",
-		"hgn_carrier_car0_rch0_res0_hyp1",
-		"hgn_carrier_car0_rch0_res1_hyp0",
-		"hgn_carrier_car0_rch0_res1_hyp1",
-		"hgn_carrier_car0_rch1_res0_hyp0",
-		"hgn_carrier_car0_rch1_res0_hyp1",
-		"hgn_carrier_car0_rch1_res1_hyp0",
-		"hgn_carrier_car0_rch1_res1_hyp1",
-		"hgn_carrier_car1_rch0_res0_hyp0",
-		"hgn_carrier_car1_rch0_res0_hyp1",
-		"hgn_carrier_car1_rch0_res1_hyp0",
-		"hgn_carrier_car1_rch0_res1_hyp1",
-		"hgn_carrier_car1_rch1_res0_hyp0",
-		"hgn_carrier_car1_rch1_res0_hyp1",
-		"hgn_carrier_car1_rch1_res1_hyp0",
-		"hgn_carrier_car1_rch1_res1_hyp1",
-	},
-	hgn_mothership =
-	{
-		"hgn_mothership_car0_rch0_res0_hyp0",
-		"hgn_mothership_car0_rch0_res0_hyp1",
-		"hgn_mothership_car0_rch0_res1_hyp0",
-		"hgn_mothership_car0_rch0_res1_hyp1",
-		"hgn_mothership_car0_rch1_res0_hyp0",
-		"hgn_mothership_car0_rch1_res0_hyp1",
-		"hgn_mothership_car0_rch1_res1_hyp0",
-		"hgn_mothership_car0_rch1_res1_hyp1",
-		"hgn_mothership_car1_rch0_res0_hyp0",
-		"hgn_mothership_car1_rch0_res0_hyp1",
-		"hgn_mothership_car1_rch0_res1_hyp0",
-		"hgn_mothership_car1_rch0_res1_hyp1",
-		"hgn_mothership_car1_rch1_res0_hyp0",
-		"hgn_mothership_car1_rch1_res0_hyp1",
-		"hgn_mothership_car1_rch1_res1_hyp0",
-		"hgn_mothership_car1_rch1_res1_hyp1",
-	},
-	hgn_shipyard =
-	{
-		"hgn_shipyard_car0_rch0_res0_hyp0",
-		"hgn_shipyard_car0_rch0_res0_hyp1",
-		"hgn_shipyard_car0_rch0_res1_hyp0",
-		"hgn_shipyard_car0_rch0_res1_hyp1",
-		"hgn_shipyard_car0_rch1_res0_hyp0",
-		"hgn_shipyard_car0_rch1_res0_hyp1",
-		"hgn_shipyard_car0_rch1_res1_hyp0",
-		"hgn_shipyard_car0_rch1_res1_hyp1",
-		"hgn_shipyard_car1_rch0_res0_hyp0",
-		"hgn_shipyard_car1_rch0_res0_hyp1",
-		"hgn_shipyard_car1_rch0_res1_hyp0",
-		"hgn_shipyard_car1_rch0_res1_hyp1",
-		"hgn_shipyard_car1_rch1_res0_hyp0",
-		"hgn_shipyard_car1_rch1_res0_hyp1",
-		"hgn_shipyard_car1_rch1_res1_hyp0",
-		"hgn_shipyard_car1_rch1_res1_hyp1",
-	},
-	hgn_shipyard_elohim =
-	{
-		"hgn_shipyard_elohim_car0_rch0_res0_hyp0",
-		"hgn_shipyard_elohim_car0_rch0_res0_hyp1",
-		"hgn_shipyard_elohim_car0_rch0_res1_hyp0",
-		"hgn_shipyard_elohim_car0_rch0_res1_hyp1",
-		"hgn_shipyard_elohim_car0_rch1_res0_hyp0",
-		"hgn_shipyard_elohim_car0_rch1_res0_hyp1",
-		"hgn_shipyard_elohim_car0_rch1_res1_hyp0",
-		"hgn_shipyard_elohim_car0_rch1_res1_hyp1",
-		"hgn_shipyard_elohim_car1_rch0_res0_hyp0",
-		"hgn_shipyard_elohim_car1_rch0_res0_hyp1",
-		"hgn_shipyard_elohim_car1_rch0_res1_hyp0",
-		"hgn_shipyard_elohim_car1_rch0_res1_hyp1",
-		"hgn_shipyard_elohim_car1_rch1_res0_hyp0",
-		"hgn_shipyard_elohim_car1_rch1_res0_hyp1",
-		"hgn_shipyard_elohim_car1_rch1_res1_hyp0",
-		"hgn_shipyard_elohim_car1_rch1_res1_hyp1",
-	},
-	hgn_shipyard_spg =
-	{
-		"hgn_shipyard_spg_car0_rch0_res0_hyp0",
-		"hgn_shipyard_spg_car0_rch0_res0_hyp1",
-		"hgn_shipyard_spg_car0_rch0_res1_hyp0",
-		"hgn_shipyard_spg_car0_rch0_res1_hyp1",
-		"hgn_shipyard_spg_car0_rch1_res0_hyp0",
-		"hgn_shipyard_spg_car0_rch1_res0_hyp1",
-		"hgn_shipyard_spg_car0_rch1_res1_hyp0",
-		"hgn_shipyard_spg_car0_rch1_res1_hyp1",
-		"hgn_shipyard_spg_car1_rch0_res0_hyp0",
-		"hgn_shipyard_spg_car1_rch0_res0_hyp1",
-		"hgn_shipyard_spg_car1_rch0_res1_hyp0",
-		"hgn_shipyard_spg_car1_rch0_res1_hyp1",
-		"hgn_shipyard_spg_car1_rch1_res0_hyp0",
-		"hgn_shipyard_spg_car1_rch1_res0_hyp1",
-		"hgn_shipyard_spg_car1_rch1_res1_hyp0",
-		"hgn_shipyard_spg_car1_rch1_res1_hyp1",
-	},
-	hgn_battlecruiser =
-	{
-		"hgn_battlecruiser_hyp0",
-		"hgn_battlecruiser_hyp1",
-	},
-	hgn_destroyer =
-	{
-		"hgn_destroyer_hyp0",
-		"hgn_destroyer_hyp1",
-	},
-	hgn_assaultfrigate =
-	{
-		"hgn_assaultfrigate_hyp0",
-		"hgn_assaultfrigate_hyp1",
-	},
-	hgn_defensefieldfrigate =
-	{
-		"hgn_defensefieldfrigate_hyp0",
-		"hgn_defensefieldfrigate_hyp1",
-	},
-	hgn_ioncannonfrigate =
-	{
-		"hgn_ioncannonfrigate_hyp0",
-		"hgn_ioncannonfrigate_hyp1",
-	},
-	hgn_marinefrigate =
-	{
-		"hgn_marinefrigate_hyp0",
-		"hgn_marinefrigate_hyp1",
-	},
-	hgn_marinefrigate_soban =
-	{
-		"hgn_marinefrigate_soban_hyp0",
-		"hgn_marinefrigate_soban_hyp1",
-	},
-	hgn_resourcecontroller =
-	{
-		"hgn_resourcecontroller_res0_hyp0",
-		"hgn_resourcecontroller_res0_hyp1",
-		"hgn_resourcecontroller_res1_hyp0",
-		"hgn_resourcecontroller_res1_hyp1",
-	},
-	hgn_torpedofrigate =
-	{
-		"hgn_torpedofrigate_hyp0",
-		"hgn_torpedofrigate_hyp1",
-	},
-	hgn_assaultcorvetteelite =
-	{
-		"hgn_assaultcorvetteelite_hyp0",
-		"hgn_assaultcorvetteelite_hyp1",
-	},
-	hgn_assaultcorvette =
-	{
-		"hgn_assaultcorvette_hyp0",
-		"hgn_assaultcorvette_hyp1",
-	},
-	hgn_attackbomberelite =
-	{
-		"hgn_attackbomberelite_hyp0",
-		"hgn_attackbomberelite_hyp1",
-	},
-	hgn_attackbomber =
-	{
-		"hgn_attackbomber_hyp0",
-		"hgn_attackbomber_hyp1",
-	},
-	hgn_ecmprobe =
-	{
-		"hgn_ecmprobe_hyp0",
-		"hgn_ecmprobe_hyp1",
-	},
-	hgn_gunturret =
-	{
-		"hgn_gunturret_hyp0",
-		"hgn_gunturret_hyp1",
-	},
-	hgn_interceptor =
-	{
-		"hgn_interceptor_hyp0",
-		"hgn_interceptor_hyp1",
-	},
-	hgn_ionturret =
-	{
-		"hgn_ionturret_hyp0",
-		"hgn_ionturret_hyp1",
-	},
-	hgn_minelayercorvette =
-	{
-		"hgn_minelayercorvette_hyp0",
-		"hgn_minelayercorvette_hyp1",
-	},
-	hgn_probe =
-	{
-		"hgn_probe_hyp0",
-		"hgn_probe_hyp1",
-	},
-	hgn_proximitysensor =
-	{
-		"hgn_proximitysensor_hyp0",
-		"hgn_proximitysensor_hyp1",
-	},
-	hgn_pulsarcorvette =
-	{
-		"hgn_pulsarcorvette_hyp0",
-		"hgn_pulsarcorvette_hyp1",
-	},
-	hgn_resourcecollector =
-	{
-		"hgn_resourcecollector_res0_hyp0",
-		"hgn_resourcecollector_res0_hyp1",
-		"hgn_resourcecollector_res1_hyp0",
-		"hgn_resourcecollector_res1_hyp1",
-	},
-	hgn_scout =
-	{
-		"hgn_scout_hyp0",
-		"hgn_scout_hyp1",
-	},
-	hgn_targetdrone =
-	{
-		"hgn_targetdrone_hyp0",
-		"hgn_targetdrone_hyp1",
-	},
-	vgr_carrier =
-	{
-		"vgr_carrier_car0_rch0_res0_hyp0",
-		"vgr_carrier_car0_rch0_res0_hyp1",
-		"vgr_carrier_car0_rch0_res1_hyp0",
-		"vgr_carrier_car0_rch0_res1_hyp1",
-		"vgr_carrier_car0_rch1_res0_hyp0",
-		"vgr_carrier_car0_rch1_res0_hyp1",
-		"vgr_carrier_car0_rch1_res1_hyp0",
-		"vgr_carrier_car0_rch1_res1_hyp1",
-		"vgr_carrier_car1_rch0_res0_hyp0",
-		"vgr_carrier_car1_rch0_res0_hyp1",
-		"vgr_carrier_car1_rch0_res1_hyp0",
-		"vgr_carrier_car1_rch0_res1_hyp1",
-		"vgr_carrier_car1_rch1_res0_hyp0",
-		"vgr_carrier_car1_rch1_res0_hyp1",
-		"vgr_carrier_car1_rch1_res1_hyp0",
-		"vgr_carrier_car1_rch1_res1_hyp1",
-	},
-	vgr_mothership =
-	{
-		"vgr_mothership_car0_rch0_res0_hyp0",
-		"vgr_mothership_car0_rch0_res0_hyp1",
-		"vgr_mothership_car0_rch0_res1_hyp0",
-		"vgr_mothership_car0_rch0_res1_hyp1",
-		"vgr_mothership_car0_rch1_res0_hyp0",
-		"vgr_mothership_car0_rch1_res0_hyp1",
-		"vgr_mothership_car0_rch1_res1_hyp0",
-		"vgr_mothership_car0_rch1_res1_hyp1",
-		"vgr_mothership_car1_rch0_res0_hyp0",
-		"vgr_mothership_car1_rch0_res0_hyp1",
-		"vgr_mothership_car1_rch0_res1_hyp0",
-		"vgr_mothership_car1_rch0_res1_hyp1",
-		"vgr_mothership_car1_rch1_res0_hyp0",
-		"vgr_mothership_car1_rch1_res0_hyp1",
-		"vgr_mothership_car1_rch1_res1_hyp0",
-		"vgr_mothership_car1_rch1_res1_hyp1",
-	},
-	vgr_mothership_makaan =
-	{
-		"vgr_mothership_makaan_car0_rch0_res0_hyp0",
-		"vgr_mothership_makaan_car0_rch0_res0_hyp1",
-		"vgr_mothership_makaan_car0_rch0_res1_hyp0",
-		"vgr_mothership_makaan_car0_rch0_res1_hyp1",
-		"vgr_mothership_makaan_car0_rch1_res0_hyp0",
-		"vgr_mothership_makaan_car0_rch1_res0_hyp1",
-		"vgr_mothership_makaan_car0_rch1_res1_hyp0",
-		"vgr_mothership_makaan_car0_rch1_res1_hyp1",
-		"vgr_mothership_makaan_car1_rch0_res0_hyp0",
-		"vgr_mothership_makaan_car1_rch0_res0_hyp1",
-		"vgr_mothership_makaan_car1_rch0_res1_hyp0",
-		"vgr_mothership_makaan_car1_rch0_res1_hyp1",
-		"vgr_mothership_makaan_car1_rch1_res0_hyp0",
-		"vgr_mothership_makaan_car1_rch1_res0_hyp1",
-		"vgr_mothership_makaan_car1_rch1_res1_hyp0",
-		"vgr_mothership_makaan_car1_rch1_res1_hyp1",
-	},
-	vgr_shipyard =
-	{
-		"vgr_shipyard_car0_rch0_res0_hyp0",
-		"vgr_shipyard_car0_rch0_res0_hyp1",
-		"vgr_shipyard_car0_rch0_res1_hyp0",
-		"vgr_shipyard_car0_rch0_res1_hyp1",
-		"vgr_shipyard_car0_rch1_res0_hyp0",
-		"vgr_shipyard_car0_rch1_res0_hyp1",
-		"vgr_shipyard_car0_rch1_res1_hyp0",
-		"vgr_shipyard_car0_rch1_res1_hyp1",
-		"vgr_shipyard_car1_rch0_res0_hyp0",
-		"vgr_shipyard_car1_rch0_res0_hyp1",
-		"vgr_shipyard_car1_rch0_res1_hyp0",
-		"vgr_shipyard_car1_rch0_res1_hyp1",
-		"vgr_shipyard_car1_rch1_res0_hyp0",
-		"vgr_shipyard_car1_rch1_res0_hyp1",
-		"vgr_shipyard_car1_rch1_res1_hyp0",
-		"vgr_shipyard_car1_rch1_res1_hyp1",
-	},
-	vgr_battlecruiser =
-	{
-		"vgr_battlecruiser_hyp0",
-		"vgr_battlecruiser_hyp1",
-	},
-	vgr_destroyer =
-	{
-		"vgr_destroyer_hyp0",
-		"vgr_destroyer_hyp1",
-	},
-	vgr_assaultfrigate =
-	{
-		"vgr_assaultfrigate_hyp0",
-		"vgr_assaultfrigate_hyp1",
-	},
-	vgr_heavymissilefrigate =
-	{
-		"vgr_heavymissilefrigate_hyp0",
-		"vgr_heavymissilefrigate_hyp1",
-	},
-	vgr_infiltratorfrigate =
-	{
-		"vgr_infiltratorfrigate_hyp0",
-		"vgr_infiltratorfrigate_hyp1",
-	},
-	vgr_resourcecontroller =
-	{
-		"vgr_resourcecontroller_res0_hyp0",
-		"vgr_resourcecontroller_res0_hyp1",
-		"vgr_resourcecontroller_res1_hyp0",
-		"vgr_resourcecontroller_res1_hyp1",
-	},
-	vgr_bomber =
-	{
-		"vgr_bomber_hyp0",
-		"vgr_bomber_hyp1",
-	},
-	vgr_commandcorvette =
-	{
-		"vgr_commandcorvette_hyp0",
-		"vgr_commandcorvette_hyp1",
-	},
-	vgr_hyperspace_platform =
-	{
-		"vgr_hyperspace_platform_hyp0",
-		"vgr_hyperspace_platform_hyp1",
-	},
-	vgr_interceptor =
-	{
-		"vgr_interceptor_hyp0",
-		"vgr_interceptor_hyp1",
-	},
-	vgr_lancefighter =
-	{
-		"vgr_lancefighter_hyp0",
-		"vgr_lancefighter_hyp1",
-	},
-	vgr_lasercorvette =
-	{
-		"vgr_lasercorvette_hyp0",
-		"vgr_lasercorvette_hyp1",
-	},
-	vgr_minelayercorvette =
-	{
-		"vgr_minelayercorvette_hyp0",
-		"vgr_minelayercorvette_hyp1",
-	},
-	vgr_missilecorvette =
-	{
-		"vgr_missilecorvette_hyp0",
-		"vgr_missilecorvette_hyp1",
-	},
-	vgr_probe =
-	{
-		"vgr_probe_hyp0",
-		"vgr_probe_hyp1",
-	},
-	vgr_probe_ecm =
-	{
-		"vgr_probe_ecm_hyp0",
-		"vgr_probe_ecm_hyp1",
-	},
-	vgr_probe_prox =
-	{
-		"vgr_probe_prox_hyp0",
-		"vgr_probe_prox_hyp1",
-	},
-	vgr_resourcecollector =
-	{
-		"vgr_resourcecollector_res0_hyp0",
-		"vgr_resourcecollector_res0_hyp1",
-		"vgr_resourcecollector_res1_hyp0",
-		"vgr_resourcecollector_res1_hyp1",
-	},
-	vgr_scout =
-	{
-		"vgr_scout_hyp0",
-		"vgr_scout_hyp1",
-	},
-	vgr_weaponplatform_gun =
-	{
-		"vgr_weaponplatform_gun_hyp0",
-		"vgr_weaponplatform_gun_hyp1",
-	},
-	vgr_weaponplatform_missile =
-	{
-		"vgr_weaponplatform_missile_hyp0",
-		"vgr_weaponplatform_missile_hyp1",
-	},
-	kus_assaultfrigate =
-	{
-		"kus_assaultfrigate_hyp0",
-		"kus_assaultfrigate_hyp1",
-	},
-	kus_carrier =
-	{
-		"kus_carrier_res0_hyp0",
-		"kus_carrier_res0_hyp1",
-		"kus_carrier_res1_hyp0",
-		"kus_carrier_res1_hyp1",
-	},
-	kus_destroyer =
-	{
-		"kus_destroyer_hyp0",
-		"kus_destroyer_hyp1",
-	},
-	kus_dronefrigate =
-	{
-		"kus_dronefrigate_hyp0",
-		"kus_dronefrigate_hyp1",
-	},
-	kus_heavycruiser =
-	{
-		"kus_heavycruiser_hyp0",
-		"kus_heavycruiser_hyp1",
-	},
-	kus_ioncannonfrigate =
-	{
-		"kus_ioncannonfrigate_hyp0",
-		"kus_ioncannonfrigate_hyp1",
-	},
-	kus_missiledestroyer =
-	{
-		"kus_missiledestroyer_hyp0",
-		"kus_missiledestroyer_hyp1",
-	},
-	kus_mothership =
-	{
-		"kus_mothership_car0_res0_hyp0",
-		"kus_mothership_car0_res0_hyp1",
-		"kus_mothership_car0_res1_hyp0",
-		"kus_mothership_car0_res1_hyp1",
-		"kus_mothership_car1_res0_hyp0",
-		"kus_mothership_car1_res0_hyp1",
-		"kus_mothership_car1_res1_hyp0",
-		"kus_mothership_car1_res1_hyp1",
-	},
-	kus_resourcecontroller =
-	{
-		"kus_resourcecontroller_res0_hyp0",
-		"kus_resourcecontroller_res0_hyp1",
-		"kus_resourcecontroller_res1_hyp0",
-		"kus_resourcecontroller_res1_hyp1",
-	},
-	kus_supportfrigate =
-	{
-		"kus_supportfrigate_hyp0",
-		"kus_supportfrigate_hyp1",
-	},
-	kus_attackbomber =
-	{
-		"kus_attackbomber_hyp0",
-		"kus_attackbomber_hyp1",
-	},
-	kus_cloakedfighter =
-	{
-		"kus_cloakedfighter_hyp0",
-		"kus_cloakedfighter_hyp1",
-	},
-	kus_cloakgenerator =
-	{
-		"kus_cloakgenerator_hyp0",
-		"kus_cloakgenerator_hyp1",
-	},
-	kus_defender =
-	{
-		"kus_defender_hyp0",
-		"kus_defender_hyp1",
-	},
-	kus_gravwellgenerator =
-	{
-		"kus_gravwellgenerator_hyp0",
-		"kus_gravwellgenerator_hyp1",
-	},
-	kus_heavycorvette =
-	{
-		"kus_heavycorvette_hyp0",
-		"kus_heavycorvette_hyp1",
-	},
-	kus_interceptor =
-	{
-		"kus_interceptor_hyp0",
-		"kus_interceptor_hyp1",
-	},
-	kus_lightcorvette =
-	{
-		"kus_lightcorvette_hyp0",
-		"kus_lightcorvette_hyp1",
-	},
-	kus_minelayercorvette =
-	{
-		"kus_minelayercorvette_hyp0",
-		"kus_minelayercorvette_hyp1",
-	},
-	kus_multiguncorvette =
-	{
-		"kus_multiguncorvette_hyp0",
-		"kus_multiguncorvette_hyp1",
-	},
-	kus_probe =
-	{
-		"kus_probe_hyp0",
-		"kus_probe_hyp1",
-	},
-	kus_proximitysensor =
-	{
-		"kus_proximitysensor_hyp0",
-		"kus_proximitysensor_hyp1",
-	},
-	kus_repaircorvette =
-	{
-		"kus_repaircorvette_hyp0",
-		"kus_repaircorvette_hyp1",
-	},
-	kus_resourcecollector =
-	{
-		"kus_resourcecollector_res0_hyp0",
-		"kus_resourcecollector_res0_hyp1",
-		"kus_resourcecollector_res1_hyp0",
-		"kus_resourcecollector_res1_hyp1",
-	},
-	kus_salvagecorvette =
-	{
-		"kus_salvagecorvette_hyp0",
-		"kus_salvagecorvette_hyp1",
-	},
-	kus_scout =
-	{
-		"kus_scout_hyp0",
-		"kus_scout_hyp1",
-	},
-	kus_sensorarray =
-	{
-		"kus_sensorarray_hyp0",
-		"kus_sensorarray_hyp1",
-	},
-	kus_researchship = {},
-	kus_researchship_1 = {},
-	kus_researchship_2 = {},
-	kus_researchship_3 = {},
-	kus_researchship_4 = {},
-	kus_researchship_5 = {},
-	tai_assaultfrigate =
-	{
-		"tai_assaultfrigate_hyp0",
-		"tai_assaultfrigate_hyp1",
-	},
-	tai_carrier =
-	{
-		"tai_carrier_res0_hyp0",
-		"tai_carrier_res0_hyp1",
-		"tai_carrier_res1_hyp0",
-		"tai_carrier_res1_hyp1",
-	},
-	tai_destroyer =
-	{
-		"tai_destroyer_hyp0",
-		"tai_destroyer_hyp1",
-	},
-	tai_fieldfrigate =
-	{
-		"tai_fieldfrigate_hyp0",
-		"tai_fieldfrigate_hyp1",
-	},
-	tai_heavycruiser =
-	{
-		"tai_heavycruiser_hyp0",
-		"tai_heavycruiser_hyp1",
-	},
-	tai_ioncannonfrigate =
-	{
-		"tai_ioncannonfrigate_hyp0",
-		"tai_ioncannonfrigate_hyp1",
-	},
-	tai_missiledestroyer =
-	{
-		"tai_missiledestroyer_hyp0",
-		"tai_missiledestroyer_hyp1",
-	},
-	tai_mothership =
-	{
-		"tai_mothership_car0_res0_hyp0",
-		"tai_mothership_car0_res0_hyp1",
-		"tai_mothership_car0_res1_hyp0",
-		"tai_mothership_car0_res1_hyp1",
-		"tai_mothership_car1_res0_hyp0",
-		"tai_mothership_car1_res0_hyp1",
-		"tai_mothership_car1_res1_hyp0",
-		"tai_mothership_car1_res1_hyp1",
-	},
-	tai_resourcecontroller =
-	{
-		"tai_resourcecontroller_res0_hyp0",
-		"tai_resourcecontroller_res0_hyp1",
-		"tai_resourcecontroller_res1_hyp0",
-		"tai_resourcecontroller_res1_hyp1",
-	},
-	tai_supportfrigate =
-	{
-		"tai_supportfrigate_hyp0",
-		"tai_supportfrigate_hyp1",
-	},
-	tai_attackbomber =
-	{
-		"tai_attackbomber_hyp0",
-		"tai_attackbomber_hyp1",
-	},
-	tai_cloakgenerator =
-	{
-		"tai_cloakgenerator_hyp0",
-		"tai_cloakgenerator_hyp1",
-	},
-	tai_defender =
-	{
-		"tai_defender_hyp0",
-		"tai_defender_hyp1",
-	},
-	tai_defensefighter =
-	{
-		"tai_defensefighter_hyp0",
-		"tai_defensefighter_hyp1",
-	},
-	tai_gravwellgenerator =
-	{
-		"tai_gravwellgenerator_hyp0",
-		"tai_gravwellgenerator_hyp1",
-	},
-	tai_heavycorvette =
-	{
-		"tai_heavycorvette_hyp0",
-		"tai_heavycorvette_hyp1",
-	},
-	tai_interceptor =
-	{
-		"tai_interceptor_hyp0",
-		"tai_interceptor_hyp1",
-	},
-	tai_lightcorvette =
-	{
-		"tai_lightcorvette_hyp0",
-		"tai_lightcorvette_hyp1",
-	},
-	tai_minelayercorvette =
-	{
-		"tai_minelayercorvette_hyp0",
-		"tai_minelayercorvette_hyp1",
-	},
-	tai_multiguncorvette =
-	{
-		"tai_multiguncorvette_hyp0",
-		"tai_multiguncorvette_hyp1",
-	},
-	tai_probe =
-	{
-		"tai_probe_hyp0",
-		"tai_probe_hyp1",
-	},
-	tai_proximitysensor =
-	{
-		"tai_proximitysensor_hyp0",
-		"tai_proximitysensor_hyp1",
-	},
-	tai_repaircorvette =
-	{
-		"tai_repaircorvette_hyp0",
-		"tai_repaircorvette_hyp1",
-	},
-	tai_resourcecollector =
-	{
-		"tai_resourcecollector_res0_hyp0",
-		"Tai_ResourceCollector_res0_hyp1",
-		"tai_resourcecollector_res1_hyp0",
-		"tai_resourcecollector_res1_hyp1",
-	},
-	tai_salvagecorvette =
-	{
-		"tai_salvagecorvette_hyp0",
-		"tai_salvagecorvette_hyp1",
-	},
-	tai_scout =
-	{
-		"tai_scout_hyp0",
-		"tai_scout_hyp1",
-	},
-	tai_sensorarray =
-	{
-		"tai_sensorarray_hyp0",
-		"tai_sensorarray_hyp1",
-	},
-	tai_researchship = {},
-	tai_researchship_1 = {},
-	tai_researchship_2 = {},
-	tai_researchship_3 = {},
-	tai_researchship_4 = {},
-	tai_researchship_5 = {},
-	kad_advancedswarmer =
-	{
-		"kad_advancedswarmer_hyp0",
-		"kad_advancedswarmer_hyp1",
-	},
-	kad_fuelpod =
-	{
-		"kad_fuelpod_hyp0",
-		"kad_fuelpod_hyp1",
-	},
-	kad_multibeamfrigate =
-	{
-		"kad_multibeamfrigate_hyp0",
-		"kad_multibeamfrigate_hyp1",
-	},
-	kad_p2mothership =
-	{
-		"kad_p2mothership_hyp0",
-		"kad_p2mothership_hyp1",
-	},
-	kad_swarmer =
-	{
-		"kad_swarmer_hyp0",
-		"kad_swarmer_hyp1",
-	},
-	kpr_attackdroid =
-	{
-		"kpr_attackdroid_hyp0",
-		"kpr_attackdroid_hyp1",
-	},
-	kpr_destroyerm10 =
-	{
-		"kpr_destroyerm10_hyp0",
-		"kpr_destroyerm10_hyp1",
-	},
-	kpr_destroyer =
-	{
-		"kpr_destroyer_hyp0",
-		"kpr_destroyer_hyp1",
-	},
-	kpr_mover =
-	{
-		"kpr_mover_hyp0",
-		"kpr_mover_hyp1",
-	},
-	kpr_sajuuk =
-	{
-		"kpr_sajuuk_hyp0",
-		"kpr_sajuuk_hyp1",
-	},
-	obs_observer =
-	{
-		"obs_observer_hyp0",
-		"obs_observer_hyp1",
-	},
-	tur_fighter =
-	{
-		"tur_fighter_hyp0",
-		"tur_fighter_hyp1",
-	},
-	tur_ionarrayfrigate =
-	{
-		"tur_ionarrayfrigate_hyp0",
-		"tur_ionarrayfrigate_hyp1",
-	},
-	tur_missilecorvette =
-	{
-		"tur_missilecorvette_hyp0",
-		"tur_missilecorvette_hyp1",
-	},
-	tur_p1mothership =
-	{
-		"tur_p1mothership_hyp0",
-		"tur_p1mothership_hyp1",
-	},
-	tur_standardcorvette =
-	{
-		"tur_standardcorvette_hyp0",
-		"tur_standardcorvette_hyp1",
-	},
+	hgn_attackbomberimprovedbombs = {0,0,0,1},
+	hgn_defensefieldfrigateshield = {0,0,0,1},
+	hgn_improvedtorpedo = {0,0,0,1},
+	hgn_repairability = {0,0,0,1},
+	hgn_scoutempability = {0,0,0,1},
+	hgn_scoutpingability = {0,0,0,1},
+	hgn_allshipbuildspeed = {0,0,0,0},
+	hgn_allshipbuildspeedexpert = {0,0,0,0},
+	hgn_allshipbuildspeedhard = {0,0,0,0},
+	hgn_cpuplayers_aggressive = {0,0,0,0},
+	hgn_cpuplayers_defensive = {0,0,0,0},
+	hgn_cpuplayers_dynamic = {0,0,0,0},
+	hgn_cpuplayers_norushtime10 = {0,0,0,0},
+	hgn_cpuplayers_norushtime15 = {0,0,0,0},
+	hgn_cpuplayers_norushtime5 = {0,0,0,0},
+	hgn_resourcecollectionrateexpert = {0,0,0,1},
+	hgn_resourcecollectionratehard = {0,0,0,1},
+	hgn_weapondamageupgrade125 = {0,0,0,0},
+	hgn_weapondamageupgrade150 = {0,0,0,0},
+	hgn_weapondamageupgrade175 = {0,0,0,0},
+	hgn_weapondamageupgrade200 = {0,0,0,0},
+	hgn_battlecruiserhealthupgrade1 = {0,0,0,1},
+	hgn_battlecruisermaxspeedupgrade1 = {0,0,0,1},
+	hgn_carrierbuildspeedupgrade1 = {1,1,1,1},
+	hgn_carrierhealthupgrade1 = {1,1,1,1},
+	hgn_carriermaxspeedupgrade1 = {1,1,1,1},
+	hgn_assaultcorvettehealthupgrade1 = {0,0,0,1},
+	hgn_pulsarcorvettehealthupgrade1 = {0,0,0,1},
+	hgn_assaultcorvettemaxspeedupgrade1 = {0,0,0,1},
+	hgn_pulsarcorvettemaxspeedupgrade1 = {0,0,0,1},
+	hgn_battlecruiserionweapons = {0,0,0,1},
+	hgn_destroyertech = {0,0,0,1},
+	hgn_ecmprobe = {0,0,0,1},
+	hgn_graviticattractionmines = {0,0,0,1},
+	hgn_hyperspacedamagereductionupgrade = {0,0,0,0},
+	hgn_instaadvancedfrigatetech = {1,1,1,1},
+	hgn_platformionweapons = {0,0,0,1},
+	hgn_sensdisprobe = {0,0,0,1},
+	hgn_destroyerhealthupgrade1 = {0,0,0,1},
+	hgn_destroyermaxspeedupgrade1 = {0,0,0,1},
+	hgn_sgmcapitalhealth = {1,1,1,1},
+	hgn_sgmcarrierhealth = {1,1,1,1},
+	hgn_sgmfrigatehealth = {0,0,0,0},
+	hgn_sgmshipyardhealth = {1,1,1,1},
+	hgn_attackbombermaxspeedupgrade1 = {0,0,0,1},
+	hgn_interceptormaxspeedupgrade1 = {0,0,0,1},
+	hgn_assaultfrigatehealthupgrade1 = {0,0,0,1},
+	hgn_ioncannonfrigatehealthupgrade1 = {0,0,0,1},
+	hgn_torpedofrigatehealthupgrade1 = {0,0,0,1},
+	hgn_assaultfrigatemaxspeedupgrade1 = {0,0,0,1},
+	hgn_ioncannonfrigatemaxspeedupgrade1 = {0,0,0,1},
+	hgn_torpedofrigatemaxspeedupgrade1 = {0,0,0,1},
+	hgn_hyperspacecostupgrade1 = {0,0,0,0},
+	hgn_hyperspacecostupgrade2 = {0,0,0,0},
+	hgn_mothershipbuildspeedupgrade1 = {1,1,1,1},
+	hgn_mothershiphealthupgrade1 = {1,1,1,1},
+	hgn_mothershipmaxspeedupgrade1 = {1,1,1,1},
+	hgn_gunturrethealthupgrade1 = {0,0,0,1},
+	hgn_ionturrethealthupgrade1 = {0,0,0,1},
+	hgn_shipyardbuildspeedupgrade1 = {1,1,1,1},
+	hgn_shipyardbuildspeedupgrade1_elohim = {1,1,1,1},
+	hgn_shipyardbuildspeedupgrade1_spg = {1,1,1,1},
+	hgn_shipyardhealthupgrade1 = {1,1,1,1},
+	hgn_shipyardhealthupgrade1_elohim = {1,1,1,1},
+	hgn_shipyardhealthupgrade1_spg = {1,1,1,1},
+	hgn_shipyardmaxspeedupgrade1 = {1,1,1,1},
+	hgn_shipyardmaxspeedupgrade1_elohim = {1,1,1,1},
+	hgn_shipyardmaxspeedupgrade1_spg = {1,1,1,1},
+	hgn_assaultcorvetteeliteweaponupgrade = {0,0,0,1},
+	hgn_attackbombereliteweaponupgrade = {0,0,0,1},
+	hgn_attackdroidhealthupgradespgame_high = {0,0,0,1},
+	hgn_attackdroidhealthupgradespgame_low = {0,0,0,1},
+	hgn_attackdroidhealthupgradespgame_med = {0,0,0,1},
+	hgn_attackdroidweaponupgradespgame_high = {0,0,0,1},
+	hgn_attackdroidweaponupgradespgame_low = {0,0,0,1},
+	hgn_attackdroidweaponupgradespgame_med = {0,0,0,1},
+	hgn_damagemovertech = {1,1,1,1},
+	hgn_frigatehealthupgradespgame = {0,0,0,0},
+	hgn_keeperhealthupgradespgame_high = {0,0,0,1},
+	hgn_keeperhealthupgradespgame_low = {0,0,0,1},
+	hgn_keeperhealthupgradespgame_m10_lvl_1 = {0,0,0,1},
+	hgn_keeperhealthupgradespgame_m10_lvl_2 = {0,0,0,1},
+	hgn_keeperhealthupgradespgame_m10_lvl_3 = {0,0,0,1},
+	hgn_keeperhealthupgradespgame_med = {0,0,0,1},
+	hgn_keeperweaponupgradespgame_m10_lvl_1 = {0,0,0,1},
+	hgn_keeperweaponupgradespgame_m10_lvl_2 = {0,0,0,1},
+	hgn_keeperweaponupgradespgame_m10_lvl_3 = {0,0,0,1},
+	hgn_keeperweaponupgradespgame_m10_lvl_4 = {0,0,0,1},
+	hgn_keeperweaponupgradespgame_m10_lvl_5 = {0,0,0,1},
+	hgn_keeperweaponupgradespgame_m10_lvl_6 = {0,0,0,1},
+	hgn_moverhealthdowngrade = {0,0,0,1},
+	hgn_moverhealthupgrade = {0,0,0,1},
+	hgn_radiationdefensefield = {0,0,0,1},
+	hgn_sensorsbacktonormal1 = {1,1,1,1},
+	hgn_sensorsbacktonormal2 = {1,1,1,1},
+	hgn_sensorsbacktonormal3 = {1,1,1,1},
+	hgn_sensorsdowngrade1 = {1,1,1,1},
+	hgn_sensorsdowngrade2 = {1,1,1,1},
+	hgn_sensorsdowngrade3 = {1,1,1,1},
+	hgn_resourcecollectorhealthupgrade1 = {0,0,1,1},
+	hgn_resourcecontrollerhealthupgrade1 = {0,0,1,1},
+	vgr_bomberimprovedbombs = {0,0,0,1},
+	vgr_repairability = {0,0,1,1},
+	vgr_scoutempability = {0,0,0,1},
+	vgr_allshipbuildspeed = {0,0,0,0},
+	vgr_allshipbuildspeedexpert = {0,0,0,0},
+	vgr_allshipbuildspeedhard = {0,0,0,0},
+	vgr_cpuplayers_aggressive = {0,0,0,0},
+	vgr_cpuplayers_defensive = {0,0,0,0},
+	vgr_cpuplayers_dynamic = {0,0,0,0},
+	vgr_cpuplayers_norushtime10 = {0,0,0,0},
+	vgr_cpuplayers_norushtime15 = {0,0,0,0},
+	vgr_cpuplayers_norushtime5 = {0,0,0,0},
+	vgr_resourcecollectionrateexpert = {0,0,1,1},
+	vgr_resourcecollectionratehard = {0,0,1,1},
+	vgr_weapondamageupgrade125 = {0,0,0,0},
+	vgr_weapondamageupgrade150 = {0,0,0,0},
+	vgr_weapondamageupgrade175 = {0,0,0,0},
+	vgr_weapondamageupgrade200 = {0,0,0,0},
+	vgr_supercaphealthupgrade1 = {0,0,0,0},
+	vgr_supercapspeedupgrade1 = {0,0,0,0},
+	vgr_carrierbuildspeedupgrade1 = {1,1,1,1},
+	vgr_mothershipbuildspeedupgrade1 = {1,1,1,1},
+	vgr_mothershipbuildspeedupgrade1_makaan = {1,1,1,1},
+	vgr_shipyardbuildspeedupgrade1 = {1,1,1,1},
+	vgr_corvettehealthupgrade1 = {0,0,0,0},
+	vgr_corvettespeedupgrade1 = {0,0,0,0},
+	vgr_battlecruiserionweapons = {0,0,0,1},
+	vgr_corvettecommand = {0,0,0,1},
+	vgr_corvettegraviticattraction = {0,0,0,1},
+	vgr_corvettelaser = {0,0,0,1},
+	vgr_corvettetech = {0,0,0,0},
+	vgr_destroyerguns = {0,0,0,1},
+	vgr_frigateassault = {0,0,0,1},
+	vgr_frigateinfiltrationtech = {0,0,0,1},
+	vgr_frigatetech = {0,0,0,0},
+	vgr_hyperspacedamagereductionupgrade = {0,0,0,0},
+	vgr_hyperspacegatetech = {0,0,0,1},
+	vgr_lancebeams = {0,0,0,1},
+	vgr_plasmabombs = {0,0,0,1},
+	vgr_platformheavymissiles = {0,0,0,1},
+	vgr_probeproxsensor = {0,0,0,1},
+	vgr_probesensordisruption = {0,0,0,1},
+	vgr_sgmcapitalhealth = {1,1,1,1},
+	vgr_sgmcapitalhealth_makaan = {1,1,1,1},
+	vgr_sgmcarrierhealth = {1,1,1,1},
+	vgr_sgmfrigatehealth = {0,0,0,0},
+	vgr_sgmshipyardhealth = {1,1,1,1},
+	vgr_fighterspeedupgrade1 = {0,0,0,0},
+	vgr_frigatehealthupgrade1 = {0,0,0,0},
+	vgr_frigatespeedupgrade1 = {0,0,0,0},
+	vgr_platformhealthupgrade1 = {0,0,0,0},
+	vgr_corvettehealthupgradespgame = {0,0,0,0},
+	vgr_extrastrongvgrheavymissilesspgame = {0,0,0,1},
+	vgr_hyperspacerecoverytimeupgradespgame = {0,0,0,0},
+	vgr_hyperspacetransitiontimeupgradespgame = {0,0,0,0},
+	vgr_makaanbattlecruiserhealth = {0,0,0,1},
+	vgr_makaancarrierhealth = {1,1,1,1},
+	vgr_makaancorvettehealth = {0,0,0,0},
+	vgr_makaandestroyerhealth = {0,0,0,1},
+	vgr_makaanfighterhealth = {0,0,0,0},
+	vgr_makaanfrigatehealth = {0,0,0,0},
+	vgr_makaanplatformhealth = {0,0,0,0},
+	vgr_makaanshipyardhealth = {1,1,1,1},
+	vgr_makaanutilityhealth = {0,0,0,0},
+	vgr_shipyardspeeddowngradespgame = {1,1,1,1},
+	vgr_strongergunplats = {0,0,0,1},
+	vgr_strongermissileplats = {0,0,0,1},
+	vgr_supercapdamageappliedspgame = {0,0,0,0},
+	vgr_supercaphealthupgradespgame = {0,0,0,0},
+	vgr_vaygrcapturehack = {0,0,0,1},
+	vgr_vaygrcarrierhealthregendowngrade = {1,1,1,1},
+	vgr_vaygrcarrierhealthupgrade = {1,1,1,1},
+	vgr_vaygrfrigatehealthregendowngradespgame = {0,0,0,0},
+	vgr_vaygrfrigatehealthupgradespgame = {0,0,0,0},
+	vgr_vaygrradiationimmunityhack = {0,0,0,0},
+	vgr_vaygrreducecapturehack = {0,0,0,1},
+	vgr_weakvgrheavymissiles = {0,0,0,1},
+	vgr_utilityhealthupgrade1 = {0,0,0,0},
+	kus_allshipbuildspeed = {0,0,0,0},
+	kus_allshipbuildspeedexpert = {0,0,0,0},
+	kus_allshipbuildspeedhard = {0,0,0,0},
+	kus_cpuplayers_aggressive = {0,0,0,0},
+	kus_cpuplayers_defensive = {0,0,0,0},
+	kus_cpuplayers_dynamic = {0,0,0,0},
+	kus_cpuplayers_norushtime10 = {0,0,0,0},
+	kus_cpuplayers_norushtime15 = {0,0,0,0},
+	kus_cpuplayers_norushtime5 = {0,0,0,0},
+	kus_resourcecollectionrateexpert = {0,0,1,1},
+	kus_resourcecollectionratehard = {0,0,1,1},
+	kus_weapondamageupgrade125 = {0,0,0,0},
+	kus_weapondamageupgrade150 = {0,0,0,0},
+	kus_weapondamageupgrade175 = {0,0,0,0},
+	kus_weapondamageupgrade200 = {0,0,0,0},
+	kus_corvettechassis = {0,0,0,1},
+	kus_corvettedrive = {0,0,0,1},
+	kus_fasttrackingturrets = {0,0,0,1},
+	kus_heavycorvetteupgrade = {0,0,0,1},
+	kus_minelayingtech = {0,0,0,1},
+	kus_cloakgenerator = {0,0,0,1},
+	kus_gravitygenerator = {0,0,0,1},
+	kus_hyperspacedamagereductionupgrade = {0,0,0,0},
+	kus_hyperspacedamagereductionupgradehc = {0,0,0,1},
+	kus_proximitysensor = {0,0,0,1},
+	kus_sensorarray = {0,0,0,1},
+	kus_sgmcapitalhealth = {0,0,0,0},
+	kus_sgmfrigatehealth = {0,0,0,0},
+	kus_sgmgravwellhealth = {0,0,0,1},
+	kus_cloakedfighter = {0,0,0,1},
+	kus_defendersubsystems = {0,0,0,1},
+	kus_fighterchassis = {0,0,0,1},
+	kus_fighterdrive = {0,0,0,1},
+	kus_plasmabomblauncher = {0,0,0,1},
+	kus_capitalshipchassis = {0,0,0,1},
+	kus_capitalshipdrive = {0,0,0,1},
+	kus_dronetechnology = {0,0,0,1},
+	kus_ioncannons = {0,0,0,1},
+	kus_guidedmissiles = {0,0,0,1},
+	kus_heavyguns = {0,0,0,1},
+	kus_supercapitalshipdrive = {0,0,1,1},
+	kus_superheavychassis = {0,0,0,1},
+	tai_allshipbuildspeed = {0,0,0,0},
+	tai_allshipbuildspeedexpert = {0,0,0,0},
+	tai_allshipbuildspeedhard = {0,0,0,0},
+	tai_cpuplayers_aggressive = {0,0,0,0},
+	tai_cpuplayers_defensive = {0,0,0,0},
+	tai_cpuplayers_dynamic = {0,0,0,0},
+	tai_cpuplayers_norushtime10 = {0,0,0,0},
+	tai_cpuplayers_norushtime15 = {0,0,0,0},
+	tai_cpuplayers_norushtime5 = {0,0,0,0},
+	tai_resourcecollectionrateexpert = {0,0,1,1},
+	tai_resourcecollectionratehard = {0,0,1,1},
+	tai_weapondamageupgrade125 = {0,0,0,0},
+	tai_weapondamageupgrade150 = {0,0,0,0},
+	tai_weapondamageupgrade175 = {0,0,0,0},
+	tai_weapondamageupgrade200 = {0,0,0,0},
+	tai_corvettechassis = {0,0,0,1},
+	tai_corvettedrive = {0,0,0,1},
+	tai_fasttrackingturrets = {0,0,0,1},
+	tai_heavycorvetteupgrade = {0,0,0,1},
+	tai_minelayingtech = {0,0,0,1},
+	tai_cloakgenerator = {0,0,0,1},
+	tai_gravitygenerator = {0,0,0,1},
+	tai_hyperspacedamagereductionupgrade = {0,0,0,0},
+	tai_hyperspacedamagereductionupgradehc = {0,0,0,1},
+	tai_proximitysensor = {0,0,0,1},
+	tai_sensorarray = {0,0,0,1},
+	tai_sgmcapitalhealth = {0,0,0,0},
+	tai_sgmfrigatehealth = {0,0,0,0},
+	tai_sgmgravwellhealth = {0,0,0,1},
+	tai_defendersubsystems = {0,0,0,1},
+	tai_defensefighter = {0,0,0,1},
+	tai_fighterchassis = {0,0,0,1},
+	tai_fighterdrive = {0,0,0,1},
+	tai_plasmabomblauncher = {0,0,0,1},
+	tai_capitalshipchassis = {0,0,0,1},
+	tai_capitalshipdrive = {0,0,0,1},
+	tai_defensefield = {0,0,0,1},
+	tai_ioncannons = {0,0,0,1},
+	tai_guidedmissiles = {0,0,0,1},
+	tai_heavyguns = {0,0,0,1},
+	tai_supercapitalshipdrive = {0,0,1,1},
+	tai_superheavychassis = {0,0,0,1},
+}
+
+VariantBuilds =
+{
+	hgn_battlecruiser = {0,0,0,1},
+	hgn_destroyer = {0,0,0,1},
+	hgn_carrier = {1,1,1,1},
+	hgn_shipyard = {1,1,1,1},
+	hgn_mothership = {1,1,1,1},
+	hgn_c_module_cloakgenerator = {0,1,0,0},
+	hgn_c_module_firecontrol = {0,1,0,0},
+	hgn_c_module_hyperspace = {0,1,0,0},
+	hgn_c_module_hyperspaceinhibitor = {0,1,0,0},
+	hgn_c_module_research = {0,0,0,0},
+	hgn_c_module_researchadvanced = {0,0,0,0},
+	hgn_c_sensors_advancedarray = {0,0,0,0},
+	hgn_c_sensors_detectcloaked = {0,0,0,0},
+	hgn_c_sensors_detecthyperspace = {0,0,0,0},
+	hgn_assaultcorvette = {0,0,0,1},
+	hgn_minelayercorvette = {0,0,0,1},
+	hgn_pulsarcorvette = {0,0,0,1},
+	hgn_attackbomber = {0,0,0,1},
+	hgn_interceptor = {0,0,0,1},
+	hgn_scout = {0,0,0,1},
+	hgn_assaultfrigate = {0,0,0,1},
+	hgn_defensefieldfrigate = {0,0,0,1},
+	hgn_ioncannonfrigate = {0,0,0,1},
+	hgn_marinefrigate = {0,0,0,1},
+	hgn_torpedofrigate = {0,0,0,1},
+	hgn_ms_module_cloakgenerator = {0,1,0,0},
+	hgn_ms_module_firecontrol = {0,1,0,0},
+	hgn_ms_module_hyperspace = {0,1,0,0},
+	hgn_ms_module_hyperspaceinhibitor = {0,1,0,0},
+	hgn_ms_module_research = {0,0,0,0},
+	hgn_ms_module_researchadvanced = {0,0,0,0},
+	hgn_ms_sensors_advancedarray = {0,0,0,0},
+	hgn_ms_sensors_detectcloaked = {0,0,0,0},
+	hgn_ms_sensors_detecthyperspace = {0,0,0,0},
+	hgn_gunturret = {0,0,0,1},
+	hgn_ionturret = {0,0,0,1},
+	hgn_c_module_platformcontrol = {0,0,0,0},
+	hgn_c_production_corvette = {0,1,0,0},
+	hgn_c_production_fighter = {0,0,0,0},
+	hgn_c_production_frigate = {0,1,0,0},
+	hgn_ms_module_platformcontrol = {0,0,0,0},
+	hgn_ms_production_capship = {0,0,0,0},
+	hgn_ms_production_corvette = {0,1,0,0},
+	hgn_ms_production_fighter = {0,0,0,0},
+	hgn_ms_production_frigate = {0,1,0,0},
+	hgn_sy_production_capship = {0,0,0,0},
+	hgn_shipyard_elohim = {1,1,1,1},
+	hgn_shipyard_spg = {1,1,1,1},
+	kpr_mover = {0,0,0,1},
+	hgn_ms_production_corvettemover = {0,0,0,0},
+	hgn_ecmprobe = {0,0,0,1},
+	hgn_probe = {0,0,0,1},
+	hgn_proximitysensor = {0,0,0,1},
+	hgn_resourcecollector = {0,0,1,1},
+	hgn_resourcecontroller = {0,0,1,1},
+	vgr_battlecruiser = {0,0,0,1},
+	vgr_carrier = {1,1,1,1},
+	vgr_destroyer = {0,0,0,1},
+	vgr_shipyard = {1,1,1,1},
+	vgr_mothership = {1,1,1,1},
+	vgr_mothership_makaan = {1,1,1,1},
+	vgr_commandcorvette = {0,0,0,1},
+	vgr_lasercorvette = {0,0,0,1},
+	vgr_minelayercorvette = {0,0,0,1},
+	vgr_missilecorvette = {0,0,0,1},
+	vgr_bomber = {0,0,0,1},
+	vgr_interceptor = {0,0,0,1},
+	vgr_lancefighter = {0,0,0,1},
+	vgr_scout = {0,0,0,1},
+	vgr_assaultfrigate = {0,0,0,1},
+	vgr_heavymissilefrigate = {0,0,0,1},
+	vgr_infiltratorfrigate = {0,0,0,1},
+	vgr_weaponplatform_gun = {0,0,0,1},
+	vgr_weaponplatform_missile = {0,0,0,1},
+	vgr_planetkillermissile = {0,0,0,0},
+	vgr_c_module_cloakgenerator = {0,1,0,0},
+	vgr_c_module_firecontrol = {0,1,0,0},
+	vgr_c_module_hyperspace = {0,0,0,0},
+	vgr_c_module_hyperspaceinhibitor = {0,1,0,0},
+	vgr_c_module_platformcontrol = {0,0,0,0},
+	vgr_c_module_research = {0,0,0,0},
+	vgr_c_production_corvette = {1,0,0,0},
+	vgr_c_production_fighter = {1,0,0,0},
+	vgr_c_production_frigate = {0,0,0,0},
+	vgr_c_sensors_advancedarray = {0,0,0,0},
+	vgr_c_sensors_detecthyperspace = {0,0,0,0},
+	vgr_ms_module_cloakgenerator = {0,1,0,0},
+	vgr_ms_module_firecontrol = {0,1,0,0},
+	vgr_ms_module_hyperspace = {0,0,0,0},
+	vgr_ms_module_hyperspaceinhibitor = {0,1,0,0},
+	vgr_ms_module_platformcontrol = {0,0,0,0},
+	vgr_ms_module_research = {0,0,0,0},
+	vgr_ms_production_capship = {0,0,0,0},
+	vgr_ms_production_corvette = {0,0,0,0},
+	vgr_ms_production_fighter = {0,0,0,0},
+	vgr_ms_production_frigate = {0,0,0,0},
+	vgr_ms_sensors_advancedarray = {0,0,0,0},
+	vgr_ms_sensors_detecthyperspace = {0,0,0,0},
+	vgr_sy_production_capship = {0,0,0,0},
+	vgr_hyperspace_platform = {0,0,0,1},
+	vgr_probe = {0,0,0,1},
+	vgr_probe_ecm = {0,0,0,1},
+	vgr_probe_prox = {0,0,0,1},
+	vgr_resourcecollector = {0,0,1,1},
+	vgr_resourcecontroller = {0,0,1,1},
+	kus_carrier = {0,0,1,1},
+	kus_mothership = {1,0,1,1},
+	kus_destroyer = {0,0,0,1},
+	kus_heavycruiser = {0,0,0,1},
+	kus_missiledestroyer = {0,0,0,1},
+	kus_heavycorvette = {0,0,0,1},
+	kus_lightcorvette = {0,0,0,1},
+	kus_minelayercorvette = {0,0,0,1},
+	kus_multiguncorvette = {0,0,0,1},
+	kus_repaircorvette = {0,0,0,1},
+	kus_salvagecorvette = {0,0,0,1},
+	kus_attackbomber = {0,0,0,1},
+	kus_cloakedfighter = {0,0,0,1},
+	kus_defender = {0,0,0,1},
+	kus_interceptor = {0,0,0,1},
+	kus_scout = {0,0,0,1},
+	kus_assaultfrigate = {0,0,0,1},
+	kus_drone0 = {0,0,0,0},
+	kus_drone1 = {0,0,0,0},
+	kus_drone10 = {0,0,0,0},
+	kus_drone11 = {0,0,0,0},
+	kus_drone12 = {0,0,0,0},
+	kus_drone13 = {0,0,0,0},
+	kus_drone2 = {0,0,0,0},
+	kus_drone3 = {0,0,0,0},
+	kus_drone4 = {0,0,0,0},
+	kus_drone5 = {0,0,0,0},
+	kus_drone6 = {0,0,0,0},
+	kus_drone7 = {0,0,0,0},
+	kus_drone8 = {0,0,0,0},
+	kus_drone9 = {0,0,0,0},
+	kus_dronefrigate = {0,0,0,1},
+	kus_ioncannonfrigate = {0,0,0,1},
+	kus_supportfrigate = {0,0,0,1},
+	hw1_production_capital = {0,0,0,0},
+	hw1_production_corvette = {0,0,0,0},
+	hw1_production_fighter = {0,0,0,0},
+	hw1_production_frigate = {0,0,0,0},
+	kus_cloakgenerator = {0,0,0,1},
+	kus_gravwellgenerator = {0,0,0,1},
+	kus_probe = {0,0,0,1},
+	kus_proximitysensor = {0,0,0,1},
+	kus_researchship = {0,0,0,0},
+	kus_researchship_1 = {0,0,0,0},
+	kus_researchship_2 = {0,0,0,0},
+	kus_researchship_3 = {0,0,0,0},
+	kus_researchship_4 = {0,0,0,0},
+	kus_researchship_5 = {0,0,0,0},
+	kus_resourcecollector = {0,0,1,1},
+	kus_resourcecontroller = {0,0,1,1},
+	kus_sensorarray = {0,0,0,1},
+	tai_carrier = {0,0,1,1},
+	tai_mothership = {1,0,1,1},
+	tai_destroyer = {0,0,0,1},
+	tai_heavycruiser = {0,0,0,1},
+	tai_missiledestroyer = {0,0,0,1},
+	tai_heavycorvette = {0,0,0,1},
+	tai_lightcorvette = {0,0,0,1},
+	tai_minelayercorvette = {0,0,0,1},
+	tai_multiguncorvette = {0,0,0,1},
+	tai_repaircorvette = {0,0,0,1},
+	tai_salvagecorvette = {0,0,0,1},
+	tai_attackbomber = {0,0,0,1},
+	tai_defender = {0,0,0,1},
+	tai_defensefighter = {0,0,0,1},
+	tai_interceptor = {0,0,0,1},
+	tai_scout = {0,0,0,1},
+	tai_assaultfrigate = {0,0,0,1},
+	tai_fieldfrigate = {0,0,0,1},
+	tai_ioncannonfrigate = {0,0,0,1},
+	tai_supportfrigate = {0,0,0,1},
+	hw1_production_capital = {0,0,0,0},
+	hw1_production_corvette = {0,0,0,0},
+	hw1_production_fighter = {0,0,0,0},
+	hw1_production_frigate = {0,0,0,0},
+	tai_cloakgenerator = {0,0,0,1},
+	tai_gravwellgenerator = {0,0,0,1},
+	tai_probe = {0,0,0,1},
+	tai_proximitysensor = {0,0,0,1},
+	tai_researchship = {0,0,0,0},
+	tai_researchship_1 = {0,0,0,0},
+	tai_researchship_2 = {0,0,0,0},
+	tai_researchship_3 = {0,0,0,0},
+	tai_researchship_4 = {0,0,0,0},
+	tai_researchship_5 = {0,0,0,0},
+	tai_resourcecollector = {0,0,1,1},
+	tai_resourcecontroller = {0,0,1,1},
+	tai_sensorarray = {0,0,0,1},
 }

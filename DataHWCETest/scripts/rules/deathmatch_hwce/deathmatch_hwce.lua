@@ -113,9 +113,9 @@ Player_GrantedBuilds		= {{},{},{},{},{},{},{},{},}
 Player_Races			= {}
 Player_Count			= 0
 
--- message string that is displayed immediately after the game starts
-starting_message = ""
+StartingMessage = ""	-- message string that is displayed immediately after the game starts
 StartFleetSuffixString = ""
+ModeSuffixes = {}
 
 
 --==============================================================================
@@ -320,6 +320,8 @@ function OnInit_old()
 			tinsert(Player_RestrictedBuilds[playerIndex + 1][sRace], mothershipsList[j])
 		end
 	end
+
+	ModeSuffixes = {StartWithMode == "carrieronly", ResearchMode == 1, ResourceMode ~= -1, HyperspaceMode == 1,}
 
 	-- setup resource injections
 	if (ResourceInjectionAmount > 0) then

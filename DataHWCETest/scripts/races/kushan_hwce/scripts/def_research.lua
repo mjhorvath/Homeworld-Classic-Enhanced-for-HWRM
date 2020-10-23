@@ -10,7 +10,7 @@ AllShips = 0
 Family = 1
 Ship = 2
 
-dofilepath("data:scripts/races/kushan_hwce/scripts/research/out_kus_res.lua")
+dofilepath("data:scripts/races/kushan_hwce/scripts/out_kus_res.lua")
 dofilepath("data:scripts/techfunc.lua")
 
 PrintResearchNames()

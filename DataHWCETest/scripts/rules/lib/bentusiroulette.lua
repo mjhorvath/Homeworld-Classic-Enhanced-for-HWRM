@@ -7,7 +7,6 @@ function BentusiRoulette_Init()
 	-- for every player...
 	for playerIndex = 0, Player_Count do
 		local sRace = Player_Races[playerIndex + 1]
-		local raceResearch = TechList[sRace].research
 		local getnG = getn(Player_GrantedResearch[playerIndex + 1][sRace])
 		local getnR = getn(Player_RestrictedResearch[playerIndex + 1][sRace])
 		local getnT = 0
@@ -26,7 +25,7 @@ function BentusiRoulette_Init()
 		while (iGrant < BentusiRouletteMode) do
 			-- if there are any research items left to grant or restrict...
 			if ((getnG + getnR) < getnT) then
-				local new_pass, new_item, new_name = GetFreeResearchItem(playerIndex, sRace, raceResearch)
+				local new_pass, new_item, new_name = GetFreeResearchItem(playerIndex, sRace)
 				if (new_pass == 1) then
 					-- grant the research item
 					Player_GrantResearchOption(playerIndex, new_item)
@@ -50,7 +49,7 @@ function BentusiRoulette_Init()
 		while (iRestrict < BentusiRouletteMode) do
 			-- if there are any research items left to grant or restrict...
 			if ((getnG + getnR) < getnT) then
-				local new_pass, new_item, new_name = GetFreeResearchItem(playerIndex, sRace, raceResearch)
+				local new_pass, new_item, new_name = GetFreeResearchItem(playerIndex, sRace)
 				if (new_pass == 1) then
 					-- restrict the research item
 					Player_RestrictResearchOption(playerIndex, new_item)
@@ -78,29 +77,33 @@ end
 -- get an available research item
 --
 
-function GetFreeResearchItem(playerIndex, sRace, raceResearch)
+function GetFreeResearchItem(playerIndex, sRace)
+	local tResearch = TechList[sRace].research
 	local iRand1 = srandom(BEN_Seed)
 	-- for every research class...
-	for i = 1, getn(raceResearch) do
-		local iClass = raceResearch[i]
+	for i, iClass in tResearch do
 		if (iRand1 <= iClass.prob) then
 			local iRand2 = srandom(BEN_Seed)
 			local iItems = iClass.items
 			-- for every item within that class...
-			for j = 1, getn(iItems) do
-				local jItem = iItems[j]
+			for j, jItem in iItems do
 				if (iRand2 <= jItem.prob) then
-					local researchitem = jItem.types
-					local researchname = jItem.name
-					-- for every sub-type created as a result of rule restrictions...
-					for k = 1, getn(researchitem) do
-						local researchsubitem = researchitem[k]
-						-- if the research item has not already been restricted or granted...
-						if ((IsResearchRestricted(playerIndex, sRace, researchsubitem) == 0) and (IsResearchGranted(playerIndex, sRace, researchsubitem) == 0)) then
-							return 1, researchsubitem, researchname
-						end
+					local researchType = j
+					local researchName = jItem.name
+					-- get the correct variant
+					local researchBits = VariantResearch[researchType]
+					local researchVariant = GetVariantsMatch(researchType, researchBits)
+					-- check if the variant is queued, restricted or granted
+					-- should I really check for queued items? do you lose the money you have already spent on the queued item?
+					local isQueued = Player_HasQueuedResearch(playerIndex, researchVariant)
+					local isRestricted = IsResearchRestricted(playerIndex, sRace, researchVariant)
+					local isGranted = IsResearchGranted(playerIndex, sRace, researchVariant)
+					-- if the variant has not already been restricted, queued or granted...
+					if ((isQueued == 0) and (isRestricted == 0) and (isGranted == 0)) then
+						-- success!
+						return 1, researchVariant, researchName
 					end
-					BEN_trace([[GetResearchGrant: "]] .. researchitem[1] .. [[" or sibling item has already been granted or restricted. Can't grant or restrict to Player ]] .. playerIndex .. [[.]])
+					BEN_trace([[GetResearchGrant: "]] .. researchType .. [[" or a variant has already been queued, restricted or granted. Can't restrict or grant to Player ]] .. playerIndex .. [[.]])
 				end
 			end
 		end

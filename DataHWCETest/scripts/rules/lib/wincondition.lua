@@ -183,24 +183,20 @@ function CheckMothershipDeadRule()
 		local shipList = TechList[sRace].ships
 		local MothershipIsDead = 1
 		-- for every class of ship...
-		for k = 1, getn(shipList) do
-			local kClass = shipList[k].class
-			local kItems = shipList[k].items
+		for k, kCount in shipList do
+			local shipClass = k
+			local shipItems = kCount.items
 			-- if this is the "mothership" class...
-			if (kClass == "mothership") then
+			if (shipClass == "mothership") then
 				-- for every ship belonging to that class...
-				for l = 1, getn(kItems) do
-					local lTypes = kItems[l].types
-					-- for every sub-type of ship...
-					for m = 1, getn(lTypes) do
-						local mType = lTypes[m]
-						-- check to see if the player has a mothership
-						if (Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(WIN_AnyPlayerIndex, mType) > 0) then
-							MothershipIsDead = 0
-							break
-						end
-					end
-					if (MothershipIsDead == 0) then
+				for l, lCount in shipItems do
+					-- get the correct variant
+					local shipType = l
+					local shipBits = VariantBuilds[shipType]
+					local shipVariant = GetVariantsMatch(shipType, shipBits)
+					-- check to see if the player has a mothership
+					if (Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(WIN_AnyPlayerIndex, shipVariant) > 0) then
+						MothershipIsDead = 0
 						break
 					end
 				end

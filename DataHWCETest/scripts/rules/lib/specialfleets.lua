@@ -21,9 +21,9 @@ function SpecialFleets_Init()
 		local racefleets = FleetsTable[sRace].startingfleets
 		for k = 1, getn(racefleets) do
 			-- check which starting fleet was selected for the player
-			local iFleet = racefleets[k]
-			if (PlayerFleetName == iFleet.name) then
-				sFleet = iFleet
+			local kFleet = racefleets[k]
+			if (PlayerFleetName == kFleet.name) then
+				sFleet = kFleet
 				break
 			end
 		end
@@ -41,26 +41,18 @@ function SpecialFleets_Init()
 		local resc_amt = getn(sFleet.research)
 		local subs_amt = getn(sFleet.subsystems)
 
-		-- add ship-types that exit the shiphold
+		-- section 1: add ship-types that exit the shiphold
 		for j = 1, hold_amt do
-			local sShip = sFleet.ships[j]
+			local sType = strlower(sFleet.ships[j])
 			local sName = ""
 			local isMatch = 0
-			for k = 1, getn(shipsList) do
-				local kCount = shipsList[k]
-				for l = 1, getn(kCount.items) do
-					local lCount = kCount.items[l]
-					local lTypes = lCount.type
+			for k, kCount in shipsList do
+				for l, lCount in kCount.items do
+					local lType = strlower(l)
 					local lName = lCount.name
-					for m = 1, getn(lTypes) do
-						local mType = lTypes[m]
-						if (strlower(mType) == strlower(sShip)) then
-							sName = lName
-							isMatch = 1
-							break
-						end
-					end
-					if (isMatch == 1) then
+					if (lType == sType) then
+						sName = lName
+						isMatch = 1
 						break
 					end
 				end
@@ -68,31 +60,25 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-			SPC_trace([[SpecialFleets_Init: Adding "]] .. sShip .. [[" to Player ]] .. playerIndex .. [['s fleet.]])
-			SobGroup_CreateShip(StartGroupName, sShip)
+			local sBits = VariantBuilds[sType]
+			local sVariant = GetVariantsMatch(sType, sBits)
+			SPC_trace([[SpecialFleets_Init: Adding "]] .. sVariant .. [[" to Player ]] .. playerIndex .. [['s fleet.]])
+			SobGroup_CreateShip(StartGroupName, sVariant)
 			item_count = FLT_PushString(playerIndex, item_count, sName)
 		end
 
-		-- add ship-types that spawn in formation with the mothership
+		-- section 2: add ship-types that spawn in formation with the mothership
 		for j = 1, hypr_amt do
-			local sShipH = sFleet.ships_hyper[j]
-			local sNameH = ""
+			local sType = strlower(sFleet.ships_hyper[j])
+			local sName = ""
 			local isMatch = 0
-			for k = 1, getn(shipsList) do
-				local kCount = shipsList[k]
-				for l = 1, getn(kCount.items) do
-					local lCount = kCount.items[l]
-					local lTypes = lCount.type
+			for k, kCount in shipsList do
+				for l, lCount in kCount.items do
+					local lType = strlower(l)
 					local lName = lCount.name
-					for m = 1, getn(lTypes) do
-						local mType = lTypes[m]
-						if (strlower(mType) == strlower(sShipH)) then
-							sNameH = lName
-							isMatch = 1
-							break
-						end
-					end
-					if (isMatch == 1) then
+					if (lType == sShip) then
+						sName = lName
+						isMatch = 1
 						break
 					end
 				end
@@ -100,10 +86,12 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-			SPC_trace([[SpecialFleets_Init: Adding "]] .. sShipH .. [[" to Player ]] .. playerIndex .. [['s fleet.]])
-			SobGroup_SpawnNewShipInSobGroup(playerIndex, sShipH, "", FleetGroupName, StartPosName)
+			local sBits = VariantBuilds[sType]
+			local sVariant = GetVariantsMatch(sType, sBits)
+			SPC_trace([[SpecialFleets_Init: Adding "]] .. sVariant .. [[" to Player ]] .. playerIndex .. [['s fleet.]])
+			SobGroup_SpawnNewShipInSobGroup(playerIndex, sVariant, "", FleetGroupName, StartPosName)
 			SobGroup_ParadeSobGroup(FleetGroupName, StartGroupName, 2)
-			item_count = FLT_PushString(playerIndex, item_count, sNameH)
+			item_count = FLT_PushString(playerIndex, item_count, sName)
 		end
 
 		if ((hold_amt + hypr_amt) == 0) then
@@ -112,27 +100,19 @@ function SpecialFleets_Init()
 
 		item_count = FLT_PushString(playerIndex, item_count, "STARTING SHIPS:")
 
-		-- add subsytems to motherships and carriers (may fail for some ships, but that's OK)
+		-- section 3: add subsytems to motherships and carriers (may fail for some ships, but that's OK)
 		for j = 1, subs_amt do
-			local sSubsys = sFleet.subsystems[j][1]
-			local sShiptype = sFleet.subsystems[j][2]
+			local sType = strlower(sFleet.subsystems[j][1])
+			local sShip = strlower(sFleet.subsystems[j][2])
 			local sName = ""
 			local isMatch = 0
-			for k = 1, getn(subsystemsList) do
-				local kCount = subsystemsList[k]
-				for l = 1, getn(kCount.items) do
-					local lCount = kCount.items[l]
-					local lTypes = lCount.type
+			for k, kCount in subsystemsList do
+				for l, lCount in kCount.items do
+					local lType = l
 					local lName = lCount.name
-					for m = 1, getn(lTypes) do
-						local mType = lTypes[m]
-						if (strlower(mType) == strlower(sSubsys)) then
-							sName = lName
-							isMatch = 1
-							break
-						end
-					end
-					if (isMatch == 1) then
+					if (lType == sType) then
+						sName = lName
+						isMatch = 1
 						break
 					end
 				end
@@ -140,11 +120,12 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-
-			SPC_trace([[SpecialFleets_Init: Building "]] .. sSubsys .. [[" on Player ]] .. playerIndex .. [['s ships (may fail for some ships, but that's OK).]])
+			local sBits = VariantBuilds[sType]
+			local sVariant = GetVariantsMatch(sType, sBits)
+			SPC_trace([[SpecialFleets_Init: Building "]] .. sVariant .. [[" on Player ]] .. playerIndex .. [['s ships (may fail for some ships, but that's OK).]])
 			-- !!! the following will add the subsystem to ALL ships of the type in the sobgroup, not just the first !!!
-			Player_FillShipsByType(SubsyGroupName, playerIndex, sShiptype)
-			SobGroup_CreateSubSystem(SubsyGroupName, sSubsys)
+			Player_FillShipsByType(SubsyGroupName, playerIndex, sShip)
+			SobGroup_CreateSubSystem(SubsyGroupName, sVariant)
 			SobGroup_Clear(SubsyGroupName)
 			item_count = FLT_PushString(playerIndex, item_count, sName)
 		end
@@ -155,26 +136,18 @@ function SpecialFleets_Init()
 
 		item_count = FLT_PushString(playerIndex, item_count, "STARTING SUBSYSTEMS:")
 
-		-- add research
+		-- section 4: add research
 		for j = 1, resc_amt do
-			local sResearch = sFleet.research[j]
+			local sType = strlower(sFleet.research[j])
 			local sName = ""
 			local isMatch = 0
-			for k = 1, getn(researchList) do
-				local kCount = researchList[k]
-				for l = 1, getn(kCount.items) do
-					local lCount = kCount.items[l]
-					local lTypes = lCount.Type
+			for k, kCount in researchList do
+				for l, lCount in kCount.items do
+					local lType = strlower(l)
 					local lName = lCount.name
-					for m = 1, getn(lTypes) do
-						local mType = lTypes[m]
-						if (strlower(mType) == strlower(sResearch)) then
-							sName = lName
-							isMatch = 1
-							break
-						end
-					end
-					if (isMatch == 1) then
+					if (lType == sType) then
+						sName = lName
+						isMatch = 1
 						break
 					end
 				end
@@ -182,10 +155,12 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-			SPC_trace([[SpecialFleets_Init: Granting "]] .. sResearch .. [[" research option to Player ]] .. playerIndex .. [[.]])
-			Player_GrantResearchOption(playerIndex, sResearch)
+			local sBits = VariantResearch[sType]
+			local sVariant = GetVariantsMatch(sType, sBits)
+			SPC_trace([[SpecialFleets_Init: Granting "]] .. sVariant .. [[" research option to Player ]] .. playerIndex .. [[.]])
+			Player_GrantResearchOption(playerIndex, sVariant)
 			-- add to list of granted research
-			tinsert(Player_GrantedResearch[playerIndex + 1][sRace], sResearch)
+			tinsert(Player_GrantedResearch[playerIndex + 1][sRace], sVariant)
 			item_count = FLT_PushString(playerIndex, item_count, sName)
 		end
 

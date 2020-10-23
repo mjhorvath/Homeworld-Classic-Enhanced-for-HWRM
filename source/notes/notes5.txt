@@ -35,6 +35,7 @@ Core design issues
 	Should I remove the Research and AdvancedResearch module requirements for researches when researching is disabled, or is this pointless? This is already the case for builds. It would (or maybe not?) require additional versions of affected ships.
 	Should I remove the requirements for a Hyperspace module when hyperspacing is disabled? (This only involves shipyards as far as I have found.)
 	Maybe need separate params for ships and build/research.
+	The "Start with from map" mode is problematic because level files don't know which of the other game modes are enabled, and therefore cannot spawn the correct ships.
 
 Miscellaneous
 	Are base_research and res_index used for anything crucial? Can I safely get rid of them and simplify the scripts?

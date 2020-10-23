@@ -1,10 +1,10 @@
 '''
 @caption: Build Research Generator
 @created: 2020-09-22
-@updated: 2020-09-26
+@updated: 2020-10-22
 @authors: Michael Horvath
 @license: CC BY
-@version: 1.0.1
+@version: 1.1.0
 @note: Generates Lua build and research scripts from TSV (tab-separated value) files exported from Excel.
 @note: 
 @note: 
@@ -21,7 +21,7 @@ import csv
 import copy
 
 __appname__ = 'Build Research Generator'
-__version__ = '1.0.1'
+__version__ = '1.1.0'
 
 INPPATH = ''
 OUTPATH = ''
@@ -111,20 +111,14 @@ def process_input():
             row_count += 1
     return BIGLIST
 
-# outputs tab-separated values formatted the same as the spreadsheet, sorted
+# outputs tab-separated values formatted the same as the source spreadsheet, sorted
 def out_tsv(BIGLIST):
     OUTTEXT = ''
     for i in BIGLIST:
         # param list first
-        for j in i:
-            if j == 'row_param':
-                OUTTEXT += format_param_list(i[j]) + '\t'
-                break
+        OUTTEXT += format_param_list(i['row_param']) + '\t'
         # file name second
-        for j in i:
-            if j == 'row_desti':
-                OUTTEXT += i[j] + '\t'
-                break
+        OUTTEXT += i['row_desti'] + '\t'
         # then all the other fields
         for j in sorted(i):
             if j != 'row_param' and j != 'row_desti':
@@ -132,28 +126,20 @@ def out_tsv(BIGLIST):
         OUTTEXT += '\n'
     return OUTTEXT
 
-# outputs Lua table, one entry per each ship variation, sorted
+# outputs Lua table, one entry per each research variation, sorted
 def res_lua(BIGLIST):
     OUTTEXT = INPMODE + ' =\n{\n'
     row_count = 0
     for i in BIGLIST:
-        print('row_count = ' + str(row_count + 1))
+#        print('row_count = ' + str(row_count + 1))
 
         # param list
-        param_list = None
-        for j in i:
-            if j == 'row_param':
-                param_list = i[j]
-                break
+        param_list = i['row_param']
         num_bits = len(param_list)
         num_digi = 2 ** num_bits
 
-        # pass 1
         # file name as part of a leading comment
-        for j in i:
-            if j == 'row_desti':
-                OUTTEXT += '\t-- #' + str(row_count + 1) + '.0, ' + i[j] + '\n'
-                break
+        OUTTEXT += '\t-- #' + str(row_count + 1) + '.0, ' + i['row_desti'] + '\n'
 
         # then the actual table
         OUTTEXT += '\t{\n'
@@ -175,28 +161,18 @@ def res_lua(BIGLIST):
                 #print('k = ' + str(k) + '; num_bits = ' + str(num_bits))
                 tmp_bits = num_to_bits(k, num_bits)
 
+                # calc suffix
                 name_suffix = ''
                 for j in range(num_bits):
                     name_suffix += '_' + param_list[j] + str(int(tmp_bits[j]))
 
+                # apply suffix
                 new_i = copy.deepcopy(i)
-                new_i['Name'][0]                = i['Name'][0] + name_suffix
-                new_i['RequiredResearch'][0]    = i['Name'][0]
-                new_i['RequiredSubSystems'][0]  = ''
-                new_i['Cost'][0]				= '0'
-                new_i['Time'][0]				= '0'
-                new_i['DisplayedName'][0]		= ''
-                new_i['DisplayPriority'][0]	    = '0'               # will a zero here mess things up?
-                new_i['Description'][0]		    = 'Instant Tech'    # to localize?
-                if new_i['TargetType'][0] == 'Ship':
-                    new_i['TargetName'][0]			= i['TargetName'][0] + name_suffix
+                new_i['Name'][0] = i['Name'][0] + name_suffix
+                new_i['TargetName'][0] = i['TargetName'][0] + name_suffix
 
-                # pass 2
                 # file name as part of a leading comment
-                for j in new_i:
-                    if j == 'row_desti':
-                        OUTTEXT += '\t-- #' + str(row_count + 1) + '.' + str(k + 1) + ', ' + i[j] + '\n'
-                        break
+                OUTTEXT += '\t-- #' + str(row_count + 1) + '.' + str(k + 1) + ', ' + i['row_desti'] + '\n'
 
                 # then the actual table
                 OUTTEXT += '\t{\n'
@@ -217,65 +193,23 @@ def res_lua(BIGLIST):
     OUTTEXT += '}\n'
     return OUTTEXT
 
-# outputs Lua table, one entry per each ship variation, sorted
+# outputs Lua table, one entry per each ship or subsystem variation, sorted
 def bld_lua(BIGLIST):
     OUTTEXT = INPMODE + ' =\n{\n'
     row_count = 0
     for i in BIGLIST:
-        print('row_count = ' + str(row_count + 1))
+#        print('row_count = ' + str(row_count + 1))
 
         # param list
-        param_list = None
-        for j in i:
-            if j == 'row_param':
-                param_list = i[j]
-                break
+        param_list = i['row_param']
         num_bits = len(param_list)
         num_digi = 2 ** num_bits
 
-        if num_bits > 0:
-            for k in range(num_digi):
-                tmp_bits = num_to_bits(k, num_bits)
-
-                name_suffix = ''
-                for j in range(num_bits):
-                    name_suffix += '_' + param_list[j] + str(tmp_bits[j])
-
-                new_i = copy.deepcopy(i)
-                # not all ships/subsystems need the suffix
-                # need to fix the ones that don't need the suffix by hand until I am able to fix the spreadsheet and this program
-                new_i['ThingToBuild'][0] = i['ThingToBuild'][0] + name_suffix
-
-                # file name as part of a leading comment
-                for j in new_i:
-                    if j == 'row_desti':
-                        OUTTEXT += '\t-- #' + str(row_count + 1) + '.' + str(k + 1) + ', ' + i[j] + '\n'
-                        break
-
-                # then the actual table
-                OUTTEXT += '\t{\n'
-                for j in sorted(new_i):
-                    if j != 'row_param' and j != 'row_desti':
-                        dict_key = j
-                        dict_val = new_i[j][0]
-                        dict_typ = new_i[j][1]
-                        if dict_key == 'RequiredFleetSubSystems' or dict_key == 'RequiredShipSubSystems':
-                            dict_val = fix_subsys_reqs(dict_val, param_list, tmp_bits)
-                        OUTTEXT += '\t\t' + dict_key + ' = '
-                        if dict_typ == 'string':
-                            OUTTEXT += '"' + dict_val + '"'
-                        else:
-                            OUTTEXT += dict_val
-                        OUTTEXT += ',\n'
-                OUTTEXT += '\t},\n'
-        else:
+        if num_bits == 0:
             new_i = copy.deepcopy(i)
 
             # file name as part of a leading comment
-            for j in new_i:
-                if j == 'row_desti':
-                    OUTTEXT += '\t-- #' + str(row_count + 1) + '.0, ' + i[j] + '\n'
-                    break
+            OUTTEXT += '\t-- #' + str(row_count + 1) + '.0, ' + i['row_desti'] + '\n'
 
             # then the actual table
             OUTTEXT += '\t{\n'
@@ -294,6 +228,106 @@ def bld_lua(BIGLIST):
                     OUTTEXT += ',\n'
             OUTTEXT += '\t},\n'
 
+        elif num_bits > 0:
+            for k in range(num_digi):
+                tmp_bits = num_to_bits(k, num_bits)
+
+                name_suffix = ''
+                for j in range(num_bits):
+                    name_suffix += '_' + param_list[j] + str(tmp_bits[j])
+
+                new_i = copy.deepcopy(i)
+                new_i['ThingToBuild'][0] = i['ThingToBuild'][0] + name_suffix
+
+                # file name as part of a leading comment
+                OUTTEXT += '\t-- #' + str(row_count + 1) + '.' + str(k + 1) + ', ' + i['row_desti'] + '\n'
+
+                # then the actual table
+                OUTTEXT += '\t{\n'
+                for j in sorted(new_i):
+                    if j != 'row_param' and j != 'row_desti':
+                        dict_key = j
+                        dict_val = new_i[j][0]
+                        dict_typ = new_i[j][1]
+                        if dict_key == 'RequiredFleetSubSystems' or dict_key == 'RequiredShipSubSystems':
+                            dict_val = fix_subsys_reqs(dict_val, param_list, tmp_bits)
+                        OUTTEXT += '\t\t' + dict_key + ' = '
+                        if dict_typ == 'string':
+                            OUTTEXT += '"' + dict_val + '"'
+                        else:
+                            OUTTEXT += dict_val
+                        OUTTEXT += ',\n'
+                OUTTEXT += '\t},\n'
+
+        row_count += 1
+    OUTTEXT += '}\n'
+    return OUTTEXT
+
+# outputs Lua list, one entry per each ship variation, sorted
+def res_pip(BIGLIST):
+    OUTTEXT = 'VariantResearch =\n{\n'
+    row_count = 0
+    for i in BIGLIST:
+#        print('row_count = ' + str(row_count + 1))
+
+        # pip print
+        OUTTEXT += '\t' + i['Name'][0] + ' =\n\t{\n'
+
+        # param list
+        param_list = i['row_param']
+        num_bits = len(param_list)
+        num_digi = 2 ** num_bits
+
+        # then the actual table
+        if num_bits == 0:
+            OUTTEXT += '\t\t"' + i['Name'][0] + '",\n'
+        elif num_bits > 0:
+            for k in range(num_digi):
+                #print('k = ' + str(k) + '; num_bits = ' + str(num_bits))
+                tmp_bits = num_to_bits(k, num_bits)
+
+                name_suffix = ''
+                for j in range(num_bits):
+                    name_suffix += '_' + param_list[j] + str(int(tmp_bits[j]))
+
+                OUTTEXT += '\t\t"' + i['Name'][0] + name_suffix + '",\n'
+
+        # pip print
+        OUTTEXT += '\t},\n'
+        row_count += 1
+    OUTTEXT += '}\n'
+    return OUTTEXT
+
+# outputs Lua list, one entry per each ship or subsystem variation, sorted
+def bld_pip(BIGLIST):
+    OUTTEXT = 'VariantBuilds =\n{\n'
+    row_count = 0
+    for i in BIGLIST:
+#        print('row_count = ' + str(row_count + 1))
+
+        # pip print
+        OUTTEXT += '\t' + i['ThingToBuild'][0] + ' =\n\t{\n'
+
+        # param list
+        param_list = i['row_param']
+        num_bits = len(param_list)
+        num_digi = 2 ** num_bits
+
+        # then the actual table
+        if num_bits == 0:
+            OUTTEXT += '\t\t"' + i['ThingToBuild'][0] + '",\n'
+        elif num_bits > 0:
+            for k in range(num_digi):
+                tmp_bits = num_to_bits(k, num_bits)
+
+                name_suffix = ''
+                for j in range(num_bits):
+                    name_suffix += '_' + param_list[j] + str(tmp_bits[j])
+
+                OUTTEXT += '\t\t"' + i['ThingToBuild'][0] + name_suffix + '",\n'
+
+        # pip print
+        OUTTEXT += '\t},\n'
         row_count += 1
     OUTTEXT += '}\n'
     return OUTTEXT
@@ -322,10 +356,10 @@ if __name__ == '__main__':
             INPMODE = STR_ARGVALUE
 
     if INPMODE != 'research' and INPMODE != 'build':
-        print('Needs to specify -research or -build in command line.')
+        print('Needs to specify "research" or "build" as -mode.')
         sys.exit(2)
-    if OUTFORM != 'lua' and OUTFORM != 'tsv':
-        print('Need to specify lua or tsv as -mode.')
+    if OUTFORM != 'lua' and OUTFORM != 'tsv' and OUTFORM != 'pip':
+        print('Need to specify "lua", "tsv" or "pip" as -output.')
         sys.exit(2)
 
     # start doing stuff here
@@ -339,6 +373,11 @@ if __name__ == '__main__':
             STR_OUTTEXT = res_lua(BIGLIST)
         elif INPMODE == 'build':
             STR_OUTTEXT = bld_lua(BIGLIST)
+    elif OUTFORM == 'pip':
+        if INPMODE == 'research':
+            STR_OUTTEXT = res_pip(BIGLIST)
+        elif INPMODE == 'build':
+            STR_OUTTEXT = bld_pip(BIGLIST)
 
     STR_OUTPATH = OUTPATH
     try:

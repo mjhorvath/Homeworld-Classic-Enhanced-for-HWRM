@@ -37,32 +37,29 @@ function UpdateBountyStats()
 		if (Player_IsAlive(playerIndex) == 1) then
 			local playerPlusOne = playerIndex + 1
 			local sRace = Player_Races[playerIndex + 1]
-			local ShipList = TechList[sRace].ships
+			local shipList = TechList[sRace].ships
 			alivePlayers = alivePlayers + 1
 			HWC_trace("UpdateBountyStats: Checking Player " .. playerIndex .. ", race " .. sRace .. ".")
 
 			-- for each ship class in the player's race...
-			for i = 1, getn(ShipList) do
-				local iClass = ShipList[i]
-				local iItems = iClass.items
+			for i, iClass in shipList do
+				local shipItems = iClass.items
 				-- for every ship in that class...
-				for j = 1, getn(iItems) do
-					local jType = iItems[j]
-					local TypeList = jType.types
-					local TypeCost = jType.cost
-					-- for every sub-type of ship...
-					for l = 1, getn(TypeList) do
-						local TypeType = TypeList[l]
-						-- fill all ships of this type that the player has in his/her possession into a sobgroup
-						SobGroup_FillShipsByType("BountyCounterGroup", "Player_Ships" .. playerIndex, TypeType)
-						-- count the number of ships in the sobgroup
-						local shipCount = SobGroup_Count("BountyCounterGroup")
-						if (shipCount > 0) then
-							HWC_trace("UpdateBountyStats: Player " .. playerIndex .. " has " .. shipCount .. " " .. TypeType .. ".")
-							-- calculate the cost of these ships and add them to the player total
-							playerShipCosts[playerPlusOne] = playerShipCosts[playerPlusOne] + shipCount * TypeCost
-							break
-						end
+				for j, jItem in shipItems do
+					local shipType = j
+					local shipCost = jItem.cost
+					-- get the correct variant
+					local shipBits = VariantBuilds[shipType]
+					local shipVariant = GetVariantsMatch(shipType, typeBits)
+					-- fill all ships of this type that the player has in his/her possession into a sobgroup
+					SobGroup_FillShipsByType("BountyCounterGroup", "Player_Ships" .. playerIndex, shipVariant)
+					-- count the number of ships in the sobgroup
+					local shipCount = SobGroup_Count("BountyCounterGroup")
+					if (shipCount > 0) then
+						HWC_trace("UpdateBountyStats: Player " .. playerIndex .. " has " .. shipCount .. " " .. shipVariant .. ".")
+						-- calculate the cost of these ships and add them to the player total
+						playerShipCosts[playerPlusOne] = playerShipCosts[playerPlusOne] + shipCount * shipCost
+						break
 					end
 				end
 			end

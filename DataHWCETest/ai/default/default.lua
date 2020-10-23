@@ -1,49 +1,55 @@
-print("can you hear me now?")
-aitrace("DEFAULT CPU LOADED")
-g_LOD = getLevelOfDifficulty()
-dofilepath("data:ai/default/classdef.lua")
-dofilepath("data:ai/default/cpubuild.lua")
-dofilepath("data:ai/default/cpuresearch.lua")
-dofilepath("data:ai/default/cpumilitary.lua")
-dofilepath("data:ai/default/HW1CPUPlayerLayer.lua")
+old_aitrace = aitrace
+rawset(globals(),"aitrace",nil)
+function aitrace(inString)
+	print(inString)
+end
 
---old_aitrace = aitrace
---rawset(globals(),"aitrace",nil)
---aitrace = function() end
+aitrace("can you hear me now?")
+--aitrace("DEFAULT CPU LOADED")
+--g_LOD = getLevelOfDifficulty()
+--dofilepath("data:ai/default/classdef.lua")
+--dofilepath("data:ai/default/cpubuild.lua")
+--dofilepath("data:ai/default/cpuresearch.lua")
+--dofilepath("data:ai/default/cpumilitary.lua")
+--dofilepath("data:ai/default/HW1CPUPlayerLayer.lua")
+dofilepath("data:scripts/utilfunc.lua")
+dofilepath("data:scripts/techfunc.lua")
+dofilepath("data:scripts/rules/lib/objectlist_techvariants.lua")
+aitrace("speak louder please!")
 
 function oninit()
-	s_playerIndex = Player_Self()
-	sg_dobuild = 1
-	sg_dosubsystems = 1
-	sg_doresearch = 1
-	sg_doupgrades = 1
-	sg_domilitary = 1
-	cp_processResource = 1
-	cp_processMilitary = 1
-	sg_lastSpendMoneyTime = gameTime()
-	sg_spendMoneyDelay = 0
-	
-	if (g_LOD == 0) then
-		sg_spendMoneyDelay = 2.5
-	elseif (g_LOD == 1) then
-		sg_spendMoneyDelay = 2.25
-	elseif (g_LOD == 2) then
-		sg_spendMoneyDelay = 2
-	end
-	
-	ClassInitialize()
-	CpuBuild_Init()
-	CpuResearch_Init()
-	CpuMilitary_Init()
-	
-	sg_kDemandResetValue = SelfRace_GetNumber("ai_demand_reset_value", 4.0)
-
-	if (Override_Init) then
-		Override_Init()
-	end
-
-	sg_reseachDemand = -sg_kDemandResetValue	
-	Rule_AddInterval("doai", 2.0 )
+--	s_playerIndex = Player_Self()
+--	sg_dobuild = 1
+--	sg_dosubsystems = 1
+--	sg_doresearch = 1
+--	sg_doupgrades = 1
+--	sg_domilitary = 1
+--	cp_processResource = 1
+--	cp_processMilitary = 1
+--	sg_lastSpendMoneyTime = gameTime()
+--	sg_spendMoneyDelay = 0
+--	
+--	if (g_LOD == 0) then
+--		sg_spendMoneyDelay = 2.5
+--	elseif (g_LOD == 1) then
+--		sg_spendMoneyDelay = 2.25
+--	elseif (g_LOD == 2) then
+--		sg_spendMoneyDelay = 2
+--	end
+--	
+--	ClassInitialize()
+--	CpuBuild_Init()
+--	CpuResearch_Init()
+--	CpuMilitary_Init()
+--	
+--	sg_kDemandResetValue = SelfRace_GetNumber("ai_demand_reset_value", 4.0)
+--
+--	if (Override_Init) then
+--		Override_Init()
+--	end
+--
+--	sg_reseachDemand = -sg_kDemandResetValue	
+--	Rule_AddInterval("doai", 2.0 )
 end
 
 function CalcOpenBuildChannels()

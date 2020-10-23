@@ -67,9 +67,9 @@ FleetsTable =
 				startingship = "Hgn_MotherShip",
 				research =
 				{
-					"resourcecollectorhealthupgrade1",
-					"resourcecontrollerhealthupgrade1",
-					"repairability",
+					"hgn_resourcecollectorhealthupgrade1",
+					"hgn_resourcecontrollerhealthupgrade1",
+					"hgn_repairability",
 				},
 				subsystems =
 				{
@@ -139,9 +139,9 @@ FleetsTable =
 				startingship = "Hgn_MotherShip",
 				research =
 				{
-					"ECMProbe",
-					"SensDisProbe",
-					"ScoutPingAbility",
+					"Hgn_ECMProbe",
+					"Hgn_SensDisProbe",
+					"Hgn_ScoutPingAbility",
 				},
 				subsystems =
 				{
@@ -168,9 +168,9 @@ FleetsTable =
 				startingship = "Hgn_Shipyard",
 				research =
 				{
-					"MothershipBUILDSPEEDUpgrade1",
-					"CarrierBUILDSPEEDUpgrade1",
-					"ShipyardBUILDSPEEDUpgrade1",
+					"Hgn_MothershipBUILDSPEEDUpgrade1",
+					"Hgn_CarrierBUILDSPEEDUpgrade1",
+					"Hgn_ShipyardBUILDSPEEDUpgrade1",
 				},
 				subsystems =
 				{
@@ -189,10 +189,10 @@ FleetsTable =
 				startingship = "Hgn_MotherShip",
 				research =
 				{
-					"GunTurretHealthUpgrade1",
---					"GunTurretHealthUpgrade2",
-					"InterceptorMAXSPEEDUpgrade1",
---					"InterceptorMAXSPEEDUpgrade2",
+					"Hgn_GunTurretHealthUpgrade1",
+--					"Hgn_GunTurretHealthUpgrade2",
+					"Hgn_InterceptorMAXSPEEDUpgrade1",
+--					"Hgn_InterceptorMAXSPEEDUpgrade2",
 				},
 				subsystems =
 				{
@@ -250,9 +250,9 @@ FleetsTable =
 				startingship = "Vgr_Mothership",
 				research =
 				{
-					"utilityhealthupgrade1",
---					"utilityhealthupgrade2",
-					"repairability",
+					"vgr_utilityhealthupgrade1",
+--					"vgr_utilityhealthupgrade2",
+					"vgr_repairability",
 				},
 				subsystems =
 				{
@@ -321,9 +321,9 @@ FleetsTable =
 				startingship = "Vgr_Mothership",
 				research =
 				{
-					"probesensordisruption",
-					"probeproxsensor",
-					"scoutempability",
+					"vgr_probesensordisruption",
+					"vgr_probeproxsensor",
+					"vgr_scoutempability",
 				},
 				subsystems =
 				{
@@ -350,9 +350,9 @@ FleetsTable =
 				startingship = "vgr_shipyard",
 				research =
 				{
-					"mothershipbuildspeedupgrade1",
-					"shipyardbuildspeedupgrade1",
-					"carrierbuildspeedupgrade1",
+					"vgr_mothershipbuildspeedupgrade1",
+					"vgr_shipyardbuildspeedupgrade1",
+					"vgr_carrierbuildspeedupgrade1",
 				},
 				subsystems =
 				{
@@ -371,10 +371,10 @@ FleetsTable =
 				startingship = "Vgr_Mothership",
 				research =
 				{
-					"platformhealthupgrade1",
---					"platformhealthupgrade2",
-					"fighterspeedupgrade1",
---					"fighterspeedupgrade2",
+					"vgr_platformhealthupgrade1",
+--					"vgr_platformhealthupgrade2",
+					"vgr_fighterspeedupgrade1",
+--					"vgr_fighterspeedupgrade2",
 				},
 				subsystems =
 				{
@@ -432,7 +432,7 @@ FleetsTable =
 				startingship = "Kus_Mothership",
 				research =
 				{
-					"ResourceCollectionRateExpert",
+					"Kus_ResourceCollectionRateExpert",
 				},
 				subsystems =
 				{
@@ -504,8 +504,8 @@ FleetsTable =
 				startingship = "Kus_Mothership",
 				research =
 				{
-					"ProximitySensor",
-					"SensorArray",
+					"Kus_ProximitySensor",
+					"Kus_SensorArray",
 				},
 				subsystems =
 				{
@@ -532,7 +532,7 @@ FleetsTable =
 				startingship = "Kus_Mothership",
 				research =
 				{
-					"AllShipBuildSpeedExpert",
+					"Kus_AllShipBuildSpeedExpert",
 				},
 				subsystems =
 				{
@@ -551,9 +551,9 @@ FleetsTable =
 				startingship = "Kus_Mothership",
 				research =
 				{
-					"DefenderSubSystems",
-					"FastTrackingTurrets",
-					"DroneTechnology",
+					"Kus_DefenderSubSystems",
+					"Kus_FastTrackingTurrets",
+					"Kus_DroneTechnology",
 				},
 				subsystems =
 				{
@@ -605,7 +605,7 @@ FleetsTable =
 				startingship = "Tai_Mothership",
 				research =
 				{
-					"ResourceCollectionRateExpert",
+					"Tai_ResourceCollectionRateExpert",
 				},
 				subsystems =
 				{
@@ -677,8 +677,8 @@ FleetsTable =
 				startingship = "Tai_Mothership",
 				research =
 				{
-					"ProximitySensor",
-					"SensorArray",
+					"Tai_ProximitySensor",
+					"Tai_SensorArray",
 				},
 				subsystems =
 				{
@@ -705,7 +705,7 @@ FleetsTable =
 				startingship = "Tai_Mothership",
 				research =
 				{
-					"AllShipBuildSpeedExpert",
+					"Tai_AllShipBuildSpeedExpert",
 				},
 				subsystems =
 				{
@@ -724,9 +724,9 @@ FleetsTable =
 				startingship = "Tai_Mothership",
 				research =
 				{
-					"DefenderSubSystems",
-					"FastTrackingTurrets",
-					"DefenseField",
+					"Tai_DefenderSubSystems",
+					"Tai_FastTrackingTurrets",
+					"Tai_DefenseField",
 				},
 				subsystems =
 				{

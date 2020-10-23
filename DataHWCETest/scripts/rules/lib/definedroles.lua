@@ -30,7 +30,7 @@ function DefinedRoles_Init()
 		end
 		-- if too few or too many players have the capital/production role
 		if ((capitalcount == 0) or (capitalcount > 1)) then
-			starting_message = starting_message .. "DEFINED ROLES: Exactly one person on each team needs to choose the Capital/Production role.\nThe game has detected either too many or too few.\nDEFINED ROLES is now disabled.\n\n"
+			StartingMessage = StartingMessage .. "DEFINED ROLES: Exactly one person on each team needs to choose the Capital/Production role.\nThe game has detected either too many or too few.\nDEFINED ROLES is now disabled.\n\n"
 			Rule_Remove("DefinedRoles_Init")
 			return 0
 		end
@@ -57,47 +57,56 @@ function DefinedRoles_Init()
 			RolesTable[i].subsystems[thisRace] = {}
 			RolesTable[i].ships[thisRace] = {}
 
-			-- the following three loops do much the same thing and could be replaced with a single function
+			-- the following three loops are nearly identical and could be replaced with a single function
 			for k = 1, getn(jobtechclasses) do
-				local kCount = jobtechclasses[k]
-				local kTable = techRace.research
-				for m = 1, getn(kTable) do
-					local mCount = kTable[m]
-					if (kCount == mCount.class) then
-						local mItems = mCount.items
-						for l = 1, getn(mItems) do
-							local lTypes = mItems[l].types
-							for n = 1, getn(lTypes) do
-								tinsert(RolesTable[i].research[thisRace], lTypes[n])
-							end
+				local thisJob = jobtechclasses[k]
+
+				local thisShip = techRace.ships
+				-- for every class...
+				for m, mCount in thisShip do
+					if (thisJob == m) then
+						local shipItems = mCount.items
+						-- for every item within that class...
+						for l, lCount in shipItems do
+							-- get the correct variant
+							local shipType = l
+							local shipBits = VariantBuilds[shipType]
+							local shipVariant = GetVariantsMatch(shipType, shipBits)
+							tinsert(RolesTable[i].ships[thisRace], shipVariant)
 						end
 						break
 					end
 				end
-				kTable = techRace.subsystems
-				for m = 1, getn(kTable) do
-					local mCount = kTable[m]
-					if (kCount == mCount.class) then
-						local mItems = mCount.items
-						for l = 1, getn(mItems) do
-							local lTypes = mItems[l].types
-							for n = 1, getn(lTypes) do
-								tinsert(RolesTable[i].subsystems[thisRace], lTypes[n])
-							end
+
+				local thisSubs = techRace.subsystems
+				-- for every class...
+				for m, mCount in thisSubs do
+					if (thisJob == m) then
+						local subsItems = mCount.items
+						-- for every item within that class...
+						for l, lCount in subsItems do
+							-- get the correct variant
+							local subsType = l
+							local subsBits = VariantBuilds[subsType]
+							local subsVariant = GetVariantsMatch(subsType, subsBits)
+							tinsert(RolesTable[i].subsystems[thisRace], subsVariant)
 						end
 						break
 					end
 				end
-				kTable = techRace.ships
-				for m = 1, getn(kTable) do
-					local mCount = kTable[m]
-					if (kCount == mCount.class) then
-						local mItems = mCount.items
-						for l = 1, getn(mItems) do
-							local lTypes = mItems[l].types
-							for n = 1, getn(lTypes) do
-								tinsert(RolesTable[i].ships[thisRace], lTypes[n])
-							end
+
+				local thisReas = techRace.research
+				-- for every class...
+				for m, mCount in thisReas do
+					if (thisJob == m) then
+						local reasItems = mCount.items
+						-- for every item within that class...
+						for l, lCount in reasItems do
+							-- get the correct variant
+							local reasType = l
+							local reasBits = VariantResearch[reasType]
+							local reasVariant = GetVariantsMatch(reasType, reasBits)
+							tinsert(RolesTable[i].research[thisRace], reasVariant)
 						end
 						break
 					end

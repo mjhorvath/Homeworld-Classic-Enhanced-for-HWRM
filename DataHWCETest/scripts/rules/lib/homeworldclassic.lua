@@ -65,6 +65,7 @@ end
 --------------------------------------------------------------------------------
 -- Delete any resourcers that players might build or launch.
 -- !!! kind of slow
+-- Disabled, no longer needed
 function DestroyResourcersRule()
 	local GroupName = "ResourcersToDestroy"
 	local sRace = Player_Races[resourcePlayerIndex + 1]
@@ -95,61 +96,48 @@ end
 
 
 --------------------------------------------------------------------------------
--- Returns true if the player has a mothership. Also returns the mothership type and mothership name.
--- The main loops here are nearly identical and could be replaced with a single function, but why bother?
--- Not sure I want to do the StartWithMode checks because "frommap" mode could mean anything.
+-- Returns true if the player has a mothership. Also returns the mothership 
+-- type and mothership name. The main loops here are nearly identical and could 
+-- be replaced with a single function, but why bother? Not sure I want to do 
+-- the StartWithMode checks because "frommap" mode could mean anything.
 --
 function PlayerHasMothership(playerIndex)
 	SobGroup_Clear("CrateMothership")
 	local sRace = Player_Races[playerIndex + 1]
 	local raceShips = TechList[sRace].ships
-	local raceShipsNum = getn(raceShips)
+
 --	if (StartWithMode == "mothership") or (StartWithMode == "frommap") then
-		-- for every class...
-		for j = 1, raceShipsNum do
-			local jClass = raceShips[j].class
-			local jItems = raceShips[j].items
-			-- if the class is "mothership"...
-			if (jClass == "mothership") then
-				-- for every ship in the "mothership" class...
-				for k = 1, getn(jItems) do
-					local kTypes = jItems[k].types
-					local kName = jItems[k].name
-					-- for every possible ship sub-type...
-					for l = 1, getn(kTypes) do
-						local sShip = kTypes[l]
-						Player_FillShipsByType("CrateMothership", playerIndex, sShip)
-						if (SobGroup_Empty("CrateMothership") == 0) then
-							return 1, sShip, kName
-						end
-					end
-				end
+		-- for every ship in the "mothership" class...
+		local shipItems = raceShips["mothership"].items
+		for k, kCount in shipItems do
+			-- get the correct variant
+			local shipType = k
+			local shipName = kCount.name
+			local shipBits = VariantBuilds[shipType]
+			local shipVariant = GetVariantsMatch(shipType, shipBits)
+			Player_FillShipsByType("CrateMothership", playerIndex, shipVariant)
+			if (SobGroup_Empty("CrateMothership") == 0) then
+				return 1, shipVariant, shipName
 			end
 		end
 --	end
+
 --	if (StartWithMode == "carrieronly") or (StartWithMode == "frommap") then
-		-- for every class...
-		for j = 1, raceShipsNum do
-			local jClass = raceShips[j].class
-			local jItems = raceShips[j].items
-			-- if the class is "carrier"...
-			if (jClass == "carrier") then
-				-- for every ship in the "carrier" class...
-				for k = 1, getn(jItems) do
-					local kTypes = jItems[k].types
-					local kName = jItems[k].name
-					-- for every possible ship sub-type...
-					for l = 1, getn(kTypes) do
-						local sShip = kTypes[l]
-						Player_FillShipsByType("CrateMothership", playerIndex, sShip)
-						if (SobGroup_Empty("CrateMothership") == 0) then
-							return 1, sShip, kName
-						end
-					end
-				end
+		-- for every ship in the "carrier" class...
+		local shipItems = raceShips["carrier"].items
+		for k, kCount in shipItems do
+			-- get the correct variant
+			local shipType = k
+			local shipName = kCount.name
+			local shipBits = VariantBuilds[shipType]
+			local shipVariant = GetVariantsMatch(shipType, shipBits)
+			Player_FillShipsByType("CrateMothership", playerIndex, shipVariant)
+			if (SobGroup_Empty("CrateMothership") == 0) then
+				return 1, shipVariant, shipName
 			end
 		end
 --	end
+
 	return 0, nil, nil
 end
 

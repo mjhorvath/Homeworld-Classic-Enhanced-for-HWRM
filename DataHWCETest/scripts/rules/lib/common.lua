@@ -214,22 +214,19 @@ end
 --
 function Player_NumberOfShips(playerIndex)
 	local sRace = Player_Races[playerIndex + 1]
-	local ShipCount = 0
+	local shipCount = 0
 	local shipList = TechList[sRace].ships
 	-- for every class...
-	for i = 1, getn(shipList) do
-		local iCount = shipList[i]
+	for i, iCount in shipList do
+		local shipItems = iCount.items
 		-- for every ship within that class...
-		for j = 1, getn(iCount.items) do
-			local jCount = iCount.items[j]
-			local jTypes = jCount.types
-			-- for every sub-type of ship...
-			for k = 1, getn(jTypes) do
-				local kType = jTypes[k]
-				-- keep a count of how many of this item the player owns
-				ShipCount = ShipCount + Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, kType)
-			end
+		for j, jCount in shipItems do
+			local shipType = j
+			local shipBits = VariantBuilds[shipType]
+			local shipVariant = GetVariantsMatch(shipType, shipBits)
+			-- keep a count of how many of this variant the player owns
+			shipCount = shipCount + Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, shipVariant)
 		end
 	end
-	return ShipCount
+	return shipCount
 end

@@ -1,3 +1,10 @@
+-- Some of these scripts naiively depend on dictionary indices being returned 
+-- in the same order as they are declared. If they are not returned in the same 
+-- order, then these scripts will fail.
+-- The functions "ChooseCrateRewardShip", "ChooseCrateRewardSubsystem" and
+-- "ChooseCrateRewardResearch" are very similar and likely could be merged into a 
+-- single function.
+
 --------------------------------------------------------------------------------
 -- See if a position is OK for spawning crate.
 -- E.g. check if the chosen location has any player ships in it or not. If it does, then signal a failure.
@@ -212,47 +219,47 @@ end
 -- Choose what ship type to reward the player with.
 --
 function ChooseCrateRewardShip(playerIndex)
-	local sRace, ShipType, ShipName = Player_Races[playerIndex + 1], "", ""
+	local sRace = Player_Races[playerIndex + 1]
 	CRA_trace("ChooseCrateRewardShip: Rewarding a ship from Race " .. sRace .. " to Player " .. playerIndex .. ".")
 
-	-- for every class in the list of ships...
+	-- for every ship class...
 	local Prob1 = srandom(CRA_Seed)
-	local iClass = 1
-	local ClassList = TechList[sRace].ships
-	while (ClassList[iClass].prob <= Prob1) do
-		iClass = iClass + 1
-	end
-	CRA_trace("ChooseCrateRewardShip: TechList[" .. sRace .. "].ships[" .. iClass .. "].prob = " .. ClassList[iClass].prob)
-
-	-- for every ship within the class...
-	local Prob2 = srandom(CRA_Seed)
-	local iItem = 1
-	local ItemList = ClassList[iClass].items
-	while (ItemList[iItem].prob <= Prob2) do
-		iItem = iItem + 1
-	end
-	CRA_trace("ChooseCrateRewardShip: TechList[" .. sRace .. "].ships[" .. iClass .. "].items[" .. iItem .. "].prob = " .. ItemList[iItem].prob)
-
-	-- for every sub-type of ship...
-	local bFail = 1
-	local TypeList = ItemList[iItem].types
-	ShipName = ItemList[iItem].name
-	for i = 1, getn(TypeList) do
-		if (IsBuildRestricted(playerIndex, sRace, TypeList[i]) == 0) then
-			ShipType = TypeList[i]
-			bFail = 0
+	local sClass, tClass = "", {}
+	local classList = TechList[sRace].ships
+	for i, v in classList do
+		if (v.prob > Prob1) then
+			sClass = i
+			tClass = v
 			break
 		end
 	end
+	CRA_trace("ChooseCrateRewardShip: TechList['" .. sRace .. "'].ships['" .. sClass .. "'].prob = " .. tClass.prob)
 
-	-- is the ship restricted?
-	if (bFail == 1) then
-		-- then try one more time...
-		return ChooseCrateRewardShip(playerIndex)
-	else
+	-- for every ship within the class...
+	local Prob2 = srandom(CRA_Seed)
+	local sItem, tItem = "", {}
+	local itemList = tClass.items
+	for i, v in itemList do
+		if (v.prob > Prob2) then
+			sItem = i
+			tItem = v
+			break
+		end
+	end
+	CRA_trace("ChooseCrateRewardShip: TechList['" .. sRace .. "'].ships['" .. sClass .. "'].items['" .. sItem .. "'].prob = " .. tItem.prob)
+
+	-- get the correct ship variant
+	local typeBits = VariantBuilds[sItem]
+	local typeShip = GetVariantsMatch(sItem, typeBits)
+	-- check if the variant is restricted
+	if (IsBuildRestricted(playerIndex, sRace, typeShip) == 0) then
 		-- success!
-		CRA_trace("ChooseCrateRewardShip: Awarding ship " .. ShipType .. " to Player " .. playerIndex .. ".")
-		return ShipType, ShipName
+		CRA_trace("ChooseCrateRewardShip: Awarding ship " .. typeShip .. " to Player " .. playerIndex .. ".")
+		return typeShip, tItem.name
+	else
+		-- start over
+		CRA_trace("ChooseCrateRewardShip: No match for ship " .. typeShip .. " for Player " .. playerIndex .. ". Starting over.")
+		return ChooseCrateRewardShip(playerIndex)
 	end
 end
 
@@ -261,105 +268,107 @@ end
 -- Choose a subsystem to give to the player. Doesn't work, yet. Has not been updated to the latest version of TechList.
 --
 function ChooseCrateRewardSubsystem(playerIndex)
-	local sRace, ShipName = Player_Races[playerIndex + 1], ""
+	local sRace = Player_Races[playerIndex + 1]
 	CRA_trace("ChooseCrateRewardSubsystem: Rewarding a subsystem from Race " .. sRace .. " to Player " .. playerIndex .. ".")
 
 	-- for every class in the list of subsystems...
 	local Prob1 = srandom(CRA_Seed)
-	local iClass = 1
-	local ClassList = TechList[sRace].subsystems
-	while (ClassList[iClass].prob <= Prob1) do
-		iClass = iClass + 1
-	end
-	CRA_trace("ChooseCrateRewardSubsystem: TechList[" .. sRace .. "].subsystems[" .. iClass .. "].prob = " .. ClassList[iClass].prob)
-
-	-- for every subsystem within the class...
-	local Prob2 = srandom(CRA_Seed)
-	local iItem = 1
-	local ItemList = ClassList[iClass].items
-	while (ItemList[iItem].prob <= Prob2) do
-		iItem = iItem + 1
-	end
-	CRA_trace("ChooseCrateRewardSubsystem: TechList[" .. sRace .. "].subsystems[" .. iClass .. "].items[" .. iItem .. "].prob = " .. ItemList[iItem].prob)
-
-	-- for every sub-type of subsytem...
-	local bFail = 1
-	local TypeList = ItemList[iItem].types
-	ShipName = ItemList[iItem].name
-	for i = 1, getn(TypeList) do
-		if (IsBuildRestricted(playerIndex, sRace, TypeList[i]) == 0) then
-			ShipType = TypeList[i]
-			bFail = 0
+	local sClass, tClass = "", {}
+	local classList = TechList[sRace].subsystems
+	for i, v in classList do
+		if (v.prob > Prob1) then
+			sClass = i
+			tClass = v
 			break
 		end
 	end
+	CRA_trace("ChooseCrateRewardSubsystem: TechList['" .. sRace .. "'].subsystems['" .. sClass .. "'].prob = " .. tClass.prob)
 
-	-- is the ship restricted?
-	if (bFail == 1) then
-		-- then try one more time...
-		return ChooseCrateRewardSubsystem(playerIndex)
-	else
+	-- for every subsystem within the class...
+	local Prob2 = srandom(CRA_Seed)
+	local sItem, tItem = "", {}
+	local itemList = tClass.items
+	for i, v in itemList do
+		if (v.prob > Prob2) then
+			sItem = i
+			tItem = v
+			break
+		end
+	end
+	CRA_trace("ChooseCrateRewardSubsystem: TechList['" .. sRace .. "'].subsystems['" .. sClass .. "'].items['" .. sItem .. "'].prob = " .. tItem.prob)
+
+	-- get the correct subsystem variant
+	local typeBits = VariantBuilds[sItem]
+	local typeSubs = GetVariantsMatch(sItem, typeBits)
+	-- check if the variant is restricted
+	if (IsBuildRestricted(playerIndex, sRace, typeSubs) == 0) then
 		-- success!
-		CRA_trace("ChooseCrateRewardSubsystem: Awarding subsystem " .. ShipType .. " to Player " .. playerIndex .. ".")
-		return ShipType, ShipName
+		CRA_trace("ChooseCrateRewardSubsystem: Awarding subsystem " .. typeSubs .. " to Player " .. playerIndex .. ".")
+		return typeSubs, tItem.name
+	else
+		-- start over
+		CRA_trace("ChooseCrateRewardSubsystem: No match for subsystem " .. typeSubs .. " for Player " .. playerIndex .. ". Starting over.")
+		return ChooseCrateRewardSubsystem(playerIndex)
 	end
 end
 
 
 --------------------------------------------------------------------------------
--- Choose a technology to give to the player.
+-- Choose a research to give to the player.
 --
-function ChooseCrateRewardTech(playerIndex)
-	local sRace, ShipName = Player_Races[playerIndex + 1], ""
-	CRA_trace("ChooseCrateRewardTech: Rewarding a research item from Race " .. sRace .. " to Player " .. playerIndex .. ".")
+function ChooseCrateRewardResearch(playerIndex)
+	local sRace = Player_Races[playerIndex + 1]
+	CRA_trace("ChooseCrateRewardResearch: Rewarding a research item from Race " .. sRace .. " to Player " .. playerIndex .. ".")
 
 	-- for every class in the list of research...
 	local Prob1 = srandom(CRA_Seed)
-	local iClass = 1
-	local ClassList = TechList[sRace].research
-	while (ClassList[iClass].prob <= Prob1) do
-		iClass = iClass + 1
-	end
-	CRA_trace("ChooseCrateRewardTech: TechList[" .. sRace .. "].research[" .. iClass .. "].prob = " .. ClassList[iClass].prob)
-
-	-- for every research within the class...
-	local Prob2 = srandom(CRA_Seed)
-	local iItem = 1
-	local ItemList = ClassList[iClass].items
-	while (ItemList[iItem].prob <= Prob2) do
-		iItem = iItem + 1
-	end
-	CRA_trace("ChooseCrateRewardTech: TechList[" .. sRace .. "].research[" .. iClass .. "].items[" .. iItem .. "].prob = " .. ItemList[iItem].prob)
-
-	-- for every sub-type of research...
-	local bFail = 1
-	local TypeList = ItemList[iItem].types
-	ShipName = ItemList[iItem].name
-	for i = 1, getn(TypeList) do
-		ShipType = TypeList[i]
-		local IsQueued = Player_HasQueuedResearch(playerIndex, ShipType)
-		local IsRestricted = IsResearchRestricted(playerIndex, sRace, ShipType)
-		local IsGranted = IsResearchGranted(playerIndex, sRace, ShipType)
-		if ((IsQueued == 0) and (IsRestricted == 0) and (IsGranted == 0)) then
-			bFail = 0
+	local sClass, tClass = "", {}
+	local classList = TechList[sRace].research
+	for i, v in classList do
+		if (v.prob > Prob1) then
+			sClass = i
+			tClass = v
 			break
 		end
 	end
+	CRA_trace("ChooseCrateRewardResearch: TechList['" .. sRace .. "'].research['" .. sClass .. "'].prob = " .. tClass.prob)
 
-	-- is the research restricted?
-	if (bFail == 1) then
-		-- then try one more time...
-		return ChooseCrateRewardTech(playerIndex)
-	else
+	-- for every research within the class...
+	local Prob2 = srandom(CRA_Seed)
+	local sItem, tItem = "", {}
+	local itemList = tClass.items
+	for i, v in itemList do
+		if (v.prob > Prob2) then
+			sItem = i
+			tItem = v
+			break
+		end
+	end
+	CRA_trace("ChooseCrateRewardResearch: TechList['" .. sRace .. "'].research['" .. sClass .. "'].items['" .. sItem .. "'].prob = " .. tItem.prob)
+
+	-- get the correct research variant
+	local typeBits = VariantResearch[sItem]
+	local typeReas = GetVariantsMatch(sItem, typeBits)
+	-- check if the variant is queued, restricted or granted
+	-- should I really check for queued items? do you lose the money you have already spent on the queued item?
+	local isQueued = Player_HasQueuedResearch(playerIndex, typeReas)
+	local isRestricted = IsResearchRestricted(playerIndex, sRace, typeReas)
+	local isGranted = IsResearchGranted(playerIndex, sRace, typeReas)
+	if ((isQueued == 0) and (isRestricted == 0) and (isGranted == 0)) then
 		-- success!
-		CRA_trace("ChooseCrateRewardTech: Awarding research " .. ShipType .. " to Player " .. playerIndex .. ".")
-		return ShipType, ShipName
+		CRA_trace("ChooseCrateRewardResearch: Awarding research " .. typeReas .. " to Player " .. playerIndex .. ".")
+		return typeReas, tItem.name
+	else
+		-- start over
+		CRA_trace("ChooseCrateRewardSubsystem: No match for research " .. typeReas .. " for Player " .. playerIndex .. ". Starting over.")
+		return ChooseCrateRewardResearch(playerIndex)
 	end
 end
 
 
 --------------------------------------------------------------------------------
 -- Gives a crate to a player.
+-- shipType should be renamed to shipVariant
 --
 function GivePlayerCrateReward(playerIndex, iVolume)
 	local HasMothership, MothershipType, MothershipName = PlayerHasMothership(playerIndex)
@@ -388,18 +397,23 @@ function GivePlayerCrateReward(playerIndex, iVolume)
 		CRA_trace("GivePlayerCrateReward: Player " .. playerIndex .. " gets a " .. shipType)
 		tempDisplayText = "Crate found. " .. shipName .. " recovered."
 	-- if a research item should be granted...
-	elseif ((prob <= CRATES_GetResearch) and (ResearchMode ~= 0)) then
-		local techType, techName = ChooseCrateRewardTech(playerIndex)
-		-- if research name is not blank...
-		if (techType ~= "") then
-			-- if the player is the local player, play an effect
-			if (Player_IsLocal(playerIndex) == 1) then
-				Sound_SpeechPlay("data:sound\\speech\\allships\\HEIDI\\CrateFoundTechnology")
+	elseif (prob <= CRATES_GetResearch) then
+		if (ResearchMode ~= 0) then
+			local techType, techName = ChooseCrateRewardResearch(playerIndex)
+			-- if research name is not blank...
+			if (techType ~= "") then
+				-- if the player is the local player, play an effect
+				if (Player_IsLocal(playerIndex) == 1) then
+					Sound_SpeechPlay("data:sound\\speech\\allships\\HEIDI\\CrateFoundTechnology")
+				end
+				-- grant the research item
+				Player_GrantResearchOption(playerIndex, techType)
+				CRA_trace("GivePlayerCrateReward: Player " .. playerIndex .. " gets " .. techType .. " technology.")
+				tempDisplayText = "Crate found. " .. techName .. " technology recovered."
 			end
-			-- grant the research item
-			Player_GrantResearchOption(playerIndex, techType)
-			CRA_trace("GivePlayerCrateReward: Player " .. playerIndex .. " gets " .. techType .. " technology.")
-			tempDisplayText = "Crate found. " .. techName .. " technology recovered."
+		else
+			GivePlayerCrateReward(playerIndex, iVolume)
+			return
 		end
 	-- if resources should be granted...
 	elseif (prob <= CRATES_GetRUs) then
@@ -443,8 +457,8 @@ function CheckCratesRule()
 						-- if the sobgroup is not empty...
 						if (SobGroup_Empty("CrateMothership") == 0) then
 							-- remove any megaliths, etc.
-							for k, shipType in CrateExclusions do
-								SobGroup_RemoveType("CrateMothership", shipType)
+							for k, shipVariant in CrateExclusions do
+								SobGroup_RemoveType("CrateMothership", shipVariant)
 							end
 							-- if the sobgroup is still not empty, then it means that the player's ship(s) has collided with crate's detection volume
 							if (SobGroup_Empty("CrateMothership") == 0) then

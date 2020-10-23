@@ -45,17 +45,17 @@ end
 
 function IntroSubtitle_Rule()
 	if (BountiesMode > 0) then
-		starting_message = starting_message .. "GUI: You can view the Bounties screen by pressing P.\n"
+		StartingMessage = StartingMessage .. "GUI: You can view the Bounties screen by pressing P.\n"
 	end
 	if (BentusiRouletteMode > 0) then
-		starting_message = starting_message .. "GUI: You can view the Bentusi Roulette screen by pressing SEMICOLON.\n"
+		StartingMessage = StartingMessage .. "GUI: You can view the Bentusi Roulette screen by pressing SEMICOLON.\n"
 	end
-	starting_message = starting_message .. "GUI: You can view the Team Progress screen by pressing COMMA.\n"
+	StartingMessage = StartingMessage .. "GUI: You can view the Team Progress screen by pressing COMMA.\n"
 	if (BackgroundMusic > -1) then
-		starting_message = starting_message .. "GUI: You can view the Audio Track History screen by pressing MINUS.\n"
+		StartingMessage = StartingMessage .. "GUI: You can view the Audio Track History screen by pressing MINUS.\n"
 	end
-	starting_message = starting_message .. "GUI: You can view the Game Rule List screen by pressing EQUALS.\n"
-	Subtitle_Message(starting_message, 15)
+	StartingMessage = StartingMessage .. "GUI: You can view the Game Rule List screen by pressing EQUALS.\n"
+	Subtitle_Message(StartingMessage, 15)
 	Rule_Remove("IntroSubtitle_Rule")
 end
 
@@ -140,6 +140,10 @@ end
 
 -------------------------------------------------------------------------------
 -- Team Progress
+-- I have disabled listing the build queue on screen until I can come up with a 
+-- better solution since there is simply too little space and I figured showing 
+-- research was more important, anyway. Note that some of the loop code has not 
+-- been updated to reflect the latest version of the TechList table.
 
 function TEA_GUI_display(playerIndex)
 	UI_SetTextLabelText("ProgressScreen", "lblProgressA0", "PLAYER:")
@@ -181,65 +185,64 @@ function TEA_GUI_display(playerIndex)
 				end
 
 				-- for every research class...
-				for l = 1, getn(aResearchList) do
-					local lItems = aResearchList[l].items
+				for l, lCount in aResearchList do
+					local reasItems = lCount.items
 					-- for every research item belonging to that class...
-					for m = 1, getn(lItems) do
-						local mTypes = lItems[m].types
-						local mName = lItems[m].name
-						-- for every sub-type created as a result of rule restrictions...
-						for n = 1, getn(mTypes) do
-							local nType = mTypes[n]
-							-- if the other player is researching that item...
-							if (Player_HasQueuedResearch(otherPlayerIndex, nType) == 1) then
-								if (hasResearched == 0) then
-									sResearch = mName
-									hasResearched = 1
-								else
-									sResearch = sResearch .. ", " .. mName
-								end
-								break
+					for m, mCount in reasItems do
+						-- get the correct research variant
+						local reasType = m
+						local reasName = mCount.name
+						local reasBits = VariantResearch[reasType]
+						local reasVariant = GetVariantsMatch(reasType, reasBits)
+						-- if the other player is researching that variant...
+						if (Player_HasQueuedResearch(otherPlayerIndex, reasVariant) == 1) then
+							if (hasResearched == 0) then
+								sResearch = reasName
+								hasResearched = 1
+							else
+								sResearch = sResearch .. ", " .. reasName
 							end
+							break
 						end
 					end
 				end
-				-- I have disabled listing the build queue too until I can come up with a better solution since there is simply too little space on the
-				-- screen and I figured showing research was more important anyway. Note that the code below is missing the extra nType loop. Also, 
-				-- don't forget the additional break that is needed in that loop.
-				-- for every subsystem class...
-				--for l = 1, getn(aSubsystemList) do
-				--	local lCount = aSubsystemList[l]
-				--	-- for every subsystem type belonging to that class...
-				--	for m = 1, getn(lCount.items) do
-				--		local mCount = lCount.items[m]
-				--		-- if the other player is building that item...
-				--		if (Player_HasQueuedBuild(otherPlayerIndex, mCount.type) == 1) then
-				--			if (hasBuilt == 0) then
-				--				sBuild = mCount.name
-				--				hasBuilt = 1
-				--			else
-				--				sBuild = sBuild .. ", " .. mCount.name
-				--			end
-				--		end
-				--	end
-				--end
-				-- for every ship class...
-				--for l = 1, getn(aShipList) do
-				--	local lCount = aShipList[l]
-				--	-- for every ship type belonging to that class...
-				--	for m = 1, getn(lCount.items) do
-				--		local mCount = lCount.items[m]
-				--		-- if the other player is building that item...
-				--		if (Player_HasQueuedBuild(otherPlayerIndex, mCount.type) == 1) then
-				--			if (hasBuilt == 0) then
-				--				sBuild = mCount.name
-				--				hasBuilt = 1
-				--			else
-				--				sBuild = sBuild .. ", " .. mCount.name
-				--			end
-				--		end
-				--	end
-				--end
+
+--				-- for every subsystem class...
+--				for l = 1, getn(aSubsystemList) do
+--					local lCount = aSubsystemList[l]
+--					-- for every subsystem type belonging to that class...
+--					for m = 1, getn(lCount.items) do
+--						local mCount = lCount.items[m]
+--						-- if the other player is building that item...
+--						if (Player_HasQueuedBuild(otherPlayerIndex, mCount.type) == 1) then
+--							if (hasBuilt == 0) then
+--								sBuild = mCount.name
+--								hasBuilt = 1
+--							else
+--								sBuild = sBuild .. ", " .. mCount.name
+--							end
+--						end
+--					end
+--				end
+
+--				-- for every ship class...
+--				for l = 1, getn(aShipList) do
+--					local lCount = aShipList[l]
+--					-- for every ship type belonging to that class...
+--					for m = 1, getn(lCount.items) do
+--						local mCount = lCount.items[m]
+--						-- if the other player is building that item...
+--						if (Player_HasQueuedBuild(otherPlayerIndex, mCount.type) == 1) then
+--							if (hasBuilt == 0) then
+--								sBuild = mCount.name
+--								hasBuilt = 1
+--							else
+--								sBuild = sBuild .. ", " .. mCount.name
+--							end
+--						end
+--					end
+--				end
+
 --				UI_SetTextLabelTextW("ProgressScreen", "lblProgressA" .. (otherPlayerIndex + 1), "<c " .. TEA_ColourHex .. ">" .. sPlayerName .. "</c>")		-- can't concatenate regular text with wide text
 				UI_SetTextLabelTextW("ProgressScreen", "lblProgressA" .. (otherPlayerIndex + 1), sPlayerName)
 				 UI_SetTextLabelText("ProgressScreen", "lblProgressB" .. (otherPlayerIndex + 1), sRace)
@@ -248,7 +251,7 @@ function TEA_GUI_display(playerIndex)
 				 UI_SetTextLabelText("ProgressScreen", "lblProgressE" .. (otherPlayerIndex + 1), iShipsNum)
 				 UI_SetTextLabelText("ProgressScreen", "lblProgressF" .. (otherPlayerIndex + 1), sResearch)
 			else
-				-- I would enabled all this, but there's no way to color wide characters AFAIK.
+				-- I would enable all of this, except there's no way to apply color to wide characters AFAIK.
 --				local iRUs = "---"
 --				local sResearch = "---"
 --				local sBuild = "---"

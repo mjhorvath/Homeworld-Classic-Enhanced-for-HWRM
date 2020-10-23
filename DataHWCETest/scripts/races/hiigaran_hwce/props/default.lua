@@ -61,6 +61,7 @@ String_Properties_Priority = 1.0
 
 String_Properties =
 {
+	-- dunno if these are needed
 	cfg_hyperspace_effect_fx = "hyperspace_gate",
 	cfg_hyperspace_effect_audio = [[etg/special/SPECIAL_ABILITIES_HYPERSPACE_IN]],
 
@@ -68,10 +69,15 @@ String_Properties =
 	path_research = [[data:scripts/races/hiigaran_hwce/scripts/def_research.lua]],
 	path_ai = [[data:scripts/races/hiigaran_hwce/scripts/def_ai.lua]],		-- doesn't exist
 
-	path_ai_special = [[data:scripts/races/hiigaran_hwce/scripts/ai_special.lua]],
-	path_ai_research = [[data:scripts/races/hiigaran_hwce/scripts/ai_upgrades.lua]],
-	path_ai_subsystems = [[data:scripts/races/hiigaran_hwce/scripts/ai_subsystems.lua]],
-	path_ai_build = [[data:scripts/races/hiigaran_hwce/scripts/ai_build.lua]],
+	-- dunno if these are needed
+--	path_ai_special = [[data:scripts/races/hiigaran_hwce/scripts/ai_special.lua]],
+--	path_ai_research = [[data:scripts/races/hiigaran_hwce/scripts/ai_upgrades.lua]],
+--	path_ai_subsystems = [[data:scripts/races/hiigaran_hwce/scripts/ai_subsystems.lua]],
+--	path_ai_build = [[data:scripts/races/hiigaran_hwce/scripts/ai_build.lua]],
+	path_ai_special = [[data:scripts/races/hiigaran_hwce/scripts/blank.lua]],
+	path_ai_research = [[data:scripts/races/hiigaran_hwce/scripts/blank.lua]],
+	path_ai_subsystems = [[data:scripts/races/hiigaran_hwce/scripts/blank.lua]],
+	path_ai_build = [[data:scripts/races/hiigaran_hwce/scripts/blank.lua]],
 
 	-- these should not be required anymore
 --	path_crate_locate = [[data:scripts/races/hiigaran/scripts/crate_locate.lua]],

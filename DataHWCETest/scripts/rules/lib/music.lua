@@ -33,7 +33,7 @@ function RandomMusicRule()
 	if (passBool == 1) then
 		Sound_MusicPlay(track_file)
 		if (MUS_firstRun == 1) then
-			starting_message = starting_message .. track_string .. "\n"
+			StartingMessage = StartingMessage .. track_string .. "\n"
 			MUS_firstRun = 0
 		else
 			Subtitle_Message(track_string, 10)
@@ -67,7 +67,7 @@ function StaticMusicRule()
 	local track_string = "GPE: Now playing (" .. track_number .. "/" .. listLen .. "): " .. track_title .. " (" .. track_m .. "m " .. track_s .. "s)"
 	local track_listtxt = track_title .. " (" .. track_m .. "m " .. track_s .. "s)"
 	Sound_MusicPlay(track_file)
-	starting_message = starting_message .. track_string .. "\n"
+	StartingMessage = StartingMessage .. track_string .. "\n"
 	print(track_string)
 	tinsert(MUS_playedBin, track_number)
 	tinsert(MUS_playedTxt, track_listtxt)

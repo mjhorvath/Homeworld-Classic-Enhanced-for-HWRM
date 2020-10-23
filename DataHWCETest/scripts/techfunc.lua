@@ -1,3 +1,52 @@
+function GetVariantsMatch(shipName, tParams)
+	local tempTable = {}
+	local numParams = getn(tParams)
+	local numBits = 0
+	for i = 1, numParams do
+		if tParams[i] == 1 then
+			tinsert(tempTable, VariantLabels[i])
+			numBits = numBits + 1
+		end
+	end
+	for i = 1, 2^numBits do
+		local tempBits = NumToBits(i-1, numBits)
+		local bPass = 1
+		for j = 1, numParams do
+			if tParams[j] ~= ModeSuffixes[j] then
+				bPass = 0
+				break
+			end
+		end
+		if bPass == 1 then
+			for j = 1, numBits do
+				shipName = shipName .. "_" .. tempTable[j] .. tempBits[j]
+			end
+		end
+	end
+	return shipName
+end
+
+function GetVariantsAll(shipName, tParams)
+	local outTable = {}
+	local tempTable = {}
+	local numParams = getn(tParams)
+	local numBits = 0
+	for i = 1, numParams do
+		if tParams[i] == 1 then
+			tinsert(tempTable, VariantLabels[i])
+			numBits = numBits + 1
+		end
+	end
+	for i = 1, 2^numBits do
+		local tempBits = NumToBits(i-1, numBits)
+		for j = 1, numBits do
+			shipName = shipName .. "_" .. tempTable[j] .. tempBits[j]
+		end
+		tinsert(outTable, shipName)
+	end
+	return outTable
+end
+
 function MultiBuild(inTable, tParams)
 	local numBits = getn(tParams)
 	for i = 1, 2^numBits do
@@ -52,7 +101,7 @@ function MultiResearch(inTable, tParams)
 	end
 end
 
--- results in an error because the standard string library is unavailable
+-- results in an error because the standard string library is unavailable in some scopes
 function RemoveSubsysReq(inCommand, inSubSystem)
 --	local iStartIndex = strfind(inCommand, inSubSystem)
 --	print("iStartIndex = " .. iStartIndex)
@@ -120,8 +169,9 @@ end
 
 -- used in some ship Lua files
 function Player_GetNumberOfVariantSquadronsOfTypeAwakeOrSleeping(playerIndex, shipType)
-	local tempVariants = VariantShips[shipType]
-	local tempCount = Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, shipType)
+	local tempCount = 0
+	local tempBits = VariantBuilds[shipType]
+	local tempVariants = GetVariantsAll(shipType, tempBits)
 	for i, v in tempVariants do
 		tempCount = tempCount + Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, v)
 	end
@@ -130,19 +180,19 @@ end
 
 -- used in some ship Lua files
 function SobGroup_FillVariantShipsByType(groupName, playerIndex, shipType)
-	SobGroup_FillShipsByType(groupName, playerIndex, shipType)
-	local tempVariants = VariantShips[shipType]
+	local tempBits = VariantBuilds[shipType]
+	local tempVariants = GetVariantsAll(shipType, tempBits)
 	for i, v in tempVariants do
 		SobGroup_FillShipsByType(groupName, playerIndex, v)
 	end
 end
 
--- used in kus_gravwellgenerator.lua
+-- used in kus_gravwellgenerator.lua, tai_gravwellgenerator.lua
 function FillVariantsFromTable(shipList)
 	local tempTable = {}
 	for i, v in shipList do
---		tinsert(tempTable, v)
-		local tempVariants = VariantShips[v]
+		local tempBits = VariantBuilds[v]
+		local tempVariants = GetVariantsAll(v, tempBits)
 		for j, w in tempVariants do
 			tinsert(tempTable, w)
 		end
@@ -150,7 +200,7 @@ function FillVariantsFromTable(shipList)
 	return tempTable
 end
 
--- used in kus_gravwellgenerator.lua
+-- used in kus_gravwellgenerator.lua, tai_gravwellgenerator.lua
 function ConvertTableToList(tempTable)
 	local tempList = ""
 	local tableLength = getn(tempTable)

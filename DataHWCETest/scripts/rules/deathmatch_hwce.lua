@@ -22,6 +22,7 @@ dofilepath([[data:scripts/rules/lib/objectlist_definedroles.lua]])
 dofilepath([[data:scripts/rules/lib/objectlist_specialfleets.lua]])
 dofilepath([[data:scripts/rules/lib/objectlist_misc.lua]])
 dofilepath([[data:scripts/rules/lib/objectlist_techlist.lua]])
+dofilepath([[data:scripts/rules/lib/objectlist_techvariants.lua]])
 dofilepath([[data:scripts/rules/lib/objectlist_rulerestrictions.lua]])
 
 function createtracktable()
@@ -102,7 +103,7 @@ GameSetupOptions =
 			"$3206", 1000,			-- Small (1000)
 			"$3207", 3000,			-- Medium (3000)
 			"$3208", 10000,			-- Large (10000)
---			"None (0)", 0,			-- map default, could also set this when selecting StartWithMode instead of here
+			"None (0)", 0,			-- map default, could also set this when selecting StartWithMode instead of here
 			"Resourcing Disabled", -1,
 		},
 	},
