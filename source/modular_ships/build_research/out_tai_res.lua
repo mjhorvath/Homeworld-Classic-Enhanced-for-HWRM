@@ -14,6 +14,9 @@ research =
 		TargetName = "Capital",
 		TargetType = Family,
 		Time = 1,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.025,
 	},
 	-- #2.0, ai_properties.lua
 	{
@@ -29,6 +32,9 @@ research =
 		TargetName = "Capital",
 		TargetType = Family,
 		Time = 1,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.075,
 	},
 	-- #3.0, ai_properties.lua
 	{
@@ -44,6 +50,9 @@ research =
 		TargetName = "Capital",
 		TargetType = Family,
 		Time = 1,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.05,
 	},
 	-- #4.0, ai_properties.lua
 	{
@@ -129,7 +138,7 @@ research =
 		TargetName = "",
 		Time = 1,
 	},
-	-- #10.1, ai_properties.lua
+	-- #10.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -143,8 +152,11 @@ research =
 		TargetName = "Tai_resourcecollector_res0_hyp0",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.09,
 	},
-	-- #10.2, ai_properties.lua
+	-- #11.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -158,8 +170,11 @@ research =
 		TargetName = "Tai_resourcecollector_res1_hyp0",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.09,
 	},
-	-- #10.3, ai_properties.lua
+	-- #12.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -173,8 +188,11 @@ research =
 		TargetName = "Tai_resourcecollector_res0_hyp1",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.09,
 	},
-	-- #10.4, ai_properties.lua
+	-- #13.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -188,8 +206,11 @@ research =
 		TargetName = "Tai_resourcecollector_res1_hyp1",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.09,
 	},
-	-- #11.1, ai_properties.lua
+	-- #14.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -203,8 +224,11 @@ research =
 		TargetName = "Tai_resourcecollector_res0_hyp0",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.04,
 	},
-	-- #11.2, ai_properties.lua
+	-- #15.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -218,8 +242,11 @@ research =
 		TargetName = "Tai_resourcecollector_res1_hyp0",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.04,
 	},
-	-- #11.3, ai_properties.lua
+	-- #16.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -233,8 +260,11 @@ research =
 		TargetName = "Tai_resourcecollector_res0_hyp1",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.04,
 	},
-	-- #11.4, ai_properties.lua
+	-- #17.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -248,8 +278,11 @@ research =
 		TargetName = "Tai_resourcecollector_res1_hyp1",
 		TargetType = Ship,
 		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.04,
 	},
-	-- #12.0, ai_properties.lua
+	-- #18.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -262,8 +295,11 @@ research =
 		RequiredSubSystems = "",
 		TargetType = AllShips,
 		Time = 1,
+		UpgradeName = "WeaponDamage",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.25,
 	},
-	-- #13.0, ai_properties.lua
+	-- #19.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -276,8 +312,11 @@ research =
 		RequiredSubSystems = "",
 		TargetType = AllShips,
 		Time = 1,
+		UpgradeName = "WeaponDamage",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.5,
 	},
-	-- #14.0, ai_properties.lua
+	-- #20.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -290,8 +329,11 @@ research =
 		RequiredSubSystems = "",
 		TargetType = AllShips,
 		Time = 1,
+		UpgradeName = "WeaponDamage",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.75,
 	},
-	-- #15.0, ai_properties.lua
+	-- #21.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -304,8 +346,11 @@ research =
 		RequiredSubSystems = "",
 		TargetType = AllShips,
 		Time = 1,
+		UpgradeName = "WeaponDamage",
+		UpgradeType = Modifier,
+		UpgradeValue = 2,
 	},
-	-- #16.1, corvette_tech.lua
+	-- #22.0, corvette_tech.lua
 	{
 		Cost = 700,
 		Description = "$11523",
@@ -313,14 +358,14 @@ research =
 		DisplayedName = "$11522",
 		Icon = Icon_Build,
 		Name = "Tai_CorvetteChassis_hyp0",
-		RequiredResearch = "CorvetteDrive",
+		RequiredResearch = "Tai_CorvetteDrive_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11522",
 		TargetName = "Tai_SalvageCorvette_hyp0",
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #16.2, corvette_tech.lua
+	-- #23.0, corvette_tech.lua
 	{
 		Cost = 700,
 		Description = "$11523",
@@ -328,14 +373,14 @@ research =
 		DisplayedName = "$11522",
 		Icon = Icon_Build,
 		Name = "Tai_CorvetteChassis_hyp1",
-		RequiredResearch = "CorvetteDrive",
+		RequiredResearch = "Tai_CorvetteDrive_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11522",
 		TargetName = "Tai_SalvageCorvette_hyp1",
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #17.1, corvette_tech.lua
+	-- #24.0, corvette_tech.lua
 	{
 		Cost = 1000,
 		Description = "$11517",
@@ -350,7 +395,7 @@ research =
 		TargetType = Ship,
 		Time = 75,
 	},
-	-- #17.2, corvette_tech.lua
+	-- #25.0, corvette_tech.lua
 	{
 		Cost = 1000,
 		Description = "$11517",
@@ -365,7 +410,7 @@ research =
 		TargetType = Ship,
 		Time = 75,
 	},
-	-- #18.1, corvette_tech.lua
+	-- #26.0, corvette_tech.lua
 	{
 		Cost = 500,
 		Description = "$11511",
@@ -373,14 +418,14 @@ research =
 		DisplayedName = "$11510",
 		Icon = Icon_Build,
 		Name = "Tai_FastTrackingTurrets_hyp0",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Tai_CorvetteChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11510",
 		TargetName = "Tai_MultiGunCorvette_hyp0",
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #18.2, corvette_tech.lua
+	-- #27.0, corvette_tech.lua
 	{
 		Cost = 500,
 		Description = "$11511",
@@ -388,14 +433,14 @@ research =
 		DisplayedName = "$11510",
 		Icon = Icon_Build,
 		Name = "Tai_FastTrackingTurrets_hyp1",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Tai_CorvetteChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11510",
 		TargetName = "Tai_MultiGunCorvette_hyp1",
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #19.1, corvette_tech.lua
+	-- #28.0, corvette_tech.lua
 	{
 		Cost = 400,
 		Description = "$11519",
@@ -403,14 +448,14 @@ research =
 		DisplayedName = "$11518",
 		Icon = Icon_Build,
 		Name = "Tai_HeavyCorvetteUpgrade_hyp0",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Tai_CorvetteChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11518",
 		TargetName = "Tai_HeavyCorvette_hyp0",
 		TargetType = Ship,
 		Time = 30,
 	},
-	-- #19.2, corvette_tech.lua
+	-- #29.0, corvette_tech.lua
 	{
 		Cost = 400,
 		Description = "$11519",
@@ -418,14 +463,14 @@ research =
 		DisplayedName = "$11518",
 		Icon = Icon_Build,
 		Name = "Tai_HeavyCorvetteUpgrade_hyp1",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Tai_CorvetteChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11518",
 		TargetName = "Tai_HeavyCorvette_hyp1",
 		TargetType = Ship,
 		Time = 30,
 	},
-	-- #20.1, corvette_tech.lua
+	-- #30.0, corvette_tech.lua
 	{
 		Cost = 1200,
 		Description = "$11521",
@@ -433,14 +478,14 @@ research =
 		DisplayedName = "$11520",
 		Icon = Icon_Build,
 		Name = "Tai_MinelayingTech_hyp0",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Tai_CorvetteChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11520",
 		TargetName = "Tai_MinelayerCorvette_hyp0",
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #20.2, corvette_tech.lua
+	-- #31.0, corvette_tech.lua
 	{
 		Cost = 1200,
 		Description = "$11521",
@@ -448,14 +493,14 @@ research =
 		DisplayedName = "$11520",
 		Icon = Icon_Build,
 		Name = "Tai_MinelayingTech_hyp1",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Tai_CorvetteChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11520",
 		TargetName = "Tai_MinelayerCorvette_hyp1",
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #21.1, default.lua
+	-- #32.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11559",
@@ -463,14 +508,14 @@ research =
 		DisplayedName = "$11558",
 		Icon = Icon_Build,
 		Name = "Tai_CloakGenerator_hyp0",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Tai_CapitalShipDrive_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11558",
 		TargetName = "Tai_CloakGenerator_hyp0",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #21.2, default.lua
+	-- #33.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11559",
@@ -478,14 +523,14 @@ research =
 		DisplayedName = "$11558",
 		Icon = Icon_Build,
 		Name = "Tai_CloakGenerator_hyp1",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Tai_CapitalShipDrive_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11558",
 		TargetName = "Tai_CloakGenerator_hyp1",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #22.1, default.lua
+	-- #34.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11557",
@@ -493,14 +538,14 @@ research =
 		DisplayedName = "$11556",
 		Icon = Icon_Build,
 		Name = "Tai_GravityGenerator_hyp0",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Tai_CapitalShipDrive_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11556",
 		TargetName = "Tai_GravWellGenerator_hyp0",
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #22.2, default.lua
+	-- #35.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11557",
@@ -508,14 +553,14 @@ research =
 		DisplayedName = "$11556",
 		Icon = Icon_Build,
 		Name = "Tai_GravityGenerator_hyp1",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Tai_CapitalShipDrive_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11556",
 		TargetName = "Tai_GravWellGenerator_hyp1",
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #23.0, default.lua
+	-- #36.0, default.lua
 	{
 		Cost = 0,
 		Description = "Enhances the fleet's hyperspace drive systems, reducing the hyperspace damage caused by gravity wells. Ships only take 10 11384919amage when forced out of hyperspace.",
@@ -529,8 +574,11 @@ research =
 		TargetName = "Tai_fleet",
 		TargetType = AllShips,
 		Time = 0,
+		UpgradeName = "HyperSpaceAbortDamage",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.4,
 	},
-	-- #24.1, default.lua
+	-- #37.0, default.lua
 	{
 		Cost = 0,
 		Description = "Enhances the fleet's hyperspace drive systems, reducing the hyperspace damage caused by gravity wells. Heavy Cruisers only take 0 11384919amage when forced out of hyperspace.",
@@ -544,8 +592,11 @@ research =
 		TargetName = "Tai_HeavyCruiser_hyp0",
 		TargetType = Ship,
 		Time = 0,
+		UpgradeName = "HyperSpaceAbortDamage",
+		UpgradeType = Modifier,
+		UpgradeValue = 0,
 	},
-	-- #24.2, default.lua
+	-- #38.0, default.lua
 	{
 		Cost = 0,
 		Description = "Enhances the fleet's hyperspace drive systems, reducing the hyperspace damage caused by gravity wells. Heavy Cruisers only take 0 11384919amage when forced out of hyperspace.",
@@ -559,8 +610,11 @@ research =
 		TargetName = "Tai_HeavyCruiser_hyp1",
 		TargetType = Ship,
 		Time = 0,
+		UpgradeName = "HyperSpaceAbortDamage",
+		UpgradeType = Modifier,
+		UpgradeValue = 0,
 	},
-	-- #25.1, default.lua
+	-- #39.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11553",
@@ -575,7 +629,7 @@ research =
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #25.2, default.lua
+	-- #40.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11553",
@@ -590,7 +644,7 @@ research =
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #26.1, default.lua
+	-- #41.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11555",
@@ -598,14 +652,14 @@ research =
 		DisplayedName = "$11554",
 		Icon = Icon_Build,
 		Name = "Tai_SensorArray_hyp0",
-		RequiredResearch = "ProximitySensor",
+		RequiredResearch = "Tai_ProximitySensor_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11554",
 		TargetName = "Tai_SensorArray_hyp0",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #26.2, default.lua
+	-- #42.0, default.lua
 	{
 		Cost = 500,
 		Description = "$11555",
@@ -613,14 +667,14 @@ research =
 		DisplayedName = "$11554",
 		Icon = Icon_Build,
 		Name = "Tai_SensorArray_hyp1",
-		RequiredResearch = "ProximitySensor",
+		RequiredResearch = "Tai_ProximitySensor_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11554",
 		TargetName = "Tai_SensorArray_hyp1",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #27.0, explicit_grant.lua
+	-- #43.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -633,8 +687,11 @@ research =
 		TargetName = "Capital",
 		TargetType = Family,
 		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
 	},
-	-- #28.0, explicit_grant.lua
+	-- #44.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -647,8 +704,11 @@ research =
 		TargetName = "Frigate",
 		TargetType = Family,
 		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.45,
 	},
-	-- #29.1, explicit_grant.lua
+	-- #45.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -661,8 +721,11 @@ research =
 		TargetName = "Tai_GravWellGenerator_hyp0",
 		TargetType = Ship,
 		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.2,
 	},
-	-- #29.2, explicit_grant.lua
+	-- #46.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -675,8 +738,11 @@ research =
 		TargetName = "Tai_GravWellGenerator_hyp1",
 		TargetType = Ship,
 		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.2,
 	},
-	-- #30.1, fighter_tech.lua
+	-- #47.0, fighter_tech.lua
 	{
 		Cost = 800,
 		Description = "$11529",
@@ -684,14 +750,14 @@ research =
 		DisplayedName = "$11528",
 		Icon = Icon_Build,
 		Name = "Tai_DefenderSubSystems_hyp0",
-		RequiredResearch = "FighterDrive",
+		RequiredResearch = "Tai_FighterDrive_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11528",
 		TargetName = "Tai_Defender_hyp0",
 		TargetType = Ship,
 		Time = 75,
 	},
-	-- #30.2, fighter_tech.lua
+	-- #48.0, fighter_tech.lua
 	{
 		Cost = 800,
 		Description = "$11529",
@@ -699,14 +765,14 @@ research =
 		DisplayedName = "$11528",
 		Icon = Icon_Build,
 		Name = "Tai_DefenderSubSystems_hyp1",
-		RequiredResearch = "FighterDrive",
+		RequiredResearch = "Tai_FighterDrive_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11528",
 		TargetName = "Tai_Defender_hyp1",
 		TargetType = Ship,
 		Time = 75,
 	},
-	-- #31.1, fighter_tech.lua
+	-- #49.0, fighter_tech.lua
 	{
 		Cost = 1000,
 		Description = "$11509",
@@ -714,14 +780,14 @@ research =
 		DisplayedName = "$11508",
 		Icon = Icon_Build,
 		Name = "Tai_DefenseFighter_hyp0",
-		RequiredResearch = "FighterChassis",
+		RequiredResearch = "Tai_FighterChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11508",
 		TargetName = "Tai_DefenseFighter_hyp0",
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #31.2, fighter_tech.lua
+	-- #50.0, fighter_tech.lua
 	{
 		Cost = 1000,
 		Description = "$11509",
@@ -729,14 +795,14 @@ research =
 		DisplayedName = "$11508",
 		Icon = Icon_Build,
 		Name = "Tai_DefenseFighter_hyp1",
-		RequiredResearch = "FighterChassis",
+		RequiredResearch = "Tai_FighterChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11508",
 		TargetName = "Tai_DefenseFighter_hyp1",
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #32.1, fighter_tech.lua
+	-- #51.0, fighter_tech.lua
 	{
 		Cost = 300,
 		Description = "$11515",
@@ -744,14 +810,14 @@ research =
 		DisplayedName = "$11514",
 		Icon = Icon_Build,
 		Name = "Tai_FighterChassis_hyp0",
-		RequiredResearch = "FighterDrive",
+		RequiredResearch = "Tai_FighterDrive_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11514",
 		TargetName = "Tai_Interceptor_hyp0",
 		TargetType = Ship,
 		Time = 30,
 	},
-	-- #32.2, fighter_tech.lua
+	-- #52.0, fighter_tech.lua
 	{
 		Cost = 300,
 		Description = "$11515",
@@ -759,14 +825,14 @@ research =
 		DisplayedName = "$11514",
 		Icon = Icon_Build,
 		Name = "Tai_FighterChassis_hyp1",
-		RequiredResearch = "FighterDrive",
+		RequiredResearch = "Tai_FighterDrive_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11514",
 		TargetName = "Tai_Interceptor_hyp1",
 		TargetType = Ship,
 		Time = 30,
 	},
-	-- #33.1, fighter_tech.lua
+	-- #53.0, fighter_tech.lua
 	{
 		Cost = 200,
 		Description = "$11503",
@@ -781,7 +847,7 @@ research =
 		TargetType = Ship,
 		Time = 20,
 	},
-	-- #33.2, fighter_tech.lua
+	-- #54.0, fighter_tech.lua
 	{
 		Cost = 200,
 		Description = "$11503",
@@ -796,7 +862,7 @@ research =
 		TargetType = Ship,
 		Time = 20,
 	},
-	-- #34.1, fighter_tech.lua
+	-- #55.0, fighter_tech.lua
 	{
 		Cost = 400,
 		Description = "$11513",
@@ -804,14 +870,14 @@ research =
 		DisplayedName = "$11512",
 		Icon = Icon_Build,
 		Name = "Tai_PlasmaBombLauncher_hyp0",
-		RequiredResearch = "FighterChassis",
+		RequiredResearch = "Tai_FighterChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11512",
 		TargetName = "Tai_AttackBomber_hyp0",
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #34.2, fighter_tech.lua
+	-- #56.0, fighter_tech.lua
 	{
 		Cost = 400,
 		Description = "$11513",
@@ -819,14 +885,14 @@ research =
 		DisplayedName = "$11512",
 		Icon = Icon_Build,
 		Name = "Tai_PlasmaBombLauncher_hyp1",
-		RequiredResearch = "FighterChassis",
+		RequiredResearch = "Tai_FighterChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11512",
 		TargetName = "Tai_AttackBomber_hyp1",
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #35.1, frigate_tech.lua
+	-- #57.0, frigate_tech.lua
 	{
 		Cost = 1200,
 		Description = "$11541",
@@ -834,14 +900,14 @@ research =
 		DisplayedName = "$11540",
 		Icon = Icon_Build,
 		Name = "Tai_CapitalShipChassis_hyp0",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Tai_CapitalShipDrive_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11540",
 		TargetName = "Tai_AssaultFrigate_hyp0",
 		TargetType = Ship,
 		Time = 90,
 	},
-	-- #35.2, frigate_tech.lua
+	-- #58.0, frigate_tech.lua
 	{
 		Cost = 1200,
 		Description = "$11541",
@@ -849,14 +915,14 @@ research =
 		DisplayedName = "$11540",
 		Icon = Icon_Build,
 		Name = "Tai_CapitalShipChassis_hyp1",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Tai_CapitalShipDrive_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11540",
 		TargetName = "Tai_AssaultFrigate_hyp1",
 		TargetType = Ship,
 		Time = 90,
 	},
-	-- #36.1, frigate_tech.lua
+	-- #59.0, frigate_tech.lua
 	{
 		Cost = 1000,
 		Description = "$11527",
@@ -871,7 +937,7 @@ research =
 		TargetType = Ship,
 		Time = 75,
 	},
-	-- #36.2, frigate_tech.lua
+	-- #60.0, frigate_tech.lua
 	{
 		Cost = 1000,
 		Description = "$11527",
@@ -886,7 +952,7 @@ research =
 		TargetType = Ship,
 		Time = 75,
 	},
-	-- #37.1, frigate_tech.lua
+	-- #61.0, frigate_tech.lua
 	{
 		Cost = 1100,
 		Description = "$11539",
@@ -894,14 +960,14 @@ research =
 		DisplayedName = "$11538",
 		Icon = Icon_Build,
 		Name = "Tai_DefenseField_hyp0",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11538",
 		TargetName = "Tai_FieldFrigate_hyp0",
 		TargetType = Ship,
 		Time = 80,
 	},
-	-- #37.2, frigate_tech.lua
+	-- #62.0, frigate_tech.lua
 	{
 		Cost = 1100,
 		Description = "$11539",
@@ -909,14 +975,14 @@ research =
 		DisplayedName = "$11538",
 		Icon = Icon_Build,
 		Name = "Tai_DefenseField_hyp1",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11538",
 		TargetName = "Tai_FieldFrigate_hyp1",
 		TargetType = Ship,
 		Time = 80,
 	},
-	-- #38.1, frigate_tech.lua
+	-- #63.0, frigate_tech.lua
 	{
 		Cost = 1700,
 		Description = "$11535",
@@ -924,14 +990,14 @@ research =
 		DisplayedName = "$11534",
 		Icon = Icon_Build,
 		Name = "Tai_IonCannons_hyp0",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11534",
 		TargetName = "Tai_IonCannonFrigate_hyp0",
 		TargetType = Ship,
 		Time = 120,
 	},
-	-- #38.2, frigate_tech.lua
+	-- #64.0, frigate_tech.lua
 	{
 		Cost = 1700,
 		Description = "$11535",
@@ -939,14 +1005,14 @@ research =
 		DisplayedName = "$11534",
 		Icon = Icon_Build,
 		Name = "Tai_IonCannons_hyp1",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11534",
 		TargetName = "Tai_IonCannonFrigate_hyp1",
 		TargetType = Ship,
 		Time = 120,
 	},
-	-- #39.1, supercapital_tech.lua
+	-- #65.0, supercapital_tech.lua
 	{
 		Cost = 3500,
 		Description = "$11547",
@@ -954,14 +1020,14 @@ research =
 		DisplayedName = "$11546",
 		Icon = Icon_Build,
 		Name = "Tai_GuidedMissiles_hyp0",
-		RequiredResearch = "SuperCapitalShipDrive",
+		RequiredResearch = "Tai_SuperCapitalShipDrive_res0_hyp0 | Tai_SuperCapitalShipDrive_res1_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11546",
 		TargetName = "Tai_MissileDestroyer_hyp0",
 		TargetType = Ship,
 		Time = 120,
 	},
-	-- #39.2, supercapital_tech.lua
+	-- #66.0, supercapital_tech.lua
 	{
 		Cost = 3500,
 		Description = "$11547",
@@ -969,14 +1035,14 @@ research =
 		DisplayedName = "$11546",
 		Icon = Icon_Build,
 		Name = "Tai_GuidedMissiles_hyp1",
-		RequiredResearch = "SuperCapitalShipDrive",
+		RequiredResearch = "Tai_SuperCapitalShipDrive_res0_hyp1 | Tai_SuperCapitalShipDrive_res1_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11546",
 		TargetName = "Tai_MissileDestroyer_hyp1",
 		TargetType = Ship,
 		Time = 120,
 	},
-	-- #40.1, supercapital_tech.lua
+	-- #67.0, supercapital_tech.lua
 	{
 		Cost = 7000,
 		Description = "$11551",
@@ -984,14 +1050,14 @@ research =
 		DisplayedName = "$11550",
 		Icon = Icon_Build,
 		Name = "Tai_HeavyGuns_hyp0",
-		RequiredResearch = "SuperHeavyChassis & SuperCapitalShipDrive & IonCannons",
+		RequiredResearch = "(Tai_SuperCapitalShipDrive_res0_hyp0 | Tai_SuperCapitalShipDrive_res1_hyp0) & Tai_SuperHeavyChassis_hyp0 & Tai_IonCannons_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11550",
 		TargetName = "Tai_HeavyCruiser_hyp0",
 		TargetType = Ship,
 		Time = 360,
 	},
-	-- #40.2, supercapital_tech.lua
+	-- #68.0, supercapital_tech.lua
 	{
 		Cost = 7000,
 		Description = "$11551",
@@ -999,14 +1065,14 @@ research =
 		DisplayedName = "$11550",
 		Icon = Icon_Build,
 		Name = "Tai_HeavyGuns_hyp1",
-		RequiredResearch = "SuperHeavyChassis & SuperCapitalShipDrive & IonCannons",
+		RequiredResearch = "(Tai_SuperCapitalShipDrive_res0_hyp1 | Tai_SuperCapitalShipDrive_res1_hyp1) & Tai_SuperHeavyChassis_hyp1 & Tai_IonCannons_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11550",
 		TargetName = "Tai_HeavyCruiser_hyp1",
 		TargetType = Ship,
 		Time = 360,
 	},
-	-- #41.1, supercapital_tech.lua
+	-- #69.0, supercapital_tech.lua
 	{
 		Cost = 1500,
 		Description = "$11543",
@@ -1014,14 +1080,14 @@ research =
 		DisplayedName = "$11542",
 		Icon = Icon_Build,
 		Name = "Tai_SuperCapitalShipDrive_res0_hyp0",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11542",
 		TargetName = "Tai_Carrier_res0_hyp0",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #41.2, supercapital_tech.lua
+	-- #70.0, supercapital_tech.lua
 	{
 		Cost = 1500,
 		Description = "$11543",
@@ -1029,14 +1095,14 @@ research =
 		DisplayedName = "$11542",
 		Icon = Icon_Build,
 		Name = "Tai_SuperCapitalShipDrive_res1_hyp0",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11542",
 		TargetName = "Tai_Carrier_res1_hyp0",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #41.3, supercapital_tech.lua
+	-- #71.0, supercapital_tech.lua
 	{
 		Cost = 1500,
 		Description = "$11543",
@@ -1044,14 +1110,14 @@ research =
 		DisplayedName = "$11542",
 		Icon = Icon_Build,
 		Name = "Tai_SuperCapitalShipDrive_res0_hyp1",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11542",
 		TargetName = "Tai_Carrier_res0_hyp1",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #41.4, supercapital_tech.lua
+	-- #72.0, supercapital_tech.lua
 	{
 		Cost = 1500,
 		Description = "$11543",
@@ -1059,14 +1125,14 @@ research =
 		DisplayedName = "$11542",
 		Icon = Icon_Build,
 		Name = "Tai_SuperCapitalShipDrive_res1_hyp1",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Tai_CapitalShipChassis_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11542",
 		TargetName = "Tai_Carrier_res1_hyp1",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #42.1, supercapital_tech.lua
+	-- #73.0, supercapital_tech.lua
 	{
 		Cost = 4000,
 		Description = "$11561",
@@ -1074,14 +1140,14 @@ research =
 		DisplayedName = "$11560",
 		Icon = Icon_Build,
 		Name = "Tai_SuperHeavyChassis_hyp0",
-		RequiredResearch = "SuperCapitalShipDrive & IonCannons",
+		RequiredResearch = "(Tai_SuperCapitalShipDrive_res0_hyp0 | Tai_SuperCapitalShipDrive_res1_hyp0) & Tai_IonCannons_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11560",
 		TargetName = "Tai_Destroyer_hyp0",
 		TargetType = Ship,
 		Time = 140,
 	},
-	-- #42.2, supercapital_tech.lua
+	-- #74.0, supercapital_tech.lua
 	{
 		Cost = 4000,
 		Description = "$11561",
@@ -1089,7 +1155,7 @@ research =
 		DisplayedName = "$11560",
 		Icon = Icon_Build,
 		Name = "Tai_SuperHeavyChassis_hyp1",
-		RequiredResearch = "SuperCapitalShipDrive & IonCannons",
+		RequiredResearch = "(Tai_SuperCapitalShipDrive_res0_hyp1 | Tai_SuperCapitalShipDrive_res1_hyp1) & Tai_IonCannons_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$11560",
 		TargetName = "Tai_Destroyer_hyp1",
