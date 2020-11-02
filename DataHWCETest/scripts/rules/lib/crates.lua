@@ -249,7 +249,7 @@ function ChooseCrateRewardShip(playerIndex)
 	CRA_trace("ChooseCrateRewardShip: TechList['" .. sRace .. "'].ships['" .. sClass .. "'].items['" .. sItem .. "'].prob = " .. tItem.prob)
 
 	-- get the correct ship variant
-	local typeBits = VariantBuilds[sItem]
+	local typeBits = VariantBuildBool[sItem]
 	local typeShip = GetVariantsMatch(sItem, typeBits)
 	-- check if the variant is restricted
 	if (IsBuildRestricted(playerIndex, sRace, typeShip) == 0) then
@@ -298,7 +298,7 @@ function ChooseCrateRewardSubsystem(playerIndex)
 	CRA_trace("ChooseCrateRewardSubsystem: TechList['" .. sRace .. "'].subsystems['" .. sClass .. "'].items['" .. sItem .. "'].prob = " .. tItem.prob)
 
 	-- get the correct subsystem variant
-	local typeBits = VariantBuilds[sItem]
+	local typeBits = VariantBuildBool[sItem]
 	local typeSubs = GetVariantsMatch(sItem, typeBits)
 	-- check if the variant is restricted
 	if (IsBuildRestricted(playerIndex, sRace, typeSubs) == 0) then
@@ -347,7 +347,7 @@ function ChooseCrateRewardResearch(playerIndex)
 	CRA_trace("ChooseCrateRewardResearch: TechList['" .. sRace .. "'].research['" .. sClass .. "'].items['" .. sItem .. "'].prob = " .. tItem.prob)
 
 	-- get the correct research variant
-	local typeBits = VariantResearch[sItem]
+	local typeBits = VariantResearchBool[sItem]
 	local typeReas = GetVariantsMatch(sItem, typeBits)
 	-- check if the variant is queued, restricted or granted
 	-- should I really check for queued items? do you lose the money you have already spent on the queued item?

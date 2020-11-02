@@ -192,7 +192,7 @@ function CheckMothershipDeadRule()
 				for l, lCount in shipItems do
 					-- get the correct variant
 					local shipType = l
-					local shipBits = VariantBuilds[shipType]
+					local shipBits = VariantBuildBool[shipType]
 					local shipVariant = GetVariantsMatch(shipType, shipBits)
 					-- check to see if the player has a mothership
 					if (Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(WIN_AnyPlayerIndex, shipVariant) > 0) then

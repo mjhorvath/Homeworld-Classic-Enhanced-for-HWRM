@@ -1,203 +1,203 @@
 VariantResearch =
 {
-	Tai_AllShipBuildSpeed =
+	tai_allshipbuildspeed =
 	{
-		"Tai_AllShipBuildSpeed",
+		TAI_ALLSHIPBUILDSPEED,
 	},
-	Tai_AllShipBuildSpeedExpert =
+	tai_allshipbuildspeedexpert =
 	{
-		"Tai_AllShipBuildSpeedExpert",
+		TAI_ALLSHIPBUILDSPEEDEXPERT,
 	},
-	Tai_AllShipBuildSpeedHard =
+	tai_allshipbuildspeedhard =
 	{
-		"Tai_AllShipBuildSpeedHard",
+		TAI_ALLSHIPBUILDSPEEDHARD,
 	},
-	Tai_cpuplayers_aggressive =
+	tai_cpuplayers_aggressive =
 	{
-		"Tai_cpuplayers_aggressive",
+		TAI_CPUPLAYERS_AGGRESSIVE,
 	},
-	Tai_cpuplayers_defensive =
+	tai_cpuplayers_defensive =
 	{
-		"Tai_cpuplayers_defensive",
+		TAI_CPUPLAYERS_DEFENSIVE,
 	},
-	Tai_cpuplayers_dynamic =
+	tai_cpuplayers_dynamic =
 	{
-		"Tai_cpuplayers_dynamic",
+		TAI_CPUPLAYERS_DYNAMIC,
 	},
-	Tai_cpuplayers_norushtime10 =
+	tai_cpuplayers_norushtime10 =
 	{
-		"Tai_cpuplayers_norushtime10",
+		TAI_CPUPLAYERS_NORUSHTIME10,
 	},
-	Tai_cpuplayers_norushtime15 =
+	tai_cpuplayers_norushtime15 =
 	{
-		"Tai_cpuplayers_norushtime15",
+		TAI_CPUPLAYERS_NORUSHTIME15,
 	},
-	Tai_cpuplayers_norushtime5 =
+	tai_cpuplayers_norushtime5 =
 	{
-		"Tai_cpuplayers_norushtime5",
+		TAI_CPUPLAYERS_NORUSHTIME5,
 	},
-	Tai_ResourceCollectionRateExpert =
+	tai_resourcecollectionrateexpert =
 	{
-		"Tai_ResourceCollectionRateExpert_res0_hyp0",
-		"Tai_ResourceCollectionRateExpert_res1_hyp0",
-		"Tai_ResourceCollectionRateExpert_res0_hyp1",
-		"Tai_ResourceCollectionRateExpert_res1_hyp1",
+		TAI_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP0,
+		TAI_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP0,
+		TAI_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP1,
+		TAI_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP1,
 	},
-	Tai_ResourceCollectionRateHard =
+	tai_resourcecollectionratehard =
 	{
-		"Tai_ResourceCollectionRateHard_res0_hyp0",
-		"Tai_ResourceCollectionRateHard_res1_hyp0",
-		"Tai_ResourceCollectionRateHard_res0_hyp1",
-		"Tai_ResourceCollectionRateHard_res1_hyp1",
+		TAI_RESOURCECOLLECTIONRATEHARD_RES0_HYP0,
+		TAI_RESOURCECOLLECTIONRATEHARD_RES1_HYP0,
+		TAI_RESOURCECOLLECTIONRATEHARD_RES0_HYP1,
+		TAI_RESOURCECOLLECTIONRATEHARD_RES1_HYP1,
 	},
-	Tai_WeaponDamageUpgrade125 =
+	tai_weapondamageupgrade125 =
 	{
-		"Tai_WeaponDamageUpgrade125",
+		TAI_WEAPONDAMAGEUPGRADE125,
 	},
-	Tai_WeaponDamageUpgrade150 =
+	tai_weapondamageupgrade150 =
 	{
-		"Tai_WeaponDamageUpgrade150",
+		TAI_WEAPONDAMAGEUPGRADE150,
 	},
-	Tai_WeaponDamageUpgrade175 =
+	tai_weapondamageupgrade175 =
 	{
-		"Tai_WeaponDamageUpgrade175",
+		TAI_WEAPONDAMAGEUPGRADE175,
 	},
-	Tai_WeaponDamageUpgrade200 =
+	tai_weapondamageupgrade200 =
 	{
-		"Tai_WeaponDamageUpgrade200",
+		TAI_WEAPONDAMAGEUPGRADE200,
 	},
-	Tai_CorvetteChassis =
+	tai_corvettechassis =
 	{
-		"Tai_CorvetteChassis_hyp0",
-		"Tai_CorvetteChassis_hyp1",
+		TAI_CORVETTECHASSIS_HYP0,
+		TAI_CORVETTECHASSIS_HYP1,
 	},
-	Tai_CorvetteDrive =
+	tai_corvettedrive =
 	{
-		"Tai_CorvetteDrive_hyp0",
-		"Tai_CorvetteDrive_hyp1",
+		TAI_CORVETTEDRIVE_HYP0,
+		TAI_CORVETTEDRIVE_HYP1,
 	},
-	Tai_FastTrackingTurrets =
+	tai_fasttrackingturrets =
 	{
-		"Tai_FastTrackingTurrets_hyp0",
-		"Tai_FastTrackingTurrets_hyp1",
+		TAI_FASTTRACKINGTURRETS_HYP0,
+		TAI_FASTTRACKINGTURRETS_HYP1,
 	},
-	Tai_HeavyCorvetteUpgrade =
+	tai_heavycorvetteupgrade =
 	{
-		"Tai_HeavyCorvetteUpgrade_hyp0",
-		"Tai_HeavyCorvetteUpgrade_hyp1",
+		TAI_HEAVYCORVETTEUPGRADE_HYP0,
+		TAI_HEAVYCORVETTEUPGRADE_HYP1,
 	},
-	Tai_MinelayingTech =
+	tai_minelayingtech =
 	{
-		"Tai_MinelayingTech_hyp0",
-		"Tai_MinelayingTech_hyp1",
+		TAI_MINELAYINGTECH_HYP0,
+		TAI_MINELAYINGTECH_HYP1,
 	},
-	Tai_CloakGenerator =
+	tai_cloakgenerator =
 	{
-		"Tai_CloakGenerator_hyp0",
-		"Tai_CloakGenerator_hyp1",
+		TAI_CLOAKGENERATOR_HYP0,
+		TAI_CLOAKGENERATOR_HYP1,
 	},
-	Tai_GravityGenerator =
+	tai_gravitygenerator =
 	{
-		"Tai_GravityGenerator_hyp0",
-		"Tai_GravityGenerator_hyp1",
+		TAI_GRAVITYGENERATOR_HYP0,
+		TAI_GRAVITYGENERATOR_HYP1,
 	},
-	Tai_HyperspaceDamageReductionUpgrade =
+	tai_hyperspacedamagereductionupgrade =
 	{
-		"Tai_HyperspaceDamageReductionUpgrade",
+		TAI_HYPERSPACEDAMAGEREDUCTIONUPGRADE,
 	},
-	Tai_HyperspaceDamageReductionUpgradeHC =
+	tai_hyperspacedamagereductionupgradehc =
 	{
-		"Tai_HyperspaceDamageReductionUpgradeHC_hyp0",
-		"Tai_HyperspaceDamageReductionUpgradeHC_hyp1",
+		TAI_HYPERSPACEDAMAGEREDUCTIONUPGRADEHC_HYP0,
+		TAI_HYPERSPACEDAMAGEREDUCTIONUPGRADEHC_HYP1,
 	},
-	Tai_ProximitySensor =
+	tai_proximitysensor =
 	{
-		"Tai_ProximitySensor_hyp0",
-		"Tai_ProximitySensor_hyp1",
+		TAI_PROXIMITYSENSOR_HYP0,
+		TAI_PROXIMITYSENSOR_HYP1,
 	},
-	Tai_SensorArray =
+	tai_sensorarray =
 	{
-		"Tai_SensorArray_hyp0",
-		"Tai_SensorArray_hyp1",
+		TAI_SENSORARRAY_HYP0,
+		TAI_SENSORARRAY_HYP1,
 	},
-	Tai_SGMCapitalHealth =
+	tai_sgmcapitalhealth =
 	{
-		"Tai_SGMCapitalHealth",
+		TAI_SGMCAPITALHEALTH,
 	},
-	Tai_SGMFrigateHealth =
+	tai_sgmfrigatehealth =
 	{
-		"Tai_SGMFrigateHealth",
+		TAI_SGMFRIGATEHEALTH,
 	},
-	Tai_SGMGravWellHealth =
+	tai_sgmgravwellhealth =
 	{
-		"Tai_SGMGravWellHealth_hyp0",
-		"Tai_SGMGravWellHealth_hyp1",
+		TAI_SGMGRAVWELLHEALTH_HYP0,
+		TAI_SGMGRAVWELLHEALTH_HYP1,
 	},
-	Tai_DefenderSubSystems =
+	tai_defendersubsystems =
 	{
-		"Tai_DefenderSubSystems_hyp0",
-		"Tai_DefenderSubSystems_hyp1",
+		TAI_DEFENDERSUBSYSTEMS_HYP0,
+		TAI_DEFENDERSUBSYSTEMS_HYP1,
 	},
-	Tai_DefenseFighter =
+	tai_defensefighter =
 	{
-		"Tai_DefenseFighter_hyp0",
-		"Tai_DefenseFighter_hyp1",
+		TAI_DEFENSEFIGHTER_HYP0,
+		TAI_DEFENSEFIGHTER_HYP1,
 	},
-	Tai_FighterChassis =
+	tai_fighterchassis =
 	{
-		"Tai_FighterChassis_hyp0",
-		"Tai_FighterChassis_hyp1",
+		TAI_FIGHTERCHASSIS_HYP0,
+		TAI_FIGHTERCHASSIS_HYP1,
 	},
-	Tai_FighterDrive =
+	tai_fighterdrive =
 	{
-		"Tai_FighterDrive_hyp0",
-		"Tai_FighterDrive_hyp1",
+		TAI_FIGHTERDRIVE_HYP0,
+		TAI_FIGHTERDRIVE_HYP1,
 	},
-	Tai_PlasmaBombLauncher =
+	tai_plasmabomblauncher =
 	{
-		"Tai_PlasmaBombLauncher_hyp0",
-		"Tai_PlasmaBombLauncher_hyp1",
+		TAI_PLASMABOMBLAUNCHER_HYP0,
+		TAI_PLASMABOMBLAUNCHER_HYP1,
 	},
-	Tai_CapitalShipChassis =
+	tai_capitalshipchassis =
 	{
-		"Tai_CapitalShipChassis_hyp0",
-		"Tai_CapitalShipChassis_hyp1",
+		TAI_CAPITALSHIPCHASSIS_HYP0,
+		TAI_CAPITALSHIPCHASSIS_HYP1,
 	},
-	Tai_CapitalShipDrive =
+	tai_capitalshipdrive =
 	{
-		"Tai_CapitalShipDrive_hyp0",
-		"Tai_CapitalShipDrive_hyp1",
+		TAI_CAPITALSHIPDRIVE_HYP0,
+		TAI_CAPITALSHIPDRIVE_HYP1,
 	},
-	Tai_DefenseField =
+	tai_defensefield =
 	{
-		"Tai_DefenseField_hyp0",
-		"Tai_DefenseField_hyp1",
+		TAI_DEFENSEFIELD_HYP0,
+		TAI_DEFENSEFIELD_HYP1,
 	},
-	Tai_IonCannons =
+	tai_ioncannons =
 	{
-		"Tai_IonCannons_hyp0",
-		"Tai_IonCannons_hyp1",
+		TAI_IONCANNONS_HYP0,
+		TAI_IONCANNONS_HYP1,
 	},
-	Tai_GuidedMissiles =
+	tai_guidedmissiles =
 	{
-		"Tai_GuidedMissiles_hyp0",
-		"Tai_GuidedMissiles_hyp1",
+		TAI_GUIDEDMISSILES_HYP0,
+		TAI_GUIDEDMISSILES_HYP1,
 	},
-	Tai_HeavyGuns =
+	tai_heavyguns =
 	{
-		"Tai_HeavyGuns_hyp0",
-		"Tai_HeavyGuns_hyp1",
+		TAI_HEAVYGUNS_HYP0,
+		TAI_HEAVYGUNS_HYP1,
 	},
-	Tai_SuperCapitalShipDrive =
+	tai_supercapitalshipdrive =
 	{
-		"Tai_SuperCapitalShipDrive_res0_hyp0",
-		"Tai_SuperCapitalShipDrive_res1_hyp0",
-		"Tai_SuperCapitalShipDrive_res0_hyp1",
-		"Tai_SuperCapitalShipDrive_res1_hyp1",
+		TAI_SUPERCAPITALSHIPDRIVE_RES0_HYP0,
+		TAI_SUPERCAPITALSHIPDRIVE_RES1_HYP0,
+		TAI_SUPERCAPITALSHIPDRIVE_RES0_HYP1,
+		TAI_SUPERCAPITALSHIPDRIVE_RES1_HYP1,
 	},
-	Tai_SuperHeavyChassis =
+	tai_superheavychassis =
 	{
-		"Tai_SuperHeavyChassis_hyp0",
-		"Tai_SuperHeavyChassis_hyp1",
+		TAI_SUPERHEAVYCHASSIS_HYP0,
+		TAI_SUPERHEAVYCHASSIS_HYP1,
 	},
 }

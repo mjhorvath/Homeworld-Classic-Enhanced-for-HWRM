@@ -192,7 +192,7 @@ function TEA_GUI_display(playerIndex)
 						-- get the correct research variant
 						local reasType = m
 						local reasName = mCount.name
-						local reasBits = VariantResearch[reasType]
+						local reasBits = VariantResearchBool[reasType]
 						local reasVariant = GetVariantsMatch(reasType, reasBits)
 						-- if the other player is researching that variant...
 						if (Player_HasQueuedResearch(otherPlayerIndex, reasVariant) == 1) then
@@ -245,11 +245,11 @@ function TEA_GUI_display(playerIndex)
 
 --				UI_SetTextLabelTextW("ProgressScreen", "lblProgressA" .. (otherPlayerIndex + 1), "<c " .. TEA_ColourHex .. ">" .. sPlayerName .. "</c>")		-- can't concatenate regular text with wide text
 				UI_SetTextLabelTextW("ProgressScreen", "lblProgressA" .. (otherPlayerIndex + 1), sPlayerName)
-				 UI_SetTextLabelText("ProgressScreen", "lblProgressB" .. (otherPlayerIndex + 1), sRace)
-				 UI_SetTextLabelText("ProgressScreen", "lblProgressC" .. (otherPlayerIndex + 1), sRole)
-				 UI_SetTextLabelText("ProgressScreen", "lblProgressD" .. (otherPlayerIndex + 1), iRUs)
-				 UI_SetTextLabelText("ProgressScreen", "lblProgressE" .. (otherPlayerIndex + 1), iShipsNum)
-				 UI_SetTextLabelText("ProgressScreen", "lblProgressF" .. (otherPlayerIndex + 1), sResearch)
+				UI_SetTextLabelText("ProgressScreen", "lblProgressB" .. (otherPlayerIndex + 1), sRace)
+				UI_SetTextLabelText("ProgressScreen", "lblProgressC" .. (otherPlayerIndex + 1), sRole)
+				UI_SetTextLabelText("ProgressScreen", "lblProgressD" .. (otherPlayerIndex + 1), iRUs)
+				UI_SetTextLabelText("ProgressScreen", "lblProgressE" .. (otherPlayerIndex + 1), iShipsNum)
+				UI_SetTextLabelText("ProgressScreen", "lblProgressF" .. (otherPlayerIndex + 1), sResearch)
 			else
 				-- I would enable all of this, except there's no way to apply color to wide characters AFAIK.
 --				local iRUs = "---"
@@ -258,18 +258,18 @@ function TEA_GUI_display(playerIndex)
 --				local iShipsNum = "---"
 --				UI_SetTextLabelTextW("ProgressScreen", "lblProgressA" .. (otherPlayerIndex + 1), "<c " .. TEA_ColourHex .. ">" .. sPlayerName .. "</c>")		-- can't concatenate regular text with wide text
 --				UI_SetTextLabelTextW("ProgressScreen", "lblProgressA" .. (otherPlayerIndex + 1), sPlayerName)
---				 UI_SetTextLabelText("ProgressScreen", "lblProgressB" .. (otherPlayerIndex + 1), sRace)
---				 UI_SetTextLabelText("ProgressScreen", "lblProgressC" .. (otherPlayerIndex + 1), iRUs)
---				 UI_SetTextLabelText("ProgressScreen", "lblProgressD" .. (otherPlayerIndex + 1), iShipsNum)
---				 UI_SetTextLabelText("ProgressScreen", "lblProgressE" .. (otherPlayerIndex + 1), sResearch)
+--				UI_SetTextLabelText("ProgressScreen", "lblProgressB" .. (otherPlayerIndex + 1), sRace)
+--				UI_SetTextLabelText("ProgressScreen", "lblProgressC" .. (otherPlayerIndex + 1), iRUs)
+--				UI_SetTextLabelText("ProgressScreen", "lblProgressD" .. (otherPlayerIndex + 1), iShipsNum)
+--				UI_SetTextLabelText("ProgressScreen", "lblProgressE" .. (otherPlayerIndex + 1), sResearch)
 			end
 		else
 			UI_SetTextLabelTextW("ProgressScreen", "lblProgressA" .. (otherPlayerIndex + 1), sPlayerName)
-			 UI_SetTextLabelText("ProgressScreen", "lblProgressB" .. (otherPlayerIndex + 1), "-")
-			 UI_SetTextLabelText("ProgressScreen", "lblProgressC" .. (otherPlayerIndex + 1), "-")
-			 UI_SetTextLabelText("ProgressScreen", "lblProgressD" .. (otherPlayerIndex + 1), "-")
-			 UI_SetTextLabelText("ProgressScreen", "lblProgressE" .. (otherPlayerIndex + 1), "-")
-			 UI_SetTextLabelText("ProgressScreen", "lblProgressF" .. (otherPlayerIndex + 1), "-")
+			UI_SetTextLabelText("ProgressScreen", "lblProgressB" .. (otherPlayerIndex + 1), "-")
+			UI_SetTextLabelText("ProgressScreen", "lblProgressC" .. (otherPlayerIndex + 1), "-")
+			UI_SetTextLabelText("ProgressScreen", "lblProgressD" .. (otherPlayerIndex + 1), "-")
+			UI_SetTextLabelText("ProgressScreen", "lblProgressE" .. (otherPlayerIndex + 1), "-")
+			UI_SetTextLabelText("ProgressScreen", "lblProgressF" .. (otherPlayerIndex + 1), "-")
 		end
 	end
 end

@@ -1,6 +1,6 @@
 research =
 {
-	-- #1.1, ability_upgrades.lua
+	-- #1.0, ability_upgrades.lua
 	{
 		Cost = 1500,
 		Description = "$7731",
@@ -8,7 +8,7 @@ research =
 		DisplayedName = "$7730",
 		Icon = Icon_Ability,
 		Name = "Vgr_BomberImprovedBombs_hyp0",
-		RequiredResearch = "PlasmaBombs",
+		RequiredResearch = "Vgr_PlasmaBombs_hyp0",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7313",
 		TargetName = "Vgr_Bomber_hyp0",
@@ -17,7 +17,7 @@ research =
 		UpgradeName = "UseSpecialWeaponsInNormalAttack",
 		UpgradeType = Ability,
 	},
-	-- #1.2, ability_upgrades.lua
+	-- #2.0, ability_upgrades.lua
 	{
 		Cost = 1500,
 		Description = "$7731",
@@ -25,7 +25,7 @@ research =
 		DisplayedName = "$7730",
 		Icon = Icon_Ability,
 		Name = "Vgr_BomberImprovedBombs_hyp1",
-		RequiredResearch = "PlasmaBombs",
+		RequiredResearch = "Vgr_PlasmaBombs_hyp1",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7313",
 		TargetName = "Vgr_Bomber_hyp1",
@@ -34,7 +34,7 @@ research =
 		UpgradeName = "UseSpecialWeaponsInNormalAttack",
 		UpgradeType = Ability,
 	},
-	-- #2.1, ability_upgrades.lua
+	-- #3.0, ability_upgrades.lua
 	{
 		Cost = 250,
 		Description = "$7725",
@@ -51,24 +51,7 @@ research =
 		UpgradeName = "Repair",
 		UpgradeType = Ability,
 	},
-	-- #2.2, ability_upgrades.lua
-	{
-		Cost = 250,
-		Description = "$7725",
-		DisplayPriority = 280,
-		DisplayedName = "$7724",
-		Icon = Icon_Ability,
-		Name = "Vgr_RepairAbility_res1_hyp0",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7311",
-		TargetName = "Vgr_ResourceCollector_res1_hyp0",
-		TargetType = Ship,
-		Time = 20,
-		UpgradeName = "Repair",
-		UpgradeType = Ability,
-	},
-	-- #2.3, ability_upgrades.lua
+	-- #4.0, ability_upgrades.lua
 	{
 		Cost = 250,
 		Description = "$7725",
@@ -85,7 +68,24 @@ research =
 		UpgradeName = "Repair",
 		UpgradeType = Ability,
 	},
-	-- #2.4, ability_upgrades.lua
+	-- #5.0, ability_upgrades.lua
+	{
+		Cost = 250,
+		Description = "$7725",
+		DisplayPriority = 280,
+		DisplayedName = "$7724",
+		Icon = Icon_Ability,
+		Name = "Vgr_RepairAbility_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7311",
+		TargetName = "Vgr_ResourceCollector_res1_hyp0",
+		TargetType = Ship,
+		Time = 20,
+		UpgradeName = "Repair",
+		UpgradeType = Ability,
+	},
+	-- #6.0, ability_upgrades.lua
 	{
 		Cost = 250,
 		Description = "$7725",
@@ -102,7 +102,7 @@ research =
 		UpgradeName = "Repair",
 		UpgradeType = Ability,
 	},
-	-- #3.1, ability_upgrades.lua
+	-- #7.0, ability_upgrades.lua
 	{
 		Cost = 1500,
 		Description = "$7734",
@@ -119,7 +119,7 @@ research =
 		UpgradeName = "SpecialAttack",
 		UpgradeType = Ability,
 	},
-	-- #3.2, ability_upgrades.lua
+	-- #8.0, ability_upgrades.lua
 	{
 		Cost = 1500,
 		Description = "$7734",
@@ -136,7 +136,7 @@ research =
 		UpgradeName = "SpecialAttack",
 		UpgradeType = Ability,
 	},
-	-- #4.0, ai_properties.lua
+	-- #9.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -154,7 +154,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.025,
 	},
-	-- #5.0, ai_properties.lua
+	-- #10.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -172,7 +172,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.075,
 	},
-	-- #6.0, ai_properties.lua
+	-- #11.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -190,7 +190,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.05,
 	},
-	-- #7.0, ai_properties.lua
+	-- #12.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -204,7 +204,7 @@ research =
 		TargetName = "",
 		Time = 1,
 	},
-	-- #8.0, ai_properties.lua
+	-- #13.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -218,7 +218,7 @@ research =
 		TargetName = "",
 		Time = 1,
 	},
-	-- #9.0, ai_properties.lua
+	-- #14.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -232,7 +232,7 @@ research =
 		TargetName = "",
 		Time = 1,
 	},
-	-- #10.0, ai_properties.lua
+	-- #15.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -246,7 +246,7 @@ research =
 		TargetName = "",
 		Time = 1,
 	},
-	-- #11.0, ai_properties.lua
+	-- #16.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -260,7 +260,7 @@ research =
 		TargetName = "",
 		Time = 1,
 	},
-	-- #12.0, ai_properties.lua
+	-- #17.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -274,7 +274,7 @@ research =
 		TargetName = "",
 		Time = 1,
 	},
-	-- #13.1, ai_properties.lua
+	-- #18.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -292,25 +292,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.08,
 	},
-	-- #13.2, ai_properties.lua
-	{
-		AIOnly = 1,
-		Cost = 1,
-		Description = "",
-		DisplayPriority = 0,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_ResourceCollectionRateExpert_res1_hyp0",
-		RequiredResearch = "",
-		RequiredSubSystems = "",
-		TargetName = "vgr_resourcecollector_res1_hyp0",
-		TargetType = Ship,
-		Time = 1,
-		UpgradeName = "ResourceCollectionRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.08,
-	},
-	-- #13.3, ai_properties.lua
+	-- #19.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -328,7 +310,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.08,
 	},
-	-- #13.4, ai_properties.lua
+	-- #20.0, ai_properties.lua
+	{
+		AIOnly = 1,
+		Cost = 1,
+		Description = "",
+		DisplayPriority = 0,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_ResourceCollectionRateExpert_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "",
+		TargetName = "vgr_resourcecollector_res1_hyp0",
+		TargetType = Ship,
+		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.08,
+	},
+	-- #21.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -346,7 +346,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.08,
 	},
-	-- #14.1, ai_properties.lua
+	-- #22.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -364,25 +364,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.04,
 	},
-	-- #14.2, ai_properties.lua
-	{
-		AIOnly = 1,
-		Cost = 1,
-		Description = "",
-		DisplayPriority = 0,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_ResourceCollectionRateHard_res1_hyp0",
-		RequiredResearch = "",
-		RequiredSubSystems = "",
-		TargetName = "vgr_resourcecollector_res1_hyp0",
-		TargetType = Ship,
-		Time = 1,
-		UpgradeName = "ResourceCollectionRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.04,
-	},
-	-- #14.3, ai_properties.lua
+	-- #23.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -400,7 +382,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.04,
 	},
-	-- #14.4, ai_properties.lua
+	-- #24.0, ai_properties.lua
+	{
+		AIOnly = 1,
+		Cost = 1,
+		Description = "",
+		DisplayPriority = 0,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_ResourceCollectionRateHard_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "",
+		TargetName = "vgr_resourcecollector_res1_hyp0",
+		TargetType = Ship,
+		Time = 1,
+		UpgradeName = "ResourceCollectionRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.04,
+	},
+	-- #25.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -418,7 +418,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.04,
 	},
-	-- #15.0, ai_properties.lua
+	-- #26.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -435,7 +435,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.25,
 	},
-	-- #16.0, ai_properties.lua
+	-- #27.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -452,7 +452,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.5,
 	},
-	-- #17.0, ai_properties.lua
+	-- #28.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -469,7 +469,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.75,
 	},
-	-- #18.0, ai_properties.lua
+	-- #29.0, ai_properties.lua
 	{
 		AIOnly = 1,
 		Cost = 1,
@@ -486,15 +486,14 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2,
 	},
-	-- #19.0, capitalship_upgrades.lua
+	-- #30.0, capitalship_upgrades.lua
 	{
 		Cost = 3500,
 		Description = "$7744",
 		DisplayPriority = 61,
 		DisplayedName = "$7743",
 		Icon = Icon_Health,
-		Name = "Vgr_SuperCapHealthUpgrade1",
-		RequireTag = "VaygrCapital",
+		Name = "Vgr_SuperCapHealthUpgrade1_car0",
 		RequiredResearch = "",
 		RequiredSubSystems = "CapShipProduction & Research",
 		ShortDisplayedName = "$7354",
@@ -505,15 +504,19 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.4,
 	},
-	-- #20.0, capitalship_upgrades.lua
+	-- #31.0, capitalship_upgrades.lua
+	{
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+	},
+	-- #32.0, capitalship_upgrades.lua
 	{
 		Cost = 2000,
 		Description = "$7748",
 		DisplayPriority = 64,
 		DisplayedName = "$7747",
 		Icon = Icon_Speed,
-		Name = "Vgr_SuperCapSpeedUpgrade1",
-		RequireTag = "VaygrCapital",
+		Name = "Vgr_SuperCapSpeedUpgrade1_car0",
 		RequiredResearch = "",
 		RequiredSubSystems = "CapShipProduction & Research",
 		ShortDisplayedName = "$7354",
@@ -524,7 +527,12 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.25,
 	},
-	-- #21.1, capitalship_upgrades_buildspeed.lua
+	-- #33.0, capitalship_upgrades.lua
+	{
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+	},
+	-- #34.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
@@ -532,7 +540,6 @@ research =
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
 		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
@@ -543,64 +550,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.2, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 2500,
-		Description = "$7821",
-		DisplayPriority = 65,
-		DisplayedName = "$7820",
-		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 100,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #21.3, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 2500,
-		Description = "$7821",
-		DisplayPriority = 65,
-		DisplayedName = "$7820",
-		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 100,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #21.4, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 2500,
-		Description = "$7821",
-		DisplayPriority = 65,
-		DisplayedName = "$7820",
-		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 100,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #21.5, capitalship_upgrades_buildspeed.lua
+	-- #35.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
@@ -608,7 +558,6 @@ research =
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
 		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
@@ -619,26 +568,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.6, capitalship_upgrades_buildspeed.lua
+	-- #36.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
 		DisplayPriority = 65,
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 100,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.7, capitalship_upgrades_buildspeed.lua
+	-- #37.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
@@ -646,7 +594,6 @@ research =
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
 		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
@@ -657,26 +604,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.8, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 2500,
-		Description = "$7821",
-		DisplayPriority = 65,
-		DisplayedName = "$7820",
-		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 100,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #21.9, capitalship_upgrades_buildspeed.lua
+	-- #38.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
@@ -684,7 +612,6 @@ research =
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
 		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
@@ -695,64 +622,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.10, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 2500,
-		Description = "$7821",
-		DisplayPriority = 65,
-		DisplayedName = "$7820",
-		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 100,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #21.11, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 2500,
-		Description = "$7821",
-		DisplayPriority = 65,
-		DisplayedName = "$7820",
-		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 100,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #21.12, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 2500,
-		Description = "$7821",
-		DisplayPriority = 65,
-		DisplayedName = "$7820",
-		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 100,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #21.13, capitalship_upgrades_buildspeed.lua
+	-- #39.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
@@ -760,7 +630,6 @@ research =
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
 		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
@@ -771,26 +640,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.14, capitalship_upgrades_buildspeed.lua
+	-- #40.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
 		DisplayPriority = 65,
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
-		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 100,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.15, capitalship_upgrades_buildspeed.lua
+	-- #41.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
@@ -798,7 +666,6 @@ research =
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
 		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7240",
@@ -809,7 +676,133 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #21.16, capitalship_upgrades_buildspeed.lua
+	-- #42.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 2500,
+		Description = "$7821",
+		DisplayPriority = 65,
+		DisplayedName = "$7820",
+		Icon = Icon_Build,
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 100,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #43.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 2500,
+		Description = "$7821",
+		DisplayPriority = 65,
+		DisplayedName = "$7820",
+		Icon = Icon_Build,
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 100,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #44.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 2500,
+		Description = "$7821",
+		DisplayPriority = 65,
+		DisplayedName = "$7820",
+		Icon = Icon_Build,
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 100,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #45.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 2500,
+		Description = "$7821",
+		DisplayPriority = 65,
+		DisplayedName = "$7820",
+		Icon = Icon_Build,
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 100,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #46.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 2500,
+		Description = "$7821",
+		DisplayPriority = 65,
+		DisplayedName = "$7820",
+		Icon = Icon_Build,
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 100,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #47.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 2500,
+		Description = "$7821",
+		DisplayPriority = 65,
+		DisplayedName = "$7820",
+		Icon = Icon_Build,
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 100,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #48.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 2500,
+		Description = "$7821",
+		DisplayPriority = 65,
+		DisplayedName = "$7820",
+		Icon = Icon_Build,
+		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 100,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #49.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 2500,
 		Description = "$7821",
@@ -817,9 +810,8 @@ research =
 		DisplayedName = "$7820",
 		Icon = Icon_Build,
 		Name = "Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction",
+		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp1",
 		TargetType = Ship,
@@ -828,7 +820,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.1, capitalship_upgrades_buildspeed.lua
+	-- #50.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
@@ -836,7 +828,6 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
@@ -847,64 +838,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.2, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 60,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #22.3, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 60,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #22.4, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 60,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #22.5, capitalship_upgrades_buildspeed.lua
+	-- #51.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
@@ -912,7 +846,6 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
@@ -923,26 +856,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.6, capitalship_upgrades_buildspeed.lua
+	-- #52.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
 		DisplayPriority = 90,
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_MotherShip_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 60,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.7, capitalship_upgrades_buildspeed.lua
+	-- #53.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
@@ -950,7 +882,6 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
@@ -961,26 +892,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.8, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 60,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #22.9, capitalship_upgrades_buildspeed.lua
+	-- #54.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
@@ -988,7 +900,6 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
@@ -999,64 +910,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.10, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 60,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #22.11, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 60,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #22.12, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 60,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #22.13, capitalship_upgrades_buildspeed.lua
+	-- #55.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
@@ -1064,7 +918,6 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
@@ -1075,26 +928,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.14, capitalship_upgrades_buildspeed.lua
+	-- #56.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
 		DisplayPriority = 90,
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_MotherShip_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 60,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.15, capitalship_upgrades_buildspeed.lua
+	-- #57.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
@@ -1102,7 +954,6 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
@@ -1113,7 +964,133 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #22.16, capitalship_upgrades_buildspeed.lua
+	-- #58.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 60,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #59.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 60,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #60.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 60,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #61.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 60,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #62.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 60,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #63.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 60,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #64.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 60,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #65.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7816",
@@ -1121,7 +1098,6 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
@@ -1132,7 +1108,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.1, capitalship_upgrades_buildspeed.lua
+	-- #66.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
@@ -1140,8 +1116,7 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_MotherShip_Makaan_car0_rch0_res0_hyp0",
@@ -1151,64 +1126,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.2, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 0,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #23.3, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 0,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #23.4, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 0,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #23.5, capitalship_upgrades_buildspeed.lua
+	-- #67.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
@@ -1216,8 +1134,7 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_MotherShip_Makaan_car0_rch0_res0_hyp1",
@@ -1227,26 +1144,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.6, capitalship_upgrades_buildspeed.lua
+	-- #68.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
 		DisplayPriority = 90,
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res1_hyp0",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_MotherShip_Makaan_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.7, capitalship_upgrades_buildspeed.lua
+	-- #69.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
@@ -1254,8 +1170,7 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_MotherShip_Makaan_car0_rch0_res1_hyp1",
@@ -1265,26 +1180,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.8, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 0,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #23.9, capitalship_upgrades_buildspeed.lua
+	-- #70.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
@@ -1292,8 +1188,7 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_MotherShip_Makaan_car0_rch1_res0_hyp0",
@@ -1303,64 +1198,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.10, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 0,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #23.11, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 0,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #23.12, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 0,
-		Description = "$7816",
-		DisplayPriority = 90,
-		DisplayedName = "$7815",
-		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #23.13, capitalship_upgrades_buildspeed.lua
+	-- #71.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
@@ -1368,8 +1206,7 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_MotherShip_Makaan_car0_rch1_res0_hyp1",
@@ -1379,26 +1216,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.14, capitalship_upgrades_buildspeed.lua
+	-- #72.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
 		DisplayPriority = 90,
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
-		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res1_hyp0",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_MotherShip_Makaan_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_MotherShip_Makaan_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.15, capitalship_upgrades_buildspeed.lua
+	-- #73.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
@@ -1406,8 +1242,7 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_MotherShip_Makaan_car0_rch1_res1_hyp1",
@@ -1417,7 +1252,133 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #23.16, capitalship_upgrades_buildspeed.lua
+	-- #74.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 0,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #75.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 0,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #76.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 0,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #77.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 0,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res1_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_Makaan_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #78.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 0,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_Makaan_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #79.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 0,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_Makaan_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #80.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 0,
+		Description = "$7816",
+		DisplayPriority = 90,
+		DisplayedName = "$7815",
+		Icon = Icon_Build,
+		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_MotherShip_Makaan_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #81.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 0,
 		Description = "$7816",
@@ -1425,8 +1386,7 @@ research =
 		DisplayedName = "$7815",
 		Icon = Icon_Build,
 		Name = "Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "MothershipBUILDSPEEDUpgrade1",
+		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7240",
 		TargetName = "Vgr_MotherShip_Makaan_car1_rch1_res1_hyp1",
@@ -1436,7 +1396,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.1, capitalship_upgrades_buildspeed.lua
+	-- #82.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
@@ -1444,7 +1404,6 @@ research =
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
 		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
@@ -1455,64 +1414,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.2, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7826",
-		DisplayPriority = 65,
-		DisplayedName = "$7825",
-		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 95,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #24.3, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7826",
-		DisplayPriority = 65,
-		DisplayedName = "$7825",
-		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 95,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #24.4, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7826",
-		DisplayPriority = 65,
-		DisplayedName = "$7825",
-		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 95,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #24.5, capitalship_upgrades_buildspeed.lua
+	-- #83.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
@@ -1520,7 +1422,6 @@ research =
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
 		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
@@ -1531,26 +1432,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.6, capitalship_upgrades_buildspeed.lua
+	-- #84.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
 		DisplayPriority = 65,
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		RequireTag = "VaygrBuilder",
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_ShipYard_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 95,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.7, capitalship_upgrades_buildspeed.lua
+	-- #85.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
@@ -1558,7 +1458,6 @@ research =
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
 		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
@@ -1569,26 +1468,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.8, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7826",
-		DisplayPriority = 65,
-		DisplayedName = "$7825",
-		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 95,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #24.9, capitalship_upgrades_buildspeed.lua
+	-- #86.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
@@ -1596,7 +1476,6 @@ research =
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
 		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
@@ -1607,64 +1486,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.10, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7826",
-		DisplayPriority = 65,
-		DisplayedName = "$7825",
-		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 95,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #24.11, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7826",
-		DisplayPriority = 65,
-		DisplayedName = "$7825",
-		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 95,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #24.12, capitalship_upgrades_buildspeed.lua
-	{
-		Cost = 1000,
-		Description = "$7826",
-		DisplayPriority = 65,
-		DisplayedName = "$7825",
-		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		RequireTag = "VaygrBuilder",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
-		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 95,
-		UpgradeName = "BUILDSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.3,
-	},
-	-- #24.13, capitalship_upgrades_buildspeed.lua
+	-- #87.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
@@ -1672,7 +1494,6 @@ research =
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
 		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
@@ -1683,26 +1504,25 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.14, capitalship_upgrades_buildspeed.lua
+	-- #88.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
 		DisplayPriority = 65,
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
-		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		RequireTag = "VaygrBuilder",
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
-		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_ShipYard_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 95,
 		UpgradeName = "BUILDSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.15, capitalship_upgrades_buildspeed.lua
+	-- #89.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
@@ -1710,7 +1530,6 @@ research =
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
 		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
@@ -1721,7 +1540,133 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #24.16, capitalship_upgrades_buildspeed.lua
+	-- #90.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7826",
+		DisplayPriority = 65,
+		DisplayedName = "$7825",
+		Icon = Icon_Build,
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 95,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #91.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7826",
+		DisplayPriority = 65,
+		DisplayedName = "$7825",
+		Icon = Icon_Build,
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 95,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #92.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7826",
+		DisplayPriority = 65,
+		DisplayedName = "$7825",
+		Icon = Icon_Build,
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 95,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #93.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7826",
+		DisplayPriority = 65,
+		DisplayedName = "$7825",
+		Icon = Icon_Build,
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 95,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #94.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7826",
+		DisplayPriority = 65,
+		DisplayedName = "$7825",
+		Icon = Icon_Build,
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 95,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #95.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7826",
+		DisplayPriority = 65,
+		DisplayedName = "$7825",
+		Icon = Icon_Build,
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 95,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #96.0, capitalship_upgrades_buildspeed.lua
+	{
+		Cost = 1000,
+		Description = "$7826",
+		DisplayPriority = 65,
+		DisplayedName = "$7825",
+		Icon = Icon_Build,
+		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+		ShortDisplayedName = "$7240",
+		TargetName = "Vgr_ShipYard_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 95,
+		UpgradeName = "BUILDSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.3,
+	},
+	-- #97.0, capitalship_upgrades_buildspeed.lua
 	{
 		Cost = 1000,
 		Description = "$7826",
@@ -1729,7 +1674,6 @@ research =
 		DisplayedName = "$7825",
 		Icon = Icon_Build,
 		Name = "Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
-		RequireTag = "VaygrBuilder",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
 		ShortDisplayedName = "$7240",
@@ -1740,7 +1684,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #25.0, corvette_upgrade_health.lua
+	-- #98.0, corvette_upgrade_health.lua
 	{
 		Cost = 1800,
 		Description = "$7760",
@@ -1748,7 +1692,6 @@ research =
 		DisplayedName = "$7759",
 		Icon = Icon_Health,
 		Name = "Vgr_CorvetteHealthUpgrade1",
-		RequireTag = "VaygrCorvette",
 		RequiredResearch = "",
 		RequiredSubSystems = "CorvetteProduction & Research",
 		ShortDisplayedName = "$7341",
@@ -1759,7 +1702,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.5,
 	},
-	-- #26.0, corvette_upgrade_health.lua
+	-- #99.0, corvette_upgrade_health.lua
 	{
 		Cost = 1000,
 		Description = "$7764",
@@ -1767,7 +1710,6 @@ research =
 		DisplayedName = "$7763",
 		Icon = Icon_Speed,
 		Name = "Vgr_CorvetteSpeedUpgrade1",
-		RequireTag = "VaygrCorvette",
 		RequiredResearch = "",
 		RequiredSubSystems = "CorvetteProduction & Research",
 		ShortDisplayedName = "$7341",
@@ -1778,7 +1720,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.3,
 	},
-	-- #27.1, default.lua
+	-- #100.0, default.lua
 	{
 		Cost = 2500,
 		Description = "$7719",
@@ -1793,7 +1735,7 @@ research =
 		TargetType = Ship,
 		Time = 200,
 	},
-	-- #27.2, default.lua
+	-- #101.0, default.lua
 	{
 		Cost = 2500,
 		Description = "$7719",
@@ -1808,7 +1750,7 @@ research =
 		TargetType = Ship,
 		Time = 200,
 	},
-	-- #28.1, default.lua
+	-- #102.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7711",
@@ -1823,7 +1765,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #28.2, default.lua
+	-- #103.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7711",
@@ -1838,7 +1780,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #29.1, default.lua
+	-- #104.0, default.lua
 	{
 		Cost = 1500,
 		Description = "$7707",
@@ -1853,7 +1795,7 @@ research =
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #29.2, default.lua
+	-- #105.0, default.lua
 	{
 		Cost = 1500,
 		Description = "$7707",
@@ -1868,7 +1810,7 @@ research =
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #30.1, default.lua
+	-- #106.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7709",
@@ -1883,7 +1825,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #30.2, default.lua
+	-- #107.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7709",
@@ -1898,7 +1840,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #31.0, default.lua
+	-- #108.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7177",
@@ -1913,7 +1855,7 @@ research =
 		TargetType = Family,
 		Time = 40,
 	},
-	-- #32.1, default.lua
+	-- #109.0, default.lua
 	{
 		Cost = 2000,
 		Description = "$7721",
@@ -1928,7 +1870,7 @@ research =
 		TargetType = Ship,
 		Time = 140,
 	},
-	-- #32.2, default.lua
+	-- #110.0, default.lua
 	{
 		Cost = 2000,
 		Description = "$7721",
@@ -1943,7 +1885,7 @@ research =
 		TargetType = Ship,
 		Time = 140,
 	},
-	-- #33.1, default.lua
+	-- #111.0, default.lua
 	{
 		Cost = 650,
 		Description = "$7715",
@@ -1958,7 +1900,7 @@ research =
 		TargetType = Ship,
 		Time = 45,
 	},
-	-- #33.2, default.lua
+	-- #112.0, default.lua
 	{
 		Cost = 650,
 		Description = "$7715",
@@ -1973,7 +1915,7 @@ research =
 		TargetType = Ship,
 		Time = 45,
 	},
-	-- #34.1, default.lua
+	-- #113.0, default.lua
 	{
 		Cost = 1000,
 		Description = "$7717",
@@ -1988,7 +1930,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #34.2, default.lua
+	-- #114.0, default.lua
 	{
 		Cost = 1000,
 		Description = "$7717",
@@ -2003,7 +1945,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #35.0, default.lua
+	-- #115.0, default.lua
 	{
 		Cost = 1800,
 		Description = "$7179",
@@ -2018,7 +1960,7 @@ research =
 		TargetType = Family,
 		Time = 120,
 	},
-	-- #36.0, default.lua
+	-- #116.0, default.lua
 	{
 		Cost = 0,
 		Description = "Enhances the fleet's hyperspace drive systems, reducing the hyperspace damage caused by gravity wells. Ships Only Take 10 15906903amage when forced out of hyperspace.",
@@ -2036,37 +1978,22 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.4,
 	},
-	-- #37.1, default.lua
+	-- #117.0, default.lua
 	{
 		Cost = 750,
 		Description = "$7723",
 		DisplayPriority = 262,
 		DisplayedName = "$7722",
 		Icon = Icon_Tech,
-		Name = "Vgr_HyperspaceGateTech_hyp0",
+		Name = "Vgr_HyperspaceGateTech",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7310",
-		TargetName = "Vgr_HyperSpace_Platform_hyp0",
+		TargetName = "Vgr_HyperSpace_Platform",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #37.2, default.lua
-	{
-		Cost = 750,
-		Description = "$7723",
-		DisplayPriority = 262,
-		DisplayedName = "$7722",
-		Icon = Icon_Tech,
-		Name = "Vgr_HyperspaceGateTech_hyp1",
-		RequiredResearch = "",
-		RequiredSubSystems = "Research",
-		ShortDisplayedName = "$7310",
-		TargetName = "Vgr_HyperSpace_Platform_hyp1",
-		TargetType = Ship,
-		Time = 50,
-	},
-	-- #38.1, default.lua
+	-- #118.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7705",
@@ -2081,7 +2008,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #38.2, default.lua
+	-- #119.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7705",
@@ -2096,7 +2023,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #39.1, default.lua
+	-- #120.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7703",
@@ -2111,7 +2038,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #39.2, default.lua
+	-- #121.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7703",
@@ -2126,7 +2053,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #40.1, default.lua
+	-- #122.0, default.lua
 	{
 		Cost = 1200,
 		Description = "$7713",
@@ -2141,7 +2068,7 @@ research =
 		TargetType = Ship,
 		Time = 105,
 	},
-	-- #40.2, default.lua
+	-- #123.0, default.lua
 	{
 		Cost = 1200,
 		Description = "$7713",
@@ -2156,7 +2083,7 @@ research =
 		TargetType = Ship,
 		Time = 105,
 	},
-	-- #41.1, default.lua
+	-- #124.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7184",
@@ -2171,7 +2098,7 @@ research =
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #41.2, default.lua
+	-- #125.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7184",
@@ -2186,7 +2113,7 @@ research =
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #42.1, default.lua
+	-- #126.0, default.lua
 	{
 		Cost = 800,
 		Description = "$7701",
@@ -2201,7 +2128,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #42.2, default.lua
+	-- #127.0, default.lua
 	{
 		Cost = 800,
 		Description = "$7701",
@@ -2216,7 +2143,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #43.1, explicit_grant.lua
+	-- #128.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2233,58 +2160,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.2, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #43.3, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #43.4, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #43.5, explicit_grant.lua
+	-- #129.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2301,24 +2177,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.6, explicit_grant.lua
+	-- #130.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car1_rch0_res0_hyp1",
+		Name = "Vgr_SGMCapitalHealth_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Mothership_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.7, explicit_grant.lua
+	-- #131.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2335,24 +2211,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.8, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #43.9, explicit_grant.lua
+	-- #132.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2369,58 +2228,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.10, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #43.11, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #43.12, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #43.13, explicit_grant.lua
+	-- #133.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2437,24 +2245,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.14, explicit_grant.lua
+	-- #134.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_car1_rch1_res0_hyp1",
+		Name = "Vgr_SGMCapitalHealth_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Mothership_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.15, explicit_grant.lua
+	-- #135.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2471,7 +2279,126 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #43.16, explicit_grant.lua
+	-- #136.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #137.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #138.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #139.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #140.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #141.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #142.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #143.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2488,7 +2415,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.1, explicit_grant.lua
+	-- #144.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2496,7 +2423,7 @@ research =
 		DisplayedName = "",
 		DoNotGrant = 1,
 		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch0_res0_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
 		TargetName = "Vgr_Mothership_Makaan_car0_rch0_res0_hyp0",
 		TargetType = Ship,
@@ -2505,58 +2432,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.2, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res0_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #44.3, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch0_res1_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #44.4, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res1_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #44.5, explicit_grant.lua
+	-- #145.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2564,7 +2440,7 @@ research =
 		DisplayedName = "",
 		DoNotGrant = 1,
 		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch0_res0_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
 		TargetName = "Vgr_Mothership_Makaan_car0_rch0_res0_hyp1",
 		TargetType = Ship,
@@ -2573,24 +2449,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.6, explicit_grant.lua
+	-- #146.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res0_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
+		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Mothership_Makaan_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.7, explicit_grant.lua
+	-- #147.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2598,7 +2474,7 @@ research =
 		DisplayedName = "",
 		DoNotGrant = 1,
 		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch0_res1_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
 		TargetName = "Vgr_Mothership_Makaan_car0_rch0_res1_hyp1",
 		TargetType = Ship,
@@ -2607,24 +2483,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.8, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res1_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #44.9, explicit_grant.lua
+	-- #148.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2632,7 +2491,7 @@ research =
 		DisplayedName = "",
 		DoNotGrant = 1,
 		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch1_res0_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
 		TargetName = "Vgr_Mothership_Makaan_car0_rch1_res0_hyp0",
 		TargetType = Ship,
@@ -2641,58 +2500,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.10, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch1_res0_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #44.11, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch1_res1_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #44.12, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch1_res1_hyp0",
-		RequiredResearch = "SGMCapitalHealth",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #44.13, explicit_grant.lua
+	-- #149.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2700,7 +2508,7 @@ research =
 		DisplayedName = "",
 		DoNotGrant = 1,
 		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch1_res0_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
 		TargetName = "Vgr_Mothership_Makaan_car0_rch1_res0_hyp1",
 		TargetType = Ship,
@@ -2709,24 +2517,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.14, explicit_grant.lua
+	-- #150.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch1_res0_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
+		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Mothership_Makaan_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Mothership_Makaan_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.15, explicit_grant.lua
+	-- #151.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2734,7 +2542,7 @@ research =
 		DisplayedName = "",
 		DoNotGrant = 1,
 		Name = "Vgr_SGMCapitalHealth_Makaan_car0_rch1_res1_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
 		TargetName = "Vgr_Mothership_Makaan_car0_rch1_res1_hyp1",
 		TargetType = Ship,
@@ -2743,7 +2551,126 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #44.16, explicit_grant.lua
+	-- #152.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #153.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #154.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #155.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_Makaan_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #156.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_Makaan_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #157.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_Makaan_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #158.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Mothership_Makaan_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #159.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2751,7 +2678,7 @@ research =
 		DisplayedName = "",
 		DoNotGrant = 1,
 		Name = "Vgr_SGMCapitalHealth_Makaan_car1_rch1_res1_hyp1",
-		RequiredResearch = "SGMCapitalHealth",
+		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
 		TargetName = "Vgr_Mothership_Makaan_car1_rch1_res1_hyp1",
 		TargetType = Ship,
@@ -2760,7 +2687,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #45.1, explicit_grant.lua
+	-- #160.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2777,58 +2704,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.2, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.8,
-	},
-	-- #45.3, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.8,
-	},
-	-- #45.4, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.8,
-	},
-	-- #45.5, explicit_grant.lua
+	-- #161.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2845,24 +2721,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.6, explicit_grant.lua
+	-- #162.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car1_rch0_res0_hyp1",
+		Name = "Vgr_SGMCarrierHealth_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.7, explicit_grant.lua
+	-- #163.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2879,24 +2755,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.8, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.8,
-	},
-	-- #45.9, explicit_grant.lua
+	-- #164.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2913,58 +2772,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.10, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.8,
-	},
-	-- #45.11, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.8,
-	},
-	-- #45.12, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.8,
-	},
-	-- #45.13, explicit_grant.lua
+	-- #165.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2981,24 +2789,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.14, explicit_grant.lua
+	-- #166.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMCarrierHealth_car1_rch1_res0_hyp1",
+		Name = "Vgr_SGMCarrierHealth_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.15, explicit_grant.lua
+	-- #167.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3015,7 +2823,126 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #45.16, explicit_grant.lua
+	-- #168.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCarrierHealth_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.8,
+	},
+	-- #169.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCarrierHealth_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.8,
+	},
+	-- #170.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCarrierHealth_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.8,
+	},
+	-- #171.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCarrierHealth_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.8,
+	},
+	-- #172.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCarrierHealth_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.8,
+	},
+	-- #173.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCarrierHealth_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.8,
+	},
+	-- #174.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMCarrierHealth_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.8,
+	},
+	-- #175.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3032,7 +2959,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #46.0, explicit_grant.lua
+	-- #176.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3049,7 +2976,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.65,
 	},
-	-- #47.1, explicit_grant.lua
+	-- #177.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3066,58 +2993,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.2, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #47.3, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #47.4, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #47.5, explicit_grant.lua
+	-- #178.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3134,24 +3010,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.6, explicit_grant.lua
+	-- #179.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car1_rch0_res0_hyp1",
+		Name = "Vgr_SGMShipyardHealth_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Shipyard_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.7, explicit_grant.lua
+	-- #180.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3168,24 +3044,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.8, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #47.9, explicit_grant.lua
+	-- #181.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3202,58 +3061,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.10, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #47.11, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #47.12, explicit_grant.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.5,
-	},
-	-- #47.13, explicit_grant.lua
+	-- #182.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3270,24 +3078,24 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.14, explicit_grant.lua
+	-- #183.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
 		DoNotGrant = 1,
-		Name = "Vgr_SGMShipyardHealth_car1_rch1_res0_hyp1",
+		Name = "Vgr_SGMShipyardHealth_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Shipyard_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.15, explicit_grant.lua
+	-- #184.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3304,7 +3112,126 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #47.16, explicit_grant.lua
+	-- #185.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMShipyardHealth_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #186.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMShipyardHealth_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #187.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMShipyardHealth_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #188.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMShipyardHealth_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #189.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMShipyardHealth_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #190.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMShipyardHealth_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #191.0, explicit_grant.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		DoNotGrant = 1,
+		Name = "Vgr_SGMShipyardHealth_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.5,
+	},
+	-- #192.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3321,7 +3248,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #48.0, fighter_upgrade_speed.lua
+	-- #193.0, fighter_upgrade_speed.lua
 	{
 		Cost = 1200,
 		Description = "$7756",
@@ -3329,7 +3256,6 @@ research =
 		DisplayedName = "$7755",
 		Icon = Icon_Speed,
 		Name = "Vgr_FighterspeedUpgrade1",
-		RequireTag = "VaygrFighter",
 		RequiredResearch = "",
 		RequiredSubSystems = "FighterProduction & Research",
 		ShortDisplayedName = "$7331",
@@ -3340,7 +3266,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.4,
 	},
-	-- #49.0, frigate_upgrade_speed.lua
+	-- #194.0, frigate_upgrade_speed.lua
 	{
 		Cost = 2000,
 		Description = "$7768",
@@ -3348,7 +3274,6 @@ research =
 		DisplayedName = "$7767",
 		Icon = Icon_Health,
 		Name = "Vgr_FrigateHealthUpgrade1",
-		RequireTag = "VaygrFrigate",
 		RequiredResearch = "",
 		RequiredSubSystems = "FrigateProduction & Research",
 		ShortDisplayedName = "$7371",
@@ -3359,7 +3284,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.4,
 	},
-	-- #50.0, frigate_upgrade_speed.lua
+	-- #195.0, frigate_upgrade_speed.lua
 	{
 		Cost = 1200,
 		Description = "$7772",
@@ -3367,7 +3292,6 @@ research =
 		DisplayedName = "$7771",
 		Icon = Icon_Speed,
 		Name = "Vgr_FrigateSpeedUpgrade1",
-		RequireTag = "VaygrFrigate",
 		RequiredResearch = "",
 		RequiredSubSystems = "FrigateProduction & Research",
 		ShortDisplayedName = "$7371",
@@ -3378,7 +3302,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.25,
 	},
-	-- #51.0, platform_upgrade.lua
+	-- #196.0, platform_upgrade.lua
 	{
 		Cost = 1600,
 		Description = "$7776",
@@ -3386,7 +3310,6 @@ research =
 		DisplayedName = "$7775",
 		Icon = Icon_Health,
 		Name = "Vgr_PlatformHealthUpgrade1",
-		RequireTag = "VaygrPlatform",
 		RequiredResearch = "",
 		RequiredSubSystems = "PlatformProduction & Research",
 		ShortDisplayedName = "$7361",
@@ -3397,7 +3320,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.75,
 	},
-	-- #52.0, singleplayer_hacks.lua
+	-- #197.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Corvette Health upgrade - SP GAME ONLY",
@@ -3413,7 +3336,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #53.1, singleplayer_hacks.lua
+	-- #198.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3429,7 +3352,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #53.2, singleplayer_hacks.lua
+	-- #199.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3445,7 +3368,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #54.0, singleplayer_hacks.lua
+	-- #200.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3460,7 +3383,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.01,
 	},
-	-- #55.0, singleplayer_hacks.lua
+	-- #201.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3475,7 +3398,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #56.1, singleplayer_hacks.lua
+	-- #202.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3491,7 +3414,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.475,
 	},
-	-- #56.2, singleplayer_hacks.lua
+	-- #203.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3507,7 +3430,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.475,
 	},
-	-- #57.1, singleplayer_hacks.lua
+	-- #204.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3523,55 +3446,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.2, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #57.3, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #57.4, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #57.5, singleplayer_hacks.lua
+	-- #205.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3587,23 +3462,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.6, singleplayer_hacks.lua
+	-- #206.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res0_hyp1",
+		Name = "Vgr_MakaanCarrierHealth_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.7, singleplayer_hacks.lua
+	-- #207.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3619,23 +3494,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.8, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #57.9, singleplayer_hacks.lua
+	-- #208.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3651,55 +3510,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.10, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #57.11, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #57.12, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #57.13, singleplayer_hacks.lua
+	-- #209.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3715,23 +3526,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.14, singleplayer_hacks.lua
+	-- #210.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
-		Name = "Vgr_MakaanCarrierHealth_car1_rch1_res0_hyp1",
+		Name = "Vgr_MakaanCarrierHealth_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.15, singleplayer_hacks.lua
+	-- #211.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3747,7 +3558,119 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #57.16, singleplayer_hacks.lua
+	-- #212.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #213.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #214.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #215.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanCarrierHealth_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #216.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanCarrierHealth_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #217.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanCarrierHealth_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #218.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanCarrierHealth_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #219.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3763,7 +3686,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #58.0, singleplayer_hacks.lua
+	-- #220.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3779,7 +3702,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.6,
 	},
-	-- #59.1, singleplayer_hacks.lua
+	-- #221.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3795,7 +3718,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #59.2, singleplayer_hacks.lua
+	-- #222.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3811,7 +3734,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #60.0, singleplayer_hacks.lua
+	-- #223.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3827,7 +3750,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.5,
 	},
-	-- #61.0, singleplayer_hacks.lua
+	-- #224.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3843,7 +3766,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.6,
 	},
-	-- #62.0, singleplayer_hacks.lua
+	-- #225.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3859,7 +3782,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2.15,
 	},
-	-- #63.1, singleplayer_hacks.lua
+	-- #226.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3875,55 +3798,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.2, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #63.3, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #63.4, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #63.5, singleplayer_hacks.lua
+	-- #227.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3939,23 +3814,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.6, singleplayer_hacks.lua
+	-- #228.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res0_hyp1",
+		Name = "Vgr_MakaanShipyardHealth_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Shipyard_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.7, singleplayer_hacks.lua
+	-- #229.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3971,23 +3846,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.8, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #63.9, singleplayer_hacks.lua
+	-- #230.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4003,55 +3862,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.10, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #63.11, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #63.12, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 1.8,
-	},
-	-- #63.13, singleplayer_hacks.lua
+	-- #231.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4067,23 +3878,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.14, singleplayer_hacks.lua
+	-- #232.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
-		Name = "Vgr_MakaanShipyardHealth_car1_rch1_res0_hyp1",
+		Name = "Vgr_MakaanShipyardHealth_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Shipyard_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.15, singleplayer_hacks.lua
+	-- #233.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4099,7 +3910,119 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #63.16, singleplayer_hacks.lua
+	-- #234.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #235.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #236.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #237.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanShipyardHealth_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #238.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanShipyardHealth_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #239.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanShipyardHealth_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #240.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanShipyardHealth_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Shipyard_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.8,
+	},
+	-- #241.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4115,7 +4038,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #64.0, singleplayer_hacks.lua
+	-- #242.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4131,7 +4054,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2.25,
 	},
-	-- #65.1, singleplayer_hacks.lua
+	-- #243.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4147,55 +4070,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.2, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.0001,
-	},
-	-- #65.3, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.0001,
-	},
-	-- #65.4, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.0001,
-	},
-	-- #65.5, singleplayer_hacks.lua
+	-- #244.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4211,23 +4086,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.6, singleplayer_hacks.lua
+	-- #245.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
 		DisplayPriority = 1208,
 		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res0_hyp1",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_ShipYard_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.7, singleplayer_hacks.lua
+	-- #246.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4243,23 +4118,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.8, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.0001,
-	},
-	-- #65.9, singleplayer_hacks.lua
+	-- #247.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4275,55 +4134,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.10, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.0001,
-	},
-	-- #65.11, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.0001,
-	},
-	-- #65.12, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXSPEED",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.0001,
-	},
-	-- #65.13, singleplayer_hacks.lua
+	-- #248.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4339,23 +4150,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.14, singleplayer_hacks.lua
+	-- #249.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
 		DisplayPriority = 1208,
 		DisplayedName = "Vaygr Shipyard Speed downgrade",
-		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res0_hyp1",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_ShipYard_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXSPEED",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.15, singleplayer_hacks.lua
+	-- #250.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4371,7 +4182,119 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #65.16, singleplayer_hacks.lua
+	-- #251.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Shipyard Speed downgrade",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.0001,
+	},
+	-- #252.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Shipyard Speed downgrade",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_ShipYard_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.0001,
+	},
+	-- #253.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Shipyard Speed downgrade",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.0001,
+	},
+	-- #254.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Shipyard Speed downgrade",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_ShipYard_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.0001,
+	},
+	-- #255.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Shipyard Speed downgrade",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.0001,
+	},
+	-- #256.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Shipyard Speed downgrade",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_ShipYard_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.0001,
+	},
+	-- #257.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Shipyard Speed downgrade",
+		Name = "Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_ShipYard_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXSPEED",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.0001,
+	},
+	-- #258.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4387,7 +4310,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #66.1, singleplayer_hacks.lua
+	-- #259.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4403,7 +4326,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #66.2, singleplayer_hacks.lua
+	-- #260.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4419,7 +4342,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #67.1, singleplayer_hacks.lua
+	-- #261.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4435,7 +4358,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #67.2, singleplayer_hacks.lua
+	-- #262.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4451,7 +4374,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #68.0, singleplayer_hacks.lua
+	-- #263.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Secret Upgrade",
@@ -4467,7 +4390,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.572,
 	},
-	-- #69.0, singleplayer_hacks.lua
+	-- #264.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Carrier Health upgrade - SP GAME ONLY",
@@ -4483,7 +4406,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2.5,
 	},
-	-- #70.1, singleplayer_hacks.lua
+	-- #265.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4499,7 +4422,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #70.2, singleplayer_hacks.lua
+	-- #266.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4515,7 +4438,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #71.1, singleplayer_hacks.lua
+	-- #267.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4531,55 +4454,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.2, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1207,
-		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "HealthRegenerationRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.1,
-	},
-	-- #71.3, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1207,
-		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "HealthRegenerationRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.1,
-	},
-	-- #71.4, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1207,
-		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "HealthRegenerationRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.1,
-	},
-	-- #71.5, singleplayer_hacks.lua
+	-- #268.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4595,23 +4470,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.6, singleplayer_hacks.lua
+	-- #269.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1207,
 		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res0_hyp1",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "HealthRegenerationRate",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.7, singleplayer_hacks.lua
+	-- #270.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4627,23 +4502,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.8, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1207,
-		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "HealthRegenerationRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.1,
-	},
-	-- #71.9, singleplayer_hacks.lua
+	-- #271.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4659,55 +4518,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.10, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1207,
-		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "HealthRegenerationRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.1,
-	},
-	-- #71.11, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1207,
-		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "HealthRegenerationRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.1,
-	},
-	-- #71.12, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1207,
-		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "HealthRegenerationRate",
-		UpgradeType = Modifier,
-		UpgradeValue = 0.1,
-	},
-	-- #71.13, singleplayer_hacks.lua
+	-- #272.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4723,23 +4534,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.14, singleplayer_hacks.lua
+	-- #273.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1207,
 		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
-		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res0_hyp1",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "HealthRegenerationRate",
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.15, singleplayer_hacks.lua
+	-- #274.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4755,7 +4566,119 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #71.16, singleplayer_hacks.lua
+	-- #275.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1207,
+		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "HealthRegenerationRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.1,
+	},
+	-- #276.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1207,
+		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "HealthRegenerationRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.1,
+	},
+	-- #277.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1207,
+		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "HealthRegenerationRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.1,
+	},
+	-- #278.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1207,
+		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "HealthRegenerationRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.1,
+	},
+	-- #279.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1207,
+		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "HealthRegenerationRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.1,
+	},
+	-- #280.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1207,
+		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "HealthRegenerationRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.1,
+	},
+	-- #281.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1207,
+		DisplayedName = "Vaygr Carrier Health Regen Rate Downgrade",
+		Name = "Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "HealthRegenerationRate",
+		UpgradeType = Modifier,
+		UpgradeValue = 0.1,
+	},
+	-- #282.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4771,7 +4694,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #72.1, singleplayer_hacks.lua
+	-- #283.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4787,55 +4710,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.2, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 3,
-	},
-	-- #72.3, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car0_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 3,
-	},
-	-- #72.4, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 3,
-	},
-	-- #72.5, singleplayer_hacks.lua
+	-- #284.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4851,23 +4726,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.6, singleplayer_hacks.lua
+	-- #285.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res0_hyp1",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car0_rch0_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch0_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.7, singleplayer_hacks.lua
+	-- #286.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4883,23 +4758,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.8, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res1_hyp1",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 3,
-	},
-	-- #72.9, singleplayer_hacks.lua
+	-- #287.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4915,55 +4774,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.10, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res0_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 3,
-	},
-	-- #72.11, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car0_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 3,
-	},
-	-- #72.12, singleplayer_hacks.lua
-	{
-		Cost = 0,
-		Description = "",
-		DisplayPriority = 1208,
-		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res1_hyp0",
-		RequiredResearch = "RESEARCH HACK",
-		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
-		TargetType = Ship,
-		Time = 0,
-		UpgradeName = "MAXHEALTH",
-		UpgradeType = Modifier,
-		UpgradeValue = 3,
-	},
-	-- #72.13, singleplayer_hacks.lua
+	-- #288.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4979,23 +4790,23 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.14, singleplayer_hacks.lua
+	-- #289.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "Vaygr Carrier Health Upgrade",
-		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res0_hyp1",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car0_rch1_res1_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetName = "Vgr_Carrier_car0_rch1_res1_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.15, singleplayer_hacks.lua
+	-- #290.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5011,7 +4822,119 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #72.16, singleplayer_hacks.lua
+	-- #291.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Carrier Health Upgrade",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 3,
+	},
+	-- #292.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Carrier Health Upgrade",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 3,
+	},
+	-- #293.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Carrier Health Upgrade",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 3,
+	},
+	-- #294.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Carrier Health Upgrade",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch0_res1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 3,
+	},
+	-- #295.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Carrier Health Upgrade",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res0_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 3,
+	},
+	-- #296.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Carrier Health Upgrade",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res0_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res0_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 3,
+	},
+	-- #297.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "Vaygr Carrier Health Upgrade",
+		Name = "Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_Carrier_car1_rch1_res1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 3,
+	},
+	-- #298.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5027,7 +4950,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #73.0, singleplayer_hacks.lua
+	-- #299.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5043,7 +4966,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #74.0, singleplayer_hacks.lua
+	-- #300.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Frigate Health upgrade - SP GAME ONLY",
@@ -5059,7 +4982,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2,
 	},
-	-- #75.0, singleplayer_hacks.lua
+	-- #301.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5074,7 +4997,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0,
 	},
-	-- #76.1, singleplayer_hacks.lua
+	-- #302.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5090,7 +5013,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.75,
 	},
-	-- #76.2, singleplayer_hacks.lua
+	-- #303.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5106,7 +5029,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.75,
 	},
-	-- #77.1, singleplayer_hacks.lua
+	-- #304.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5122,7 +5045,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.25,
 	},
-	-- #77.2, singleplayer_hacks.lua
+	-- #305.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5138,7 +5061,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.25,
 	},
-	-- #78.0, utility_upgrade.lua
+	-- #306.0, utility_upgrade.lua
 	{
 		Cost = 1400,
 		Description = "$7780",
@@ -5146,7 +5069,6 @@ research =
 		DisplayedName = "$7779",
 		Icon = Icon_Health,
 		Name = "Vgr_UtilityHealthUpgrade1",
-		RequireTag = "VaygrUtility",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7351",

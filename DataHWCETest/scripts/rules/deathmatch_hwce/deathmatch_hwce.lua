@@ -1,5 +1,6 @@
 -- load the following external files
 dofilepath([[data:scripts/utilfunc.lua]])
+dofilepath([[data:scripts/techfunc.lua]])
 dofilepath([[data:scripts/SCAR/SCAR_Util.lua]])
 dofilepath([[data:scripts/rules/lib/common.lua]])
 --dofilepath([[data:scripts/rules/lib/definedroles.lua]])		-- game mode not enabled currently
@@ -114,18 +115,18 @@ Player_Races			= {}
 Player_Count			= 0
 
 StartingMessage = ""	-- message string that is displayed immediately after the game starts
-StartFleetSuffixString = ""
-ModeSuffixes = {}
+ModeSuffixString = ""
+ModeSuffixTable = {}
 
 
 --==============================================================================
 -- game entry point
 --
-function OnInit()
+function OnInit_temp()
 	SetStartFleetSuffix("_car0_rch1_res1_hyp1")
 end
 
-function OnInit_old()
+function OnInit()
 	-- need this or Kushan MS won't budge, it's a GearBox thing
 	Volume_AddSphere("centre", {-11111, 11111, 11111,}, 10)
 	Player_Count = Universe_PlayerCount() - 1
@@ -140,13 +141,13 @@ function OnInit_old()
 	ResourceMode		= GetGameSettingAsNumber("resstart")
 	LockTeamsMode		= GetGameSettingAsString("lockteams")
 	StartLocationMode	= GetGameSettingAsString("startlocation")
-	cpuplayers		= GetGameSettingAsNumber("cpuplayers")
-	norushtime		= GetGameSettingAsNumber("norushtime")
+	cpuplayers			= GetGameSettingAsNumber("cpuplayers")
+	norushtime			= GetGameSettingAsNumber("norushtime")
 	StartWithMode		= GetGameSettingAsString("startwith")
 	ResearchMode		= GetGameSettingAsNumber("research")
 	HyperspaceMode		= GetGameSettingAsNumber("hyperspace")
 	BountiesMode		= GetGameSettingAsNumber("bounties")
-	CratesMode		= GetGameSettingAsNumber("crates")
+	CratesMode			= GetGameSettingAsNumber("crates")
 	ResourceInjectionAmount	= GetGameSettingAsNumber("resourceinjection")
 	ResourceInjectionTime	= GetGameSettingAsNumber("resourceinjectionevery")
 	ResourceLumpSumAmount	= GetGameSettingAsNumber("resourcelumpsum")
@@ -185,17 +186,17 @@ function OnInit_old()
 	print("HWCE: Generating PRNG seeds.")
 
 	local Seed_Value = 0
-	for i = 0, Player_Count do
-		Seed_Value =	Seed_Value
-				+ srandom(INI_Seed, 100) * Player_GetRace(i)
-				+ srandom(INI_Seed, 100) * Player_GetLevelOfDifficulty(i)
+	for playerIndex = 0, Player_Count do
+		Seed_Value = Seed_Value
+				+ srandom(INI_Seed, 100) * Player_GetRace(playerIndex)
+				+ srandom(INI_Seed, 100) * Player_GetLevelOfDifficulty(playerIndex)
 	end
 
 	Seed_Value = floor(Seed_Value)
 
 	print("HWCE: SUM_Seed1 = " .. Seed_Value)
 
-	Seed_Value =	Seed_Value
+	Seed_Value = Seed_Value
 			+ srandom(INI_Seed, 100) * ResMultiMode
 			+ srandom(INI_Seed, 100) * strlen(UnitCapsMode)
 			+ srandom(INI_Seed, 100) * ResourceMode
@@ -321,7 +322,8 @@ function OnInit_old()
 		end
 	end
 
-	ModeSuffixes = {StartWithMode == "carrieronly", ResearchMode == 1, ResourceMode ~= -1, HyperspaceMode == 1,}
+	ModeSuffixTable = BuildSuffixTable()
+	ModeSuffixString = "_car" .. ModeSuffixTable[1] .. "_rch" .. ModeSuffixTable[2] .. "_res" .. ModeSuffixTable[3] .. "_hyp" .. ModeSuffixTable[4]
 
 	-- setup resource injections
 	if (ResourceInjectionAmount > 0) then
@@ -348,31 +350,27 @@ function OnInit_old()
 		-- setup the "Start With" game modes
 		if (StartWithMode == "mothership") then
 			print("HWC: START WITH mode set to mothership and carrier.")
-			StartFleetSuffixString = StartFleetSuffixString .. "_car0"
 			Rule_Add("DespawnPlayerFleetInHyperspaceRule")
 			Rule_Add("DespawnNonPlayerFleetOnMapRule")
 		elseif (StartWithMode == "carrieronly") then
 			print("HWC: START WITH mode set to carrier only.")
-			StartFleetSuffixString = StartFleetSuffixString .. "_car1"
 			Rule_Add("DespawnPlayerFleetInHyperspaceRule")
 			Rule_Add("DespawnNonPlayerFleetOnMapRule")
 		elseif (StartWithMode == "frommap") then
 			print("HWC: START WITH mode set to HW1 map.")
 			-- this is set later toward the end of the script instead of here
---			StartFleetSuffixString = "_blank"
+--			ModeSuffixString = "_blank"
 			Rule_Add("SpawnPlayerFleetInHyperspaceRule")
 		end
 
 		-- setup the "no research" game mode
 		if (ResearchMode == 0) then
 			print("HWC: RESEARCH disabled.")
-			StartFleetSuffixString = StartFleetSuffixString .. "_rch0"
 			-- allow time for mothership to come out of hyperspace
 			Rule_AddInterval("GrantAllResearchRule", 15)
 			UI_SetElementEnabled("NewTaskbar", "btnResearch", 0)
 		else
 			print("HWC: RESEARCH enabled.")
-			StartFleetSuffixString = StartFleetSuffixString .. "_rch1"
 		end
 
 		-- setup the "Resourcing Disabled" option
@@ -382,23 +380,19 @@ function OnInit_old()
 --			SobGroup_Create("ResourcersToDestroy")
 --			resourceStartCountingTime = Universe_GameTime()
 --			Rule_AddInterval("DestroyResourcersRule", 1)
-			StartFleetSuffixString = StartFleetSuffixString .. "_res0"
 		else
 			print("HWC: RESOURCING enabled.")
-			StartFleetSuffixString = StartFleetSuffixString .. "_res1"
 		end
 
 		-- setup the "no hyperspace" game mode
 		-- need to implement a starting fleet solution for this mode too
 		if (HyperspaceMode == 0) then
 			print("HWC: HYPERSPACE disabled.")
-			StartFleetSuffixString = StartFleetSuffixString .. "_hyp0"
 			-- was disabled in the past due to poor performance issues
 			-- the only alternative I can think of is to duplicate all ships and remove the hyperspace ability in the .ship files
 			Rule_AddInterval("DisableHyperspaceRule", 1)
 		else
 			print("HWC: HYPERSPACE enabled.")
-			StartFleetSuffixString = StartFleetSuffixString .. "_hyp1"
 		end
 	end
 
@@ -434,10 +428,12 @@ function OnInit_old()
 	-- New GearBox HWRM stuff
 
 	if (norushtime > 0) then
+		print("GBX: CPU NO RUSH TIME.")
 		UI_TimerStop("NewTaskbar", "GameTimer")	
 		Rule_AddInterval("norushtime_updating", 10)
 	end
 
+	print("GBX: CPU PLAYERS.")
 	Rule_AddInterval("cpuplayers_updating", 0.1)
 
 
@@ -464,7 +460,7 @@ function OnInit_old()
 	if (SpecialFleetsMode == 1) then
 		print("GPE: SPECIAL FLEETS enabled.")
 		-- this is set later toward the end of the script instead of here
---		StartFleetSuffixString = "_blank"
+--		ModeSuffixString = "_blank"
 		Rule_Add("SpecialFleets_Init")
 	else
 		print("GPE: SPECIAL FLEETS disabled.")
@@ -523,11 +519,11 @@ function OnInit_old()
 
 	-- these need to override any previous settings
 	if ((StartWithMode == "frommap") or (SpecialFleetsMode == 1)) then
-		StartFleetSuffixString = "_blank"
+		ModeSuffixString = "_blank"
 	end
 	-- finally set the start fleet suffix here
-	print("HWCE: Setting StartFleetSuffix: \"" .. StartFleetSuffixString .. "\"")
-	SetStartFleetSuffix(StartFleetSuffixString)
+	print("HWCE: Setting StartFleetSuffix: \"" .. ModeSuffixString .. "\"")
+	SetStartFleetSuffix(ModeSuffixString)
 
 	-- would like to eventually get rid of this, but it depends on a GearBox setting
 	Rule_AddInterval("sobgroups_init", 1)

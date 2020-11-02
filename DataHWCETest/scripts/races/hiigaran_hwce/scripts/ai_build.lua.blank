@@ -1,0 +1,10 @@
+aitrace("LOADING HIIGARAN BUILD INFO")
+
+function DetermineDemandWithNoCounterInfo_Hiigaran()
+end
+
+function DetermineSpecialDemand_Hiigaran()
+end
+
+Proc_DetermineDemandWithNoCounterInfo = DetermineDemandWithNoCounterInfo_Hiigaran
+Proc_DetermineSpecialDemand = DetermineSpecialDemand_Hiigaran

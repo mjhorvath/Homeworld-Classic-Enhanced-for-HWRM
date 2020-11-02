@@ -1,258 +1,258 @@
-VariantBuild =
+VariantBuilds =
 {
-	Vgr_BattleCruiser =
+	vgr_battlecruiser =
 	{
-		"Vgr_BattleCruiser_hyp0",
-		"Vgr_BattleCruiser_hyp1",
+		VGR_BATTLECRUISER_HYP0,
+		VGR_BATTLECRUISER_HYP1,
 	},
-	Vgr_Carrier =
+	vgr_carrier =
 	{
-		"Vgr_Carrier_car0_rch0_res0_hyp0",
-		"Vgr_Carrier_car1_rch0_res0_hyp0",
-		"Vgr_Carrier_car0_rch0_res1_hyp0",
-		"Vgr_Carrier_car1_rch0_res1_hyp0",
-		"Vgr_Carrier_car0_rch0_res0_hyp1",
-		"Vgr_Carrier_car1_rch0_res0_hyp1",
-		"Vgr_Carrier_car0_rch0_res1_hyp1",
-		"Vgr_Carrier_car1_rch0_res1_hyp1",
-		"Vgr_Carrier_car0_rch1_res0_hyp0",
-		"Vgr_Carrier_car1_rch1_res0_hyp0",
-		"Vgr_Carrier_car0_rch1_res1_hyp0",
-		"Vgr_Carrier_car1_rch1_res1_hyp0",
-		"Vgr_Carrier_car0_rch1_res0_hyp1",
-		"Vgr_Carrier_car1_rch1_res0_hyp1",
-		"Vgr_Carrier_car0_rch1_res1_hyp1",
-		"Vgr_Carrier_car1_rch1_res1_hyp1",
+		VGR_CARRIER_CAR0_RCH0_RES0_HYP0,
+		VGR_CARRIER_CAR1_RCH0_RES0_HYP0,
+		VGR_CARRIER_CAR0_RCH0_RES1_HYP0,
+		VGR_CARRIER_CAR1_RCH0_RES1_HYP0,
+		VGR_CARRIER_CAR0_RCH0_RES0_HYP1,
+		VGR_CARRIER_CAR1_RCH0_RES0_HYP1,
+		VGR_CARRIER_CAR0_RCH0_RES1_HYP1,
+		VGR_CARRIER_CAR1_RCH0_RES1_HYP1,
+		VGR_CARRIER_CAR0_RCH1_RES0_HYP0,
+		VGR_CARRIER_CAR1_RCH1_RES0_HYP0,
+		VGR_CARRIER_CAR0_RCH1_RES1_HYP0,
+		VGR_CARRIER_CAR1_RCH1_RES1_HYP0,
+		VGR_CARRIER_CAR0_RCH1_RES0_HYP1,
+		VGR_CARRIER_CAR1_RCH1_RES0_HYP1,
+		VGR_CARRIER_CAR0_RCH1_RES1_HYP1,
+		VGR_CARRIER_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_Destroyer =
+	vgr_destroyer =
 	{
-		"Vgr_Destroyer_hyp0",
-		"Vgr_Destroyer_hyp1",
+		VGR_DESTROYER_HYP0,
+		VGR_DESTROYER_HYP1,
 	},
-	Vgr_ShipYard =
+	vgr_shipyard =
 	{
-		"Vgr_ShipYard_car0_rch0_res0_hyp0",
-		"Vgr_ShipYard_car1_rch0_res0_hyp0",
-		"Vgr_ShipYard_car0_rch0_res1_hyp0",
-		"Vgr_ShipYard_car1_rch0_res1_hyp0",
-		"Vgr_ShipYard_car0_rch0_res0_hyp1",
-		"Vgr_ShipYard_car1_rch0_res0_hyp1",
-		"Vgr_ShipYard_car0_rch0_res1_hyp1",
-		"Vgr_ShipYard_car1_rch0_res1_hyp1",
-		"Vgr_ShipYard_car0_rch1_res0_hyp0",
-		"Vgr_ShipYard_car1_rch1_res0_hyp0",
-		"Vgr_ShipYard_car0_rch1_res1_hyp0",
-		"Vgr_ShipYard_car1_rch1_res1_hyp0",
-		"Vgr_ShipYard_car0_rch1_res0_hyp1",
-		"Vgr_ShipYard_car1_rch1_res0_hyp1",
-		"Vgr_ShipYard_car0_rch1_res1_hyp1",
-		"Vgr_ShipYard_car1_rch1_res1_hyp1",
+		VGR_SHIPYARD_CAR0_RCH0_RES0_HYP0,
+		VGR_SHIPYARD_CAR1_RCH0_RES0_HYP0,
+		VGR_SHIPYARD_CAR0_RCH0_RES1_HYP0,
+		VGR_SHIPYARD_CAR1_RCH0_RES1_HYP0,
+		VGR_SHIPYARD_CAR0_RCH0_RES0_HYP1,
+		VGR_SHIPYARD_CAR1_RCH0_RES0_HYP1,
+		VGR_SHIPYARD_CAR0_RCH0_RES1_HYP1,
+		VGR_SHIPYARD_CAR1_RCH0_RES1_HYP1,
+		VGR_SHIPYARD_CAR0_RCH1_RES0_HYP0,
+		VGR_SHIPYARD_CAR1_RCH1_RES0_HYP0,
+		VGR_SHIPYARD_CAR0_RCH1_RES1_HYP0,
+		VGR_SHIPYARD_CAR1_RCH1_RES1_HYP0,
+		VGR_SHIPYARD_CAR0_RCH1_RES0_HYP1,
+		VGR_SHIPYARD_CAR1_RCH1_RES0_HYP1,
+		VGR_SHIPYARD_CAR0_RCH1_RES1_HYP1,
+		VGR_SHIPYARD_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_CommandCorvette =
+	vgr_commandcorvette =
 	{
-		"Vgr_CommandCorvette_hyp0",
-		"Vgr_CommandCorvette_hyp1",
+		VGR_COMMANDCORVETTE_HYP0,
+		VGR_COMMANDCORVETTE_HYP1,
 	},
-	Vgr_LaserCorvette =
+	vgr_lasercorvette =
 	{
-		"Vgr_LaserCorvette_hyp0",
-		"Vgr_LaserCorvette_hyp1",
+		VGR_LASERCORVETTE_HYP0,
+		VGR_LASERCORVETTE_HYP1,
 	},
-	Vgr_MinelayerCorvette =
+	vgr_minelayercorvette =
 	{
-		"Vgr_MinelayerCorvette_hyp0",
-		"Vgr_MinelayerCorvette_hyp1",
+		VGR_MINELAYERCORVETTE_HYP0,
+		VGR_MINELAYERCORVETTE_HYP1,
 	},
-	Vgr_MissileCorvette =
+	vgr_missilecorvette =
 	{
-		"Vgr_MissileCorvette_hyp0",
-		"Vgr_MissileCorvette_hyp1",
+		VGR_MISSILECORVETTE_HYP0,
+		VGR_MISSILECORVETTE_HYP1,
 	},
-	Vgr_Bomber =
+	vgr_bomber =
 	{
-		"Vgr_Bomber_hyp0",
-		"Vgr_Bomber_hyp1",
+		VGR_BOMBER_HYP0,
+		VGR_BOMBER_HYP1,
 	},
-	Vgr_Interceptor =
+	vgr_interceptor =
 	{
-		"Vgr_Interceptor_hyp0",
-		"Vgr_Interceptor_hyp1",
+		VGR_INTERCEPTOR_HYP0,
+		VGR_INTERCEPTOR_HYP1,
 	},
-	Vgr_LanceFighter =
+	vgr_lancefighter =
 	{
-		"Vgr_LanceFighter_hyp0",
-		"Vgr_LanceFighter_hyp1",
+		VGR_LANCEFIGHTER_HYP0,
+		VGR_LANCEFIGHTER_HYP1,
 	},
-	Vgr_Scout =
+	vgr_scout =
 	{
-		"Vgr_Scout_hyp0",
-		"Vgr_Scout_hyp1",
+		VGR_SCOUT_HYP0,
+		VGR_SCOUT_HYP1,
 	},
-	Vgr_AssaultFrigate =
+	vgr_assaultfrigate =
 	{
-		"Vgr_AssaultFrigate_hyp0",
-		"Vgr_AssaultFrigate_hyp1",
+		VGR_ASSAULTFRIGATE_HYP0,
+		VGR_ASSAULTFRIGATE_HYP1,
 	},
-	Vgr_HeavyMissileFrigate =
+	vgr_heavymissilefrigate =
 	{
-		"Vgr_HeavyMissileFrigate_hyp0",
-		"Vgr_HeavyMissileFrigate_hyp1",
+		VGR_HEAVYMISSILEFRIGATE_HYP0,
+		VGR_HEAVYMISSILEFRIGATE_HYP1,
 	},
-	Vgr_InfiltratorFrigate =
+	vgr_infiltratorfrigate =
 	{
-		"Vgr_InfiltratorFrigate_hyp0",
-		"Vgr_InfiltratorFrigate_hyp1",
+		VGR_INFILTRATORFRIGATE_HYP0,
+		VGR_INFILTRATORFRIGATE_HYP1,
 	},
-	Vgr_WeaponPlatform_gun =
+	vgr_weaponplatform_gun =
 	{
-		"Vgr_WeaponPlatform_gun_hyp0",
-		"Vgr_WeaponPlatform_gun_hyp1",
+		VGR_WEAPONPLATFORM_GUN_HYP0,
+		VGR_WEAPONPLATFORM_GUN_HYP1,
 	},
-	Vgr_WeaponPlatform_missile =
+	vgr_weaponplatform_missile =
 	{
-		"Vgr_WeaponPlatform_missile_hyp0",
-		"Vgr_WeaponPlatform_missile_hyp1",
+		VGR_WEAPONPLATFORM_MISSILE_HYP0,
+		VGR_WEAPONPLATFORM_MISSILE_HYP1,
 	},
-	Vgr_PlanetKillerMissile =
+	vgr_planetkillermissile =
 	{
-		"Vgr_PlanetKillerMissile",
+		VGR_PLANETKILLERMISSILE,
 	},
-	Vgr_C_Module_CloakGenerator =
+	vgr_c_module_cloakgenerator =
 	{
-		"Vgr_C_Module_CloakGenerator_rch0",
-		"Vgr_C_Module_CloakGenerator_rch1",
+		VGR_C_MODULE_CLOAKGENERATOR_RCH0,
+		VGR_C_MODULE_CLOAKGENERATOR_RCH1,
 	},
-	Vgr_C_Module_FireControl =
+	vgr_c_module_firecontrol =
 	{
-		"Vgr_C_Module_FireControl_rch0",
-		"Vgr_C_Module_FireControl_rch1",
+		VGR_C_MODULE_FIRECONTROL_RCH0,
+		VGR_C_MODULE_FIRECONTROL_RCH1,
 	},
-	Vgr_C_Module_Hyperspace =
+	vgr_c_module_hyperspace =
 	{
-		"Vgr_C_Module_Hyperspace",
+		VGR_C_MODULE_HYPERSPACE,
 	},
-	Vgr_C_Module_HyperspaceInhibitor =
+	vgr_c_module_hyperspaceinhibitor =
 	{
-		"Vgr_C_Module_HyperspaceInhibitor_rch0",
-		"Vgr_C_Module_HyperspaceInhibitor_rch1",
+		VGR_C_MODULE_HYPERSPACEINHIBITOR_RCH0,
+		VGR_C_MODULE_HYPERSPACEINHIBITOR_RCH1,
 	},
-	Vgr_C_Module_PlatformControl =
+	vgr_c_module_platformcontrol =
 	{
-		"Vgr_C_Module_PlatformControl",
+		VGR_C_MODULE_PLATFORMCONTROL,
 	},
-	Vgr_C_Module_Research =
+	vgr_c_module_research =
 	{
-		"Vgr_C_Module_Research",
+		VGR_C_MODULE_RESEARCH,
 	},
-	Vgr_C_Production_Corvette =
+	vgr_c_production_corvette =
 	{
-		"Vgr_C_Production_Corvette_car0",
-		"Vgr_C_Production_Corvette_car1",
+		VGR_C_PRODUCTION_CORVETTE_CAR0,
+		VGR_C_PRODUCTION_CORVETTE_CAR1,
 	},
-	Vgr_C_Production_Fighter =
+	vgr_c_production_fighter =
 	{
-		"Vgr_C_Production_Fighter_car0",
-		"Vgr_C_Production_Fighter_car1",
+		VGR_C_PRODUCTION_FIGHTER_CAR0,
+		VGR_C_PRODUCTION_FIGHTER_CAR1,
 	},
-	Vgr_C_Production_Frigate =
+	vgr_c_production_frigate =
 	{
-		"Vgr_C_Production_Frigate",
+		VGR_C_PRODUCTION_FRIGATE,
 	},
-	Vgr_C_Sensors_AdvancedArray =
+	vgr_c_sensors_advancedarray =
 	{
-		"Vgr_C_Sensors_AdvancedArray",
+		VGR_C_SENSORS_ADVANCEDARRAY,
 	},
-	Vgr_C_Sensors_DetectHyperspace =
+	vgr_c_sensors_detecthyperspace =
 	{
-		"Vgr_C_Sensors_DetectHyperspace",
+		VGR_C_SENSORS_DETECTHYPERSPACE,
 	},
-	Vgr_MS_Module_CloakGenerator =
+	vgr_ms_module_cloakgenerator =
 	{
-		"Vgr_MS_Module_CloakGenerator_rch0",
-		"Vgr_MS_Module_CloakGenerator_rch1",
+		VGR_MS_MODULE_CLOAKGENERATOR_RCH0,
+		VGR_MS_MODULE_CLOAKGENERATOR_RCH1,
 	},
-	Vgr_MS_Module_FireControl =
+	vgr_ms_module_firecontrol =
 	{
-		"Vgr_MS_Module_FireControl_rch0",
-		"Vgr_MS_Module_FireControl_rch1",
+		VGR_MS_MODULE_FIRECONTROL_RCH0,
+		VGR_MS_MODULE_FIRECONTROL_RCH1,
 	},
-	Vgr_MS_Module_Hyperspace =
+	vgr_ms_module_hyperspace =
 	{
-		"Vgr_MS_Module_Hyperspace",
+		VGR_MS_MODULE_HYPERSPACE,
 	},
-	Vgr_MS_Module_HyperspaceInhibitor =
+	vgr_ms_module_hyperspaceinhibitor =
 	{
-		"Vgr_MS_Module_HyperspaceInhibitor_rch0",
-		"Vgr_MS_Module_HyperspaceInhibitor_rch1",
+		VGR_MS_MODULE_HYPERSPACEINHIBITOR_RCH0,
+		VGR_MS_MODULE_HYPERSPACEINHIBITOR_RCH1,
 	},
-	Vgr_MS_Module_PlatformControl =
+	vgr_ms_module_platformcontrol =
 	{
-		"Vgr_MS_Module_PlatformControl",
+		VGR_MS_MODULE_PLATFORMCONTROL,
 	},
-	Vgr_MS_Module_Research =
+	vgr_ms_module_research =
 	{
-		"Vgr_MS_Module_Research",
+		VGR_MS_MODULE_RESEARCH,
 	},
-	Vgr_MS_Production_CapShip =
+	vgr_ms_production_capship =
 	{
-		"Vgr_MS_Production_CapShip",
+		VGR_MS_PRODUCTION_CAPSHIP,
 	},
-	Vgr_MS_Production_Corvette =
+	vgr_ms_production_corvette =
 	{
-		"Vgr_MS_Production_Corvette",
+		VGR_MS_PRODUCTION_CORVETTE,
 	},
-	Vgr_MS_Production_Fighter =
+	vgr_ms_production_fighter =
 	{
-		"Vgr_MS_Production_Fighter",
+		VGR_MS_PRODUCTION_FIGHTER,
 	},
-	Vgr_MS_Production_Frigate =
+	vgr_ms_production_frigate =
 	{
-		"Vgr_MS_Production_Frigate",
+		VGR_MS_PRODUCTION_FRIGATE,
 	},
-	Vgr_MS_Sensors_AdvancedArray =
+	vgr_ms_sensors_advancedarray =
 	{
-		"Vgr_MS_Sensors_AdvancedArray",
+		VGR_MS_SENSORS_ADVANCEDARRAY,
 	},
-	Vgr_MS_Sensors_DetectHyperspace =
+	vgr_ms_sensors_detecthyperspace =
 	{
-		"Vgr_MS_Sensors_DetectHyperspace",
+		VGR_MS_SENSORS_DETECTHYPERSPACE,
 	},
-	Vgr_SY_Production_CapShip =
+	vgr_sy_production_capship =
 	{
-		"Vgr_SY_Production_CapShip",
+		VGR_SY_PRODUCTION_CAPSHIP,
 	},
-	Vgr_HyperSpace_Platform =
+	vgr_hyperspace_platform =
 	{
-		"Vgr_HyperSpace_Platform_hyp0",
-		"Vgr_HyperSpace_Platform_hyp1",
+		VGR_HYPERSPACE_PLATFORM_HYP0,
+		VGR_HYPERSPACE_PLATFORM_HYP1,
 	},
-	Vgr_Probe =
+	vgr_probe =
 	{
-		"Vgr_Probe_hyp0",
-		"Vgr_Probe_hyp1",
+		VGR_PROBE_HYP0,
+		VGR_PROBE_HYP1,
 	},
-	Vgr_Probe_ECM =
+	vgr_probe_ecm =
 	{
-		"Vgr_Probe_ECM_hyp0",
-		"Vgr_Probe_ECM_hyp1",
+		VGR_PROBE_ECM_HYP0,
+		VGR_PROBE_ECM_HYP1,
 	},
-	Vgr_Probe_Prox =
+	vgr_probe_prox =
 	{
-		"Vgr_Probe_Prox_hyp0",
-		"Vgr_Probe_Prox_hyp1",
+		VGR_PROBE_PROX_HYP0,
+		VGR_PROBE_PROX_HYP1,
 	},
-	Vgr_ResourceCollector =
+	vgr_resourcecollector =
 	{
-		"Vgr_ResourceCollector_res0_hyp0",
-		"Vgr_ResourceCollector_res1_hyp0",
-		"Vgr_ResourceCollector_res0_hyp1",
-		"Vgr_ResourceCollector_res1_hyp1",
+		VGR_RESOURCECOLLECTOR_RES0_HYP0,
+		VGR_RESOURCECOLLECTOR_RES1_HYP0,
+		VGR_RESOURCECOLLECTOR_RES0_HYP1,
+		VGR_RESOURCECOLLECTOR_RES1_HYP1,
 	},
-	Vgr_ResourceController =
+	vgr_resourcecontroller =
 	{
-		"Vgr_ResourceController_res0_hyp0",
-		"Vgr_ResourceController_res1_hyp0",
-		"Vgr_ResourceController_res0_hyp1",
-		"Vgr_ResourceController_res1_hyp1",
+		VGR_RESOURCECONTROLLER_RES0_HYP0,
+		VGR_RESOURCECONTROLLER_RES1_HYP0,
+		VGR_RESOURCECONTROLLER_RES0_HYP1,
+		VGR_RESOURCECONTROLLER_RES1_HYP1,
 	},
 }

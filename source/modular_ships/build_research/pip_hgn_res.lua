@@ -1,858 +1,864 @@
 VariantResearch =
 {
-	Hgn_AttackBomberImprovedBombs =
+	hgn_attackbomberimprovedbombs =
 	{
-		"Hgn_AttackBomberImprovedBombs_hyp0",
-		"Hgn_AttackBomberImprovedBombs_hyp1",
+		HGN_ATTACKBOMBERIMPROVEDBOMBS_HYP0,
+		HGN_ATTACKBOMBERIMPROVEDBOMBS_HYP1,
 	},
-	Hgn_DefenseFieldFrigateShield =
+	hgn_defensefieldfrigateshield =
 	{
-		"Hgn_DefenseFieldFrigateShield_hyp0",
-		"Hgn_DefenseFieldFrigateShield_hyp1",
+		HGN_DEFENSEFIELDFRIGATESHIELD_HYP0,
+		HGN_DEFENSEFIELDFRIGATESHIELD_HYP1,
 	},
-	Hgn_ImprovedTorpedo =
+	hgn_improvedtorpedo =
 	{
-		"Hgn_ImprovedTorpedo_hyp0",
-		"Hgn_ImprovedTorpedo_hyp1",
+		HGN_IMPROVEDTORPEDO_HYP0,
+		HGN_IMPROVEDTORPEDO_HYP1,
 	},
-	Hgn_RepairAbility =
+	hgn_repairability =
 	{
-		"Hgn_RepairAbility_hyp0",
-		"Hgn_RepairAbility_hyp1",
+		HGN_REPAIRABILITY_RES0_HYP0,
+		HGN_REPAIRABILITY_RES1_HYP0,
+		HGN_REPAIRABILITY_RES0_HYP1,
+		HGN_REPAIRABILITY_RES1_HYP1,
 	},
-	Hgn_ScoutEMPAbility =
+	hgn_scoutempability =
 	{
-		"Hgn_ScoutEMPAbility_hyp0",
-		"Hgn_ScoutEMPAbility_hyp1",
+		HGN_SCOUTEMPABILITY_HYP0,
+		HGN_SCOUTEMPABILITY_HYP1,
 	},
-	Hgn_ScoutPingAbility =
+	hgn_scoutpingability =
 	{
-		"Hgn_ScoutPingAbility_hyp0",
-		"Hgn_ScoutPingAbility_hyp1",
+		HGN_SCOUTPINGABILITY_HYP0,
+		HGN_SCOUTPINGABILITY_HYP1,
 	},
-	Hgn_AllShipBuildSpeed =
+	hgn_allshipbuildspeed =
 	{
-		"Hgn_AllShipBuildSpeed",
+		HGN_ALLSHIPBUILDSPEED,
 	},
-	Hgn_AllShipBuildSpeedExpert =
+	hgn_allshipbuildspeedexpert =
 	{
-		"Hgn_AllShipBuildSpeedExpert",
+		HGN_ALLSHIPBUILDSPEEDEXPERT,
 	},
-	Hgn_AllShipBuildSpeedHard =
+	hgn_allshipbuildspeedhard =
 	{
-		"Hgn_AllShipBuildSpeedHard",
+		HGN_ALLSHIPBUILDSPEEDHARD,
 	},
-	Hgn_cpuplayers_aggressive =
+	hgn_cpuplayers_aggressive =
 	{
-		"Hgn_cpuplayers_aggressive",
+		HGN_CPUPLAYERS_AGGRESSIVE,
 	},
-	Hgn_cpuplayers_defensive =
+	hgn_cpuplayers_defensive =
 	{
-		"Hgn_cpuplayers_defensive",
+		HGN_CPUPLAYERS_DEFENSIVE,
 	},
-	Hgn_cpuplayers_dynamic =
+	hgn_cpuplayers_dynamic =
 	{
-		"Hgn_cpuplayers_dynamic",
+		HGN_CPUPLAYERS_DYNAMIC,
 	},
-	Hgn_cpuplayers_norushtime10 =
+	hgn_cpuplayers_norushtime10 =
 	{
-		"Hgn_cpuplayers_norushtime10",
+		HGN_CPUPLAYERS_NORUSHTIME10,
 	},
-	Hgn_cpuplayers_norushtime15 =
+	hgn_cpuplayers_norushtime15 =
 	{
-		"Hgn_cpuplayers_norushtime15",
+		HGN_CPUPLAYERS_NORUSHTIME15,
 	},
-	Hgn_cpuplayers_norushtime5 =
+	hgn_cpuplayers_norushtime5 =
 	{
-		"Hgn_cpuplayers_norushtime5",
+		HGN_CPUPLAYERS_NORUSHTIME5,
 	},
-	Hgn_ResourceCollectionRateExpert =
+	hgn_resourcecollectionrateexpert =
 	{
-		"Hgn_ResourceCollectionRateExpert_hyp0",
-		"Hgn_ResourceCollectionRateExpert_hyp1",
+		HGN_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP0,
+		HGN_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP0,
+		HGN_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP1,
+		HGN_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP1,
 	},
-	Hgn_ResourceCollectionRateHard =
+	hgn_resourcecollectionratehard =
 	{
-		"Hgn_ResourceCollectionRateHard_hyp0",
-		"Hgn_ResourceCollectionRateHard_hyp1",
+		HGN_RESOURCECOLLECTIONRATEHARD_RES0_HYP0,
+		HGN_RESOURCECOLLECTIONRATEHARD_RES1_HYP0,
+		HGN_RESOURCECOLLECTIONRATEHARD_RES0_HYP1,
+		HGN_RESOURCECOLLECTIONRATEHARD_RES1_HYP1,
 	},
-	Hgn_WeaponDamageUpgrade125 =
+	hgn_weapondamageupgrade125 =
 	{
-		"Hgn_WeaponDamageUpgrade125",
+		HGN_WEAPONDAMAGEUPGRADE125,
 	},
-	Hgn_WeaponDamageUpgrade150 =
+	hgn_weapondamageupgrade150 =
 	{
-		"Hgn_WeaponDamageUpgrade150",
+		HGN_WEAPONDAMAGEUPGRADE150,
 	},
-	Hgn_WeaponDamageUpgrade175 =
+	hgn_weapondamageupgrade175 =
 	{
-		"Hgn_WeaponDamageUpgrade175",
+		HGN_WEAPONDAMAGEUPGRADE175,
 	},
-	Hgn_WeaponDamageUpgrade200 =
+	hgn_weapondamageupgrade200 =
 	{
-		"Hgn_WeaponDamageUpgrade200",
+		HGN_WEAPONDAMAGEUPGRADE200,
 	},
-	Hgn_BattlecruiserHealthUpgrade1 =
+	hgn_battlecruiserhealthupgrade1 =
 	{
-		"Hgn_BattlecruiserHealthUpgrade1_hyp0",
-		"Hgn_BattlecruiserHealthUpgrade1_hyp1",
-	},
-	Hgn_BattlecruiserMAXSPEEDUpgrade1 =
-	{
-		"Hgn_BattlecruiserMAXSPEEDUpgrade1_hyp0",
-		"Hgn_BattlecruiserMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_CarrierBUILDSPEEDUpgrade1 =
-	{
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_CarrierBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_CarrierHealthUpgrade1 =
-	{
-		"Hgn_CarrierHealthUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_CarrierHealthUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_CarrierHealthUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_CarrierHealthUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_CarrierHealthUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_CarrierHealthUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_CarrierHealthUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_CarrierHealthUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_CarrierHealthUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_CarrierMAXSPEEDUpgrade1 =
-	{
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_CarrierMAXSPEEDUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_AssaultCorvetteHealthUpgrade1 =
-	{
-		"Hgn_AssaultCorvetteHealthUpgrade1_hyp0",
-		"Hgn_AssaultCorvetteHealthUpgrade1_hyp1",
-	},
-	Hgn_PulsarCorvetteHealthUpgrade1 =
-	{
-		"Hgn_PulsarCorvetteHealthUpgrade1_hyp0",
-		"Hgn_PulsarCorvetteHealthUpgrade1_hyp1",
-	},
-	Hgn_AssaultCorvetteMAXSPEEDUpgrade1 =
-	{
-		"Hgn_AssaultCorvetteMAXSPEEDUpgrade1_hyp0",
-		"Hgn_AssaultCorvetteMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_PulsarCorvetteMAXSPEEDUpgrade1 =
-	{
-		"Hgn_PulsarCorvetteMAXSPEEDUpgrade1_hyp0",
-		"Hgn_PulsarCorvetteMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_BattlecruiserIonWeapons =
-	{
-		"Hgn_BattlecruiserIonWeapons_hyp0",
-		"Hgn_BattlecruiserIonWeapons_hyp1",
-	},
-	Hgn_DestroyerTech =
-	{
-		"Hgn_DestroyerTech_hyp0",
-		"Hgn_DestroyerTech_hyp1",
-	},
-	Hgn_ECMProbe =
-	{
-		"Hgn_ECMProbe_hyp0",
-		"Hgn_ECMProbe_hyp1",
-	},
-	Hgn_GraviticAttractionMines =
-	{
-		"Hgn_GraviticAttractionMines_hyp0",
-		"Hgn_GraviticAttractionMines_hyp1",
-	},
-	Hgn_HyperspaceDamageReductionUpgrade =
-	{
-		"Hgn_HyperspaceDamageReductionUpgrade",
-	},
-	Hgn_InstaAdvancedFrigateTech =
-	{
-		"Hgn_InstaAdvancedFrigateTech_car0_rch0_res0_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch0_res0_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car0_rch0_res1_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch0_res1_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car0_rch0_res0_hyp1",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch0_res0_hyp1",
-		"Hgn_InstaAdvancedFrigateTech_car0_rch0_res1_hyp1",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch0_res1_hyp1",
-		"Hgn_InstaAdvancedFrigateTech_car0_rch1_res0_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch1_res0_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car0_rch1_res1_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch1_res1_hyp0",
-		"Hgn_InstaAdvancedFrigateTech_car0_rch1_res0_hyp1",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch1_res0_hyp1",
-		"Hgn_InstaAdvancedFrigateTech_car0_rch1_res1_hyp1",
-		"Hgn_InstaAdvancedFrigateTech_car1_rch1_res1_hyp1",
-	},
-	Hgn_PlatformIonWeapons =
-	{
-		"Hgn_PlatformIonWeapons_hyp0",
-		"Hgn_PlatformIonWeapons_hyp1",
-	},
-	Hgn_SensDisProbe =
-	{
-		"Hgn_SensDisProbe_hyp0",
-		"Hgn_SensDisProbe_hyp1",
-	},
-	Hgn_DestroyerHealthUpgrade1 =
-	{
-		"Hgn_DestroyerHealthUpgrade1_hyp0",
-		"Hgn_DestroyerHealthUpgrade1_hyp1",
-	},
-	Hgn_DestroyerMAXSPEEDUpgrade1 =
-	{
-		"Hgn_DestroyerMAXSPEEDUpgrade1_hyp0",
-		"Hgn_DestroyerMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_SGMCapitalHealth =
-	{
-		"Hgn_SGMCapitalHealth_car0_rch0_res0_hyp0",
-		"Hgn_SGMCapitalHealth_car1_rch0_res0_hyp0",
-		"Hgn_SGMCapitalHealth_car0_rch0_res1_hyp0",
-		"Hgn_SGMCapitalHealth_car1_rch0_res1_hyp0",
-		"Hgn_SGMCapitalHealth_car0_rch0_res0_hyp1",
-		"Hgn_SGMCapitalHealth_car1_rch0_res0_hyp1",
-		"Hgn_SGMCapitalHealth_car0_rch0_res1_hyp1",
-		"Hgn_SGMCapitalHealth_car1_rch0_res1_hyp1",
-		"Hgn_SGMCapitalHealth_car0_rch1_res0_hyp0",
-		"Hgn_SGMCapitalHealth_car1_rch1_res0_hyp0",
-		"Hgn_SGMCapitalHealth_car0_rch1_res1_hyp0",
-		"Hgn_SGMCapitalHealth_car1_rch1_res1_hyp0",
-		"Hgn_SGMCapitalHealth_car0_rch1_res0_hyp1",
-		"Hgn_SGMCapitalHealth_car1_rch1_res0_hyp1",
-		"Hgn_SGMCapitalHealth_car0_rch1_res1_hyp1",
-		"Hgn_SGMCapitalHealth_car1_rch1_res1_hyp1",
-	},
-	Hgn_SGMCarrierHealth =
-	{
-		"Hgn_SGMCarrierHealth_car0_rch0_res0_hyp0",
-		"Hgn_SGMCarrierHealth_car1_rch0_res0_hyp0",
-		"Hgn_SGMCarrierHealth_car0_rch0_res1_hyp0",
-		"Hgn_SGMCarrierHealth_car1_rch0_res1_hyp0",
-		"Hgn_SGMCarrierHealth_car0_rch0_res0_hyp1",
-		"Hgn_SGMCarrierHealth_car1_rch0_res0_hyp1",
-		"Hgn_SGMCarrierHealth_car0_rch0_res1_hyp1",
-		"Hgn_SGMCarrierHealth_car1_rch0_res1_hyp1",
-		"Hgn_SGMCarrierHealth_car0_rch1_res0_hyp0",
-		"Hgn_SGMCarrierHealth_car1_rch1_res0_hyp0",
-		"Hgn_SGMCarrierHealth_car0_rch1_res1_hyp0",
-		"Hgn_SGMCarrierHealth_car1_rch1_res1_hyp0",
-		"Hgn_SGMCarrierHealth_car0_rch1_res0_hyp1",
-		"Hgn_SGMCarrierHealth_car1_rch1_res0_hyp1",
-		"Hgn_SGMCarrierHealth_car0_rch1_res1_hyp1",
-		"Hgn_SGMCarrierHealth_car1_rch1_res1_hyp1",
-	},
-	Hgn_SGMFrigateHealth =
-	{
-		"Hgn_SGMFrigateHealth",
-	},
-	Hgn_SGMShipyardHealth =
-	{
-		"Hgn_SGMShipyardHealth_car0_rch0_res0_hyp0",
-		"Hgn_SGMShipyardHealth_car1_rch0_res0_hyp0",
-		"Hgn_SGMShipyardHealth_car0_rch0_res1_hyp0",
-		"Hgn_SGMShipyardHealth_car1_rch0_res1_hyp0",
-		"Hgn_SGMShipyardHealth_car0_rch0_res0_hyp1",
-		"Hgn_SGMShipyardHealth_car1_rch0_res0_hyp1",
-		"Hgn_SGMShipyardHealth_car0_rch0_res1_hyp1",
-		"Hgn_SGMShipyardHealth_car1_rch0_res1_hyp1",
-		"Hgn_SGMShipyardHealth_car0_rch1_res0_hyp0",
-		"Hgn_SGMShipyardHealth_car1_rch1_res0_hyp0",
-		"Hgn_SGMShipyardHealth_car0_rch1_res1_hyp0",
-		"Hgn_SGMShipyardHealth_car1_rch1_res1_hyp0",
-		"Hgn_SGMShipyardHealth_car0_rch1_res0_hyp1",
-		"Hgn_SGMShipyardHealth_car1_rch1_res0_hyp1",
-		"Hgn_SGMShipyardHealth_car0_rch1_res1_hyp1",
-		"Hgn_SGMShipyardHealth_car1_rch1_res1_hyp1",
-	},
-	Hgn_AttackBomberMAXSPEEDUpgrade1 =
-	{
-		"Hgn_AttackBomberMAXSPEEDUpgrade1_hyp0",
-		"Hgn_AttackBomberMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_InterceptorMAXSPEEDUpgrade1 =
-	{
-		"Hgn_InterceptorMAXSPEEDUpgrade1_hyp0",
-		"Hgn_InterceptorMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_AssaultFrigateHealthUpgrade1 =
-	{
-		"Hgn_AssaultFrigateHealthUpgrade1_hyp0",
-		"Hgn_AssaultFrigateHealthUpgrade1_hyp1",
-	},
-	Hgn_IonCannonFrigateHealthUpgrade1 =
-	{
-		"Hgn_IonCannonFrigateHealthUpgrade1_hyp0",
-		"Hgn_IonCannonFrigateHealthUpgrade1_hyp1",
-	},
-	Hgn_TorpedoFrigateHealthUpgrade1 =
-	{
-		"Hgn_TorpedoFrigateHealthUpgrade1_hyp0",
-		"Hgn_TorpedoFrigateHealthUpgrade1_hyp1",
-	},
-	Hgn_AssaultFrigateMAXSPEEDUpgrade1 =
-	{
-		"Hgn_AssaultFrigateMAXSPEEDUpgrade1_hyp0",
-		"Hgn_AssaultFrigateMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_IonCannonFrigateMAXSPEEDUpgrade1 =
-	{
-		"Hgn_IonCannonFrigateMAXSPEEDUpgrade1_hyp0",
-		"Hgn_IonCannonFrigateMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_TorpedoFrigateMAXSPEEDUpgrade1 =
-	{
-		"Hgn_TorpedoFrigateMAXSPEEDUpgrade1_hyp0",
-		"Hgn_TorpedoFrigateMAXSPEEDUpgrade1_hyp1",
-	},
-	Hgn_HyperspaceCostUpgrade1 =
-	{
-		"Hgn_HyperspaceCostUpgrade1",
-	},
-	Hgn_HyperspaceCostUpgrade2 =
-	{
-		"Hgn_HyperspaceCostUpgrade2",
-	},
-	Hgn_MothershipBUILDSPEEDUpgrade1 =
-	{
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_MothershipBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_MothershipHealthUpgrade1 =
-	{
-		"Hgn_MothershipHealthUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_MothershipHealthUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_MothershipHealthUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_MothershipHealthUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_MothershipHealthUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_MothershipHealthUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_MothershipHealthUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_MothershipHealthUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_MothershipHealthUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_MothershipMAXSPEEDUpgrade1 =
-	{
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_MothershipMAXSPEEDUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_GunTurretHealthUpgrade1 =
-	{
-		"Hgn_GunTurretHealthUpgrade1_hyp0",
-		"Hgn_GunTurretHealthUpgrade1_hyp1",
-	},
-	Hgn_IonTurretHealthUpgrade1 =
-	{
-		"Hgn_IonTurretHealthUpgrade1_hyp0",
-		"Hgn_IonTurretHealthUpgrade1_hyp1",
-	},
-	Hgn_ShipyardBUILDSPEEDUpgrade1 =
-	{
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim =
-	{
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_Elohim_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardBUILDSPEEDUpgrade1_SPG =
-	{
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardBUILDSPEEDUpgrade1_SPG_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardHealthUpgrade1 =
-	{
-		"Hgn_ShipyardHealthUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardHealthUpgrade1_Elohim =
-	{
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_Elohim_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardHealthUpgrade1_SPG =
-	{
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardHealthUpgrade1_SPG_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardMAXSPEEDUpgrade1 =
-	{
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardMAXSPEEDUpgrade1_Elohim =
-	{
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_Elohim_car1_rch1_res1_hyp1",
-	},
-	Hgn_ShipyardMAXSPEEDUpgrade1_SPG =
-	{
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch0_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch0_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch0_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch0_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch0_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch0_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch0_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch0_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch1_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch1_res0_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch1_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch1_res1_hyp0",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch1_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch1_res0_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car0_rch1_res1_hyp1",
-		"Hgn_ShipyardMAXSPEEDUpgrade1_SPG_car1_rch1_res1_hyp1",
-	},
-	Hgn_AssaultCorvetteEliteWeaponUpgrade =
-	{
-		"Hgn_AssaultCorvetteEliteWeaponUpgrade_hyp0",
-		"Hgn_AssaultCorvetteEliteWeaponUpgrade_hyp1",
-	},
-	Hgn_AttackBomberEliteWeaponUpgrade =
-	{
-		"Hgn_AttackBomberEliteWeaponUpgrade_hyp0",
-		"Hgn_AttackBomberEliteWeaponUpgrade_hyp1",
-	},
-	Hgn_AttackDroidHealthUpgradeSPGAME_HIGH =
-	{
-		"Hgn_AttackDroidHealthUpgradeSPGAME_HIGH_hyp0",
-		"Hgn_AttackDroidHealthUpgradeSPGAME_HIGH_hyp1",
-	},
-	Hgn_AttackDroidHealthUpgradeSPGAME_LOW =
-	{
-		"Hgn_AttackDroidHealthUpgradeSPGAME_LOW_hyp0",
-		"Hgn_AttackDroidHealthUpgradeSPGAME_LOW_hyp1",
-	},
-	Hgn_AttackDroidHealthUpgradeSPGAME_MED =
-	{
-		"Hgn_AttackDroidHealthUpgradeSPGAME_MED_hyp0",
-		"Hgn_AttackDroidHealthUpgradeSPGAME_MED_hyp1",
-	},
-	Hgn_AttackDroidWeaponUpgradeSPGAME_HIGH =
-	{
-		"Hgn_AttackDroidWeaponUpgradeSPGAME_HIGH_hyp0",
-		"Hgn_AttackDroidWeaponUpgradeSPGAME_HIGH_hyp1",
-	},
-	Hgn_AttackDroidWeaponUpgradeSPGAME_LOW =
-	{
-		"Hgn_AttackDroidWeaponUpgradeSPGAME_LOW_hyp0",
-		"Hgn_AttackDroidWeaponUpgradeSPGAME_LOW_hyp1",
-	},
-	Hgn_AttackDroidWeaponUpgradeSPGAME_MED =
-	{
-		"Hgn_AttackDroidWeaponUpgradeSPGAME_MED_hyp0",
-		"Hgn_AttackDroidWeaponUpgradeSPGAME_MED_hyp1",
-	},
-	Hgn_DamageMoverTech =
-	{
-		"Hgn_DamageMoverTech_car0_rch0_res0_hyp0",
-		"Hgn_DamageMoverTech_car1_rch0_res0_hyp0",
-		"Hgn_DamageMoverTech_car0_rch0_res1_hyp0",
-		"Hgn_DamageMoverTech_car1_rch0_res1_hyp0",
-		"Hgn_DamageMoverTech_car0_rch0_res0_hyp1",
-		"Hgn_DamageMoverTech_car1_rch0_res0_hyp1",
-		"Hgn_DamageMoverTech_car0_rch0_res1_hyp1",
-		"Hgn_DamageMoverTech_car1_rch0_res1_hyp1",
-		"Hgn_DamageMoverTech_car0_rch1_res0_hyp0",
-		"Hgn_DamageMoverTech_car1_rch1_res0_hyp0",
-		"Hgn_DamageMoverTech_car0_rch1_res1_hyp0",
-		"Hgn_DamageMoverTech_car1_rch1_res1_hyp0",
-		"Hgn_DamageMoverTech_car0_rch1_res0_hyp1",
-		"Hgn_DamageMoverTech_car1_rch1_res0_hyp1",
-		"Hgn_DamageMoverTech_car0_rch1_res1_hyp1",
-		"Hgn_DamageMoverTech_car1_rch1_res1_hyp1",
-	},
-	Hgn_FrigateHealthUpgradeSPGAME =
-	{
-		"Hgn_FrigateHealthUpgradeSPGAME",
-	},
-	Hgn_KeeperHealthUpgradeSPGAME_HIGH =
-	{
-		"Hgn_KeeperHealthUpgradeSPGAME_HIGH_hyp0",
-		"Hgn_KeeperHealthUpgradeSPGAME_HIGH_hyp1",
-	},
-	Hgn_KeeperHealthUpgradeSPGAME_LOW =
-	{
-		"Hgn_KeeperHealthUpgradeSPGAME_LOW_hyp0",
-		"Hgn_KeeperHealthUpgradeSPGAME_LOW_hyp1",
-	},
-	Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_1 =
-	{
-		"Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_1_hyp0",
-		"Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_1_hyp1",
-	},
-	Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_2 =
-	{
-		"Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_2_hyp0",
-		"Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_2_hyp1",
-	},
-	Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_3 =
-	{
-		"Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_3_hyp0",
-		"Hgn_KeeperHealthUpgradeSPGAME_M10_LVL_3_hyp1",
-	},
-	Hgn_KeeperHealthUpgradeSPGAME_MED =
-	{
-		"Hgn_KeeperHealthUpgradeSPGAME_MED_hyp0",
-		"Hgn_KeeperHealthUpgradeSPGAME_MED_hyp1",
-	},
-	Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_1 =
-	{
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_1_hyp0",
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_1_hyp1",
-	},
-	Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_2 =
-	{
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_2_hyp0",
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_2_hyp1",
-	},
-	Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_3 =
-	{
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_3_hyp0",
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_3_hyp1",
-	},
-	Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_4 =
-	{
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_4_hyp0",
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_4_hyp1",
-	},
-	Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_5 =
-	{
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_5_hyp0",
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_5_hyp1",
-	},
-	Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_6 =
-	{
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_6_hyp0",
-		"Hgn_KeeperWeaponUpgradeSPGAME_M10_LVL_6_hyp1",
-	},
-	Hgn_MoverHealthDowngrade =
-	{
-		"Hgn_MoverHealthDowngrade_hyp0",
-		"Hgn_MoverHealthDowngrade_hyp1",
-	},
-	Hgn_MoverHealthUpgrade =
-	{
-		"Hgn_MoverHealthUpgrade_hyp0",
-		"Hgn_MoverHealthUpgrade_hyp1",
-	},
-	Hgn_RadiationDefenseField =
-	{
-		"Hgn_RadiationDefenseField_hyp0",
-		"Hgn_RadiationDefenseField_hyp1",
-	},
-	Hgn_SensorsBackToNormal1 =
-	{
-		"Hgn_SensorsBackToNormal1_car0_rch0_res0_hyp0",
-		"Hgn_SensorsBackToNormal1_car1_rch0_res0_hyp0",
-		"Hgn_SensorsBackToNormal1_car0_rch0_res1_hyp0",
-		"Hgn_SensorsBackToNormal1_car1_rch0_res1_hyp0",
-		"Hgn_SensorsBackToNormal1_car0_rch0_res0_hyp1",
-		"Hgn_SensorsBackToNormal1_car1_rch0_res0_hyp1",
-		"Hgn_SensorsBackToNormal1_car0_rch0_res1_hyp1",
-		"Hgn_SensorsBackToNormal1_car1_rch0_res1_hyp1",
-		"Hgn_SensorsBackToNormal1_car0_rch1_res0_hyp0",
-		"Hgn_SensorsBackToNormal1_car1_rch1_res0_hyp0",
-		"Hgn_SensorsBackToNormal1_car0_rch1_res1_hyp0",
-		"Hgn_SensorsBackToNormal1_car1_rch1_res1_hyp0",
-		"Hgn_SensorsBackToNormal1_car0_rch1_res0_hyp1",
-		"Hgn_SensorsBackToNormal1_car1_rch1_res0_hyp1",
-		"Hgn_SensorsBackToNormal1_car0_rch1_res1_hyp1",
-		"Hgn_SensorsBackToNormal1_car1_rch1_res1_hyp1",
-	},
-	Hgn_SensorsBackToNormal2 =
-	{
-		"Hgn_SensorsBackToNormal2_car0_rch0_res0_hyp0",
-		"Hgn_SensorsBackToNormal2_car1_rch0_res0_hyp0",
-		"Hgn_SensorsBackToNormal2_car0_rch0_res1_hyp0",
-		"Hgn_SensorsBackToNormal2_car1_rch0_res1_hyp0",
-		"Hgn_SensorsBackToNormal2_car0_rch0_res0_hyp1",
-		"Hgn_SensorsBackToNormal2_car1_rch0_res0_hyp1",
-		"Hgn_SensorsBackToNormal2_car0_rch0_res1_hyp1",
-		"Hgn_SensorsBackToNormal2_car1_rch0_res1_hyp1",
-		"Hgn_SensorsBackToNormal2_car0_rch1_res0_hyp0",
-		"Hgn_SensorsBackToNormal2_car1_rch1_res0_hyp0",
-		"Hgn_SensorsBackToNormal2_car0_rch1_res1_hyp0",
-		"Hgn_SensorsBackToNormal2_car1_rch1_res1_hyp0",
-		"Hgn_SensorsBackToNormal2_car0_rch1_res0_hyp1",
-		"Hgn_SensorsBackToNormal2_car1_rch1_res0_hyp1",
-		"Hgn_SensorsBackToNormal2_car0_rch1_res1_hyp1",
-		"Hgn_SensorsBackToNormal2_car1_rch1_res1_hyp1",
-	},
-	Hgn_SensorsBackToNormal3 =
-	{
-		"Hgn_SensorsBackToNormal3_car0_rch0_res0_hyp0",
-		"Hgn_SensorsBackToNormal3_car1_rch0_res0_hyp0",
-		"Hgn_SensorsBackToNormal3_car0_rch0_res1_hyp0",
-		"Hgn_SensorsBackToNormal3_car1_rch0_res1_hyp0",
-		"Hgn_SensorsBackToNormal3_car0_rch0_res0_hyp1",
-		"Hgn_SensorsBackToNormal3_car1_rch0_res0_hyp1",
-		"Hgn_SensorsBackToNormal3_car0_rch0_res1_hyp1",
-		"Hgn_SensorsBackToNormal3_car1_rch0_res1_hyp1",
-		"Hgn_SensorsBackToNormal3_car0_rch1_res0_hyp0",
-		"Hgn_SensorsBackToNormal3_car1_rch1_res0_hyp0",
-		"Hgn_SensorsBackToNormal3_car0_rch1_res1_hyp0",
-		"Hgn_SensorsBackToNormal3_car1_rch1_res1_hyp0",
-		"Hgn_SensorsBackToNormal3_car0_rch1_res0_hyp1",
-		"Hgn_SensorsBackToNormal3_car1_rch1_res0_hyp1",
-		"Hgn_SensorsBackToNormal3_car0_rch1_res1_hyp1",
-		"Hgn_SensorsBackToNormal3_car1_rch1_res1_hyp1",
-	},
-	Hgn_SensorsDowngrade1 =
-	{
-		"Hgn_SensorsDowngrade1_car0_rch0_res0_hyp0",
-		"Hgn_SensorsDowngrade1_car1_rch0_res0_hyp0",
-		"Hgn_SensorsDowngrade1_car0_rch0_res1_hyp0",
-		"Hgn_SensorsDowngrade1_car1_rch0_res1_hyp0",
-		"Hgn_SensorsDowngrade1_car0_rch0_res0_hyp1",
-		"Hgn_SensorsDowngrade1_car1_rch0_res0_hyp1",
-		"Hgn_SensorsDowngrade1_car0_rch0_res1_hyp1",
-		"Hgn_SensorsDowngrade1_car1_rch0_res1_hyp1",
-		"Hgn_SensorsDowngrade1_car0_rch1_res0_hyp0",
-		"Hgn_SensorsDowngrade1_car1_rch1_res0_hyp0",
-		"Hgn_SensorsDowngrade1_car0_rch1_res1_hyp0",
-		"Hgn_SensorsDowngrade1_car1_rch1_res1_hyp0",
-		"Hgn_SensorsDowngrade1_car0_rch1_res0_hyp1",
-		"Hgn_SensorsDowngrade1_car1_rch1_res0_hyp1",
-		"Hgn_SensorsDowngrade1_car0_rch1_res1_hyp1",
-		"Hgn_SensorsDowngrade1_car1_rch1_res1_hyp1",
-	},
-	Hgn_SensorsDowngrade2 =
-	{
-		"Hgn_SensorsDowngrade2_car0_rch0_res0_hyp0",
-		"Hgn_SensorsDowngrade2_car1_rch0_res0_hyp0",
-		"Hgn_SensorsDowngrade2_car0_rch0_res1_hyp0",
-		"Hgn_SensorsDowngrade2_car1_rch0_res1_hyp0",
-		"Hgn_SensorsDowngrade2_car0_rch0_res0_hyp1",
-		"Hgn_SensorsDowngrade2_car1_rch0_res0_hyp1",
-		"Hgn_SensorsDowngrade2_car0_rch0_res1_hyp1",
-		"Hgn_SensorsDowngrade2_car1_rch0_res1_hyp1",
-		"Hgn_SensorsDowngrade2_car0_rch1_res0_hyp0",
-		"Hgn_SensorsDowngrade2_car1_rch1_res0_hyp0",
-		"Hgn_SensorsDowngrade2_car0_rch1_res1_hyp0",
-		"Hgn_SensorsDowngrade2_car1_rch1_res1_hyp0",
-		"Hgn_SensorsDowngrade2_car0_rch1_res0_hyp1",
-		"Hgn_SensorsDowngrade2_car1_rch1_res0_hyp1",
-		"Hgn_SensorsDowngrade2_car0_rch1_res1_hyp1",
-		"Hgn_SensorsDowngrade2_car1_rch1_res1_hyp1",
-	},
-	Hgn_SensorsDowngrade3 =
-	{
-		"Hgn_SensorsDowngrade3_car0_rch0_res0_hyp0",
-		"Hgn_SensorsDowngrade3_car1_rch0_res0_hyp0",
-		"Hgn_SensorsDowngrade3_car0_rch0_res1_hyp0",
-		"Hgn_SensorsDowngrade3_car1_rch0_res1_hyp0",
-		"Hgn_SensorsDowngrade3_car0_rch0_res0_hyp1",
-		"Hgn_SensorsDowngrade3_car1_rch0_res0_hyp1",
-		"Hgn_SensorsDowngrade3_car0_rch0_res1_hyp1",
-		"Hgn_SensorsDowngrade3_car1_rch0_res1_hyp1",
-		"Hgn_SensorsDowngrade3_car0_rch1_res0_hyp0",
-		"Hgn_SensorsDowngrade3_car1_rch1_res0_hyp0",
-		"Hgn_SensorsDowngrade3_car0_rch1_res1_hyp0",
-		"Hgn_SensorsDowngrade3_car1_rch1_res1_hyp0",
-		"Hgn_SensorsDowngrade3_car0_rch1_res0_hyp1",
-		"Hgn_SensorsDowngrade3_car1_rch1_res0_hyp1",
-		"Hgn_SensorsDowngrade3_car0_rch1_res1_hyp1",
-		"Hgn_SensorsDowngrade3_car1_rch1_res1_hyp1",
-	},
-	Hgn_ResourceCollectorHealthUpgrade1 =
-	{
-		"Hgn_ResourceCollectorHealthUpgrade1_res0_hyp0",
-		"Hgn_ResourceCollectorHealthUpgrade1_res1_hyp0",
-		"Hgn_ResourceCollectorHealthUpgrade1_res0_hyp1",
-		"Hgn_ResourceCollectorHealthUpgrade1_res1_hyp1",
-	},
-	Hgn_ResourceControllerHealthUpgrade1 =
-	{
-		"Hgn_ResourceControllerHealthUpgrade1_res0_hyp0",
-		"Hgn_ResourceControllerHealthUpgrade1_res1_hyp0",
-		"Hgn_ResourceControllerHealthUpgrade1_res0_hyp1",
-		"Hgn_ResourceControllerHealthUpgrade1_res1_hyp1",
+		HGN_BATTLECRUISERHEALTHUPGRADE1_HYP0,
+		HGN_BATTLECRUISERHEALTHUPGRADE1_HYP1,
+	},
+	hgn_battlecruisermaxspeedupgrade1 =
+	{
+		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_HYP0,
+		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_carrierbuildspeedupgrade1 =
+	{
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_carrierhealthupgrade1 =
+	{
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_CARRIERHEALTHUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_CARRIERHEALTHUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_carriermaxspeedupgrade1 =
+	{
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_CARRIERMAXSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_assaultcorvettehealthupgrade1 =
+	{
+		HGN_ASSAULTCORVETTEHEALTHUPGRADE1_HYP0,
+		HGN_ASSAULTCORVETTEHEALTHUPGRADE1_HYP1,
+	},
+	hgn_pulsarcorvettehealthupgrade1 =
+	{
+		HGN_PULSARCORVETTEHEALTHUPGRADE1_HYP0,
+		HGN_PULSARCORVETTEHEALTHUPGRADE1_HYP1,
+	},
+	hgn_assaultcorvettemaxspeedupgrade1 =
+	{
+		HGN_ASSAULTCORVETTEMAXSPEEDUPGRADE1_HYP0,
+		HGN_ASSAULTCORVETTEMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_pulsarcorvettemaxspeedupgrade1 =
+	{
+		HGN_PULSARCORVETTEMAXSPEEDUPGRADE1_HYP0,
+		HGN_PULSARCORVETTEMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_battlecruiserionweapons =
+	{
+		HGN_BATTLECRUISERIONWEAPONS_HYP0,
+		HGN_BATTLECRUISERIONWEAPONS_HYP1,
+	},
+	hgn_destroyertech =
+	{
+		HGN_DESTROYERTECH_HYP0,
+		HGN_DESTROYERTECH_HYP1,
+	},
+	hgn_ecmprobe =
+	{
+		HGN_ECMPROBE_HYP0,
+		HGN_ECMPROBE_HYP1,
+	},
+	hgn_graviticattractionmines =
+	{
+		HGN_GRAVITICATTRACTIONMINES_HYP0,
+		HGN_GRAVITICATTRACTIONMINES_HYP1,
+	},
+	hgn_hyperspacedamagereductionupgrade =
+	{
+		HGN_HYPERSPACEDAMAGEREDUCTIONUPGRADE,
+	},
+	hgn_instaadvancedfrigatetech =
+	{
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH0_RES0_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH0_RES0_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH0_RES1_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH0_RES1_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH0_RES0_HYP1,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH0_RES0_HYP1,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH0_RES1_HYP1,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH0_RES1_HYP1,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH1_RES0_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH1_RES0_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH1_RES1_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH1_RES1_HYP0,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH1_RES0_HYP1,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH1_RES0_HYP1,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR0_RCH1_RES1_HYP1,
+		HGN_INSTAADVANCEDFRIGATETECH_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_platformionweapons =
+	{
+		HGN_PLATFORMIONWEAPONS_HYP0,
+		HGN_PLATFORMIONWEAPONS_HYP1,
+	},
+	hgn_sensdisprobe =
+	{
+		HGN_SENSDISPROBE_HYP0,
+		HGN_SENSDISPROBE_HYP1,
+	},
+	hgn_destroyerhealthupgrade1 =
+	{
+		HGN_DESTROYERHEALTHUPGRADE1_HYP0,
+		HGN_DESTROYERHEALTHUPGRADE1_HYP1,
+	},
+	hgn_destroyermaxspeedupgrade1 =
+	{
+		HGN_DESTROYERMAXSPEEDUPGRADE1_HYP0,
+		HGN_DESTROYERMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_sgmcapitalhealth =
+	{
+		HGN_SGMCAPITALHEALTH_CAR0_RCH0_RES0_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH0_RES0_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR0_RCH0_RES1_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH0_RES1_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR0_RCH0_RES0_HYP1,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH0_RES0_HYP1,
+		HGN_SGMCAPITALHEALTH_CAR0_RCH0_RES1_HYP1,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH0_RES1_HYP1,
+		HGN_SGMCAPITALHEALTH_CAR0_RCH1_RES0_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH1_RES0_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR0_RCH1_RES1_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH1_RES1_HYP0,
+		HGN_SGMCAPITALHEALTH_CAR0_RCH1_RES0_HYP1,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH1_RES0_HYP1,
+		HGN_SGMCAPITALHEALTH_CAR0_RCH1_RES1_HYP1,
+		HGN_SGMCAPITALHEALTH_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_sgmcarrierhealth =
+	{
+		HGN_SGMCARRIERHEALTH_CAR0_RCH0_RES0_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH0_RES0_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR0_RCH0_RES1_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH0_RES1_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR0_RCH0_RES0_HYP1,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH0_RES0_HYP1,
+		HGN_SGMCARRIERHEALTH_CAR0_RCH0_RES1_HYP1,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH0_RES1_HYP1,
+		HGN_SGMCARRIERHEALTH_CAR0_RCH1_RES0_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH1_RES0_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR0_RCH1_RES1_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH1_RES1_HYP0,
+		HGN_SGMCARRIERHEALTH_CAR0_RCH1_RES0_HYP1,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH1_RES0_HYP1,
+		HGN_SGMCARRIERHEALTH_CAR0_RCH1_RES1_HYP1,
+		HGN_SGMCARRIERHEALTH_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_sgmfrigatehealth =
+	{
+		HGN_SGMFRIGATEHEALTH,
+	},
+	hgn_sgmshipyardhealth =
+	{
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH0_RES0_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH0_RES0_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH0_RES1_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH0_RES1_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH0_RES0_HYP1,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH0_RES0_HYP1,
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH0_RES1_HYP1,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH0_RES1_HYP1,
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH1_RES0_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH1_RES0_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH1_RES1_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH1_RES1_HYP0,
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH1_RES0_HYP1,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH1_RES0_HYP1,
+		HGN_SGMSHIPYARDHEALTH_CAR0_RCH1_RES1_HYP1,
+		HGN_SGMSHIPYARDHEALTH_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_attackbombermaxspeedupgrade1 =
+	{
+		HGN_ATTACKBOMBERMAXSPEEDUPGRADE1_HYP0,
+		HGN_ATTACKBOMBERMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_interceptormaxspeedupgrade1 =
+	{
+		HGN_INTERCEPTORMAXSPEEDUPGRADE1_HYP0,
+		HGN_INTERCEPTORMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_assaultfrigatehealthupgrade1 =
+	{
+		HGN_ASSAULTFRIGATEHEALTHUPGRADE1_HYP0,
+		HGN_ASSAULTFRIGATEHEALTHUPGRADE1_HYP1,
+	},
+	hgn_ioncannonfrigatehealthupgrade1 =
+	{
+		HGN_IONCANNONFRIGATEHEALTHUPGRADE1_HYP0,
+		HGN_IONCANNONFRIGATEHEALTHUPGRADE1_HYP1,
+	},
+	hgn_torpedofrigatehealthupgrade1 =
+	{
+		HGN_TORPEDOFRIGATEHEALTHUPGRADE1_HYP0,
+		HGN_TORPEDOFRIGATEHEALTHUPGRADE1_HYP1,
+	},
+	hgn_assaultfrigatemaxspeedupgrade1 =
+	{
+		HGN_ASSAULTFRIGATEMAXSPEEDUPGRADE1_HYP0,
+		HGN_ASSAULTFRIGATEMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_ioncannonfrigatemaxspeedupgrade1 =
+	{
+		HGN_IONCANNONFRIGATEMAXSPEEDUPGRADE1_HYP0,
+		HGN_IONCANNONFRIGATEMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_torpedofrigatemaxspeedupgrade1 =
+	{
+		HGN_TORPEDOFRIGATEMAXSPEEDUPGRADE1_HYP0,
+		HGN_TORPEDOFRIGATEMAXSPEEDUPGRADE1_HYP1,
+	},
+	hgn_hyperspacecostupgrade1 =
+	{
+		HGN_HYPERSPACECOSTUPGRADE1,
+	},
+	hgn_hyperspacecostupgrade2 =
+	{
+		HGN_HYPERSPACECOSTUPGRADE2,
+	},
+	hgn_mothershipbuildspeedupgrade1 =
+	{
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_mothershiphealthupgrade1 =
+	{
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_MOTHERSHIPHEALTHUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_mothershipmaxspeedupgrade1 =
+	{
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_MOTHERSHIPMAXSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_gunturrethealthupgrade1 =
+	{
+		HGN_GUNTURRETHEALTHUPGRADE1_HYP0,
+		HGN_GUNTURRETHEALTHUPGRADE1_HYP1,
+	},
+	hgn_ionturrethealthupgrade1 =
+	{
+		HGN_IONTURRETHEALTHUPGRADE1_HYP0,
+		HGN_IONTURRETHEALTHUPGRADE1_HYP1,
+	},
+	hgn_shipyardbuildspeedupgrade1 =
+	{
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardbuildspeedupgrade1_elohim =
+	{
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardbuildspeedupgrade1_spg =
+	{
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDBUILDSPEEDUPGRADE1_SPG_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardhealthupgrade1 =
+	{
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardhealthupgrade1_elohim =
+	{
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_ELOHIM_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardhealthupgrade1_spg =
+	{
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDHEALTHUPGRADE1_SPG_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardmaxspeedupgrade1 =
+	{
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardmaxspeedupgrade1_elohim =
+	{
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_ELOHIM_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_shipyardmaxspeedupgrade1_spg =
+	{
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARDMAXSPEEDUPGRADE1_SPG_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_assaultcorvetteeliteweaponupgrade =
+	{
+		HGN_ASSAULTCORVETTEELITEWEAPONUPGRADE_HYP0,
+		HGN_ASSAULTCORVETTEELITEWEAPONUPGRADE_HYP1,
+	},
+	hgn_attackbombereliteweaponupgrade =
+	{
+		HGN_ATTACKBOMBERELITEWEAPONUPGRADE_HYP0,
+		HGN_ATTACKBOMBERELITEWEAPONUPGRADE_HYP1,
+	},
+	hgn_attackdroidhealthupgradespgame_high =
+	{
+		HGN_ATTACKDROIDHEALTHUPGRADESPGAME_HIGH_HYP0,
+		HGN_ATTACKDROIDHEALTHUPGRADESPGAME_HIGH_HYP1,
+	},
+	hgn_attackdroidhealthupgradespgame_low =
+	{
+		HGN_ATTACKDROIDHEALTHUPGRADESPGAME_LOW_HYP0,
+		HGN_ATTACKDROIDHEALTHUPGRADESPGAME_LOW_HYP1,
+	},
+	hgn_attackdroidhealthupgradespgame_med =
+	{
+		HGN_ATTACKDROIDHEALTHUPGRADESPGAME_MED_HYP0,
+		HGN_ATTACKDROIDHEALTHUPGRADESPGAME_MED_HYP1,
+	},
+	hgn_attackdroidweaponupgradespgame_high =
+	{
+		HGN_ATTACKDROIDWEAPONUPGRADESPGAME_HIGH_HYP0,
+		HGN_ATTACKDROIDWEAPONUPGRADESPGAME_HIGH_HYP1,
+	},
+	hgn_attackdroidweaponupgradespgame_low =
+	{
+		HGN_ATTACKDROIDWEAPONUPGRADESPGAME_LOW_HYP0,
+		HGN_ATTACKDROIDWEAPONUPGRADESPGAME_LOW_HYP1,
+	},
+	hgn_attackdroidweaponupgradespgame_med =
+	{
+		HGN_ATTACKDROIDWEAPONUPGRADESPGAME_MED_HYP0,
+		HGN_ATTACKDROIDWEAPONUPGRADESPGAME_MED_HYP1,
+	},
+	hgn_damagemovertech =
+	{
+		HGN_DAMAGEMOVERTECH_CAR0_RCH0_RES0_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH0_RES0_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR0_RCH0_RES1_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH0_RES1_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR0_RCH0_RES0_HYP1,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH0_RES0_HYP1,
+		HGN_DAMAGEMOVERTECH_CAR0_RCH0_RES1_HYP1,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH0_RES1_HYP1,
+		HGN_DAMAGEMOVERTECH_CAR0_RCH1_RES0_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH1_RES0_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR0_RCH1_RES1_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH1_RES1_HYP0,
+		HGN_DAMAGEMOVERTECH_CAR0_RCH1_RES0_HYP1,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH1_RES0_HYP1,
+		HGN_DAMAGEMOVERTECH_CAR0_RCH1_RES1_HYP1,
+		HGN_DAMAGEMOVERTECH_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_frigatehealthupgradespgame =
+	{
+		HGN_FRIGATEHEALTHUPGRADESPGAME,
+	},
+	hgn_keeperhealthupgradespgame_high =
+	{
+		HGN_KEEPERHEALTHUPGRADESPGAME_HIGH_HYP0,
+		HGN_KEEPERHEALTHUPGRADESPGAME_HIGH_HYP1,
+	},
+	hgn_keeperhealthupgradespgame_low =
+	{
+		HGN_KEEPERHEALTHUPGRADESPGAME_LOW_HYP0,
+		HGN_KEEPERHEALTHUPGRADESPGAME_LOW_HYP1,
+	},
+	hgn_keeperhealthupgradespgame_m10_lvl_1 =
+	{
+		HGN_KEEPERHEALTHUPGRADESPGAME_M10_LVL_1_HYP0,
+		HGN_KEEPERHEALTHUPGRADESPGAME_M10_LVL_1_HYP1,
+	},
+	hgn_keeperhealthupgradespgame_m10_lvl_2 =
+	{
+		HGN_KEEPERHEALTHUPGRADESPGAME_M10_LVL_2_HYP0,
+		HGN_KEEPERHEALTHUPGRADESPGAME_M10_LVL_2_HYP1,
+	},
+	hgn_keeperhealthupgradespgame_m10_lvl_3 =
+	{
+		HGN_KEEPERHEALTHUPGRADESPGAME_M10_LVL_3_HYP0,
+		HGN_KEEPERHEALTHUPGRADESPGAME_M10_LVL_3_HYP1,
+	},
+	hgn_keeperhealthupgradespgame_med =
+	{
+		HGN_KEEPERHEALTHUPGRADESPGAME_MED_HYP0,
+		HGN_KEEPERHEALTHUPGRADESPGAME_MED_HYP1,
+	},
+	hgn_keeperweaponupgradespgame_m10_lvl_1 =
+	{
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_1_HYP0,
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_1_HYP1,
+	},
+	hgn_keeperweaponupgradespgame_m10_lvl_2 =
+	{
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_2_HYP0,
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_2_HYP1,
+	},
+	hgn_keeperweaponupgradespgame_m10_lvl_3 =
+	{
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_3_HYP0,
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_3_HYP1,
+	},
+	hgn_keeperweaponupgradespgame_m10_lvl_4 =
+	{
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_4_HYP0,
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_4_HYP1,
+	},
+	hgn_keeperweaponupgradespgame_m10_lvl_5 =
+	{
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_5_HYP0,
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_5_HYP1,
+	},
+	hgn_keeperweaponupgradespgame_m10_lvl_6 =
+	{
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_6_HYP0,
+		HGN_KEEPERWEAPONUPGRADESPGAME_M10_LVL_6_HYP1,
+	},
+	hgn_moverhealthdowngrade =
+	{
+		HGN_MOVERHEALTHDOWNGRADE_HYP0,
+		HGN_MOVERHEALTHDOWNGRADE_HYP1,
+	},
+	hgn_moverhealthupgrade =
+	{
+		HGN_MOVERHEALTHUPGRADE_HYP0,
+		HGN_MOVERHEALTHUPGRADE_HYP1,
+	},
+	hgn_radiationdefensefield =
+	{
+		HGN_RADIATIONDEFENSEFIELD_HYP0,
+		HGN_RADIATIONDEFENSEFIELD_HYP1,
+	},
+	hgn_sensorsbacktonormal1 =
+	{
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH0_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH0_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH0_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH0_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH0_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH0_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH0_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH0_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH1_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH1_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH1_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH1_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH1_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH1_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL1_CAR0_RCH1_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_sensorsbacktonormal2 =
+	{
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH0_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH0_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH0_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH0_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH0_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH0_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH0_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH0_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH1_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH1_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH1_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH1_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH1_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH1_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL2_CAR0_RCH1_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL2_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_sensorsbacktonormal3 =
+	{
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH0_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH0_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH0_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH0_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH0_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH0_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH0_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH0_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH1_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH1_RES0_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH1_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH1_RES1_HYP0,
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH1_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH1_RES0_HYP1,
+		HGN_SENSORSBACKTONORMAL3_CAR0_RCH1_RES1_HYP1,
+		HGN_SENSORSBACKTONORMAL3_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_sensorsdowngrade1 =
+	{
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH0_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH0_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH0_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH0_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH0_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH0_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH0_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH0_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH1_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH1_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH1_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH1_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH1_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH1_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE1_CAR0_RCH1_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_sensorsdowngrade2 =
+	{
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH0_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH0_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH0_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH0_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH0_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH0_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH0_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH0_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH1_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH1_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH1_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH1_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH1_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH1_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE2_CAR0_RCH1_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE2_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_sensorsdowngrade3 =
+	{
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH0_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH0_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH0_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH0_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH0_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH0_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH0_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH0_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH1_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH1_RES0_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH1_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH1_RES1_HYP0,
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH1_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH1_RES0_HYP1,
+		HGN_SENSORSDOWNGRADE3_CAR0_RCH1_RES1_HYP1,
+		HGN_SENSORSDOWNGRADE3_CAR1_RCH1_RES1_HYP1,
+	},
+	hgn_resourcecollectorhealthupgrade1 =
+	{
+		HGN_RESOURCECOLLECTORHEALTHUPGRADE1_RES0_HYP0,
+		HGN_RESOURCECOLLECTORHEALTHUPGRADE1_RES1_HYP0,
+		HGN_RESOURCECOLLECTORHEALTHUPGRADE1_RES0_HYP1,
+		HGN_RESOURCECOLLECTORHEALTHUPGRADE1_RES1_HYP1,
+	},
+	hgn_resourcecontrollerhealthupgrade1 =
+	{
+		HGN_RESOURCECONTROLLERHEALTHUPGRADE1_RES0_HYP0,
+		HGN_RESOURCECONTROLLERHEALTHUPGRADE1_RES1_HYP0,
+		HGN_RESOURCECONTROLLERHEALTHUPGRADE1_RES0_HYP1,
+		HGN_RESOURCECONTROLLERHEALTHUPGRADE1_RES1_HYP1,
 	},
 }

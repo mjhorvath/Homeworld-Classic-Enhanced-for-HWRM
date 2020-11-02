@@ -91,7 +91,7 @@ function GetFreeResearchItem(playerIndex, sRace)
 					local researchType = j
 					local researchName = jItem.name
 					-- get the correct variant
-					local researchBits = VariantResearch[researchType]
+					local researchBits = VariantResearchBool[researchType]
 					local researchVariant = GetVariantsMatch(researchType, researchBits)
 					-- check if the variant is queued, restricted or granted
 					-- should I really check for queued items? do you lose the money you have already spent on the queued item?

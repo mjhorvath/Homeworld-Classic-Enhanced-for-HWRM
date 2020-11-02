@@ -1,235 +1,235 @@
-VariantBuild =
+VariantBuilds =
 {
-	Kus_Carrier =
+	kus_carrier =
 	{
-		"Kus_Carrier_res0_hyp0",
-		"Kus_Carrier_res1_hyp0",
-		"Kus_Carrier_res0_hyp1",
-		"Kus_Carrier_res1_hyp1",
+		KUS_CARRIER_RES0_HYP0,
+		KUS_CARRIER_RES1_HYP0,
+		KUS_CARRIER_RES0_HYP1,
+		KUS_CARRIER_RES1_HYP1,
 	},
-	Kus_Destroyer =
+	kus_destroyer =
 	{
-		"Kus_Destroyer_hyp0",
-		"Kus_Destroyer_hyp1",
+		KUS_DESTROYER_HYP0,
+		KUS_DESTROYER_HYP1,
 	},
-	Kus_HeavyCruiser =
+	kus_heavycruiser =
 	{
-		"Kus_HeavyCruiser_hyp0",
-		"Kus_HeavyCruiser_hyp1",
+		KUS_HEAVYCRUISER_HYP0,
+		KUS_HEAVYCRUISER_HYP1,
 	},
-	Kus_MissileDestroyer =
+	kus_missiledestroyer =
 	{
-		"Kus_MissileDestroyer_hyp0",
-		"Kus_MissileDestroyer_hyp1",
+		KUS_MISSILEDESTROYER_HYP0,
+		KUS_MISSILEDESTROYER_HYP1,
 	},
-	Kus_HeavyCorvette =
+	kus_heavycorvette =
 	{
-		"Kus_HeavyCorvette_hyp0",
-		"Kus_HeavyCorvette_hyp1",
+		KUS_HEAVYCORVETTE_HYP0,
+		KUS_HEAVYCORVETTE_HYP1,
 	},
-	Kus_LightCorvette =
+	kus_lightcorvette =
 	{
-		"Kus_LightCorvette_hyp0",
-		"Kus_LightCorvette_hyp1",
+		KUS_LIGHTCORVETTE_HYP0,
+		KUS_LIGHTCORVETTE_HYP1,
 	},
-	Kus_MinelayerCorvette =
+	kus_minelayercorvette =
 	{
-		"Kus_MinelayerCorvette_hyp0",
-		"Kus_MinelayerCorvette_hyp1",
+		KUS_MINELAYERCORVETTE_HYP0,
+		KUS_MINELAYERCORVETTE_HYP1,
 	},
-	Kus_MultiGunCorvette =
+	kus_multiguncorvette =
 	{
-		"Kus_MultiGunCorvette_hyp0",
-		"Kus_MultiGunCorvette_hyp1",
+		KUS_MULTIGUNCORVETTE_HYP0,
+		KUS_MULTIGUNCORVETTE_HYP1,
 	},
-	Kus_RepairCorvette =
+	kus_repaircorvette =
 	{
-		"Kus_RepairCorvette_hyp0",
-		"Kus_RepairCorvette_hyp1",
+		KUS_REPAIRCORVETTE_HYP0,
+		KUS_REPAIRCORVETTE_HYP1,
 	},
-	Kus_SalvageCorvette =
+	kus_salvagecorvette =
 	{
-		"Kus_SalvageCorvette_hyp0",
-		"Kus_SalvageCorvette_hyp1",
+		KUS_SALVAGECORVETTE_HYP0,
+		KUS_SALVAGECORVETTE_HYP1,
 	},
-	Kus_AttackBomber =
+	kus_attackbomber =
 	{
-		"Kus_AttackBomber_hyp0",
-		"Kus_AttackBomber_hyp1",
+		KUS_ATTACKBOMBER_HYP0,
+		KUS_ATTACKBOMBER_HYP1,
 	},
-	Kus_CloakedFighter =
+	kus_cloakedfighter =
 	{
-		"Kus_CloakedFighter_hyp0",
-		"Kus_CloakedFighter_hyp1",
+		KUS_CLOAKEDFIGHTER_HYP0,
+		KUS_CLOAKEDFIGHTER_HYP1,
 	},
-	Kus_Defender =
+	kus_defender =
 	{
-		"Kus_Defender_hyp0",
-		"Kus_Defender_hyp1",
+		KUS_DEFENDER_HYP0,
+		KUS_DEFENDER_HYP1,
 	},
-	Kus_Interceptor =
+	kus_interceptor =
 	{
-		"Kus_Interceptor_hyp0",
-		"Kus_Interceptor_hyp1",
+		KUS_INTERCEPTOR_HYP0,
+		KUS_INTERCEPTOR_HYP1,
 	},
-	Kus_Scout =
+	kus_scout =
 	{
-		"Kus_Scout_hyp0",
-		"Kus_Scout_hyp1",
+		KUS_SCOUT_HYP0,
+		KUS_SCOUT_HYP1,
 	},
-	Kus_AssaultFrigate =
+	kus_assaultfrigate =
 	{
-		"Kus_AssaultFrigate_hyp0",
-		"Kus_AssaultFrigate_hyp1",
+		KUS_ASSAULTFRIGATE_HYP0,
+		KUS_ASSAULTFRIGATE_HYP1,
 	},
-	Kus_Drone0 =
+	kus_drone0 =
 	{
-		"Kus_Drone0",
+		KUS_DRONE0,
 	},
-	Kus_Drone1 =
+	kus_drone1 =
 	{
-		"Kus_Drone1",
+		KUS_DRONE1,
 	},
-	Kus_Drone10 =
+	kus_drone10 =
 	{
-		"Kus_Drone10",
+		KUS_DRONE10,
 	},
-	Kus_Drone11 =
+	kus_drone11 =
 	{
-		"Kus_Drone11",
+		KUS_DRONE11,
 	},
-	Kus_Drone12 =
+	kus_drone12 =
 	{
-		"Kus_Drone12",
+		KUS_DRONE12,
 	},
-	Kus_Drone13 =
+	kus_drone13 =
 	{
-		"Kus_Drone13",
+		KUS_DRONE13,
 	},
-	Kus_Drone2 =
+	kus_drone2 =
 	{
-		"Kus_Drone2",
+		KUS_DRONE2,
 	},
-	Kus_Drone3 =
+	kus_drone3 =
 	{
-		"Kus_Drone3",
+		KUS_DRONE3,
 	},
-	Kus_Drone4 =
+	kus_drone4 =
 	{
-		"Kus_Drone4",
+		KUS_DRONE4,
 	},
-	Kus_Drone5 =
+	kus_drone5 =
 	{
-		"Kus_Drone5",
+		KUS_DRONE5,
 	},
-	Kus_Drone6 =
+	kus_drone6 =
 	{
-		"Kus_Drone6",
+		KUS_DRONE6,
 	},
-	Kus_Drone7 =
+	kus_drone7 =
 	{
-		"Kus_Drone7",
+		KUS_DRONE7,
 	},
-	Kus_Drone8 =
+	kus_drone8 =
 	{
-		"Kus_Drone8",
+		KUS_DRONE8,
 	},
-	Kus_Drone9 =
+	kus_drone9 =
 	{
-		"Kus_Drone9",
+		KUS_DRONE9,
 	},
-	Kus_DroneFrigate =
+	kus_dronefrigate =
 	{
-		"Kus_DroneFrigate_hyp0",
-		"Kus_DroneFrigate_hyp1",
+		KUS_DRONEFRIGATE_HYP0,
+		KUS_DRONEFRIGATE_HYP1,
 	},
-	Kus_IonCannonFrigate =
+	kus_ioncannonfrigate =
 	{
-		"Kus_IonCannonFrigate_hyp0",
-		"Kus_IonCannonFrigate_hyp1",
+		KUS_IONCANNONFRIGATE_HYP0,
+		KUS_IONCANNONFRIGATE_HYP1,
 	},
-	Kus_SupportFrigate =
+	kus_supportfrigate =
 	{
-		"Kus_SupportFrigate_hyp0",
-		"Kus_SupportFrigate_hyp1",
+		KUS_SUPPORTFRIGATE_HYP0,
+		KUS_SUPPORTFRIGATE_HYP1,
 	},
 	hw1_production_capital =
 	{
-		"hw1_production_capital",
+		HW1_PRODUCTION_CAPITAL,
 	},
 	hw1_production_corvette =
 	{
-		"hw1_production_corvette",
+		HW1_PRODUCTION_CORVETTE,
 	},
 	hw1_production_fighter =
 	{
-		"hw1_production_fighter",
+		HW1_PRODUCTION_FIGHTER,
 	},
 	hw1_production_frigate =
 	{
-		"hw1_production_frigate",
+		HW1_PRODUCTION_FRIGATE,
 	},
-	Kus_CloakGenerator =
+	kus_cloakgenerator =
 	{
-		"Kus_CloakGenerator_hyp0",
-		"Kus_CloakGenerator_hyp1",
+		KUS_CLOAKGENERATOR_HYP0,
+		KUS_CLOAKGENERATOR_HYP1,
 	},
-	Kus_GravWellGenerator =
+	kus_gravwellgenerator =
 	{
-		"Kus_GravWellGenerator_hyp0",
-		"Kus_GravWellGenerator_hyp1",
+		KUS_GRAVWELLGENERATOR_HYP0,
+		KUS_GRAVWELLGENERATOR_HYP1,
 	},
-	Kus_Probe =
+	kus_probe =
 	{
-		"Kus_Probe_hyp0",
-		"Kus_Probe_hyp1",
+		KUS_PROBE_HYP0,
+		KUS_PROBE_HYP1,
 	},
-	Kus_ProximitySensor =
+	kus_proximitysensor =
 	{
-		"Kus_ProximitySensor_hyp0",
-		"Kus_ProximitySensor_hyp1",
+		KUS_PROXIMITYSENSOR_HYP0,
+		KUS_PROXIMITYSENSOR_HYP1,
 	},
-	Kus_ResearchShip =
+	kus_researchship =
 	{
-		"Kus_ResearchShip",
+		KUS_RESEARCHSHIP,
 	},
-	Kus_ResearchShip_1 =
+	kus_researchship_1 =
 	{
-		"Kus_ResearchShip_1",
+		KUS_RESEARCHSHIP_1,
 	},
-	Kus_ResearchShip_2 =
+	kus_researchship_2 =
 	{
-		"Kus_ResearchShip_2",
+		KUS_RESEARCHSHIP_2,
 	},
-	Kus_ResearchShip_3 =
+	kus_researchship_3 =
 	{
-		"Kus_ResearchShip_3",
+		KUS_RESEARCHSHIP_3,
 	},
-	Kus_ResearchShip_4 =
+	kus_researchship_4 =
 	{
-		"Kus_ResearchShip_4",
+		KUS_RESEARCHSHIP_4,
 	},
-	Kus_ResearchShip_5 =
+	kus_researchship_5 =
 	{
-		"Kus_ResearchShip_5",
+		KUS_RESEARCHSHIP_5,
 	},
-	Kus_ResourceCollector =
+	kus_resourcecollector =
 	{
-		"Kus_ResourceCollector_res0_hyp0",
-		"Kus_ResourceCollector_res1_hyp0",
-		"Kus_ResourceCollector_res0_hyp1",
-		"Kus_ResourceCollector_res1_hyp1",
+		KUS_RESOURCECOLLECTOR_RES0_HYP0,
+		KUS_RESOURCECOLLECTOR_RES1_HYP0,
+		KUS_RESOURCECOLLECTOR_RES0_HYP1,
+		KUS_RESOURCECOLLECTOR_RES1_HYP1,
 	},
-	Kus_ResourceController =
+	kus_resourcecontroller =
 	{
-		"Kus_ResourceController_res0_hyp0",
-		"Kus_ResourceController_res1_hyp0",
-		"Kus_ResourceController_res0_hyp1",
-		"Kus_ResourceController_res1_hyp1",
+		KUS_RESOURCECONTROLLER_RES0_HYP0,
+		KUS_RESOURCECONTROLLER_RES1_HYP0,
+		KUS_RESOURCECONTROLLER_RES0_HYP1,
+		KUS_RESOURCECONTROLLER_RES1_HYP1,
 	},
-	Kus_SensorArray =
+	kus_sensorarray =
 	{
-		"Kus_SensorArray_hyp0",
-		"Kus_SensorArray_hyp1",
+		KUS_SENSORARRAY_HYP0,
+		KUS_SENSORARRAY_HYP1,
 	},
 }

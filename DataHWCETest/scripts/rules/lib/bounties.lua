@@ -49,7 +49,7 @@ function UpdateBountyStats()
 					local shipType = j
 					local shipCost = jItem.cost
 					-- get the correct variant
-					local shipBits = VariantBuilds[shipType]
+					local shipBits = VariantBuildBool[shipType]
 					local shipVariant = GetVariantsMatch(shipType, typeBits)
 					-- fill all ships of this type that the player has in his/her possession into a sobgroup
 					SobGroup_FillShipsByType("BountyCounterGroup", "Player_Ships" .. playerIndex, shipVariant)

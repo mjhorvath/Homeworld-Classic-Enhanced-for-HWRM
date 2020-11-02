@@ -12,7 +12,7 @@ function GetVariantsMatch(shipName, tParams)
 		local tempBits = NumToBits(i-1, numBits)
 		local bPass = 1
 		for j = 1, numParams do
-			if tParams[j] ~= ModeSuffixes[j] then
+			if tParams[j] ~= ModeSuffixTable[j] then
 				bPass = 0
 				break
 			end
@@ -47,68 +47,7 @@ function GetVariantsAll(shipName, tParams)
 	return outTable
 end
 
-function MultiBuild(inTable, tParams)
-	local numBits = getn(tParams)
-	for i = 1, 2^numBits do
-		local shipName = inTable.ThingToBuild
-		local tempBits = NumToBits(i-1, numBits)
-		local researchMode = 1
-		local hyperspaceMode = 1
-		for j = 1, numBits do
-			shipName = shipName .. "_" .. tParams[j] .. tempBits[j]
-			if tParams[j] == "rch" and tempBits[j] == 0 then
-				researchMode = 0
-			end
-			if tParams[j] == "hyp" and tempBits[j] == 0 then
-				hyperspaceMode = 0
-			end
-		end
-		local outTable = dumbshallowcopy(inTable)
-		outTable.ThingToBuild = shipName
-		tinsert(base_build, outTable)
-	end
-end
-
-function MultiResearch(inTable, tParams)
-	local numBits = getn(tParams)
-	for i = 1, 2^numBits do
-		local researchName = inTable.Name
-		local targetName = inTable.TargetName
-		local tempBits = NumToBits(i-1, numBits)
-		local researchMode = 1
-		local hyperspaceMode = 1
-		for j = 1, numBits do
-			researchName = researchName .. "_" .. tParams[j] .. tempBits[j]
-			targetName = targetName .. "_" .. tParams[j] .. tempBits[j]
-			if tParams[j] == "rch" and tempBits[j] == 0 then
-				researchMode = 0
-			end
-			if tParams[j] == "hyp" and tempBits[j] == 0 then
-				hyperspaceMode = 0
-			end
-		end
-		local outTable = dumbshallowcopy(inTable)
-		outTable.Name				= researchName
-		outTable.RequiredResearch	= inTable.Name
-		outTable.RequiredSubSystems	= ""
-		outTable.Cost				= 0
-		outTable.Time				= 0
-		outTable.DisplayedName		= ""
-		outTable.DisplayPriority	= 0					-- will a zero here mess things up?
-		outTable.Description		= "Instant Tech"	-- to localize?
-		outTable.TargetName			= targetName
-		tinsert(base_research, outTable)
-	end
-end
-
--- results in an error because the standard string library is unavailable in some scopes
-function RemoveSubsysReq(inCommand, inSubSystem)
---	local iStartIndex = strfind(inCommand, inSubSystem)
---	print("iStartIndex = " .. iStartIndex)
---	print(strlower(inCommand))
---	exit()
-end
-
+-- used in build and research scripts
 function PrintBuildList()
 	local icount = 0
 	for i, v in build do
@@ -122,6 +61,7 @@ function PrintBuildList()
 	print("total: " .. icount)
 end
 
+-- used in build and research scripts
 function PrintResearchList()
 	local icount = 0
 	for i, v in research do
@@ -135,42 +75,68 @@ function PrintResearchList()
 	print("total: " .. icount)
 end
 
+-- used in build and research scripts
 function PrintBuildNames()
---	print("build start:")
---	local icount = 0
---	for i, v in build do
---		local line = ""
---		for j, w in v do
---			if j == "ThingToBuild" then
---				print(w)
---				icount = icount + 1
---				break
---			end
---		end
---	end
---	print("total: " .. icount)
+	print("build start:")
+	for i, v in build do
+		local line = ""
+		for j, w in v do
+			if j == "ThingToBuild" then
+				print(w)
+				break
+			end
+		end
+	end
 end
 
+-- used in build and research scripts
 function PrintResearchNames()
---	print("research start:")
---	local icount = 0
---	for i, v in research do
---		local line = ""
---		for j, w in v do
---			if j == "Name" then
---				print(w)
---				icount = icount + 1
---				break
---			end
---		end
---	end
---	print("total: " .. icount)
+	print("research start:")
+	for i, v in research do
+		local line = ""
+		for j, w in v do
+			if j == "Name" then
+				print(w)
+				break
+			end
+		end
+	end
 end
 
--- used in some ship Lua files
+-- used in build and research scripts
+function CountBuildItems()
+	local icount = 0
+	for i, v in build do
+		local line = ""
+		for j, w in v do
+			if j == "ThingToBuild" then
+				icount = icount + 1
+				break
+			end
+		end
+	end
+	print("build total: " .. icount)
+end
+
+-- used in build and research scripts
+function CountResearchItems()
+	local icount = 0
+	for i, v in research do
+		local line = ""
+		for j, w in v do
+			if j == "Name" then
+				icount = icount + 1
+				break
+			end
+		end
+	end
+	print("research total: " .. icount)
+end
+
+-- used in several ship Lua files
 function Player_GetNumberOfVariantSquadronsOfTypeAwakeOrSleeping(playerIndex, shipType)
 	local tempCount = 0
-	local tempBits = VariantBuilds[shipType]
+	local tempBits = VariantBuildBool[shipType]
 	local tempVariants = GetVariantsAll(shipType, tempBits)
 	for i, v in tempVariants do
 		tempCount = tempCount + Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, v)
@@ -178,9 +144,9 @@ function Player_GetNumberOfVariantSquadronsOfTypeAwakeOrSleeping(playerIndex, sh
 	return tempCount
 end
 
--- used in some ship Lua files
+-- used in several ship Lua files
 function SobGroup_FillVariantShipsByType(groupName, playerIndex, shipType)
-	local tempBits = VariantBuilds[shipType]
+	local tempBits = VariantBuildBool[shipType]
 	local tempVariants = GetVariantsAll(shipType, tempBits)
 	for i, v in tempVariants do
 		SobGroup_FillShipsByType(groupName, playerIndex, v)
@@ -191,7 +157,7 @@ end
 function FillVariantsFromTable(shipList)
 	local tempTable = {}
 	for i, v in shipList do
-		local tempBits = VariantBuilds[v]
+		local tempBits = VariantBuildBool[v]
 		local tempVariants = GetVariantsAll(v, tempBits)
 		for j, w in tempVariants do
 			tinsert(tempTable, w)
@@ -211,4 +177,84 @@ function ConvertTableToList(tempTable)
 		end
 	end
 	return tempList
+end
+
+-- used in AI scripts
+function ResearchVariantDemandSet(shipType, demValue)
+	local varTable = VariantResearchInt[lower(shipType)]
+	for i, k in varTable do
+		ResearchDemandSet(k, demValue)
+	end
+end
+
+-- used in AI scripts
+function ResearchVariantDemandAdd(shipType, demValue)
+	local varTable = VariantResearchInt[lower(shipType)]
+	for i, k in varTable do
+		ResearchDemandAdd(k, demValue)
+	end
+end
+
+-- used in AI scripts
+function NumVariantSquadrons(shipType)
+	local varTable = VariantResearchInt[lower(shipType)]
+	local outNum = 0
+	for i, k in varTable do
+		outNum = outNum + NumSquadrons(k)
+	end
+	return outNum
+end
+
+-- used in AI scripts
+function NumVariantSquadronsQ(shipType)
+	local varTable = VariantResearchInt[lower(shipType)]
+	local outNum = 0
+	for i, k in varTable do
+		outNum = outNum + NumSquadronsQ(k)
+	end
+	return outNum
+end
+
+-- used in AI scripts
+function ShipVariantDemandGet(shipType)
+	local varTable = VariantResearchInt[lower(shipType)]
+	local demVal = 0
+	for i, k in varTable do
+		demVal = max(demVal, ShipDemandGet(k))
+	end
+	return demVal
+end
+
+-- used in AI scripts
+function ShipVariantDemandAdd(shipType, demValue)
+	local varTable = VariantBuildInt[lower(shipType)]
+	for i, k in varTable do
+		ShipDemandAdd(k, demValue)
+	end
+end
+
+-- used in AI scripts
+function Util_CheckVariantResearch(shipType)
+	local varTable = VariantResearchInt[lower(shipType)]
+	local boolVal = 0
+	for i, k in varTable do
+		boolVal = Util_CheckResearch(k)
+		if boolVal == 1 then
+			break
+		end
+	end
+	return boolVal
+end
+
+-- used in AI scripts
+function IsVariantResearchDone(techType)
+	local varTable = VariantResearchInt[lower(shipType)]
+	local boolVal = 0
+	for i, k in varTable do
+		boolVal = IsResearchDone(k)
+		if boolVal == 1 then
+			break
+		end
+	end
+	return boolVal
 end

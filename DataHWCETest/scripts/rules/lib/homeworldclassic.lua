@@ -113,7 +113,7 @@ function PlayerHasMothership(playerIndex)
 			-- get the correct variant
 			local shipType = k
 			local shipName = kCount.name
-			local shipBits = VariantBuilds[shipType]
+			local shipBits = VariantBuildBool[shipType]
 			local shipVariant = GetVariantsMatch(shipType, shipBits)
 			Player_FillShipsByType("CrateMothership", playerIndex, shipVariant)
 			if (SobGroup_Empty("CrateMothership") == 0) then
@@ -129,7 +129,7 @@ function PlayerHasMothership(playerIndex)
 			-- get the correct variant
 			local shipType = k
 			local shipName = kCount.name
-			local shipBits = VariantBuilds[shipType]
+			local shipBits = VariantBuildBool[shipType]
 			local shipVariant = GetVariantsMatch(shipType, shipBits)
 			Player_FillShipsByType("CrateMothership", playerIndex, shipVariant)
 			if (SobGroup_Empty("CrateMothership") == 0) then

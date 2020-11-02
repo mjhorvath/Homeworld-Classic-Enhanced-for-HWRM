@@ -1,4 +1,4 @@
-aitrace("LOADING KUSHAN UPGRADE INFO")
+AI_trace("LOADING KUSHAN UPGRADE INFO")
 
 function DoResearchTechDemand_Kushan()	
 	ResearchDemandSet( FIGHTERDRIVE, 10 )

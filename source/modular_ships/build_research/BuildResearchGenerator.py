@@ -434,7 +434,7 @@ def res_pip(BIGLIST):
 #        print('row_count = ' + str(row_count + 1))
 
         # record identifier
-        OUTTEXT += '\t' + i['Name'][0] + ' =\n\t{\n'
+        OUTTEXT += '\t' + i['Name'][0].lower() + ' =\n\t{\n'
 
         # param list
         param_list = i['row_param']
@@ -443,7 +443,10 @@ def res_pip(BIGLIST):
 
         # the actual table
         if num_bits == 0:
-            OUTTEXT += '\t\t"' + i['Name'][0] + '",\n'
+            name_final = i['Name'][0]
+            name_final = name_final.upper()
+            #OUTTEXT += '\t\t"' + name_final + '",\n'
+            OUTTEXT += '\t\t' + name_final + ',\n'
         elif num_bits > 0:
             for k in range(num_digi):
                 #print('k = ' + str(k) + '; num_bits = ' + str(num_bits))
@@ -454,7 +457,11 @@ def res_pip(BIGLIST):
                 for j in range(num_bits):
                     name_suffix += '_' + param_list[j] + str(int(tmp_bits[j]))
 
-                OUTTEXT += '\t\t"' + i['Name'][0] + name_suffix + '",\n'
+                name_final = i['Name'][0] + name_suffix
+                name_final = name_final.upper()
+
+                #OUTTEXT += '\t\t"' + name_final + '",\n'
+                OUTTEXT += '\t\t' + name_final + ',\n'
 
         OUTTEXT += '\t},\n'
         row_count += 1
@@ -470,7 +477,7 @@ def bld_pip(BIGLIST):
 #        print('row_count = ' + str(row_count + 1))
 
         # record identifier
-        OUTTEXT += '\t' + i['ThingToBuild'][0] + ' =\n\t{\n'
+        OUTTEXT += '\t' + i['ThingToBuild'][0].lower() + ' =\n\t{\n'
 
         # param list
         param_list = i['row_param']
@@ -479,7 +486,10 @@ def bld_pip(BIGLIST):
 
         # the actual table
         if num_bits == 0:
-            OUTTEXT += '\t\t"' + i['ThingToBuild'][0] + '",\n'
+            name_final = i['ThingToBuild'][0]
+            name_final = name_final.upper()
+            #OUTTEXT += '\t\t"' + name_final + '",\n'
+            OUTTEXT += '\t\t' + name_final + ',\n'
         elif num_bits > 0:
             for k in range(num_digi):
                 tmp_bits = num_to_bits(k, num_bits)
@@ -489,7 +499,11 @@ def bld_pip(BIGLIST):
                 for j in range(num_bits):
                     name_suffix += '_' + param_list[j] + str(tmp_bits[j])
 
-                OUTTEXT += '\t\t"' + i['ThingToBuild'][0] + name_suffix + '",\n'
+                name_final = i['ThingToBuild'][0] + name_suffix
+                name_final = name_final.upper()
+
+                #OUTTEXT += '\t\t"' + name_final + '",\n'
+                OUTTEXT += '\t\t' + name_final + ',\n'
 
         OUTTEXT += '\t},\n'
         row_count += 1

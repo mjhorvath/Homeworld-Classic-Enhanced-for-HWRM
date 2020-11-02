@@ -60,7 +60,7 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-			local sBits = VariantBuilds[sType]
+			local sBits = VariantBuildBool[sType]
 			local sVariant = GetVariantsMatch(sType, sBits)
 			SPC_trace([[SpecialFleets_Init: Adding "]] .. sVariant .. [[" to Player ]] .. playerIndex .. [['s fleet.]])
 			SobGroup_CreateShip(StartGroupName, sVariant)
@@ -86,7 +86,7 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-			local sBits = VariantBuilds[sType]
+			local sBits = VariantBuildBool[sType]
 			local sVariant = GetVariantsMatch(sType, sBits)
 			SPC_trace([[SpecialFleets_Init: Adding "]] .. sVariant .. [[" to Player ]] .. playerIndex .. [['s fleet.]])
 			SobGroup_SpawnNewShipInSobGroup(playerIndex, sVariant, "", FleetGroupName, StartPosName)
@@ -120,7 +120,7 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-			local sBits = VariantBuilds[sType]
+			local sBits = VariantBuildBool[sType]
 			local sVariant = GetVariantsMatch(sType, sBits)
 			SPC_trace([[SpecialFleets_Init: Building "]] .. sVariant .. [[" on Player ]] .. playerIndex .. [['s ships (may fail for some ships, but that's OK).]])
 			-- !!! the following will add the subsystem to ALL ships of the type in the sobgroup, not just the first !!!
@@ -155,7 +155,7 @@ function SpecialFleets_Init()
 					break
 				end
 			end
-			local sBits = VariantResearch[sType]
+			local sBits = VariantResearchBool[sType]
 			local sVariant = GetVariantsMatch(sType, sBits)
 			SPC_trace([[SpecialFleets_Init: Granting "]] .. sVariant .. [[" research option to Player ]] .. playerIndex .. [[.]])
 			Player_GrantResearchOption(playerIndex, sVariant)

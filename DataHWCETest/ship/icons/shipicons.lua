@@ -1,5 +1,5 @@
--- does it matter to outside scripts that these identifier names are all camel case?
--- can I convert them all to lower case instead?
+-- does it matter to outside scripts that the identifier names here are all 
+-- mixed case? can I convert them all to lower case instead?
 
 Default = {
 	LargeIcon = {

@@ -1,7 +1,8 @@
 -- the RacesOrder table determines the order in which the races appear in the frontend menu
 -- otherwise they would not appear in any particular order at all
 RacesNumber = 4
-RacesList =
+
+RacesListIndex =
 {
 	"hiigaran_hwce",
 	"vaygr_hwce",
@@ -17,6 +18,15 @@ RacesListCorrectName =
 	taiidan_hwce = "Taiidan",
 }
 
+RacesListPrefix =
+{
+	hiigaran_hwce = "hgn",
+	vaygr_hwce = "vgr",
+	kushan_hwce = "kus",
+	taiidan_hwce = "tai",
+}
+
+print("Need to update: ResourceControllersList")
 ResourceControllersList =
 {
 	hiigaran_hwce =
@@ -38,6 +48,7 @@ ResourceControllersList =
 }
 
 -- these do not appear in the build scripts, so trying to grant or restrict them will result in an error
+print("Need to update: MothershipsList")
 MothershipsList =
 {
 	hiigaran_hwce =

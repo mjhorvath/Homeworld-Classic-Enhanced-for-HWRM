@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
--- special debug commands, similar to the "aitrace" function
+-- special debug commands, similar to the "AI_trace" function
 -- uncomment the lines to enable printing to "HW2.log"
 
 -- common code
@@ -37,6 +37,35 @@ end
 -- crates
 function CRA_trace(sString)
 --	print("CRA_TRACE: " .. sString)
+end
+
+
+-------------------------------------------------------------------------------
+-- Checks whether certain game rules are active or not
+--
+function BuildSuffixTable()
+	local tempTable = {}
+	if StartWithMode == "carrieronly" then
+		tempTable[1] = 1
+	else
+		tempTable[1] = 0
+	end
+	if ResearchMode == 1 then
+		tempTable[2] = 1
+	else
+		tempTable[2] = 0
+	end
+	if ResourceMode ~= -1 then
+		tempTable[3] = 1
+	else
+		tempTable[3] = 0
+	end
+	if HyperspaceMode == 1 then
+		tempTable[4] = 1
+	else
+		tempTable[4] = 0
+	end
+	return tempTable
 end
 
 
@@ -222,7 +251,7 @@ function Player_NumberOfShips(playerIndex)
 		-- for every ship within that class...
 		for j, jCount in shipItems do
 			local shipType = j
-			local shipBits = VariantBuilds[shipType]
+			local shipBits = VariantBuildBool[shipType]
 			local shipVariant = GetVariantsMatch(shipType, shipBits)
 			-- keep a count of how many of this variant the player owns
 			shipCount = shipCount + Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(playerIndex, shipVariant)

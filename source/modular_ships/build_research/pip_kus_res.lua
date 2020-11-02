@@ -1,203 +1,203 @@
 VariantResearch =
 {
-	Kus_cpuplayers_defensive =
+	kus_allshipbuildspeed =
 	{
-		"Kus_cpuplayers_defensive",
+		KUS_ALLSHIPBUILDSPEED,
 	},
-	Kus_cpuplayers_aggressive =
+	kus_allshipbuildspeedexpert =
 	{
-		"Kus_cpuplayers_aggressive",
+		KUS_ALLSHIPBUILDSPEEDEXPERT,
 	},
-	Kus_cpuplayers_dynamic =
+	kus_allshipbuildspeedhard =
 	{
-		"Kus_cpuplayers_dynamic",
+		KUS_ALLSHIPBUILDSPEEDHARD,
 	},
-	Kus_cpuplayers_norushtime5 =
+	kus_cpuplayers_aggressive =
 	{
-		"Kus_cpuplayers_norushtime5",
+		KUS_CPUPLAYERS_AGGRESSIVE,
 	},
-	Kus_cpuplayers_norushtime10 =
+	kus_cpuplayers_defensive =
 	{
-		"Kus_cpuplayers_norushtime10",
+		KUS_CPUPLAYERS_DEFENSIVE,
 	},
-	Kus_cpuplayers_norushtime15 =
+	kus_cpuplayers_dynamic =
 	{
-		"Kus_cpuplayers_norushtime15",
+		KUS_CPUPLAYERS_DYNAMIC,
 	},
-	Kus_AllShipBuildSpeed =
+	kus_cpuplayers_norushtime10 =
 	{
-		"Kus_AllShipBuildSpeed",
+		KUS_CPUPLAYERS_NORUSHTIME10,
 	},
-	Kus_AllShipBuildSpeedHard =
+	kus_cpuplayers_norushtime15 =
 	{
-		"Kus_AllShipBuildSpeedHard",
+		KUS_CPUPLAYERS_NORUSHTIME15,
 	},
-	Kus_AllShipBuildSpeedExpert =
+	kus_cpuplayers_norushtime5 =
 	{
-		"Kus_AllShipBuildSpeedExpert",
+		KUS_CPUPLAYERS_NORUSHTIME5,
 	},
-	Kus_ResourceCollectionRateHard =
+	kus_resourcecollectionrateexpert =
 	{
-		"Kus_ResourceCollectionRateHard_res0_hyp0",
-		"Kus_ResourceCollectionRateHard_res1_hyp0",
-		"Kus_ResourceCollectionRateHard_res0_hyp1",
-		"Kus_ResourceCollectionRateHard_res1_hyp1",
+		KUS_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP0,
+		KUS_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP0,
+		KUS_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP1,
+		KUS_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP1,
 	},
-	Kus_ResourceCollectionRateExpert =
+	kus_resourcecollectionratehard =
 	{
-		"Kus_ResourceCollectionRateExpert_res0_hyp0",
-		"Kus_ResourceCollectionRateExpert_res1_hyp0",
-		"Kus_ResourceCollectionRateExpert_res0_hyp1",
-		"Kus_ResourceCollectionRateExpert_res1_hyp1",
+		KUS_RESOURCECOLLECTIONRATEHARD_RES0_HYP0,
+		KUS_RESOURCECOLLECTIONRATEHARD_RES1_HYP0,
+		KUS_RESOURCECOLLECTIONRATEHARD_RES0_HYP1,
+		KUS_RESOURCECOLLECTIONRATEHARD_RES1_HYP1,
 	},
-	Kus_WeaponDamageUpgrade125 =
+	kus_weapondamageupgrade125 =
 	{
-		"Kus_WeaponDamageUpgrade125",
+		KUS_WEAPONDAMAGEUPGRADE125,
 	},
-	Kus_WeaponDamageUpgrade150 =
+	kus_weapondamageupgrade150 =
 	{
-		"Kus_WeaponDamageUpgrade150",
+		KUS_WEAPONDAMAGEUPGRADE150,
 	},
-	Kus_WeaponDamageUpgrade175 =
+	kus_weapondamageupgrade175 =
 	{
-		"Kus_WeaponDamageUpgrade175",
+		KUS_WEAPONDAMAGEUPGRADE175,
 	},
-	Kus_WeaponDamageUpgrade200 =
+	kus_weapondamageupgrade200 =
 	{
-		"Kus_WeaponDamageUpgrade200",
+		KUS_WEAPONDAMAGEUPGRADE200,
 	},
-	Kus_CorvetteDrive =
+	kus_corvettechassis =
 	{
-		"Kus_CorvetteDrive_hyp0",
-		"Kus_CorvetteDrive_hyp1",
+		KUS_CORVETTECHASSIS_HYP0,
+		KUS_CORVETTECHASSIS_HYP1,
 	},
-	Kus_CorvetteChassis =
+	kus_corvettedrive =
 	{
-		"Kus_CorvetteChassis_hyp0",
-		"Kus_CorvetteChassis_hyp1",
+		KUS_CORVETTEDRIVE_HYP0,
+		KUS_CORVETTEDRIVE_HYP1,
 	},
-	Kus_HeavyCorvetteUpgrade =
+	kus_fasttrackingturrets =
 	{
-		"Kus_HeavyCorvetteUpgrade_hyp0",
-		"Kus_HeavyCorvetteUpgrade_hyp1",
+		KUS_FASTTRACKINGTURRETS_HYP0,
+		KUS_FASTTRACKINGTURRETS_HYP1,
 	},
-	Kus_FastTrackingTurrets =
+	kus_heavycorvetteupgrade =
 	{
-		"Kus_FastTrackingTurrets_hyp0",
-		"Kus_FastTrackingTurrets_hyp1",
+		KUS_HEAVYCORVETTEUPGRADE_HYP0,
+		KUS_HEAVYCORVETTEUPGRADE_HYP1,
 	},
-	Kus_MinelayingTech =
+	kus_minelayingtech =
 	{
-		"Kus_MinelayingTech_hyp0",
-		"Kus_MinelayingTech_hyp1",
+		KUS_MINELAYINGTECH_HYP0,
+		KUS_MINELAYINGTECH_HYP1,
 	},
-	Kus_ProximitySensor =
+	kus_cloakgenerator =
 	{
-		"Kus_ProximitySensor_hyp0",
-		"Kus_ProximitySensor_hyp1",
+		KUS_CLOAKGENERATOR_HYP0,
+		KUS_CLOAKGENERATOR_HYP1,
 	},
-	Kus_SensorArray =
+	kus_gravitygenerator =
 	{
-		"Kus_SensorArray_hyp0",
-		"Kus_SensorArray_hyp1",
+		KUS_GRAVITYGENERATOR_HYP0,
+		KUS_GRAVITYGENERATOR_HYP1,
 	},
-	Kus_GravityGenerator =
+	kus_hyperspacedamagereductionupgrade =
 	{
-		"Kus_GravityGenerator_hyp0",
-		"Kus_GravityGenerator_hyp1",
+		KUS_HYPERSPACEDAMAGEREDUCTIONUPGRADE,
 	},
-	Kus_CloakGenerator =
+	kus_hyperspacedamagereductionupgradehc =
 	{
-		"Kus_CloakGenerator_hyp0",
-		"Kus_CloakGenerator_hyp1",
+		KUS_HYPERSPACEDAMAGEREDUCTIONUPGRADEHC_HYP0,
+		KUS_HYPERSPACEDAMAGEREDUCTIONUPGRADEHC_HYP1,
 	},
-	Kus_HyperspaceDamageReductionUpgrade =
+	kus_proximitysensor =
 	{
-		"Kus_HyperspaceDamageReductionUpgrade",
+		KUS_PROXIMITYSENSOR_HYP0,
+		KUS_PROXIMITYSENSOR_HYP1,
 	},
-	Kus_HyperspaceDamageReductionUpgradeHC =
+	kus_sensorarray =
 	{
-		"Kus_HyperspaceDamageReductionUpgradeHC_hyp0",
-		"Kus_HyperspaceDamageReductionUpgradeHC_hyp1",
+		KUS_SENSORARRAY_HYP0,
+		KUS_SENSORARRAY_HYP1,
 	},
-	Kus_SGMCapitalHealth =
+	kus_sgmcapitalhealth =
 	{
-		"Kus_SGMCapitalHealth",
+		KUS_SGMCAPITALHEALTH,
 	},
-	Kus_SGMFrigateHealth =
+	kus_sgmfrigatehealth =
 	{
-		"Kus_SGMFrigateHealth",
+		KUS_SGMFRIGATEHEALTH,
 	},
-	Kus_SGMGravWellHealth =
+	kus_sgmgravwellhealth =
 	{
-		"Kus_SGMGravWellHealth_hyp0",
-		"Kus_SGMGravWellHealth_hyp1",
+		KUS_SGMGRAVWELLHEALTH_HYP0,
+		KUS_SGMGRAVWELLHEALTH_HYP1,
 	},
-	Kus_FighterDrive =
+	kus_cloakedfighter =
 	{
-		"Kus_FighterDrive_hyp0",
-		"Kus_FighterDrive_hyp1",
+		KUS_CLOAKEDFIGHTER_HYP0,
+		KUS_CLOAKEDFIGHTER_HYP1,
 	},
-	Kus_FighterChassis =
+	kus_defendersubsystems =
 	{
-		"Kus_FighterChassis_hyp0",
-		"Kus_FighterChassis_hyp1",
+		KUS_DEFENDERSUBSYSTEMS_HYP0,
+		KUS_DEFENDERSUBSYSTEMS_HYP1,
 	},
-	Kus_DefenderSubSystems =
+	kus_fighterchassis =
 	{
-		"Kus_DefenderSubSystems_hyp0",
-		"Kus_DefenderSubSystems_hyp1",
+		KUS_FIGHTERCHASSIS_HYP0,
+		KUS_FIGHTERCHASSIS_HYP1,
 	},
-	Kus_PlasmaBombLauncher =
+	kus_fighterdrive =
 	{
-		"Kus_PlasmaBombLauncher_hyp0",
-		"Kus_PlasmaBombLauncher_hyp1",
+		KUS_FIGHTERDRIVE_HYP0,
+		KUS_FIGHTERDRIVE_HYP1,
 	},
-	Kus_CloakedFighter =
+	kus_plasmabomblauncher =
 	{
-		"Kus_CloakedFighter_hyp0",
-		"Kus_CloakedFighter_hyp1",
+		KUS_PLASMABOMBLAUNCHER_HYP0,
+		KUS_PLASMABOMBLAUNCHER_HYP1,
 	},
-	Kus_CapitalShipDrive =
+	kus_capitalshipchassis =
 	{
-		"Kus_CapitalShipDrive_hyp0",
-		"Kus_CapitalShipDrive_hyp1",
+		KUS_CAPITALSHIPCHASSIS_HYP0,
+		KUS_CAPITALSHIPCHASSIS_HYP1,
 	},
-	Kus_CapitalShipChassis =
+	kus_capitalshipdrive =
 	{
-		"Kus_CapitalShipChassis_hyp0",
-		"Kus_CapitalShipChassis_hyp1",
+		KUS_CAPITALSHIPDRIVE_HYP0,
+		KUS_CAPITALSHIPDRIVE_HYP1,
 	},
-	Kus_IonCannons =
+	kus_dronetechnology =
 	{
-		"Kus_IonCannons_hyp0",
-		"Kus_IonCannons_hyp1",
+		KUS_DRONETECHNOLOGY_HYP0,
+		KUS_DRONETECHNOLOGY_HYP1,
 	},
-	Kus_DroneTechnology =
+	kus_ioncannons =
 	{
-		"Kus_DroneTechnology_hyp0",
-		"Kus_DroneTechnology_hyp1",
+		KUS_IONCANNONS_HYP0,
+		KUS_IONCANNONS_HYP1,
 	},
-	Kus_SuperCapitalShipDrive =
+	kus_guidedmissiles =
 	{
-		"Kus_SuperCapitalShipDrive_res0_hyp0",
-		"Kus_SuperCapitalShipDrive_res1_hyp0",
-		"Kus_SuperCapitalShipDrive_res0_hyp1",
-		"Kus_SuperCapitalShipDrive_res1_hyp1",
+		KUS_GUIDEDMISSILES_HYP0,
+		KUS_GUIDEDMISSILES_HYP1,
 	},
-	Kus_GuidedMissiles =
+	kus_heavyguns =
 	{
-		"Kus_GuidedMissiles_hyp0",
-		"Kus_GuidedMissiles_hyp1",
+		KUS_HEAVYGUNS_HYP0,
+		KUS_HEAVYGUNS_HYP1,
 	},
-	Kus_SuperHeavyChassis =
+	kus_supercapitalshipdrive =
 	{
-		"Kus_SuperHeavyChassis_hyp0",
-		"Kus_SuperHeavyChassis_hyp1",
+		KUS_SUPERCAPITALSHIPDRIVE_RES0_HYP0,
+		KUS_SUPERCAPITALSHIPDRIVE_RES1_HYP0,
+		KUS_SUPERCAPITALSHIPDRIVE_RES0_HYP1,
+		KUS_SUPERCAPITALSHIPDRIVE_RES1_HYP1,
 	},
-	Kus_HeavyGuns =
+	kus_superheavychassis =
 	{
-		"Kus_HeavyGuns_hyp0",
-		"Kus_HeavyGuns_hyp1",
+		KUS_SUPERHEAVYCHASSIS_HYP0,
+		KUS_SUPERHEAVYCHASSIS_HYP1,
 	},
 }

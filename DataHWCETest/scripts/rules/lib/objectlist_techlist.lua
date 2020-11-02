@@ -39,6 +39,8 @@
 -- Do the "name" parameters here need to be identical to something else? I 
 -- fixed some typos and hope I didn't mess up anything.
 --
+-- Need to merge this with "objectlist_techvariants.lua" once I get the chance.
+--
 
 TechList =
 {

@@ -1,6 +1,6 @@
 ThoughtDump v1.3.0 by Thought, Mikail
 Created: ?
-Updated: 12/23/10
+Updated: 12/23/2010
 Homepage:
 http://isometricland.com
 http://hw2.tproc.org

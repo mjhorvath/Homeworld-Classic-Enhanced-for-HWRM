@@ -1,30 +1,34 @@
 pass = 0
 
-function cpuplayers_updating()		
-	local playerIndex = 0
+function cpuplayers_updating()
 	for playerIndex = 0, Player_Count do
 		if (Player_IsAlive(playerIndex) == 1) then
 			if (Player_HasShipWithBuildQueue(playerIndex) == 1) then
 				if (Player_GetLevelOfDifficulty(playerIndex) > 0) then
+					local playerDiff = Player_GetLevelOfDifficulty(playerIndex)
+					local playerRace = Player_GetRace(playerIndex)
+					local raceIndex = RacesListIndex[playerRace]
+					local racePrefix = RacesListPrefix[raceIndex] .. "_"
+					print("cpuplayers_updating(): " .. playerRace .. "; " .. raceIndex .. "; " .. racePrefix)
 
 					--behaviour	
 					if (pass == 0) then
 						if (cpuplayers == 1) then
-							Flag_Research(playerIndex, "cpuplayers_defensive")
-							Restrict_Research(playerIndex, "cpuplayers_aggressive")
-							Restrict_Research(playerIndex, "cpuplayers_dynamic")
+							Flag_Research(playerIndex,		racePrefix .. "cpuplayers_defensive")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_aggressive")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_dynamic")
 						elseif (cpuplayers == 2) then
-							Restrict_Research(playerIndex, "cpuplayers_defensive")
-							Restrict_Research(playerIndex, "cpuplayers_aggressive")
-							Restrict_Research(playerIndex, "cpuplayers_dynamic")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_defensive")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_aggressive")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_dynamic")
 						elseif (cpuplayers == 3) then
-							Restrict_Research(playerIndex, "cpuplayers_defensive")
-							Flag_Research(playerIndex, "cpuplayers_aggressive")
-							Restrict_Research(playerIndex, "cpuplayers_dynamic")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_defensive")
+							Flag_Research(playerIndex,		racePrefix .. "cpuplayers_aggressive")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_dynamic")
 						elseif (cpuplayers == 4) then
-							Restrict_Research(playerIndex, "cpuplayers_defensive")
-							Restrict_Research(playerIndex, "cpuplayers_aggressive")
-							Flag_Research(playerIndex, "cpuplayers_dynamic")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_defensive")
+							Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_aggressive")
+							Flag_Research(playerIndex,		racePrefix .. "cpuplayers_dynamic")
 						end
 					end
 
@@ -33,22 +37,23 @@ function cpuplayers_updating()
 						if (pass == 0) then
 							--prevents the AI to attack
 							if (norushtime == 5) then
-								Flag_Research(playerIndex, "cpuplayers_norushtime5")
-								Restrict_Research(playerIndex, "cpuplayers_norushtime10")
-								Restrict_Research(playerIndex, "cpuplayers_norushtime15")
+								Flag_Research(playerIndex,		racePrefix .. "cpuplayers_norushtime5")
+								Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_norushtime10")
+								Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_norushtime15")
 							elseif (norushtime == 10) then
-								Restrict_Research(playerIndex, "cpuplayers_norushtime5")
-								Flag_Research(playerIndex, "cpuplayers_norushtime10")
-								Restrict_Research(playerIndex, "cpuplayers_norushtime15")
+								Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_norushtime5")
+								Flag_Research(playerIndex,		racePrefix .. "cpuplayers_norushtime10")
+								Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_norushtime15")
 							elseif (norushtime == 15) then
-								Restrict_Research(playerIndex, "cpuplayers_norushtime5")
-								Restrict_Research(playerIndex, "cpuplayers_norushtime10")
-								Flag_Research(playerIndex, "cpuplayers_norushtime15")
+								Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_norushtime5")
+								Restrict_Research(playerIndex,	racePrefix .. "cpuplayers_norushtime10")
+								Flag_Research(playerIndex,		racePrefix .. "cpuplayers_norushtime15")
 							end	
 						end	
 						--prevents the AI to move
-						local mothership = PlayerRace_GetString(playerIndex, "def_type_mothership", "hgn_mothership")
-						local carrier = PlayerRace_GetString(playerIndex, "def_type_carrier", "hgn_carrier")
+						print("cpuplayers_updating(): ModeSuffixString is only correct for Hgn mothership and carrier currently. Need to fix.")
+						local mothership	= PlayerRace_GetString(playerIndex, "def_type_mothership",	racePrefix .. "mothership")	.. ModeSuffixString
+						local carrier		= PlayerRace_GetString(playerIndex, "def_type_carrier",		racePrefix .. "carrier")	.. ModeSuffixString
 						SobGroup_CreateIfNotExist("temp")
 						SobGroup_Clear("temp")
 						SobGroup_CreateIfNotExist("norushtime_nomove" .. playerIndex)
@@ -66,29 +71,29 @@ function cpuplayers_updating()
 
 					--build speed balancing, based on level of difficulty
 					if (pass == 0) then
-						if ((Player_GetLevelOfDifficulty(playerIndex) == 1 or Player_GetLevelOfDifficulty(playerIndex) == 2)) then
-							Flag_Research(playerIndex, "AllShipBuildSpeed")
-							Restrict_Research(playerIndex, "AllShipBuildSpeedHard")
-							Restrict_Research(playerIndex, "AllShipBuildSpeedExpert")
-						elseif (Player_GetLevelOfDifficulty(playerIndex) == 3) then
-							Restrict_Research(playerIndex, "AllShipBuildSpeed")
-							Flag_Research(playerIndex, "AllShipBuildSpeedHard")
-							Restrict_Research(playerIndex, "AllShipBuildSpeedExpert")
-						elseif (Player_GetLevelOfDifficulty(playerIndex) == 4) then
-							Restrict_Research(playerIndex, "AllShipBuildSpeed")
-							Restrict_Research(playerIndex, "AllShipBuildSpeedHard")
-							Flag_Research(playerIndex, "AllShipBuildSpeedExpert")
+						if ((playerDiff == 1) or (playerDiff == 2)) then
+							Flag_Research(playerIndex,		racePrefix .. "AllShipBuildSpeed")
+							Restrict_Research(playerIndex,	racePrefix .. "AllShipBuildSpeedHard")
+							Restrict_Research(playerIndex,	racePrefix .. "AllShipBuildSpeedExpert")
+						elseif (playerDiff == 3) then
+							Restrict_Research(playerIndex,	racePrefix .. "AllShipBuildSpeed")
+							Flag_Research(playerIndex,		racePrefix .. "AllShipBuildSpeedHard")
+							Restrict_Research(playerIndex,	racePrefix .. "AllShipBuildSpeedExpert")
+						elseif (playerDiff == 4) then
+							Restrict_Research(playerIndex,	racePrefix .. "AllShipBuildSpeed")
+							Restrict_Research(playerIndex,	racePrefix .. "AllShipBuildSpeedHard")
+							Flag_Research(playerIndex,		racePrefix .. "AllShipBuildSpeedExpert")
 						end
 					end	
 					
 					--ru speed balancing, based on level of difficulty
 					if (pass == 0) then
-						if (Player_GetLevelOfDifficulty(playerIndex) == 3) then
-							Flag_Research(playerIndex, "ResourceCollectionRateHard")
-							Restrict_Research(playerIndex, "ResourceCollectionRateExpert")
-						elseif (Player_GetLevelOfDifficulty(playerIndex) == 4) then
-							Restrict_Research(playerIndex, "ResourceCollectionRateHard")
-							Flag_Research(playerIndex, "ResourceCollectionRateExpert")
+						if (playerDiff == 3) then
+							Flag_Research(playerIndex,		racePrefix .. "ResourceCollectionRateHard")
+							Restrict_Research(playerIndex,	racePrefix .. "ResourceCollectionRateExpert")
+						elseif (playerDiff == 4) then
+							Restrict_Research(playerIndex,	racePrefix .. "ResourceCollectionRateHard")
+							Flag_Research(playerIndex,		racePrefix .. "ResourceCollectionRateExpert")
 						end
 					end	
 					
@@ -103,6 +108,7 @@ function cpuplayers_updating()
 					end	
 						
 					--relics
+					-- need to re-enable and update this code if I want AI to use relics
 --					if (relics > 0) then
 --						if (Universe_GameTime() > relic_start + 10) then
 --							for i = 1, relic_max, 1 do
@@ -131,7 +137,7 @@ function cpuplayers_updating()
 --					end
 
 					--crates
-					-- need to re-enable this if I want AI to use crates
+					-- need to re-enable and update this code if I want AI to use crates
 --					if (crates > 0) then
 --						if (Universe_GameTime() > timer_interval * 46) then		-- need to replace this with correct crate timer value
 --							for otherPlayerIndex = 0, Player_Count do

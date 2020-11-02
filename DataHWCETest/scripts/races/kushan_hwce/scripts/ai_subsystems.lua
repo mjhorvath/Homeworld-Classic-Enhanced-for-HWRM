@@ -1,4 +1,4 @@
-aitrace("LOADING KUSHAN SUBSYSTEM INFO")
+AI_trace("LOADING KUSHAN SUBSYSTEM INFO")
 
 function DoSubSystemDemand_Kushan()
 end

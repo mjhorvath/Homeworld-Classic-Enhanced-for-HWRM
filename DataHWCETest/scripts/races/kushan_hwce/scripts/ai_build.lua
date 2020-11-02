@@ -1,4 +1,4 @@
-aitrace("LOADING KUSHAN BUILD INFO")
+AI_trace("LOADING KUSHAN BUILD INFO")
 
 		kCollector = KUS_RESOURCECOLLECTOR
 --		kRefinery  = KUS_RESOURCECONTROLLER	-- causes crash since it's missing from build script

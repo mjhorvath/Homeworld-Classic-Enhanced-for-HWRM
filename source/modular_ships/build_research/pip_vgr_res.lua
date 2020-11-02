@@ -1,542 +1,542 @@
 VariantResearch =
 {
-	Vgr_BomberImprovedBombs =
+	vgr_bomberimprovedbombs =
 	{
-		"Vgr_BomberImprovedBombs_hyp0",
-		"Vgr_BomberImprovedBombs_hyp1",
+		VGR_BOMBERIMPROVEDBOMBS_HYP0,
+		VGR_BOMBERIMPROVEDBOMBS_HYP1,
 	},
-	Vgr_RepairAbility =
+	vgr_repairability =
 	{
-		"Vgr_RepairAbility_res0_hyp0",
-		"Vgr_RepairAbility_res1_hyp0",
-		"Vgr_RepairAbility_res0_hyp1",
-		"Vgr_RepairAbility_res1_hyp1",
+		VGR_REPAIRABILITY_RES0_HYP0,
+		VGR_REPAIRABILITY_RES1_HYP0,
+		VGR_REPAIRABILITY_RES0_HYP1,
+		VGR_REPAIRABILITY_RES1_HYP1,
 	},
-	Vgr_ScoutEMPAbility =
+	vgr_scoutempability =
 	{
-		"Vgr_ScoutEMPAbility_hyp0",
-		"Vgr_ScoutEMPAbility_hyp1",
+		VGR_SCOUTEMPABILITY_HYP0,
+		VGR_SCOUTEMPABILITY_HYP1,
 	},
-	Vgr_AllShipBuildSpeed =
+	vgr_allshipbuildspeed =
 	{
-		"Vgr_AllShipBuildSpeed",
+		VGR_ALLSHIPBUILDSPEED,
 	},
-	Vgr_AllShipBuildSpeedExpert =
+	vgr_allshipbuildspeedexpert =
 	{
-		"Vgr_AllShipBuildSpeedExpert",
+		VGR_ALLSHIPBUILDSPEEDEXPERT,
 	},
-	Vgr_AllShipBuildSpeedHard =
+	vgr_allshipbuildspeedhard =
 	{
-		"Vgr_AllShipBuildSpeedHard",
+		VGR_ALLSHIPBUILDSPEEDHARD,
 	},
-	Vgr_cpuplayers_aggressive =
+	vgr_cpuplayers_aggressive =
 	{
-		"Vgr_cpuplayers_aggressive",
+		VGR_CPUPLAYERS_AGGRESSIVE,
 	},
-	Vgr_cpuplayers_defensive =
+	vgr_cpuplayers_defensive =
 	{
-		"Vgr_cpuplayers_defensive",
+		VGR_CPUPLAYERS_DEFENSIVE,
 	},
-	Vgr_cpuplayers_dynamic =
+	vgr_cpuplayers_dynamic =
 	{
-		"Vgr_cpuplayers_dynamic",
+		VGR_CPUPLAYERS_DYNAMIC,
 	},
-	Vgr_cpuplayers_norushtime10 =
+	vgr_cpuplayers_norushtime10 =
 	{
-		"Vgr_cpuplayers_norushtime10",
+		VGR_CPUPLAYERS_NORUSHTIME10,
 	},
-	Vgr_cpuplayers_norushtime15 =
+	vgr_cpuplayers_norushtime15 =
 	{
-		"Vgr_cpuplayers_norushtime15",
+		VGR_CPUPLAYERS_NORUSHTIME15,
 	},
-	Vgr_cpuplayers_norushtime5 =
+	vgr_cpuplayers_norushtime5 =
 	{
-		"Vgr_cpuplayers_norushtime5",
+		VGR_CPUPLAYERS_NORUSHTIME5,
 	},
-	Vgr_ResourceCollectionRateExpert =
+	vgr_resourcecollectionrateexpert =
 	{
-		"Vgr_ResourceCollectionRateExpert_res0_hyp0",
-		"Vgr_ResourceCollectionRateExpert_res1_hyp0",
-		"Vgr_ResourceCollectionRateExpert_res0_hyp1",
-		"Vgr_ResourceCollectionRateExpert_res1_hyp1",
+		VGR_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP0,
+		VGR_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP0,
+		VGR_RESOURCECOLLECTIONRATEEXPERT_RES0_HYP1,
+		VGR_RESOURCECOLLECTIONRATEEXPERT_RES1_HYP1,
 	},
-	Vgr_ResourceCollectionRateHard =
+	vgr_resourcecollectionratehard =
 	{
-		"Vgr_ResourceCollectionRateHard_res0_hyp0",
-		"Vgr_ResourceCollectionRateHard_res1_hyp0",
-		"Vgr_ResourceCollectionRateHard_res0_hyp1",
-		"Vgr_ResourceCollectionRateHard_res1_hyp1",
+		VGR_RESOURCECOLLECTIONRATEHARD_RES0_HYP0,
+		VGR_RESOURCECOLLECTIONRATEHARD_RES1_HYP0,
+		VGR_RESOURCECOLLECTIONRATEHARD_RES0_HYP1,
+		VGR_RESOURCECOLLECTIONRATEHARD_RES1_HYP1,
 	},
-	Vgr_WeaponDamageUpgrade125 =
+	vgr_weapondamageupgrade125 =
 	{
-		"Vgr_WeaponDamageUpgrade125",
+		VGR_WEAPONDAMAGEUPGRADE125,
 	},
-	Vgr_WeaponDamageUpgrade150 =
+	vgr_weapondamageupgrade150 =
 	{
-		"Vgr_WeaponDamageUpgrade150",
+		VGR_WEAPONDAMAGEUPGRADE150,
 	},
-	Vgr_WeaponDamageUpgrade175 =
+	vgr_weapondamageupgrade175 =
 	{
-		"Vgr_WeaponDamageUpgrade175",
+		VGR_WEAPONDAMAGEUPGRADE175,
 	},
-	Vgr_WeaponDamageUpgrade200 =
+	vgr_weapondamageupgrade200 =
 	{
-		"Vgr_WeaponDamageUpgrade200",
+		VGR_WEAPONDAMAGEUPGRADE200,
 	},
-	Vgr_SuperCapHealthUpgrade1 =
+	vgr_supercaphealthupgrade1 =
 	{
-		"Vgr_SuperCapHealthUpgrade1",
+		VGR_SUPERCAPHEALTHUPGRADE1,
 	},
-	Vgr_SuperCapSpeedUpgrade1 =
+	vgr_supercapspeedupgrade1 =
 	{
-		"Vgr_SuperCapSpeedUpgrade1",
+		VGR_SUPERCAPSPEEDUPGRADE1,
 	},
-	Vgr_CarrierBUILDSPEEDUpgrade1 =
+	vgr_carrierbuildspeedupgrade1 =
 	{
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Vgr_CarrierBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
-	},
-	Vgr_MothershipBUILDSPEEDUpgrade1 =
-	{
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		VGR_CARRIERBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
+	},
+	vgr_mothershipbuildspeedupgrade1 =
+	{
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_MothershipBUILDSPEEDUpgrade1_Makaan =
+	vgr_mothershipbuildspeedupgrade1_makaan =
 	{
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch0_res1_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch0_res1_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res0_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res1_hyp0",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res0_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car0_rch1_res1_hyp1",
-		"Vgr_MothershipBUILDSPEEDUpgrade1_Makaan_car1_rch1_res1_hyp1",
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH0_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH0_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH0_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH0_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH0_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH0_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH0_RES1_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH0_RES1_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH1_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH1_RES0_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH1_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH1_RES1_HYP0,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH1_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH1_RES0_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR0_RCH1_RES1_HYP1,
+		VGR_MOTHERSHIPBUILDSPEEDUPGRADE1_MAKAAN_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_ShipyardBUILDSPEEDUpgrade1 =
+	vgr_shipyardbuildspeedupgrade1 =
 	{
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res0_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res1_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res0_hyp1",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res0_hyp1",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch0_res1_hyp1",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch0_res1_hyp1",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res0_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res1_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res1_hyp0",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res0_hyp1",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res0_hyp1",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car0_rch1_res1_hyp1",
-		"Vgr_ShipyardBUILDSPEEDUpgrade1_car1_rch1_res1_hyp1",
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES0_HYP1,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES0_HYP1,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH0_RES1_HYP1,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH0_RES1_HYP1,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP0,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES0_HYP1,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES0_HYP1,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR0_RCH1_RES1_HYP1,
+		VGR_SHIPYARDBUILDSPEEDUPGRADE1_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_CorvetteHealthUpgrade1 =
+	vgr_corvettehealthupgrade1 =
 	{
-		"Vgr_CorvetteHealthUpgrade1",
+		VGR_CORVETTEHEALTHUPGRADE1,
 	},
-	Vgr_CorvetteSpeedUpgrade1 =
+	vgr_corvettespeedupgrade1 =
 	{
-		"Vgr_CorvetteSpeedUpgrade1",
+		VGR_CORVETTESPEEDUPGRADE1,
 	},
-	Vgr_BattlecruiserIonWeapons =
+	vgr_battlecruiserionweapons =
 	{
-		"Vgr_BattlecruiserIonWeapons_hyp0",
-		"Vgr_BattlecruiserIonWeapons_hyp1",
+		VGR_BATTLECRUISERIONWEAPONS_HYP0,
+		VGR_BATTLECRUISERIONWEAPONS_HYP1,
 	},
-	Vgr_CorvetteCommand =
+	vgr_corvettecommand =
 	{
-		"Vgr_CorvetteCommand_hyp0",
-		"Vgr_CorvetteCommand_hyp1",
+		VGR_CORVETTECOMMAND_HYP0,
+		VGR_CORVETTECOMMAND_HYP1,
 	},
-	Vgr_CorvetteGraviticAttraction =
-	{
-		"Vgr_CorvetteGraviticAttraction_hyp0",
-		"Vgr_CorvetteGraviticAttraction_hyp1",
-	},
-	Vgr_CorvetteLaser =
-	{
-		"Vgr_CorvetteLaser_hyp0",
-		"Vgr_CorvetteLaser_hyp1",
-	},
-	Vgr_CorvetteTech =
-	{
-		"Vgr_CorvetteTech",
-	},
-	Vgr_DestroyerGuns =
-	{
-		"Vgr_DestroyerGuns_hyp0",
-		"Vgr_DestroyerGuns_hyp1",
-	},
-	Vgr_FrigateAssault =
-	{
-		"Vgr_FrigateAssault_hyp0",
-		"Vgr_FrigateAssault_hyp1",
-	},
-	Vgr_FrigateInfiltrationTech =
-	{
-		"Vgr_FrigateInfiltrationTech_hyp0",
-		"Vgr_FrigateInfiltrationTech_hyp1",
-	},
-	Vgr_FrigateTech =
-	{
-		"Vgr_FrigateTech",
-	},
-	Vgr_HyperspaceDamageReductionUpgrade =
-	{
-		"Vgr_HyperspaceDamageReductionUpgrade",
-	},
-	Vgr_HyperspaceGateTech =
-	{
-		"Vgr_HyperspaceGateTech_hyp0",
-		"Vgr_HyperspaceGateTech_hyp1",
-	},
-	Vgr_LanceBeams =
-	{
-		"Vgr_LanceBeams_hyp0",
-		"Vgr_LanceBeams_hyp1",
-	},
-	Vgr_PlasmaBombs =
-	{
-		"Vgr_PlasmaBombs_hyp0",
-		"Vgr_PlasmaBombs_hyp1",
-	},
-	Vgr_PlatformHeavyMissiles =
-	{
-		"Vgr_PlatformHeavyMissiles_hyp0",
-		"Vgr_PlatformHeavyMissiles_hyp1",
-	},
-	Vgr_ProbeProxSensor =
-	{
-		"Vgr_ProbeProxSensor_hyp0",
-		"Vgr_ProbeProxSensor_hyp1",
-	},
-	Vgr_ProbeSensorDisruption =
-	{
-		"Vgr_ProbeSensorDisruption_hyp0",
-		"Vgr_ProbeSensorDisruption_hyp1",
-	},
-	Vgr_SGMCapitalHealth =
-	{
-		"Vgr_SGMCapitalHealth_car0_rch0_res0_hyp0",
-		"Vgr_SGMCapitalHealth_car1_rch0_res0_hyp0",
-		"Vgr_SGMCapitalHealth_car0_rch0_res1_hyp0",
-		"Vgr_SGMCapitalHealth_car1_rch0_res1_hyp0",
-		"Vgr_SGMCapitalHealth_car0_rch0_res0_hyp1",
-		"Vgr_SGMCapitalHealth_car1_rch0_res0_hyp1",
-		"Vgr_SGMCapitalHealth_car0_rch0_res1_hyp1",
-		"Vgr_SGMCapitalHealth_car1_rch0_res1_hyp1",
-		"Vgr_SGMCapitalHealth_car0_rch1_res0_hyp0",
-		"Vgr_SGMCapitalHealth_car1_rch1_res0_hyp0",
-		"Vgr_SGMCapitalHealth_car0_rch1_res1_hyp0",
-		"Vgr_SGMCapitalHealth_car1_rch1_res1_hyp0",
-		"Vgr_SGMCapitalHealth_car0_rch1_res0_hyp1",
-		"Vgr_SGMCapitalHealth_car1_rch1_res0_hyp1",
-		"Vgr_SGMCapitalHealth_car0_rch1_res1_hyp1",
-		"Vgr_SGMCapitalHealth_car1_rch1_res1_hyp1",
+	vgr_corvettegraviticattraction =
+	{
+		VGR_CORVETTEGRAVITICATTRACTION_HYP0,
+		VGR_CORVETTEGRAVITICATTRACTION_HYP1,
+	},
+	vgr_corvettelaser =
+	{
+		VGR_CORVETTELASER_HYP0,
+		VGR_CORVETTELASER_HYP1,
+	},
+	vgr_corvettetech =
+	{
+		VGR_CORVETTETECH,
+	},
+	vgr_destroyerguns =
+	{
+		VGR_DESTROYERGUNS_HYP0,
+		VGR_DESTROYERGUNS_HYP1,
+	},
+	vgr_frigateassault =
+	{
+		VGR_FRIGATEASSAULT_HYP0,
+		VGR_FRIGATEASSAULT_HYP1,
+	},
+	vgr_frigateinfiltrationtech =
+	{
+		VGR_FRIGATEINFILTRATIONTECH_HYP0,
+		VGR_FRIGATEINFILTRATIONTECH_HYP1,
+	},
+	vgr_frigatetech =
+	{
+		VGR_FRIGATETECH,
+	},
+	vgr_hyperspacedamagereductionupgrade =
+	{
+		VGR_HYPERSPACEDAMAGEREDUCTIONUPGRADE,
+	},
+	vgr_hyperspacegatetech =
+	{
+		VGR_HYPERSPACEGATETECH_HYP0,
+		VGR_HYPERSPACEGATETECH_HYP1,
+	},
+	vgr_lancebeams =
+	{
+		VGR_LANCEBEAMS_HYP0,
+		VGR_LANCEBEAMS_HYP1,
+	},
+	vgr_plasmabombs =
+	{
+		VGR_PLASMABOMBS_HYP0,
+		VGR_PLASMABOMBS_HYP1,
+	},
+	vgr_platformheavymissiles =
+	{
+		VGR_PLATFORMHEAVYMISSILES_HYP0,
+		VGR_PLATFORMHEAVYMISSILES_HYP1,
+	},
+	vgr_probeproxsensor =
+	{
+		VGR_PROBEPROXSENSOR_HYP0,
+		VGR_PROBEPROXSENSOR_HYP1,
+	},
+	vgr_probesensordisruption =
+	{
+		VGR_PROBESENSORDISRUPTION_HYP0,
+		VGR_PROBESENSORDISRUPTION_HYP1,
+	},
+	vgr_sgmcapitalhealth =
+	{
+		VGR_SGMCAPITALHEALTH_CAR0_RCH0_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH0_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR0_RCH0_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH0_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR0_RCH0_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH0_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_CAR0_RCH0_RES1_HYP1,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH0_RES1_HYP1,
+		VGR_SGMCAPITALHEALTH_CAR0_RCH1_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH1_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR0_RCH1_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH1_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_CAR0_RCH1_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH1_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_CAR0_RCH1_RES1_HYP1,
+		VGR_SGMCAPITALHEALTH_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_SGMCapitalHealth_Makaan =
+	vgr_sgmcapitalhealth_makaan =
 	{
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch0_res0_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch0_res0_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch0_res1_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch0_res1_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch0_res0_hyp1",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch0_res0_hyp1",
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch0_res1_hyp1",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch0_res1_hyp1",
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch1_res0_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch1_res0_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch1_res1_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch1_res1_hyp0",
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch1_res0_hyp1",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch1_res0_hyp1",
-		"Vgr_SGMCapitalHealth_Makaan_car0_rch1_res1_hyp1",
-		"Vgr_SGMCapitalHealth_Makaan_car1_rch1_res1_hyp1",
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH0_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH0_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH0_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH0_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH0_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH0_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH0_RES1_HYP1,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH0_RES1_HYP1,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH1_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH1_RES0_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH1_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH1_RES1_HYP0,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH1_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH1_RES0_HYP1,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR0_RCH1_RES1_HYP1,
+		VGR_SGMCAPITALHEALTH_MAKAAN_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_SGMCarrierHealth =
+	vgr_sgmcarrierhealth =
 	{
-		"Vgr_SGMCarrierHealth_car0_rch0_res0_hyp0",
-		"Vgr_SGMCarrierHealth_car1_rch0_res0_hyp0",
-		"Vgr_SGMCarrierHealth_car0_rch0_res1_hyp0",
-		"Vgr_SGMCarrierHealth_car1_rch0_res1_hyp0",
-		"Vgr_SGMCarrierHealth_car0_rch0_res0_hyp1",
-		"Vgr_SGMCarrierHealth_car1_rch0_res0_hyp1",
-		"Vgr_SGMCarrierHealth_car0_rch0_res1_hyp1",
-		"Vgr_SGMCarrierHealth_car1_rch0_res1_hyp1",
-		"Vgr_SGMCarrierHealth_car0_rch1_res0_hyp0",
-		"Vgr_SGMCarrierHealth_car1_rch1_res0_hyp0",
-		"Vgr_SGMCarrierHealth_car0_rch1_res1_hyp0",
-		"Vgr_SGMCarrierHealth_car1_rch1_res1_hyp0",
-		"Vgr_SGMCarrierHealth_car0_rch1_res0_hyp1",
-		"Vgr_SGMCarrierHealth_car1_rch1_res0_hyp1",
-		"Vgr_SGMCarrierHealth_car0_rch1_res1_hyp1",
-		"Vgr_SGMCarrierHealth_car1_rch1_res1_hyp1",
+		VGR_SGMCARRIERHEALTH_CAR0_RCH0_RES0_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH0_RES0_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR0_RCH0_RES1_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH0_RES1_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR0_RCH0_RES0_HYP1,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH0_RES0_HYP1,
+		VGR_SGMCARRIERHEALTH_CAR0_RCH0_RES1_HYP1,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH0_RES1_HYP1,
+		VGR_SGMCARRIERHEALTH_CAR0_RCH1_RES0_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH1_RES0_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR0_RCH1_RES1_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH1_RES1_HYP0,
+		VGR_SGMCARRIERHEALTH_CAR0_RCH1_RES0_HYP1,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH1_RES0_HYP1,
+		VGR_SGMCARRIERHEALTH_CAR0_RCH1_RES1_HYP1,
+		VGR_SGMCARRIERHEALTH_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_SGMFrigateHealth =
+	vgr_sgmfrigatehealth =
 	{
-		"Vgr_SGMFrigateHealth",
+		VGR_SGMFRIGATEHEALTH,
 	},
-	Vgr_SGMShipyardHealth =
+	vgr_sgmshipyardhealth =
 	{
-		"Vgr_SGMShipyardHealth_car0_rch0_res0_hyp0",
-		"Vgr_SGMShipyardHealth_car1_rch0_res0_hyp0",
-		"Vgr_SGMShipyardHealth_car0_rch0_res1_hyp0",
-		"Vgr_SGMShipyardHealth_car1_rch0_res1_hyp0",
-		"Vgr_SGMShipyardHealth_car0_rch0_res0_hyp1",
-		"Vgr_SGMShipyardHealth_car1_rch0_res0_hyp1",
-		"Vgr_SGMShipyardHealth_car0_rch0_res1_hyp1",
-		"Vgr_SGMShipyardHealth_car1_rch0_res1_hyp1",
-		"Vgr_SGMShipyardHealth_car0_rch1_res0_hyp0",
-		"Vgr_SGMShipyardHealth_car1_rch1_res0_hyp0",
-		"Vgr_SGMShipyardHealth_car0_rch1_res1_hyp0",
-		"Vgr_SGMShipyardHealth_car1_rch1_res1_hyp0",
-		"Vgr_SGMShipyardHealth_car0_rch1_res0_hyp1",
-		"Vgr_SGMShipyardHealth_car1_rch1_res0_hyp1",
-		"Vgr_SGMShipyardHealth_car0_rch1_res1_hyp1",
-		"Vgr_SGMShipyardHealth_car1_rch1_res1_hyp1",
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH0_RES0_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH0_RES0_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH0_RES1_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH0_RES1_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH0_RES0_HYP1,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH0_RES0_HYP1,
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH0_RES1_HYP1,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH0_RES1_HYP1,
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH1_RES0_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH1_RES0_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH1_RES1_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH1_RES1_HYP0,
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH1_RES0_HYP1,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH1_RES0_HYP1,
+		VGR_SGMSHIPYARDHEALTH_CAR0_RCH1_RES1_HYP1,
+		VGR_SGMSHIPYARDHEALTH_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_FighterspeedUpgrade1 =
+	vgr_fighterspeedupgrade1 =
 	{
-		"Vgr_FighterspeedUpgrade1",
+		VGR_FIGHTERSPEEDUPGRADE1,
 	},
-	Vgr_FrigateHealthUpgrade1 =
+	vgr_frigatehealthupgrade1 =
 	{
-		"Vgr_FrigateHealthUpgrade1",
+		VGR_FRIGATEHEALTHUPGRADE1,
 	},
-	Vgr_FrigateSpeedUpgrade1 =
+	vgr_frigatespeedupgrade1 =
 	{
-		"Vgr_FrigateSpeedUpgrade1",
+		VGR_FRIGATESPEEDUPGRADE1,
 	},
-	Vgr_PlatformHealthUpgrade1 =
+	vgr_platformhealthupgrade1 =
 	{
-		"Vgr_PlatformHealthUpgrade1",
+		VGR_PLATFORMHEALTHUPGRADE1,
 	},
-	Vgr_CorvetteHealthUpgradeSPGAME =
+	vgr_corvettehealthupgradespgame =
 	{
-		"Vgr_CorvetteHealthUpgradeSPGAME",
+		VGR_CORVETTEHEALTHUPGRADESPGAME,
 	},
-	Vgr_ExtraStrongVgrHeavyMissilesSPGAME =
+	vgr_extrastrongvgrheavymissilesspgame =
 	{
-		"Vgr_ExtraStrongVgrHeavyMissilesSPGAME_hyp0",
-		"Vgr_ExtraStrongVgrHeavyMissilesSPGAME_hyp1",
+		VGR_EXTRASTRONGVGRHEAVYMISSILESSPGAME_HYP0,
+		VGR_EXTRASTRONGVGRHEAVYMISSILESSPGAME_HYP1,
 	},
-	Vgr_HyperspaceRecoveryTimeUpgradeSPGAME =
+	vgr_hyperspacerecoverytimeupgradespgame =
 	{
-		"Vgr_HyperspaceRecoveryTimeUpgradeSPGAME",
+		VGR_HYPERSPACERECOVERYTIMEUPGRADESPGAME,
 	},
-	Vgr_HyperspaceTransitionTimeUpgradeSPGAME =
+	vgr_hyperspacetransitiontimeupgradespgame =
 	{
-		"Vgr_HyperspaceTransitionTimeUpgradeSPGAME",
+		VGR_HYPERSPACETRANSITIONTIMEUPGRADESPGAME,
 	},
-	Vgr_MakaanBattleCruiserHealth =
+	vgr_makaanbattlecruiserhealth =
 	{
-		"Vgr_MakaanBattleCruiserHealth_hyp0",
-		"Vgr_MakaanBattleCruiserHealth_hyp1",
+		VGR_MAKAANBATTLECRUISERHEALTH_HYP0,
+		VGR_MAKAANBATTLECRUISERHEALTH_HYP1,
 	},
-	Vgr_MakaanCarrierHealth =
+	vgr_makaancarrierhealth =
 	{
-		"Vgr_MakaanCarrierHealth_car0_rch0_res0_hyp0",
-		"Vgr_MakaanCarrierHealth_car1_rch0_res0_hyp0",
-		"Vgr_MakaanCarrierHealth_car0_rch0_res1_hyp0",
-		"Vgr_MakaanCarrierHealth_car1_rch0_res1_hyp0",
-		"Vgr_MakaanCarrierHealth_car0_rch0_res0_hyp1",
-		"Vgr_MakaanCarrierHealth_car1_rch0_res0_hyp1",
-		"Vgr_MakaanCarrierHealth_car0_rch0_res1_hyp1",
-		"Vgr_MakaanCarrierHealth_car1_rch0_res1_hyp1",
-		"Vgr_MakaanCarrierHealth_car0_rch1_res0_hyp0",
-		"Vgr_MakaanCarrierHealth_car1_rch1_res0_hyp0",
-		"Vgr_MakaanCarrierHealth_car0_rch1_res1_hyp0",
-		"Vgr_MakaanCarrierHealth_car1_rch1_res1_hyp0",
-		"Vgr_MakaanCarrierHealth_car0_rch1_res0_hyp1",
-		"Vgr_MakaanCarrierHealth_car1_rch1_res0_hyp1",
-		"Vgr_MakaanCarrierHealth_car0_rch1_res1_hyp1",
-		"Vgr_MakaanCarrierHealth_car1_rch1_res1_hyp1",
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH0_RES0_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH0_RES0_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH0_RES1_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH0_RES1_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH0_RES0_HYP1,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH0_RES0_HYP1,
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH0_RES1_HYP1,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH0_RES1_HYP1,
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH1_RES0_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH1_RES0_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH1_RES1_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH1_RES1_HYP0,
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH1_RES0_HYP1,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH1_RES0_HYP1,
+		VGR_MAKAANCARRIERHEALTH_CAR0_RCH1_RES1_HYP1,
+		VGR_MAKAANCARRIERHEALTH_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_MakaanCorvetteHealth =
+	vgr_makaancorvettehealth =
 	{
-		"Vgr_MakaanCorvetteHealth",
+		VGR_MAKAANCORVETTEHEALTH,
 	},
-	Vgr_MakaanDestroyerHealth =
+	vgr_makaandestroyerhealth =
 	{
-		"Vgr_MakaanDestroyerHealth_hyp0",
-		"Vgr_MakaanDestroyerHealth_hyp1",
+		VGR_MAKAANDESTROYERHEALTH_HYP0,
+		VGR_MAKAANDESTROYERHEALTH_HYP1,
 	},
-	Vgr_MakaanFighterHealth =
+	vgr_makaanfighterhealth =
 	{
-		"Vgr_MakaanFighterHealth",
+		VGR_MAKAANFIGHTERHEALTH,
 	},
-	Vgr_MakaanFrigateHealth =
+	vgr_makaanfrigatehealth =
 	{
-		"Vgr_MakaanFrigateHealth",
+		VGR_MAKAANFRIGATEHEALTH,
 	},
-	Vgr_MakaanPlatformHealth =
+	vgr_makaanplatformhealth =
 	{
-		"Vgr_MakaanPlatformHealth",
-	},
-	Vgr_MakaanShipyardHealth =
-	{
-		"Vgr_MakaanShipyardHealth_car0_rch0_res0_hyp0",
-		"Vgr_MakaanShipyardHealth_car1_rch0_res0_hyp0",
-		"Vgr_MakaanShipyardHealth_car0_rch0_res1_hyp0",
-		"Vgr_MakaanShipyardHealth_car1_rch0_res1_hyp0",
-		"Vgr_MakaanShipyardHealth_car0_rch0_res0_hyp1",
-		"Vgr_MakaanShipyardHealth_car1_rch0_res0_hyp1",
-		"Vgr_MakaanShipyardHealth_car0_rch0_res1_hyp1",
-		"Vgr_MakaanShipyardHealth_car1_rch0_res1_hyp1",
-		"Vgr_MakaanShipyardHealth_car0_rch1_res0_hyp0",
-		"Vgr_MakaanShipyardHealth_car1_rch1_res0_hyp0",
-		"Vgr_MakaanShipyardHealth_car0_rch1_res1_hyp0",
-		"Vgr_MakaanShipyardHealth_car1_rch1_res1_hyp0",
-		"Vgr_MakaanShipyardHealth_car0_rch1_res0_hyp1",
-		"Vgr_MakaanShipyardHealth_car1_rch1_res0_hyp1",
-		"Vgr_MakaanShipyardHealth_car0_rch1_res1_hyp1",
-		"Vgr_MakaanShipyardHealth_car1_rch1_res1_hyp1",
+		VGR_MAKAANPLATFORMHEALTH,
+	},
+	vgr_makaanshipyardhealth =
+	{
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH0_RES0_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH0_RES0_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH0_RES1_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH0_RES1_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH0_RES0_HYP1,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH0_RES0_HYP1,
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH0_RES1_HYP1,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH0_RES1_HYP1,
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH1_RES0_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH1_RES0_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH1_RES1_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH1_RES1_HYP0,
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH1_RES0_HYP1,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH1_RES0_HYP1,
+		VGR_MAKAANSHIPYARDHEALTH_CAR0_RCH1_RES1_HYP1,
+		VGR_MAKAANSHIPYARDHEALTH_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_MakaanUtilityHealth =
+	vgr_makaanutilityhealth =
 	{
-		"Vgr_MakaanUtilityHealth",
+		VGR_MAKAANUTILITYHEALTH,
 	},
-	Vgr_ShipyardSpeedDowngradeSPGAME =
+	vgr_shipyardspeeddowngradespgame =
 	{
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch0_res0_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res0_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch0_res1_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res1_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch0_res0_hyp1",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res0_hyp1",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch0_res1_hyp1",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch0_res1_hyp1",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch1_res0_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res0_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch1_res1_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res1_hyp0",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch1_res0_hyp1",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res0_hyp1",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car0_rch1_res1_hyp1",
-		"Vgr_ShipyardSpeedDowngradeSPGAME_car1_rch1_res1_hyp1",
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH0_RES0_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH0_RES0_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH0_RES1_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH0_RES1_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH0_RES0_HYP1,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH0_RES0_HYP1,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH0_RES1_HYP1,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH0_RES1_HYP1,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH1_RES0_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH1_RES0_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH1_RES1_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH1_RES1_HYP0,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH1_RES0_HYP1,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH1_RES0_HYP1,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR0_RCH1_RES1_HYP1,
+		VGR_SHIPYARDSPEEDDOWNGRADESPGAME_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_StrongerGunPlats =
+	vgr_strongergunplats =
 	{
-		"Vgr_StrongerGunPlats_hyp0",
-		"Vgr_StrongerGunPlats_hyp1",
+		VGR_STRONGERGUNPLATS_HYP0,
+		VGR_STRONGERGUNPLATS_HYP1,
 	},
-	Vgr_StrongerMissilePlats =
+	vgr_strongermissileplats =
 	{
-		"Vgr_StrongerMissilePlats_hyp0",
-		"Vgr_StrongerMissilePlats_hyp1",
+		VGR_STRONGERMISSILEPLATS_HYP0,
+		VGR_STRONGERMISSILEPLATS_HYP1,
 	},
-	Vgr_SuperCapDamageAppliedSPGAME =
+	vgr_supercapdamageappliedspgame =
 	{
-		"Vgr_SuperCapDamageAppliedSPGAME",
+		VGR_SUPERCAPDAMAGEAPPLIEDSPGAME,
 	},
-	Vgr_SuperCapHealthUpgradeSPGAME =
+	vgr_supercaphealthupgradespgame =
 	{
-		"Vgr_SuperCapHealthUpgradeSPGAME",
+		VGR_SUPERCAPHEALTHUPGRADESPGAME,
 	},
-	Vgr_VaygrCaptureHack =
+	vgr_vaygrcapturehack =
 	{
-		"Vgr_VaygrCaptureHack_hyp0",
-		"Vgr_VaygrCaptureHack_hyp1",
+		VGR_VAYGRCAPTUREHACK_HYP0,
+		VGR_VAYGRCAPTUREHACK_HYP1,
 	},
-	Vgr_VaygrCarrierHealthRegenDowngrade =
+	vgr_vaygrcarrierhealthregendowngrade =
 	{
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch0_res0_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res0_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch0_res1_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res1_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch0_res0_hyp1",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res0_hyp1",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch0_res1_hyp1",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch0_res1_hyp1",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch1_res0_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res0_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch1_res1_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res1_hyp0",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch1_res0_hyp1",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res0_hyp1",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car0_rch1_res1_hyp1",
-		"Vgr_VaygrCarrierHealthRegenDowngrade_car1_rch1_res1_hyp1",
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH0_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH0_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH0_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH0_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH0_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH0_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH0_RES1_HYP1,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH0_RES1_HYP1,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH1_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH1_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH1_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH1_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH1_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH1_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR0_RCH1_RES1_HYP1,
+		VGR_VAYGRCARRIERHEALTHREGENDOWNGRADE_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_VaygrCarrierHealthUpgrade =
+	vgr_vaygrcarrierhealthupgrade =
 	{
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch0_res0_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res0_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch0_res1_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res1_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch0_res0_hyp1",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res0_hyp1",
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch0_res1_hyp1",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch0_res1_hyp1",
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch1_res0_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res0_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch1_res1_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res1_hyp0",
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch1_res0_hyp1",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res0_hyp1",
-		"Vgr_VaygrCarrierHealthUpgrade_car0_rch1_res1_hyp1",
-		"Vgr_VaygrCarrierHealthUpgrade_car1_rch1_res1_hyp1",
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH0_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH0_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH0_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH0_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH0_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH0_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH0_RES1_HYP1,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH0_RES1_HYP1,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH1_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH1_RES0_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH1_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH1_RES1_HYP0,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH1_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH1_RES0_HYP1,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR0_RCH1_RES1_HYP1,
+		VGR_VAYGRCARRIERHEALTHUPGRADE_CAR1_RCH1_RES1_HYP1,
 	},
-	Vgr_VaygrFrigateHealthRegenDowngradeSPGAME =
+	vgr_vaygrfrigatehealthregendowngradespgame =
 	{
-		"Vgr_VaygrFrigateHealthRegenDowngradeSPGAME",
+		VGR_VAYGRFRIGATEHEALTHREGENDOWNGRADESPGAME,
 	},
-	Vgr_VaygrFrigateHealthUpgradeSPGAME =
+	vgr_vaygrfrigatehealthupgradespgame =
 	{
-		"Vgr_VaygrFrigateHealthUpgradeSPGAME",
+		VGR_VAYGRFRIGATEHEALTHUPGRADESPGAME,
 	},
-	Vgr_VaygrRadiationImmunityHack =
+	vgr_vaygrradiationimmunityhack =
 	{
-		"Vgr_VaygrRadiationImmunityHack",
+		VGR_VAYGRRADIATIONIMMUNITYHACK,
 	},
-	Vgr_VaygrReduceCaptureHack =
+	vgr_vaygrreducecapturehack =
 	{
-		"Vgr_VaygrReduceCaptureHack_hyp0",
-		"Vgr_VaygrReduceCaptureHack_hyp1",
+		VGR_VAYGRREDUCECAPTUREHACK_HYP0,
+		VGR_VAYGRREDUCECAPTUREHACK_HYP1,
 	},
-	Vgr_WeakVgrHeavyMissiles =
+	vgr_weakvgrheavymissiles =
 	{
-		"Vgr_WeakVgrHeavyMissiles_hyp0",
-		"Vgr_WeakVgrHeavyMissiles_hyp1",
+		VGR_WEAKVGRHEAVYMISSILES_HYP0,
+		VGR_WEAKVGRHEAVYMISSILES_HYP1,
 	},
-	Vgr_UtilityHealthUpgrade1 =
+	vgr_utilityhealthupgrade1 =
 	{
-		"Vgr_UtilityHealthUpgrade1",
+		VGR_UTILITYHEALTHUPGRADE1,
 	},
 }

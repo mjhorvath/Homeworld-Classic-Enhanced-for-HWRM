@@ -1,55 +1,88 @@
-old_aitrace = aitrace
-rawset(globals(),"aitrace",nil)
-function aitrace(inString)
+function AI_trace(inString)
 	print(inString)
 end
 
-aitrace("can you hear me now?")
---aitrace("DEFAULT CPU LOADED")
---g_LOD = getLevelOfDifficulty()
---dofilepath("data:ai/default/classdef.lua")
---dofilepath("data:ai/default/cpubuild.lua")
---dofilepath("data:ai/default/cpuresearch.lua")
---dofilepath("data:ai/default/cpumilitary.lua")
---dofilepath("data:ai/default/HW1CPUPlayerLayer.lua")
+AI_trace("AI: DEFAULT CPU LOADED")
+
+g_LOD = getLevelOfDifficulty()
+dofilepath("data:ai/default/classdef.lua")
+dofilepath("data:ai/default/cpubuild.lua")
+dofilepath("data:ai/default/cpuresearch.lua")
+dofilepath("data:ai/default/cpumilitary.lua")
+dofilepath("data:ai/default/HW1CPUPlayerLayer.lua")
 dofilepath("data:scripts/utilfunc.lua")
 dofilepath("data:scripts/techfunc.lua")
 dofilepath("data:scripts/rules/lib/objectlist_techvariants.lua")
-aitrace("speak louder please!")
+--dofilepath("data:scripts/HW2_ThoughtDump_b.lua")
+
+ModeSuffixTable = {}
 
 function oninit()
---	s_playerIndex = Player_Self()
---	sg_dobuild = 1
---	sg_dosubsystems = 1
---	sg_doresearch = 1
---	sg_doupgrades = 1
---	sg_domilitary = 1
---	cp_processResource = 1
---	cp_processMilitary = 1
---	sg_lastSpendMoneyTime = gameTime()
---	sg_spendMoneyDelay = 0
---	
---	if (g_LOD == 0) then
---		sg_spendMoneyDelay = 2.5
---	elseif (g_LOD == 1) then
---		sg_spendMoneyDelay = 2.25
---	elseif (g_LOD == 2) then
---		sg_spendMoneyDelay = 2
---	end
---	
---	ClassInitialize()
---	CpuBuild_Init()
---	CpuResearch_Init()
---	CpuMilitary_Init()
---	
---	sg_kDemandResetValue = SelfRace_GetNumber("ai_demand_reset_value", 4.0)
---
---	if (Override_Init) then
---		Override_Init()
---	end
---
---	sg_reseachDemand = -sg_kDemandResetValue	
---	Rule_AddInterval("doai", 2.0 )
+	ModeSuffixTable = BuildSuffixTable()
+	AI_trace("SUFFIXES: car " .. ModeSuffixTable[1] .. "; rch " .. ModeSuffixTable[2] .. "; res " .. ModeSuffixTable[3] .. "; hyp " .. ModeSuffixTable[4])
+
+	s_playerIndex = Player_Self()
+	sg_dobuild = 1
+	sg_dosubsystems = 1
+	sg_doresearch = 1
+	sg_doupgrades = 1
+	sg_domilitary = 1
+	cp_processResource = 1
+	cp_processMilitary = 1
+	sg_lastSpendMoneyTime = gameTime()
+	sg_spendMoneyDelay = 0
+	
+	if (g_LOD == 0) then
+		sg_spendMoneyDelay = 2.5
+	elseif (g_LOD == 1) then
+		sg_spendMoneyDelay = 2.25
+	elseif (g_LOD == 2) then
+		sg_spendMoneyDelay = 2
+	end
+	
+	ClassInitialize()
+	CpuBuild_Init()
+	CpuResearch_Init()
+	CpuMilitary_Init()
+
+	-- the "ai_demand_reset_value" parameter seems to be missing from the HGN properties list
+	sg_kDemandResetValue = SelfRace_GetNumber("ai_demand_reset_value", 4.0)
+
+	if (Override_Init) then
+		Override_Init()
+	end
+
+	sg_reseachDemand = -sg_kDemandResetValue	
+	Rule_AddInterval("doai", 2.0 )
+end
+
+function BuildSuffixTable()
+	local ModeSuffixTable = {}
+	local StartWithMode = Rules_GetSettingString("startwith", "mothership")
+	local ResearchMode = Rules_GetSettingNumber("research", 1)
+	local ResourceMode = Rules_GetSettingNumber("resstart", 1000)
+	local HyperspaceMode = Rules_GetSettingNumber("hyperspace", 1)
+	if StartWithMode == "carrieronly" then
+		ModeSuffixTable[1] = 1
+	else
+		ModeSuffixTable[1] = 0
+	end
+	if ResearchMode == 1 then
+		ModeSuffixTable[2] = 1
+	else
+		ModeSuffixTable[2] = 0
+	end
+	if ResourceMode ~= -1 then
+		ModeSuffixTable[3] = 1
+	else
+		ModeSuffixTable[3] = 0
+	end
+	if HyperspaceMode == 1 then
+		ModeSuffixTable[4] = 1
+	else
+		ModeSuffixTable[4] = 0
+	end
+	return ModeSuffixTable
 end
 
 function CalcOpenBuildChannels()
@@ -174,14 +207,39 @@ function doai()
 			end
 		end
 	end
-	local cpuplayers_norushtime = 60					
-	
-	if CPUPLAYERS_NORUSHTIME5 ~= nil then
-		if IsResearchDone( CPUPLAYERS_NORUSHTIME5 ) == 1 then
+
+	local cpuplayers_norushtime = 60
+	local temp_cpuplayers_norushtime5 = nil
+	local temp_cpuplayers_norushtime10 = nil
+	local temp_cpuplayers_norushtime15 = nil
+
+	-- races are hardcoded here, needs fixing
+	if HGN_CPUPLAYERS_NORUSHTIME5 ~= nil then	
+		temp_cpuplayers_norushtime5 = HGN_CPUPLAYERS_NORUSHTIME5
+		temp_cpuplayers_norushtime10 = HGN_CPUPLAYERS_NORUSHTIME10
+		temp_cpuplayers_norushtime15 = HGN_CPUPLAYERS_NORUSHTIME15
+	elseif KUS_CPUPLAYERS_NORUSHTIME5 ~= nil then	
+		temp_cpuplayers_norushtime5 = KUS_CPUPLAYERS_NORUSHTIME5
+		temp_cpuplayers_norushtime10 = KUS_CPUPLAYERS_NORUSHTIME10
+		temp_cpuplayers_norushtime15 = KUS_CPUPLAYERS_NORUSHTIME15
+	elseif TAI_CPUPLAYERS_NORUSHTIME5 ~= nil then	
+		temp_cpuplayers_norushtime5 = TAI_CPUPLAYERS_NORUSHTIME5
+		temp_cpuplayers_norushtime10 = TAI_CPUPLAYERS_NORUSHTIME10
+		temp_cpuplayers_norushtime15 = TAI_CPUPLAYERS_NORUSHTIME15
+	elseif VGR_CPUPLAYERS_NORUSHTIME5 ~= nil then	
+		temp_cpuplayers_norushtime5 = VGR_CPUPLAYERS_NORUSHTIME5
+		temp_cpuplayers_norushtime10 = VGR_CPUPLAYERS_NORUSHTIME10
+		temp_cpuplayers_norushtime15 = VGR_CPUPLAYERS_NORUSHTIME15
+	end
+
+	-- "cpuplayers_norushtime5" and its siblings have no variants so it's okay to use "IsResearchDone" here instead of "IsVariantResearchDone"
+	-- however, to make the script future-proof, should I maybe check for variants anyway?
+	if temp_cpuplayers_norushtime5 ~= nil then
+		if IsResearchDone( temp_cpuplayers_norushtime5 ) == 1 then
 			cpuplayers_norushtime = 5*61.2			
-		elseif IsResearchDone( CPUPLAYERS_NORUSHTIME10 ) == 1 then
+		elseif IsResearchDone( temp_cpuplayers_norushtime10 ) == 1 then
 			cpuplayers_norushtime = 10*61.2			
-		elseif IsResearchDone( CPUPLAYERS_NORUSHTIME15 ) == 1 then
+		elseif IsResearchDone( temp_cpuplayers_norushtime15 ) == 1 then
 			cpuplayers_norushtime = 15*61.2			
 		end			
 	end
@@ -190,6 +248,3 @@ function doai()
 		CpuMilitary_Process();
 	end
 end
-
-
-

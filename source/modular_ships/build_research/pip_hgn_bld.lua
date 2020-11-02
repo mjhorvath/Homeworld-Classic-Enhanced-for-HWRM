@@ -1,316 +1,316 @@
-VariantBuild =
+VariantBuilds =
 {
-	Hgn_Battlecruiser =
+	hgn_battlecruiser =
 	{
-		"Hgn_Battlecruiser_hyp0",
-		"Hgn_Battlecruiser_hyp1",
+		HGN_BATTLECRUISER_HYP0,
+		HGN_BATTLECRUISER_HYP1,
 	},
-	Hgn_Destroyer =
+	hgn_destroyer =
 	{
-		"Hgn_Destroyer_hyp0",
-		"Hgn_Destroyer_hyp1",
+		HGN_DESTROYER_HYP0,
+		HGN_DESTROYER_HYP1,
 	},
-	Hgn_Carrier =
+	hgn_carrier =
 	{
-		"Hgn_Carrier_car0_rch0_res0_hyp0",
-		"Hgn_Carrier_car1_rch0_res0_hyp0",
-		"Hgn_Carrier_car0_rch0_res1_hyp0",
-		"Hgn_Carrier_car1_rch0_res1_hyp0",
-		"Hgn_Carrier_car0_rch0_res0_hyp1",
-		"Hgn_Carrier_car1_rch0_res0_hyp1",
-		"Hgn_Carrier_car0_rch0_res1_hyp1",
-		"Hgn_Carrier_car1_rch0_res1_hyp1",
-		"Hgn_Carrier_car0_rch1_res0_hyp0",
-		"Hgn_Carrier_car1_rch1_res0_hyp0",
-		"Hgn_Carrier_car0_rch1_res1_hyp0",
-		"Hgn_Carrier_car1_rch1_res1_hyp0",
-		"Hgn_Carrier_car0_rch1_res0_hyp1",
-		"Hgn_Carrier_car1_rch1_res0_hyp1",
-		"Hgn_Carrier_car0_rch1_res1_hyp1",
-		"Hgn_Carrier_car1_rch1_res1_hyp1",
+		HGN_CARRIER_CAR0_RCH0_RES0_HYP0,
+		HGN_CARRIER_CAR1_RCH0_RES0_HYP0,
+		HGN_CARRIER_CAR0_RCH0_RES1_HYP0,
+		HGN_CARRIER_CAR1_RCH0_RES1_HYP0,
+		HGN_CARRIER_CAR0_RCH0_RES0_HYP1,
+		HGN_CARRIER_CAR1_RCH0_RES0_HYP1,
+		HGN_CARRIER_CAR0_RCH0_RES1_HYP1,
+		HGN_CARRIER_CAR1_RCH0_RES1_HYP1,
+		HGN_CARRIER_CAR0_RCH1_RES0_HYP0,
+		HGN_CARRIER_CAR1_RCH1_RES0_HYP0,
+		HGN_CARRIER_CAR0_RCH1_RES1_HYP0,
+		HGN_CARRIER_CAR1_RCH1_RES1_HYP0,
+		HGN_CARRIER_CAR0_RCH1_RES0_HYP1,
+		HGN_CARRIER_CAR1_RCH1_RES0_HYP1,
+		HGN_CARRIER_CAR0_RCH1_RES1_HYP1,
+		HGN_CARRIER_CAR1_RCH1_RES1_HYP1,
 	},
-	Hgn_Shipyard =
+	hgn_shipyard =
 	{
-		"Hgn_Shipyard_car0_rch0_res0_hyp0",
-		"Hgn_Shipyard_car1_rch0_res0_hyp0",
-		"Hgn_Shipyard_car0_rch0_res1_hyp0",
-		"Hgn_Shipyard_car1_rch0_res1_hyp0",
-		"Hgn_Shipyard_car0_rch0_res0_hyp1",
-		"Hgn_Shipyard_car1_rch0_res0_hyp1",
-		"Hgn_Shipyard_car0_rch0_res1_hyp1",
-		"Hgn_Shipyard_car1_rch0_res1_hyp1",
-		"Hgn_Shipyard_car0_rch1_res0_hyp0",
-		"Hgn_Shipyard_car1_rch1_res0_hyp0",
-		"Hgn_Shipyard_car0_rch1_res1_hyp0",
-		"Hgn_Shipyard_car1_rch1_res1_hyp0",
-		"Hgn_Shipyard_car0_rch1_res0_hyp1",
-		"Hgn_Shipyard_car1_rch1_res0_hyp1",
-		"Hgn_Shipyard_car0_rch1_res1_hyp1",
-		"Hgn_Shipyard_car1_rch1_res1_hyp1",
+		HGN_SHIPYARD_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARD_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARD_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARD_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARD_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARD_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARD_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARD_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARD_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARD_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARD_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARD_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARD_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARD_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARD_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARD_CAR1_RCH1_RES1_HYP1,
 	},
-	Hgn_C_Module_CloakGenerator =
+	hgn_c_module_cloakgenerator =
 	{
-		"Hgn_C_Module_CloakGenerator_rch0",
-		"Hgn_C_Module_CloakGenerator_rch1",
+		HGN_C_MODULE_CLOAKGENERATOR_RCH0,
+		HGN_C_MODULE_CLOAKGENERATOR_RCH1,
 	},
-	Hgn_C_Module_FireControl =
+	hgn_c_module_firecontrol =
 	{
-		"Hgn_C_Module_FireControl_rch0",
-		"Hgn_C_Module_FireControl_rch1",
+		HGN_C_MODULE_FIRECONTROL_RCH0,
+		HGN_C_MODULE_FIRECONTROL_RCH1,
 	},
-	Hgn_C_Module_Hyperspace =
+	hgn_c_module_hyperspace =
 	{
-		"Hgn_C_Module_Hyperspace_rch0",
-		"Hgn_C_Module_Hyperspace_rch1",
+		HGN_C_MODULE_HYPERSPACE_RCH0,
+		HGN_C_MODULE_HYPERSPACE_RCH1,
 	},
-	Hgn_C_Module_HyperspaceInhibitor =
+	hgn_c_module_hyperspaceinhibitor =
 	{
-		"Hgn_C_Module_HyperspaceInhibitor_rch0",
-		"Hgn_C_Module_HyperspaceInhibitor_rch1",
+		HGN_C_MODULE_HYPERSPACEINHIBITOR_RCH0,
+		HGN_C_MODULE_HYPERSPACEINHIBITOR_RCH1,
 	},
-	Hgn_C_Module_Research =
+	hgn_c_module_research =
 	{
-		"Hgn_C_Module_Research",
+		HGN_C_MODULE_RESEARCH,
 	},
-	Hgn_C_Module_ResearchAdvanced =
+	hgn_c_module_researchadvanced =
 	{
-		"Hgn_C_Module_ResearchAdvanced",
+		HGN_C_MODULE_RESEARCHADVANCED,
 	},
-	Hgn_C_Sensors_AdvancedArray =
+	hgn_c_sensors_advancedarray =
 	{
-		"Hgn_C_Sensors_AdvancedArray",
+		HGN_C_SENSORS_ADVANCEDARRAY,
 	},
-	Hgn_C_Sensors_DetectCloaked =
+	hgn_c_sensors_detectcloaked =
 	{
-		"Hgn_C_Sensors_DetectCloaked",
+		HGN_C_SENSORS_DETECTCLOAKED,
 	},
-	Hgn_C_Sensors_DetectHyperspace =
+	hgn_c_sensors_detecthyperspace =
 	{
-		"Hgn_C_Sensors_DetectHyperspace",
+		HGN_C_SENSORS_DETECTHYPERSPACE,
 	},
-	Hgn_AssaultCorvette =
+	hgn_assaultcorvette =
 	{
-		"Hgn_AssaultCorvette_hyp0",
-		"Hgn_AssaultCorvette_hyp1",
+		HGN_ASSAULTCORVETTE_HYP0,
+		HGN_ASSAULTCORVETTE_HYP1,
 	},
-	Hgn_MinelayerCorvette =
+	hgn_minelayercorvette =
 	{
-		"Hgn_MinelayerCorvette_hyp0",
-		"Hgn_MinelayerCorvette_hyp1",
+		HGN_MINELAYERCORVETTE_HYP0,
+		HGN_MINELAYERCORVETTE_HYP1,
 	},
-	Hgn_PulsarCorvette =
+	hgn_pulsarcorvette =
 	{
-		"Hgn_PulsarCorvette_hyp0",
-		"Hgn_PulsarCorvette_hyp1",
+		HGN_PULSARCORVETTE_HYP0,
+		HGN_PULSARCORVETTE_HYP1,
 	},
-	Hgn_AttackBomber =
+	hgn_attackbomber =
 	{
-		"Hgn_AttackBomber_hyp0",
-		"Hgn_AttackBomber_hyp1",
+		HGN_ATTACKBOMBER_HYP0,
+		HGN_ATTACKBOMBER_HYP1,
 	},
-	Hgn_Interceptor =
+	hgn_interceptor =
 	{
-		"Hgn_Interceptor_hyp0",
-		"Hgn_Interceptor_hyp1",
+		HGN_INTERCEPTOR_HYP0,
+		HGN_INTERCEPTOR_HYP1,
 	},
-	Hgn_Scout =
+	hgn_scout =
 	{
-		"Hgn_Scout_hyp0",
-		"Hgn_Scout_hyp1",
+		HGN_SCOUT_HYP0,
+		HGN_SCOUT_HYP1,
 	},
-	Hgn_AssaultFrigate =
+	hgn_assaultfrigate =
 	{
-		"Hgn_AssaultFrigate_hyp0",
-		"Hgn_AssaultFrigate_hyp1",
+		HGN_ASSAULTFRIGATE_HYP0,
+		HGN_ASSAULTFRIGATE_HYP1,
 	},
-	Hgn_DefenseFieldFrigate =
+	hgn_defensefieldfrigate =
 	{
-		"Hgn_DefenseFieldFrigate_hyp0",
-		"Hgn_DefenseFieldFrigate_hyp1",
+		HGN_DEFENSEFIELDFRIGATE_HYP0,
+		HGN_DEFENSEFIELDFRIGATE_HYP1,
 	},
-	Hgn_IonCannonFrigate =
+	hgn_ioncannonfrigate =
 	{
-		"Hgn_IonCannonFrigate_hyp0",
-		"Hgn_IonCannonFrigate_hyp1",
+		HGN_IONCANNONFRIGATE_HYP0,
+		HGN_IONCANNONFRIGATE_HYP1,
 	},
-	Hgn_MarineFrigate =
+	hgn_marinefrigate =
 	{
-		"Hgn_MarineFrigate_hyp0",
-		"Hgn_MarineFrigate_hyp1",
+		HGN_MARINEFRIGATE_HYP0,
+		HGN_MARINEFRIGATE_HYP1,
 	},
-	Hgn_TorpedoFrigate =
+	hgn_torpedofrigate =
 	{
-		"Hgn_TorpedoFrigate_hyp0",
-		"Hgn_TorpedoFrigate_hyp1",
+		HGN_TORPEDOFRIGATE_HYP0,
+		HGN_TORPEDOFRIGATE_HYP1,
 	},
-	Hgn_MS_Module_CloakGenerator =
+	hgn_ms_module_cloakgenerator =
 	{
-		"Hgn_MS_Module_CloakGenerator_rch0",
-		"Hgn_MS_Module_CloakGenerator_rch1",
+		HGN_MS_MODULE_CLOAKGENERATOR_RCH0,
+		HGN_MS_MODULE_CLOAKGENERATOR_RCH1,
 	},
-	Hgn_MS_Module_FireControl =
+	hgn_ms_module_firecontrol =
 	{
-		"Hgn_MS_Module_FireControl_rch0",
-		"Hgn_MS_Module_FireControl_rch1",
+		HGN_MS_MODULE_FIRECONTROL_RCH0,
+		HGN_MS_MODULE_FIRECONTROL_RCH1,
 	},
-	Hgn_MS_Module_Hyperspace =
+	hgn_ms_module_hyperspace =
 	{
-		"Hgn_MS_Module_Hyperspace_rch0",
-		"Hgn_MS_Module_Hyperspace_rch1",
+		HGN_MS_MODULE_HYPERSPACE_RCH0,
+		HGN_MS_MODULE_HYPERSPACE_RCH1,
 	},
-	Hgn_MS_Module_HyperspaceInhibitor =
+	hgn_ms_module_hyperspaceinhibitor =
 	{
-		"Hgn_MS_Module_HyperspaceInhibitor_rch0",
-		"Hgn_MS_Module_HyperspaceInhibitor_rch1",
+		HGN_MS_MODULE_HYPERSPACEINHIBITOR_RCH0,
+		HGN_MS_MODULE_HYPERSPACEINHIBITOR_RCH1,
 	},
-	Hgn_MS_Module_Research =
+	hgn_ms_module_research =
 	{
-		"Hgn_MS_Module_Research",
+		HGN_MS_MODULE_RESEARCH,
 	},
-	Hgn_MS_Module_ResearchAdvanced =
+	hgn_ms_module_researchadvanced =
 	{
-		"Hgn_MS_Module_ResearchAdvanced",
+		HGN_MS_MODULE_RESEARCHADVANCED,
 	},
-	Hgn_MS_Sensors_AdvancedArray =
+	hgn_ms_sensors_advancedarray =
 	{
-		"Hgn_MS_Sensors_AdvancedArray",
+		HGN_MS_SENSORS_ADVANCEDARRAY,
 	},
-	Hgn_MS_Sensors_DetectCloaked =
+	hgn_ms_sensors_detectcloaked =
 	{
-		"Hgn_MS_Sensors_DetectCloaked",
+		HGN_MS_SENSORS_DETECTCLOAKED,
 	},
-	Hgn_MS_Sensors_DetectHyperspace =
+	hgn_ms_sensors_detecthyperspace =
 	{
-		"Hgn_MS_Sensors_DetectHyperspace",
+		HGN_MS_SENSORS_DETECTHYPERSPACE,
 	},
-	Hgn_GunTurret =
+	hgn_gunturret =
 	{
-		"Hgn_GunTurret_hyp0",
-		"Hgn_GunTurret_hyp1",
+		HGN_GUNTURRET_HYP0,
+		HGN_GUNTURRET_HYP1,
 	},
-	Hgn_IonTurret =
+	hgn_ionturret =
 	{
-		"Hgn_IonTurret_hyp0",
-		"Hgn_IonTurret_hyp1",
+		HGN_IONTURRET_HYP0,
+		HGN_IONTURRET_HYP1,
 	},
-	Hgn_C_Module_PlatformControl =
+	hgn_c_module_platformcontrol =
 	{
-		"Hgn_C_Module_PlatformControl",
+		HGN_C_MODULE_PLATFORMCONTROL,
 	},
-	Hgn_C_Production_Corvette =
+	hgn_c_production_corvette =
 	{
-		"Hgn_C_Production_Corvette_rch0",
-		"Hgn_C_Production_Corvette_rch1",
+		HGN_C_PRODUCTION_CORVETTE_RCH0,
+		HGN_C_PRODUCTION_CORVETTE_RCH1,
 	},
-	Hgn_C_Production_Fighter =
+	hgn_c_production_fighter =
 	{
-		"Hgn_C_Production_Fighter",
+		HGN_C_PRODUCTION_FIGHTER,
 	},
-	Hgn_C_Production_Frigate =
+	hgn_c_production_frigate =
 	{
-		"Hgn_C_Production_Frigate_rch0",
-		"Hgn_C_Production_Frigate_rch1",
+		HGN_C_PRODUCTION_FRIGATE_RCH0,
+		HGN_C_PRODUCTION_FRIGATE_RCH1,
 	},
-	Hgn_MS_Module_PlatformControl =
+	hgn_ms_module_platformcontrol =
 	{
-		"Hgn_MS_Module_PlatformControl",
+		HGN_MS_MODULE_PLATFORMCONTROL,
 	},
-	Hgn_MS_Production_CapShip =
+	hgn_ms_production_capship =
 	{
-		"Hgn_MS_Production_CapShip",
+		HGN_MS_PRODUCTION_CAPSHIP,
 	},
-	Hgn_MS_Production_Corvette =
+	hgn_ms_production_corvette =
 	{
-		"Hgn_MS_Production_Corvette_rch0",
-		"Hgn_MS_Production_Corvette_rch1",
+		HGN_MS_PRODUCTION_CORVETTE_RCH0,
+		HGN_MS_PRODUCTION_CORVETTE_RCH1,
 	},
-	Hgn_MS_Production_Fighter =
+	hgn_ms_production_fighter =
 	{
-		"Hgn_MS_Production_Fighter",
+		HGN_MS_PRODUCTION_FIGHTER,
 	},
-	Hgn_MS_Production_Frigate =
+	hgn_ms_production_frigate =
 	{
-		"Hgn_MS_Production_Frigate_rch0",
-		"Hgn_MS_Production_Frigate_rch1",
+		HGN_MS_PRODUCTION_FRIGATE_RCH0,
+		HGN_MS_PRODUCTION_FRIGATE_RCH1,
 	},
-	Hgn_SY_Production_CapShip =
+	hgn_sy_production_capship =
 	{
-		"Hgn_SY_Production_CapShip",
+		HGN_SY_PRODUCTION_CAPSHIP,
 	},
-	Hgn_Shipyard_Elohim =
+	hgn_shipyard_elohim =
 	{
-		"Hgn_Shipyard_Elohim_car0_rch0_res0_hyp0",
-		"Hgn_Shipyard_Elohim_car1_rch0_res0_hyp0",
-		"Hgn_Shipyard_Elohim_car0_rch0_res1_hyp0",
-		"Hgn_Shipyard_Elohim_car1_rch0_res1_hyp0",
-		"Hgn_Shipyard_Elohim_car0_rch0_res0_hyp1",
-		"Hgn_Shipyard_Elohim_car1_rch0_res0_hyp1",
-		"Hgn_Shipyard_Elohim_car0_rch0_res1_hyp1",
-		"Hgn_Shipyard_Elohim_car1_rch0_res1_hyp1",
-		"Hgn_Shipyard_Elohim_car0_rch1_res0_hyp0",
-		"Hgn_Shipyard_Elohim_car1_rch1_res0_hyp0",
-		"Hgn_Shipyard_Elohim_car0_rch1_res1_hyp0",
-		"Hgn_Shipyard_Elohim_car1_rch1_res1_hyp0",
-		"Hgn_Shipyard_Elohim_car0_rch1_res0_hyp1",
-		"Hgn_Shipyard_Elohim_car1_rch1_res0_hyp1",
-		"Hgn_Shipyard_Elohim_car0_rch1_res1_hyp1",
-		"Hgn_Shipyard_Elohim_car1_rch1_res1_hyp1",
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARD_ELOHIM_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARD_ELOHIM_CAR1_RCH1_RES1_HYP1,
 	},
-	Hgn_Shipyard_SPG =
+	hgn_shipyard_spg =
 	{
-		"Hgn_Shipyard_SPG_car0_rch0_res0_hyp0",
-		"Hgn_Shipyard_SPG_car1_rch0_res0_hyp0",
-		"Hgn_Shipyard_SPG_car0_rch0_res1_hyp0",
-		"Hgn_Shipyard_SPG_car1_rch0_res1_hyp0",
-		"Hgn_Shipyard_SPG_car0_rch0_res0_hyp1",
-		"Hgn_Shipyard_SPG_car1_rch0_res0_hyp1",
-		"Hgn_Shipyard_SPG_car0_rch0_res1_hyp1",
-		"Hgn_Shipyard_SPG_car1_rch0_res1_hyp1",
-		"Hgn_Shipyard_SPG_car0_rch1_res0_hyp0",
-		"Hgn_Shipyard_SPG_car1_rch1_res0_hyp0",
-		"Hgn_Shipyard_SPG_car0_rch1_res1_hyp0",
-		"Hgn_Shipyard_SPG_car1_rch1_res1_hyp0",
-		"Hgn_Shipyard_SPG_car0_rch1_res0_hyp1",
-		"Hgn_Shipyard_SPG_car1_rch1_res0_hyp1",
-		"Hgn_Shipyard_SPG_car0_rch1_res1_hyp1",
-		"Hgn_Shipyard_SPG_car1_rch1_res1_hyp1",
+		HGN_SHIPYARD_SPG_CAR0_RCH0_RES0_HYP0,
+		HGN_SHIPYARD_SPG_CAR1_RCH0_RES0_HYP0,
+		HGN_SHIPYARD_SPG_CAR0_RCH0_RES1_HYP0,
+		HGN_SHIPYARD_SPG_CAR1_RCH0_RES1_HYP0,
+		HGN_SHIPYARD_SPG_CAR0_RCH0_RES0_HYP1,
+		HGN_SHIPYARD_SPG_CAR1_RCH0_RES0_HYP1,
+		HGN_SHIPYARD_SPG_CAR0_RCH0_RES1_HYP1,
+		HGN_SHIPYARD_SPG_CAR1_RCH0_RES1_HYP1,
+		HGN_SHIPYARD_SPG_CAR0_RCH1_RES0_HYP0,
+		HGN_SHIPYARD_SPG_CAR1_RCH1_RES0_HYP0,
+		HGN_SHIPYARD_SPG_CAR0_RCH1_RES1_HYP0,
+		HGN_SHIPYARD_SPG_CAR1_RCH1_RES1_HYP0,
+		HGN_SHIPYARD_SPG_CAR0_RCH1_RES0_HYP1,
+		HGN_SHIPYARD_SPG_CAR1_RCH1_RES0_HYP1,
+		HGN_SHIPYARD_SPG_CAR0_RCH1_RES1_HYP1,
+		HGN_SHIPYARD_SPG_CAR1_RCH1_RES1_HYP1,
 	},
-	Kpr_Mover =
+	kpr_mover =
 	{
-		"Kpr_Mover_hyp0",
-		"Kpr_Mover_hyp1",
+		KPR_MOVER_HYP0,
+		KPR_MOVER_HYP1,
 	},
-	Hgn_MS_Production_CorvetteMover =
+	hgn_ms_production_corvettemover =
 	{
-		"Hgn_MS_Production_CorvetteMover",
+		HGN_MS_PRODUCTION_CORVETTEMOVER,
 	},
-	Hgn_ECMProbe =
+	hgn_ecmprobe =
 	{
-		"Hgn_ECMProbe_hyp0",
-		"Hgn_ECMProbe_hyp1",
+		HGN_ECMPROBE_HYP0,
+		HGN_ECMPROBE_HYP1,
 	},
-	Hgn_Probe =
+	hgn_probe =
 	{
-		"Hgn_Probe_hyp0",
-		"Hgn_Probe_hyp1",
+		HGN_PROBE_HYP0,
+		HGN_PROBE_HYP1,
 	},
-	Hgn_ProximitySensor =
+	hgn_proximitysensor =
 	{
-		"Hgn_ProximitySensor_hyp0",
-		"Hgn_ProximitySensor_hyp1",
+		HGN_PROXIMITYSENSOR_HYP0,
+		HGN_PROXIMITYSENSOR_HYP1,
 	},
-	Hgn_ResourceCollector =
+	hgn_resourcecollector =
 	{
-		"Hgn_ResourceCollector_res0_hyp0",
-		"Hgn_ResourceCollector_res1_hyp0",
-		"Hgn_ResourceCollector_res0_hyp1",
-		"Hgn_ResourceCollector_res1_hyp1",
+		HGN_RESOURCECOLLECTOR_RES0_HYP0,
+		HGN_RESOURCECOLLECTOR_RES1_HYP0,
+		HGN_RESOURCECOLLECTOR_RES0_HYP1,
+		HGN_RESOURCECOLLECTOR_RES1_HYP1,
 	},
-	Hgn_ResourceController =
+	hgn_resourcecontroller =
 	{
-		"Hgn_ResourceController_res0_hyp0",
-		"Hgn_ResourceController_res1_hyp0",
-		"Hgn_ResourceController_res0_hyp1",
-		"Hgn_ResourceController_res1_hyp1",
+		HGN_RESOURCECONTROLLER_RES0_HYP0,
+		HGN_RESOURCECONTROLLER_RES1_HYP0,
+		HGN_RESOURCECONTROLLER_RES0_HYP1,
+		HGN_RESOURCECONTROLLER_RES1_HYP1,
 	},
 }

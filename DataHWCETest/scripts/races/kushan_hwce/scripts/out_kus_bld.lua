@@ -1,186 +1,186 @@
 build =
 {
-	-- #1.1, capital_build.lua
+	-- #1.0, capital_build.lua
 	{
 		Description = "$11041",
 		DisplayPriority = 70,
 		DisplayedName = "$11040",
-		RequiredResearch = "SuperCapitalShipDrive",
+		RequiredResearch = "Kus_SuperCapitalShipDrive_res0_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Carrier_res0_hyp0",
 		Type = Ship,
 	},
-	-- #1.2, capital_build.lua
+	-- #2.0, capital_build.lua
 	{
 		Description = "$11041",
 		DisplayPriority = 70,
 		DisplayedName = "$11040",
-		RequiredResearch = "SuperCapitalShipDrive",
+		RequiredResearch = "Kus_SuperCapitalShipDrive_res1_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Carrier_res1_hyp0",
 		Type = Ship,
 	},
-	-- #1.3, capital_build.lua
+	-- #3.0, capital_build.lua
 	{
 		Description = "$11041",
 		DisplayPriority = 70,
 		DisplayedName = "$11040",
-		RequiredResearch = "SuperCapitalShipDrive",
+		RequiredResearch = "Kus_SuperCapitalShipDrive_res0_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Carrier_res0_hyp1",
 		Type = Ship,
 	},
-	-- #1.4, capital_build.lua
+	-- #4.0, capital_build.lua
 	{
 		Description = "$11041",
 		DisplayPriority = 70,
 		DisplayedName = "$11040",
-		RequiredResearch = "SuperCapitalShipDrive",
+		RequiredResearch = "Kus_SuperCapitalShipDrive_res1_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Carrier_res1_hyp1",
 		Type = Ship,
 	},
-	-- #2.1, capital_build.lua
+	-- #5.0, capital_build.lua
 	{
 		Description = "$11035",
 		DisplayPriority = 72,
 		DisplayedName = "$11034",
-		RequiredResearch = "SuperHeavyChassis",
+		RequiredResearch = "Kus_SuperHeavyChassis_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Destroyer_hyp0",
 		Type = Ship,
 	},
-	-- #2.2, capital_build.lua
+	-- #6.0, capital_build.lua
 	{
 		Description = "$11035",
 		DisplayPriority = 72,
 		DisplayedName = "$11034",
-		RequiredResearch = "SuperHeavyChassis",
+		RequiredResearch = "Kus_SuperHeavyChassis_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Destroyer_hyp1",
 		Type = Ship,
 	},
-	-- #3.1, capital_build.lua
+	-- #7.0, capital_build.lua
 	{
 		Description = "$11039",
 		DisplayPriority = 73,
 		DisplayedName = "$11038",
-		RequiredResearch = "HeavyGuns",
+		RequiredResearch = "Kus_HeavyGuns_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_HeavyCruiser_hyp0",
 		Type = Ship,
 	},
-	-- #3.2, capital_build.lua
+	-- #8.0, capital_build.lua
 	{
 		Description = "$11039",
 		DisplayPriority = 73,
 		DisplayedName = "$11038",
-		RequiredResearch = "HeavyGuns",
+		RequiredResearch = "Kus_HeavyGuns_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_HeavyCruiser_hyp1",
 		Type = Ship,
 	},
-	-- #4.1, capital_build.lua
+	-- #9.0, capital_build.lua
 	{
 		Description = "$11037",
 		DisplayPriority = 71,
 		DisplayedName = "$11036",
-		RequiredResearch = "GuidedMissiles",
+		RequiredResearch = "Kus_GuidedMissiles_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_MissileDestroyer_hyp0",
 		Type = Ship,
 	},
-	-- #4.2, capital_build.lua
+	-- #10.0, capital_build.lua
 	{
 		Description = "$11037",
 		DisplayPriority = 71,
 		DisplayedName = "$11036",
-		RequiredResearch = "GuidedMissiles",
+		RequiredResearch = "Kus_GuidedMissiles_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_MissileDestroyer_hyp1",
 		Type = Ship,
 	},
-	-- #5.1, corvette_build.lua
+	-- #11.0, corvette_build.lua
 	{
 		Description = "$11015",
 		DisplayPriority = 23,
 		DisplayedName = "$11014",
-		RequiredResearch = "HeavyCorvetteUpgrade",
+		RequiredResearch = "Kus_HeavyCorvetteUpgrade_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_HeavyCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #5.2, corvette_build.lua
+	-- #12.0, corvette_build.lua
 	{
 		Description = "$11015",
 		DisplayPriority = 23,
 		DisplayedName = "$11014",
-		RequiredResearch = "HeavyCorvetteUpgrade",
+		RequiredResearch = "Kus_HeavyCorvetteUpgrade_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_HeavyCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #6.1, corvette_build.lua
+	-- #13.0, corvette_build.lua
 	{
 		Description = "$11013",
 		DisplayPriority = 22,
 		DisplayedName = "$11012",
-		RequiredResearch = "CorvetteDrive",
+		RequiredResearch = "Kus_CorvetteDrive_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_LightCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #6.2, corvette_build.lua
+	-- #14.0, corvette_build.lua
 	{
 		Description = "$11013",
 		DisplayPriority = 22,
 		DisplayedName = "$11012",
-		RequiredResearch = "CorvetteDrive",
+		RequiredResearch = "Kus_CorvetteDrive_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_LightCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #7.1, corvette_build.lua
+	-- #15.0, corvette_build.lua
 	{
 		Description = "$11019",
 		DisplayPriority = 25,
 		DisplayedName = "$11018",
-		RequiredResearch = "MinelayingTech",
+		RequiredResearch = "Kus_MinelayingTech_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_MinelayerCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #7.2, corvette_build.lua
+	-- #16.0, corvette_build.lua
 	{
 		Description = "$11019",
 		DisplayPriority = 25,
 		DisplayedName = "$11018",
-		RequiredResearch = "MinelayingTech",
+		RequiredResearch = "Kus_MinelayingTech_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_MinelayerCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #8.1, corvette_build.lua
+	-- #17.0, corvette_build.lua
 	{
 		Description = "$11017",
 		DisplayPriority = 24,
 		DisplayedName = "$11016",
-		RequiredResearch = "FastTrackingTurrets",
+		RequiredResearch = "Kus_FastTrackingTurrets_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_MultiGunCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #8.2, corvette_build.lua
+	-- #18.0, corvette_build.lua
 	{
 		Description = "$11017",
 		DisplayPriority = 24,
 		DisplayedName = "$11016",
-		RequiredResearch = "FastTrackingTurrets",
+		RequiredResearch = "Kus_FastTrackingTurrets_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_MultiGunCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #9.1, corvette_build.lua
+	-- #19.0, corvette_build.lua
 	{
 		Description = "$11023",
 		DisplayPriority = 20,
@@ -190,7 +190,7 @@ build =
 		ThingToBuild = "Kus_RepairCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #9.2, corvette_build.lua
+	-- #20.0, corvette_build.lua
 	{
 		Description = "$11023",
 		DisplayPriority = 20,
@@ -200,107 +200,107 @@ build =
 		ThingToBuild = "Kus_RepairCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #10.1, corvette_build.lua
+	-- #21.0, corvette_build.lua
 	{
 		Description = "$11021",
 		DisplayPriority = 21,
 		DisplayedName = "$11020",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Kus_CorvetteChassis_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_SalvageCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #10.2, corvette_build.lua
+	-- #22.0, corvette_build.lua
 	{
 		Description = "$11021",
 		DisplayPriority = 21,
 		DisplayedName = "$11020",
-		RequiredResearch = "CorvetteChassis",
+		RequiredResearch = "Kus_CorvetteChassis_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_SalvageCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #11.1, fighter_build.lua
+	-- #23.0, fighter_build.lua
 	{
 		Description = "$11005",
 		DisplayPriority = 13,
 		DisplayedName = "$11004",
-		RequiredResearch = "PlasmaBombLauncher",
+		RequiredResearch = "Kus_PlasmaBombLauncher_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_AttackBomber_hyp0",
 		Type = Ship,
 	},
-	-- #11.2, fighter_build.lua
+	-- #24.0, fighter_build.lua
 	{
 		Description = "$11005",
 		DisplayPriority = 13,
 		DisplayedName = "$11004",
-		RequiredResearch = "PlasmaBombLauncher",
+		RequiredResearch = "Kus_PlasmaBombLauncher_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_AttackBomber_hyp1",
 		Type = Ship,
 	},
-	-- #12.1, fighter_build.lua
+	-- #25.0, fighter_build.lua
 	{
 		Description = "$11009",
 		DisplayPriority = 14,
 		DisplayedName = "$11008",
-		RequiredResearch = "CloakedFighter",
+		RequiredResearch = "Kus_CloakedFighter_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_CloakedFighter_hyp0",
 		Type = Ship,
 	},
-	-- #12.2, fighter_build.lua
+	-- #26.0, fighter_build.lua
 	{
 		Description = "$11009",
 		DisplayPriority = 14,
 		DisplayedName = "$11008",
-		RequiredResearch = "CloakedFighter",
+		RequiredResearch = "Kus_CloakedFighter_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_CloakedFighter_hyp1",
 		Type = Ship,
 	},
-	-- #13.1, fighter_build.lua
+	-- #27.0, fighter_build.lua
 	{
 		Description = "$11007",
 		DisplayPriority = 12,
 		DisplayedName = "$11006",
-		RequiredResearch = "DefenderSubSystems",
+		RequiredResearch = "Kus_DefenderSubSystems_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Defender_hyp0",
 		Type = Ship,
 	},
-	-- #13.2, fighter_build.lua
+	-- #28.0, fighter_build.lua
 	{
 		Description = "$11007",
 		DisplayPriority = 12,
 		DisplayedName = "$11006",
-		RequiredResearch = "DefenderSubSystems",
+		RequiredResearch = "Kus_DefenderSubSystems_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Defender_hyp1",
 		Type = Ship,
 	},
-	-- #14.1, fighter_build.lua
+	-- #29.0, fighter_build.lua
 	{
 		Description = "$11003",
 		DisplayPriority = 11,
 		DisplayedName = "$11002",
-		RequiredResearch = "FighterChassis",
+		RequiredResearch = "Kus_FighterChassis_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Interceptor_hyp0",
 		Type = Ship,
 	},
-	-- #14.2, fighter_build.lua
+	-- #30.0, fighter_build.lua
 	{
 		Description = "$11003",
 		DisplayPriority = 11,
 		DisplayedName = "$11002",
-		RequiredResearch = "FighterChassis",
+		RequiredResearch = "Kus_FighterChassis_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_Interceptor_hyp1",
 		Type = Ship,
 	},
-	-- #15.1, fighter_build.lua
+	-- #31.0, fighter_build.lua
 	{
 		Description = "$11001",
 		DisplayPriority = 10,
@@ -310,7 +310,7 @@ build =
 		ThingToBuild = "Kus_Scout_hyp0",
 		Type = Ship,
 	},
-	-- #15.2, fighter_build.lua
+	-- #32.0, fighter_build.lua
 	{
 		Description = "$11001",
 		DisplayPriority = 10,
@@ -320,27 +320,27 @@ build =
 		ThingToBuild = "Kus_Scout_hyp1",
 		Type = Ship,
 	},
-	-- #16.1, frigate_build.lua
+	-- #33.0, frigate_build.lua
 	{
 		Description = "$11025",
 		DisplayPriority = 51,
 		DisplayedName = "$11024",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Kus_CapitalShipChassis_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_AssaultFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #16.2, frigate_build.lua
+	-- #34.0, frigate_build.lua
 	{
 		Description = "$11025",
 		DisplayPriority = 51,
 		DisplayedName = "$11024",
-		RequiredResearch = "CapitalShipChassis",
+		RequiredResearch = "Kus_CapitalShipChassis_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_AssaultFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #17.0, frigate_build.lua
+	-- #35.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -348,7 +348,7 @@ build =
 		ThingToBuild = "Kus_Drone0",
 		Type = Ship,
 	},
-	-- #18.0, frigate_build.lua
+	-- #36.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -356,7 +356,7 @@ build =
 		ThingToBuild = "Kus_Drone1",
 		Type = Ship,
 	},
-	-- #19.0, frigate_build.lua
+	-- #37.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -364,7 +364,7 @@ build =
 		ThingToBuild = "Kus_Drone10",
 		Type = Ship,
 	},
-	-- #20.0, frigate_build.lua
+	-- #38.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -372,7 +372,7 @@ build =
 		ThingToBuild = "Kus_Drone11",
 		Type = Ship,
 	},
-	-- #21.0, frigate_build.lua
+	-- #39.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -380,7 +380,7 @@ build =
 		ThingToBuild = "Kus_Drone12",
 		Type = Ship,
 	},
-	-- #22.0, frigate_build.lua
+	-- #40.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -388,7 +388,7 @@ build =
 		ThingToBuild = "Kus_Drone13",
 		Type = Ship,
 	},
-	-- #23.0, frigate_build.lua
+	-- #41.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -396,7 +396,7 @@ build =
 		ThingToBuild = "Kus_Drone2",
 		Type = Ship,
 	},
-	-- #24.0, frigate_build.lua
+	-- #42.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -404,7 +404,7 @@ build =
 		ThingToBuild = "Kus_Drone3",
 		Type = Ship,
 	},
-	-- #25.0, frigate_build.lua
+	-- #43.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -412,7 +412,7 @@ build =
 		ThingToBuild = "Kus_Drone4",
 		Type = Ship,
 	},
-	-- #26.0, frigate_build.lua
+	-- #44.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -420,7 +420,7 @@ build =
 		ThingToBuild = "Kus_Drone5",
 		Type = Ship,
 	},
-	-- #27.0, frigate_build.lua
+	-- #45.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -428,7 +428,7 @@ build =
 		ThingToBuild = "Kus_Drone6",
 		Type = Ship,
 	},
-	-- #28.0, frigate_build.lua
+	-- #46.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -436,7 +436,7 @@ build =
 		ThingToBuild = "Kus_Drone7",
 		Type = Ship,
 	},
-	-- #29.0, frigate_build.lua
+	-- #47.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -444,7 +444,7 @@ build =
 		ThingToBuild = "Kus_Drone8",
 		Type = Ship,
 	},
-	-- #30.0, frigate_build.lua
+	-- #48.0, frigate_build.lua
 	{
 		DisplayPriority = 100,
 		RequiredResearch = "",
@@ -452,67 +452,67 @@ build =
 		ThingToBuild = "Kus_Drone9",
 		Type = Ship,
 	},
-	-- #31.1, frigate_build.lua
+	-- #49.0, frigate_build.lua
 	{
 		Description = "$11031",
 		DisplayPriority = 53,
 		DisplayedName = "$11030",
-		RequiredResearch = "DroneTechnology",
+		RequiredResearch = "Kus_DroneTechnology_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_DroneFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #31.2, frigate_build.lua
+	-- #50.0, frigate_build.lua
 	{
 		Description = "$11031",
 		DisplayPriority = 53,
 		DisplayedName = "$11030",
-		RequiredResearch = "DroneTechnology",
+		RequiredResearch = "Kus_DroneTechnology_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_DroneFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #32.1, frigate_build.lua
+	-- #51.0, frigate_build.lua
 	{
 		Description = "$11027",
 		DisplayPriority = 52,
 		DisplayedName = "$11026",
-		RequiredResearch = "IonCannons",
+		RequiredResearch = "Kus_IonCannons_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_IonCannonFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #32.2, frigate_build.lua
+	-- #52.0, frigate_build.lua
 	{
 		Description = "$11027",
 		DisplayPriority = 52,
 		DisplayedName = "$11026",
-		RequiredResearch = "IonCannons",
+		RequiredResearch = "Kus_IonCannons_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_IonCannonFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #33.1, frigate_build.lua
+	-- #53.0, frigate_build.lua
 	{
 		Description = "$11029",
 		DisplayPriority = 50,
 		DisplayedName = "$11028",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Kus_CapitalShipDrive_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_SupportFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #33.2, frigate_build.lua
+	-- #54.0, frigate_build.lua
 	{
 		Description = "$11029",
 		DisplayPriority = 50,
 		DisplayedName = "$11028",
-		RequiredResearch = "CapitalShipDrive",
+		RequiredResearch = "Kus_CapitalShipDrive_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_SupportFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #34.0, production_build.lua
+	-- #55.0, production_build.lua
 	{
 		Description = "$7007",
 		DisplayPriority = 0,
@@ -522,7 +522,7 @@ build =
 		ThingToBuild = "hw1_production_capital",
 		Type = SubSystem,
 	},
-	-- #35.0, production_build.lua
+	-- #56.0, production_build.lua
 	{
 		Description = "$7003",
 		DisplayPriority = 0,
@@ -532,7 +532,7 @@ build =
 		ThingToBuild = "hw1_production_corvette",
 		Type = SubSystem,
 	},
-	-- #36.0, production_build.lua
+	-- #57.0, production_build.lua
 	{
 		Description = "$7001",
 		DisplayPriority = 0,
@@ -542,7 +542,7 @@ build =
 		ThingToBuild = "hw1_production_fighter",
 		Type = SubSystem,
 	},
-	-- #37.0, production_build.lua
+	-- #58.0, production_build.lua
 	{
 		Description = "$7005",
 		DisplayPriority = 0,
@@ -552,47 +552,47 @@ build =
 		ThingToBuild = "hw1_production_frigate",
 		Type = SubSystem,
 	},
-	-- #38.1, utility_build.lua
+	-- #59.0, utility_build.lua
 	{
 		Description = "$11051",
 		DisplayPriority = 144,
 		DisplayedName = "$11050",
-		RequiredResearch = "CloakGenerator",
+		RequiredResearch = "Kus_CloakGenerator_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_CloakGenerator_hyp0",
 		Type = Ship,
 	},
-	-- #38.2, utility_build.lua
+	-- #60.0, utility_build.lua
 	{
 		Description = "$11051",
 		DisplayPriority = 144,
 		DisplayedName = "$11050",
-		RequiredResearch = "CloakGenerator",
+		RequiredResearch = "Kus_CloakGenerator_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_CloakGenerator_hyp1",
 		Type = Ship,
 	},
-	-- #39.1, utility_build.lua
+	-- #61.0, utility_build.lua
 	{
 		Description = "$11049",
 		DisplayPriority = 143,
 		DisplayedName = "$11048",
-		RequiredResearch = "GravityGenerator",
+		RequiredResearch = "Kus_GravityGenerator_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_GravWellGenerator_hyp0",
 		Type = Ship,
 	},
-	-- #39.2, utility_build.lua
+	-- #62.0, utility_build.lua
 	{
 		Description = "$11049",
 		DisplayPriority = 143,
 		DisplayedName = "$11048",
-		RequiredResearch = "GravityGenerator",
+		RequiredResearch = "Kus_GravityGenerator_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_GravWellGenerator_hyp1",
 		Type = Ship,
 	},
-	-- #40.1, utility_build.lua
+	-- #63.0, utility_build.lua
 	{
 		Description = "$11053",
 		DisplayPriority = 140,
@@ -602,7 +602,7 @@ build =
 		ThingToBuild = "Kus_Probe_hyp0",
 		Type = Ship,
 	},
-	-- #40.2, utility_build.lua
+	-- #64.0, utility_build.lua
 	{
 		Description = "$11053",
 		DisplayPriority = 140,
@@ -612,27 +612,27 @@ build =
 		ThingToBuild = "Kus_Probe_hyp1",
 		Type = Ship,
 	},
-	-- #41.1, utility_build.lua
+	-- #65.0, utility_build.lua
 	{
 		Description = "$11055",
 		DisplayPriority = 141,
 		DisplayedName = "$11054",
-		RequiredResearch = "ProximitySensor",
+		RequiredResearch = "Kus_ProximitySensor_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_ProximitySensor_hyp0",
 		Type = Ship,
 	},
-	-- #41.2, utility_build.lua
+	-- #66.0, utility_build.lua
 	{
 		Description = "$11055",
 		DisplayPriority = 141,
 		DisplayedName = "$11054",
-		RequiredResearch = "ProximitySensor",
+		RequiredResearch = "Kus_ProximitySensor_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_ProximitySensor_hyp1",
 		Type = Ship,
 	},
-	-- #42.0, utility_build.lua
+	-- #67.0, utility_build.lua
 	{
 		Description = "$11043",
 		DisplayPriority = 110,
@@ -642,7 +642,7 @@ build =
 		ThingToBuild = "Kus_ResearchShip",
 		Type = Ship,
 	},
-	-- #43.0, utility_build.lua
+	-- #68.0, utility_build.lua
 	{
 		Description = "$11043",
 		DisplayPriority = 111,
@@ -652,7 +652,7 @@ build =
 		ThingToBuild = "Kus_ResearchShip_1",
 		Type = Ship,
 	},
-	-- #44.0, utility_build.lua
+	-- #69.0, utility_build.lua
 	{
 		Description = "$11043",
 		DisplayPriority = 112,
@@ -662,7 +662,7 @@ build =
 		ThingToBuild = "Kus_ResearchShip_2",
 		Type = Ship,
 	},
-	-- #45.0, utility_build.lua
+	-- #70.0, utility_build.lua
 	{
 		Description = "$11043",
 		DisplayPriority = 113,
@@ -672,7 +672,7 @@ build =
 		ThingToBuild = "Kus_ResearchShip_3",
 		Type = Ship,
 	},
-	-- #46.0, utility_build.lua
+	-- #71.0, utility_build.lua
 	{
 		Description = "$11043",
 		DisplayPriority = 114,
@@ -682,7 +682,7 @@ build =
 		ThingToBuild = "Kus_ResearchShip_4",
 		Type = Ship,
 	},
-	-- #47.0, utility_build.lua
+	-- #72.0, utility_build.lua
 	{
 		Description = "$11043",
 		DisplayPriority = 115,
@@ -692,7 +692,7 @@ build =
 		ThingToBuild = "Kus_ResearchShip_5",
 		Type = Ship,
 	},
-	-- #48.1, utility_build.lua
+	-- #73.0, utility_build.lua
 	{
 		Description = "$11045",
 		DisplayPriority = 100,
@@ -702,7 +702,7 @@ build =
 		ThingToBuild = "Kus_ResourceCollector_res0_hyp0",
 		Type = Ship,
 	},
-	-- #48.2, utility_build.lua
+	-- #74.0, utility_build.lua
 	{
 		Description = "$11045",
 		DisplayPriority = 100,
@@ -712,7 +712,7 @@ build =
 		ThingToBuild = "Kus_ResourceCollector_res1_hyp0",
 		Type = Ship,
 	},
-	-- #48.3, utility_build.lua
+	-- #75.0, utility_build.lua
 	{
 		Description = "$11045",
 		DisplayPriority = 100,
@@ -722,7 +722,7 @@ build =
 		ThingToBuild = "Kus_ResourceCollector_res0_hyp1",
 		Type = Ship,
 	},
-	-- #48.4, utility_build.lua
+	-- #76.0, utility_build.lua
 	{
 		Description = "$11045",
 		DisplayPriority = 100,
@@ -732,7 +732,7 @@ build =
 		ThingToBuild = "Kus_ResourceCollector_res1_hyp1",
 		Type = Ship,
 	},
-	-- #49.1, utility_build.lua
+	-- #77.0, utility_build.lua
 	{
 		Description = "$11047",
 		DisplayPriority = 101,
@@ -742,7 +742,7 @@ build =
 		ThingToBuild = "Kus_ResourceController_res0_hyp0",
 		Type = Ship,
 	},
-	-- #49.2, utility_build.lua
+	-- #78.0, utility_build.lua
 	{
 		Description = "$11047",
 		DisplayPriority = 101,
@@ -752,7 +752,7 @@ build =
 		ThingToBuild = "Kus_ResourceController_res1_hyp0",
 		Type = Ship,
 	},
-	-- #49.3, utility_build.lua
+	-- #79.0, utility_build.lua
 	{
 		Description = "$11047",
 		DisplayPriority = 101,
@@ -762,7 +762,7 @@ build =
 		ThingToBuild = "Kus_ResourceController_res0_hyp1",
 		Type = Ship,
 	},
-	-- #49.4, utility_build.lua
+	-- #80.0, utility_build.lua
 	{
 		Description = "$11047",
 		DisplayPriority = 101,
@@ -772,22 +772,22 @@ build =
 		ThingToBuild = "Kus_ResourceController_res1_hyp1",
 		Type = Ship,
 	},
-	-- #50.1, utility_build.lua
+	-- #81.0, utility_build.lua
 	{
 		Description = "$11057",
 		DisplayPriority = 142,
 		DisplayedName = "$11056",
-		RequiredResearch = "SensorArray",
+		RequiredResearch = "Kus_SensorArray_hyp0",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_SensorArray_hyp0",
 		Type = Ship,
 	},
-	-- #50.2, utility_build.lua
+	-- #82.0, utility_build.lua
 	{
 		Description = "$11057",
 		DisplayPriority = 142,
 		DisplayedName = "$11056",
-		RequiredResearch = "SensorArray",
+		RequiredResearch = "Kus_SensorArray_hyp1",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Kus_SensorArray_hyp1",
 		Type = Ship,

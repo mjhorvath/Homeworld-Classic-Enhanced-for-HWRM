@@ -50,7 +50,7 @@ function DefinedRoles_Init()
 
 		-- build a list of technologies associated with this job
 		for j = 1, RacesNumber do
-			local thisRace = RacesList[j]
+			local thisRace = RacesListIndex[j]
 			local techRace = TechList[thisRace]
 
 			RolesTable[i].research[thisRace] = {}
@@ -70,7 +70,7 @@ function DefinedRoles_Init()
 						for l, lCount in shipItems do
 							-- get the correct variant
 							local shipType = l
-							local shipBits = VariantBuilds[shipType]
+							local shipBits = VariantBuildBool[shipType]
 							local shipVariant = GetVariantsMatch(shipType, shipBits)
 							tinsert(RolesTable[i].ships[thisRace], shipVariant)
 						end
@@ -87,7 +87,7 @@ function DefinedRoles_Init()
 						for l, lCount in subsItems do
 							-- get the correct variant
 							local subsType = l
-							local subsBits = VariantBuilds[subsType]
+							local subsBits = VariantBuildBool[subsType]
 							local subsVariant = GetVariantsMatch(subsType, subsBits)
 							tinsert(RolesTable[i].subsystems[thisRace], subsVariant)
 						end
@@ -104,7 +104,7 @@ function DefinedRoles_Init()
 						for l, lCount in reasItems do
 							-- get the correct variant
 							local reasType = l
-							local reasBits = VariantResearch[reasType]
+							local reasBits = VariantResearchBool[reasType]
 							local reasVariant = GetVariantsMatch(reasType, reasBits)
 							tinsert(RolesTable[i].research[thisRace], reasVariant)
 						end

@@ -1,179 +1,179 @@
-VariantBuild =
+VariantBuilds =
 {
-	Tai_Carrier =
+	tai_carrier =
 	{
-		"Tai_Carrier_res0_hyp0",
-		"Tai_Carrier_res1_hyp0",
-		"Tai_Carrier_res0_hyp1",
-		"Tai_Carrier_res1_hyp1",
+		TAI_CARRIER_RES0_HYP0,
+		TAI_CARRIER_RES1_HYP0,
+		TAI_CARRIER_RES0_HYP1,
+		TAI_CARRIER_RES1_HYP1,
 	},
-	Tai_Destroyer =
+	tai_destroyer =
 	{
-		"Tai_Destroyer_hyp0",
-		"Tai_Destroyer_hyp1",
+		TAI_DESTROYER_HYP0,
+		TAI_DESTROYER_HYP1,
 	},
-	Tai_HeavyCruiser =
+	tai_heavycruiser =
 	{
-		"Tai_HeavyCruiser_hyp0",
-		"Tai_HeavyCruiser_hyp1",
+		TAI_HEAVYCRUISER_HYP0,
+		TAI_HEAVYCRUISER_HYP1,
 	},
-	Tai_MissileDestroyer =
+	tai_missiledestroyer =
 	{
-		"Tai_MissileDestroyer_hyp0",
-		"Tai_MissileDestroyer_hyp1",
+		TAI_MISSILEDESTROYER_HYP0,
+		TAI_MISSILEDESTROYER_HYP1,
 	},
-	Tai_HeavyCorvette =
+	tai_heavycorvette =
 	{
-		"Tai_HeavyCorvette_hyp0",
-		"Tai_HeavyCorvette_hyp1",
+		TAI_HEAVYCORVETTE_HYP0,
+		TAI_HEAVYCORVETTE_HYP1,
 	},
-	Tai_LightCorvette =
+	tai_lightcorvette =
 	{
-		"Tai_LightCorvette_hyp0",
-		"Tai_LightCorvette_hyp1",
+		TAI_LIGHTCORVETTE_HYP0,
+		TAI_LIGHTCORVETTE_HYP1,
 	},
-	Tai_MinelayerCorvette =
+	tai_minelayercorvette =
 	{
-		"Tai_MinelayerCorvette_hyp0",
-		"Tai_MinelayerCorvette_hyp1",
+		TAI_MINELAYERCORVETTE_HYP0,
+		TAI_MINELAYERCORVETTE_HYP1,
 	},
-	Tai_MultiGunCorvette =
+	tai_multiguncorvette =
 	{
-		"Tai_MultiGunCorvette_hyp0",
-		"Tai_MultiGunCorvette_hyp1",
+		TAI_MULTIGUNCORVETTE_HYP0,
+		TAI_MULTIGUNCORVETTE_HYP1,
 	},
-	Tai_RepairCorvette =
+	tai_repaircorvette =
 	{
-		"Tai_RepairCorvette_hyp0",
-		"Tai_RepairCorvette_hyp1",
+		TAI_REPAIRCORVETTE_HYP0,
+		TAI_REPAIRCORVETTE_HYP1,
 	},
-	Tai_SalvageCorvette =
+	tai_salvagecorvette =
 	{
-		"Tai_SalvageCorvette_hyp0",
-		"Tai_SalvageCorvette_hyp1",
+		TAI_SALVAGECORVETTE_HYP0,
+		TAI_SALVAGECORVETTE_HYP1,
 	},
-	Tai_AttackBomber =
+	tai_attackbomber =
 	{
-		"Tai_AttackBomber_hyp0",
-		"Tai_AttackBomber_hyp1",
+		TAI_ATTACKBOMBER_HYP0,
+		TAI_ATTACKBOMBER_HYP1,
 	},
-	Tai_Defender =
+	tai_defender =
 	{
-		"Tai_Defender_hyp0",
-		"Tai_Defender_hyp1",
+		TAI_DEFENDER_HYP0,
+		TAI_DEFENDER_HYP1,
 	},
-	Tai_DefenseFighter =
+	tai_defensefighter =
 	{
-		"Tai_DefenseFighter_hyp0",
-		"Tai_DefenseFighter_hyp1",
+		TAI_DEFENSEFIGHTER_HYP0,
+		TAI_DEFENSEFIGHTER_HYP1,
 	},
-	Tai_Interceptor =
+	tai_interceptor =
 	{
-		"Tai_Interceptor_hyp0",
-		"Tai_Interceptor_hyp1",
+		TAI_INTERCEPTOR_HYP0,
+		TAI_INTERCEPTOR_HYP1,
 	},
-	Tai_Scout =
+	tai_scout =
 	{
-		"Tai_Scout_hyp0",
-		"Tai_Scout_hyp1",
+		TAI_SCOUT_HYP0,
+		TAI_SCOUT_HYP1,
 	},
-	Tai_AssaultFrigate =
+	tai_assaultfrigate =
 	{
-		"Tai_AssaultFrigate_hyp0",
-		"Tai_AssaultFrigate_hyp1",
+		TAI_ASSAULTFRIGATE_HYP0,
+		TAI_ASSAULTFRIGATE_HYP1,
 	},
-	Tai_FieldFrigate =
+	tai_fieldfrigate =
 	{
-		"Tai_FieldFrigate_hyp0",
-		"Tai_FieldFrigate_hyp1",
+		TAI_FIELDFRIGATE_HYP0,
+		TAI_FIELDFRIGATE_HYP1,
 	},
-	Tai_IonCannonFrigate =
+	tai_ioncannonfrigate =
 	{
-		"Tai_IonCannonFrigate_hyp0",
-		"Tai_IonCannonFrigate_hyp1",
+		TAI_IONCANNONFRIGATE_HYP0,
+		TAI_IONCANNONFRIGATE_HYP1,
 	},
-	Tai_SupportFrigate =
+	tai_supportfrigate =
 	{
-		"Tai_SupportFrigate_hyp0",
-		"Tai_SupportFrigate_hyp1",
+		TAI_SUPPORTFRIGATE_HYP0,
+		TAI_SUPPORTFRIGATE_HYP1,
 	},
 	hw1_production_capital =
 	{
-		"hw1_production_capital",
+		HW1_PRODUCTION_CAPITAL,
 	},
 	hw1_production_corvette =
 	{
-		"hw1_production_corvette",
+		HW1_PRODUCTION_CORVETTE,
 	},
 	hw1_production_fighter =
 	{
-		"hw1_production_fighter",
+		HW1_PRODUCTION_FIGHTER,
 	},
 	hw1_production_frigate =
 	{
-		"hw1_production_frigate",
+		HW1_PRODUCTION_FRIGATE,
 	},
-	Tai_CloakGenerator =
+	tai_cloakgenerator =
 	{
-		"Tai_CloakGenerator_hyp0",
-		"Tai_CloakGenerator_hyp1",
+		TAI_CLOAKGENERATOR_HYP0,
+		TAI_CLOAKGENERATOR_HYP1,
 	},
-	Tai_GravWellGenerator =
+	tai_gravwellgenerator =
 	{
-		"Tai_GravWellGenerator_hyp0",
-		"Tai_GravWellGenerator_hyp1",
+		TAI_GRAVWELLGENERATOR_HYP0,
+		TAI_GRAVWELLGENERATOR_HYP1,
 	},
-	Tai_Probe =
+	tai_probe =
 	{
-		"Tai_Probe_hyp0",
-		"Tai_Probe_hyp1",
+		TAI_PROBE_HYP0,
+		TAI_PROBE_HYP1,
 	},
-	Tai_ProximitySensor =
+	tai_proximitysensor =
 	{
-		"Tai_ProximitySensor_hyp0",
-		"Tai_ProximitySensor_hyp1",
+		TAI_PROXIMITYSENSOR_HYP0,
+		TAI_PROXIMITYSENSOR_HYP1,
 	},
-	Tai_ResearchShip =
+	tai_researchship =
 	{
-		"Tai_ResearchShip",
+		TAI_RESEARCHSHIP,
 	},
-	Tai_ResearchShip_1 =
+	tai_researchship_1 =
 	{
-		"Tai_ResearchShip_1",
+		TAI_RESEARCHSHIP_1,
 	},
-	Tai_ResearchShip_2 =
+	tai_researchship_2 =
 	{
-		"Tai_ResearchShip_2",
+		TAI_RESEARCHSHIP_2,
 	},
-	Tai_ResearchShip_3 =
+	tai_researchship_3 =
 	{
-		"Tai_ResearchShip_3",
+		TAI_RESEARCHSHIP_3,
 	},
-	Tai_ResearchShip_4 =
+	tai_researchship_4 =
 	{
-		"Tai_ResearchShip_4",
+		TAI_RESEARCHSHIP_4,
 	},
-	Tai_ResearchShip_5 =
+	tai_researchship_5 =
 	{
-		"Tai_ResearchShip_5",
+		TAI_RESEARCHSHIP_5,
 	},
-	Tai_ResourceCollector =
+	tai_resourcecollector =
 	{
-		"Tai_ResourceCollector_res0_hyp0",
-		"Tai_ResourceCollector_res1_hyp0",
-		"Tai_ResourceCollector_res0_hyp1",
-		"Tai_ResourceCollector_res1_hyp1",
+		TAI_RESOURCECOLLECTOR_RES0_HYP0,
+		TAI_RESOURCECOLLECTOR_RES1_HYP0,
+		TAI_RESOURCECOLLECTOR_RES0_HYP1,
+		TAI_RESOURCECOLLECTOR_RES1_HYP1,
 	},
-	Tai_ResourceController =
+	tai_resourcecontroller =
 	{
-		"Tai_ResourceController_res0_hyp0",
-		"Tai_ResourceController_res1_hyp0",
-		"Tai_ResourceController_res0_hyp1",
-		"Tai_ResourceController_res1_hyp1",
+		TAI_RESOURCECONTROLLER_RES0_HYP0,
+		TAI_RESOURCECONTROLLER_RES1_HYP0,
+		TAI_RESOURCECONTROLLER_RES0_HYP1,
+		TAI_RESOURCECONTROLLER_RES1_HYP1,
 	},
-	Tai_SensorArray =
+	tai_sensorarray =
 	{
-		"Tai_SensorArray_hyp0",
-		"Tai_SensorArray_hyp1",
+		TAI_SENSORARRAY_HYP0,
+		TAI_SENSORARRAY_HYP1,
 	},
 }

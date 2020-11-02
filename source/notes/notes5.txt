@@ -5,8 +5,6 @@ Do these require research modules?
 	vgr_c_production_fighter_car1
 
 Need to continually check and update these when adding or removing stuff to build or research
-	+ ai/default/classdef.lua - need to add new ships here, can keep old ships here too I guess
-	- ai/default/default.lua - some hardcoded research
 	- ship/icons/shipicons.lua - need to add new ships here, can keep old ships here too I guess
 	+ ship/kus_researchship/kus_researchship.lua - hardcoded research ship names
 	+ ship/tai_researchship/tai_researchship.lua - hardcoded research ship names
@@ -20,11 +18,20 @@ Need to continually check and update these when adding or removing stuff to buil
 	+ ship/kus_mothership/kus_mothership.lua - hardcoded research ship names
 	+ ship/tai_mothership/tai_mothership.lua - hardcoded research ship names
 	+ scripts/productiontimes/buildtimes.lua - see notes in file
-	- scripts/races/<race>/scripts/ai_build.lua - hardcoded "k" ships at the top of the file and elsewhere
-	- scripts/races/<race>/scripts/ai_upgrades.lua - several hardcoded ship tables
-	- scripts/races/<race>/scripts/ai_special.lua - some hardcoded research
-	- scripts/races/<race>/scripts/ai_subsystems.lua - some hardcoded research
+	- scripts/races/<race>/scripts/ai_build.lua - hardcoded "k" ships at the top of the file and elsewhere, as well as some specific research items
+	- scripts/races/<race>/scripts/ai_upgrades.lua - several hardcoded tables, ships and research
+	- scripts/races/<race>/scripts/ai_special.lua - some hardcoded research but sometimes the file is blank
+	- scripts/races/<race>/scripts/ai_subsystems.lua - some hardcoded research classes but no specific items
 	- scripts/races/<race>/props/default.lua - links to race-specific AI scripts
+	+ ai/default/classdef.lua - need to add new ships here, can keep old ships here too I guess
+	+ ai/default/cpubuild.lua - much work to do here
+	+ ai/default/cpuresearch.lua - no work to do here
+	+ ai/default/cpumilitary.lua - some work to do here
+	+ ai/default/HW1CPUPlayerLayer.lua - no work to do here
+	- scripts/playerspatch_ships_util.lua
+	- scripts/rules/lib/cpuplayers.lua - several hardcoded research names
+	- scripts/rules/deathmatch_hwce/unitcaps/*.lua
+	- kus_gravwellgenerator.lua, tai_gravwellgenerator.lua - list of strikecraft
 
 Core design issues
 	Should it still be possible to build a shipyard if hyperspacing is disabled? Which would be better gameplay? Need to keep in mind that Kushan and Taiidan don't require shipyards to build heavy cruisers, but do require motherships.
@@ -108,3 +115,26 @@ Stupid pet tricks
 			there is a developer warning about keeping this file and another file synced
 			I think the order in which the items appear in the build table matter to this other file
 			it would be better to actually look for the desired table member by name instead of relying on a hardcoded table index
+
+
+──data:ai/default/default.lua
+	├─data:ai/default/cpubuild.lua
+	│	├─data:scripts/races/hiigaran/props/default.lua
+	│	│	└─data:scripts/races/hiigaran/scripts/ai_build.lua
+	│	├─data:ai/default/cpuresource.lua
+	│	└─data:ai/default/cpubuildsubsystem.lua
+	│
+	├─data:ai/default/cpuresearch.lua
+	│	└─data:scripts/races/hiigaran/props/default.lua
+	│		└─data:scripts/races/hiigaran/scripts/ai_upgrades.lua
+	├─data:ai/default/cpumilitary.lua
+	├─data:ai/default/HW1CPUPlayerLayer.lua
+	└─data:ai/default/classdef.lua
+
+──data:scripts/rules/deathmatch/deathmatch.lua
+	└─data:scripts/rules/lib/cpuplayers.lua
+		└─data:scripts/races/hiigaran/props/default.lua
+			└─data:scripts/races/hiigaran/scripts/ai_special.lua
+
+──data:scripts/productiontimes/applybuildtimes.lua
+	└─data:scripts/productiontimes/buildtimes.lua
