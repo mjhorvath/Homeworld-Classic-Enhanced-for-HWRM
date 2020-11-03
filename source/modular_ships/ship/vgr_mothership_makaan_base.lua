@@ -1,26 +1,38 @@
 -- No hyperspace inhibitor ability for some reason.
-capitalModule = ""
-hyperspaceModule = ""
-hyperinhibitModule = ""
-hyperdetectModule = ""
-researchModule = ""
-resourceModule = ""
-resourceRate = 0
-
+-- No resource drop off point either.
 if hypBool == 1 then
-	hyperspaceModule = "Vgr_MS_Module_Hyperspace"
-	hyperinhibitModule = "Vgr_MS_Module_HyperspaceInhibitor"
 	hyperdetectModule = "Vgr_MS_Sensors_DetectHyperspace"
+	hyperspaceModule = "Vgr_MS_Module_Hyperspace"
+	if rchBool == 1 then
+		hyperinhibitModule = "vgr_ms_module_hyperspaceinhibitor_rch1"
+	else
+		hyperinhibitModule = "vgr_ms_module_hyperspaceinhibitor_rch0"
+	end
+else
+	hyperdetectModule = ""
+	hyperspaceModule = ""
+	hyperinhibitModule = ""
 end
 if resBool == 1 then
 	resourceModule = "Vgr_MS_Innate_Resource"
 	resourceRate = 250
+else
+	resourceModule = ""
+	resourceRate = 0
 end
 if rchBool == 1 then
 	researchModule = "Vgr_MS_Module_Research"
+	firecontrolModule = "vgr_ms_module_firecontrol_rch1"
+	cloakgenModule = "vgr_ms_module_cloakgenerator_rch1"
+else
+	researchModule = ""
+	firecontrolModule = "vgr_ms_module_firecontrol_rch0"
+	cloakgenModule = "vgr_ms_module_cloakgenerator_rch0"
 end
 if carBool == 0 then
 	capitalModule = "Vgr_MS_Production_CapShip"
+else
+	capitalModule = ""
 end
 
 NewShipType = StartShipConfig()
@@ -169,10 +181,10 @@ StartShipHardPointConfig(NewShipType,"Production 1","HardPoint_Production1","Sys
 StartShipHardPointConfig(NewShipType,"Production 2","HardPoint_Production2","System","Production","Destroyable","","Vgr_MS_Production_Corvette","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Production 3","HardPoint_Production3","System","Production","Destroyable","","Vgr_MS_Production_Frigate","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Production 4","HardPoint_Production4","System","Production","Destroyable","",capitalModule,"","","","","","","");
-StartShipHardPointConfig(NewShipType,"Generic 1","HardPoint_System1","System","Generic","Destroyable","",researchModule,"Vgr_MS_Module_CloakGenerator","Vgr_MS_Module_PlatformControl","Vgr_MS_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
-StartShipHardPointConfig(NewShipType,"Generic 2","HardPoint_System2","System","Generic","Destroyable","",researchModule,"Vgr_MS_Module_CloakGenerator","Vgr_MS_Module_PlatformControl","Vgr_MS_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
-StartShipHardPointConfig(NewShipType,"Generic 3","HardPoint_System3","System","Generic","Destroyable","",researchModule,"Vgr_MS_Module_CloakGenerator","Vgr_MS_Module_PlatformControl","Vgr_MS_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
-StartShipHardPointConfig(NewShipType,"Generic 4","HardPoint_System4","System","Generic","Destroyable","",researchModule,"Vgr_MS_Module_CloakGenerator","Vgr_MS_Module_PlatformControl","Vgr_MS_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
+StartShipHardPointConfig(NewShipType,"Generic 1","HardPoint_System1","System","Generic","Destroyable","",researchModule,cloakgenModule,"Vgr_MS_Module_PlatformControl",firecontrolModule,hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
+StartShipHardPointConfig(NewShipType,"Generic 2","HardPoint_System2","System","Generic","Destroyable","",researchModule,cloakgenModule,"Vgr_MS_Module_PlatformControl",firecontrolModule,hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
+StartShipHardPointConfig(NewShipType,"Generic 3","HardPoint_System3","System","Generic","Destroyable","",researchModule,cloakgenModule,"Vgr_MS_Module_PlatformControl",firecontrolModule,hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
+StartShipHardPointConfig(NewShipType,"Generic 4","HardPoint_System4","System","Generic","Destroyable","",researchModule,cloakgenModule,"Vgr_MS_Module_PlatformControl",firecontrolModule,hyperinhibitModule,hyperspaceModule,"Vgr_MS_Module_BuildSpeed","");
 StartShipHardPointConfig(NewShipType,"Sensors1","HardPoint_Sensors","System","Sensors","Destroyable","","Vgr_MS_Sensors_AdvancedArray",hyperdetectModule,"Vgr_MS_Sensors_DetectCloaked","","","","","");
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg03",1, 0.75,0,0,0, 0,0,0,50,0,0,0,200,0,0,0,50,0,0,0,50);
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg02",1, 0.05,0,0,0, 30,-20,200,25,300,150,85,50,0,0,0,85,0,0,0,50);

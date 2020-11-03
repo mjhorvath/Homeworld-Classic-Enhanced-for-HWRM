@@ -85,5 +85,6 @@ String_Properties =
 	-- required by cpuplayers.lua
 	def_type_mothership = "hgn_mothership",
 	def_type_carrier = "hgn_carrier",
+	-- newissue: not sure about this
 	def_type_scout = "hgn_scout",
 }

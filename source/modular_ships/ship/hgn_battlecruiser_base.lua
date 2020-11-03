@@ -1,9 +1,21 @@
-hyperspaceModule = ""
-hyperinhibitModule = ""
-
 if hypBool == 1 then
-	hyperspaceModule = "Hgn_C_Module_Hyperspace"
-	hyperinhibitModule = "Hgn_C_Module_HyperspaceInhibitor"
+	if rchBool == 1 then
+		hyperspaceModule = "Hgn_C_Module_Hyperspace_rch1"
+		hyperinhibitModule = "Hgn_C_Module_HyperspaceInhibitor_rch1"
+	else
+		hyperspaceModule = "Hgn_C_Module_Hyperspace_rch0"
+		hyperinhibitModule = "Hgn_C_Module_HyperspaceInhibitor_rch0"
+	end
+else
+	hyperspaceModule = ""
+	hyperinhibitModule = ""
+end
+if rchBool == 1 then
+	firecontrolModule = "Hgn_C_Module_FireControl_rch1"
+	cloakgenModule = "Hgn_C_Module_CloakGenerator_rch1"
+else
+	firecontrolModule = "Hgn_C_Module_FireControl_rch0"
+	cloakgenModule = "Hgn_C_Module_CloakGenerator_rch0"
 end
 
 NewShipType = StartShipConfig()
@@ -186,8 +198,8 @@ StartShipWeaponConfig(NewShipType,"Hgn_PulsarSide","Weapon_pulsar4","Weapon_puls
 --StartShipWeaponConfig(NewShipType,"Hgn_BattleCruiserKineticBurstCannonRightSide","Weapon_TurretTop4","Weapon_TurretTop4");
 addShield(NewShipType,"EMP",10000,20);
 StartShipHardPointConfig(NewShipType,"Engine","Hardpoint_Engine","System","Innate","Damageable","Hgn_BattleCruiserEngine","","","","","","","","");
-StartShipHardPointConfig(NewShipType,"Generic 1","HardpointGeneric1","System","Generic","Destroyable","",hyperspaceModule,"Hgn_C_Module_CloakGenerator",hyperinhibitModule,"Hgn_C_Module_FireControl","","","","");
-StartShipHardPointConfig(NewShipType,"Generic 2","HardpointGeneric2","System","Generic","Destroyable","",hyperspaceModule,"Hgn_C_Module_CloakGenerator",hyperinhibitModule,"Hgn_C_Module_FireControl","","","","");
+StartShipHardPointConfig(NewShipType,"Generic 1","HardpointGeneric1","System","Generic","Destroyable","",hyperspaceModule,cloakgenModule,hyperinhibitModule,firecontrolModule,"","","","");
+StartShipHardPointConfig(NewShipType,"Generic 2","HardpointGeneric2","System","Generic","Destroyable","",hyperspaceModule,cloakgenModule,hyperinhibitModule,firecontrolModule,"","","","");
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg03",1, 0.40,0,0,0, 0,0,0,50,0,0,0,200,0,0,0,50,0,0,0,50);
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg04",1, 0.19,0,0,0, 50,40,-150,50,65,25,5,25,0,0,0,95,0,0,0,50);
 SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg05",1, 0.13,0,0,0, 25,10,-100,30,35,75,62,75,0,0,0,80,0,0,0,50);

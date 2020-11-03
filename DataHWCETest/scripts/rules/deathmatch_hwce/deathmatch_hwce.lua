@@ -316,10 +316,13 @@ function OnInit()
 			DisableListOfBuilds(playerIndex, sRace, RestrictedBy.PlayerHuman[sRace].build)
 			DisableListOfResearch(playerIndex, sRace, RestrictedBy.PlayerHuman[sRace].research)
 		end
+		-- newissue: don't build motherships, test this code first
 		local mothershipsList = MothershipsList[sRace]
 		for j = 1, getn(mothershipsList) do
 			tinsert(Player_RestrictedBuilds[playerIndex + 1][sRace], mothershipsList[j])
 		end
+		-- newissue: don't build motherships, test this code first
+--		DisableListOfBuilds(playerIndex, sRace, MothershipsList[sRace])
 	end
 
 	ModeSuffixTable = BuildSuffixTable()

@@ -1727,11 +1727,11 @@ research =
 		DisplayPriority = 1,
 		DisplayedName = "$7718",
 		Icon = Icon_Tech,
-		Name = "Vgr_BattlecruiserIonWeapons_hyp0",
+		Name = "Vgr_BattlecruiserIonWeapons_rch0_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7308",
-		TargetName = "Vgr_BattleCruiser_hyp0",
+		TargetName = "Vgr_BattleCruiser_rch0_hyp0",
 		TargetType = Ship,
 		Time = 200,
 	},
@@ -1742,15 +1742,45 @@ research =
 		DisplayPriority = 1,
 		DisplayedName = "$7718",
 		Icon = Icon_Tech,
-		Name = "Vgr_BattlecruiserIonWeapons_hyp1",
+		Name = "Vgr_BattlecruiserIonWeapons_rch0_hyp1",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research & CapShipProduction",
 		ShortDisplayedName = "$7308",
-		TargetName = "Vgr_BattleCruiser_hyp1",
+		TargetName = "Vgr_BattleCruiser_rch0_hyp1",
 		TargetType = Ship,
 		Time = 200,
 	},
 	-- #102.0, default.lua
+	{
+		Cost = 2500,
+		Description = "$7719",
+		DisplayPriority = 1,
+		DisplayedName = "$7718",
+		Icon = Icon_Tech,
+		Name = "Vgr_BattlecruiserIonWeapons_rch1_hyp0",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction",
+		ShortDisplayedName = "$7308",
+		TargetName = "Vgr_BattleCruiser_rch1_hyp0",
+		TargetType = Ship,
+		Time = 200,
+	},
+	-- #103.0, default.lua
+	{
+		Cost = 2500,
+		Description = "$7719",
+		DisplayPriority = 1,
+		DisplayedName = "$7718",
+		Icon = Icon_Tech,
+		Name = "Vgr_BattlecruiserIonWeapons_rch1_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research & CapShipProduction",
+		ShortDisplayedName = "$7308",
+		TargetName = "Vgr_BattleCruiser_rch1_hyp1",
+		TargetType = Ship,
+		Time = 200,
+	},
+	-- #104.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7711",
@@ -1765,7 +1795,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #103.0, default.lua
+	-- #105.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7711",
@@ -1780,7 +1810,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #104.0, default.lua
+	-- #106.0, default.lua
 	{
 		Cost = 1500,
 		Description = "$7707",
@@ -1795,7 +1825,7 @@ research =
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #105.0, default.lua
+	-- #107.0, default.lua
 	{
 		Cost = 1500,
 		Description = "$7707",
@@ -1810,7 +1840,7 @@ research =
 		TargetType = Ship,
 		Time = 100,
 	},
-	-- #106.0, default.lua
+	-- #108.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7709",
@@ -1825,7 +1855,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #107.0, default.lua
+	-- #109.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7709",
@@ -1840,7 +1870,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #108.0, default.lua
+	-- #110.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7177",
@@ -1855,7 +1885,7 @@ research =
 		TargetType = Family,
 		Time = 40,
 	},
-	-- #109.0, default.lua
+	-- #111.0, default.lua
 	{
 		Cost = 2000,
 		Description = "$7721",
@@ -1870,7 +1900,7 @@ research =
 		TargetType = Ship,
 		Time = 140,
 	},
-	-- #110.0, default.lua
+	-- #112.0, default.lua
 	{
 		Cost = 2000,
 		Description = "$7721",
@@ -1885,7 +1915,7 @@ research =
 		TargetType = Ship,
 		Time = 140,
 	},
-	-- #111.0, default.lua
+	-- #113.0, default.lua
 	{
 		Cost = 650,
 		Description = "$7715",
@@ -1900,7 +1930,7 @@ research =
 		TargetType = Ship,
 		Time = 45,
 	},
-	-- #112.0, default.lua
+	-- #114.0, default.lua
 	{
 		Cost = 650,
 		Description = "$7715",
@@ -1915,7 +1945,7 @@ research =
 		TargetType = Ship,
 		Time = 45,
 	},
-	-- #113.0, default.lua
+	-- #115.0, default.lua
 	{
 		Cost = 1000,
 		Description = "$7717",
@@ -1930,7 +1960,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #114.0, default.lua
+	-- #116.0, default.lua
 	{
 		Cost = 1000,
 		Description = "$7717",
@@ -1945,7 +1975,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #115.0, default.lua
+	-- #117.0, default.lua
 	{
 		Cost = 1800,
 		Description = "$7179",
@@ -1960,7 +1990,7 @@ research =
 		TargetType = Family,
 		Time = 120,
 	},
-	-- #116.0, default.lua
+	-- #118.0, default.lua
 	{
 		Cost = 0,
 		Description = "Enhances the fleet's hyperspace drive systems, reducing the hyperspace damage caused by gravity wells. Ships Only Take 10 15906903amage when forced out of hyperspace.",
@@ -1978,22 +2008,37 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.4,
 	},
-	-- #117.0, default.lua
+	-- #119.0, default.lua
 	{
 		Cost = 750,
 		Description = "$7723",
 		DisplayPriority = 262,
 		DisplayedName = "$7722",
 		Icon = Icon_Tech,
-		Name = "Vgr_HyperspaceGateTech",
+		Name = "Vgr_HyperspaceGateTech_hyp0",
 		RequiredResearch = "",
 		RequiredSubSystems = "Research",
 		ShortDisplayedName = "$7310",
-		TargetName = "Vgr_HyperSpace_Platform",
+		TargetName = "Vgr_HyperSpace_Platform_hyp0",
 		TargetType = Ship,
 		Time = 50,
 	},
-	-- #118.0, default.lua
+	-- #120.0, default.lua
+	{
+		Cost = 750,
+		Description = "$7723",
+		DisplayPriority = 262,
+		DisplayedName = "$7722",
+		Icon = Icon_Tech,
+		Name = "Vgr_HyperspaceGateTech_hyp1",
+		RequiredResearch = "",
+		RequiredSubSystems = "Research",
+		ShortDisplayedName = "$7310",
+		TargetName = "Vgr_HyperSpace_Platform_hyp1",
+		TargetType = Ship,
+		Time = 50,
+	},
+	-- #121.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7705",
@@ -2008,7 +2053,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #119.0, default.lua
+	-- #122.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7705",
@@ -2023,7 +2068,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #120.0, default.lua
+	-- #123.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7703",
@@ -2038,7 +2083,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #121.0, default.lua
+	-- #124.0, default.lua
 	{
 		Cost = 250,
 		Description = "$7703",
@@ -2053,7 +2098,7 @@ research =
 		TargetType = Ship,
 		Time = 25,
 	},
-	-- #122.0, default.lua
+	-- #125.0, default.lua
 	{
 		Cost = 1200,
 		Description = "$7713",
@@ -2068,7 +2113,7 @@ research =
 		TargetType = Ship,
 		Time = 105,
 	},
-	-- #123.0, default.lua
+	-- #126.0, default.lua
 	{
 		Cost = 1200,
 		Description = "$7713",
@@ -2083,7 +2128,7 @@ research =
 		TargetType = Ship,
 		Time = 105,
 	},
-	-- #124.0, default.lua
+	-- #127.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7184",
@@ -2098,7 +2143,7 @@ research =
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #125.0, default.lua
+	-- #128.0, default.lua
 	{
 		Cost = 500,
 		Description = "$7184",
@@ -2113,7 +2158,7 @@ research =
 		TargetType = Ship,
 		Time = 40,
 	},
-	-- #126.0, default.lua
+	-- #129.0, default.lua
 	{
 		Cost = 800,
 		Description = "$7701",
@@ -2128,7 +2173,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #127.0, default.lua
+	-- #130.0, default.lua
 	{
 		Cost = 800,
 		Description = "$7701",
@@ -2143,7 +2188,7 @@ research =
 		TargetType = Ship,
 		Time = 60,
 	},
-	-- #128.0, explicit_grant.lua
+	-- #131.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2160,7 +2205,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #129.0, explicit_grant.lua
+	-- #132.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2177,7 +2222,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #130.0, explicit_grant.lua
+	-- #133.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2194,7 +2239,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #131.0, explicit_grant.lua
+	-- #134.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2211,7 +2256,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #132.0, explicit_grant.lua
+	-- #135.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2228,7 +2273,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #133.0, explicit_grant.lua
+	-- #136.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2245,7 +2290,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #134.0, explicit_grant.lua
+	-- #137.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2262,7 +2307,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #135.0, explicit_grant.lua
+	-- #138.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2279,7 +2324,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #136.0, explicit_grant.lua
+	-- #139.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2296,7 +2341,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #137.0, explicit_grant.lua
+	-- #140.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2313,7 +2358,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #138.0, explicit_grant.lua
+	-- #141.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2330,7 +2375,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #139.0, explicit_grant.lua
+	-- #142.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2347,7 +2392,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #140.0, explicit_grant.lua
+	-- #143.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2364,7 +2409,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #141.0, explicit_grant.lua
+	-- #144.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2381,7 +2426,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #142.0, explicit_grant.lua
+	-- #145.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2398,7 +2443,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #143.0, explicit_grant.lua
+	-- #146.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2415,7 +2460,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #144.0, explicit_grant.lua
+	-- #147.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2432,7 +2477,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #145.0, explicit_grant.lua
+	-- #148.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2449,7 +2494,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #146.0, explicit_grant.lua
+	-- #149.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2466,7 +2511,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #147.0, explicit_grant.lua
+	-- #150.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2483,7 +2528,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #148.0, explicit_grant.lua
+	-- #151.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2500,7 +2545,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #149.0, explicit_grant.lua
+	-- #152.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2517,7 +2562,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #150.0, explicit_grant.lua
+	-- #153.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2534,7 +2579,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #151.0, explicit_grant.lua
+	-- #154.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2551,7 +2596,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #152.0, explicit_grant.lua
+	-- #155.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2568,7 +2613,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #153.0, explicit_grant.lua
+	-- #156.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2585,7 +2630,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #154.0, explicit_grant.lua
+	-- #157.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2602,7 +2647,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #155.0, explicit_grant.lua
+	-- #158.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2619,7 +2664,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #156.0, explicit_grant.lua
+	-- #159.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2636,7 +2681,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #157.0, explicit_grant.lua
+	-- #160.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2653,7 +2698,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #158.0, explicit_grant.lua
+	-- #161.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2670,7 +2715,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #159.0, explicit_grant.lua
+	-- #162.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2687,7 +2732,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #160.0, explicit_grant.lua
+	-- #163.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2704,7 +2749,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #161.0, explicit_grant.lua
+	-- #164.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2721,7 +2766,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #162.0, explicit_grant.lua
+	-- #165.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2738,7 +2783,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #163.0, explicit_grant.lua
+	-- #166.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2755,7 +2800,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #164.0, explicit_grant.lua
+	-- #167.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2772,7 +2817,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #165.0, explicit_grant.lua
+	-- #168.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2789,7 +2834,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #166.0, explicit_grant.lua
+	-- #169.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2806,7 +2851,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #167.0, explicit_grant.lua
+	-- #170.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2823,7 +2868,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #168.0, explicit_grant.lua
+	-- #171.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2840,7 +2885,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #169.0, explicit_grant.lua
+	-- #172.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2857,7 +2902,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #170.0, explicit_grant.lua
+	-- #173.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2874,7 +2919,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #171.0, explicit_grant.lua
+	-- #174.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2891,7 +2936,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #172.0, explicit_grant.lua
+	-- #175.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2908,7 +2953,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #173.0, explicit_grant.lua
+	-- #176.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2925,7 +2970,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #174.0, explicit_grant.lua
+	-- #177.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2942,7 +2987,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #175.0, explicit_grant.lua
+	-- #178.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2959,7 +3004,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.8,
 	},
-	-- #176.0, explicit_grant.lua
+	-- #179.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2976,7 +3021,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.65,
 	},
-	-- #177.0, explicit_grant.lua
+	-- #180.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -2993,7 +3038,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #178.0, explicit_grant.lua
+	-- #181.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3010,7 +3055,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #179.0, explicit_grant.lua
+	-- #182.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3027,7 +3072,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #180.0, explicit_grant.lua
+	-- #183.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3044,7 +3089,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #181.0, explicit_grant.lua
+	-- #184.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3061,7 +3106,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #182.0, explicit_grant.lua
+	-- #185.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3078,7 +3123,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #183.0, explicit_grant.lua
+	-- #186.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3095,7 +3140,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #184.0, explicit_grant.lua
+	-- #187.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3112,7 +3157,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #185.0, explicit_grant.lua
+	-- #188.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3129,7 +3174,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #186.0, explicit_grant.lua
+	-- #189.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3146,7 +3191,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #187.0, explicit_grant.lua
+	-- #190.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3163,7 +3208,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #188.0, explicit_grant.lua
+	-- #191.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3180,7 +3225,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #189.0, explicit_grant.lua
+	-- #192.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3197,7 +3242,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #190.0, explicit_grant.lua
+	-- #193.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3214,7 +3259,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #191.0, explicit_grant.lua
+	-- #194.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3231,7 +3276,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #192.0, explicit_grant.lua
+	-- #195.0, explicit_grant.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3248,7 +3293,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.5,
 	},
-	-- #193.0, fighter_upgrade_speed.lua
+	-- #196.0, fighter_upgrade_speed.lua
 	{
 		Cost = 1200,
 		Description = "$7756",
@@ -3266,7 +3311,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.4,
 	},
-	-- #194.0, frigate_upgrade_speed.lua
+	-- #197.0, frigate_upgrade_speed.lua
 	{
 		Cost = 2000,
 		Description = "$7768",
@@ -3284,7 +3329,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.4,
 	},
-	-- #195.0, frigate_upgrade_speed.lua
+	-- #198.0, frigate_upgrade_speed.lua
 	{
 		Cost = 1200,
 		Description = "$7772",
@@ -3302,7 +3347,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.25,
 	},
-	-- #196.0, platform_upgrade.lua
+	-- #199.0, platform_upgrade.lua
 	{
 		Cost = 1600,
 		Description = "$7776",
@@ -3320,7 +3365,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.75,
 	},
-	-- #197.0, singleplayer_hacks.lua
+	-- #200.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Corvette Health upgrade - SP GAME ONLY",
@@ -3336,7 +3381,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #198.0, singleplayer_hacks.lua
+	-- #201.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3352,7 +3397,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #199.0, singleplayer_hacks.lua
+	-- #202.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3368,7 +3413,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #200.0, singleplayer_hacks.lua
+	-- #203.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3383,7 +3428,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.01,
 	},
-	-- #201.0, singleplayer_hacks.lua
+	-- #204.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3398,39 +3443,71 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #202.0, singleplayer_hacks.lua
+	-- #205.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
-		Name = "Vgr_MakaanBattleCruiserHealth_hyp0",
+		Name = "Vgr_MakaanBattleCruiserHealth_rch0_hyp0",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_BattleCruiser_hyp0",
+		TargetName = "Vgr_BattleCruiser_rch0_hyp0",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.475,
 	},
-	-- #203.0, singleplayer_hacks.lua
+	-- #206.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
 		DisplayPriority = 1208,
 		DisplayedName = "",
-		Name = "Vgr_MakaanBattleCruiserHealth_hyp1",
+		Name = "Vgr_MakaanBattleCruiserHealth_rch0_hyp1",
 		RequiredResearch = "RESEARCH HACK",
 		RequiredSubSystems = "",
-		TargetName = "Vgr_BattleCruiser_hyp1",
+		TargetName = "Vgr_BattleCruiser_rch0_hyp1",
 		TargetType = Ship,
 		Time = 0,
 		UpgradeName = "MAXHEALTH",
 		UpgradeType = Modifier,
 		UpgradeValue = 1.475,
 	},
-	-- #204.0, singleplayer_hacks.lua
+	-- #207.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanBattleCruiserHealth_rch1_hyp0",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_BattleCruiser_rch1_hyp0",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.475,
+	},
+	-- #208.0, singleplayer_hacks.lua
+	{
+		Cost = 0,
+		Description = "",
+		DisplayPriority = 1208,
+		DisplayedName = "",
+		Name = "Vgr_MakaanBattleCruiserHealth_rch1_hyp1",
+		RequiredResearch = "RESEARCH HACK",
+		RequiredSubSystems = "",
+		TargetName = "Vgr_BattleCruiser_rch1_hyp1",
+		TargetType = Ship,
+		Time = 0,
+		UpgradeName = "MAXHEALTH",
+		UpgradeType = Modifier,
+		UpgradeValue = 1.475,
+	},
+	-- #209.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3446,7 +3523,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #205.0, singleplayer_hacks.lua
+	-- #210.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3462,7 +3539,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #206.0, singleplayer_hacks.lua
+	-- #211.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3478,7 +3555,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #207.0, singleplayer_hacks.lua
+	-- #212.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3494,7 +3571,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #208.0, singleplayer_hacks.lua
+	-- #213.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3510,7 +3587,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #209.0, singleplayer_hacks.lua
+	-- #214.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3526,7 +3603,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #210.0, singleplayer_hacks.lua
+	-- #215.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3542,7 +3619,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #211.0, singleplayer_hacks.lua
+	-- #216.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3558,7 +3635,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #212.0, singleplayer_hacks.lua
+	-- #217.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3574,7 +3651,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #213.0, singleplayer_hacks.lua
+	-- #218.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3590,7 +3667,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #214.0, singleplayer_hacks.lua
+	-- #219.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3606,7 +3683,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #215.0, singleplayer_hacks.lua
+	-- #220.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3622,7 +3699,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #216.0, singleplayer_hacks.lua
+	-- #221.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3638,7 +3715,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #217.0, singleplayer_hacks.lua
+	-- #222.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3654,7 +3731,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #218.0, singleplayer_hacks.lua
+	-- #223.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3670,7 +3747,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #219.0, singleplayer_hacks.lua
+	-- #224.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3686,7 +3763,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #220.0, singleplayer_hacks.lua
+	-- #225.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3702,7 +3779,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.6,
 	},
-	-- #221.0, singleplayer_hacks.lua
+	-- #226.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3718,7 +3795,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #222.0, singleplayer_hacks.lua
+	-- #227.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3734,7 +3811,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #223.0, singleplayer_hacks.lua
+	-- #228.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3750,7 +3827,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.5,
 	},
-	-- #224.0, singleplayer_hacks.lua
+	-- #229.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3766,7 +3843,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.6,
 	},
-	-- #225.0, singleplayer_hacks.lua
+	-- #230.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3782,7 +3859,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2.15,
 	},
-	-- #226.0, singleplayer_hacks.lua
+	-- #231.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3798,7 +3875,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #227.0, singleplayer_hacks.lua
+	-- #232.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3814,7 +3891,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #228.0, singleplayer_hacks.lua
+	-- #233.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3830,7 +3907,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #229.0, singleplayer_hacks.lua
+	-- #234.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3846,7 +3923,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #230.0, singleplayer_hacks.lua
+	-- #235.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3862,7 +3939,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #231.0, singleplayer_hacks.lua
+	-- #236.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3878,7 +3955,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #232.0, singleplayer_hacks.lua
+	-- #237.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3894,7 +3971,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #233.0, singleplayer_hacks.lua
+	-- #238.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3910,7 +3987,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #234.0, singleplayer_hacks.lua
+	-- #239.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3926,7 +4003,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #235.0, singleplayer_hacks.lua
+	-- #240.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3942,7 +4019,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #236.0, singleplayer_hacks.lua
+	-- #241.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3958,7 +4035,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #237.0, singleplayer_hacks.lua
+	-- #242.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3974,7 +4051,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #238.0, singleplayer_hacks.lua
+	-- #243.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -3990,7 +4067,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #239.0, singleplayer_hacks.lua
+	-- #244.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4006,7 +4083,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #240.0, singleplayer_hacks.lua
+	-- #245.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4022,7 +4099,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #241.0, singleplayer_hacks.lua
+	-- #246.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4038,7 +4115,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.8,
 	},
-	-- #242.0, singleplayer_hacks.lua
+	-- #247.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4054,7 +4131,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2.25,
 	},
-	-- #243.0, singleplayer_hacks.lua
+	-- #248.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4070,7 +4147,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #244.0, singleplayer_hacks.lua
+	-- #249.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4086,7 +4163,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #245.0, singleplayer_hacks.lua
+	-- #250.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4102,7 +4179,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #246.0, singleplayer_hacks.lua
+	-- #251.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4118,7 +4195,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #247.0, singleplayer_hacks.lua
+	-- #252.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4134,7 +4211,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #248.0, singleplayer_hacks.lua
+	-- #253.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4150,7 +4227,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #249.0, singleplayer_hacks.lua
+	-- #254.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4166,7 +4243,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #250.0, singleplayer_hacks.lua
+	-- #255.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4182,7 +4259,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #251.0, singleplayer_hacks.lua
+	-- #256.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4198,7 +4275,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #252.0, singleplayer_hacks.lua
+	-- #257.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4214,7 +4291,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #253.0, singleplayer_hacks.lua
+	-- #258.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4230,7 +4307,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #254.0, singleplayer_hacks.lua
+	-- #259.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4246,7 +4323,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #255.0, singleplayer_hacks.lua
+	-- #260.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4262,7 +4339,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #256.0, singleplayer_hacks.lua
+	-- #261.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4278,7 +4355,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #257.0, singleplayer_hacks.lua
+	-- #262.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4294,7 +4371,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #258.0, singleplayer_hacks.lua
+	-- #263.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Shipyard Speed downgrade - SP GAME ONLY",
@@ -4310,7 +4387,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.0001,
 	},
-	-- #259.0, singleplayer_hacks.lua
+	-- #264.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4326,7 +4403,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #260.0, singleplayer_hacks.lua
+	-- #265.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4342,7 +4419,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #261.0, singleplayer_hacks.lua
+	-- #266.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4358,7 +4435,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #262.0, singleplayer_hacks.lua
+	-- #267.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4374,7 +4451,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.15,
 	},
-	-- #263.0, singleplayer_hacks.lua
+	-- #268.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Secret Upgrade",
@@ -4390,7 +4467,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.572,
 	},
-	-- #264.0, singleplayer_hacks.lua
+	-- #269.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Carrier Health upgrade - SP GAME ONLY",
@@ -4406,7 +4483,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2.5,
 	},
-	-- #265.0, singleplayer_hacks.lua
+	-- #270.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4422,7 +4499,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #266.0, singleplayer_hacks.lua
+	-- #271.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4438,7 +4515,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 1.35,
 	},
-	-- #267.0, singleplayer_hacks.lua
+	-- #272.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4454,7 +4531,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #268.0, singleplayer_hacks.lua
+	-- #273.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4470,7 +4547,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #269.0, singleplayer_hacks.lua
+	-- #274.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4486,7 +4563,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #270.0, singleplayer_hacks.lua
+	-- #275.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4502,7 +4579,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #271.0, singleplayer_hacks.lua
+	-- #276.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4518,7 +4595,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #272.0, singleplayer_hacks.lua
+	-- #277.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4534,7 +4611,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #273.0, singleplayer_hacks.lua
+	-- #278.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4550,7 +4627,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #274.0, singleplayer_hacks.lua
+	-- #279.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4566,7 +4643,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #275.0, singleplayer_hacks.lua
+	-- #280.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4582,7 +4659,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #276.0, singleplayer_hacks.lua
+	-- #281.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4598,7 +4675,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #277.0, singleplayer_hacks.lua
+	-- #282.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4614,7 +4691,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #278.0, singleplayer_hacks.lua
+	-- #283.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4630,7 +4707,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #279.0, singleplayer_hacks.lua
+	-- #284.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4646,7 +4723,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #280.0, singleplayer_hacks.lua
+	-- #285.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4662,7 +4739,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #281.0, singleplayer_hacks.lua
+	-- #286.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4678,7 +4755,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #282.0, singleplayer_hacks.lua
+	-- #287.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4694,7 +4771,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #283.0, singleplayer_hacks.lua
+	-- #288.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4710,7 +4787,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #284.0, singleplayer_hacks.lua
+	-- #289.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4726,7 +4803,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #285.0, singleplayer_hacks.lua
+	-- #290.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4742,7 +4819,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #286.0, singleplayer_hacks.lua
+	-- #291.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4758,7 +4835,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #287.0, singleplayer_hacks.lua
+	-- #292.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4774,7 +4851,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #288.0, singleplayer_hacks.lua
+	-- #293.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4790,7 +4867,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #289.0, singleplayer_hacks.lua
+	-- #294.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4806,7 +4883,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #290.0, singleplayer_hacks.lua
+	-- #295.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4822,7 +4899,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #291.0, singleplayer_hacks.lua
+	-- #296.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4838,7 +4915,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #292.0, singleplayer_hacks.lua
+	-- #297.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4854,7 +4931,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #293.0, singleplayer_hacks.lua
+	-- #298.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4870,7 +4947,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #294.0, singleplayer_hacks.lua
+	-- #299.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4886,7 +4963,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #295.0, singleplayer_hacks.lua
+	-- #300.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4902,7 +4979,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #296.0, singleplayer_hacks.lua
+	-- #301.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4918,7 +4995,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #297.0, singleplayer_hacks.lua
+	-- #302.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4934,7 +5011,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #298.0, singleplayer_hacks.lua
+	-- #303.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4950,7 +5027,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 3,
 	},
-	-- #299.0, singleplayer_hacks.lua
+	-- #304.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4966,7 +5043,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.1,
 	},
-	-- #300.0, singleplayer_hacks.lua
+	-- #305.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "Vaygr Frigate Health upgrade - SP GAME ONLY",
@@ -4982,7 +5059,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 2,
 	},
-	-- #301.0, singleplayer_hacks.lua
+	-- #306.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -4997,7 +5074,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0,
 	},
-	-- #302.0, singleplayer_hacks.lua
+	-- #307.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5013,7 +5090,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.75,
 	},
-	-- #303.0, singleplayer_hacks.lua
+	-- #308.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5029,7 +5106,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.75,
 	},
-	-- #304.0, singleplayer_hacks.lua
+	-- #309.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5045,7 +5122,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.25,
 	},
-	-- #305.0, singleplayer_hacks.lua
+	-- #310.0, singleplayer_hacks.lua
 	{
 		Cost = 0,
 		Description = "",
@@ -5061,7 +5138,7 @@ research =
 		UpgradeType = Modifier,
 		UpgradeValue = 0.25,
 	},
-	-- #306.0, utility_upgrade.lua
+	-- #311.0, utility_upgrade.lua
 	{
 		Cost = 1400,
 		Description = "$7780",

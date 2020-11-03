@@ -3,27 +3,39 @@ rchBool = 0
 resBool = 0
 hypBool = 1
 
-hyperdetectModule = ""
-hyperspaceModule = ""
-hyperinhibitModule = ""
-researchModule = ""
-resourceModule = ""
-carfighterModule = "vgr_c_production_fighter_car0"
-carcorvetteModule = "vgr_c_production_corvette_car0"
-
 if hypBool == 1 then
 	hyperdetectModule = "Vgr_C_Sensors_DetectHyperspace"
 	hyperspaceModule = "Vgr_C_Module_Hyperspace"
-	hyperinhibitModule = "Vgr_C_Module_HyperspaceInhibitor"
+	if rchBool == 1 then
+		hyperinhibitModule = "vgr_c_module_hyperspaceinhibitor_rch1"
+	else
+		hyperinhibitModule = "vgr_c_module_hyperspaceinhibitor_rch0"
+	end
+else
+	hyperdetectModule = ""
+	hyperspaceModule = ""
+	hyperinhibitModule = ""
 end
 if resBool == 1 then
 	resourceModule = "Vgr_C_Innate_Resource"
+	resourceRate = 40
+else
+	resourceModule = ""
+	resourceRate = 0
 end
 if rchBool == 1 then
 	researchModule = "Vgr_C_Module_Research"
+	firecontrolModule = "vgr_c_module_firecontrol_rch1"
+	cloakgenModule = "vgr_c_module_cloakgenerator_rch1"
+else
+	researchModule = ""
+	firecontrolModule = "vgr_c_module_firecontrol_rch0"
+	cloakgenModule = "vgr_c_module_cloakgenerator_rch0"
 end
-if carBool == 1 then
-	-- make sure the spelling of the names here are synced with the SUBS files/folders
+if carBool == 0 then
+	carfighterModule = "vgr_c_production_fighter_car0"
+	carcorvetteModule = "vgr_c_production_corvette_car0"
+else
 	carfighterModule = "vgr_c_production_fighter_car1"
 	carcorvetteModule = "vgr_c_production_corvette_car1"
 end
@@ -169,7 +181,7 @@ NewShipType.launchTimeBeforeStart=2
 NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="delta"
 NewShipType.strikeGroupRadius=200
-addAbility(NewShipType,"ShipHold",1,40,100,"rallypoint","Fighter, Corvette, Utility",35,{Fighter="2"},{Corvette="24"},{Utility="88"});
+addAbility(NewShipType,"ShipHold",1,resourceRate,100,"rallypoint","Fighter, Corvette, Utility",35,{Fighter="2"},{Corvette="24"},{Utility="88"});
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"WaypointMove");
 if hypBool == 1 then
@@ -196,8 +208,8 @@ addShield(NewShipType,"EMP",10000,20);
 StartShipHardPointConfig(NewShipType,"Production 1","HardPoint_Production1","System","Production","Destroyable","","Vgr_C_Production_Frigate","","","","","","","")
 StartShipHardPointConfig(NewShipType,"Production 2","HardPoint_Production2","System","Production","Destroyable","",carfighterModule,"","","","","","","")
 StartShipHardPointConfig(NewShipType,"Production 3","HardPoint_Production3","System","Production","Destroyable","",carcorvetteModule,"","","","","","","")
-StartShipHardPointConfig(NewShipType,"Generic 1","HardPoint_System1","System","Generic","Destroyable","",researchModule,"Vgr_C_Module_CloakGenerator","Vgr_C_Module_PlatformControl","Vgr_C_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_C_Module_BuildSpeed","");
-StartShipHardPointConfig(NewShipType,"Generic 2","HardPoint_System2","System","Generic","Destroyable","",researchModule,"Vgr_C_Module_CloakGenerator","Vgr_C_Module_PlatformControl","Vgr_C_Module_FireControl",hyperinhibitModule,hyperspaceModule,"Vgr_C_Module_BuildSpeed","");
+StartShipHardPointConfig(NewShipType,"Generic 1","HardPoint_System1","System","Generic","Destroyable","",researchModule,cloakgenModule,"Vgr_C_Module_PlatformControl",firecontrolModule,hyperinhibitModule,hyperspaceModule,"Vgr_C_Module_BuildSpeed","");
+StartShipHardPointConfig(NewShipType,"Generic 2","HardPoint_System2","System","Generic","Destroyable","",researchModule,cloakgenModule,"Vgr_C_Module_PlatformControl",firecontrolModule,hyperinhibitModule,hyperspaceModule,"Vgr_C_Module_BuildSpeed","");
 StartShipHardPointConfig(NewShipType,"Sensors1","HardPoint_Sensors","System","Sensors","Destroyable","","Vgr_C_Sensors_AdvancedArray",hyperdetectModule,"Vgr_C_Sensors_DetectCloaked","","","","","");
 StartShipHardPointConfig(NewShipType,"Engine","Hardpoint_Engine","System","Innate","Damageable","Vgr_C_Engine","","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Resource","Hardpoint_Resource","System","Innate","Damageable",resourceModule,"","","","","","","","");

@@ -1,4 +1,4 @@
-AI_trace("LOADING CPU BUILD")
+AI_trace("AI: LOADING CPU BUILD")
 dofilepath("data:ai/default/cpuresource.lua")
 dofilepath("data:ai/default/cpubuildsubsystem.lua")
 

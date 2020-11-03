@@ -1,21 +1,5 @@
 build =
 {
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch0_res0_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch0_res0_hyp0", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch0_res0_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch0_res0_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch0_res1_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch0_res1_hyp0", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch0_res1_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch0_res1_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch1_res0_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch1_res0_hyp0", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch1_res0_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch1_res0_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch1_res1_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch1_res1_hyp0", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car0_rch1_res1_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car0_rch1_res1_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch0_res0_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch0_res0_hyp0", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch0_res0_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch0_res0_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch0_res1_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch0_res1_hyp0", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch0_res1_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch0_res1_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch1_res0_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch1_res0_hyp0", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch1_res0_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch1_res0_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch1_res1_hyp1", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch1_res1_hyp1", Type = Ship,},
-	{Description = "MS", DisplayPriority = 13, DisplayedName = "MS_car1_rch1_res1_hyp0", RequiredFleetSubSystems = "", RequiredResearch = "", RequiredShipSubSystems = "", ThingToBuild = "Hgn_Mothership_car1_rch1_res1_hyp0", Type = Ship,},
 	-- #1.0, capital_builds.lua
 	{
 		Description = "$7061",
@@ -24,7 +8,7 @@ build =
 		RequiredFleetSubSystems = "",
 		RequiredResearch = "Hgn_BattlecruiserIonWeapons_hyp0",
 		RequiredShipSubSystems = "CapShipProduction",
-		ThingToBuild = "Hgn_Battlecruiser_hyp0",
+		ThingToBuild = "Hgn_Battlecruiser_rch0_hyp0",
 		Type = Ship,
 	},
 	-- #2.0, capital_builds.lua
@@ -35,10 +19,32 @@ build =
 		RequiredFleetSubSystems = "",
 		RequiredResearch = "Hgn_BattlecruiserIonWeapons_hyp1",
 		RequiredShipSubSystems = "CapShipProduction",
-		ThingToBuild = "Hgn_Battlecruiser_hyp1",
+		ThingToBuild = "Hgn_Battlecruiser_rch1_hyp1",
 		Type = Ship,
 	},
 	-- #3.0, capital_builds.lua
+	{
+		Description = "$7061",
+		DisplayPriority = 118,
+		DisplayedName = "$7060",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "Hgn_BattlecruiserIonWeapons_hyp0",
+		RequiredShipSubSystems = "CapShipProduction",
+		ThingToBuild = "Hgn_Battlecruiser_rch0_hyp0",
+		Type = Ship,
+	},
+	-- #4.0, capital_builds.lua
+	{
+		Description = "$7061",
+		DisplayPriority = 118,
+		DisplayedName = "$7060",
+		RequiredFleetSubSystems = "",
+		RequiredResearch = "Hgn_BattlecruiserIonWeapons_hyp1",
+		RequiredShipSubSystems = "CapShipProduction",
+		ThingToBuild = "Hgn_Battlecruiser_rch1_hyp1",
+		Type = Ship,
+	},
+	-- #5.0, capital_builds.lua
 	{
 		Description = "$7057",
 		DisplayPriority = 116,
@@ -49,7 +55,7 @@ build =
 		ThingToBuild = "Hgn_Destroyer_hyp0",
 		Type = Ship,
 	},
-	-- #4.0, capital_builds.lua
+	-- #6.0, capital_builds.lua
 	{
 		Description = "$7057",
 		DisplayPriority = 116,
@@ -60,7 +66,7 @@ build =
 		ThingToBuild = "Hgn_Destroyer_hyp1",
 		Type = Ship,
 	},
-	-- #5.0, carrier_builds.lua
+	-- #7.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -71,7 +77,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #6.0, carrier_builds.lua
+	-- #8.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -82,7 +88,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #7.0, carrier_builds.lua
+	-- #9.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -93,7 +99,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #8.0, carrier_builds.lua
+	-- #10.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -104,7 +110,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #9.0, carrier_builds.lua
+	-- #11.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -115,7 +121,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #10.0, carrier_builds.lua
+	-- #12.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -126,7 +132,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #11.0, carrier_builds.lua
+	-- #13.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -137,7 +143,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #12.0, carrier_builds.lua
+	-- #14.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -148,7 +154,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #13.0, carrier_builds.lua
+	-- #15.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -159,7 +165,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #14.0, carrier_builds.lua
+	-- #16.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -170,7 +176,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #15.0, carrier_builds.lua
+	-- #17.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -181,7 +187,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #16.0, carrier_builds.lua
+	-- #18.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -192,7 +198,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #17.0, carrier_builds.lua
+	-- #19.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -203,7 +209,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #18.0, carrier_builds.lua
+	-- #20.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -214,7 +220,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #19.0, carrier_builds.lua
+	-- #21.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -225,7 +231,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car0_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #20.0, carrier_builds.lua
+	-- #22.0, carrier_builds.lua
 	{
 		Description = "$7055",
 		DisplayPriority = 110,
@@ -236,7 +242,7 @@ build =
 		ThingToBuild = "Hgn_Carrier_car1_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #21.0, carrier_builds.lua
+	-- #23.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -247,7 +253,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #22.0, carrier_builds.lua
+	-- #24.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -258,7 +264,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #23.0, carrier_builds.lua
+	-- #25.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -269,7 +275,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #24.0, carrier_builds.lua
+	-- #26.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -280,7 +286,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #25.0, carrier_builds.lua
+	-- #27.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -291,7 +297,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #26.0, carrier_builds.lua
+	-- #28.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -302,7 +308,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #27.0, carrier_builds.lua
+	-- #29.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -313,7 +319,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #28.0, carrier_builds.lua
+	-- #30.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -324,7 +330,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #29.0, carrier_builds.lua
+	-- #31.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -335,7 +341,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #30.0, carrier_builds.lua
+	-- #32.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -346,7 +352,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #31.0, carrier_builds.lua
+	-- #33.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -357,7 +363,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #32.0, carrier_builds.lua
+	-- #34.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -368,7 +374,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #33.0, carrier_builds.lua
+	-- #35.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -379,7 +385,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #34.0, carrier_builds.lua
+	-- #36.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -390,7 +396,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #35.0, carrier_builds.lua
+	-- #37.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -401,7 +407,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car0_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #36.0, carrier_builds.lua
+	-- #38.0, carrier_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -412,7 +418,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_car1_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #37.0, carrier_builds.lua
+	-- #39.0, carrier_builds.lua
 	{
 		Description = "$7019",
 		DisplayPriority = 50,
@@ -423,7 +429,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_CloakGenerator_rch0",
 		Type = SubSystem,
 	},
-	-- #38.0, carrier_builds.lua
+	-- #40.0, carrier_builds.lua
 	{
 		Description = "$7019",
 		DisplayPriority = 50,
@@ -434,7 +440,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_CloakGenerator_rch1",
 		Type = SubSystem,
 	},
-	-- #39.0, carrier_builds.lua
+	-- #41.0, carrier_builds.lua
 	{
 		Description = "$7021",
 		DisplayPriority = 60,
@@ -445,7 +451,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_FireControl_rch0",
 		Type = SubSystem,
 	},
-	-- #40.0, carrier_builds.lua
+	-- #42.0, carrier_builds.lua
 	{
 		Description = "$7021",
 		DisplayPriority = 60,
@@ -456,7 +462,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_FireControl_rch1",
 		Type = SubSystem,
 	},
-	-- #41.0, carrier_builds.lua
+	-- #43.0, carrier_builds.lua
 	{
 		Description = "$7015",
 		DisplayPriority = 30,
@@ -467,7 +473,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_Hyperspace_rch0",
 		Type = SubSystem,
 	},
-	-- #42.0, carrier_builds.lua
+	-- #44.0, carrier_builds.lua
 	{
 		Description = "$7015",
 		DisplayPriority = 30,
@@ -478,7 +484,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_Hyperspace_rch1",
 		Type = SubSystem,
 	},
-	-- #43.0, carrier_builds.lua
+	-- #45.0, carrier_builds.lua
 	{
 		Description = "$7017",
 		DisplayPriority = 40,
@@ -489,7 +495,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_HyperspaceInhibitor_rch0",
 		Type = SubSystem,
 	},
-	-- #44.0, carrier_builds.lua
+	-- #46.0, carrier_builds.lua
 	{
 		Description = "$7017",
 		DisplayPriority = 40,
@@ -500,7 +506,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_HyperspaceInhibitor_rch1",
 		Type = SubSystem,
 	},
-	-- #45.0, carrier_builds.lua
+	-- #47.0, carrier_builds.lua
 	{
 		Description = "$7011",
 		DisplayPriority = 0,
@@ -511,7 +517,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_Research",
 		Type = SubSystem,
 	},
-	-- #46.0, carrier_builds.lua
+	-- #48.0, carrier_builds.lua
 	{
 		Description = "$7013",
 		DisplayPriority = 10,
@@ -522,7 +528,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_ResearchAdvanced",
 		Type = SubSystem,
 	},
-	-- #47.0, carrier_builds.lua
+	-- #49.0, carrier_builds.lua
 	{
 		Description = "$7023",
 		DisplayPriority = 151,
@@ -533,7 +539,7 @@ build =
 		ThingToBuild = "Hgn_C_Sensors_AdvancedArray",
 		Type = SubSystem,
 	},
-	-- #48.0, carrier_builds.lua
+	-- #50.0, carrier_builds.lua
 	{
 		Description = "$7025",
 		DisplayPriority = 152,
@@ -544,7 +550,7 @@ build =
 		ThingToBuild = "Hgn_C_Sensors_DetectCloaked",
 		Type = SubSystem,
 	},
-	-- #49.0, carrier_builds.lua
+	-- #51.0, carrier_builds.lua
 	{
 		Description = "$7037",
 		DisplayPriority = 150,
@@ -555,7 +561,7 @@ build =
 		ThingToBuild = "Hgn_C_Sensors_DetectHyperspace",
 		Type = SubSystem,
 	},
-	-- #50.0, corvette_builds.lua
+	-- #52.0, corvette_builds.lua
 	{
 		Description = "$7039",
 		DisplayPriority = 50,
@@ -566,7 +572,7 @@ build =
 		ThingToBuild = "Hgn_AssaultCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #51.0, corvette_builds.lua
+	-- #53.0, corvette_builds.lua
 	{
 		Description = "$7039",
 		DisplayPriority = 50,
@@ -577,7 +583,7 @@ build =
 		ThingToBuild = "Hgn_AssaultCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #52.0, corvette_builds.lua
+	-- #54.0, corvette_builds.lua
 	{
 		Description = "$7043",
 		DisplayPriority = 52,
@@ -588,7 +594,7 @@ build =
 		ThingToBuild = "Hgn_MinelayerCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #53.0, corvette_builds.lua
+	-- #55.0, corvette_builds.lua
 	{
 		Description = "$7043",
 		DisplayPriority = 52,
@@ -599,7 +605,7 @@ build =
 		ThingToBuild = "Hgn_MinelayerCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #54.0, corvette_builds.lua
+	-- #56.0, corvette_builds.lua
 	{
 		Description = "$7041",
 		DisplayPriority = 51,
@@ -610,7 +616,7 @@ build =
 		ThingToBuild = "Hgn_PulsarCorvette_hyp0",
 		Type = Ship,
 	},
-	-- #55.0, corvette_builds.lua
+	-- #57.0, corvette_builds.lua
 	{
 		Description = "$7041",
 		DisplayPriority = 51,
@@ -621,7 +627,7 @@ build =
 		ThingToBuild = "Hgn_PulsarCorvette_hyp1",
 		Type = Ship,
 	},
-	-- #56.0, fighter_builds.lua
+	-- #58.0, fighter_builds.lua
 	{
 		Description = "$7035",
 		DisplayPriority = 30,
@@ -632,7 +638,7 @@ build =
 		ThingToBuild = "Hgn_AttackBomber_hyp0",
 		Type = Ship,
 	},
-	-- #57.0, fighter_builds.lua
+	-- #59.0, fighter_builds.lua
 	{
 		Description = "$7035",
 		DisplayPriority = 30,
@@ -643,7 +649,7 @@ build =
 		ThingToBuild = "Hgn_AttackBomber_hyp1",
 		Type = Ship,
 	},
-	-- #58.0, fighter_builds.lua
+	-- #60.0, fighter_builds.lua
 	{
 		Description = "$7033",
 		DisplayPriority = 20,
@@ -654,7 +660,7 @@ build =
 		ThingToBuild = "Hgn_Interceptor_hyp0",
 		Type = Ship,
 	},
-	-- #59.0, fighter_builds.lua
+	-- #61.0, fighter_builds.lua
 	{
 		Description = "$7033",
 		DisplayPriority = 20,
@@ -665,45 +671,29 @@ build =
 		ThingToBuild = "Hgn_Interceptor_hyp1",
 		Type = Ship,
 	},
-	-- #60.0, fighter_builds.lua
+	-- #62.0, fighter_builds.lua
 	{
---		Description = "$7031",
---		DisplayPriority = 10,
---		DisplayedName = "$7030",
 		Description = "$7031",
-		DisplayPriority = 11,
-		DisplayedName = "Hgn_Scout_hyp0",
+		DisplayPriority = 10,
+		DisplayedName = "$7030",
 		RequiredFleetSubSystems = "",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Hgn_Scout_hyp0",
 		Type = Ship,
 	},
-	-- #61.0, fighter_builds.lua
+	-- #63.0, fighter_builds.lua
 	{
---		Description = "$7031",
---		DisplayPriority = 10,
---		DisplayedName = "$7030",
 		Description = "$7031",
-		DisplayPriority = 12,
-		DisplayedName = "Hgn_Scout_hyp1",
+		DisplayPriority = 10,
+		DisplayedName = "$7030",
 		RequiredFleetSubSystems = "",
 		RequiredResearch = "",
 		RequiredShipSubSystems = "",
 		ThingToBuild = "Hgn_Scout_hyp1",
 		Type = Ship,
 	},
-	-- test
-	{ 
-		Type =					Ship, 
-		ThingToBuild =			"Hgn_Scout",
-		RequiredResearch =		"",
-		RequiredShipSubSystems =	"",
-		DisplayPriority =		10,
-		DisplayedName =			"Hgn_Scout",
-		Description =			"$7031"
-	},
-	-- #62.0, frigate_builds.lua
+	-- #64.0, frigate_builds.lua
 	{
 		Description = "$7049",
 		DisplayPriority = 60,
@@ -714,7 +704,7 @@ build =
 		ThingToBuild = "Hgn_AssaultFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #63.0, frigate_builds.lua
+	-- #65.0, frigate_builds.lua
 	{
 		Description = "$7049",
 		DisplayPriority = 60,
@@ -725,7 +715,7 @@ build =
 		ThingToBuild = "Hgn_AssaultFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #64.0, frigate_builds.lua
+	-- #66.0, frigate_builds.lua
 	{
 		Description = "$7045",
 		DisplayPriority = 80,
@@ -736,7 +726,7 @@ build =
 		ThingToBuild = "Hgn_DefenseFieldFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #65.0, frigate_builds.lua
+	-- #67.0, frigate_builds.lua
 	{
 		Description = "$7045",
 		DisplayPriority = 80,
@@ -747,7 +737,7 @@ build =
 		ThingToBuild = "Hgn_DefenseFieldFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #66.0, frigate_builds.lua
+	-- #68.0, frigate_builds.lua
 	{
 		Description = "$7051",
 		DisplayPriority = 70,
@@ -758,7 +748,7 @@ build =
 		ThingToBuild = "Hgn_IonCannonFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #67.0, frigate_builds.lua
+	-- #69.0, frigate_builds.lua
 	{
 		Description = "$7051",
 		DisplayPriority = 70,
@@ -769,7 +759,7 @@ build =
 		ThingToBuild = "Hgn_IonCannonFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #68.0, frigate_builds.lua
+	-- #70.0, frigate_builds.lua
 	{
 		Description = "$7053",
 		DisplayPriority = 75,
@@ -780,7 +770,7 @@ build =
 		ThingToBuild = "Hgn_MarineFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #69.0, frigate_builds.lua
+	-- #71.0, frigate_builds.lua
 	{
 		Description = "$7053",
 		DisplayPriority = 75,
@@ -791,7 +781,7 @@ build =
 		ThingToBuild = "Hgn_MarineFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #70.0, frigate_builds.lua
+	-- #72.0, frigate_builds.lua
 	{
 		Description = "$7047",
 		DisplayPriority = 65,
@@ -802,7 +792,7 @@ build =
 		ThingToBuild = "Hgn_TorpedoFrigate_hyp0",
 		Type = Ship,
 	},
-	-- #71.0, frigate_builds.lua
+	-- #73.0, frigate_builds.lua
 	{
 		Description = "$7047",
 		DisplayPriority = 65,
@@ -813,7 +803,7 @@ build =
 		ThingToBuild = "Hgn_TorpedoFrigate_hyp1",
 		Type = Ship,
 	},
-	-- #72.0, mothership_builds.lua
+	-- #74.0, mothership_builds.lua
 	{
 		Description = "$7019",
 		DisplayPriority = 50,
@@ -824,7 +814,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_CloakGenerator_rch0",
 		Type = SubSystem,
 	},
-	-- #73.0, mothership_builds.lua
+	-- #75.0, mothership_builds.lua
 	{
 		Description = "$7019",
 		DisplayPriority = 50,
@@ -835,7 +825,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_CloakGenerator_rch1",
 		Type = SubSystem,
 	},
-	-- #74.0, mothership_builds.lua
+	-- #76.0, mothership_builds.lua
 	{
 		Description = "$7021",
 		DisplayPriority = 60,
@@ -846,7 +836,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_FireControl_rch0",
 		Type = SubSystem,
 	},
-	-- #75.0, mothership_builds.lua
+	-- #77.0, mothership_builds.lua
 	{
 		Description = "$7021",
 		DisplayPriority = 60,
@@ -857,7 +847,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_FireControl_rch1",
 		Type = SubSystem,
 	},
-	-- #76.0, mothership_builds.lua
+	-- #78.0, mothership_builds.lua
 	{
 		Description = "$7015",
 		DisplayPriority = 30,
@@ -868,7 +858,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_Hyperspace_rch0",
 		Type = SubSystem,
 	},
-	-- #77.0, mothership_builds.lua
+	-- #79.0, mothership_builds.lua
 	{
 		Description = "$7015",
 		DisplayPriority = 30,
@@ -879,7 +869,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_Hyperspace_rch1",
 		Type = SubSystem,
 	},
-	-- #78.0, mothership_builds.lua
+	-- #80.0, mothership_builds.lua
 	{
 		Description = "$7017",
 		DisplayPriority = 40,
@@ -890,7 +880,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_HyperspaceInhibitor_rch0",
 		Type = SubSystem,
 	},
-	-- #79.0, mothership_builds.lua
+	-- #81.0, mothership_builds.lua
 	{
 		Description = "$7017",
 		DisplayPriority = 40,
@@ -901,7 +891,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_HyperspaceInhibitor_rch1",
 		Type = SubSystem,
 	},
-	-- #80.0, mothership_builds.lua
+	-- #82.0, mothership_builds.lua
 	{
 		Description = "$7011",
 		DisplayPriority = 0,
@@ -912,7 +902,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_Research",
 		Type = SubSystem,
 	},
-	-- #81.0, mothership_builds.lua
+	-- #83.0, mothership_builds.lua
 	{
 		Description = "$7013",
 		DisplayPriority = 10,
@@ -923,7 +913,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_ResearchAdvanced",
 		Type = SubSystem,
 	},
-	-- #82.0, mothership_builds.lua
+	-- #84.0, mothership_builds.lua
 	{
 		Description = "$7023",
 		DisplayPriority = 151,
@@ -934,7 +924,7 @@ build =
 		ThingToBuild = "Hgn_MS_Sensors_AdvancedArray",
 		Type = SubSystem,
 	},
-	-- #83.0, mothership_builds.lua
+	-- #85.0, mothership_builds.lua
 	{
 		Description = "$7025",
 		DisplayPriority = 152,
@@ -945,7 +935,7 @@ build =
 		ThingToBuild = "Hgn_MS_Sensors_DetectCloaked",
 		Type = SubSystem,
 	},
-	-- #84.0, mothership_builds.lua
+	-- #86.0, mothership_builds.lua
 	{
 		Description = "$7037",
 		DisplayPriority = 150,
@@ -956,7 +946,7 @@ build =
 		ThingToBuild = "Hgn_MS_Sensors_DetectHyperspace",
 		Type = SubSystem,
 	},
-	-- #85.0, platform_builds.lua
+	-- #87.0, platform_builds.lua
 	{
 		Description = "$7063",
 		DisplayPriority = 141,
@@ -967,7 +957,7 @@ build =
 		ThingToBuild = "Hgn_GunTurret_hyp0",
 		Type = Ship,
 	},
-	-- #86.0, platform_builds.lua
+	-- #88.0, platform_builds.lua
 	{
 		Description = "$7063",
 		DisplayPriority = 141,
@@ -978,7 +968,7 @@ build =
 		ThingToBuild = "Hgn_GunTurret_hyp1",
 		Type = Ship,
 	},
-	-- #87.0, platform_builds.lua
+	-- #89.0, platform_builds.lua
 	{
 		Description = "$7065",
 		DisplayPriority = 142,
@@ -989,7 +979,7 @@ build =
 		ThingToBuild = "Hgn_IonTurret_hyp0",
 		Type = Ship,
 	},
-	-- #88.0, platform_builds.lua
+	-- #90.0, platform_builds.lua
 	{
 		Description = "$7065",
 		DisplayPriority = 142,
@@ -1000,7 +990,7 @@ build =
 		ThingToBuild = "Hgn_IonTurret_hyp1",
 		Type = Ship,
 	},
-	-- #89.0, production_builds.lua
+	-- #91.0, production_builds.lua
 	{
 		Description = "$7009",
 		DisplayPriority = 10,
@@ -1011,7 +1001,7 @@ build =
 		ThingToBuild = "Hgn_C_Module_PlatformControl",
 		Type = SubSystem,
 	},
-	-- #90.0, production_builds.lua
+	-- #92.0, production_builds.lua
 	{
 		Description = "$7003",
 		DisplayPriority = 0,
@@ -1022,7 +1012,7 @@ build =
 		ThingToBuild = "Hgn_C_Production_Corvette_rch0",
 		Type = SubSystem,
 	},
-	-- #91.0, production_builds.lua
+	-- #93.0, production_builds.lua
 	{
 		Description = "$7003",
 		DisplayPriority = 0,
@@ -1033,7 +1023,7 @@ build =
 		ThingToBuild = "Hgn_C_Production_Corvette_rch1",
 		Type = SubSystem,
 	},
-	-- #92.0, production_builds.lua
+	-- #94.0, production_builds.lua
 	{
 		Description = "$7001",
 		DisplayPriority = 0,
@@ -1044,7 +1034,7 @@ build =
 		ThingToBuild = "Hgn_C_Production_Fighter",
 		Type = SubSystem,
 	},
-	-- #93.0, production_builds.lua
+	-- #95.0, production_builds.lua
 	{
 		Description = "$7005",
 		DisplayPriority = 0,
@@ -1055,7 +1045,7 @@ build =
 		ThingToBuild = "Hgn_C_Production_Frigate_rch0",
 		Type = SubSystem,
 	},
-	-- #94.0, production_builds.lua
+	-- #96.0, production_builds.lua
 	{
 		Description = "$7005",
 		DisplayPriority = 0,
@@ -1066,7 +1056,7 @@ build =
 		ThingToBuild = "Hgn_C_Production_Frigate_rch1",
 		Type = SubSystem,
 	},
-	-- #95.0, production_builds.lua
+	-- #97.0, production_builds.lua
 	{
 		Description = "$7009",
 		DisplayPriority = 20,
@@ -1077,7 +1067,7 @@ build =
 		ThingToBuild = "Hgn_MS_Module_PlatformControl",
 		Type = SubSystem,
 	},
-	-- #96.0, production_builds.lua
+	-- #98.0, production_builds.lua
 	{
 		Description = "$7007",
 		DisplayPriority = 0,
@@ -1088,7 +1078,7 @@ build =
 		ThingToBuild = "Hgn_MS_Production_CapShip",
 		Type = SubSystem,
 	},
-	-- #97.0, production_builds.lua
+	-- #99.0, production_builds.lua
 	{
 		Description = "$7003",
 		DisplayPriority = 0,
@@ -1099,7 +1089,7 @@ build =
 		ThingToBuild = "Hgn_MS_Production_Corvette_rch0",
 		Type = SubSystem,
 	},
-	-- #98.0, production_builds.lua
+	-- #100.0, production_builds.lua
 	{
 		Description = "$7003",
 		DisplayPriority = 0,
@@ -1110,7 +1100,7 @@ build =
 		ThingToBuild = "Hgn_MS_Production_Corvette_rch1",
 		Type = SubSystem,
 	},
-	-- #99.0, production_builds.lua
+	-- #101.0, production_builds.lua
 	{
 		Description = "$7001",
 		DisplayPriority = 0,
@@ -1121,7 +1111,7 @@ build =
 		ThingToBuild = "Hgn_MS_Production_Fighter",
 		Type = SubSystem,
 	},
-	-- #100.0, production_builds.lua
+	-- #102.0, production_builds.lua
 	{
 		Description = "$7005",
 		DisplayPriority = 0,
@@ -1132,7 +1122,7 @@ build =
 		ThingToBuild = "Hgn_MS_Production_Frigate_rch0",
 		Type = SubSystem,
 	},
-	-- #101.0, production_builds.lua
+	-- #103.0, production_builds.lua
 	{
 		Description = "$7005",
 		DisplayPriority = 0,
@@ -1143,7 +1133,7 @@ build =
 		ThingToBuild = "Hgn_MS_Production_Frigate_rch1",
 		Type = SubSystem,
 	},
-	-- #102.0, production_builds.lua
+	-- #104.0, production_builds.lua
 	{
 		Description = "$7007",
 		DisplayPriority = 0,
@@ -1154,7 +1144,7 @@ build =
 		ThingToBuild = "Hgn_SY_Production_CapShip",
 		Type = SubSystem,
 	},
-	-- #103.0, singleplayer_builds.lua
+	-- #105.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1165,7 +1155,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #104.0, singleplayer_builds.lua
+	-- #106.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1176,7 +1166,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #105.0, singleplayer_builds.lua
+	-- #107.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1187,7 +1177,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #106.0, singleplayer_builds.lua
+	-- #108.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1198,7 +1188,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #107.0, singleplayer_builds.lua
+	-- #109.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1209,7 +1199,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #108.0, singleplayer_builds.lua
+	-- #110.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1220,7 +1210,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #109.0, singleplayer_builds.lua
+	-- #111.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1231,7 +1221,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #110.0, singleplayer_builds.lua
+	-- #112.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1242,7 +1232,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #111.0, singleplayer_builds.lua
+	-- #113.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1253,7 +1243,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #112.0, singleplayer_builds.lua
+	-- #114.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1264,7 +1254,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #113.0, singleplayer_builds.lua
+	-- #115.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1275,7 +1265,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #114.0, singleplayer_builds.lua
+	-- #116.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1286,7 +1276,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #115.0, singleplayer_builds.lua
+	-- #117.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1297,7 +1287,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #116.0, singleplayer_builds.lua
+	-- #118.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1308,7 +1298,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #117.0, singleplayer_builds.lua
+	-- #119.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1319,7 +1309,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car0_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #118.0, singleplayer_builds.lua
+	-- #120.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1330,7 +1320,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_Elohim_car1_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #119.0, singleplayer_builds.lua
+	-- #121.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1341,7 +1331,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #120.0, singleplayer_builds.lua
+	-- #122.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1352,7 +1342,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch0_res0_hyp0",
 		Type = Ship,
 	},
-	-- #121.0, singleplayer_builds.lua
+	-- #123.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1363,7 +1353,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #122.0, singleplayer_builds.lua
+	-- #124.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1374,7 +1364,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch0_res1_hyp0",
 		Type = Ship,
 	},
-	-- #123.0, singleplayer_builds.lua
+	-- #125.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1385,7 +1375,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #124.0, singleplayer_builds.lua
+	-- #126.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1396,7 +1386,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch0_res0_hyp1",
 		Type = Ship,
 	},
-	-- #125.0, singleplayer_builds.lua
+	-- #127.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1407,7 +1397,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #126.0, singleplayer_builds.lua
+	-- #128.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1418,7 +1408,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch0_res1_hyp1",
 		Type = Ship,
 	},
-	-- #127.0, singleplayer_builds.lua
+	-- #129.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1429,7 +1419,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #128.0, singleplayer_builds.lua
+	-- #130.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1440,7 +1430,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch1_res0_hyp0",
 		Type = Ship,
 	},
-	-- #129.0, singleplayer_builds.lua
+	-- #131.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1451,7 +1441,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #130.0, singleplayer_builds.lua
+	-- #132.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1462,7 +1452,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch1_res1_hyp0",
 		Type = Ship,
 	},
-	-- #131.0, singleplayer_builds.lua
+	-- #133.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1473,7 +1463,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #132.0, singleplayer_builds.lua
+	-- #134.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1484,7 +1474,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch1_res0_hyp1",
 		Type = Ship,
 	},
-	-- #133.0, singleplayer_builds.lua
+	-- #135.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1495,7 +1485,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car0_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #134.0, singleplayer_builds.lua
+	-- #136.0, singleplayer_builds.lua
 	{
 		Description = "$7059",
 		DisplayPriority = 117,
@@ -1506,7 +1496,7 @@ build =
 		ThingToBuild = "Hgn_Shipyard_SPG_car1_rch1_res1_hyp1",
 		Type = Ship,
 	},
-	-- #135.0, singleplayer_builds.lua
+	-- #137.0, singleplayer_builds.lua
 	{
 		Description = "$7914",
 		DisplayPriority = 53,
@@ -1517,7 +1507,7 @@ build =
 		ThingToBuild = "Kpr_Mover_hyp0",
 		Type = Ship,
 	},
-	-- #136.0, singleplayer_builds.lua
+	-- #138.0, singleplayer_builds.lua
 	{
 		Description = "$7914",
 		DisplayPriority = 53,
@@ -1528,7 +1518,7 @@ build =
 		ThingToBuild = "Kpr_Mover_hyp1",
 		Type = Ship,
 	},
-	-- #137.0, singleplayer_builds.lua
+	-- #139.0, singleplayer_builds.lua
 	{
 		Description = "$7911",
 		DisplayPriority = 10,
@@ -1539,7 +1529,7 @@ build =
 		ThingToBuild = "Hgn_MS_Production_CorvetteMover",
 		Type = SubSystem,
 	},
-	-- #138.0, utility_builds.lua
+	-- #140.0, utility_builds.lua
 	{
 		Description = "$7075",
 		DisplayPriority = 160,
@@ -1550,7 +1540,7 @@ build =
 		ThingToBuild = "Hgn_ECMProbe_hyp0",
 		Type = Ship,
 	},
-	-- #139.0, utility_builds.lua
+	-- #141.0, utility_builds.lua
 	{
 		Description = "$7075",
 		DisplayPriority = 160,
@@ -1561,7 +1551,7 @@ build =
 		ThingToBuild = "Hgn_ECMProbe_hyp1",
 		Type = Ship,
 	},
-	-- #140.0, utility_builds.lua
+	-- #142.0, utility_builds.lua
 	{
 		Description = "$7071",
 		DisplayPriority = 140,
@@ -1572,7 +1562,7 @@ build =
 		ThingToBuild = "Hgn_Probe_hyp0",
 		Type = Ship,
 	},
-	-- #141.0, utility_builds.lua
+	-- #143.0, utility_builds.lua
 	{
 		Description = "$7071",
 		DisplayPriority = 140,
@@ -1583,7 +1573,7 @@ build =
 		ThingToBuild = "Hgn_Probe_hyp1",
 		Type = Ship,
 	},
-	-- #142.0, utility_builds.lua
+	-- #144.0, utility_builds.lua
 	{
 		Description = "$7073",
 		DisplayPriority = 150,
@@ -1594,7 +1584,7 @@ build =
 		ThingToBuild = "Hgn_ProximitySensor_hyp0",
 		Type = Ship,
 	},
-	-- #143.0, utility_builds.lua
+	-- #145.0, utility_builds.lua
 	{
 		Description = "$7073",
 		DisplayPriority = 150,
@@ -1605,7 +1595,7 @@ build =
 		ThingToBuild = "Hgn_ProximitySensor_hyp1",
 		Type = Ship,
 	},
-	-- #144.0, utility_builds.lua
+	-- #146.0, utility_builds.lua
 	{
 		Description = "$7067",
 		DisplayPriority = 120,
@@ -1616,7 +1606,7 @@ build =
 		ThingToBuild = "Hgn_ResourceCollector_res0_hyp0",
 		Type = Ship,
 	},
-	-- #145.0, utility_builds.lua
+	-- #147.0, utility_builds.lua
 	{
 		Description = "$7067",
 		DisplayPriority = 120,
@@ -1627,7 +1617,7 @@ build =
 		ThingToBuild = "Hgn_ResourceCollector_res1_hyp0",
 		Type = Ship,
 	},
-	-- #146.0, utility_builds.lua
+	-- #148.0, utility_builds.lua
 	{
 		Description = "$7067",
 		DisplayPriority = 120,
@@ -1638,7 +1628,7 @@ build =
 		ThingToBuild = "Hgn_ResourceCollector_res0_hyp1",
 		Type = Ship,
 	},
-	-- #147.0, utility_builds.lua
+	-- #149.0, utility_builds.lua
 	{
 		Description = "$7067",
 		DisplayPriority = 120,
@@ -1649,7 +1639,7 @@ build =
 		ThingToBuild = "Hgn_ResourceCollector_res1_hyp1",
 		Type = Ship,
 	},
-	-- #148.0, utility_builds.lua
+	-- #150.0, utility_builds.lua
 	{
 		Description = "$7069",
 		DisplayPriority = 130,
@@ -1660,7 +1650,7 @@ build =
 		ThingToBuild = "Hgn_ResourceController_res0_hyp0",
 		Type = Ship,
 	},
-	-- #149.0, utility_builds.lua
+	-- #151.0, utility_builds.lua
 	{
 		Description = "$7069",
 		DisplayPriority = 130,
@@ -1671,7 +1661,7 @@ build =
 		ThingToBuild = "Hgn_ResourceController_res1_hyp0",
 		Type = Ship,
 	},
-	-- #150.0, utility_builds.lua
+	-- #152.0, utility_builds.lua
 	{
 		Description = "$7069",
 		DisplayPriority = 130,
@@ -1682,7 +1672,7 @@ build =
 		ThingToBuild = "Hgn_ResourceController_res0_hyp1",
 		Type = Ship,
 	},
-	-- #151.0, utility_builds.lua
+	-- #153.0, utility_builds.lua
 	{
 		Description = "$7069",
 		DisplayPriority = 130,

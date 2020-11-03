@@ -26,29 +26,44 @@ RacesListPrefix =
 	taiidan_hwce = "tai",
 }
 
-print("Need to update: ResourceControllersList")
 ResourceControllersList =
 {
 	hiigaran_hwce =
 	{
 		"Hgn_ResourceController",
+		"Hgn_ResourceController_res0_hyp0",
+		"Hgn_ResourceController_res0_hyp1",
+		"Hgn_ResourceController_res1_hyp0",
+		"Hgn_ResourceController_res1_hyp1",
 	},
 	vaygr_hwce =
 	{
 		"Vgr_ResourceController",
+		"Vgr_ResourceController_res0_hyp0",
+		"Vgr_ResourceController_res0_hyp1",
+		"Vgr_ResourceController_res1_hyp0",
+		"Vgr_ResourceController_res1_hyp1",
 	},
 	kushan_hwce =
 	{
 		"Kus_ResourceController",
+		"Kus_ResourceController_res0_hyp0",
+		"Kus_ResourceController_res0_hyp1",
+		"Kus_ResourceController_res1_hyp0",
+		"Kus_ResourceController_res1_hyp1",
 	},
 	taiidan_hwce =
 	{
 		"Tai_ResourceController",
+		"Tai_ResourceController_res0_hyp0",
+		"Tai_ResourceController_res0_hyp1",
+		"Tai_ResourceController_res1_hyp0",
+		"Tai_ResourceController_res1_hyp1",
 	},
 }
 
 -- these do not appear in the build scripts, so trying to grant or restrict them will result in an error
-print("Need to update: MothershipsList")
+-- should mothership research appear here too?
 MothershipsList =
 {
 	hiigaran_hwce =

@@ -2,7 +2,7 @@ function AI_trace(inString)
 	print(inString)
 end
 
-AI_trace("AI: DEFAULT CPU LOADED")
+AI_trace("AI: LOADING DEFAULT CPU")
 
 g_LOD = getLevelOfDifficulty()
 dofilepath("data:ai/default/classdef.lua")
@@ -18,6 +18,7 @@ dofilepath("data:scripts/rules/lib/objectlist_techvariants.lua")
 ModeSuffixTable = {}
 
 function oninit()
+	-- newissue: are these two lines needed? or are they here just for testing?
 	ModeSuffixTable = BuildSuffixTable()
 	AI_trace("SUFFIXES: car " .. ModeSuffixTable[1] .. "; rch " .. ModeSuffixTable[2] .. "; res " .. ModeSuffixTable[3] .. "; hyp " .. ModeSuffixTable[4])
 

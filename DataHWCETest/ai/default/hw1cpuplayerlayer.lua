@@ -3,7 +3,7 @@
 --  and otherwise make the CPU player behave like the HW1 CPU plahyer.
 --
 
-AI_trace("LOADING HW1 CPU Layer")
+AI_trace("AI: LOADING HW1 CPU LAYER")
 
 --
 -- Enable build control.  If off, CPU player can't build.

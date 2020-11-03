@@ -1,86 +1,88 @@
 ::Place the Python script and all "XXXXXX_base.lua" files into the "ship" directory.
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "hgn_battlecruiser" -hyp 0
-::python.exe "ObjectMultiplier.py" ship "hgn_battlecruiser" -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_carrier" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_mothership" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_elohim" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_shipyard_spg" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_battlecruiser" -rch 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_battlecruiser" -rch 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "hgn_battlecruiser" -rch 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "hgn_battlecruiser" -rch 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "hgn_destroyer" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "hgn_destroyer" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "hgn_assaultfrigate" -hyp 0
@@ -123,81 +125,83 @@
 ::python.exe "ObjectMultiplier.py" ship "hgn_proximitysensor" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "hgn_pulsarcorvette" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "hgn_pulsarcorvette" -hyp 1
-python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 0 -hyp 0
-python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 0 -hyp 1
-python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 1 -hyp 0
-python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 1 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 0 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 0 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 1 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "hgn_scout" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "hgn_scout" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "hgn_targetdrone" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "hgn_targetdrone" -hyp 1
 ::pause
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 0 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 0 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 1 -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 1 -hyp 1
-::python.exe "ObjectMultiplier.py" ship "vgr_battlecruiser" -hyp 0
-::python.exe "ObjectMultiplier.py" ship "vgr_battlecruiser" -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_carrier" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_mothership_makaan" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 0 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 0 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_shipyard" -car 1 -rch 1 -res 1 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_battlecruiser" -rch 0 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_battlecruiser" -rch 0 -hyp 1
+python.exe "ObjectMultiplier.py" ship "vgr_battlecruiser" -rch 1 -hyp 0
+python.exe "ObjectMultiplier.py" ship "vgr_battlecruiser" -rch 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "vgr_destroyer" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "vgr_destroyer" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "vgr_assaultfrigate" -hyp 0
@@ -232,10 +236,10 @@ python.exe "ObjectMultiplier.py" ship "hgn_resourcecollector" -res 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "vgr_probe_ecm" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "vgr_probe_prox" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "vgr_probe_prox" -hyp 1
-python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 0 -hyp 0
-python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 0 -hyp 1
-python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 1 -hyp 0
-python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 1 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 0 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 0 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 1 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "vgr_scout" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "vgr_scout" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "vgr_weaponplatform_gun" -hyp 0
@@ -299,10 +303,10 @@ python.exe "ObjectMultiplier.py" ship "vgr_resourcecollector" -res 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "kus_proximitysensor" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "kus_repaircorvette" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "kus_repaircorvette" -hyp 1
-python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 0 -hyp 0
-python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 0 -hyp 1
-python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 1 -hyp 0
-python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 1 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 0 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 0 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 1 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "kus_salvagecorvette" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "kus_salvagecorvette" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "kus_scout" -hyp 0
@@ -366,10 +370,10 @@ python.exe "ObjectMultiplier.py" ship "kus_resourcecollector" -res 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "tai_proximitysensor" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "tai_repaircorvette" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "tai_repaircorvette" -hyp 1
-python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 0 -hyp 0
-python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 0 -hyp 1
-python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 1 -hyp 0
-python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 1 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 0 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 0 -hyp 1
+::python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 1 -hyp 0
+::python.exe "ObjectMultiplier.py" ship "tai_resourcecollector" -res 1 -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "tai_salvagecorvette" -hyp 0
 ::python.exe "ObjectMultiplier.py" ship "tai_salvagecorvette" -hyp 1
 ::python.exe "ObjectMultiplier.py" ship "tai_scout" -hyp 0

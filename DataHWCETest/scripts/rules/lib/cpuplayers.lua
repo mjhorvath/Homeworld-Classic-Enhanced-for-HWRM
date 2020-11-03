@@ -5,11 +5,11 @@ function cpuplayers_updating()
 		if (Player_IsAlive(playerIndex) == 1) then
 			if (Player_HasShipWithBuildQueue(playerIndex) == 1) then
 				if (Player_GetLevelOfDifficulty(playerIndex) > 0) then
+					-- try Race_GetName here instead
 					local playerDiff = Player_GetLevelOfDifficulty(playerIndex)
 					local playerRace = Player_GetRace(playerIndex)
 					local raceIndex = RacesListIndex[playerRace]
 					local racePrefix = RacesListPrefix[raceIndex] .. "_"
-					print("cpuplayers_updating(): " .. playerRace .. "; " .. raceIndex .. "; " .. racePrefix)
 
 					--behaviour	
 					if (pass == 0) then
@@ -51,6 +51,8 @@ function cpuplayers_updating()
 							end	
 						end	
 						--prevents the AI to move
+						-- newissue: should not use ModeSuffixString here since it will fail for Kushan and Taiidan ships
+						-- newissue: need to build the suffix string separately for each race's ships
 						print("cpuplayers_updating(): ModeSuffixString is only correct for Hgn mothership and carrier currently. Need to fix.")
 						local mothership	= PlayerRace_GetString(playerIndex, "def_type_mothership",	racePrefix .. "mothership")	.. ModeSuffixString
 						local carrier		= PlayerRace_GetString(playerIndex, "def_type_carrier",		racePrefix .. "carrier")	.. ModeSuffixString

@@ -2,6 +2,7 @@
 -- level which game rules are active or inactive. Need to disable some game 
 -- rules when using the "start with = from map" mode such that the "default" 
 -- ship variants and settings are always selected.
+-- newissue: 
 -- Should I revert back to using strings versus the small binary tables?
 -- For the AI, VariantResearchBool and VariantResearchInt could be merged.
 -- For gamerules, VariantResearchBool and TechList could be merged.
@@ -31,8 +32,8 @@ VariantResearchBool =
 	hgn_weapondamageupgrade150 = {0,0,0,0},
 	hgn_weapondamageupgrade175 = {0,0,0,0},
 	hgn_weapondamageupgrade200 = {0,0,0,0},
-	hgn_battlecruiserhealthupgrade1 = {0,0,0,1},
-	hgn_battlecruisermaxspeedupgrade1 = {0,0,0,1},
+	hgn_battlecruiserhealthupgrade1 = {0,1,0,1},
+	hgn_battlecruisermaxspeedupgrade1 = {0,1,0,1},
 	hgn_carrierbuildspeedupgrade1 = {1,1,1,1},
 	hgn_carrierhealthupgrade1 = {1,1,1,1},
 	hgn_carriermaxspeedupgrade1 = {1,1,1,1},
@@ -40,7 +41,7 @@ VariantResearchBool =
 	hgn_pulsarcorvettehealthupgrade1 = {0,0,0,1},
 	hgn_assaultcorvettemaxspeedupgrade1 = {0,0,0,1},
 	hgn_pulsarcorvettemaxspeedupgrade1 = {0,0,0,1},
-	hgn_battlecruiserionweapons = {0,0,0,1},
+	hgn_battlecruiserionweapons = {0,1,0,1},
 	hgn_destroyertech = {0,0,0,1},
 	hgn_ecmprobe = {0,0,0,1},
 	hgn_graviticattractionmines = {0,0,0,1},
@@ -137,7 +138,7 @@ VariantResearchBool =
 	vgr_shipyardbuildspeedupgrade1 = {1,1,1,1},
 	vgr_corvettehealthupgrade1 = {0,0,0,0},
 	vgr_corvettespeedupgrade1 = {0,0,0,0},
-	vgr_battlecruiserionweapons = {0,0,0,1},
+	vgr_battlecruiserionweapons = {0,1,0,1},
 	vgr_corvettecommand = {0,0,0,1},
 	vgr_corvettegraviticattraction = {0,0,0,1},
 	vgr_corvettelaser = {0,0,0,1},
@@ -166,7 +167,7 @@ VariantResearchBool =
 	vgr_extrastrongvgrheavymissilesspgame = {0,0,0,1},
 	vgr_hyperspacerecoverytimeupgradespgame = {0,0,0,0},
 	vgr_hyperspacetransitiontimeupgradespgame = {0,0,0,0},
-	vgr_makaanbattlecruiserhealth = {0,0,0,1},
+	vgr_makaanbattlecruiserhealth = {0,1,0,1},
 	vgr_makaancarrierhealth = {1,1,1,1},
 	vgr_makaancorvettehealth = {0,0,0,0},
 	vgr_makaandestroyerhealth = {0,0,0,1},
@@ -277,7 +278,7 @@ VariantResearchBool =
 
 VariantBuildBool =
 {
-	hgn_battlecruiser = {0,0,0,1},
+	hgn_battlecruiser = {0,1,0,1},
 	hgn_destroyer = {0,0,0,1},
 	hgn_carrier = {1,1,1,1},
 	hgn_shipyard = {1,1,1,1},
@@ -332,7 +333,7 @@ VariantBuildBool =
 	hgn_proximitysensor = {0,0,0,1},
 	hgn_resourcecollector = {0,0,1,1},
 	hgn_resourcecontroller = {0,0,1,1},
-	vgr_battlecruiser = {0,0,0,1},
+	vgr_battlecruiser = {0,1,0,1},
 	vgr_carrier = {1,1,1,1},
 	vgr_destroyer = {0,0,0,1},
 	vgr_shipyard = {1,1,1,1},
@@ -574,13 +575,17 @@ VariantResearchInt =
 	},
 	hgn_battlecruiserhealthupgrade1 =
 	{
-		HGN_BATTLECRUISERHEALTHUPGRADE1_HYP0,
-		HGN_BATTLECRUISERHEALTHUPGRADE1_HYP1,
+		HGN_BATTLECRUISERHEALTHUPGRADE1_rch0_HYP0,
+		HGN_BATTLECRUISERHEALTHUPGRADE1_rch0_HYP1,
+		HGN_BATTLECRUISERHEALTHUPGRADE1_rch1_HYP0,
+		HGN_BATTLECRUISERHEALTHUPGRADE1_rch1_HYP1,
 	},
 	hgn_battlecruisermaxspeedupgrade1 =
 	{
-		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_HYP0,
-		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_HYP1,
+		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_RCH0_HYP0,
+		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_RCH0_HYP1,
+		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_RCH1_HYP0,
+		HGN_BATTLECRUISERMAXSPEEDUPGRADE1_RCH1_HYP1,
 	},
 	hgn_carrierbuildspeedupgrade1 =
 	{
@@ -661,8 +666,10 @@ VariantResearchInt =
 	},
 	hgn_battlecruiserionweapons =
 	{
-		HGN_BATTLECRUISERIONWEAPONS_HYP0,
-		HGN_BATTLECRUISERIONWEAPONS_HYP1,
+		HGN_BATTLECRUISERIONWEAPONS_RCH0_HYP0,
+		HGN_BATTLECRUISERIONWEAPONS_RCH0_HYP1,
+		HGN_BATTLECRUISERIONWEAPONS_RCH1_HYP0,
+		HGN_BATTLECRUISERIONWEAPONS_RCH1_HYP1,
 	},
 	hgn_destroyertech =
 	{
@@ -1912,8 +1919,10 @@ VariantResearchInt =
 	},
 	vgr_battlecruiserionweapons =
 	{
-		VGR_BATTLECRUISERIONWEAPONS_HYP0,
-		VGR_BATTLECRUISERIONWEAPONS_HYP1,
+		VGR_BATTLECRUISERIONWEAPONS_RCH0_HYP0,
+		VGR_BATTLECRUISERIONWEAPONS_RCH0_HYP1,
+		VGR_BATTLECRUISERIONWEAPONS_RCH1_HYP0,
+		VGR_BATTLECRUISERIONWEAPONS_RCH1_HYP1,
 	},
 	vgr_corvettecommand =
 	{
@@ -2102,8 +2111,10 @@ VariantResearchInt =
 	},
 	vgr_makaanbattlecruiserhealth =
 	{
-		VGR_MAKAANBATTLECRUISERHEALTH_HYP0,
-		VGR_MAKAANBATTLECRUISERHEALTH_HYP1,
+		VGR_MAKAANBATTLECRUISERHEALTH_RCH0_HYP0,
+		VGR_MAKAANBATTLECRUISERHEALTH_RCH0_HYP1,
+		VGR_MAKAANBATTLECRUISERHEALTH_RCH1_HYP0,
+		VGR_MAKAANBATTLECRUISERHEALTH_RCH1_HYP1,
 	},
 	vgr_makaancarrierhealth =
 	{
@@ -2280,8 +2291,10 @@ VariantBuildInt =
 {
 	hgn_battlecruiser =
 	{
-		HGN_BATTLECRUISER_HYP0,
-		HGN_BATTLECRUISER_HYP1,
+		HGN_BATTLECRUISER_RCH0_HYP0,
+		HGN_BATTLECRUISER_RCH1_HYP0,
+		HGN_BATTLECRUISER_RCH0_HYP1,
+		HGN_BATTLECRUISER_RCH1_HYP1,
 	},
 	hgn_destroyer =
 	{
@@ -3001,8 +3014,10 @@ VariantBuildInt =
 	},
 	vgr_battlecruiser =
 	{
-		VGR_BATTLECRUISER_HYP0,
-		VGR_BATTLECRUISER_HYP1,
+		VGR_BATTLECRUISER_RCH0_HYP0,
+		VGR_BATTLECRUISER_RCH1_HYP0,
+		VGR_BATTLECRUISER_RCH0_HYP1,
+		VGR_BATTLECRUISER_RCH1_HYP1,
 	},
 	vgr_carrier =
 	{

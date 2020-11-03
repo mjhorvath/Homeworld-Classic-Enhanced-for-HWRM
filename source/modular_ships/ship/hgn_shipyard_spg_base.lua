@@ -1,7 +1,12 @@
 if hypBool == 1 then
 	hyperdetectModule = "Hgn_MS_Sensors_DetectHyperspace"
-	hyperspaceModule = "Hgn_MS_Module_Hyperspace"
-	hyperinhibitModule = "Hgn_MS_Module_HyperspaceInhibitor"
+	if rchBool == 1 then
+		hyperspaceModule = "Hgn_MS_Module_Hyperspace_rch1"
+		hyperinhibitModule = "Hgn_MS_Module_HyperspaceInhibitor_rch1"
+	else
+		hyperspaceModule = "Hgn_MS_Module_Hyperspace_rch0"
+		hyperinhibitModule = "Hgn_MS_Module_HyperspaceInhibitor_rch0"
+	end
 else
 	hyperdetectModule = ""
 	hyperspaceModule = ""
@@ -17,15 +22,23 @@ end
 if rchBool == 1 then
 	researchModule = "Hgn_MS_Module_Research"
 	advancedresearchModule = "Hgn_MS_Module_ResearchAdvanced"
+	corvetteprodModule = "hgn_ms_production_corvette_rch1"
+	frigateprodModule = "hgn_ms_production_frigate_rch1"
+	firecontrolModule = "Hgn_MS_Module_FireControl_rch1"
+	cloakgenModule = "Hgn_MS_Module_CloakGenerator_rch1"
 else
 	researchModule = ""
 	advancedresearchModule = ""
+	corvetteprodModule = "hgn_ms_production_corvette_rch0"
+	frigateprodModule = "hgn_ms_production_frigate_rch0"
+	firecontrolModule = "Hgn_MS_Module_FireControl_rch0"
+	cloakgenModule = "Hgn_MS_Module_CloakGenerator_rch0"
 end
 if carBool == 0 then
-	capshipbuildModule = "Hgn_SY_Production_CapShip"
+	capshipprodModule = "Hgn_SY_Production_CapShip"
 else
 	advancedresearchModule = ""
-	capshipbuildModule = ""
+	capshipprodModule = ""
 end
 
 NewShipType = StartShipConfig()
@@ -187,15 +200,15 @@ StartShipWeaponConfig(NewShipType,"Hgn_MSHullDefenseGunSide","Weapon_HullDefense
 StartShipWeaponConfig(NewShipType,"Hgn_MSHullDefenseGunSide","Weapon_HullDefense12","Weapon_HullDefense12");
 addShield(NewShipType,"EMP",10000,20);
 StartShipHardPointConfig(NewShipType,"Production 1","HardpointProduction1","System","Production","Destroyable","","Hgn_MS_Production_Fighter","","","","","","","");
-StartShipHardPointConfig(NewShipType,"Production 2","HardpointProduction2","System","Production","Destroyable","","Hgn_MS_Production_Corvette","","","","","","","");
-StartShipHardPointConfig(NewShipType,"Production 3","HardpointProduction3","System","Production","Destroyable","","Hgn_MS_Production_Frigate","Hgn_MS_Production_FrigateAdvanced","","","","","","");
-StartShipHardPointConfig(NewShipType,"Production 4","HardpointProduction4","System","Production","Destroyable","","Hgn_SY_Production_CapShip","","","","","","","");
-StartShipHardPointConfig(NewShipType,"Generic 1","HardpointGeneric1","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl","Hgn_MS_Module_CloakGenerator",hyperinhibitModule,"Hgn_MS_Module_FireControl",advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
-StartShipHardPointConfig(NewShipType,"Generic 2","HardpointGeneric2","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl","Hgn_MS_Module_CloakGenerator",hyperinhibitModule,"Hgn_MS_Module_FireControl",advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
-StartShipHardPointConfig(NewShipType,"Generic 3","HardpointGeneric3","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl","Hgn_MS_Module_CloakGenerator",hyperinhibitModule,"Hgn_MS_Module_FireControl",advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
-StartShipHardPointConfig(NewShipType,"Generic 4","HardpointGeneric4","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl","Hgn_MS_Module_CloakGenerator",hyperinhibitModule,"Hgn_MS_Module_FireControl",advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
-StartShipHardPointConfig(NewShipType,"Generic 5","HardpointGeneric5","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl","Hgn_MS_Module_CloakGenerator",hyperinhibitModule,"Hgn_MS_Module_FireControl",advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
-StartShipHardPointConfig(NewShipType,"Generic 6","HardpointGeneric6","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl","Hgn_MS_Module_CloakGenerator",hyperinhibitModule,"Hgn_MS_Module_FireControl",advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
+StartShipHardPointConfig(NewShipType,"Production 2","HardpointProduction2","System","Production","Destroyable","",corvetteprodModule,"","","","","","","");
+StartShipHardPointConfig(NewShipType,"Production 3","HardpointProduction3","System","Production","Destroyable","",frigateprodModule,"Hgn_MS_Production_FrigateAdvanced","","","","","","");
+StartShipHardPointConfig(NewShipType,"Production 4","HardpointProduction4","System","Production","Destroyable","",capshipprodModule,"","","","","","","");
+StartShipHardPointConfig(NewShipType,"Generic 1","HardpointGeneric1","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl",cloakgenModule,hyperinhibitModule,firecontrolModule,advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
+StartShipHardPointConfig(NewShipType,"Generic 2","HardpointGeneric2","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl",cloakgenModule,hyperinhibitModule,firecontrolModule,advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
+StartShipHardPointConfig(NewShipType,"Generic 3","HardpointGeneric3","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl",cloakgenModule,hyperinhibitModule,firecontrolModule,advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
+StartShipHardPointConfig(NewShipType,"Generic 4","HardpointGeneric4","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl",cloakgenModule,hyperinhibitModule,firecontrolModule,advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
+StartShipHardPointConfig(NewShipType,"Generic 5","HardpointGeneric5","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl",cloakgenModule,hyperinhibitModule,firecontrolModule,advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
+StartShipHardPointConfig(NewShipType,"Generic 6","HardpointGeneric6","System","Generic","Destroyable","",researchModule,hyperspaceModule,"Hgn_MS_Module_PlatformControl",cloakgenModule,hyperinhibitModule,firecontrolModule,advancedresearchModule,"Hgn_MS_Module_BuildSpeed");
 StartShipHardPointConfig(NewShipType,"Sensors 1","HardpointSensors1","System","Sensors","Destroyable","",hyperdetectModule,"Hgn_MS_Sensors_AdvancedArray","Hgn_MS_Sensors_DetectCloaked","","","","","");
 StartShipHardPointConfig(NewShipType,"Engine","Hardpoint_Engine","System","Innate","Damageable","Hgn_SY_Innate_Engine","","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Resource","Hardpoint_Resource","System","Innate","Damageable",resourceModule,"","","","","","","","");

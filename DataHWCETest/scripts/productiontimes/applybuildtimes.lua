@@ -1,6 +1,7 @@
 -- Add the build times to each build option
 doscanpath("data:ui", "playerspatch_ui_util.lua")
 print("GetProductionTimeSetting() == " .. GetProductionTimeSetting())
+-- newissue: not working
 if GetProductionTimeSetting() == 2 then --English
 	doscanpath("data:Scripts/Productiontimes", "buildtimes.lua")
 	doscanpath("data:Scripts/Productiontimes", "LocaleEnglish.lua")

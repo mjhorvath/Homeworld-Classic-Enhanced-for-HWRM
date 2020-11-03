@@ -1,4 +1,4 @@
-AI_trace("LOADING CPU RESEARCH")
+AI_trace("AI: LOADING CPU RESEARCH")
 
 function Util_CheckResearch( researchId )
 	if (IsResearchDone(researchId) == 0 and 

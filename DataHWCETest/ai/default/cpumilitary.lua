@@ -1,4 +1,4 @@
-AI_trace("LOADING CPU MILITARY")
+AI_trace("AI: LOADING CPU MILITARY")
 
 function CpuMilitary_Init()
 	cp_attackPercent = 100
